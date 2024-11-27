@@ -1,0 +1,1743 @@
+ \INMR01      &      CBTMODS      AMDAHL      TO      CBT      20140503122458
+        , INMR02          IEBCOPY        !                                  "8
+    {                ZZ  CMDLIB     -  PDSEDIT  PDSEDIT$ \INMR02          INMCOP
+Y        !                 "4                   \INMR03        !
+&         {  _   "8  {           "8    Vs           #   {       B
+    &&3         /   A&3         s   !
+ 
+ 
+                                                   PDSEDIT  l   l       S  } 0
+ h     PDSEDIT$
+ 
+ 
+            8       0                PDSEDIT        YCNVSYSIN   Y    PRPDS
+     CERROR     &   YBPDSTBL    0   YBFCTBL     Q   0GETKYWD    H    GETVAL
+     GETINFO        =SELMBR    |    0PRMBR           ENDPSUM   !     PERROR    *
+     GETLINE     )                        -WRTMBR         yUPDTMBR         DPRIN
+T    _     CHGLINE         INSLINES  -    {DELLINES  /}   u
+ 
+ 
+ 
+                   566529508   e                d               5741SC103   a
+  5741SC103   a     5741SC103   a ^   5741SCt 103   a     5741SC103   a     5741
+SC103   a ^   5741SC103   a         5741SC103   a ^   5741SC103   a         5741
+SC103   a ^                           0   Y                 0 00 PDSEDIT  (C) CO
+PYRIGHT AMDAHL CORPORATION,1979  ALL RIGHTS RESERVED   }   &}Au  A & }     {
+     B j     {@K B B  0A:  {    Y   0{     A4h     < B & A4  A0  & A8         0{
+    Y  {H   0   8     0{       & A     & B     & B &0B     A*    {8   d    Bdj
+   A K B B   A & B  0A       A                8         0A       & B  0B  }A &0B
+ N B B   A   A        d    A4  A0         0B  }Au    q }   N   B   A K   B
+                                                                            4
+                                    d
+         m  USYSPRINT   &
+                         m  USYSOUT     &
+     e    00    CNVSYSIN   }   &}{   {Y& }           & A         & A         & A
+     {&   &    A j     {dk H    0{%   &  {      0{   K A A\ 0{K 0{    0  {m
+0{h  j{AH  {    0{    Q  {      0{y  j\AH  {HK A A   {}   &   0A   A  }{ q }  \}
+ 
+ 
+             SYSIN     &
+                        :"
+ 
+ 
+ 
+ 
+ 
+ 
+                  B  1      SYSIN INPUT TO PDSEDIT
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                         F        FIND     C        CHANGE   I
+      INS      INSERT   D        DEL      DELETE   P  DS      IN       OUT
+FIELD    S        SEL      SELECT   E        EXCL     EXCLUDE  TO       BEF
+ BEFORE   AFT      AFTER    NOCOPY   BROWSE              PDE0000  UNABLE TO OPEN
+ SYSIN - PROCESSING TERMINATED                                     +           *
+**** ERROR *****     PDE0002
+                                           ***** ERROR *****     PDE0004  UNEXPE
+CTED EOF ENCOUNTERED ON SYSIN
+     ***** ERROR *****     PDE0006  NO INPUT PDS SUPPLIED
+                                                 ***** ERROR *****     PDE0008
+INSUFFICIENT STORAGE TO COMPLETE INTERNAL TABLES
+           ***** ERROR *****     PDE0010  NO PDS STATEMENTS - DEFAULTS WILL BE U
+SED                                                    ***** NOTE  *****     PDE
+0012  'SELECT' AND 'EXCLUDE' MUTUALLY EXCLUSIVE
+                 ***** ERROR *****     PDE0014  'BEFORE' AND 'AFTER' MUTUALLY EX
+CLUSIVE                                                      ***** ERROR *****
+   PDE0016  N AND 'TO' MUTUALLY EXCLUSIVE
+                       ***** ERROR *****     PDE0018  ONLY 1 INSERT-BEFORE, 1 IN
+SERT-AFTER, AND 1 DELETE PER FIND/CHANGE                           ***** ERROR *
+****     PDE0020  KEYWORD   'XXXXXXXX' INVALID OR UNKNOWN
+                             ***** ERROR *****     PDE0022  VALUE FOR 'XXXXXXXX'
+ MISSING                                                                 ***** E
+RROR *****     PDE0024  VALUE FOR 'XXXXXXXX' INVALID
+                                   ***** ERROR *****     PDE0026  VALUE FOR 'XXX
+XXXXX' WAS PREVIOUSLY SUPPLIED                                                 *
+**** ERROR *****     PDE0028  VALUE FOR 'XXXXXXXX' IS MISSING ')'
+                                         ***** ERROR *****     PDE0030  KEYWORD
+  'XXXXXXXX' PRECEDES FIRST 'PDS'
+   ***** E  RROR *****     PDE0032  KEYWORD   'XXXXXXXX' HAS INVALID STRING LENG
+TH                                             ***** ERROR *****     PDE0034  FI
+ELD FOR 'XXXXXXXX' INVALID
+         ***** ERROR ****  *     PDE0036  FIELD FOR 'XXXXXXXX' MISSING
+                                                     ***** ERROR *****     PDE00
+38  FIELD FOR 'XXXXXXXX' MISSING ')'
+               ***** ERROR *****     PDE1 0040  KEYWORD   'XXXXXXXX' PRECEDES FI
+RST FIND/CHANGE                                            ***** ERROR *****
+ PDE0042  KEYWORD   'XXXXXXXX' INCOMPATIBLE WITH 'DELETE'
+                     ***** ERROR *****                            0   Y       /
+      d       {   E   5                           /                   z   V
+                              r               4       &                   Y
+      Y 00  BPDSTBL  }   &}A<  A & }           & A K       k      0{    H  {
+  0{   j  j  {Wn    }{Wn     {> \Am 0{ n     {= \D  0{ n     {  \E  0{ n     {
+\G  0{ n     {  \I  0{ n     {  \I  0{ k      0{    &  {M     0{H  j{    {W 0{ j
+  j  A j     A k      0A    &  A      0A   j{    A  \Amj\    A N         A  \B K
+      }A<q }  0
+                 } &}Bd  B & }     A         A{    &    0B N       A k      0AQ
+  &  A\     0AM   0B N       A K         n     B           B k      0B    &  B
+    0B      0B K       &    s          B|k    0B    &  B-     0B    0B &   K   B
+H }Bdq }
+                             } &}C*  C & }     A     K   C K   Cy  C         C j
+     C K   C   C         k      0C    &  C      0C   K      }C*q }
+                                                               SYSUT1  SYSUT2
+                                       SYSUT2
+                 } &}DY  DU& }     A           D+k    0D    &  D      0D    0D k
+      0D*      D      0D   j     D j     D     n     D     N       D k    0D
+&  Dy     0D    0D K     j     D k    0D    &  DM     0DH   }DYq }
+                                                                 } &}G   G@& }
+   A         E|k    0E    &  E-     0E    0G k      0E       E      0E   j     G
+ j     F N   BQ  E k    0E    &  E      0Ey   0F         GO  E k    0EQ   &  E\
+    0EM   0F   G}| GH   m  F k      0F    &  F      0F    0F        }F k      0F
+    &  F      0F    0F     j     F>k      0F*   &  F      0F    0G+k      0F@
+   Fd     0F   j     G+j     G+N   B   FBk    0F    &  F      0F    0G+        G
+O  F k    0F    &  FU     0FQ   0G+  G}| GH          G k      0G    &  G      0G
+      0G+     }G[k      0G    &  G      0G    0G+    j     G k      0G    &  G%
+    0G-   }G q }
+                       2 GH          } &}H8  H4& }     A         H k    0H    &
+ H      0H    0H   m   k      0H       H      0H   j     H n     H&K    (N    (
+ H:k      0H    &  H      0H   o   j     H               H k      0H    &  Hy
+  0H    0H K     &   j     H k    0H}      HQ     0H   j     H  0H: }H8q }
+                                                                         } &}Iu
+ I & }     A         I:k    0I    &  I      0I    0Ion     I o    0Ion     Ioo
+  }Iuq }
+                                          A     9       (   9
+n   A   (   _   ~                       v   J                       )   n   E
+)                   0   D                               q   D   4
+H           &   4                                   Q   -
+      0           Y             - 00  BFCTBL   }   &}{   {Q& }           & A k A
+ n     { o A n     {< \A  0{ n     {* \GQ 0{ k    0{    &  {    8 0{   j{    {wk
+      0{    H  {m   8 0{h  j  j  {w 0{         {H        &   j A   {H \ + }{ q }
+  0
+           } &}C   C%& }     A         A     &    0A!    &             Afk
+0A    &  A@   8 0A    0C-P         K    (k         &   k    0A    H  A    8 0A
+ j  j  AWk      0AM   &  A    8 0A}   0C-    n(      B  \C{k      0B    H  B
+8 0B   j  j  B k      0B    &  B    8 0B    0C-    K         &   m    \F j     C
+-j     B         B k      0B@   &  Bd   8 0B   K     K           [&   &    BFk
+  0B    &  B    8 0B    0C- ^          C      &   &     &C   B p               B
+SnC (  C- \F j     C-j     C-K     K           [&   &    C k    0C    &  C    8
+0C    0C- ^          C  }C q }
+                           K             } &}E   Ey& }     A             &   k
+      0C4      C    8 0C0  j     E j     D         E   D k    0D    &  D    8 0D
+    0D   E8| E0   m  D>k      0D*   &  D    8 0D    0D      }Dok      0Dd   &  D
+    8 0D    0D     j     DBk      0D    &  D    8 0D    0E:k      0D}      DQ
+8 0D   j     E  :j     E:        E   E k    0E    &  E    8 0E    0E:  E8| E0
+       E+k      0E    &  E    8 0E    0E:     }E k      0E    &  E%   8 0E-   0E
+:    j     E k      0E    &  Eq   8 0E    }E q }
+                                                     2 E0          } &}F4  F0& }
+     A       G     P              D         &     s    F%       $ 0    K   G  \G
+f   $        G   F:   s          &  -    F     F     G        M  F  0F     &
+&   }F k      0FH   &  F}   8 0FD   0FU         &   }F4q }
+                                                             K &   CONTINUATION
+OF STRING        o  jk      0G    &  G@   8 0G    0FU&\GM9  Q    G            0
+   k0 !8  Q           ! 0       Q  k  !K      \GM        }   &}I   I & }     A m
+           H k    0H    &  H    8 0H   K    (K     K    Dn     H      0H     &
+     &   k    0H    H  H*   8 0H&  j  j  H k      0H    &  H    8 0H    0Iy
+  M  I+k      0Hu   H  H    8 0H   j  j  H k      0HH   &  H}   8 0HD   0I  yn
+   H  \ > 0I n     I n     I  \ D 0I                   I     I   I  \   0I k
+0I    &  I    8 0I   j     Iy 0H K  (  j     I     N    m  I k      0I    &  I
+  8 0I   o   nI (  Io \ MjA    Iy    K      }I q }
+                                                    (                         AF
+T  BEF BEF/AFT N       LINE TO INSERT                DELIMITER
+     } &}     @& }     A nD     wk    0 q   &       8 0 m  k      0
+8 0    j<     +N    q     2k    0 \   &   Y   8 0     0 +N    D    k    0     &
+      8 0     0 +N         k    0     &       8 0     0 +K     K     j       k
+    0     &   %   8 0 -   }  q }
+                             } &}      + & }     A n       N         k    0 8
+&       8 0 4   0  K             &     nD      k    0     &       8 0     0
+     &    0  N        :k    0     &       8 0     0  K      }  q }
+                                                                 } &} Q   M& }
+   A j  j    k      0     &       8 0     0
+  &       ;k      0 <   &       8 0     0         $ 0    N    $    K      0 fK
+  & \GfN    $    j      wK|   $   &     0      j        |   &   |&      } Qq }
+                                                                           o  jk
+    0     &       8 0     0    } &}     8& }     A N         N         K  (  k
+    0 @   &   d   8 0     0  N    D    k    0 u   &       8 0     0      |
+  }  K  (  k    0 Q   &   \   8 0 M   0       }  q }
+                                                         2    (  } &}     y& }
+   A             o       n      oN        k     0       z 0   }  q }
+                                                                  00  GETKYWD  }
+   &}D   D & }             & D&      D             {    s   s    { n     {
+  $ 0     \C    $        {0  {d     0{    s 0{    M  {UN   D   {U       ~    {F
+      $ 0     \C    $    N   D   {       {F 0{s     0{ &   &    0A6    {6
+ 
+ 
+ 
+           n     Cwn     Cw   s      B   B        0B    s    &    0C     B
+ 
+ 
+ 
+             n     Cwk   K  (                C;  C          }C K  (   0C     C
+   N    (  CoN       Co     0C:K      0CwK  (   }D q }  0    &\C 9  Q    C
+      0    k0 !8  Q           ! 0       Q  k  ! \C       o  j 0Cw
+                                                               /**/ 00  GETVAL
+ }   &}AY  AU& }           & B m1  n     {       &   K      0{&   H  {    < 0{<
+ j  j  {fk      0{    &  {@   < 0{    0AO    n(    { k      0{    &  {y   < 0{
+  0AO    &     k      0{H   H  {}   < 0{D  j  j  { k      0{    &  {4   < 0{Y
+0AO      n)    A &           A k      0A    &  A    < 0A    0A@     }A k      0A
+&   &  A    < 0A<   0A@&   K         A  0A@K     k    0Ah   H  A    < 0Ad  j  j
+ A k      0A    &  A    < 0  Ay   0AO    n)    AOo       &    }AYq }  0
+                                                                        00  CERR
+OR   }   &}{   { & }           & {U      <       O     n    }{+K    (9  Q    {
+          0    k0  8  Q             0         Q  k    }{ q }  0
+ 
+                      V           a   v               j   ]   V           N
+                      a                   y       &   h                   d
+                          <           <   %                               
+        j                       U       8               /       [   V
+_   v       J                               M           &               -   d
+Q               H   u   h           r   E           (       [   J       %   U
+u                         %   H                     8 00  PRPDS  }   &}A   A & }
+           & A         & Am        & Aq        & A         & A         & Au    &
+ Ad  AU  AV   0{       {h   { 0{@  j AU  {    0{   |   {y   { 0{   j AU  { j AV
+ {    0{H      {}   { 0{D   0{o    {            Q       0{8  !   A    { 0{4  j A
+U  A K AdE  0A j AU  A K AdE  0Ad  A  }A q }  \}
+                                                  D
+ 
+                         X         &
+                                         X
+                                                 X
+                   g
+ 
+ 
+ 
+ 
+                                                                        <
+ 
+                        & :       < %
+                                     *******************************************
+*                                                                      1PDSEDIT
+SUMMARY REPORT
+                                  INPUT PDS=
+             OUTPUT PDS=                                                     ON
+VOLUME                                                   ON VOLUME
+                                    0MEMBER                   FINDS           CH
+ANGES         INSERTS         DELETES
+        ERRORS******1PDSEDIT DETAIL REPORT
+                                                             0DETAIL REPORT FOR
+MEMBER
+                        0SUMMARY OF RESULTS
+                                                                 0 XXXXXXX MEMBE
+RS PROCESSED
+                            X  XXXXXX MEMBERS HAD OCCURRENCES OF SPECIFIED STRIN
+G                                                                      XXXXXXX M
+EMBERS CHANGED
+                                XXXXXXX MEMB  ERS HAD ERRORS
+ 
+          PDE0100  PDS WITH DDNAME  'XXXXXXXX' CANNOT BE OPENED
+                              ***** ERROR *****     PDE0102+   PDS WITH DDNAME
+'XXXXXXXX' HAS INVALID RECFM OR DSORG                                       ****
+* ERROR *****     PDE0104  PDS WITH DDNAME  'XXXXXXXX' HAS INVALID LRECL
+                                      ***** ERROR *****     PDE0106  DIRECTORY F
+OR    'XXXXXXXX' CANNOT BE OPENED
+  ***** ERROR *****     PDE0108  SELECTED MEMBER  'XXXXXXXX' NOT FOUND
+                                            ***** ERROR *****     PDE0110  SELEC
+TED MEMBER  'XXXXXXXX' IS AN ALIAS - WILL NOT BE PROCESSED
+      *  **** ERROR *****     PDE0112  MEMBER NAME      'XXXXXXXX' IS AN ALIAS -
+ WILL NOT BE PROCESSED                            ***** NOTE *****    - PDE0114
+ MEMBER           'XXXXXXXX' TOO LARGE FOR AVAILABLE STORAGE
+            ***** ERRO  R *****   - PDE0116  I/O ERROR IN     'XXXXXXXX' DURING
+READ                                                    ***** ERROR *****     PD
+E0118  LINE OVERFLOW IN 'XXXXXXXX' DURING EDIT
+                  ***** ERROR *****     - PDE0120  I/O ERROR IN     'XXXXXXXX' D
+URING WRITE                                                   ***** ERROR *****
+  - PDE0122  UNABLE TO STOW   'XXXXXXXX'
+                        ***** ERROR *****   - PDE012  4  I/O ERROR IN     'XXXXX
+XXX' DURING UPDATE-IN-PLACE                                         ***** ERROR
+*****     PDE0126  I/O ERROR IN READING DIRECTORY
+                              ***** ERROR *****     PDE0128  INSUFF  ICIENT STOR
+AGE FOR INPUT BUFFERS                                                     *****
+ERROR *****         00  GETINFO  }   &}D   D & }           & D K     K     K
+ K  u  8     8     8     8     8     8     8     8  [  8  +  8     8         &
+ &     &           K       {     &   k         A K         K     K     j     { K
+ D{  K D     D       A   DFj     A k      0A   *   A   +* 0A    0D     K       A
+     &   k         AsK         K     K  u  j     AbK D{  K D     D       As  DFj
+     Ask      0A     *   Aq  +* 0A    0D K         N       A N    u  A j     A
+ A}    &   kd     0A2    AY    &   k     j     B k      0B   *   B   +* 0B    0C
+ j{    B k      0B   *   B   +* 0B   kF  j     B kV  j     B k      0B   *   B%
+ +* 0B-           }B k      0B     *   Bm  +* 0Bh      N       BFnF    B .  m
+  0BF    K    oK        *K         B\    &   k     j     C k      0C   *   C   +
+* 0B    0C j     D K           C     &   k     j     C;k      0C<  *   C   +* 0C
+    0D j{    C j     C:nF    C  0C nV    C j       C  0C k      0C   *   Cu  +*
+0Cq  nF    C           D k      0C   *   CM  +* 0CH   0D           D k      0C8
+ *   D   +* 0C4      K      0D K               D                 D k    0D   *
+ D<  +* 0D   &    }D q }  0
+                             A     +   +   +s
+ 
+                                                                              {
+          0       D  |            ]                           {   v
+          M                      [A  .   .]  .V  <   <   <   (   (   (a  ([  (9
+ +   +   +%      [   .   .   .   <   <   <   <8  (   (   (u  (0   0       0
+  0   {   y               00  SELMBR   }   &}A   A & }           & A*    nS    {
+         {     N       { o    0{BK     K                       {ok    0{d  *   {
+   &  0{    0{ j     {Bk      0{   *   {   &  0{y       0{     &    0A  \A-j
+ A nE    A     N       A N         A      0{W 0{  }A q }  0
+                                                             } &}B   B & }     A
+*   *  B       B               A    *     0        [   &           AoK     K
+ K     N    {  A o    0B     i   h         j     B K     k    0B   *   B   &  0B
+    0A &    }B q }
+             o    0B   B  }Byk    0B   *   Bm  &  0Bh  q B
+                                                                00  PRMBR  }   &
+}C   C & }           & D&m   m   m  !8     8     8  !  8  ;  8         &   P
+ &   &  &&   P     P  < <K  6  k   K          0  K   0    0   \0    0{   )   {
+    0{y  j     A j     A K     m  ! \D{              { j  !  { j     {    0{}
+  &  .& k     &     &C   A p  !         0A j     A  0{sj     AS    j     ASN
+   A;N    u  A N       A j     AS 0A       A      0A    0ASN       ASnF    A 9
+!    A 9  ;    A  0A       A{     0A    0AS   0AM      A      0A}       s9
+}B        sN       B j     B      s9       B j     B      s9      }B+k      0B
+ *   B      0B                    !   [ ;   +  K     K  W     W  K  6     6  K
+        !K          ;K    H9      }B K    +         N \D j     B2N    @  B2k
+0BU  _   B      0B\     }C q }  0
+                                 C+
+ 
+ 
+                                                           &\D 9       D
+  | 0             T 0             * 0    k0  8    w         0         sk    \D
+         } &}GH  GD& }     D&                        .  kN       E      0E
+        }E   &     N       E      0E        }E                &     }G   !-  &-
+           P ESES  ES    EO  E    &E   E      so  !                   }E>j  !  G
+ N    @  FSk   K      0ED  _   E      0E{   0FS    ESN
+ 
+ 
+                                                                             j
+     G nC    G    0F       G      0F8  j     G N       G;    K           G K
+ K     K      0G   -   G&     0G   j     G N       G= 0G   /}  G      0G%  N
+   G K     K     K        0Gu  -   G      0G   K      }GHq }
+                                                                00  ENDPSUM  }
+ &}A   A & }           & A%K  NA\K    HK  W     W  K  6     6  K           K
+      [K    H9  +   }{dK    +     +   N \A K  NAX     \A K                \A K
+              \A K  A     A    +  { \A K                \A         n     A N
+   A      0{     &    }A q }    0
+                                   &\AQ9       A          | 0             T 0
+          * 0    k0  8    w         0         sk    \AQ            0TOTAL  MEMBE
+R   00  PERROR   }   &}{   { & }           &   {       <      AO     n     {+K
+   9       {          | 0         T 0         * 0    k0  8    w           0
+    sk    }{ q }  0
+                      00  GETLINE  }   &}Bu  B & }             & BY    N    a  {
+[  A       B     j     AW    nF    { [    0{|[         {         {
+       &   &    1   00     {@ \   0\   j     AW  {    -  .-    & &&  nV    {
+  0{|&       j     A    &  nF    A [        0A [             A!k    0A   *     A
+   -  0A   N    @  AWk    0A   _   A&  -  0A    0AW&  &   <    A &&   0A &&  P &
+ & & & &&  && <  & nF    A  -   --  -& .- k  &  0A  -   - -A4 0AW   &    nF    A
+S.  k.  k &   &&  &  P     &    }Buq }  0    K     o    0AW  B& }B k      0B   *
+   B   -    0B   N    @  B[k    0B   _   B   -  0B   q B&
+ 
+ &    1   00     A  \   0\   j     {8  A  &  .&      A  - <  {      --     {u
+   A k   &   &    1     00     A  \   0\   j     {8    {                  }AQq }
+  0                           0{8  A@ }Adk    0A   *   A<     0A   N    @  A k
+  0A   _   A      0A   q A@
+                             K   - &
+                                    {
+Z               '                   %           \           e   z   R
+@   }           4       9           0                                 &1********
+**************************************************************
+  & *                                                                    *
+              & *                         PDSEDIT User Guide
+       *                    & *
+                   *                    & **************************************
+********************************                    &
+                                                                  &
+                                                                              &
+PPPPPPP   DDDDDDD    SSSSSSS   EEEEEEE   DDDDDDD    IIIIIIII  TTTTTTTT
+          & PP    PP    DD    DD   SS        EE        DD    DD      II        T
+T                       & PPPPPP    DD    DD   SSSSSSS   EEEEEEE   DD    DD
+ II        TT                       & PP        DD    DD        SS   EE        D
+D    DD      II        TT                         & PP        DDDDDDD    SSSSSSS
+   EEEEEEE   DDDDDDD    IIIIIIII     TT                       &
+                                                                          & (PDS
+ Editor)
+        &
+                    &
+                                &
+                                              &
+                                                          &
+                                                                      &
+ 
+    &
+                & **************************************************************
+********                      & *             (c) Copyright 1983, 1988, Amdahl C
+orporation           *                    & *                       Licensed Pro
+gram Product                     *                    & *                    Pro
+perty of Amdahl Corporation                    *                    & *
+          Disclosure to others prohibited                  *
+& *              For terms and conditions of use, refer to             *
+            & *            license agreement fo  r Amdahl Program Products
+     *                    & ****************************************************
+******************                    &
+                                                  & 16:16:50 D  ecember 8, 1988
+                                                                &
+                                                                            &
+ 
+          &
+                      &
+                                  &
+                                                &
+                                                            &
+                                                                        &
+ 
+      &
+                  &
+                              &
+                                            &
+                                                        &
+                                                                      &
+ 
+  &
+              &
+                            &
+                                        &
+                                                    &
+                                                                  &
+                                                                              &
+ 
+          &
+                        &
+                                    &
+                                                  &
+                                                              &
+                                                                          &1
+                        PDSEDIT User Guide
+        &
+                    & Contents
+                                &
+                                              &
+                                                          &
+                                                                      & 1.0  Gen
+er  al Description . . . . . . . . . . . . . . . . . . . . . . 1
+    &
+                & 2.0  Special Considerations and Options  . . . . . . . . . . .
+ . . . 2                      &   2.1  In-Place Update . . . . . . . . . . . . .
+ . . . . . . . . . . 2                    &   2.2  Copying of Members. . . . . .
+ . . . . . . . . . . . . . . . . 2                    &   2.3  'Browse Mode' . .
+ . . . . . . . . . . . . . . . .   . . . . . . 2                    &   2.4  Han
+dling of Aliases and Directory Information . . . . . . . . 2
+&
+            & 3.0  Input and Output  . . . . .   . . . . . . . . . . . . . . . .
+ . . 3                    &
+                                      & 4.0  JCL . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . . . . 4                    &
+                                                                & 5.0  Control S
+tatements - Formats and Actions  . . . . . . . . . . . 6                    &
+5.1  PDS Statement . . . . . . . . . . . . . . . . . . . . . . . . 6
+          &   5.2  FIND and CHANGE Statements  . . . . . . . . . . . . . . . . .
+ 8                    &     5.2.1  Program Action When string1 and string2 Have
+                                  &            Different Lengths . . . . . . . .
+ . . . . . .   . . . . . . 9                    &   5.3  INSERT and DELETE State
+ments  . . . . . . . . . . . . . . .  10                    &
+                                                                        & 6.0  E
+xamples  . . . . . . . . .   . . . . . . . . . . . . . . . . .  12
+      &   6.1  Change 1 String in all Members of a PDS . . . . . . . . . .  12
+                  &   6.2  Insert Lines After Every Occurrence of a Specified
+                              &        Str  ing  . . . . . . . . . . . . . . . .
+ . . . . . . . . . .  12                    &   6.3  Replace Lines Containing a
+Specified String in 2 PDS's  . .  13                    &
+                                                                      & 7.0  Exa
+mple of Output . . . . . . . . . . . . . . . . . . . . . .  14
+  &   7.1  SYSPRINT Output (Summary Report)  . . . . . . . . . . . . .  14
+              &   7.2  SYSOUT Output (Detail Report) . . . . . . . . . .   . . .
+ . .  15                    &
+                                        & 8.0  Messages  . . . . . . . . . . . .
+ . . . . . . . . . . . . . .  18                    &   8.1  Messages Issued Dur
+ing Sca  n of Control Statements . . . . .  18                    &   8.2  Messa
+ges Issued During Editing  . . . . . . . . . . . . . .  19                    &
+ 
+          &
+                        &
+                                    &
+                                                  &
+                                                              &
+                                                                          &
+ 
+        &
+                    &
+                                &
+                                              &
+                                                          &
+                                                                      &
+ 
+    &
+                &
+                              &
+                                          &
+                                                      &
+                                                                    &
+                Contents                                -I-
+&1                            PDSEDIT User Guide
+            &
+                          & 1.0  General Description
+                                      &
+                                                  &
+                                                                &
+                                                                            & PD
+SEDIT is an editor designed to operate in a batch environment on
+          & partitioned data sets.  Individual members may be selected or exclud
+ed                    & from the edit process.  The edited members may replace t
+heir original                     & versions or be written into a different part
+itioned data   set.  Four                       & edit functions are provided:
+                                                            &
+                                                                        &
+ 
+      &   - Find all occurrences of a specified string.  The search may be
+                  &     limited to specified columns.
+                              &
+                                            &   - Change all occurrences of a sp
+ecified string.  The search may be                      &     limited to specifi
+ed columns.                                                           &
+                                                                               [
+  &   - Insert lines before or after each line containing a specified
+           .  &     string (used in conjunction with a find or change).
+                         <  &
+                                     (  &   - Delete lines including and followi
+ng each line containing a                        +  &     specified string (used
+ in con  junction with a find or change).                         &
+                                                                              &
+Data sets to be edited my have fixed or variable-length records,
+          & blocks or   unblocked, with record length up to 255 bytes.  Spanned
+                        & records are not allowed.
+                                    &
+                                                  &
+                                                              &
+                                                                          &
+ 
+        &
+                    &
+                                &
+                                              &
+                                                          &
+                                                                      &
+ 
+    &
+                &
+                              &
+                                          &
+                                                      &
+                                                                    &
+ 
+&
+            &
+                          &
+                                      &
+                                                  &
+                                                                &
+                                                                            &
+ 
+          &
+                      &
+                                  &
+                                                &
+                                                            &
+                                                                        &
+               General Desc  ription                          -1-
+      &1                            PDSEDIT User Guide
+                  &
+                              & 2.0  Speci  al Considerations and Options
+                                            &
+                                                        &
+                                                                      &
+ 
+  & 2.1  In-Place Update
+              &
+                            & If edited members are to be written back into the
+input PDS, and the                      & input PDS has fixed-length records, a
+member which has changed                            & but has had no insertions
+or dele  tions will be updated in place.                          &
+                                                                              &
+ 
+          & 2.2  Copyi  ng of Members
+                        &
+                                    & If edited members are to be written into a
+ different PDS, normally all                      & members which are processed
+(i.e., all members which are either                           & explicitly selec
+ted or not explicitly excluded) will be written into                      & the
+output PDS.  There are two exceptions, however.  Fir  st, if the
+        & control statements specify only strings to find (no changes,
+                    & insertions, or deletions), no members will be written out.
+  Second,                       & the user may specify via a keywor  d on the PD
+S control statement (see                      & description below) that only tho
+se members which were changed are to                      & be written to the ou
+tput PDS.                                                             &
+ 
+    &
+                & 2.3  'Browse Mode'
+                              &
+                                          & If no changes, insertions, or deleti
+ons are specified in the control                      & statements, PDSEDIT will
+ run 'in Browse Mode' - i.e., wi  ll produce                        & summary an
+d optional detail reports but will not attempt to write out
+& any members.  The user may also force PDSEDIT to run in Browse Mode
+            & for a specified PDS via a keyword   on the PDS control statement (
+see                       & description below).  In this case, control statement
+s specifying                          & changes will be treated as if they had s
+pecified 'FIND' only, and                         & control st  atements specify
+ing insertions and deletions will be                            & ignored.  Spec
+ification of this keyword ensures that no inadvertent                       & ch
+anges will be made to the specified PDS.
+          &
+                      &
+                               [  & 2.4  Handling of Aliases and Directory Infor
+mation                                       .  &
+                                                         <  & Aliases will not b
+e edited (even if specifically selected), nor will                   (  & their
+directory entries reflect c  hanges made to the main member.  User
+   +  & directory information (e.g., SSI or SPF statistics) will not be
+                  & preserved except in the case of In-Place updates.
+                              &
+                                            &
+                                                        &
+                                                                      &
+ 
+  &
+              &
+                            &
+                                        &
+                                                    &
+                                                                  &
+                                                                              &
+              Special Considerations and Options                  -2-
+          &1                              PDSEDIT User Guide
+                        &
+                                    & 3.0  Input and Output
+                                                  &
+                                                              &
+                                                                          &
+ 
+        & PDSEDIT requires the following input:
+                    &
+                                &     1.  One or more partitioned d  ata sets to
+ be edited (or to receive                     &         edited members)  Note:
+Data sets to be edited must be PDS's;                     &         Attempting t
+o edit a sequential or dummy data set will result                     &
+in   a program ABEND.
+    &
+                &     2.  Control statements describing the functions to be perf
+ormed                         &
+                                          & PDSEDIT produces the following outpu
+t:                                                    &
+                                                                    &     1.  Up
+dated versions of the partitioned data sets
+&
+            &     2.  A summary report containi  ng:
+                          &
+                                      &         - A listing of the control state
+ments supplied, with                              &             informational an
+d error messages generated during scanning                      &           of t
+he control statements                                                       &
+      - For each partitioned data set, a summary of the number of
+          &           members processed, number changed, etc.
+                      &         - For each member, a line summarizing number of
+finds,                            &           changes, etc.
+                                                &         - Any error messages g
+enerated during the edit process                            &
+                                                                        &     3.
+  (Optional)  A detailed re  port listing every line in which a
+      &         specified string was found or changed (in the case of a
+                  &         change, both the original line and the changed versi
+on will be                    &         pr  inted), as well as lines which were
+inserted or deleted.                        &
+                                                        &     4.  A return code:
+                                                                      &
+ 
+  &         00  Indicates normal completion
+              &
+                            &         04  Indicates a member error:  An error wa
+s encountered in                        &                 editing one or more me
+mbers, but processing continued                     &                 with the n
+ext mem  ber.  Errors of this type include:                       &
+- Attempt to edit an alias                                                    &
+            - Line overflow while processing a change (member was
+          &                 written out)
+                        &             - I/O error in reading a member (member wa
+s not written                       &               out)
+                                                  &             - Insufficient s
+torage to contain a member (member was not                    &               wr
+itten out)                                                                &
+        - I/O error in writing a member
+        &             - Insufficient directory space to STOW a new member (only
+                    &               occurs if members are being written into a d
+ifferent                        &               PDS)
+                                              &
+                                                          &         08  Indicate
+s a PDS error:  An error was encountered in                           &
+ 
+    &                        Input and Output                           -3-
+                &1                            PDSEDIT User Guide
+                              &
+                                          &
+                                                      &
+                                                                 [  &
+                                                                             .
+&
+         <  &                 processing a PDS,   but processing continued with
+the                    (  &                 next PDS (if any).  Errors of this t
+ype include:                       +  &             - Missing DD statement
+                                                  &               - Invalid reco
+rd format                                                       &             -
+Record length greater than 255                                              &
+ 
+          &         12  Indicates a syntax error in the control statements:  No
+                      &                 editing was attempted
+                                  &
+                                                &
+                                                            &
+                                                                        &
+ 
+      &
+                  &
+                              &
+                                            &
+                                                        &
+                                                                      &
+ 
+  &
+              &
+                            &
+                                        &
+                                                    &
+                                                                  &
+                                                                              &
+ 
+          &
+                        &
+                                    &
+                                                  &
+                                                              &
+                                                                          &
+ 
+        &
+                    &
+                                &
+                                              &
+                                                          &
+                                                                      &
+ 
+    &
+                &
+                              &
+                                          &
+                                                      &
+                                                                    &
+ 
+&
+            &
+                          &
+                                      &
+                                                  &
+                                                                &
+                                                                            &
+ 
+          &                        Input and Output                           -4
+-                     &1                            PDSEDIT User Guide
+                                  &
+                                                & 4.0  JCL
+                                                            &
+                                                                        &
+ 
+      &
+                  & PDSEDIT requires the following JCL:
+                              &
+                                            & //jobname  JOB   Initiates the JOB
+                                                        &
+                                                                      & //stepna
+me EXEC  Specifies PGM=PDSEDIT
+  &
+              & //STEPLIB  DD    Defines the PDS containing the PDSEDIT   load m
+odule                       &
+                                        & //SYSPRINT DD    Defines a sequential
+data set which will contain                         &                  the summa
+ry outp  ut of the program (see general                           &
+     description)                                                             &
+ 
+          & //SYSOUT     DD    Defines a sequential data set which will contain
+                        &                  the detail report (see general descri
+ption);                             &                  omitting this DD statemen
+t or defining it as DUMMY                         &                  will effect
+ively suppress printing the detail report                     &
+                                                                          & //SY
+SIN    DD    Defines a sequential data set containin  g the control
+        &                  statements
+                 [  &
+                             .  & //anyname1 DD    Defines PDS to e  dit or to r
+eceive edited members                      <  &                  (must not be de
+fined as DUMMY)                                        (  & //anyname2 DD    Def
+ines PDS to edit or to receive edited members                      +  &
+           (must not be defined as DUMMY)
+    &   (etc.)
+                &
+                              & Notes:
+                                          &     1.  SYSIN is assumed to be a seq
+uential data set with record                          &         format FB and re
+cord length 80.                                                     &     2.  SY
+SPRINT and SYSOUT are assumed to be sequential data sets
+&         with record format FBA and record length 121.  Blocksize is
+            &         optional, but if specifie  d must be a multiple of 121.
+                          &     3.  PDS's to be edited should not be concatenate
+d (PDSEDIT will                       &         handle only the first of concate
+nated data sets properly).                        &
+                                                                &
+                                                                            &
+ 
+          &
+                      &
+                                  &
+                                                &
+                                                            &
+                                                                        &
+ 
+      &
+                  &
+                              &
+                                            &
+                                                        &
+                                                                      &
+ 
+  &
+              &                                JCL
+    -5-                     &1                            PDSEDIT User Guide
+                                        &
+                                                    & 5.0  Control Statements -
+Formats   and Actions                                             &
+                                                                              &
+ 
+          &
+                        & PDSEDIT uses the following control statements:
+                                    &
+                                                  &    - PDS statement which def
+ines a partitioned data set to be edited                      &      and optiona
+lly specifies an output partitioned data set, members                     &
+ to be selected or excluded, the columns within whic  h editing is
+        &      to be performed, and other options.
+                    &
+                                &    - FIND statement which specifi  es a string
+ to be scanned for and                        &      (optionally) the columns to
+ which the search is to be restricted                     &      (specifying a r
+ange of columns on a FIND statement temporarily                       &      ove
+rr  ides the columns specified by the PDS statement).
+    &
+                &    - CHANGE statement which specifies a string to be scanned f
+or, a                         &      replacement string, and (optionally) the co
+lumns to which the                        &      search is to be restricted (spe
+cifying a range of columns on a                       &      CHANGE statement te
+mporarily overrides the columns   specified by                      &      the P
+DS statement).
+&
+            &    - INSERT statement which is as  sociated with a FIND or CHANGE
+                          &      statement and specifies the number of lines to
+be inserted and                       &      where to insert them (before or aft
+er the line containing the                        &      find   or change string
+).                                                              &
+                                                                            &
+ - DELETE statement which is associated with a FIND or CHANGE
+          &      statement and specifies the number of lines to delete including
+                      &      and following a line containing the find or change
+string.                           &
+                                                & In general, words in a control
+ statement are separated by one or more                     & blanks or commas.
+ Comments may be included:  A comment must begin                        & with '
+/*' and end with '*/' and m  ay be inserted anywhere a blank
+      & would be appropriate.  Control statements may begin in any column;
+                  & columns 72 through 80 are ignored.
+                              &
+                                            & All PDS statements must precede th
+e first FIND, CHANGE, INSERT, or                        & DELETE statement; if n
+o PDS statements are supplied, defaults will be                       & used (se
+e following discussion of PDS statement).
+  &
+              &
+                            & 5.1  PDS statement
+                                        &
+                                                 [  & The PDS statement has the
+format:                                                        .  &
+                                                                           <  &
+    PDS IN(dd1) OUT(dd2) FIELD(n1 n2) SELECT/EXCLUDE(m1 m2 ...)
+       (  &         NO  COPY BROWSE
+                     +  &
+                                    &
+                                                  &
+                                                              &
+                                                                          &
+ 
+        &
+                    &                      Control Statements
+        -6-                     &1                            PDSED  IT User Gui
+de                                            &
+                                                          &   Where
+                                                                      &
+ 
+    &     IN(dd1) specifies the DDNAME of the PDS to edit
+                &
+                              &     OUT(dd2) specifies the DDNAME of the PDS to
+receive edited                            &         members.  This keyword is op
+tional;  if omitted, edited members                   &     will be written back
+ into the PDS referenced by dd1.                                    &
+ 
+&     FIELD(n1 n2) specifies the first and last columns to edit.  Data
+            &         outside these bounds is n  ot searched for specified strin
+gs.                       &         (note that these bounds may be overridden fo
+r an individual                       &         FIND or CHANGE statement).  This
+ keyword is optional.  The                        &         de  fault range is a
+ll but the last 8 columns of a fixed-length                     &         record
+ or all but the first 8 columns of a variable-length                        &
+      record (the usual sequence number field).
+          &
+                      &     SELECT/EXCLUDE(m1 m2 ...) specifies the members to s
+elect for a                       &         exclude from the edit process.  This
+ keyword is   optional;  if                     &         omitted, all members e
+xcept aliases will be edited.  Multiple                     &         occurrence
+s of either SELECT or EXCLUDE are allowed, but both                     &
+  SELECT and EXCLUDE my not   appear on the same PDS statement.
+      &         'SELECT' may be abbreviated 'SEL' or 'S'; 'EXCLUDE' may be
+                  &         abbreviated 'EXCL' or 'E'.
+                              &
+                                            &     NOCOPY specifies that only mem
+bers which have been changed are to                     &         be written out
+.   This keyword is optional and is only                              &
+meaningful if the input and output PDS's are different.  If it
+  &         is omitted, every member which is "processed" (i.e., scanned)
+              &         will be written into the output PDS.
+                            &
+                                        &     BROWSE specifies that PDSEDIT is t
+o process this PDS 'in Browse                       &         Mode' - i.e., is t
+o treat   CHANGE statements as FIND                               &         stat
+ements, is to ignore INSERT and DELETE statements, and is                     &
+        not to write edited members out.  This keyword is optional; if
+          &         it   is omitted, PDSEDIT will not run in browse mode unless
+                        &         control statements are limited to PDS and FIND
+ statements.                        &
+                                                  & A PDS statement is assumed t
+o continue until the next occurrence of a                     & major keyword (P
+DS, FIND, CHANGE, INSERT, or DELETE).  It may                             & ther
+efore span multiple cards, with breaks between cards   occurring
+        & anywhere a blank would be appropriate (see example below).
+                    &
+                                & Minor keywords (IN, OUT, FIELD, S  ELECT, and
+EXCLUDE) may appear in any                    & order, and blanks may appear bef
+ore and after parentheses.                                &
+                                                                      & If there
+ a  re no PDS statements, the program will behave as if the
+    & following had appeared as the first control statement:
+                &     PDS IN(SYSUT1) OUT(SYSUT2), if a SYSUT2 DD statement is pr
+esent                         &         - or -
+                                          &     PDS IN(SYSUT1), if no SYSUT2 DD
+statement is present                                  &
+                                                                    & Some examp
+les of valid PDS statements:
+&
+            &
+                          &                      Control Statements
+              -7-                     &1                            PDSEDIT User
+ Guide                                            &
+                                                                &     PDS IN(PDS
+IN),OUT(PDSOUT),SELECT(M1,M2,M3)                                            &
+ 
+          &     PDS IN ( PDSIN )              /* Input PDS */
+                      &         OUT( PDSOUT)              /* Output PDS */
+                                  &         SEL( M1                   /* Only me
+mbers M1, M2  , M3 */                           &              M2
+                                                            &              M3
+ )                                                                      &
+ 
+   [  &
+               .  &
+                           <  & 5.2  FIND   and CHANGE Statements
+                                         (  &
+                                                     +  & These statements have
+the format:                                                           &
+ 
+  &     FIND/F  (n1 n2)  /string1/
+              &
+                            &     CHANGE/C  (n1 n2)  /string1/string2/
+                                        &
+                                                    &   Where
+                                                                  &
+                                                                              &
+    (n1 n2) specifies the first and last columns to scan for string1.
+          &         (t  his is a temporary override for the field keyword on the
+ PDS                    &         statement).  Note that only occurrences of str
+ing1 which are                      &         completely contained within the sp
+ecified bounds will be                            &         found;  e.g., an occ
+urrence of 'ABC' starting in column n2 will                   &         not be f
+ound.  This parameter is optional , but if present must                   &
+    precede /string1/.
+        &
+                    &     string1 is the string to be found (minimum length 1; m
+aximum                          &         length 255)
+                                              &
+                                                          &     string2 is its r
+eplacement (may be null; maximum length 255)                          &
+ 
+    &     '/', the string delimiter, may be any character except a blank, a
+                &         comma, or a left parenthesis.  (it may not be a '/' if
+ the                          &         first character of the string is a '*').
+                                          &
+                                                      & A FIND or CHANGE stateme
+nt is assumed to continue until   'enough'                          & string del
+imiters are found (2 for a FIND, 3 for a CHANGE).  If column
+& 71 is reached before the string delimiter is found, the string is
+            & assumed to continue in column 1 o  f the next card.
+                          &
+                                      & Some examples of valid FIND and CHANGE s
+tatements:                                        &
+                                                                &     FIND /ABCD
+EFGHIJKLMNOPQRSTUVWXYZ/                                                     &
+ 
+          &     F (1,50) /ABCDEFGHIJKLMNOPQRSTUVWXYZ/   /* Find the alphabet in
+ */                   &                                             /* columns 1
+-50          */                   &
+                                                &     F (1,71) /ABCDEFGHIJKLMNOP
+QRSTUVWXYZ/   /* Find the alphabet in  */                   &
+                          /* columns 1-71          */                   &
+ 
+      &
+                  &
+                              &                        Control Statements
+                    -8-                     &1                            PDSEDI
+T User Guide                                            &
+                                                                      &     CHAN
+GE (1,3) =A=B=                      /* Change A to B         */
+  &                                             /* columns 1-3           */
+              &                                             /* '=' used   as del
+imiter */                   &
+                                        &     C ?QWERTYUIOPASDFGHJKL;'ZXCVBNM,.?
+?     /* Delete a long string  */                   &
+                    /* '?' used as delimiter */                   &
+                                                                              &
+ 
+          &
+                        & 5.2.1 Program Action When string1 and string2 Have Dif
+ferent Lengths                      &
+                                                  & If string1 and string2 are n
+ot the same length, blanks will be                            & inserted or dele
+ted to adjust for the difference.  In general, an                         & atte
+mpt is made to preserve column alignment.  i.e., bla  nks will be
+        & added to or deleted from the next pool of 1 or more consecutive
+                    & blanks, subject to the following restrictions:
+                                &     1.  Blanks may not be added t  o or delete
+d from a quoted string                        &         except to adjust for a c
+hange made with the string.                               &     2.  A pool of bl
+anks will always retain at least 1 blank (unless                      &
+it   is at the end of a quoted string).
+    &     3.  All adjusting is done using blanks to the right of the changed
+                &         string; blanks are not added to or deleted from the be
+ginning                       &         of the line to adjust for changes at the
+ end of the line.                         & The first occurrence of a single quo
+te anywhere in the data line (not                     & just in the field to be
+edited) is considered to begin a   quoted                           & string; th
+e string is assumed to continue until the next occurrence of
+& a single quote, on the same or subsequent line.
+            &
+                          & Insofar as possible, blanks will be added to and del
+eted from within a                 [  & quoted string to adjust for changes made
+ within that string.  If                       .  & necessary,   blanks may also
+ be deleted from the next pool of more than                  <  & 1 consecutive
+blank which is not contained within a quoted string.                     (  &
+ 
+       +  & Adjusting for blanks continues to the last column specified by the
+                      & field keyword of the PDS statement (the default last-col
+umn-to-edit,                      & if the field keyword was omitted), or the la
+st column sp  ecified by the                    & CHANGE statement, whichever is
+ greater.                                                   &
+                                                                        & If it
+is impossible to adjust for   a change - not enough blanks can be
+      & deleted from a fixed-length records, or the length of a variable-length
+                  & record cannot be increased sufficiently without exceeding th
+e data                        & set's maxi  mum record length - line overflow oc
+curs.  No further FIND                      & or CHANGE statements will be proce
+ssed against the line, and the                          & change which caused th
+e overflow will not be applied to the line.                           &
+ 
+  & Some examples:
+              &
+                            & 1.  Change 'COL' to 'COLUMN':
+                                        &     Before:  COL1     COL2 COL3    COL
+4 ' COL5'    'COL6   '                              &     After:   COLUMN1  COLU
+MN2 COL  UMN3 COLUMN4 ' COLUMN5' 'COLUMN6'                        &
+                                                                              &
+2.  Change 'COLUMN' to 'COL':
+          &
+                        &
+                                    &                      Control Statements
+                        -9-                       &1
+PDSEDIT User Guide                                            &
+                                                                          &
+Before:  COLUMN1 COLUMN2  'COLUMN3'
+        &     After:   COL1    COL2     'COL3   '
+                    &
+                                &
+                                              &
+                                                          & 5.3  INSERT and DELE
+TE Statements                                                         &
+ 
+    & An INSERT or DELETE statement is associated with the preceding FIND or
+                & CHANGE statement.  Every time a line is found containing the s
+tring                         & specified as string1 by the FIND or CHANGE state
+ment, any INSERT or                       & DELETE statements associated with th
+e FIND or CHANGE are processed:                       & An INSERT statement inse
+rts lines directly before or dir  ectly after                       & the line c
+ontaining string1; a DELETE statement deletes the line
+& containing string1 and a specified number of subsequent lines.  Each
+            & FIND or CHANGE may be followed by   at most one INSERT before, one
+                          & INSERT after, and one DELETE (in any order - deletes
+ are always                           & processed before inserts).
+                                                  &
+                                                                & An INSERT stat
+ement is directly followed by the lines to insert, with                     & ea
+ch card assumed ot contain one line to insert.  During the edit
+          & process, these lines will be truncated or padded with blanks to the
+                      & right if necessary to adjust for a record length other t
+han 80.  If                       & the data set being edited has variable-lengt
+h records, l  ines will be                      & given a record length of 80 or
+ the data set LRECL, whichever is                           & smaller.
+                                                                        &
+ 
+      & The user may specify a number of lines to insert, or a 2-character
+                  & delimiter which, when found in columns 1 and 2 of an input c
+ard,                          & signals th  e end of the lines to insert (the ca
+rd containing the                           & delimiter will not be inserted).
+If neither is specified, 1 line will                    & be inserted.
+                                                                      &
+ 
+  & The INSERT statement has the following format:
+              &
+                            &     INSERT/INS/I  n  BEFORE/AFTER
+                                        &         - or -
+                                                    &     INSERT/INS/I  TO(dlm)
+ BEFORE  /AFTER                                                   &
+                                                                              &
+  Where
+          &
+                        &     BEFORE/AFTER specifies whether the lines are to be
+ inserted before                    &         or after the line containing the F
+IND/CHANGE string.  This                          &         keyword is optional;
+  if omitted, the default is AFTER.                           &         'BEFORE'
+ may be abbreviated 'BEF'; 'AFTER' may be abbreviated                     &
+    'AFT'.
+        &
+                    &     n is the number of lines to insert
+                                &
+                                              &     TO(dlm) specified the 2-char
+acter delimiter, which may be any                         &         alphanumeric
+ or special character with the exception of                        [  &
+bl  anks, commas, and the string '/*' (which would be regarded
+ .  &         as the beginning of a comment).
+             <  &
+                           (  &
+                                       +  &                      Control Stateme
+nts                          -10-                     &1
+    PDSEDIT User Guide                                              &
+ 
+& The DELETE statement has the following format:
+            &
+                          &     DELETE  n
+                                      &
+                                                  &   Where
+                                                                &
+                                                                            &
+  n is the number of lines to delete including and following the
+          &     line containing the FIND/CHANGE string.  This parameter is
+                      &     optional, and if omitted defaults to 1.
+                                  &
+                                                & INSERT and DELETE statements m
+ay not be continued except by including                     & a comment which be
+gins on the first card and ends on a subsequent                         & card.
+ 
+      &
+                  &
+                              &
+                                            &
+                                                        &
+                                                                      &
+ 
+  &
+              &
+                            &
+                                        &
+                                                    &
+                                                                  &
+                                                                              &
+ 
+          &
+                        &
+                                    &
+                                                  &
+                                                              &
+                                                                          &
+                                                                            &
+' is to be edited.                                              &
+                                                                            & Th
+e required JCL and control statements:
+          &
+                      & //EDITJOB  JOB (ACCT INFO), etc.
+                                  & //STEP1    EXEC  PGM=PDSEDIT
+                                                & //SYSPRINT DD  SYSOUT=A
+                                                            & //SYSOUT   DD  SYS
+OUT=A                                                                   & //PDSI
+N    DD  DSN=PRIV.PROCLIB,D  ISP=SHR
+      & //SYSIN    DD  DATA,DLM=## <------
+                  & PDS IN(PDSIN) EXCL(DUMMY)
+                              & F (4 21) /   JOB /
+                                            & INSERT 2
+                                                        & //*MAIN   LINES=999
+                                                                      & //*FORMA
+T PR,...... (etc.)
+  & ## <------
+              &
+                            &
+                                        &
+                                                    &
+ Exampl  es                              -12-                     &1
+                PDSEDIT User Guide                                            &
+ 
+          & Every line   in every member except 'DUMMY' containing the character
+s                       & ' JOB ' in columns 4 through 21 (this should find only
+ JOB cards) will                    & have the two JES3 control cards inserted a
+fter it.  Edited members                          & will be written back into 'P
+RIV.PROCLIB' (but not updated in place,                       & since they have
+been enlarged).                                                           &
+ 
+        &
+                    &
+                                & 6.3  Replace Lines Containing a S  pecified St
+ring in 2 PDS's                               &
+                                                          &
+                                                                      & In this
+ex  ample, the object is to replace lines containing the string
+    & 'REPLACE' with a blank line.  Two PDS's are to be edited, and the
+                & edited members are to be written into a third PDS.  No detail
+report                        & is wanted.
+                                          &
+                                                      &
+                                                                    & The requir
+ed JCL and control statements:
+&
+            & //EDITJOB  JOB (ACCT INFO), etc.
+                          & //STEP1    EXEC  PGM=PDSEDIT
+                                      & //SYSPRINT DD  SYSOUT=A
+                                                  & //PDS1       DD  DSN=PDS1.PR
+OCLIB,DISP=SHR                                                  & //PDS2     DD
+ DSN=PDS2.PROCLIB,DISP=SHR                                                  & //
+PDS3     DD  DSN=PDS3.PROCLIB,DISP=SHR
+          & //SYSIN    DD  *
+                      & PDS IN(PDS1) OUT(PDS3)
+                                  & PDS IN(PDS2) OUT(PDS3)
+                                                & F =REPLACE=
+                                                            & DELETE
+                                                                        & INSERT
+ 
+      &
+                  & /*
+                              &
+                                            & All members of 'PDS1.PROCLIB' and
+'PDS2.PROCLIB' will be edited.                       [  & Every line containing
+the string 'REPLACE' will be deleted; inserted                     .  & 'after'
+the deleted line (i.e., in its place) will be the blank line.                  <
+  & Since the keyword 'NOCOPY' does not appear on any of the PDS
+           (  & statements, all members of 'PDS1.PROCLIB' and 'PDS2.PROC  LIB' w
+ill be                   +  & written into 'PDS3.PROCLIB', whether changed or no
+t.  Since no SYSOUT                     & DD statement was supplied, no detail r
+eport will be produced.                             &
+                                                                  &
+                                                                              &
+ 
+          &
+                        &
+                                    &
+                                                  &
+                                                              &
+                                                                          &
+ 
+        &
+                    &
+                                &
+                                              &
+                                                          &
+       Examples                              -13-                     &1
+                      PDSEDIT User Guide
+    &
+                & 7.0  Example of Output
+                              &
+                                          &
+                                                      &
+                                                                    & 7.1  SYSPR
+INT Output (Summary Report)
+&
+            &
+                          & SYSPRINT output begins with an echo print of the con
+trol statements.                      & Note that lines to be inserted are flagg
+ed 'LINE TO INSERT' at the                        & right.  A   FIND/CHANGE stri
+ng which is continued on a second card will                     & be similarly f
+lagged.  Any syntax or other errors encountered in                          & sc
+anning control statements will be noted here.
+          &
+                      &       SYSIN INPUT TO PDSEDIT
+                                  &
+                                                & PDS IN(DD1)
+                                                            & F /FIND/
+                                                                        & C /OLD
+/NEWSTRING/
+      & F /OMIT/
+                  & DEL
+                              & F /INSERT/
+                                            & INS BEFORE
+                                                        & BEFORE 1
+                                 LINE TO INSERT                       & INS AFTE
+R
+  & AFTER 1                                                LINE TO INSERT
+              & C /INSERT2/INSERT/
+                            & INS BEFORE
+                                        & BEFORE 2
+                 LINE TO INSERT                     & INS AFTER
+                                                                  & AFTER 2
+                                           LINE TO INSERT                     &
+ 
+          &
+                        &
+                                    &
+                                                  & This is followed by a summar
+y report on the editing preformed.  Any                       & errors encounter
+ed in editing will be noted here.                                         &
+ 
+        &
+                    &
+                                & PDSEDIT SUMMARY REPORT
+                                              &
+                                                          &  INPUT PDS=D856BLM.D
+D1.DATA              OUTPUT PDS=D856BLM.DD1.DATA                      &  ON VOLU
+ME   AMD15A                         ON VOLUME AMD15A
+    &
+                & PDE0118  LINE OVERFLOW IN 'M1      ' DURING EDIT    *** ERROR
+***                           &
+                                          & MEMBER M1             3 FINDS  1 CHA
+NGES  0 INSERTS  0 DELS 1 ERR****                     & MEMBER M2             9
+FINDS  4 CHANGES  8 INSERTS  1 D  ELS                               & MEMBER M3
+            0 FINDS  0 CHANGES  0 INSERTS  0 DELS
+&
+            & TOTAL                12 FINDS  5   CHANGES  8 INSERTS  1 DELS 1 ER
+R****                     &
+                                      &
+                                                  &
+                                                                &
+         Example of Output                         -14-                     &1
+                          PDSEDIT User Guide
+       [  &
+                   .  & SUMMARY OF RESULTS
+                               <  &
+                                             (  &        3 MEMBERS PROCESSED
+                                                         +  &        2 MEMBERS H
+AD OCCURRENCES OF SPECIFIED STRING                                      &
+ 2 MEMBERS CHANGED
+      &        1 MEMBERS HAD ERRORS
+                  &
+                              &
+                                            &
+                                                        & Notes:
+                                                                      &
+ 
+  & 1.  In processing member M1:
+              &     3 occurrences of FIND/CHANGE strings were found (thi  s coun
+t                           &         includes multiple occurrences on the same
+line - e.g., if a                       &         string occurs twice on the sam
+e line, this count will record 2                    &         occurrences of the
+ string   for that line)                                          &     1 string
+ was changed by a CHANGE statement (this count also                           &
+        includes multiple changes on the same line, but does not
+          &         in  clude changes which produced a line overflow)
+                        &     0 lines were inserted
+                                    &     0 lines were deleted
+                                                  &     1 line-overflow error oc
+curred (this count records the number of                      &         lines fo
+r which a line-overflow condition arose)                                  &
+ 
+        & 2.  In processing 'D856BLM.DD1.DATA':
+                    &     Editing was attempted for 3 members (this count includ
+es members                      &         with errors)
+                                              &     FIND/CHANGE strings were fou
+nd in 2 members                                           &     2 members were c
+hanged (this count includes members with errors,                      &
+un  less every attempted change to the member produced a line
+    &         overflow)
+                &     1 member had an error (this count includes members with li
+ne-                           &         overflow errors and members with more se
+vere errors - e.g.,                       &         I/O error)
+                                                      &
+                                                                    & 3.  Note t
+he error message indicating that line overflow occurred in
+&     member M1.  This message will appear at most once per member.  The
+            &     lines(s) in which overflow oc  curred will appear in the SYSOU
+T                         &     Detail Report.
+                                      &
+                                                  &
+                                                                & 7.2  SYSOUT Ou
+tput (Detail Report)                                                        &
+ 
+          & PDSEDIT DETAIL REPORT
+                      &
+                                  &  INPUT PDS=D856BLM.DD1.DATA              OUT
+PUT PDS=D856  BLM.DD1.DATA                      &  ON VOLUME AMD15A
+            ON VOLUME AMD15A                                &
+                                                                        & DETAIL
+ REPORT FOR MEMBER M1
+      &
+                  & *FOUND****     FIND THIS STRING
+                              & *FOUND****       OLD STRING
+                                            &
+                                                        &
+                                                                      &
+               Example of Output                         -15-
+  &1                            PDSEDIT User Guide
+              &
+                            & *CHANGED**     NEWSTRING STRING
+                                        & *FOUND****     CAUSE AN ERROR
+         OLD STRING                                 & *ERROR****     CAUSE AN ER
+ROR                    OLD STRING   *ERROR****                    &
+                                                                              &
+MEMBER M1              3 FINDS    1 CHANGES  0 INSERTS  0 DELS 1 ERRS**
+          &
+                        & DETAIL REPORT FOR MEMBER M2
+                                    &
+                                                  & *FOUND****     DO FIRST INSE
+RT                                                            & *INSERTED*     B
+EFORE 1                                                                   & *INS
+ERTED*     AFTER 1
+        & *INSERTED*     BEFORE 2
+                    & *INSERTED*     AFTER 2
+                                & *FOUND****     DO BOTH INSERTS (I  NSERT AND I
+NSERT2)                                       & *INSERTED*     BEFORE 1
+                                                          & *INSERTED*     AFTER
+ 1                                                                    & *FOUND**
+**       DO BOTH INSERTS (INSERT AND INSERT2)
+    & *CHANGED**     DO BOTH INSERTS (INSERT AND INSERT)
+                & *INSERTED*     BEFORE 2
+                              & *INSERTED*     AFTER 2
+                                       [  & *FOUND****     OMIT THIS LINE
+                                                   .  & *DELETED**     OMIT THIS
+ LINE                                                            <  &
+                                                                             (
+& MEMBER M2              9 FINDS    4 CHANGES  8 INSERTS  1 DELETES
+         +  &
+                          &
+                                      & Notes:
+                                                  &
+                                                                & 1.  Every line
+ with an occurrence of a FIND/CHANGE string is printed                      &
+  with the identifier '*FOUND****'.
+          &
+                      & 2.  Every line in which a change was successfully made i
+s printed (in                     &     its changed form) with the identifier '*
+CHANGED**'.                                     &
+                                                            & 3.  Every line in
+which a change produced line overflow is printed                        &     (u
+nchanged) with the identifi  er '*ERROR****'.
+      &
+                  & 4.  Every line which was deleted is printed with the identif
+ier                           &     '*DELE  TED**'.
+                                            &
+                                                        & 5.  Every line which w
+as inserted is printed with the identifier                            &     '*IN
+SERTED*'.  Note that inserted lines are printed after the line
+  &     containing the FIND/CHANGE string, regardless of whether they were
+              &     inserted BEFORE or AFTER.  The actual order of lines   in th
+e edited                    &     member M2 is:
+                                        &
+                                                    &     BEFORE 1
+                                                                  &     DO FIRST
+ INSERT                                                                       &
+    AFTER 1
+          &     BEFORE   1
+                        &     BEFORE 2
+                                    &     DO BOTH INSERTS (INSERT AND INSERT)
+                                                  &     AFTER 2
+                                                              &     AFTER 1
+                                                                          &
+                   Example of Output                           -16-
+        &1                            PDSEDIT User Guide
+                    &
+                                &
+                                              & 6.  Since no changes were made t
+o member M3 and no specified strings                      &     were found, no d
+etail report is printed for this member.  Note,                       &     howe
+ve  r, that a line indicating this 'NO FINDS, NO CHANGES'
+    &     condition does appear in the SYSPRINT Summary Report.
+                &
+                              &
+                                          &
+                                                      &
+                                                                    &
+ 
+&
+            &
+                          &
+                                      &
+                                                  &
+                                                                &
+                                                                            &
+ 
+          &
+                      &
+                                  &
+                                                &
+                                                            &
+                                                                        &
+ 
+      &
+                  &
+                              &
+                                            &
+                                                        &
+                                                                      &
+ 
+  &
+              &
+                            &
+                                        &
+                                                    &
+                                                                  &
+                                                                              &
+ 
+          &
+                        &
+                                    &
+                                                  &
+                                                              &
+                                                                       [  &
+ 
+     .  &
+                 <  &
+                             (  &
+                                           +  &
+                                                          &
+                                                                      &
+ 
+    &
+                &
+                              &
+                                          &
+                                                      &
+                                                                    &
+ 
+&                        Example of Output                         -17-
+            &1                            PDSED  IT User Guide
+                          &
+                                      & 8.0  Messages
+                                                  &
+                                                                &
+                                                                            &
+ 
+          &
+                      & 8.1  Messages Issued During Scan of Control Statements
+                                  &
+                                                &
+                                                            & PDE0000  UNABLE TO
+ OPEN SYSIN - PROCESSING TERMINATED                                     &      S
+elf-explanatory; e.g., no S  YSIN DD statement supplied.
+      &
+                  & PDE0004  UNEXPECTED EOF ENCOUNTERED ON SYSIN
+                              &      An En  d-of-File was encountered before the
+ end of a comment, a                        &      FIND or CHANGE string, or a '
+keyword(value)' combination.                            &
+                                                                      & PDE0006
+ NO INPUT PDS SUPPLIED
+  &      A previous PDS statement lacked a value for 'IN'.
+              &
+                            & PDE0008  INSUFFICIENT STORAGE TO COMPLETE INTERNAL
+ TABLES                                 &      Self-explanatory; run the program
+ again specifying a larger                          &      region.
+                                                                  &
+                                                                              &
+PDE0010  NO PDS STATEMENTS - DEFAULTS WILL BE USED
+          &      A FIN  D, CHANGE, INSERT, or DELETE was found before any PDS
+                        &      statements were found.  This is not an error.
+                                    &
+                                                  & PDE0012  'SELECT' AND 'EXCLU
+DE' MUTUALLY EXCLUSIVE                                        &      'SELECT' an
+d 'EXCLUDE' both appear on the same PDS statement.                        &
+ 
+        & PDE0014  'BEFORE' AND 'AFTER' MUTUALLY EXCLUSIVE
+                    &      'BEFORE' and 'AFTER' both appear on the same INSERT s
+tatement.                       &
+                                              & PDE0016  N AND 'TO' MUTUALLY EXC
+LUSIVE                                                    &      n (number of li
+nes to insert) and 'TO(dlm)' both appear on the                       &      sam
+e   INSERT statement.
+    &
+                & PDE0018  ONLY 1 INSERT-BEFORE, 1 INSERT-AFTER, AND 1 DELETE PE
+R                             &           FIND/CHANGE
+                                          &      A second 'INSERT AFTER', a seco
+nd 'INSERT BEFORE', or a second                       &      'DELETE' was found
+after a FIND or CHANGE statement  .  Only one of                    &      each
+type is permitted for each FIND or CHANGE.
+&
+            & PDE0020  KEYWORD   'XXXXXXXX' INV  ALID OR UNKNOWN
+                          &      'XXXXXXXX' is not a recognizable keyword, or is
+ improper in this                     &      context (e.g., a PDS keyword after
+the first FIND or CHANGE).                        &
+                                                                & PDE0022  VALUE
+ FOR 'XXXXXXXX' MISSING                                                     &
+   Keyword 'XXXXXXXX' is not followed by a value in parenthesis; If
+          &      the keyword is 'field', this message also occurs if two values
+                      &      were not supplied (beginning and ending columns).
+                                  &
+                                                & PDE0024  VALUE FOR 'XXXXXXXX'
+INVALID                                                     &      The value sup
+plied for keyword 'XXXXXXXX' has invalid length                         &
+ 
+      &                          Messages                                -18-
+                  &1                            PDSEDIT User Guide
+                              &
+                                            &      (less than or equal to zero,
+or greater than 8), or (if the                          &      keyword is 'field
+') is not numeric.                                                    &
+ 
+  & PDE0026  VALUE FOR 'XXXXXXXX' WAS PREVIOUSLY SUPPLIED
+              &      Keyword 'XXXXXXXX' was specified more than once on   a PDS
+                         [  &      statement; only 'SELECT' and 'EXCLUDE' may oc
+cur more than once.                  .  &
+                                                 <  & PDE0028  VALUE FOR 'XXXXXX
+XX' IS   MISSING ')'                                           (  &      PDSEDIT
+ did not find a right parenthesis after the expected                       +  &
+     number of values for keyword 'XXXXXXXX'.
+          &
+                        & PDE0030  KEYWORD   'XXXXXXXX' PRECEDES FIRST 'PDS'
+                                    &      Keyword 'XXXXXXXX' must follow the ke
+yword 'PDS'.                                      &
+                                                              & PDE0032  KEYWORD
+   'XXXXXXXX' HAS INVALID STRING LENGTH                                   &
+ A FIND or CHANGE string was found with length great  er than 255,
+        &      or (for the string to find), length 0.
+                    &
+                                & PDE0034  FIELD FOR 'XXXXXXXX' INV  ALID
+                                              &      The field (columns to edit)
+ specified on a FIND or CHANGE was                        &      invalid - too l
+ong or non-numeric.                                                   &
+ 
+    & PDE0036  FIELD FOR 'XXXXXXXX' MISSING
+                &      The field (columns to edit) specified on a FIND or CHANGE
+ did not                      &      specify two values (beginning and ending co
+lumns).                                   &
+                                                      & PDE0038  FIELD FOR 'XXXX
+XXXX' MISSING ')'                                                   &      The f
+ield (columns to edit) specified on a FIND or CHANGE did not
+&      end with a right parenthesis.
+            &
+                          & PDE0040  KEYWORD   'XXXXXXXX' PRECEDES FIRST FIND/CH
+ANGE                                  &      Keyword 'XXXXXXXX' must follow a 'F
+IND' or 'CHANGE'.                                 &
+                                                                & PDE0042  KEYWO
+RD   'XXXXXXXX' INCOMPATIBLE WITH 'DELETE'                                  &
+   'BEFORE' and 'AFTER' MAY NOT BE SPECIFIED WITH 'DELETE'.
+          &
+                      &
+                                  &
+                                                & 8.2  Messages Issued During Ed
+iting:                                                      &
+                                                                        &
+ 
+      & PDE0100  PDS WITH DDNAME  'XXXXXXXX' CANNOT BE OPENED
+                  &      Self-explanatory; e.g., no DD statement with ddname 'XX
+XXXXXX'                       &      was s  upplied.
+                                            &
+                                                        & PDE0102  PDS WITH DDNA
+ME  'XXXXXXXX' HAS INVALID RECFM OR DSORG                             &      The
+ PDS referenced by ddname 'XXXXXXXX' has record format other
+  &      than F/FA/FB/FBA or V/VA/VB/VBA, or data set organization other
+              &      than partitioned.  (This message will appear if a s  ingle
+member                      &      of a PDS was specified in the DD statement).
+                                        &
+                                                    & PDE0104  PDS WITH DDNAME
+'XXXXXX  XX' HAS INVALID LRECL                                    &      The PDS
+ referenced by ddname 'XXXXXXXX' has lrecl greater than                       &
+ 
+          &                            Messages                                -
+19-                     &1                            PDSEDIT User Guide
+                                    &
+                                                  &      255, or the 'IN' and 'O
+UT' PDS's have different record lengths                       &      for fixed-l
+ength records, or the 'OUT' PDS has record length                         &
+ greater than the 'IN' PDS for variable-length recor  ds.
+        &
+                    & PDE0106  DIRECTORY FOR    'XXXXXXXX' CANNOT BE OPENED
+                                &      PDSEDIT was unable to open t  he director
+y for the PDS referenced                      &      by 'XXXXXXXX'.
+                                                          &
+                                                                      & PDE0108
+ S  ELECTED MEMBER  'XXXXXXXX' NOT FOUND
+    &      Member 'XXXXXXXX' was specified by the 'SELECT' keyword but was
+                &      not found in the directory.
+                              &
+                                          & PDE0110  SELECTED MEMBER  'XXXXXXXX'
+ IS AN ALIAS - WILL NOT BE                            &           PROCESSED
+                                                                    &      Membe
+r 'XXXXXXXX' was specified by the 'SELECT' keyword but is an
+&      alias.
+            &
+                          & PDE0112  MEMBER NAME      'XXXXXXXX' IS AN ALIAS - W
+ILL NOT BE                            &           PROCESSED
+                                                  &      Membe  r 'XXXXXXXX' was
+ found in the directory but it is an alias.                     &      This mess
+age occurs if 'SELECT' was not specified (and hence all                     &
+   non-excluded members are to be processed).  It is not an error.
+          &
+                      & PDE0114  MEMBER           'XXXXXXXX' TOO LARGE FOR AVAIL
+ABLE STORAGE                      &      Available virtual storage was not suffi
+cient to con  tain member                       &      'XXXXXXXX'; run the progr
+am again specifying a larger region.                     [  &      Member 'XXXXX
+XXX' was not updated or written out.                                 .  &
+ 
+   <  & PDE0116  I/O ERROR IN     'XXXXXXXX' DURING READ
+               (  &      An I/O error occurred in reading member 'XXXXXXXX'.  Th
+e member                   +  &      was n  ot written out.
+                                            &
+                                                        & PDE0118  LINE OVERFLOW
+ IN 'XXXXXXXX' DURING EDIT                                            &      A C
+HANGE caused a line in member 'XXXXXXXX' to exceed record
+  &      length.  The CHANGE causing the error was not applied, but
+              &      editing continues with the next line.
+                            &
+                                        & PDE0120  I/O ERROR IN     'XXXXXXXX' D
+URING WRITE                                         &      An I/O error occurred
+ in wri  ting member 'XXXXXXXX' out.                              &
+                                                                              &
+PDE0122  UNABLE TO STOW   'XXXXXXXX'
+          &      The S  TOW for member 'XXXXXXXX' failed; if input and output PD
+S's                     &      are different, the directory may be full.
+                                    &
+                                                  & PDE0124  I/O ERROR IN     'X
+XXXXXXX' DURING UPDATE-IN-PLACE                               &      An I/O erro
+r occurred in updating member 'XXXXXXXX' in place.                        &
+ 
+        & PDE0126  I/O ERROR IN READING DIRECTORY
+                    &      Self-explanatory.
+                                &
+                                              & PDE0128  INSUFFICIENT STORAGE FO
+R INPUT BUFFERS                                           &      Available virtu
+al storage was insufficient for input buffers; run                    &      pro
+gr  am again specifying a larger region.
+    &
+                &
+                 |{           &                          Messages
+                 -20-                       \INMR06

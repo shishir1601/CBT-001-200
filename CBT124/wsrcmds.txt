@@ -1,0 +1,4 @@
+  TIR:     \WSRCMDS      h   -        a     i ?   DPS136                  ZCTVER
+B      -  ZCTTRUNC        ZCTACT          ZCTDESC                |       +  XSPL
+IT  2  SELECT PANEL(ISR@PRIM) NEWAPPL(ISR)  EXTRA SPLIT FUNCTION (INVOKES PRIMAR
+Y PANEL)

@@ -1,0 +1,19 @@
+PROC 0 MOPT() DEBUG
+/*                                                               */
+/*  PHONECHK - CHECK USER FOR UPDATE ACCESS                      */
+/*                                                               */
+CONTROL NOLIST NOMSG NOFLUSH PROMPT
+IF &DEBUG NE &STR() THEN +
+  CONTROL LIST MSG NOFLUSH PROMPT CONLIST SYMLIST
+$ DLXRACCK 'PHONUPDT'
+IF &LASTCC EQ 0 THEN +
+  SET PHONAUTH = &STR(U)
+ELSE +
+  SET PHONAUTH = &STR()
+ISPEXEC  VPUT PHONAUTH SHARED
+IF &MOPT EQ &STR(NULL) THEN +
+      ISPEXEC SELECT PANEL(PHON@MEN)
+ELSE +
+      ISPEXEC SELECT PANEL(PHON@MEN) OPT(&MOPT)
+END
+EXIT

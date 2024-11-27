@@ -1,0 +1,146 @@
+ ESD            MAPLPAS         MLPPATCH        MLPSCON
+ ESD            MLPASVM         DATER370        MLPAPARM
+ ESD            MLPASVM        KSVMPATCH   -    SVMSCON    h
+ ESD            MLPAPARM       oPRMPATCH        PRMSCON
+ ESD            MLPADCBS        DCBPATCH
+ TXT             00  MAPLPA(S) VERSION III-A - FEBRUARY 27, 197502/27/75
+ TXT             11.40         {  }       {       {;    &   &J   J
+ TXT            P  \ \P  \ \P  8 8PG h hP| & & 0 h      I         {u
+ TXT   y        &           K    <     h    $- {&- q&|  &u      oh& j
+ TXT   \          {  0     0B     K             &  {&   &u      oh&  b
+ TXT             q     Q    &  Y&   K  \  K  8      &u      oh&
+ TXT   &        &u      oh& K    *      &|  &-   q          &
+ TXT   h        &u      oh& K           &|  &-      &          &&u
+ TXT   {        oh& K    %   -  ;-  &- -&|     Y    &           &u
+ TXT   8        oh&  q   r      &  h&       &  qK
+ TXT              B n     B&&       o &      0B                   B    }
+ TXT            B   &       N    ~    Bqo &              0B     o &  0Bh
+ TXT            &     K    d 0B   K    h            !  dK     K     K
+ TXT   Q         dK  S  K    R  o{ -     0 d    K        0 %K 0   K 0-
+ TXT            K 0     j  \  C K       k*   \      h           h      }
+ TXT            D   i            u   c     d  C j     CHN         D   CQ
+ TXT                    &c  &u  N         CQ  C &t  &d   0CQ
+ TXT            &u  &c   0CQ    N         D     j     D               C
+ TXT   0          C  0C       C8        &t  &d  j     D k        m
+ TXT              D    0C       k        0C\      Kd <  k  ^ 0D- \I
+ TXT   -             j mN    d    H       H N    h    DqK  <     \I  0H
+ TXT   q            &- 83    9      K           j     E j     DQK  k  K
+ TXT   }             0E j     G8K  k    j     E K      0E       K    @ 0
+ TXT            E       K       3   -       K  ?  K     j     E j -   E
+ TXT            K  (- K   - j     E-K   -  0FY      K      0FY  j -   E
+ TXT            K  (- K   - K   -  0FY  k*  K   - K   - j     F j     F-
+ TXT            3   -       K  d    j  \  E\k* |K     3   -  0F} 6  !6
+ TXT   Y        &0  3           K     3   -  0F}3   -       K  d    j  \
+ TXT              F k* |K     3   -  0F} 6  !6  &0  3           K     3
+ TXT              -  0F}    3   -       K  d    j  \  Fqk* |K     3   -
+ TXT             0F}     6  !6      h0  i0   0  &0  3           K     3
+ TXT   H          -           K     K           j  \  F8n*    G j  \  G
+ TXT            j     G  0G     j     G K        \         (         \I
+ TXT            j     G8j     G8j         Ghj -   G{j     Gq    ;   &
+ TXT             0G8    j  \  G  0F8    j -   GH 0G     j     G ;   &
+ TXT   y         0G8    ;  4&  4 0G8    j     GQ;  Y&  Y 0G8    j     G0
+ TXT   \        ;  8&  8 0G8    ;  0&  0     0D-K  < mK     K    (   \I
+ TXT               Y \ yK  <  K  ;       \ yK     K  | ( \I j  \  H-j
+ TXT   &          H-k*   \      K  < m  kM (K    (   \I    0 \ yK  <  K
+ TXT   h         ;     4 \ yK     K  | ( \I j  \  H{j     H{k*   \
+ TXT   {        K  < m  kF (K    (   \I    8 \ yK  <  K  ;       \ yK
+ TXT   8          K  | ( \I j  \  I j     I k*   \      j     I k   K  S
+ TXT             -K     k  ^ 0C        -        k  <             }
+ TXT                 0 S&   q }           }  \     *        j  \  Iyk1 <
+ TXT             0              &    \ y   %K  a   4         0
+ TXT   Q        j  -  I0 0 -            j  -     0          k0 < 0 <
+ TXT                Kd <   0    n10    *       * 1      n+0  a  n 0  \
+ TXT               -n00  \     - \        &  * 1;  *        k  ;
+ TXT             \         i    n                \ b           S 1
+ TXT              U 0 \                 1    &  4        0    <&\0
+ TXT   0         \- 0  1&  \ 0  n 0        00        0 4         0   0&0
+ TXT             4   h      &    1- 0   k 0  \0 &   &}0   q U     \
+ TXT   -        &0 \ }0 k 0 q }          [   1   0         <   H
+ TXT   q        i              q  +  Q3  H Qo0 Lk  CK  y \   y  K    z
+ TXT   }        n    =K      0 }                K  < -   \I  0
+ TXT                    j  \      }  \      ;  U&  U \ yK              -
+ TXT                 0    K      0      K       0MLPA02C SAVEAREA COUNT
+ TXT            EXCEEDED                    0PLPA DATA0NUMBER OF MAJORS=
+ TXT            99999 NUMBER OF MINORS=999990                         SY
+ TXT   Y        STEM LEVEL IS         AS OF
+ TXT                **LPDE  **CDE   **PLPA  **FLPA  **MLPA  **NUCEND**CS
+ TXT            A   **DSS   **V=R   **DYNAM **SQA   **DUMY  0--------NAM
+ TXT            E--------     LOAD     ENTRY     LPDE/CDE   HEX
+ TXT   H                   SORTED MINOR       MAJOR        ADDR     POIN
+ TXT            T     ADDRESS    SIZE     AREA0MLPA03C BUFFER EXHAUSTED
+ TXT            BEFORE ALL CDE CHAINS WERE TESTEDBY NAMEBY ENTRY POINT
+ TXT            0123456789ABCDEF
+ TXT   y
+ TXT   \
+ TXT                                             ABCDEFGHI       JKLMNOP
+ TXT   &        QR        STUVWXYZ                      +ABCDEFGHI
+ TXT   h         JKLMNOPQR        STUVWXYZ      0123456789
+ TXT            *
+ TXT            =
+ TXT             00  MLPASVM  02/27/75 11.40  }  \          K
+ TXT   0            &  {&   &u      oh&  b H h %        &u      &|  &-
+ TXT            ;   &- -    &   K           oh&        &&u      oh& K
+ TXT   -         %     -&       &           &u      oh&         && h&!
+ TXT   q            &  qK        0j                  \ y&  k\   \  &
+ TXT   }        k   q  8   y    -                         j}n     j-&
+ TXT                o &      0j                           j}   }j{
+ TXT             \j\K   -   &       N -  ~    j o &          0j o &  0j
+ TXT            &     K    d 0    K    h 0        U 0      k        0
+ TXT              0 &0  - 0    u& 0       & 0     & 0                 0
+ TXT   Y            k & 0   0     & 0     k q U           00     k &0
+ TXT             0k     P       -             kq 0  &0  &    0j  0k
+ TXT              k                                             ky
+ TXT             00  MLPAPARM 02/27/75 11.40  }  \        m K^    K^ - -
+ TXT   H        K  { {k   K         &   K  %  K     K  <  K            Q
+ TXT                   8   *    K|                  j0    l    <N   m
+ TXT            j N   m   j N   m   j N   m   j{N   m   j}N   m   j\
+ TXT              j     MLPA91W UNRECOGNIZABLE PARM
+ TXT   q           \l      }j0  n,    j       j  0j0             0j0
+ TXT   }            ^       ^  D \l  - M  j  -   }jy      j     MLPA92W
+ TXT            INVALID PAGESIZE, DEFUALT USED       \l    0j   &-   0j
+ TXT            o  \    ^  H 0j o  \    ^  H 0j o  \    ^    0j o  \
+ TXT            ^  } 0j j     k         N   m-  k K  h  N   m-  k K
+ TXT                 & -    &   && <k   k  <    Kd    Kd     0  &0 -j
+ TXT   Y          k K   m&  &       k       j     k   kw    MLPA90T SYSP
+ TXT            RINT DID NOT OPEN
+ TXT              k  S 0   0         -j     kYK   m   &       k       j
+ TXT   >            kYo  \   %K  -m  0{  0 0l k1 %    k0       h&0   0
+ TXT   w                    l&            n  S  k  S      K  <    K   {
+ TXT                      n     n'    n,    n-    n)    n0    lq<- O
+ TXT               Q -      l  0lQ      l     MLPA93W NON DECIMAL IN PAR
+ TXT   +        M FIELD
+ TXT   !               \l  0j0      m     MLPA94W PARMFIELD TOO LONG
+ TXT   k               \l  0j0LINES=L=KVTEPSBOTHALPHA            DAY=
+ TXT              23:59 PAGE  9999    PRINT   PUNCH
+ TXT                                              m%
+ TXT                                                   -SYSPRINT   &
+ TXT   -                                   i
+ TXT   q                               *SYSPUNCH   &
+ TXT   }                   &                                           X
+ TXT                                                            N   0  =
+ TXT            K       N   0  =K   0       e   e
+ RLD                   h               d       h       8       (   -   [
+ RLD                   {   )   /
+ END                            15734AS100 040175058
+ ESD            YALEDATE        DATER           DATER370
+ ESD            DATERF          DATER
+ TXT             00  DATER VERSION II - JULY 2, 1975      }         j
+ TXT              j-      K   k          t  &               &   |&
+ TXT            ) l        &) l             ) l         ) l       kYK
+ TXT   y                    ) l      { h hk             $    } \ h     }
+ TXT   \            ! l       k  U  &\  !   +&          +&        K   k
+ TXT            q }      00  DATER370 VERSION II - JULY 2, 1975   }   2
+ TXT   &            j            ~        j        0j0   \  q l ;    {j
+ TXT   h        ;-l     ;-  ^ \   j  -  ^-\ )-l  \
+ TXT   {            $\l     j\   \l   j    0j   h \             ^ l   K
+ TXT   8          k  0 & 00  DATERF VERSION I - OCTOBER 8, 1975   }   1
+ TXT                 0j&           :   DDDD     MMMM
+ TXT
+ TXT                                    JAN FEB MAR APR MAY JUNEJULYAUG
+ TXT   Q        SEPTOCT NOV DEC SUN MON TUESWED THURFRI SAT
+ TXT                       Y          p
+ RLD
+ END                            15734AS100 050175281
+   SETSSI 00075248
+   ALIAS MAPLPAS
+   NAME MAPLPA(R)

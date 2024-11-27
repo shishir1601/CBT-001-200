@@ -1,0 +1,260 @@
+ ESD            SHOWMVS         @STRING    }   y@JDATE
+ TXT             00  SHOWMVS 05/07/02   }    0    v}         0       j
+ TXT                    &}  & } qJ} K }    \ \       \   \ W \   \ 2 \ 8
+ TXT             \   \   \   \   \   \   \   \   \   \   \   \   \   \ <
+ TXT   y         \   \   \ ;   d     }}  0    v}       D 0 H  q }  0
+ TXT   \         0
+ TXT   4            INITIAL  { 0{   }U& }}    k } K } }   M         & }
+ TXT            K }H @   \}U
+ TXT   W         0   ;
+ TXT                  HARDWARE { 0{   }U(\ Y >
+ TXT                    {
+ TXT                              { (\ Y
+ TXT
+ TXT                      {  \  (\ Y ?
+ TXT                    {
+ TXT   h                ;   h   (\ Y
+ TXT   >                                              {
+ TXT             \   \}U
+ TXT             0   {
+ TXT   y        IPLDATA  { 0{   }U &       0 {    j 0   {    l(\ Y ;
+ TXT   o                  &           &
+ TXT             \   \}U
+ TXT   2         0
+ TXT   W          MEMORY   { 0A   }U(\ Y
+ TXT                    {
+ TXT             \  (\ Y
+ TXT   M                      {
+ TXT             \                 u        h   h   h   (\ Y
+ TXT   U                                                       u
+ TXT               g           #  {
+ TXT                $   K      \                        & }qh   h   h
+ TXT            (\ Y ;
+ TXT                                                          }q
+ TXT                              {
+ TXT                 \   \&\Lm r p  & L   L   Lm        h   h   h   (\ Y
+ TXT
+ TXT   @                              L                       Lm
+ TXT                           T  {
+ TXT                                  & }qh   h   h   (\ Y
+ TXT   H                                                      }q
+ TXT               t           p  {
+ TXT                 \                & }qh   h   h   (\ Y g
+ TXT                                               ?          }q
+ TXT   <                       .  {
+ TXT                $   K    o \                            & }qh   h
+ TXT            h   (\ Y
+ TXT   -                   Z                                  }q
+ TXT   q                          {
+ TXT   [                              & }qh   h   h   (\ Y
+ TXT                       x                       P          }q
+ TXT   U                          {
+ TXT                  nD              & }qh   h   h   (\ Y
+ TXT   8                                                      }q
+ TXT                              {
+ TXT   s             \    &\L  \   \&\Lm  L   Lm        h   h   h   (\ Y
+ TXT
+ TXT                                  L                       Lm
+ TXT   @                          {
+ TXT                $   K      \   \}U
+ TXT   8         0
+ TXT   8        MASTRCAT { 0{   }U &   -&   - K J   K   } (\ Y
+ TXT                       W    -      \           R
+ TXT             ?-   {  \   \}U
+ TXT             0
+ TXT                  PAGEDS   { 0{   }U(\ Y
+ TXT                 J  {
+ TXT             \     {            n    }{ K   } K               {  \
+ TXT             \}U
+ TXT             0   q
+ TXT   o          SMFDATA  { 0{   }U - D(\ Y
+ TXT   H             O    -
+ TXT             \   \}U
+ TXT             0
+ TXT              SPLEVEL  { 0{   }U \}U
+ TXT             0
+ TXT   Q        PRODUCTS { 0{|  }U(\ Y
+ TXT   Q                {
+ TXT   0             "    { nQ    { (\ Y _
+ TXT   S                         K           F
+ TXT             \   " \  {        0  h             (\ Y %
+ TXT                                      a
+ TXT             \       h  {|(\ Y
+ TXT                    {
+ TXT             \   \}U
+ TXT             0
+ TXT                  SORT     { 0{   }U    {   {  0{           {      -
+ TXT              N { -   {&      {  0{DSORT    ICEMAN  j -  \{* -- (\ Y
+ TXT   B
+ TXT                      -
+ TXT   D        N { -   {{  -     (\ Y
+ TXT                          {
+ TXT              u<K      \ y    L  \  (\ Y
+ TXT   &
+ TXT                (\ Y
+ TXT   -
+ TXT                (\ Y
+ TXT
+ TXT                (\ Y
+ TXT                       {
+ TXT             0{{(\ Y
+ TXT                 "  {
+ TXT             \    {    \}U
+ TXT             0
+ TXT                  DEVICES  { 0{   }U(\ Y
+ TXT                 j  {
+ TXT   &         \  (\ Y
+ TXT   u             p  {
+ TXT   !         \  P L L K L    \L N  +\   {     \  \\ &\L j &  \{ K J-
+ TXT   k        } K J &  \    } n &   { n &   {wn &  }{w  & n &   {wK J-
+ TXT             yj &   {wK J-  j &   {wK J-  (\ Y 
+ TXT                      &           &           J
+ TXT   W          J-
+ TXT                 0{  \   \}U
+ TXT             0   S
+ TXT            SUBSYSTM { 0{;  }U(\ Y
+ TXT                    {
+ TXT             \       &  K   }  ?&   {        -     n \   { (\ Y O
+ TXT   8                            a
+ TXT   +          { (\ Y
+ TXT                      &           &
+ TXT                 ^&   {  \   \}U
+ TXT             0   <
+ TXT   >          LPACTIV  { 0{   }U &   ^&   { (\ Y
+ TXT                 <  {
+ TXT   m         \  (\ Y
+ TXT                       (
+ TXT
+ TXT                                              {
+ TXT             \  j &   { (\ Y
+ TXT                                        &           &           &
+ TXT                    &           &           &           &
+ TXT            &           &           &           &
+ TXT             0{   &   { (\ Y
+ TXT                 '                      &           &           &
+ TXT                    &           &           &           &
+ TXT   Q        &           &           &
+ TXT   B             ^&   {  \   \}U
+ TXT             0
+ TXT   Q        SVCTABLE { 0{>  }U(\ Y
+ TXT                    {
+ TXT   0         \   & H   {! &dK J    &&d    o Jt8 JuJ   Ju ]  &  \ dK
+ TXT            JyJ   &  \ d(\ Y |
+ TXT                J           &           &           Jy    Ju
+ TXT              &           &           J
+ TXT                  J    &&   {  \   \}U
+ TXT             0
+ TXT              LINKLIST { 0{   }U -    -    &j -   {    ; \   \}U
+ TXT             0   !
+ TXT                LPALIST  { 0{   }U \}U
+ TXT             0   %
+ TXT   y        APFLIST  { 0{m  }U   U    (\ Y |
+ TXT                 l     U              {
+ TXT   H         \  & }0K   }       .  %(\ Y +
+ TXT
+ TXT   W        K     k?  k?            {           }4k }  0}0  N 0 0  }
+ TXT            {dP 0 0 P 0 0 P 0 0 k } g0{ n }   {! \   \}U
+ TXT             0
+ TXT   <            SCANTIOT { 0{   }U \}U
+ TXT   <         0
+ TXT            TCB_TREE { 0{   }U  }H(\ Y
+ TXT                    {
+ TXT   d         \  (\ Y
+ TXT   m                   g           f  {
+ TXT             \      }q(\ Y
+ TXT                }     }q  h
+ TXT             &    L     .& >&&  j &. &&*      { .    &  n &[  { j &<
+ TXT   O          {   &<(\ Y
+ TXT   {                              &           &[          &<  h
+ TXT   U         0{fK }q& m } (\ Y
+ TXT   4                  }q          &           &[          &<  h
+ TXT   8              L     {& \ U  {  \   \}U
+ TXT             0
+ TXT            JPAQ     { 0{&  }U  }H(\ Y
+ TXT                    {
+ TXT             \   &  (\ Y 9
+ TXT                                {
+ TXT             \   -& j &   { (\ Y 9
+ TXT                      &           &           &           &
+ TXT              &           &           -           -   h
+ TXT             0{ (\ Y
+ TXT                      &           &           &           &
+ TXT   U          &           -
+ TXT                 ^&   {  \   \}U
+ TXT             0
+ TXT            LOADLIST { 0{%  }U  }H(\ Y
+ TXT   8             [  {
+ TXT   m                    {- \    }q &  j &  \{   &  && (\ Y
+ TXT                 [    }q     x    &
+ TXT   D             p}q &  (\ Y
+ TXT                      }q          &           &
+ TXT                  h
+ TXT   O                  {  \ U  {  \   \}U
+ TXT   ;         0
+ TXT   4            CLOSE    { 0{   }U(\ Y
+ TXT   ;                {
+ TXT             \  j L  \{ K L  u  L      KQ&         \}U
+ TXT             0   \
+ TXT              BRIF     { 0{w  }U      { SUB_TASK    }  0J{    &   K
+ TXT            0 {  0{ SUB_TASK \J  X0 o 0 o 0 k 0   & K   M       )
+ TXT            & } &}}  \   0 |                }  UJ{o JQ  J{ 0J%  n K
+ TXT   W          {w  K    \}U
+ TXT   |        SHOWMVS PROGRAM V38J.0000 K J }   N J@J   K J@J &\} K J
+ TXT   s        }  \}       K   }       Kq {    KQ }c j     {-K^bQ{bK c
+ TXT            {S  c m0  o      &j       j     {&        i         d
+ TXT            & c     & c q c     & c        0    g {>q bq
+ TXT   [                                      SYSPRINT   &
+ TXT   b                                              k L K L L K LW DK
+ TXT            L6  K M   K M  :K M)  K M_ MK M=  K M          h       =
+ TXT   2               d
+ TXT   6         00  RDRTNE   }  {         &   &&   &}j     { n     { N
+ TXT            &     {       k         &   {*  *    ~  &   q }  0
+ TXT            & &     *    ~  &   q }  0     { j   }  m n?    { K
+ TXT             \   0      l              { K   lsn?    {mK      \   0
+ TXT   O                k              {m    k +  q    i     k +  q
+ TXT             0    K     n?    {}K      \   0      l              {}
+ TXT            N   ls  {}K     n-    A K    Sq1 0    A N   0   { N   0
+ TXT   =          A g0{YK         n     {    0     0  0      0 00  RECOV
+ TXT            ERY ROUTINE   }  { a   }   }}<&\} &}\  |}  }{!k } K  h
+ TXT            K  m  K  q  K   }dK      }}   k   &  0o   o   q }    }}
+ TXT              k   q }
+ TXT                    v}          COMMON   d       6!$*);^-/STUVWXYZ
+ TXT                  A       [00     LNKAUTH=LNKLSTLNKAUTH=APFTAB
+ TXT            F |,%_>?:#@'="0123456789??????NO YES  PRIVATE  NUCLEUSPR
+ TXT            IVATEPUBLIC STORAGE  BRIF [.<(+|&ABCDEFGHIJKLMNOPQRUNCAT
+ TXT   S        APF
+ TXT            ONLINE CPU(S)  CPU   SERIAL:   MODEL: REAL STORAGE  ON-L
+ TXT            INE: K   HIGHEST ADDRESS: IPL FROM: /   NUC ID:    CLPA:
+ TXT   Q         VIRTUAL STORAGE MAP  ----AREA----  ------START------
+ TXT              ------END-------     SIZE----------       SQA      PLP
+ TXT            A       CSAV=V REGIONV=R REGIONSYS REGIONMASTER CATALOG:
+ TXT              DSN= CUU= VOLSER=PAGE DATA SETS:SMF SID: PRODUCTS:  DF
+ TXT            /HSM LEVEL: .  RACF LEVEL:     VTAM ACTIVE  SORT'S TRUE
+ TXT   0        NAME IS    (FIRST 256 BYTES FOLLOW)  SORT NOT FOUND IN L
+ TXT            INKLISTON-LINE DEVICES:  CUU  UCBTYP    UNITNAME  VOLSER
+ TXT   -          STATUSSUB-SYSTEM VECTOR TABLE:ACTIVE LPA QUEUE:@LPDE
+ TXT   q         LPDECHN LPDERBP LPDENAMELPDENTP LPDEXLP USE ATA2LPDEXTL
+ TXT   }        NLPDEXTADMAJORNAM MAJLPDE MINLPDESVC TABLE:APF-LIST:  EN
+ TXT            TRIES.TCB TREE AND RB CHAINS:TCB ADDRESSPROGRAM     IC
+ TXT              STAB  CDFLGS    DDNAMEJPAQ:   NAME     ENTPT     USE
+ TXT            ATTRB SP ATTR ATTR2  MAJ-CDE    LENGTH   LOAD-PNTLOAD-LI
+ TXT            ST:  TCB   PGM     LLE DONE
+ TXT   }         00  @STRING/370 R507 111101111010 W}     \    >  -  \2!
+ TXT                 \} o     -  \2!      0   & }  -- j -   1 j -   0
+ TXT            -  \2!    0dj -  \2   -  \2! \} n       0w        0w  j
+ TXT            -   1 j -   1 j -   1 n -   1W      n     1W  0  02
+ TXT            -   0 n -   06i     } j -  \1   }      01} 01         1
+ TXT   Y        + }  01 8 }        \j               1   -       K } 2[j
+ TXT            -  \1   }   } }         1   }    01W   }1@          }
+ TXT             01   } }   }    01W      -   1   -   -  01WK }
+ TXT             }1F        1     } 3d  } 3d  }     1[   }1
+ TXT   H        1     2     j -  --  \0;    2  \  ;\}     2  4^0}   q }
+ TXT             @} o }   0123456789ABCDEF                          h
+ TXT            n     2=    2: 02m        2h   =i     }     j }
+ TXT
+ TXT   X          0
+ TXT             00  @JDATE  S}   K }   j }     j }     k } 8 } }  0}
+ TXT            } }  00   } 0       } 0   } 3   } 3   } o0  3   } o0  &
+ TXT   Y        } qS}
+ RLD                                           0
+ END                            1566896201 015002127

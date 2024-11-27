@@ -1,0 +1,141 @@
+ ESD            IEHMAPIN        IEHMAPRT        LINESIZE
+ ESD            MINVALUE        MAXVALUE   u    MAPGRES
+ ESD            INVPATCH   0    INVSCON         MAPGRES
+ ESD            GETSYSRS        CATDEV     q   DCDVPATCH
+ ESD            CDEVEND
+ TXT             00  IEHMAPIN 10/15/75 14.53  }  \             -
+ TXT             & }) HM  H\K          -  {-     u      K
+ TXT             &{-&   &   k   K         H &   K  *  K     K     K
+ TXT   y        K  @           H       Y       &   <    &  %    &   &  q
+ TXT   \        k  q    &   k       &      Q&  {&  \k  \   L&  Qk  Q   Q
+ TXT            &  h    &  y    &       &      {&  %    &   &  &&  -   h
+ TXT   &        &  *&      M   }&       &      -&   ka     h&   ka
+ TXT   h        &   ka       0 H&0      &0    -}&      @&   ka  q H   ]
+ TXT   {                    C     F{        N   H   B N   Ho  B N   Hh
+ TXT   8        B\N   H   C N   Hq  C         B     MAP091W UNRECOGNIZAB
+ TXT            LE PARM
+ TXT               0BH         }  C n,    B       A  0C         ^
+ TXT            ^  M \FH -    B  -   }BQ      BB    MAP092W INVALID PAGE
+ TXT            SIZE, DEFAULT USED               \   0C     &-   0B
+ TXT   U        ^    \FH    h-  i-  &-]  0B     ^    \FH    h-  i-  &-]
+ TXT             0B     ^  Qo    0B j     C-    N    \  C&K         N
+ TXT             \  C-K  U       &H &&  k            &H &&  k
+ TXT            k   k               j     C     j     D  0C4  CS    MAP0
+ TXT   D        90T SYSPRINT DID NOT OPEN
+ TXT   S              k    0   0 Y         \    K      \   0CY  D    q
+ TXT                  &  -kg -&   &  <    &   &   &   &    1  &0   0 ; \
+ TXT            Gq    &  - 0   \Gq    &  * 0   \Gq   q&      H&  %   H&
+ TXT                 H&    0   \Gq \                  &\ <    &    0 \ \
+ TXT   B        Gq                &         D}     \ <&  <
+ TXT            EYn \   E  &    H     N \       E  h   &E  0E  \   0D0
+ TXT              n     E           E n     E    < 0        E
+ TXT   |        E  S}    <  HY  E@  &     qS} P       &  <&   K   \ K
+ TXT   s              &     HU      EHn     EQ     0E K      0E       K
+ TXT               Q 0E          <       *K  -HyK      0-  0   0F k1 *q
+ TXT            ]   ]   F   ] ; HQ& ]   F-    MAP095W MAX= VALUE TOO LOW
+ TXT   [        , CHANGED TO MIN+4                 \  &  k\   \ -&  k
+ TXT   b                 @-  -        &    0H         CY  &      0 Y  K
+ TXT              -   K                 FY                    n     n'
+ TXT   2          n,    n-    n)    n0    G <-         8 -      FY 0G-
+ TXT                G!    PABLO93W NON DECIMAL IN PARM FIELD       0BH
+ TXT                G     MAP094W PARM FIELD TOO LONG
+ TXT               0BH           0   }G}    )\   \G         P
+ TXT   D         0G  \       0   0G\        P       N   0  =K       N
+ TXT            0  =K   0   e  8    e  Y    JOBLIB  STEPLIB JOBCAT  STEP
+ TXT            CAT SYSABENDSYSUDUMPSYSPRINTSYSIN   SYSPROC SYSUADS SYSL
+ TXT   %        BC  SYSHELP PASSWORDPGM=*.DDMIN=MAX=LINES=L=TSO
+ TXT   u                        DAY=     23:59 PAGE  9999
+ TXT                       q        H0H2H4H6H8H H H I I I I I I I I I I
+ TXT            I H0
+ TXT             00  MAPGRES  10/15/75 14.53  }  \                   0
+ TXT   &                {-        {     j     {-j     {    0{      0 Y
+ TXT   h           * \   0   0 Y
+ TXT   q         &  3330 DISK    \  2314 DISK    {  2314 DISK       3330
+ TXT   }         DISK       2301 DRUM       2311 DISK       2311 DISK
+ TXT             &  2305-1 DRUM     2305-1 DRUM  &  2305-2 DRUM     2305
+ TXT            -2 DRUM     3340 DISK       3350 DISK    &  3330-1 DISK
+ TXT                2303 DRUM       2302 DRUM       2321 CELL       2400
+ TXT             TAPE       2400-1 TAPE  {  2400-2 TAPE     2400-4 PE
+ TXT   Y            2400-4 PE       3400 TAPE       3400 DUAL       3400
+ TXT            -6 TAPE  {  3400 7TRK
+ TXT
+ RLD                               \               U
+ END                            15734AS100 050175288
+ ESD            IEHMAPRT        MAPROOT         PAGESIZE
+ ESD            ROTPATCH        PARMSW
+ TXT            MAPROOT  10/15/75 14.56
+ TXT
+ TXT                   -\
+ TXT   y            a   VTOCDCB   }
+ TXT   \            SYSPRINT   &                               i
+ TXT                                                        SYSIN     &
+ TXT   &                                       &
+ TXT   h                                a   PDSDCB
+ TXT   {
+ TXT   8        a   BSAMDCB                -
+ TXT                                            a   CATDCB    } g
+ TXT                                   @
+ TXT                                               Q   h
+ TXT   Q           L       Q                       M                   @
+ TXT                    {                               {      h
+ TXT            A               B      h          &    {
+ TXT                       Q
+ TXT
+ TXT   0                                                   X   Y
+ TXT                                                    SYSVTOC
+ TXT   -        SYSCTLG SYSCTLG         FORMAT N DSCBBLK 1234.5678.90: <
+ TXT   q        <<<<<<<< REPLACED >>>>>>>>>  <<<<<<<<< NOT REPLACED >>>>
+ TXT   }        >>>>>   VOLUME LABEL                                VOLU
+ TXT            ME TABLE OF CONTENTS                    IPL TEXT RECORDS
+ TXT                                         **********AVAILABLE********
+ TXT            **              TABLE OF CONTENTS FOR VOLUME "D06DB0"TRA
+ TXT            CK ALLOCATION MAP FOR VOLUME "D06DB0"   UNKNOWN
+ TXT   Y
+ TXT
+ TXT
+ TXT
+ TXT   H
+ TXT
+ TXT
+ TXT
+ TXT   y
+ TXT   \
+ TXT
+ TXT   &
+ TXT   h
+ TXT   {
+ TXT   8
+ TXT
+ TXT
+ TXT
+ TXT   Q
+ TXT
+ TXT
+ TXT
+ TXT
+ TXT   0
+ TXT   H
+ TXT
+ TXT
+ TXT
+ TXT
+ TXT   0
+ TXT
+ TXT   -
+ TXT
+ TXT   H
+ TXT
+ TXT
+ TXT
+ TXT   y
+ TXT   \
+ TXT
+ TXT
+ TXT
+ TXT   y
+ TXT   \
+ TXT
+ RLD                           _       '   j   r   ~       A   E   R   
+ RLD                   Z   8                                   <   &
+ RLD                   *   -       %       h   y
+ END                            15734AS100 050175288

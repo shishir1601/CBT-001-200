@@ -1,0 +1,5 @@
+ 
+  This used to contain the TSO HELP for the HEL command.
+  The TSO HELP is in member FSHELP#.
+  HEL should be an alias of the FSHELP SYSHELP member (as should FSH).
+ 

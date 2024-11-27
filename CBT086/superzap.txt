@@ -1,0 +1,260 @@
+ ESD            ZAPER           SUPERZAP        PDSEODAD   |
+ ESD            EOD             ABDMP4          CONT
+ ESD            RDCARD          INDCBEX         OUTDCBEX
+ ESD            ZPRPATCH        ZPRSCON         JFCB
+ ESD            PDSDCB          INPUT           OUTPUT
+ ESD            LIB             INLIB           LIB2
+ ESD            OUTLIB          ZAPCOM          DATER
+ ESD            PDSBUF          ZAPDCB          RDCBWRIT
+ ESD            RDCBREAD        ZAPVMSG
+ TXT             00  SUPERZAP V7B JUNE 21, 1972   }               &   &K
+ TXT               K            { N   L   {*     0{|N   L   {
+ TXT              n     { n     { n0    { n9    {       }<< }[        {
+ TXT   y            j     A     N       {\K  v    H  0{M 0{\K R   K L
+ TXT   \        N       A K  v    H  0{  0A K     K ]   N       A K  v
+ TXT              H  0A  0A K     K     K  y  K     K  h  k     &
+ TXT   &          j     ]%K  vL j R{  A   G  0] K  v     Y  IyN   Kj  FB
+ TXT   h         0   4  A N   Kj  FB  H  0Ay 0G    <      N   L   A o J
+ TXT   {        k   K     k  Uk   k  * 0B    D      B  &   0  K L,
+ TXT   8          G:o J  0C>   <o           }&        B           &
+ TXT            B   &   K|  L K L M K L   j J   B K LjL K L L  0B K Lj
+ TXT            j J   B j J   C      0        K La  K L,  K L       j J
+ TXT              C k0L K L L7K L   K L L K L L K L$K9K L|K2K LaK K L L
+ TXT   Q        j J   B K L/K@ 0B0K L/Kpj J   C K L K  0C K L K j J   C
+ TXT            K LfK j J   C kTL  0C K LfK j J   C K L K[ 0C K L K
+ TXT            +   3     o0  K Ll      k0L     K|L     Cf 0Ckm J k L  0
+ TXT            Cfk0L j J   G    Y  Iyj J   CQK L L7K L   N   K   F
+ TXT            CBnQ    GfN   KN  Gfo J     m J K Lj yn*    C:N   K   F
+ TXT   0            K   }|P  Q QN   K@    N   KN  GfN   KL  G N   Kb  G
+ TXT            N   K   G N   K   H N   K   G N   K   GoN   K     N   K2
+ TXT   -            N   K9  H N   K   GwN   K   F     D nS      nW    G
+ TXT   q        nE    H nL    H nT    GonQ    Gf 0   |  E N   KR  G N
+ TXT   }        Ki  G N   Kj  FBN   K  G N   K0    N   K   GwN   K   F
+ TXT            N   Kj  FBj J   C:j J   E@N   KX   f |  E nP     fj J
+ TXT            E!N   K         E!nR      N   K]    N   K]        E@nV
+ TXT                  HYN   KE    N   K    >N   K    WN   K     N   K
+ TXT              N   Kw    N   KT     |  E N   KC    nD      nA       0
+ TXT   Y        F     F nD      nC      nB     WnN     >nF      nA
+ TXT            N   K   F   HY &   0  k0L    0  i0    Q K L 0   F     j
+ TXT            J   F>j J   F> &        ]\        Ff             0   }}
+ TXT            &   q }    &  j J   F  &  o J      0Cb &    G> 0F m9J
+ TXT   H          k0C?    n M   G  0 %K  &0 K  Q0  0  K   0 K  vM K   M
+ TXT            K   M K  yM K   M K  hM   H  0Ayo J   G   G:     0Cb &
+ TXT             0  K L  v 8 &   0  K L  [      G K  [}| 9n     k    8n
+ TXT                k    8n     k    8o J  0Cbm J  0Cbo J  0Cbm"J  0Cb 3
+ TXT   y        n 0   G       Gy 0Cb    L n     GM    GB 0Cb 0     0Cb &
+ TXT   \         !    o J  0Cb & *    K L L7K L  }  Iy 0C m7J  0Cb  H  \
+ TXT                              &\ \k0H  \ \         i  N \  v i \ 0H
+ TXT   &        j  @  j J   H  & ; 0   0  K L 0 K  hH      8   [   & &nU
+ TXT   h        L   H N L K   H nYL   H o J   G: 0F        8L     nSM
+ TXT   {        H o J  0C:nNM   H m"J  0C:K  [K9  G  0Cbj J  im J j J  i
+ TXT   8        m J   ]               o J K J   m J  &J N   M   I
+ TXT                I% 0I o J m J    &}! }I% &}*  I% &};  I% &}-  I%m7J
+ TXT              & j J       j J   Ioj J   I j J   Ioo     ]D  Iy 9 &
+ TXT                 0Io  L       n     I       I   }|     8      n
+ TXT   Q        I n,    IWk   n     I      }IB    }  Q &   0F K M }|K M
+ TXT            }|  I       I      9K M   K M       N    y    n       P
+ TXT                P J J   J   n,      n       j J     n.      nA
+ TXT            nF   } qn0      n9           0  j J     j J     k
+ TXT             & &  n       n                0    $ J   h   i
+ TXT   0        j J              > 0  j J                  Sj J
+ TXT                 U    h   j J              wM J }   J Qq  J  &
+ TXT   -        2%&            &J    - 8j J     j J    S  IyN   K      &
+ TXT   q           0F  &   0F  &   0F  & + 0F K      & Ok0J  &  P
+ TXT   }           0  K   J K J   K    K & OK J       P      0  K    K &
+ TXT             OK J        0 6j J     K      8 &   0F K J M m J
+ TXT            J             j J     j J    0j J    W        M        \
+ TXT            n       n                     j      wn       K  E  &  }
+ TXT            N   M  i  n M     K M    9             0 ko J  &   0F j
+ TXT   Y        J   o J j J   K  EJ K   J K  {J K   J K M }|o J  9
+ TXT            N M K     m J nTM    &o J  0C:N M K     o J  0C:m J  0C:
+ TXT            nDM     m J nTM      0 &nNM     nOM    hm J  0CbK  [K
+ TXT            G  0Cb   \j J        \j       P  Q Q                & J
+ TXT   H               }    j J        Q[   &  Q      J    Hj      0 oo
+ TXT            J j       m J K        Q!       &    9  n        9     0
+ TXT                &  {   \    J   J          0    0   q    8  m J P  M
+ TXT             Mo J     m J K     n       o                     N
+ TXT   y            N         K    f 9     M     &       0 s &   0F  &
+ TXT   \         0F  &   0F o J     n M      0  o J m"J K J M K J J j
+ TXT                   -        J   m"J        0Cb &   0F h0       ;h0
+ TXT   &               &   0F  &   0F  &   0F     P  M Mm J m]J m J o J
+ TXT   h             0 H 0          K  < {j J   C     K  < { 0C o J
+ TXT   {        nDM     k   K M M K M }|                         {  R k
+ TXT   8           \ -&  &    1   00     R  \   0\       .  \        &
+ TXT             U 0 U   U       Di           &  U      .  S    N    y
+ TXT                    j J      &      m J k0   0CbK M   P  M Mm J
+ TXT             0 U 0  j J    {o J  0 {o J  0 bK L M k L-K^L/L-K L/  K
+ TXT   Q        L|M K L L7K L  Uk0L      0 U      G>o J j J   Cbj J  io
+ TXT            J  9o J m J m]J m J     o J m J P  D DP  M M     0  .0Q
+ TXT                   1&0 H 0C j J     j J      & [      G> 0Cbo J m J
+ TXT               f       { &     4K M }|K M }|K,L L7k0L  -     H   D 0
+ TXT             6N   -  &       0C m7J j J    Uj J    U 0    H&   f
+ TXT   0             &       0C K   - j J    :  j J  &     !o J   H&
+ TXT              H8j J     j J g       K   -   ]Dm J  0C: &    G m J  0
+ TXT   -        F   G> &   0 !  G> &   0 !  G> & [ 0 !  o J     j J
+ TXT   q        m"J K         j J     K     m"J         $  M  j J    % 4
+ TXT   }           \ H       I &   0    o J     m"J K  M   0C:      M
+ TXT              n M   C:  M      0C:nD      m J  9N   K     o J  9N
+ TXT            K    <m J  9N   K[   *o J  9N   Ku    N   K     nN
+ TXT            K  [K2  G  0C:o J j J     j J      & [      G> 0  nT
+ TXT              nT      o J    f       -  i-  h         &    |!-     }
+ TXT   Y         4    &              H            m J m J  0Cb     0
+ TXT             \         |     0   &        G  0                 \m J
+ TXT                   { 0       0  !  DK  { <       { 0      j J     j
+ TXT            J          0               y  !  H     Hj J   F      0 o
+ TXT   H           \      m J      0j J   F o J             !  Q$   j J
+ TXT               Bj J             o J j J    4         0 o &   0 <
+ TXT                j J      0 { &     4    nT      nT      o J     m J
+ TXT            N M L      0 H 0       0 6j J            6 0 b       6j
+ TXT   y        J    6m J  0 bP  & &     0 6    j J        & }  &  &K M
+ TXT   \               0           0 S &  j J     j J         m J  0Cbm
+ TXT            J  0 U    n       nT      nT      o J P  D DP  M MP
+ TXT   &         \  N   L     j0   \          &        \      K  {  &
+ TXT   h        K M }|K M }|    N  {     6m   n R@   6 0      k0L    qj
+ TXT   {        J  im7J  0 6    m J P     K     k       &  {   }K     k
+ TXT   8           &       h &&&  k    0 h          M           K M }|o
+ TXT            J      0   -J k L K L[L   L     j J  hj J  h  L  8
+ TXT             { 0         \        k0L K,L L7 - Q      R
+ TXT            .   &  Hj J     n M    DK L#}|K Lk}|  !  H&  H3v
+ TXT   Q        P K L   K L   K L*  k L;3 L>    L>P k L j J  \  j J    S
+ TXT            &                   k L O      i    $  D    &-J & J 3 L[
+ TXT            J   L[P k L& &  3   -     P k                 j J      &
+ TXT                }    D    j J    q      j J    Yk L          0   &}
+ TXT               =     &          j J    Yk L     j J  9N   M     K
+ TXT   0        M K L L7K L  WK L M[k L K L L K L        0
+ TXT                      M K      0               0       &
+ TXT   -                P   }    M  }       }    {    M K
+ TXT   q             &    }              -J          0      h         Oq
+ TXT   }         0      h   i     OQ 0  p J &                  + -J j J
+ TXT                j J     k*L   L  &  n -     n"-  } :  PpnA-    =k.
+ TXT                           &  j J     k*L{k L  0  k*L   L  0  k*L  0
+ TXT             ;  PQK   -        0  k L     j J     m J j J  9 &   0 <
+ TXT            o J m J  0 + &       0    G o J j J     j J      & < 0F
+ TXT   Y        k L K L L   R   L  0    O|L }| 8k0L  0   0L  0   0L
+ TXT             0   0L           Y     }  k10 n10    +   0    n+0
+ TXT                n 0         j00              Y  R0   0    q  j J
+ TXT            j J      8[  Y     QK  Y Y 8!&J   J K   & K  D&
+ TXT   H          k L K L[L       K L    0    R@k    \  &  &~  k    1
+ TXT             1   00     R@ \   0\    8  k K K K K           J   J
+ TXT             8K K 0  0  K  h     dk L K L L       J   J     J
+ TXT            O L }|O L }|P J J  8K Jd   0  o     Q\ \ <&  K     &
+ TXT   y         0  k   k   o       Q         Q  0]  0    R  \ M&  K
+ TXT   \          &    0  k   k   o       R         R j     n     ] N
+ TXT            }  hK LZ}|3 L     L P k L 3 L     L P k L13 L2    L2P K
+ TXT   &        L LAK L'}|& J k0L       J  8  ]     ZAP001T NO SYSPRINT
+ TXT   h        DD   0]6K R  YK  1  P R R     K R     Q\    Q         Q
+ TXT   {         0] K R  8K R   K R J K R    0]              8     0]
+ TXT   8        ]\k0F|k    0F             &             j     ]W   <   0
+ TXT            ]W
+ TXT                        d
+ TXT   %
+ TXT   y                CONTAINS                   827004400000000000000
+ TXT   \            2224 XN   0  =K
+ TXT                                                    SYSLIB    }
+ TXT                                            {   SYSLIB
+ TXT
+ RLD                               )
+ RLD                   <                   /                       {
+ RLD                   %                           %
+ END                            15734AS100 050175231
+ ESD            IEHZAP         =ZAPCOM          ZCOMEND
+ ESD            PAGESIZE        JFCB            PDSBUF
+ ESD            FLAGS           SAVEAREA        COMPATCH
+ ESD            COMSCON    -    OBNAME     D    INPUT
+ ESD            OUTPUT     0    LIB        <    LIB2
+ ESD            INLIB      M    OUTLIB          EXLIST
+ ESD            PDSDCB     -    DECB4           DECB6
+ ESD            ZAPVMSG         ZAPMSG00        INDCBEX
+ ESD            OUTDCBEX        PDSEODAD        EOD
+ ESD            ABDMP4          CONT            RDCARD
+ TXT
+ TXT
+ TXT
+ TXT   y
+ TXT   \
+ TXT
+ TXT               <
+ TXT                 &
+ TXT
+ TXT   T                                  '
+ TXT
+ TXT                                                 BASESETSSICONTROLCT
+ TXT            .END/*DDNAMENOSSINSNODUMPNDABSDUMPNONAMENNALIASREPVERIFY
+ TXT   C        BBCCHHROKWTOSENDNOQUITNQNOTERMNTFINDPEEKNOGO=NGABSENT=LO
+ TXT            CAL=ZAPALLFORMAT4.DSCB(VTOC)LINES=L=SYSLIB  SYSIN   OPTI
+ TXT            ONS IN EFFECT1       1SUPERZAP V7 VOL=       DATE XXXX
+ TXT   ,        XXXXXXXXXXX  TIME RUN XXXXX SYSLIB IS
+ TXT   t                                      ZAP006E XDAP ERROR - POST,
+ TXT             STATUS, SENSE 00 0000 0000 ZAP017I **CCHHR- 0000.0000.0
+ TXT            0 RECORD LENGTH-                 MEMBER NAME           C
+ TXT   .        SECT NAME               1SUPERZAP V7 VOL=       DATE XXX
+ TXT   c        X               TIME RUN       SYSLIB IS
+ TXT                                               NRORXRLRCRARSRMRDRLAI
+ TXT   3        CEXBCLHCHAHSHMHSTN CLO X L C A S M D ALSLLDCDADSDMDDDAWS
+ TXT            WLECEAESEMEDEAUSUTMTSNIOIXILMNCOCXCTREDCPAPSPMPDPSPM BAL
+ TXT            RBCTRBCR SSK ISK SVC LPR LNR LTR LCR CLR ALR SLR LPDRLND
+ TXT            RLTDRLCDRHDR LDR CDR ADR SDR MDR DDR AWR SWR LPERLNERLTE
+ TXT   L        RLCERHER LER CER AER SER MER DER AUR SUR STH STC BAL BCT
+ TXT             CVD CVB STD STE SSM LPSWWRD RDD BXH BXLESRL SLL SRA SLA
+ TXT             SRDLSLDLSRDASLDASTM MVI CLI SIO TIO HIO TCH MVN MVC MVZ
+ TXT   #         CLC TRT EDMKMVO PACKUNPKZAP NOP BO  BH  BPO BL  BMO BLH
+ TXT             BNE BE  BZO BEH BNL BLE BNH BNO B   NOPRBOR BHR BPORBLR
+ TXT             BMORBLHRBNERBER BZORBEHRBNLRBLERBNHRBNORBR
+ TXT                  [.< (        +|&            !$*);^-/           | ,
+ TXT   $          %_       >?
+ TXT   l                       :#@'="  a  b      cdef
+ TXT                                          ghi
+ TXT                                  .........[.<(+|&.........!$*);^-/.
+ TXT            ........,%_>?..........:#@'="ABCDEFGHI.......JKLMNOPQR..
+ TXT            ......STUVWXYZ......0123456789.......
+ TXT   y        0123456789ABCDEF 0 1 2 3 4 5 6 7 8 910111213141516
+ TXT   \                               <
+ TXT                                               &   M
+ TXT   &           .       &                       -
+ TXT   h                                                        SYSIN
+ TXT   {          &                                &
+ TXT   8                                    m  {SYSPRINT   &
+ TXT
+ TXT                        SYSLIB    }
+ TXT                {   SYSLIB
+ TXT   Q                                            SYSLIB    }
+ TXT                                        {   SYSLIB
+ TXT
+ TXT                a   SYSLIB
+ TXT            g   e   e   A          W        k   -   Z          Q
+ TXT   0
+ TXT
+ TXT
+ TXT   M
+ TXT
+ TXT
+ RLD                               @   V   1   5
+ RLD                               d               v   9           H
+ RLD                   }   R      Z                       ]       A
+ RLD                   a                   _       5           ~
+ RLD                   H
+ END                            15734AS100 050175238
+ ESD            YALEDATE        DATER           DATER370
+ ESD            DATERF          DATER
+ TXT             00  DATER VERSION II - JULY 2, 1975      }         j
+ TXT              j-      K   k          t  &               &   |&
+ TXT            ) l        &) l             ) l         ) l       kYK
+ TXT   y                    ) l      { h hk             $    } \ h     }
+ TXT   \            ! l       k  U  &\  !   +&          +&        K   k
+ TXT            q }      00  DATER370 VERSION II - JULY 2, 1975   }   2
+ TXT   &            j            ~        j        0j0   \  q l ;    {j
+ TXT   h        ;-l     ;-  ^ \   j  -  ^-\ )-l  \
+ TXT   {            $\l     j\   \l   j    0j   h \             ^ l   K
+ TXT   8          k  0 & 00  DATERF VERSION I - OCTOBER 8, 1975   }   1
+ TXT                 0j&           :   DDDD     MMMM
+ TXT
+ TXT                                    JAN FEB MAR APR MAY JUNEJULYAUG
+ TXT   Q        SEPTOCT NOV DEC SUN MON TUESWED THURFRI SAT
+ TXT                       Y          p
+ RLD
+ END                            15734AS100 050175281
+ ESD            ZAPMSG00
+ TXT
+ END                            15741SC103 020076265
+  SETSSI 00075248
+  NAME SUPERZAP(R)

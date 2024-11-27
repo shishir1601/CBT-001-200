@@ -1,0 +1,490 @@
+ \INMR01      &      ADCD112S      IBMUSER      A      A      20130621123517
+       > INMR02          IEBCOPY        JD                                 ['
+   {                IBMUSER  LOAD        ADIS  ALLIDS  ASUB  CNCLPG  CNCLPGA  DA
+CEE  IEBTSUB  IKJEFTAP  IKJEFTE2  IKJEFTE8  IKJEFTNS  IKJTABLS  IKJTSUB  KKJEFTA
+P  KKJEFTE2  KKJEFTE8  KKJEFTNS  KKJTABLS  KMBAPFLB  LLWA  LSLT  LWATEDIT  LWATM
+GR  RDHAPSVC  RDHINSTL  RLOAD  SETPW2  STEPLIB  TSUB -  UGRP  UPRC  USAT  USIT
+USOT  USPT  USUR  USVT  USXT \INMR02          INMCOPY        JD                "
+4                   \INMR03        JD               &         {  _   ['  {
+     "8    Vs                      =O                 h -&5     ?
+ 
+ 
+ 
+             DACEE    WADIS                 S        h     ALLIDS
+S        q         ASUB                 S        h     CNCLPG               S  0
+ 0   q         CNCLPGA              S        q         DACEE                S
+     h                                             IKJEFTNS  IEBTSUB
+  S  Y Y   h     IKJEFTAP            CK        y     IKJTABLS  IKJEFTE2
+   C2        y     IKJTABLS  IKJEFTE8            CK        y     IKJTABLS  IKJEF
+TNS            CK        y       IKJTABLS
+         KKJEFTE8 MIKJTABLS            CK        y     IKJTSUB              S  \
+ \   h     KKJEFTAP            CK        y     KKJTABLS  KKJEFTE2            C2
+       y     KKJTABLS  KKJEFTE8            C  K        y     KKJTABLS
+                                               LWATEDIT 0KKJEFTNS            CK
+       y     KKJTABLS  KKJTABLS            CK        y     KMBAPFLB
+S  y y   q         LLWA                 S  H     q     gp    LSLT
+  S        h     LWATEDIT             S        q     d
+     STEPLIB  SLWATMGR              S  \ }   q      p  RDHAPSVC            C2  q
+ q   h     RDHINSTL            BS        h     RLOAD                2          h
+     SETPW2               S  Y Y   q         STEPLIB             BS  Q Q   h
+                                           USOT     STSUB                 S  }
+   h     UGRP                 2  H H   h     UPRC                 2        h
+ USAT                   2  h h   q         USIT                 2        q
+   USOT                 2  H H   h
+          sUSPT                 2        h     USUR                 2        h
+   USVT                   2  { {   q         USXT                 2  } }   h
+ 
+                                              ?              LWATEDIT
+  ?
+ 
+                                                      l
+                           ?         5695PMB01     |  m      ?        d   569623
+400     |     ?                                 ?       00  LWATEDIT 18.09  2009
+0315 #V01R001                     (C) Copyright 1985, 2009 MVS-JES2@Sympatico.Ca
+  All Rights Reserved.   }  {0  0{m   Y      {  0{       G       &}  & }  J  } q
+T   a  O & O*[ G*& O-k } K+} }  \   \\% \\ &\L  \\   AfN   \ F   Af  \y& O    &
+ O K O  j Y  A o O    & O   0& O K O 0j Y  A o O    & O   2& O K O 2j 
+Y  A-o O[   & O<   & O&K O  j Y  A o O  0A x     G o J  0G    0F     & J
+ & J  0A{        ISPQRY        B &0MUx   K J G 3dJ MU 0G   J 0 k J@  G     J o J
+  0G    0F (0B ISPLINK   0     & }   F & }   F & }*  N & }-  G & }   G & } o }
+ }  0}     F & }   F & }*  M & }-  G & }   G & } o }   }  0}     F & }   Fh& }*
+ M & }-  G & }   G & } o }   }  0}     F & }   F & }*  M & }-  G & }   G & } o }
+   }    0}     F & }   Fq& }*  M & }-  G & }   G & } o }   }  0}     F & }   F &
+ }*  N & }-  G & }   G & } o }   }  0}     F & }   Fy& }*  Nh& }-  G & }   G & }
+ o }   }  0}     F & }   F & }*  M & }-  G & }   G<& } o }   }  0}     F & }   F
+ & }*  M[& }-  G & }     G & } o }   }  0}     F & }   F{& }*  NQ& }-  G & }   G
+<& } o }   }  0}     F & }   FH& }*  O & }-  G & }   G & } o }   }  0}   k M k M
+ k M k M   F}& }   FQ& }*o }*  }  0}       E2n/M   D2K M G;K M[F\K O FYK O G- 0O
+ K O 0  0O x   &0O  0O K O 0   O   D    0G&   0G   n/M   E K M G;K M[F0K O F8K O
+ G- 0O K O 0  0O x   &0O  0O K O 0   O   E  0G&   0G   n/M   E K M G;K M[G K O G
+ K O G- 0O K O 0  0O x   &0O  0O K O 0   O   Em 0G&   0G   n/M   D|K M G-K M[G K
+ O G K O G  0O<K O 0  0O x   &0O  0O&K O 0   O   EY   0G&   0G    0D|  G & }   G
+ & }*o }*  }  0}     }   F   F ISPLINK   P } }  0G    0}    }}      0F<   Y
+ F  0F      \} q }            LWA  VDEFINE DATAID  SEL1    SEL2    SEL3    SEL4
+   TEMPMSG TEMPREC ZDSN    ZMEMB   ZTEMPF  ZTEMPN  DISPLAY LWAEDIT  1AUTHTSF ---
+AP---AUTHCMD ---E2---AUTHPGM ---E8---NOTBKGND---NS---VDELETE    Y   ,
+    n           &           K            * CHAR     LWAE01I LWA control block is
+ not valid <  LWAE02I This Program Requires An ISPF Environment.  ISPQRY Return
+C  ode      LWAE03I R15=, IKJEFTSR RC= RS= ABEND= 0123456789ABCDEF
+                                                  -         [.<(+|&         !$*)
+;^-/        |,%_>?          :#@'=" abcdefghi       jklmnopqr       ~stuvwxyz   [
+               ]    {ABCDEFGHI      }JKLMNOPQR      \STUVWXYZ      0123456789
+ 
+ 
+ 
+                           &0O  0O* 0O-x           0 K 0 O x   &0O*    M0      M
+4    P M0M0 0       0      M8      M     P M8M8 0       0      M*   %  M-   %P M
+*M* 0       0     0O*x  {&0O*q 0 x4          &  0O  0O* 0O-x           0 K 0 O x
+   &0O*   0O [0O &0O .0O N O  -      0     N 0       j 0      0  j 0      0  &0O
+ K L } K L M[  O    UK LT0 3dL4O  0    L40 k L  0    L 0 K M } K M   K M O     &
+ }    j& }*o }*  }  0}      o& }     & }*    & }-o }-  }  0} +       & }     & }
+*  NQ& }-o }-  }  0}       & }     & }*    & }-& } & } & }%  & } & } & }   O & }
+@    & }     & }do }d  }  0}      ]& }   N & }*   D& }-o }-  }  0}   K|Nh} K NhO
+     & }   N & }*   @& }-    & }     & } o }   }  0}   kNM &}M    }& }   L & }*
+   & }-   b& }     & }     & }%    & }     & }   M & } o }   }  0}   K|Nh}   x
+     & }   N & }*   @& }-    & }     & } o }   }  0}           & }   N & }*o }*
+ }  0}      N& }   N & }*o }*  }  0}   nNM    UK M   K M } K M   k'M#K M@NQ 0
+ M@0 k'  k)   0  K 0  d 00  \M   &0M P M M P M M P M M  0   00  00   M   M &
+ M &       M &     M &     M &     M &   o          F&0MUK J   3dJ MU 0    J 0 K
+ JD <3dJHM  0    JH0 K K  &3dK M  0    K 0 K K%  3dK M  0    K 0 x         J   J
+D  K  &K%o J  0 *   0 U    & }     & }*o }*  }  0}    0O*x  {&0O*q 0 x4 a    FTC
+LOSE TEMPREC LWAPROF LMC  LOSE ISRE016            &       4
+                      LWA.IKJEFTxx.TABLEEXCLU INVAR F  NOMSGFTOPEN TEMP VGET (Z
+TEMPF ZTEMPN)ASIS LMINIT DATAID LMOPEN OUTPUT LMPUTEDIF LMFREE LWATMGR BUILD LIS
+T(SETMSG     }    [ }   }}  &   &&        -O  -O    <N O       x|  n -    <&-  x
+|  &-O x8   0  x8   0  &0    q }             }            [ }j         kYm  -  N
+ -       K nh      &     n &  *   h&  -    &      d&   o        0    x8  &0    q
+ }       TEMPREC        &INVAR LMPUT &0O  0O* 0O-x             0 K 0 O x   &0O*
+   L@  J   J P J J   L &   &    \J &\   \}<&\  k \ k \   L@& \  0  j 1  \   01
+  0 %   0 |   h    IKJPUTL   m J  0O*x  {&0O*q 0 x4          &0O  0O* 0O-x
+     0 K 0 O x   &0O*   \O N O         \     N \       j \      0  j   \     [\O
+  0  [\O  0O    \O  0O*x  {&0O*q 0 x4                >{     ?
+                              &                                             ?
+          ?              LWATMGR         PCL             PARMPCL    h    ESDDATA
+    }         ?
+ 
+                  J
+                                       ?         5695PMB01     | a       ?
+  d         569623400     |     ?                     }                   ?
+} 00  LWATMGR  18.11  20090315 #V01R001                     (C) Copyright 1985,
+2009 MVS-JES2@Sympatico.Ca  All Rights Reserved.   }  {0   H      0{    {      {
+m 0{q              &}  & }  J  } qT   a  Q & Q [  %& Q k KuK+KvKu \   \\% \\ &\N
+    \\   AmN \     AmK O Y  \y& P    & P0K P4 j Y  A o P6   & P8  0& P K Q
+ 0j Y  A<o Q    & Q   2& Q K Q 2j Y  A>o Q    & Q    & Q K Q  j Y  A o
+ Q  0A K O  M   0Aw        A   O   Au ) 0 S      A       A o L         i
+ AUo L     & L       & L   N K   L K   L   L &   P L L    u&   K       N &     N
+  0    2   B  02    0B!   0B    &    IKJPARS        S  N        y 0B        0B
+   & O & O n     D  0       SK L   K L        0       SK O O K O O o L  0
+S 0       S 0 {     S  OQ[ O  0B  0       0B     & OU  OY  O{     U 1   0OU[0OY.
+0O  \O  \ \ :N O  >  C K 0     O K O{  K   OU  OMK OQ  K   OY  O{  C     OQ  C
+0C      0C%  K O{OUK OQOY  O{ 3[0OQ&0OHx   N O     C N   Ku  COK   O  0C N
+ CFN       COK   O K   O  0C [ O   OH  Cm 0 D     0 S 0 D  K L  H  O x     L K L
+ O K L     NYx     L K L N x      }  L   L  0 M   0 Sn     E  0       SK L   K L
+        0       SK O O K O O o L  0       S 0       S 0 {     S &O{!&Oq  O{[ OQ&
+ OH  [ O        T 1    OH. O  \O  \ \  N O  >  D K      0 D  K   L  Q  O x     L
+ K L O K L     NYx     L K L N x      \  L   L  0 M   0 Sn     F n     E n     E
+ n     E n     E k   k   k   k   n     Eu &P  ^&   EuK O   &&O{   5 0O K O   K O
+QP4K O P6 0 U  n     ES &P8 ^&   EuK O   &&O{   5 0O K O   K OQQ K O Q  0 U    n
+     F  &Q  ^&   F K O   &&O{   5 0O K O   K OQQ K O Q  0 U  n      S &Q  ^&
+SK O   &&O{   5 0O K O  >K OQQ K O Q  0 U   0 Sn       n     F n     F n     F n
+     F k   k   k   k         I+   <  N|& N x     N K N|Ku  N:& N K N:Kuk'N:
+f  N@k'  x       N:    N    &  I   }< 0  P,    &1  k   k 0 k 0  \  &\0  0     \N
+   N   0     G k 0 k 0 &0      k 0 k 0 k 0 K 0   &0      K 0  &&0      k    0G K
+ 0 \            IbK N|\ x      0Gq       0Gm    & P & P n     G K NY  K N   K O
+   K O   K O   k L K O P  0  O K O{0 K OMP0 0OMK OQ0  0 Y  n     H[K NY  K N   K
+ O   K O  -K O   k L K O P8 0O K O{0 K OMP  0OMK OQ0  0 Y  n     H K NY  K N   K
+ O   K O   K O   k L K O Q  0O K O{0 K OMQ  0OMK OQ0  0 Y  n     H K NY  K N   K
+ O   K O   K O  >k L K O Q  0O K O{0 K OMQ    0OMK OQ0  0 Y    }< 0  &1  P     k
+ 0 k 0  \  &\0  0     \N   N   0     I k 0 k 0 &0      k   k    0I K 0 \      0
+Sx       o L  0 M  x8   0 Sx      0o L  0 M  x8   0 S  IH&\   \  &0\ &\   \ 4&\
+  \  &\  P      0I{        IKJEFF18   0I\                            x8   0 Sx
+    8o L  0 M  x8   0 Sn        0       SK L   K L        0       SK O O K O O o
+ L  0       SK L   K L        0       SK O O K O O K OwO K OyO k   k   k   k
+0N-k 0 K O O K O O o L  0       SK O OwK O Oy 0       S &O{!&OqN O          0 {
+    SK & O  0 D   0   0 {     SK & O K & O  0 D  K L     O x     L K L O K L
+ O x     L K L O K L     NYx     L K L N x         L   L   L  0 M   0 Sn
+0       S 0    n       K NY  K N    0          N P L L     &   K   N   N*&     N
+  0    + 2    \ 02    0 6 0 4        IKJPARS        SK O   K O    0       SK O P
+ K OM  P0K OQP4K O P6o O k L  0       S  N*i   h        | \            i\  h\
+    +P N*N*K L   K L N   NYx     L x         L  0 M  n       K NY  K N    0
+     N P L L     &   K   N   N*&     N  0    2    2 02    0     0          IKJPA
+RS        SK O  -K O      0       SK O P8K OMP K OQQ K O Q o O k L  0       S  N
+*i   h        = \            i\  h\        P N*N*K L   K L N   NYx     L x
+   L  0 M  n      BK NY  K N    0       B  N P L L     &   K   N   N*&     N  0
+   2      02    0     0          IK  JPARS        SK O   K O    0       SK O Q K
+ OMQ K OQQ K O Q o O k L  0       S  N*i   h        k \            i\  h\
+ P N*N*K L   K L N   NYx     L x         L  0 M  n      SK NY  K N    0       S
+ N P L L     &   K   N   N*&     N  0    2      02      0     0          IKJPARS
+        SK O   K O  > 0       SK O Q K OMQ K OQQ K O Q o O k L  0       S  N*i
+ h        w \            i\  h\        P N*N*K L   K L N   NYx     L x         L
+  0 M   0 Sn      Sn       n       n       n       k   k   k   k        -  I+
+   N|& N x     N K N|Ku  N:& N K N:Kuk'N:     f  N@k'  x     N:    N P NyNyK N K
+u          N & Nyx     N    %        }< 0  P'    &1  k   k 0 k 0  \  &\0  0
+\N   N   0       k 0 k 0 &0        N        \Ny  0       k 0 k 0 &0      k 0 k 0
+   k 0 K 0   &0      K 0  &&0      k    0  K 0 \            IbK N|\| \  K Q \
+\   \  Q   Q & Q keQ  0  K O 0 K P N| 0  K P 0  0P &0O  0  K P@0   P@     O &
+      j P   IY  O   ! O & O   O    7      O           O   O     O i      0
+    0 8    & O   & O      U 1   0           0      O   ! O & O     K          0
+H& O  0 <K P 0   P      O &          }< 0  &1  P     k 0 k 0  \  &\0  0     \N
+   N   0      Dk 0 k 0 &0      k   k    0  K 0 \     n       K NY  K N   K O   K
+ O   K O   K O    0 &      K O   P K OMP0K OQP4o O k L  0       SK L   K L N   N
+Yx     L x         L  0 M  n      OK NY  K N   K O   K O  -K O   K O  h 0 &
+OK O P8K OMP K OQQ o O k L  0       SK L  *K L N   NYx     L x         L  0 M  n
+      !K NY  K N   K O   K O   K O   K O    0   &     !K O Q K OMQ K OQQ o O k L
+  0       SK L  -K L N   NYx     L x         L  0 M  n      SK NY  K N   K O   K
+ O   K O  >K O  q 0 &     SK O Q K OMQ K OQQ o O k L  0       SK L   K L N   NYx
+     L x         L  0 M   0 S 0     0}    }}    0     {         8 0       \} q }
+        LWA  NAME    AUTHTSF AUTHCMD AUTHPGM NOTBKGND                IKJEFTAPIKJ
+EFTE2IKJEFTE8IKJEFTNSNEWNAME ---AP------E2------E8------NS---   {
+    q           &                                           R
+                      8   h       w                           &       d       {
+  *       ]               Y              K 0 KuK   KuK N#  K N
+                   d   {   *                                               DCBE
+                                        u
+     d       *                                                       DCBE
+                                [                                    LWA001I LWA
+ control block is not val+ id    LWA002I '' added to '' table    LWA003I '' remo
+ved from '' table    LW  A004I '' replaced with '' in '' table    LWA005I Comman
+d Is Not Authorized    LWA006I '' Keyword Is Missing    LWA007I Required Table K
+eyword Not Specified    LWA008I  At  Key       LWA009I          LWA010I '' alrea
+dy exists in '' table    LWA011I '' No  t Found    LWA012I PARMLIB Must Be Speci
+fied with a member name    LWA013I PARMLIB READ failed, RC=X''  RS=X''     LWA01
+4I '' table updated from PARMLIB    LWA015I LOADLIB Keyword Is Missing    LWA016
+I MEMBER name can not be specified    LWA017I OPEN Fa  iled for ''     LWA018I '
+' LOAD failed, RC=X''  RS=X''     LWA019I '' Table loaded from     LWA020I '' is
+ not a valid ALIAS in     LWA021I '' table updated from LIST <  LWA022I This Pro
+gram Requires An ISPF Environment.  ISPQRY Return Code                     0   0
+                       0    &K     m{      0   j{    0o                [
+ 0%j     0%    j     0-        i    00 n     0     n     0           0   m    00
+ o{  mX
+ 
+ 
+ 
+ 
+                    [.<( |&         !$*);^ /        |,%_>?          :#@'=" abcde
+fghi       jklmnopqr       ~stuvwxyz   [               ]  {ABCDEFGHI      }JKLMN
+OPQR      \STUVWXYZ      0123456  789
+                            -         [.<(+|&         !$*);^-/        |,%_>?
+      :#@'=" abcdefghi       jklmnopqr       ~stuvwxyz   [               ]  {ABC
+DEFGHI      }JKLMNOPQR      \STUVWXYZ      0123  456789      0123456789ABCDEF
+   &0Q  0Q  0Q x           0 K 0 Q x   &0Q   j L     j L                    ,o L
+       L     o L x8   0  x      >o L  0    x8  &0O  0Q x  {&0Q q 0 x4
+    0O     &0Q  0Q  0Q x           0 K 0 Q x   &0Q    &O  -&     &  &&      : 0
+   & 0    >N N       N & Ku      & n           n+     -n-     -x! & 0  x! &
+  0  x[ & 0  & N4  N & Ku      & n      o    n+      n-           0  x! &     :
+ & N8^ N4x       O  }    N       O    0 W     0 S     0 6       0 2    & N & O
+  &N   N8^ N4 \N4  &   &  1    NY  &   O .  2. NY 0          &     &   &  &&   x
+    }  x    0 S     Kx     &       x8   0  K L  WK L N   NYx     L x         L o
+ L  0    x8  &0O  0Q x  {&0Q q 0 x4      0   & 0                              0O
+     &0Q  0Q    0Q x           0 K 0 Q x   &0Q   K O  8  N* &    x|  N &
+&&  0  x|  &-OD<-O x|     0         0      & O  -O\  O   O\     0  i0      O K
+ O K    0x    &    &   & N O           x        Yx   N &        &&  0  N O
+FK     K O    0O &0O  0Q x    {&0Q q 0 x4  K        PARMLIB                 0O
+   &0Q  0Q  0Q x           0 K 0 Q x   &0Q     n       n       n       n       x
+       o L  0 !  x8  &0O  0Q x  {&0Q q 0 x4                 0O     &0Q  0Q  0Q x
+           0 K 0 Q x   &0Q     N i   h     +      \            i\  h\        P N
+ N   N*i   h          \            i\  h\          P N*N*  O       O     P O O
+0 f     0 b    O       O     P O O  0       0 w    N    M  O    MP N N  0
+0      O         O\    P O O    0 6     0 2    P       P     P P P  0       0
+  0Q x  {&0Q q 0 x4      &0Q  0Q  0Q x           0 K 0 Q   x   &0Q    0       q
+ PY   0         0      & OU  OY  PU     U 1    O K O{  K   OUK OQ    OMK   OY \N
+ O S-L   O{        OQ    P O{O{P OQOQ 0 h     0 d   0    x8  &0O  0Q x  {&0Q q 0
+ x4         &     0O   &0Q  0Q  0Q x           0 K 0 Q x   &0Q       OQ       0
+h       0OQ 0          OQ   0         0      & OU    OY  O{     U 1    O K   OUK
+ O{OU  OMK   OY 0     0Q x  {&0Q q 0 x4           &       3OQ  &0Q  0Q  0Q x
+       0 K 0 Q x   &0Q   j L       L     m L j L                    ,m L  0Q x
+{&0Q q   0 x4          &0Q  0Q  0Q x           0 K 0 Q x   &0Q   K L   K L O k(L
+ K L Ku ^O{    K L & k)L K L   3dL O{ 0    L 0 k L K L  {3 L O  0    L 0 k L K M
+  DK M Ku    OQ    K M  H+ K8o K 3 M K8K M   K M-  K M Kuj O     K M    0    OQ
+   K M KuK M   x        }  L   L   L  &M  -M- 0 M    O{   d  P OHOHx       OQ
+   & OHK L  QK L KuK L   K L KuK L  \K L KuK M  UK M KuK M- YK M KuK M   K M Ku
+0 0     dK L O [ O   OQ      OH   ; 0 0     ;K L O [ O   OQ   m  OH   ; 0 0
+;K L O [ O   OQ      OH   ; 0 0       ;K M O [ O   OQ      OH   ; 0 0     ;K M O
+ [ O   OQ      OH   ; 0 0     ;K M O [ O   OQ      OH   ;x      4  L   L   L  &M
+  -M-  M  0 M    OQ      OH     0 dx      4  L   L   L  &M  -M-  M  0 M  x
+8 0 M   0Q x  {&0Q q 0 x4         Decimal             .        LEN=
+                          u   6    STEPLIBLPA  &0Q  0Q  0Q x           0 K 0 Q x
+   &0Q   K O Ku  x   N O               N                    0Q x  {&0Q q 0 x4  K
+ O             j O   &0Q  0Q  0Q x           0 K 0 Q x   &0Q     n        h -  K
+ NY  K N   K O   K O   K O   K O P K OMP0  P        h& O{K OQP4        P4      &
+ OHn      hN   O     [ O   P4      OH    n        -  K NY  K N   K O   K O   K O
+   K O P8K OMP   P8        & O{K OQQ         Q    Y  & OHn       N   O     [ O
+   P4   Y  OH   Yn      m -  K NY  K N   K O   K O   K O   K O Q K OMQ   Q
+  m& O{K OQQ         Q    >  & OHn      mN   O     [ O   P4   >  OH   >n
+-  K NY  K N   K O   K O   K O   K O Q K OMQ   Q         & O{K OQQ         Q
+4  & OH        N      !    N   O       O      2    [ O   P4   4  OH   4 0  &-N-
+  5^0O{&0Oqj L    MK L   K L O   O x     L K L   K L N   NYx     L x         L
+ L o L  0     0 M  j L    MK L  <K L O   O x     L x      &  L o L  0    m3L  5&
+0O  0Q x  {&0Q q 0 x4  N   O       AUTHTSF IKJEFTAPAUTHCMD IKJEFTE2AUTHPGM IKJEF
+TE8NOTBKGNDIKJEFTNS                                 0O     &0Q  0Q  0Q x
+   0 K 0 Q x   &0Q      3OQ     0O   0     &0O{x   N O  >      0    +N 0      +
+0  j 0    +[0O  0  [0O &0O  0Q x  {&0Q q 0 x4             0O     &0Q  0Q  0Q x
+         0 K 0 Q x   &0Q     O   O    6N O       x[   0  x[  & O     O     n-
+   x[  x!   0  &&O      6x!  &&OD<&O x!   0         0      & O  &O\  O   O\
+0  i0      O K   O K     x    &O  -O N O         &  0    & 0 +       x   K   & x
+   x!   -  N O       K     x8   0  x8  &0O  0Q x  {&0Q q 0   x4   PARMLIB
+  0O     &0Q  0Q  0Q x           0 K 0 Q x   &0Q    0  K O 0 K P N| 0 !K P 0  0P
+ &0O  \  &\O &\P% 0 ;K P@0   P@     O &        j P     P PuPuK Pu wK Pw y  PyK
+   O   O   Pu              j                   P  }    P    {  P    { 0
+0       0         0 F    & P & P  0  K Pd0   P   Pd  O &     O &       &   o   o
+   o    0   :     *& PUK    +  O     O   O        0       0 <      O    X   -\
+     K \ - &-Pm  K k    \O &  &/  k    0   70     K  \     7\   n -    <  K j K
+       K        0K . 0   & Pq -Pq   <N - O    S    -  0   --  0 F  PY 0    K L
+|K L O K L  >K L N:  N x     L x         L   L  0    x8   0  x   K L  :K L N|
+=o L  0    x8   0  &0O & O K L  bK L O K L  f3dL O  0    L 0 k L K L   3dL O  0
+   L 0 k LDx      k  L     L   L o L  0    x8   0  K L  oK L O K L   K L N:  N x
+     L x         L   L  0    x8   0  j P      0 sK P 0   P      O &        &0O
+  0Q x  {&0Q q 0 x4     PARMLIB   m           D   [
+      .       [           o   {     0O       &0Q  0Q  0Q x           0 K 0 Q x
+ &0Q    ( 0     8    K     K(     0     8     Mx         L o L  0 !   0Q x  {&0Q
+ q 0 x4               \O   &0Q  0Q  0Q x           0 K 0 Q x   &0Q   j L     n
+    :  N   L   L P L L   N &   &    \L &\   \K &\  k \   k \   N & \  0  j 1  \
+  01    0 : 0          IKJPUTL   m L  0Q x  {&0Q q 0 x4      &0Q  0Q  0Q x
+     0 K 0 Q x   &0Q   P O O P O O   N|& N x     N K N|Kun                     N
+:& N K N:Kuk'N:     [  N@k'  x     N:    N K N Ku                 &    }< 0  P,
+   &1  k   k 0 k 0  \  &\0  0     \N   N   0       k 0 k 0 &0      k 0 k 0 k 0 K
+ 0  *&0      K 0   &0      k    0  K 0 \              K N|\   O   O     K O  %
+ O    0         0      P     & O   K   O   O   O P     &     J}P     K     k   O
+       K   N|K   N &   K   {  0         H  0 &0O & O      2N O      dN O      d
+&  !& @K O          0 \       0    P O O  0   ^     O    &&O & O  0 Ox       o L
+  0 d   0 O    &\   \  &0\ &\   \ h&\   \  &\  P        0 -   *    IKJEFF18   0
+                              0 OK L   3dL O  0    L 0 k L K L  m3dL O  0    L 0
+ k L x      q  L   L o L  0 d   0 O  }< 0  &1  P     k 0 k 0  \  &\0  0     \N
+ N   0       k 0 k 0 &0      k   k    0  K 0 \      0Q x  {&0Q q 0 x4  K N#  K N
+                             PRLB                                 .         -
+ &0Q  0Q  0Q x           0 K 0 Q x   &0Q   x8  P O{O{ &O  -OM  &     &\O{ 0
+         O\     0         0      & OU    OY  O      U 1  & &   -  \N K YO O S-L
+   O{   o    OQ   o 0       0     0    x8  &0O  0  Q x  {&0Q q 0 x4     &     0O
+     &0Q  0Q  0Q x           0 K 0 Q x   &0Q   P O O K|O Ku                  O
+      0  x      ;  L o L  0     0Q x  {&0Q q 0 x4  K O               j O
+          DISPLAY-    ADD  ANY-    BUILD-    DELETE-    DISPLAY-      RELOAD-
+ REPLACE-    UPDATE      -    ALL IKJEFTAP IKJEFTE2 IKJEFTE8 IKJEFTNS      -
+IKJEFTAP  TAP AUTHTSF      -    IKJEFTE2  TE2 AUTHCMD      -    IKJEFTE8  TE8 AU
+THPGM      -    IKJEFTNS  TNS NOTBKGND           NAME k           NEWNAME      +
+        PARMLIB 3           LOADLIB             LIST        -    NOMESSAGES    N
+OMSG   m            NAME  Command Or Program Name  2m            NEWNAME  New Co
+mmand Or Program Name           IKJTSOXX Input Data Set           IKJTABLS Load
+Library        -  Table List Data Set                       NAMES     m
+   NAME  Com  mand Or Program Name          ?             0
+  U   8               u                       {   D   }   M   \   U   Y       0
+  8                                                           <   &
+          Y                       Q               Y ]       0       %     ?
+m       d                           m   q       u                           <
+&           %       @                   d   h   m       h                 ?
+        ?              TSUB           HEPUTL      H         ?
+ 
+ 
+                z
+     ?         5695PMB01        j"     ?        d     569623400           ?
+                \   H           ?     \ 00     TSUB Ver 1.37   SVC 242 - 03/24/1
+1 02.49    }   &                    -   --   ?       { & } &}   J 0{
+                                                               k   k   k   k   k
+   k   k   k   k   k  ]k   k   k   k   k     P     P     K  Ux k x K x x K   x K
+   x P     P     P  m mP     K  6x K  Cx k   K                                 E
+*        &  H    &  }    &         A j     A j     E*       %    &   && M &  &&
+M &  && Q &  &&   & y&& \   &   & U    AUo  ] & 0 & W      A6o  ] & 2 & Y    B o
+  ] &   &      B o  ] & MK    Y  ~W           <&       &               B &  {o
+             Bb&  Do    0Bm         0     0B          0     0B%    N       Bwo
+         Ek        E*         }E*   ; 0&       &  q  .&    EH &EH&& &       
+  \  $\     0 \C q   0C K             !  q&             n     C+n     C+
+  e  C+  C K   x                 &  %&  YO   x nX    C=o   j     C   s  0E nR
+ C nB    CSnD    C nH    C2nL    C nM    C nZ    D nS    D nP    D  0D o    0D;o
+    0  D;o    0D;o    0D;o   o    0D;o    0D;o    0D;o    0D;Kh    K      1
+      0      q1  K  B           0         0E*K     j     Do   Kh             0
+     x      0    q  Kh    K      1           0      q1  K  B           0    N
+  !  E N    *  G N      ;  I N    -    N        6N              0E* }}  5&0}  \}
+ q }   Kh             0    Kh    Kh             0     &   0E Kh             0
+ Kh    Kh             0     & 4 0E Kh             0    Kh    Kh             0
+  & 8 0E Kh             0    Kh      Kh             0     &   0E o   K    !
+      Q&   &  d  v   w         j     F j  ]  F@o      K y    1     W     0y
+ q1  k.y   y      0    q   0Fq   K y)    y      0    q  j     F{   K y     y
+      0    q   0F    K yQ    yK     0    q    u  K    &      W    F   ]  0G K
+    W     d  $   &  @  h&   & &&& h   Kh    &  m   h+   K   x          mK    8
+        0    q   &  &&    &   j     G=         0E        @     0E o   K    *
+         &   &  d  v   w         j     H%j  ]  H o      K y    1       Y     0y
+     q1  k.y   y      0    q   0H    K y)    y      0    q  j     H&   K y
+   y      0    q   0H%   K yQ    yK     0    q    uK    &      Y    H   ]  0H
+kK    Y     d  $   &  @  h&   & &&& h   Kh    &  m   h+   K   x          mK
+  8         0    q   &  &&    &   j     I          0E        @     0E o   K
+;           \&   &  d  v   w         j     I j  ]  I o      K y    1
+0y     q1  k.y   y      0    q   0I    K y)    y      0    q  j     I\   K y
+     y      0      q   0I    K yQ    yK     0    q    uK    &               ]
+  0  K          d  $   &  @  h&   & &&& h   Kh    &  m   h+   K   x          mK
+    8         0    q   &  &&    &   j                0E        @     0E o   K
+  -j      M           {  &  -     Kh    K    Y 1     -     0      q1
+0    q            &  @    &  h    &      Kh    K      1           0      q1
+        0    Kh    &  m   h+   K   x          mK    8         0    q     {    &
+    &    &   j      D         0E        @    +  0E Kh    K    {         0     0E
+* 0E o   K     j                  D  &  -     Kh    K    Y 1     -     0      q
+1           0    q            &  @    &  h    &      Kh    K      1
+0      q1           0    Kh    &  m   h+   K   x          mK    8         0    q
+     D    &    &    &   j                0E        @       0E Kh    K
+    0     0E* 0E o   K             o      M&   &  d  v   w   ]H    j       j  ]
+  {o      K y    1     U     0y     q1  k.y   y      0    q   0     K y)    y
+      0    q  j          K y     y      0    q   0     K yQ    yK       0
+ q    uK    &      U           0  K    U     d  &  @  $&     h      )     q  h&
+& h   Kh    &  m   h+   K   x          mK    8         0    q     &  &&    &
+ j      }         0E        @     0E   z      0      z      0     0EHKh    K
+ K  I !           0     0E*Kh    K     K  I *         0     0E*Kh    K     K  I
+;         0     0E*Kh    K     K  I           0     0E*Kh    K    VK
+  0     0E*
+                                 K     K  C  K     K  U  2     &   K 0   3 0 0
+ 0    00         k 0      90123456789ABCDEF              &  0&  y   %n
+ &  % &   }E* & 0 h           %      n       n        e                &  Y&   N
+  Y     8     0E*K  }  Kh     1     Y       0      q1  K  B           0       %
+ K  Cx     O  Cx Kh    K    CK  B           0       y   0 9&  4j       j       j
+       j       j       j      fj      Fj        0  Kh             0      x
+0    K z   K zm  K z  C  zg     0     0  Kh               0      x      0    K z
+   K zG  K zU C  z      0     0  j       N         Kh    K    @         0     0
+   z      0     0  j       Kh             0      x      0             0      uK
+0  j       Kh             0      x      0    K  _   1           0        q1  N
+        1           0 o    q1   0  j        1           0 o    q1   0   1
+    0 o    q1  k.     !     0    K y    1           0y     q1  k.y   y      0
+  0  j       Kh             0      x      0    K      1           0      q1  k.
+{           0    K y)    y      0     0     4 9&  8j       j       j       j
+   j       j          Y e   m &   } m$&      j       j            0  j       j
+          0E*     0E*   8 9&   K    %    n           &    0 H     9      Table a
+ddress:  Number of   valid entries:   H                        No PLATCMD table
+foundNo PLATPGM table found  E2E8APPCPPNSTable length in Hex:  Display of Slot c
+ontents.     IKJProgram table code + Function code PC command not valid if no PC
+ table exists.PP command not vali  d if no PP table exists.Length of commandNew
+program name &   Kh    Kh  x K   {          0-   Kh    Kh  x#         0-
+9&   j       j       &  q  -  2   q     y         ,j      Sn      Sj      +j
+  Uj      U    K   -  0 Sj      8         0 Sj            | 0 Sj         ~  0 S
+   j       N  Cx    SK    C 0 Sj      S    K   x  0 S    j       N  Cx    SK
+}K    C 0 Sj      kj      k    K   -  0 Sj      w  ]H     0 Sj          | 0 Sj
+    F  ~  0 Sj      S    K   -0K   x  0 S               ,&  q  + -  2   q     9&
+   j       Kh             0-     [      0-     [X     0-              0-      B
+    0-   Kh             0-            0-      !     0-      p     0-      R
+0-            0-            0-   Kh             0-      Z     0-     [_     0-
+   [      0-            0-            0-      /     0-        9&   Kh
+    0-        9&   Kh             0-        9&   Kh             0-        9&   &
+   &  D&& }&   j      wj      wj      wj      wj      w             h &      &
+*&   N   -             Kh    K   -2    +   K   x       K  P/    h+   K  1x    1
+          0  -    0E*Kh    K     K   /:+   K   x       K  Ox    O  j       K  P
+ N  Px    0K  P- o   j      0&   &  * 0   1           0 P    q1  K     N   x
+0K   - o   j      0&   &  * 0  N   -     N    *    o   &            0  K  6
+      0-   j      *j        *   @   *    &       &  *&       N    * } w    +   K
+   x       K  P/    *+   K  1x    1           0-   o          D & }         9&
+ &      %n      Y    &  % &-{ }E*$&-{ 0 D           %      n       n        e
+ n0      n9                  &  Y&   K  0       %  K  Ux         |   &   Kh    K
+    UK  B/          0-       &     &  %         9&   &&  &  H & dP     P  m m
+  && K   & N - &   ] N w &   ] N / &   ]      Hn     ] N - &   ] N - &   ] N - &
+   ] N -&&   ]      &&    m! -{&  m 0       &&     ! -{&       ] &&]   ]>j     ]
+&  w o      H &       9            &  <&& \ &] N - &   ]sN   {   ]s    ! -{&
+&&  0]:        ]   i     ]|[ ]   ]% & \   < 9&   &&  &  H & dP     P  m m     &&
+ K   & K   & N wY&    |N w2&    |N -0&      0       Hn      =N / &        0 =
+  Hn      =     Hn      =     &&    m! -{&  m 0]      &&     ! -{&       && y
+ j      o  w o      H &       9          &  <&& \ & yN - &     N -0&     N / &
+   N   {         ! -{&    &&  0                 h      * -D    [       q  h & \
+  < 9&     &   &  {j      !    j      |j      wj      Sj        0 !j      bK  0]
+%K   ]% 0  K  0] K   ] j      sK  0-0K   -0 0 !j       K  2]%K   ]% 0  K  2] K
+ ] j       K  2-0K   -0 0 !j       K   ]%K   ]% 0  K   ] K   ] j       K   -0K
+ -0 0 !j       K       K      0  K     K     j       K   -0K   -0 0 !       {
+  9  &   &  u    j     ~ j       j      wj       j       o  Y 0  o  Y 0  o  Y 0
+ o  Y 0  Kh             0-     x      0-   Kh    K   /~K              0-    0~
+    z      0-   q   0~    u     9&     &  u    j     ~Bj     ~*j     ~ j     ~
+%j     ~ m  Y 0~@m  Y 0~@m" Y 0~@m  Y 0~@Kh             0-     x      0-   Kh
+ K   /YK              0-    0~      z      0-   q   0~    u     9&   && Q&
+&      K s&  K s   K s   K s*  K s-  K s   K s   K   s% <K s   K s   K s   K s@
+  & Q         9                                                &   j     u Kh
+ K   u          0-   Kh    K   -H         0-   Kh    K   u          0-   Kh    K
+   -U 1    s&     0      q1   1    s      0 I    q1           0-     Kh    K   -
+Y 1    s      0      q1   1    s*     0 I    q1           0-   Kh    K   -  1
+ s-     0      q1   1    s      0 I    q1           0-   Kh    K   /  1    s
+  0      q1   1    s%     0 I    q1           0-   Kh    K   /  1    s      0
+ +   q1   1    s      0 I    q1           0-   Kh    K   /[ 1    s      0
+ q1   1    s@     0 I    q1           0-   Kh    K   u          0-        9-----
+-----------------------&         dK     &   Kh    K     K  D           0-   Kh
+   q       9&      Kh    K   -  1     d     0 I    q1           0-   q  N  ds
+&  v N  ds   v   o    0v N  ds   v N  ds*  v o    0v N  ds-  v N  ds   v o    0v
+ N  ds   vFN  ds%  vFo    0v N  ds   vSN  ds   vSo    0v N  ds   v N  ds@  v o
+  0v    Kh    j     w K   -  0w K   /&         0-   q       9&   j     w-  z|
+    0-     z      0-        9  &   j     wS   Kh       m+   K   x       K   - K
+  Q           0-   Kh        +   K   x       K   -qK  Q           0-   q
+9
+    TSUB Command - Display/Change USERID Aut  h Table Entry - xxxxxxxx---- -----
+--   ------- ------ ------ ---- ----- -----   --------  **--------   AFTER MAKIN
+G CHANGES   -------**  **--- STATE BEFORE MAKING TABLE CHANGES ---**Table XX poi
+nted to by the LWA has length available. Hex xxxx Table XX   pointed to by the L
+WA has no lengths. Blanks will delimit.Table XX pointed to by the LWA came from
+an APF STEPLIB.Table XX pointed to by the LWA did not come from an APF STEPLIB.C
+ommand was not invoked APF authorized.Nothing was changed.  Table is in LP  ALIB
+, and we will not attempt to alter it.Slot      in XX table has been changed to
+        .Slot      in XX table has been blanked.
+                                     Last 8 bytes of table header altered to " P
+ARMLIB".   LWA size for table    has been changed from Hex xxxx to Hex xxxx.LWA
+size for table    is now Hex xxxx.   Supply a table code TT, followed by an acti
+on code A.Supply a program name, as the next parameter.   Valid table  codes are
+:  E2, E8, AP, NS, PC, P  P. Valid action codes are:  R - replace, B - blank, D
+- display,  H - header, L - supply full table length, Z - zero table length,  S
+- mark table from STEPLIB, P - mark table from PARMLIB,  X - display LPA storage
+ ranges, M - supply minimum table lengt  h.Please supply a program name.  Full c
+ommand is in the form TTA, TT=table code, A=action code.Please supply slot numbe
+r to change, and program name.If D (display) is followed by a slot number, only
+that slot is shown.R (replace) requires a slot number,   followed by a program n
+ame.If D is not followed by a number, then the entire table is displayed.  Instr
+uctions to use this program:                    ------------ -- --- ---- -------
+                   B (blank) blanks the slot number given. Higher slo  ts are in
+validated.D does not need APF authorization. All other codes require it.TSUB TTA
+ nnn pgmname (nnn optional for D, both required for R)Codes: H,L,M,Z,P,S,X do no
+t require extra parameters.Please supply slot number to blank out. BE CAREFUL !R
+etur  n Code = 0 Return Code = 4 Return Code = 8 Return Code = 12
+                             No Parmlib-supplied XX table was found in storage.
+Supplied character        was not numeric. Table address:   PARMLIB*empty*
+   IKJEFTE2IKJEFTE8+ IKJEFTAPIKJEFTNSTable address lies within an LPA region.Non
+-blank table entr  ies:Perceived blank entries:   HAUTHNONE             --- LPA
+RANGE DISPLAY ---  MLPAFLPAPLPA  Slot number specified is bigger than table size
+ exceeds scanned table size  E-MLPAE-FLPAE-PLPATable address is not within an LP
+A region.Table Entry Number:Entr  y slot number   Table    marked from STEPLIB s
+o PARMLIB UPDATE(xx) will not overlay it.Table    marked from not from STEPLIB.
+PARMLIB UPDATE(xx) can overlay. Table Header:  (these are the ones used)(potenti
+al for expansion)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

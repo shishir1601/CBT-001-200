@@ -1,0 +1,3 @@
+  TIR:   0 \PXPCMDS     @h   -        i ^   i     CN03MQK                 ZCTVER
+B         ZCTTRUNC     h  ZCTACT       i  ZCTDESC      R                    LEFT
+  0  &SCRHORZ  SCROLL LEFT                      RIGHT  0  &SCRHORZ  SCROLL RIGHT

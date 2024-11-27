@@ -1,0 +1,166 @@
+Note: The following members are in this data set
+ 
+  $$$$$$$$ -- Documentation vector
+  $$$DOC   -- This member
+  $$$$READ -- The place to start
+  $$$INST  -- PDS installation instructions (ASA controls, lower-case)
+  $$$MODS  -- General modification documentation for version 8.x
+  $$$MATCH -- PDSMATCH directory compare output example and PDSMATCH messages
+  $$$PROSE -- PDS documentation and examples (ASA controls, lower-case)
+  $$$SECUR -- PDS security exit documentation
+  $$$UNDOC -- Documentation for otherwise undocumented program features
+  $$$CTBL  -- How to maintain the system command table for PDS
+  $$$CUSTM -- How to customize PDS to add function
+  $$$CUT   -- CUT and PASTE edit macro documentation
+  $$$EAV   -- Notes on EAV support in PDS                               s
+  $$$FAMS  -- IGWFAMS interface in ISPF
+  $$$FAQ   -- PDS not so frequently asked questions
+  $$$HERC  -- How to generate PDS for a Hercules/MVS 3.8J environment
+  $$$ISDA  -- How to use ISDA (Interactive Short Disassembler) with PDS
+  $$$ISODT -- Documentation updates when using the ISO alternative date
+  $$$PDSE  -- PDSE support in version 8.6
+  $$$RCQDT -- Michael Theys Date Calendar dialog installation
+  $$$RJUST -- Sample code to right justify a field
+  $$$UCB   -- Dynamic UCB and 4-digit device number support doc
+  $$$XSTAT -- Extended ISPF statistics (z/OS 1.11) support doc
+  $$$Y2K   -- Year 2000 date support doc
+  $$CMDADD -- How to add a new subcommand (e.g., OFFLOAD) to PDS
+  $$CMDXDC -- z/XDC map and breakpoint commands used to debug PDS 8.6
+  $$CPKMAP -- Note about IKJTSOxx AUTHTSF entry required for FDRCPK (Innovation)
+  $$DRK    -- .PCX file of the Doc (Review $$drk xispmode)
+  $$GP     -- .PCX file of the Greg Price award (Review $$gp xispmode)
+  $$MXIBAT -- List of known issues with MXI 4.3
+  $$PDSABC -- PDS Action Bar Commands
+  $$PDSPPT -- .PPT file - "PDS Command Processor" presentation
+  $$PDSNEW -- .PPT file - "PDS - What's New" presentation
+  $$STRUCT -- General Register usage for PDS and @source-CSECT-Function table
+  $$S2214  -- .ZIP file - "PDS Lab - The Swiss Army Knife of Utilities" at SHARE
+  $$S2837  -- .ZIP file - "PDS - The Swiss Army Knife of Utilities" at SHARE
+  $$ZXPO08 -- .ZIP file - "PDS - The Swiss Army Knife of Utilities" at z/Expo
+  $$ZOS108 -- Note about COMPARE (SuperC) problem in z/OS 1.8
+  $$ZOS109 -- Note about Program Managment Binder Fast Data Access service
+  $$ZOS111 -- Note about ISPF extended statistics support in PDS
+  $$ZOS113 -- Note about IEBPDSE support in PDS
+  $$ZOS201 -- Note about IEC190I OPEN DCBE validation message
+  $CONDEND -- Sample batch clist run with CONDEND to stop execution on ERRORS
+  $DISKMAP -- Note about IKJTSOxx AUTHTSF entry required for DISKMAP (CBT 792)
+  $FILE182 -- CBT file 1 (doc) narrative for this distribution
+  $LOGWIDE -- Notes on "Output Log" when using the LOGWIDE option
+  $PDSART0 -- The PDS program, by Sam Golob - Course PREFACE
+  $PDSART1 -- The PDS program, by Sam Golob - Part 1
+  $PDSART2 -- The PDS program, by Sam Golob - Part 2
+  $PDSART3 -- The PDS program, by Sam Golob - Part 3
+  $PDSARTH -- The PDS program, by Sam Golob - HTML tagged format
+  $S378ABE -- Notes about S378 and S478 abends after exiting PDS
+  $....... -- Other doc members
+ 
+  M$ENTER through M$TX are PDS macros.
+ 
+  @DIALOG  -- PDS ISPMODE, MEMLIST, CAX, LISTA, LISTC and LISTV ISPF commands
+  @SUBS    -- PDS subcommand subroutines
+  @PARSE   -- PDS parse CSECT
+  @PDSMAIN -- PDS mainline code
+  @...        PDS copy members for @SUBS and @DIALOG
+ 
+  PDSORIG  -- PDS Version 1.0 code
+ 
+  PDSASMH  -- JCL to install PDS with Assembler H
+              (OS/390 2.4 and below)
+  PDSJCL   -- JCL to install PDS
+  PDSJCLAD -- JCL to install PDS with the High Level Assembler
+              and ADATA for source debugging with z/XDC
+  PDSJCLHL -- JCL to install PDS with the High Level Assembler
+  SMPINST  -- Alternate SMP controls to install PDS
+  SMPUMOD1 -- Usermod to replace TP instruction with CSRUNIC FUNCTION=TP macro
+  SMPUMOD2 -- Usermod to add scale line to ISPMODE Log screen
+  PDS$JCL  -- JCL to print $$$PROSE
+  PDSBATCH -- JCL to run PDS in batch
+  PDSHJCL  -- JCL to assemble, link and execute helplist
+  PDSPJCL  -- JCL to copy panels and the message member (as well as
+              instructions for deleting the PDS 8.5 ISPF materials)
+  PDSORIG$ -- JCL to assemble PDSORIG
+ 
+  PDSCOMP  -- Sample execution mode sensitive clist
+  PDSHELP  -- PDS help (to be placed in 'SYS1.HELP' after editing)
+  PDSHELPQ -- PDS help output from PDSQWGEN (input to Quickref Load)
+  ISPFPRIM -- ISPF sample primary options panel
+  ISPFUTIL -- ISPF sample utility options panel
+ 
+  #LSPACE  -- LSPACE expanded data area
+  #PDSGEN  -- PDS customization member (modify before assembling PDS)
+  #PDSGENU -- PDS customization member (modify before assembling PDS)
+  #PDSMODS -- PDS modification history doc (version 2.0 to 8.6)
+  #PDSTBL  -- PDS subcommand table (modify if subcommands are renamed)
+  @DIATBL  -- Dialog command table (modify if subcommands are renamed)
+ 
+  #MDSECT  -- PDS main GETMAIN area
+  #SPWRKA  -- ISPMODE and MEMLIST area (in #MDSECT)
+ 
+  P86@CUA  -- PDS primary panel
+  P86PN@P  -- Old PDS primary panel (non-CUA)
+  PDS@PRIM -- PDS primary panel (alias of P86@CUA)
+  P86LO@P  -- PDS o line command primary panel for source members
+  P86LL@P  -- PDS o line command primary panel for load members
+  P86OP@P  -- PDS o command primary panel
+  P86OS@P  -- PDS o command primary panel (sequential data sets)
+  P86..... -- PDS panels
+  PDSM86   -- PDS messages member
+ 
+  CUT....  -- CUT edit macro and panels
+  PASTE..  -- PASTE edit macro and panels
+  EQUAL    -- EQUAL edit macro
+  RCQDATE. -- RCQDATE clist and panels (Michael Theys Calendar App)
+  REEQUAL  -- REEQUAL edit macro
+  SHOWCUT. -- SHOWCUT edit macro and panel
+  COMXMIT  -- COMPAREC (SuperC) and COMPAREW (Comparex) commands
+              in TSO XMIT format (load modules)
+  UTILXMIT -- BLKDISK, COBANAL, COMPARE*, DELINKI, DISASM, DSAT, DVOL,
+              HEL, MXI, OFFLOAD, PDSLOAD, PDSMATCH, RELEASE, REVIEW,
+              and VTOC commands in TSO XMIT format (load modules)
+  Z035XMIT -- PDS, PDS38, PDS86, PDS86I, PDS8638 commands
+              in TSO XMIT format (load modules)
+  ACFC     -- ACFC rexx edit macro (compile ACF2 access/resource rule)
+  CBTFTP   -- CBTFTP rexx example (FTP pop-up dialog to XMIT/FTP CBT)
+  IDCAMS   -- IDCAMS rexx example (edit macro to run IDCAMS commands)
+  ABEHELP  -- ABE TSO help member
+  HELPLIST -- HELPLIST assembler source code
+  PDSBOOK  -- PDSBOOK rexx exec to create a PDS quick reference booklet
+              from the PDSHELP member
+  PDSMSGS  -- PDSMSGS rexx exec to create a list of PDS messages
+              from the PDSHELP member
+  PDSLAB   -- SHARE 2214 - PDS Lab instructions for running at home
+  PDSLIBDF -- PDS LIBDEF clist
+  PDSQWGEN -- Edit macro to generate Quickref K (index) tags in PDSHELP
+  PDSQWLOD -- Loads PDSHELPQ to a MVS/QuickRef User database
+  PDSSETUP -- SHARE 2214 - PDS Lab setup clist
+  PDSTI    -- PDSTI rexx exec to run CA-1 tape inquiry from LISTC/LISTF
+  PDSTRAP  -- PDSTRAP clist for 80-byte wide View Log
+  PDSTRAPT -- PDSTRAPT test clist for TRAP function
+  PDSTRAPW -- PDSTRAP clist for > 80-byte wide View Log (&LOGWIDE=YES)
+  PDSTRIM  -- PDSTRIM rexx example (trim VB LRECL down to largest LRECL)
+  RRGEN    -- RRGEN programming facility for System/360
+  SAMPM1   -- Message member for dialog clist example
+  SAMPPREP -- ISPPREP dialog clist example
+  SAMPPRE1 -- ISPPREP dialog panel 1
+  SAMPPRE2 -- ISPPREP dialog panel 2
+  SCPASMCL -- Assembly dialog clist example
+  SCPASML  -- Link dialog clist example
+  SCPBATAS -- Batch assembly submit dialog clist example
+  SCPBATA1 -- Skeleton JCL statements for SCPBATAS
+  SCPDSN   -- Support panel for SCPPREP clist example
+  SCPPREP  -- Panel preprocessor panel clist example
+  SCPENT1  -- Support panel for dialog clist example
+  SCPM01   -- Message member for dialog clist example
+  SUPC     -- SUPC rexx exec used in line command panel P86LOUX
+  VISTAMAC -- Vista tn3270 macro:  SELECT member from list with mouse
+ 
+  SPFPRIM  -- SPF version 0 sample primary options panel
+  SPFMSGS  -- SPF version 0 PDS messages member
+ 
+  VSUBCMD  -- A sample exit (with installation JCL) to check subcommands
+  VTSOACF2 -- A sample ACF2 R4.0 exit to check TSO commands -- modified 6/12/85
+  VTSOCMD  -- A sample exit (with installation JCL) to check TSO commands
+  VTSOPCF  -- A sample PCF II exit to check TSO commands
+  VTSORACF -- A sample RACF exit to check TSO commands
+ 
+  ******** -- A few old members not mentioned in this doc file

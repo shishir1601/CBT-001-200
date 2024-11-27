@@ -1,0 +1,1479 @@
+             K     K     K     K     2  y  &  4K 0   3 0 0   0    00         k 0
+    4 90123456789ABCDEF              &  8&       n           &    &   }E* & 0 h
+                 n       n        e                &  0&  MN  0     8     0E*K
+Q OKh ]   1     0       0 ]    q1  K        ]     0          K   x     O   x Kh
+]  K  ]  K        ]     0           8 9&   j       j  F    j       j       j
+   j      fj      Fj        0  Kh ]     ]     0      x      0    K z  UK zq  K z
+     z      0     0  Kh ]     ]       0      x      0    K zC UK z   K zY    z
+    0     0  j       N  -      Kh ]  K  ] @   ]     0     0    z      0     0  j
+       Kh ]     ]     0      x      0             0      uO 0  j       Kh ]
+]     0      x      0    K    % 1           0        q1  N  %       1
+0      q1   0  j        1           0      q1   0   1           0      q1  k.
+  ;     0    K y    1           0y     q1  k.y!  y      0     0  j       Kh ]
+  ]     0      x      0    K    % 1           0 {    q1  k. D           0    K y
+/    y$     0     0       9&   j  {    j       j       j       j       j
+  0 e   m &   } m$&     {j       j            0  j       j            0E*     0E
+*     9&   K         n           &    0 H     9      Table address:  Number of
+ valid entries:   }                        No PLATCMD table foundNo PLATPGM tabl
+e found  E2E8APPCPPNSTable length in Hex:  Display of Slot contents.     IKJProg
+ram table code + Function code PC command not valid if no PC table exists.PP com
+mand not vali  d if no PP table exists.Length of commandNew program name &   Kh
+]  Kh ]x K  5{    ]     0-   Kh ]  Kh ]x"   ]     0-        9&   j  F    j
+ &         -  y                   ,j      Wn      Wj  C    j      Yj      Y    K
+   -  0 Wj          k     0   Wj          > 0 Wj         ~  0 W   @j       N   x
+    WK      0 Wj      W   @K   x  0 W   @j       N   x    WK    QK      0 Wj
+  oj      o    K   -  0 Wj         ]      0 Wj          > 0 Wj         ~  0 Wj
+    W   @K   -8K   x  0 W     0         ,& +     -{ y         9&   j  {    Kh ]
+    ]     0-     [      0-     [      0-        t     0-      F     0-   Kh ]
+  ]     0-            0-      ;     0-            0-            0-            0-
+            0-   Kh ]     ]     0-            0-     [      0-     [      0-
+        0-           0-            0-        9&   Kh ]             0-        9&
+   Kh ]     !     0-        9&   Kh ]           0-        9&   &  {&   && Q&   j
+       j       j       j       j                h     & m    &   &  @N  --D   [
+  -   [Kh ]  K  ]-    -+   K  Lx    L #K   /     +   K  9x    9 #   ]       0-
+  0E*Kh ]  K  ]  K  {/b+   K  Lx    L #K   x      #j  C    K     N   x    4K   -
+ o  Fj  F   4&  @&    0   1           0      q1  K  V  N  Vx    4K  V- o  Fj  F
+  4&  @&    0  N  --D    N  -      o  F&  @         0  K        ]     0-   j  F
+  -j    F   -   d   -    &  @    &   &      [N  -   }     -+   K  Lx    L #K   /
+     +   K  9x    9 #   ]     0-   o  F   {     & Q         9&   &       n
+     &    &-H }E*$&-H 0 H                  n       n        e    n0      n9
+             &  0&  4  K  8 6      K   x         |  y&  -Kh ]  K  ]  K   /n   ]
+    0-       &     &            9&   && U&  } &  P  q qP          && K   & N - &
+   ] N x &   ] N /y&   ]      }n     ] N - &   ] N - &   ] N -&&   ] N - &   ]
+    &&     ! -H&    0       &&    q!   -H&  q  ]%&&]   ] j     ]   w|o      } &
+U     9            &   && Y &] N - &   ]wN  q{   ]w   q! -H&  q &&  0]=   q    ]
+   i     ]>[ ]%  ]  & Y     9&   && U&  } &  P  q qP          && K   & K   & N w
+ &    >N w6&    >N -8&      0       }n      bN / &        0 b     }n      b
+}n      b     &&     ! -H&    0]0     &&    q! -H&  q    &&      j         w|o
+    } & U     9          &   && Y &  N - &     N -8&     N / &     N  q{
+q! -H&  q &&  0 B   q                  * -     [       q    & Y       9&   &  y&
+  Hj      ;    j      >j       j      Wj        0 ;j      fK  0] K   ]  0 kK  0]
+%K   ]%j      wK  0-8K   -8 0 ;j      BK  2] K   ]  0  K  2]%K   ]%j      SK  2-
+8K   -8 0 ;j       K   ] K   ]  0  K   ]%K   ]%j       K   -8K   -8 0 ;j       K
+       K      0  K     K     j      !K   -8K   -8 0 ;   y   H     9  &   &
+ j     ~ j      sj       j       j       o  Y 0 Bo  Y 0 Bo  Y 0 Bo  Y 0 BKh ]
+  ]     0-     x      0-   Kh ]  K  ]/zK  C %   ]     0-    0~      z      0-
+ q   0~            9&   &       j     ~Fj     ~-j     ~ j     ~ j     ~ m  Y 0~
+ m  Y 0~ m" Y 0~ m  Y 0~ Kh ]     ]     0-     x      0-   Kh ]  K  ]/0K  C %
+]     0-    0~\     z      0-   q   0~\         9&   && \&  M &      K s   K s
+   K s*  K s-  K s   K s   K s%    K s  <K s   K s   K s@  K s    & \   M     9
+                                               &   j  {  u Kh ]  K  ]u    ]
+0-   Kh ]  K  ]-}   ]     0-   Kh ]  K  ]u    ]     0-   Kh ]  K  ]-  1    s
+  0 G    q1   1    s      0 J    q1     ]       0-   Kh ]  K  ]-0 1    s*     0
+G    q1   1    s-     0 J    q1     ]     0-   Kh ]  K  ]-4 1    s      0 G    q
+1   1    s      0 J    q1     ]     0-   Kh ]  K  ]/  1    s%     0 G    q1   1
+   s      0 J    q1     ]     0-   Kh ]  K  ]/< 1    s      0+  G    q1   1    s
+      0 J    q1     ]     0-   Kh ]  K  ]/  1    s@     0 G      q1   1    s
+  0 J    q1     ]     0-   Kh ]  K  ]u    ]     0-        9---------------------
+-------&          K     &   Kh ]  K  ]  K        ]     0-   Kh ]  q       9&
+<   Kh ]  K  ]-  1           0 J    q1     ]     0-   q  N   s   v N   s     v
+ o    0w N   s*  vkN   s-  vko    0w N   s   v N   s   v o    0w N   s%  v N   s
+   v o    0w N   s   vWN   s   vWo    0w N   s@  w N   s   w o    0w    Kh ]  j
+     w K  ]-- 0w K  ]/    ]     0-   q     < 9&   j     w   z      0-     z
+  0-          9&  &j     wW   Kh ]      +   K  Lx    L #K  ]-hK  \     ]     0-
+   Kh ]     q+   K  Lx    L #K  ]- K  \ ^   ]     0-   q     & 9
+                                                                    TSUB Command
+ - Display/Change USERID   Auth Table Entry - xxxxxxxx---- -------   ------- ---
+--- ------ ---- ----- -----   --------  **--------   AFTER MAKING CHANGES   ----
+---**  **--- STATE BEFORE MAKING TABLE CHANGES ---**Table XX pointed to by the L
+WA has length available. Hex xxxx Table   XX pointed to by the LWA has no length
+s. Blanks will delimit.Table XX pointed to by the LWA came from an APF STEPLIB.T
+able XX pointed to by the LWA did not come from an APF STEPLIB.Command was not i
+nvoked APF authorized.Nothing was changed.  Table is i  n LPALIB, and we will no
+t attempt to alter it.Slot      in XX table has been changed to         .Slot
+   in XX table has been blanked.
+                     Last 8 bytes of table header altered to " PARMLI  B". LWA s
+ize for table    has been changed from Hex xxxx to Hex xxxx.LWA size for table
+  is now Hex xxxx.   Supply a table code TT, followed by an action code A.Supply
+ a program name, as the next parameter.   Valid table  codes are:  E2, E8, AP, N
+S, P  C, PP. Valid action codes are:  R - replace, B - blank, D - display,  H -
+header, L - supply full table length, Z - zero table length,  S - mark table fro
+m STEPLIB, P - mark table from PARMLIB,  X - display LPA storage ranges, M - sup
+ply minimum table l  ength.Please supply a program name.  Full command is in the
+ form TTA, TT=table code, A=action code.Please supply slot number to change, and
+ program name.If D (display) is followed by a slot number, only that slot is sho
+wn.R (replace) requires a slot num  ber, followed by a program name.If D is not
+followed by a number, then the entire table is displayed.  Instructions to use t
+his program:                    ------------ -- --- ---- -------
+   B (blank) blanks the slot number given. Higher   slots are invalidated.D does
+ not need APF authorization. All other codes require it.TSUB TTA nnn pgmname (nn
+n optional for D, both required for R)Codes: H,L,M,Z,P,S,X do not require extra
+parameters.Please supply slot number to blank out. BE CAREFUL !R  eturn Code = 0
+ Return Code = 4 Return Code = 8 Return Code = 12
+             No Parmlib-supplied XX table was found in storage. Supplied charact
+er        was not numeric.     Table address:   PARMLIB*empty*         IKJEFTE2+
+ IKJEFTE8IKJEFTAPIKJEFTNSTable address lies within an LPA region.Non-blank ta  b
+le entries:Perceived blank entries:   }AUTHNONE             --- LPA RANGE DISPLA
+Y ---  MLPAFLPAPLPA  Slot number specified is bigger than table size exceeds sca
+nned table size  E-MLPAE-FLPAE-PLPATable address is not within an LPA region.Tab
+le Entry Num  ber:Entry slot number   Table    marked from STEPLIB so PARMLIB UP
+DATE(xx) will not overlay it.Table    marked from not from STEPLIB. PARMLIB UPDA
+TE(xx) can overlay. Table Header:  (these are the ones used)(potential for expan
+sion)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                  $                               #@    ABCDEFGHI       JKLMNOPQ
+R        STUVWXYZ                         ABCDEFGHI       JKLMNOPQR        STUVW
+XYZ                        }      0{           {  0{     &   &J   J    q \  0
+  }{  0   & }{  &A   {  5   0} P }|}| & &A              -      P } } P }*}*  }<&
+-  &    \} &\   \}*&\  k \ k \   } & > \  0  j 1  \{D 01    0{  0{Q        IKJPU
+TL              0{0          {Y   0{    3 \} q }   K }%             {     ?
+                                    q     ?             ?              TSUB
+       EPUTL                ?
+ 
+ 
+                                                     ?         5695PMB01     ?
+d?     ?        d     569623400     ?     ?                               ?
+  00     TSUB Ver 1.37   NOSVC - 03/27/11 11.08    }   &                    -
+  --   ?       {%& } &}   J 0{
+program name &  0Kh v uKh vx K   {    v     0-y  Kh v uKh vx    v     0-y     0
+9&  4j       j  x     1            i           q1                 ,  j  u    n
+x    j       j  u    j  w        K   -  0  j  u       h     0  j  u         0  j
+  u      ~  0      j  u    N   x     K      0  j  u        K   x  0      j  u
+@N   x     K    {K      0  j  u    j  w        K   -  0  j  u      ]{     0  j
+u           0  j  u      ~  0  j  u        K   -\K   x  0       4         ,   4
+9&  8j  y    Kh v u   v     0-y    [      0-y    [      0-y     p     0-y
+    0-y  Kh v u   v     0-y           0-y           0-y           0-y     J
+0-y           0-y       _     0-y  Kh v u   v     0-y          0-y    [      0-
+y    [      0-y           0-y     N     0-y           0-y     8 9&   Kh v u
+    0-y       9&   Kh v u   +     0-y       9&   Kh v u         0-y       9&   &
+  y&   && {&  uj  u    j  u    j    u    j  u    j  u                   & @    &
+  <&   N   -             Kh v uK  v-S    +  -K   w       K  G-8    +  -K  w
+     v     0-y   0E Kh v uK  v  K  y/|+  -K   w       K  Fw    F  j      uK  G
+ N  Gx     K  G- o   j       &   &  < 0   1             0 G    q1  K     N   x
+   K   - o   j       &   &  < 0  N   -     N    <    o   &            0  K  W
+  v     0-y  j       j          %        &       &  <&       N    < }      +  -K
+   w       K  G/    <+  -K  w         v     0-y  o      y       & {   u     9&
+   &      *n      S    &  * &-  }E $&-  0             *      n       n        e
+   n0      n9                 4&  Q&   K  \     *  K  Mx         |   &   Kh v uK
+  v MK   /'   v     0-y      &  -  &  *         9&   &&  &    &  P     P  d d
+    && K   & N - &   ] N w4&   ] N / &   ]       n     ] N - &   ] N - &   ] N -
+ &   ] N - &   ]      &&    d! - &  d 0       &&     ! - &     ]-&&]*  ] j  s  ]
+[  w;o  s     &       9          &   && } &]*N - &   ] N   {   ]     ! - &    &&
+  0]           ]w  i     ] [ ]-  ]  & }     9&   &&  &    &  P     P  d d     &&
+ K   & K  ~& N w\&     N w &     N -\&      0        n       N / &      0
+ n          ~  n  ~         &&    d! - &  d 0]U     &&     ! - &      u&&      j
+  s      w;o  s     &         9          &   && } &  N - &    2N -\&    2N / &
+  2N   {    2    ! - &    &&  0                        * -    w[  u   yq    & }
+    9&   &   &   j  u        j  w    j  w    j  w    j  w     0  j  t   :K  0] K
+   ]  0 fK  0]-K   ]-j  u    K  0-\K   -\   0  j  t    K  2] K   ]  0 BK  2]-K
+ ]-j  u   OK  2-\K   -\ 0  j  t   2K   ] K   ]  0  K   ]-K   ]-j  u    K   -\K
+ -\ 0  j  t    K    yK    y 0  K    uK    uj  u   +K   -\K   -\ 0
+9  &   &  m    j  w    j  w   oj  w    j  w   wj  w    o +  Y 0  o  Y 0  o  Y 0
+ o  Y 0  Kh v u   v     0-y    x      0-y  Kh v uK  v/j  K    -   v     0-y   0~
+      z      0-y  q   0~    m     9&   &  m    j  w  ~ j  w  ~ j  w  ~*j  w  ~
+ j  w  ~%m  Y 0~ m  Y 0~ m" Y 0~ m  Y 0~ Kh v u   v     0-y    x      0-y  Kh v
+uK  v/QK    -   v     0-y   0~M     z      0-y  q   0~M   m     9&     && H&
+  &      K s   K s<  K s&  K s   K s   K s*  K s-  K s  <K s   K s%  K s   K s
+  & H         9                                                &   j  y  uyKh v
+uK  vu    v     0-y  Kh v uK  v-    v     0-y  Kh v uK  vu    v     0-y  Kh v uK
+  v-M   1    s      0      q1   1    s<     0      q1     v     0-y  Kh v uK  v-
+Q 1    s&     0      q1   1    s      0      q1     v     0-y  Kh v uK  v-  1
+ s      0      q1   1    s*     0      q1     v     0-y  Kh v uK  v/  1    s-
+  0      q1   1    s        0      q1     v     0-y  Kh v uK  v/  1    s      0
+     q1   1    s%     0      q1     v     0-y  Kh v uK  v/  1    s      0      q
+1   1    s      0      q1     v     0-y  Kh v uK  vu    v     0-y       9-------
+---------------------&          K       &   Kh v uK  v  K        v     0-y  Kh
+v uq       9&      Kh v uK  v-  1           0      q1     v     0-y  q  N   s
+   v|N   s<  v|o  x 0v6N   s&  vfN   s   vfo  x 0v6N   s   vsN   s*  vso  x 0v6N
+   s-  v N   s   v o  x 0v6N   s   v N   s%  v o    x 0v6N   s   v6N   s   v6o
+x 0v6   Kh v uj  x  w K  v-& 0w K  v/    v     0-y  q       9&   j  x  w   z
+    0-y    z      0-y       9&   j  w  w    Kh v u   d+  -K   w       K  v- K
+H     v     0-y  Kh v u    +  -K   w       K  v- K  H     v     0  -y  q
+9
+    TSUB Command - Display/Change USERID Auth Table Entry - xxxxxxxx---- -------
+   ------- ------ ------ ---- ----- -----   --------  **--------   AFTER MAKING
+  CHANGES   -------**  **--- STATE BEFORE MAKING TABLE CHANGES ---**Table XX poi
+nted to by the LWA has length available. Hex xxxx Table XX pointed to by the LWA
+ has no lengths. Blanks will delimit.Table XX pointed to by the LWA came from an
+ APF STEPLIB.Ta  ble XX pointed to by the LWA did not come from an APF STEPLIB.C
+ommand was not invoked APF authorized.Nothing was changed.  Table is in LPALIB,
+and we will not attempt to alter it.Slot      in XX table has been changed to
+      .Slot      in XX table h  as been blanked.
+                                     Last 8 bytes of table header altered to " P
+ARMLIB". LWA size for table    has been changed from Hex xxxx to Hex xxxx.LWA si
+ze for table    is now Hex xxxx.   Supply a t  able code TT, followed by an acti
+on code A.Supply a program name, as the next parameter.   Valid table  codes are
+:  E2, E8, AP, NS, PC, PP. Valid action codes are:  R - replace, B - blank, D -
+display,  H - header, L - supply full table length, Z - zero   table length,  S
+- mark table from STEPLIB, P - mark table from PARMLIB,  X - display LPA storage
+ ranges, M - supply minimum table length.Please supply a program name.  Full com
+mand is in the form TTA, TT=table code, A=action code.Please supply slot nu+ mbe
+r to change, and program name.If D (display) is followed by a slot number  , onl
+y that slot is shown.R (replace) requires a slot number, followed by a program n
+ame.If D is not followed by a number, then the entire table is displayed.  Instr
+uctions to use this program:                    ------------ -- --- ---- -------
+                     B (blank) blanks the slot number given. Higher slots are in
+validated.D does not need APF authorization. All other codes require it.TSUB TTA
+ nnn pgmname (nnn optional for D, both required for R)Codes: H,L,M,Z,P,S,X do no
+t require extra paramet  ers.Please supply slot number to blank out. BE CAREFUL
+!Return Code = 0 Return Code = 4 Return Code = 8 Return Code = 12
+                             No Parmlib-supplied XX table was found in storage.
+Supplied character        was not nume  ric. Table address:   PARMLIB*empty*
+     IKJEFTE2IKJEFTE8IKJEFTAPIKJEFTNSTable address lies within an LPA region.Non
+-blank table entries:Perceived blank entries:                 --- LPA RANGE DISP
+LAY ---  MLPAFLPAPLPA  Slot number specified is bigge  r than table size exceeds
+ scanned table size  E-MLPAE-FLPAE-PLPATable address is not within an LPA region
+.Table Entry Number:Entry slot number   Table    marked from STEPLIB so PARMLIB
+UPDATE(xx) will not overlay it.Table    marked from not from STEPLIB  . PARMLIB
+UPDATE(xx) can overlay. Table Header:  (these are the ones used)(potential for e
+xpansion)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                      $                               #@    ABCDEFGHI       JKLM
+NOPQR        STUVWXYZ                       ABCDEFGHI       JKLMNOPQR        STU
+VWXYZ                             ?                                 y         ?
+       }      0{           {  0{     &   &J   J    q \  0     }{  0   & }{  &A
+ {  5   0} P }|}| & &A              -      P } } P }*}*  }<&-  &    \} &\   \}*&
+\  k \ k \   } & \  0  j 1  \{D 01    0{  e 0{Q   h    IKJPUTL              0{0
+         {Y   0{    3 \} q }   K }%                 ?
+        ?             ?              RDHINSTL             ?
+ 
+ 
+                              l
+   ?         5695PMB01       -       ?        d   569623400           ?
+                        ?      x4   RDHINSTL Assembled on, 03/01/10, 16.07
+                             Free Software: Subject to the GNU General Public Li
+cense.    \               00 v7    0  o  0   T 0       x   x            ,T {
+0{% \            \             T   {         o   T\ -  T0{   K \ 0 T {   T {u #&
+  *x4  &}  & }  K  } T\}   T0{   K \ 0 T\}   T0{   K \ 0 T\}   T0{   K \ 0 T\
+ T0{   K \ 0 T\ 8  T\ 8 &T\}   T0{@  K \ 0 T\J   T0{   K \ 0  \  T0{     J &1  m
+   of  &\  k        \            \    T  {       {  ox4  xV 0N J {dx   xV  xV v
+   T0                     \            \ j } xd      }- 0{h \            \    2
+           P } }   T\J   j K xU  xV  x4  j K xU  xV  xV Dx4  j K xU  xV  xV  x4
+ j K xU  xV  xV vxV  T\J     T\Jh         H   d     &LY -  N &     x     &     &
+ & x4  x4  N {d& x   K &   K & { x4  x4   && x  \    x  Q &LY -    &   & x     &
+ K K & N {d& x   x4   && x          H   d  K i       N K   xd  xV  K J { x4  xV
+   K   K   {m  K K KQ -x   IEAVESTU       0   04     x    0  KQ&   m        }  }
+   x4   0  T\Jh    T\J   K K   K K     K m0       K &        K K     K   K &
+  0   :            N   K x    \      \ & K x4        x   K J { xV  x4  x4      x
+4 SN J {dx     K  0{q \            \ & K N J {dx   K K     K   K   K &     K &
+     &   o      0   :K   K K   K K K  *  K      K &        T\J     T\Jq
+  H   d  K i        &  &&K K K & N K & xd  xV  K J { x4    K   K       K K KQ -x
+   IEAVESTU       0   04     x    0  KQ&   m        }}   x4   0  xV           ji
+     N J {dx     K   K  0{    \            \ xV  T\Jq         4T\J   xV ixV ;T\J
+     T\Jy         H   d& J 3dJ J   J  dK L%] K LlJ   K   L%   7    K L%{w  K   L
+%   7    K L%]   K   L%   7    K L%    K   L%   7            K L% *&&J 3dJ J   J
+  dK L>J +-J 3 J J O J A K L J K J   3dJ J     J  dK L'J K J   3dJ J   J  dK LfJ
+ K J   3dJ J   J  dK LlJ K J   3dJ J   J  dK L J   K   L%   7     &&  --     x
+zT\Jy      0000    111    00000000 00000000     00000000 00000000
+                                                   T\J     & J8 0{&
+ xd  N 0   xd    x4 6  x   K^K  DK K     K m0  o        K &          J8
+         xd  xV  T\J     T\J     K K         K     O"K  hN A   x       x  9o K x
+4  N A   x       x  9o K x4  N {   x       x  8o K x4  N {   x   o K K K   A j K
+ x   N J {dx   K K {-  K n,  xd  K             x4  K K   2 J K | J   K x4  x  Xj
+ K x   N K A x   K J { xV  T\J     T\J{    K j   xU  K K  *  K      K &    
+ T\J{    T\JH  K L% -  K   L%   7    T\JH    T\J}  K L% R  K   L%   7    T\J}
+ T\JQ    K L%    K   L%   7    T\JQ    T\J\  K L%    K   L%   7    T\J\    T\JY
+ K L%    K   L%   7    T\JY    T\J0  K L% ]  K   L%   7    T\J0     MSG0001I: In
+valid Data on PARM= Parameter.
+                               MSG0002I: Install Failed, Slot Not Available.
+                                                                        MSG0003I
+: Unable to Load SVC.
+                                 MSG0+ 004I: Attempt to Free an SVC not installe
+d.                                                                            MS
+G0005I: SVC Removed.  Waiting 5 Seconds to Free the storage.
+                                       MSG0006I: SVC Removed and Storage Freed.
+ 
+                   SVCTABLE Located At:
+                                           Offset  Number  SVC Entry
+ SVC Entry
+     ==========================================================
+ 
+                                         SYSPRINT   &
+                                                           STEPLIB   }
+                   0123456789ABCDEF
+ 
+                                                                 RDHINSTL
+ SYSPRINTREPLACE,              0 DSA F1SADSAE              0               1   1
+ DUMP
+                                                  000INSERT,REMOVE,000      {
+  ?                                   ?             ?              RDHAPSVC
+  q     ?
+ 
+ 
+                                 ?         5695PMB01         "     ?        d
+569623400           ?                     q   q     ?     qx4  RDHAPSVC
+   4y                  RDHAPSVC Assembled on, 03/20/10, 12.40
+         Free Software: Subject to the GNU General Public License.  P&-
+  o       \             { J        h   i     x4    W   -U   0     8   J    }  \
+             q }             o } K }-      .  m& }*K }  dK J  h \J &\J K }   K J
+   K J   q  X& xV )xV  xV - 0    J    \&  &        \             { J    }-  &@
+ &hx4    W   /y 0   018         \             { J    q&   T\J   q &%    x
+    @ \     ox   o \ x4  m \ x4  T\J     T\Jh  T\Jh    T\J   T\J
+                         <                                           DSA DSAE
+{AUTH {       ?             ?              USPT                 ?
+ 
+ 
+ 
+         ?         5695PMB01     "   ?     ?        d   569623400     "     ?
+                            ?       00  USPT   VER 1.1   08/05/11 13.27    }
+    0{           {  0{     &}  & }  J                                  Adj     A
++    Ad        A+      Ay }A+   ;A & }   }       .&Ay }Ad       -            n
+   {S         e  {S -{HK }<Ao    A O }<Ao  {          ,K   }<            K   }<
+   K   }<   %K  {}<   H    K   }<  A          , 0A= 0     }} &0}  / \}  0A%
+     A    0A   q }      0A  0   0A     K }<              NON                ?
+          ?              USXT                 ?
+ 
+ 
+                                                                       ?
+ 5695PMB01     "   |     ?        d   569623400     "     ?
+}   }     ?     } 00  USXT   VER 1.1   08/05/11 13.30    }        0{           {
+  0{     &}  & }  J                                  Auj     A>    Au        A>
+     AH }A>   ;A & }   }       .&AH }Au       -            n     {S         e  {
+S -{HK }<A     A O }<A   {          ,K   }<            K   }<    K   }<   %K  {}
+<   H    K   }<   %            K   }<    K   }< a  A          , 0A  0     }} &0}
+  \}  0A           Ad   0Ah  q }      0A  0   0A     K }<              NON
+          ?             ?              ADIS            EPUTL                ?
+ 
+ 
+                                z
+                     ?         5695PMB01     "   ?     ?        d     569623400
+    "     ?                                     ?       00 ADIS VER 1.0 -  06/15
+/08 07.40    }   & G0                  {&& } &}   J 0{q
+                                               k   k  kk  lk   K     P     P
+ K     k   K     P  < <K     K  q  k  3K  4 3                              C+  G
+0    & H     & H     & H  -      j     A j     C+           <& G4    & G8  G4
+     Gs& G o  k  G4        G & H o  k  G4N       A o  j  G0    C         C+
+  @ }C+   ;H &       &     .& @  Ck &Ck&&       H    \  $\   \A0qH  0  A6K  4
+  -     4!   &  *          n     B n     B          e  B  -B K          *  H
+   &  -&  M&-  &   O     nD    B| 0B o    0B Kh    K     K  =           0 %
+  0C+K     Kh    K     K  =           0 %  Kh             0 %  N    =  CKN
+ D N      b  D N    d  E N    f  EWN    h  Fq     0C+ }}  5&0}  \} q }   Kh    K
+h             0 %   &   0C Kh    Kh             0 %   &H  0C Kh    Kh   c
+  0 %   &H  0C Kh    Kh             0 %      Kh    Kh   l         0 %   &H  0C
+ IH  I   G8            &  %   %N  &    D      0C+    &  %        G      &  &&
+  &  &&    &   j     D      0C      0C   IH  I   G8          &  %   %N  &    D
+    0C+    &  %        G      &  &&     &  &&    &   j     D      0C      0C   I
+H  I   G8          &  %   %N  &    D        0C+    &  %        G!     &  &&
+&  &&    &   j     E      0C      0C j  k  ED  IH  I   G   Kh    &    1H
+  0 =  H q1H K              0 %            &       &     G     &  % &    &   j
+   E      0C      0C Kh    K              0 %   0C+   0C j  k  F   IH  I   H   K
+h    &    1H          0 =  H q1H K    -         0 %            &       &     H
+   &  % &    &   j     F>     0C      0C Kh    K              0 %   0C+ 0C   IH
+ I   G8o  l          &  %   %N  &    F      0C+    &  %        G=       &  &&
+  &  &&    &   j     G      0C      0C Kh    K     K  e =         0 %   0C+Kh
+ K     K  e           0 %   0C+Kh    K     K  e b         0 %   0C+Kh    K     K
+  e h         0 %   0C+  I0     0 %   0A          0 %   0A@ 0C Kh    K     K  f
+            0 %   0C+
+           K     K  q  K     K     2     &  \K 0   3 0 0   0 G  00       H k 0
+  \ 90123456789ABCDEF              &  U   -n     HB    &  - &   }C+ & 0H  -
+    -      n       H6n     H6 e  H6         -HM&  M&   N  M    I  0C+K  u sKh
+  1H    M     0    H q1H K  =           0 %     -  K  q    H O  q  Kh    K    qK
+  =           0 %     U 9&   j     IB   M e  I  &   }I $&     uj     IB  H  0IBj
+     IB 0C+     9&  0K  * -   *  n     I     &  * 0IO   0 9No FCVE found.  PC is
+ an invalid table code now.No PPVE found.  PP is an invalid table code now. PARM
+LIBSAVEFCVESAVEPPVE                      E2E8APPCPPNSIKJTable code | Action code
+   entered.PC command not valid if no PC table   exists.PP command not valid if
+no PP table exists.Length of commandNew program name &  4Kh    Kh   v         0
+   Kh    Kh   R         0       4 9&   Kh             0       m     0       I
+  0             0             0             0             0  +            0
+  |     0       p     0    Kh             0         9&   Kh         N     0
+    9&   &  {&  D&& H&- }j                % -   &      &  &N  <     H - <   HKh
+   K        <+   K  g >   g tK  l !    +   K  [ >   [ t         0     0C+Kh    K
+     K     +   K  g >   g tj  l    K  l  N  l      K  l   0   1H            0 l
+ H q1H K  r  N  r      K  r  N  <      N  < &   =       |&   K  S >   S t 0  K
+            0            &  & - H   {   D & H - }     9&      -n           &  -
+&   }C+$&   0 y -         -      n       n        e    n0    G n9    G
+-  &  M&     K        -  K       H   H<|   &  <Kh    K     K  = g         0
+   &     &  -     9                                                       ADIS C
+ommand - Display Auth Table Entries           ---- -------   ------- ---- -----
+-------           Supply   a table code TT, followed by an action code A.Valid t
+able codes are:  E2, E8, AP, NS, PC, PP. Valid action code is :  D - display. Fu
+ll command is in the form TTA, TT=table code, A=action code.This table did not c
+ome from a PARMLIB specification.If D (  display) is followed by a slot number,
+only that slot is shown.If D is not followed by a number, then the entire table
+is displayed.  Instructions to use this program:                    ------------
+ -- --- ---- -------                   Syntax:   ADIS   TTA |nnn| (nnn is an opt
+ional slot number).***  Please try entering a parameter.  *** Return Code = 0 Re
+turn Code = 4 Return Code = 8 Return Code = 12
+          No Parmlib-supplied XX table was found in storage. Supplied   characte
+r        was not numeric.    *empty*             Slot number specified is bigger
+ than table size Table Entry Number:Entry slot number
+ 
+ 
+ 
+ 
+      0        &     &  H     9&  @ H Kh    K      1I<   Q     0    I q1I<
+    0    qH    @ 9&   &&  &   &-     & QP  Y YP          &&  -  K ] & N  y&
+ N  s&     N  B&       ]   n ]     N   &     N   &     N  {&     N  H&
+&&     !   &    -   0       &&    Y!   &  Y   Q&& M         -   &       9
+     &   &&  &   &-   & QP  Y YP          &&  -    K ] & K ] & N   &     N  q&
+   N  ;&      0    ]   n ]     N   &      0    ]   n ]       ]   n ]          &&
+     !   &    -   0       &&    Y!   &  Y   D&& {         -   &       9
+   &  d H Kh        +  8K           K    }K    C         0    K  h       Y+  8K
+           K    YK              0    qH    d 9&  h H Kh    &       +  8K
+         K              0    qH    h 9&    H Kh    K    - 1I<   W     0    I q
+1I<   U+  8K           K              0    j ]     Kh    K    = 1I<   Q     0
+   I q1I<   Q+  8K           K              0     0 dKh    K    = 1I<   D     0
+   I q1I<   D+  8K           K              0    qH      9
+                                                              ASUB Command - Dis
+play or Change   PARMLIB Auth Table Entry---- -------   ------- -- ------ ------
+- ---- ----- -----Command was not invoked APF authorized.Nothing was changed.  S
+lot      in XX table has been changed to         .Last slot in XX table has been
+ blanked.
+Supply a table code, followed by an action code. Supply a program name, as the n
+ext parameter.   Valid table  codes are:  E2, E8, AP, NS, PC, PP. Valid action c
+odes are:  R - replace, B - blank, D - displ  ay.Please supply a program name.
+Full command is in the form TTA, TT=table code, A=action code.Please supply slot
+ number to change, and program name.This table did not come from a PARMLIB speci
+fication.If D (display) is followed by a slot number, only + that slot is shown.
+R (replace) requires a slot number, followed by a program   name.If D is not fol
+lowed by a number, then the entire table is displayed.  Instructions to use this
+ program:                    ------------ -- --- ---- -------
+B (blank) will blank the last table entry, which normally is blank.Only   R (rep
+lace) and B (blank) require APF authorization. D does not.  ASUB TTA nnn pgmname
+ (nnn optional for D, both required for R)Return Code = 0 Return Code = 4 Return
+ Code = 8 Return Code = 12                                            No Parmlib
+-suppli  ed XX table was found in storage. Supplied character        was not num
+eric.      Table address:  *empty*         IKJEFTE2IKJEFTE8IKJEFTAPIKJEFTNSNon-b
+lank table entries:Perceived blank entries:Number of valid entries:Decimal:
+         Slot number s  pecified is bigger than table size   Listed   length of
+this table:Measured length of this table:Table Entry Number:Entry slot number
+(these are the ones used)(blank program name slot)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      $                               #@    ABCDEFGHI       JKLMNOPQR        STU
+VWXYZ                         ABCDEFGHI       JKLMNOPQR        STUVWXYZ
+                 }      0{           {  0{     &   &J   J    q \  0     }{  0
+& }{  &A   {  5   0} P }|}| & &A              -      P } } P }*}*  }<&-  &    \}
+ &\   \}*&\  k \ k \   } & \  0    j 1  \{D 01    0{  0{Q        IKJPUTL
+      0{0          {Y   0{    3 \} q }   K }%             {     ?
+              <                 ?             ?              LLWA            EPU
+TL                ?
+ 
+                                                      v
+                                           ?         5695PMB01        l^     ?
+      d     569623400           ?                                 ?       00
+    4   Y    LLWA - Ver 1.33 03/29/09 16.29    }   & {                  -   --
+ ?       { & } &}   J 0{
+                     k  DK  E DP % % k %xk   K|    K  o EK ?* Ek A k /Qk ?   k ?
+ k ? k ? k ? k ?#k ?@k ?=k0?:k ?'k   P _ _ P _s_sP _u_uP _w_wP  y yP     P ?h?hP
+ HuHu& Aq&&A  &   &&  &&  &&  && N & I   A N & A   Abo A  0Ab    &    0A   LLWAP
+OUT          Aq &A                             E   {     & H     & H     & H   I
+}  A j       A j     E        %    & H\&&%8 &  &&H< &  &&H& &  &&H  & y&&H    &
+  &H     B o ?@ 0B  &H<    K H    & 0 &H     B|o ?@ 0B  &H&    K H  y & 2 &H
+ B o ?@ 0B  &H     K H  y &   &Hs    B o ?@ 0B{ &H     K Hs y &%8K ?# Y 1H
+     i         F q1H   {       E & %         E         E n     C      0C   I*  F
+\[       o   o   o   o   K ?*  nL    C nC    C* 0C o ?  0C o ?   G  0C k   N   I
+;  CqN   I-  CuN   I   C N   I   C  0CHo ?:m ?: 0CHo ?:m ?: 0CHo ?:m ?: 0CHo ?:m
+ ?: 0CHK   I nL    DSnD    C nP    Db 0  F\  % k ? j ?   D   G  0E     D    u  j
+  M  G     D    u  K /-I%   *j     F2N I     H         j ?:  D   v@j ?:  D;  w j
+ ?:  D|  x j ?:  D   z       /  0Eo  % k ?     Dm      j     G     Dy      K /-I
+    *j     F2N I|    H   /        s      /   /  0Eo  %   k ?     D4   <  j  @  G
+     E    <  K /-I:   *j{   \G j ?  \G   / j ?:  E         j ?:  E        8j ?:
+ E         j ?:  E           E    <    /       /  0Eo }}  5&0}  \} q }   Kh    K
+h   >   >     0I    &   0EbKh    Kh   =         0I    &H  0EbKh    Kh
+    0I    &H  0EbKh    Kh             0I    &H  0Eb         0I      K     0I
+0E Kh             0I   & %D  ?h+ % K ? %   %DKh    K         ? K   IaK| Q
+  $ 0I   Kh    K  MI          0I   Kh    K  MI          0I   Kh             0I
+  0E      Y     0I    0E          0I    0E          0I    0E          0I      /
+    0I    0E    l     0I            0I    0E          0I            0I    0E
+|     0I    0E & _  1H j ?   G    u     0I    0G{   W     0I   m ?  0E q1H   _
+9& _  1H          0  I   q1H   _  9& _  1H    %   | 0I   q1H   _  9         0I
+  0E          0I    0E
+ 
+                                               KKJEFT--
+                   Please correct and rerun LLWA P.        This line contains an
+ error.  E2E8APNS     &LLWALSTLLWAPRMLLWALIBCard-& _ K 0   3 0 0   0 HB 00
+ Ifk 0   _  90123456789ABCDEF              & _ Kh      Kh    K   {          0|
+ Kh    Kh             0|     _  9& _&     && K  u Ej /Q           o   7    K  u&
+        u   7    N | &    k     && j /Q    K  u& N  u E           u   7     0
+ _  && &&_8  _& 9        & _      && K    Ej /Q           o   7      K   &
+      7    N | &          && j /Q    K   & N    E               7     0    >  &&
+ &&>   _  9        & _     _\[ |   _\Kh    K   |M 1ID  _\     0 W  Ifq1ID
+  0|                ,  _\   0 u       0      & _4  _  9& _*    _\[ |   _\Kh    +
+ K   |M 1ID  _\     0 W  Ifq1ID         0|                ,  _\   0         0
+     & _4  _* 9& _-K H |   HU               ,       0         <  -         &
+0   :     =     y 1H Kh    K            & 0|   q1H o ?= 0E & _   _- 9& _-K H |
+ HU   H         ,     Q 0 Y       <  -         &    0   :             1H Kh    K
+    }         & 0|   q1H o ?= 0E & _   _- 9& _-K H |   HU   <         ,     * 0
+%       <  -         &    0   :     f       1H Kh    K    0       & 0|   q1H o ?
+= 0E & _   _- 9& _-K H |   HU   }         ,     \ 0 0       <  -         &    0
+  :             1H Kh    K     |        & 0|   q1H o ?= 0E & _   _- 9& _ j ?=
+2 &_ K & | Kh    K   |  1ID  _      0 W  Ifq1ID       & 0|    &_ K  o      K _{_
+8K _}_ Kh    K   ,  1ID  _      0 W  Ifq1IDK   |  1ID  _8     0    Ifq1ID
+  0|   j ?    OK _\_}               ,    K   _U_4K _Q_\Kh    K   ,  1ID  _U
+0 W  Ifq1ID         0|     _4  _}  _  &_}    _4  _}  K   >   _4Kh    K   ,
+    0|   Kh    K|           & 0|   Kh             0|     H\K   _4K  0_Qo  -o  Y
+  SKKJEFTE2               ,  _  9& _ j ?=     &_ K & | Kh      K   ,  1ID  _
+  0 W  Ifq1ID       & 0|    &_ K  o =    K _D_8K _K_ Kh    K   ,  1ID  _      0
+W  Ifq1IDK   |  1ID  _8     0    Ifq1ID         0|   j ?     K _\_K   {
+,    K _Y_4K _ _\Kh    K   ,; 1ID  _Y     0 W  Ifq1ID         0|     _4    _K  _
+  &_K    _4  _K  K   >   _4Kh    K   ,          0|   Kh    K|           & 0|   K
+h             0|     H\K   _4K  2_ o  -o  Y    KKJEFTE8     u         ,  _  9& _
+ j ?=     &_ K & | Kh    K   ,  1ID  _      0 W  Ifq1ID       & 0|    &_ K  o f
+   K _H  _8K _M_ Kh    K   ,  1ID  _      0 W  Ifq1IDK   |  1ID  _8     0    Ifq
+1ID         0|   j ?     K _\_M             ,    K _ _4K _ _\Kh    K   ,t 1ID  _
+      0 W  Ifq1ID         0|     _4  _M  _  &_M    _4  _M  K   >   _4Kh    K   ,
+          0|   Kh    K  |           & 0|   Kh             0|     H\K  y_4K   _ o
+  -o  Y    KKJEFTAP     *         ,  _  9& _ j ?=  E  &_ K & | Kh    K   ,J 1ID
+ _      0 W  Ifq1ID       & 0|    &_ K  o      K _ > K _O> Kh    K   ,  1ID  >
+    0 W  Ifq1IDK   |  1ID  >      0      Ifq1ID         0|   j ?     K _\_O
+        ,    K _0_4K _ _\Kh    K   ,Y 1ID  _0     0 W  Ifq1ID         0|     _4
+ _O  _  &_O    _4  _O  K   >6  _4Kh    K   ,          0|   Kh    K|           &
+0|   Kh             0|     H\K   _4K   _ o  -o  Y      KKJEFTNS               ,
+ _  9& _ N | H     N | H    -N |&H    %N | H     m ?  0 do ? m ?  0 do ? m ?  0
+doa? ma?  0 do ? m ?  0 d  _  9& _%  |m& H    0         0      & H*& H   |q& H
+  0 D       0 {    & H & H   |q& H@   0 Y       0 U    & H & Hm  |   & Hh   0
+      0      & H & Hq  _% 9& _  1H   H*   [  H    [ 0       0      H    |  H
+|   0       0 -    H       H@       0 d     0      H       Hh       0 u     0
+ q1H   _  9& _    u   7      K H &     j0?     j ?     N H |     j ?     j ?
+ j   ?     j ?      0    H*K   ?/K   |     K   H       H8! | & H8j ?        u
+7      K H &     N H |     N H %      0   0    H K   ?/K   |     K   H       H !
+ | & H j ?    O   u   7      K H &     N H |     N H %      0 h 0    H K   ?/K
+ |     K   H     +   I ! | & I j ?        u   7      K H &     N H |     N H %
+    0   0    H   K   ?/K   |        >K   H4    K   H       I ! |u& I j ?
+u   7      K H &     N H |     N H %      0   0    H8  _   H   _s  I   _u  I   _
+w 1H Kh    K   %  1ID  _      0 Q  Ifq1IDK  %  1ID  _s     0    Ifq1IDK  5%  1I
+D  _u     0    Ifq1IDK   %  1I  D  _w     0    Ifq1ID       & 0|   q1H   _  9& _
+ & %{  H       n      m              H4  %{  _  9& _ P ?h?hK|        &  D    &
+H       7      K|  & O|   E  ?h! |y& ?hm ? m ? j ?     & %D  ?h+ % K ? %   %DKh
+   K         ? K   % K| Q         $ 0|      q   0 B  I   _y  I   _   I   _   I
+ _ j ?:   >    j ?:   :  ~8j ?:   f  t j ?:   k  u   _  9& _@   D& %Q  %Q   H  ]
+ N   |    +N   |     j ?     n       n+     ;n-      N %       N %       N %&
+   N |-     =N %       n(      n)     S  ]  0]   %Q    & %Q   0 uo ?     & %Q 0
+um ?     & %Q 0 u    & %Qo ? m ? o ?  0]     & %Qo ? m ? o ?  0]     & %Qo ? m ?
+ m ? j /Q               7      H*K   ?/K   |     & H-    & I  0 u    & %Qo ? m ?
+ m ? j /Q           =   7      H K   ?/K   |     & H%    & I  0 u    & %Qo   ? m
+ ? m ? j /Q   !       f   7      H K   ?/K   |     & H     & I  0 u    & %Qo ? m
+|? m ? j /Q               7      H K   ?/K   |     & Hd    & I  0 u    & %Qo ? m
+ ?  0 u    & %Qo ? m ? m3? m ?  0]     & %Qo ? m ?  0 u   D& %Q  _@ 9& _   %Q
+H  ] j0?     ] j ?   ]  0] j ?   ]   ]  0]     & %Q   H  ] n     ]  0] j ?  \]qj
+0?   ]qj ?   ]q  %Q   H  ]q 0F & %Q   D& %Q  _  9& _ & %Hj0?       %Q& %U   H
+ n     ]     & %Q 0]B    j ?       ?"K ?" E  | & %Y   H        j ?     j ?    %N
+ |      %K             &   %Qn      %n+     %n-     %n)     %N |      %N |
+%  ]8& %Y     Bn+     wn-     wn)     wN |      wN |      w 0          j ?     j
+ ?      0F     n*     Oj ?             & %Q   H     0]B  %H  _  9    & %Q 0]8& _
+   %Qn)     *n+      n-     <N   |    @N     |    % 0 mo ? m ? o ?  0  o ? m ? o
+ ?  0  m ? m3? o ?  0  o ?     & %Q 0 m    & %Qm ?  0 m  %Yo ?   _  9& _ N ?"|
+  6n*?"   6n/?"   6j ?     Kh    K   ?"         0|   j /Q   2      ?"   7
+   _  9& _ & %\j ?     j ?    [j ?    %j<?      0 D  H-  K   ?"    & H-  I ! | &
+ I  0 D  H%K   ?"    & H%  I ! | & I  0 D  H K   ?"    & H   I ! | & I  0 DK H ?
+"   >  HdK   H4    K   ?"    & Hd  I ! |u& I  0 D  _   %\ 9& _  &H*  _yKh    K
+ ,  1ID  _y     0 W  Ifq1ID         0|   j ?   ~SK _\_y    K _U_4K _Q_  \Kh    K
+   ,  1ID  _U     0 W  Ifq1ID         0|     _4  _y  H* &_y    _4  _y  K   >   _
+4Kh    K   ,          0|   Kh    K|           & 0|   Kh             0|     H\K
+ _4K  0_Qo  -o  Y    ~          ,  _  9& _d &H   _ Kh    K   ,  1ID  _      0 W
+ Ifq1  ID         0|   j ?   t K _\_     K _Y_4K _ _\Kh    K   ,; 1ID  _Y     0
+W  Ifq1ID         0|     _4  _   H  &_     _4  _   K   >   _4Kh    K   ,
+  0|   Kh    K|           & 0|   Kh             0|     H\K   _4K  2_ o  -o  Y  t
+          ,  _d 9& _  h &H   _ Kh    K   ,  1ID  _      0 W  Ifq1ID         0|
+ j ?   u K _\_     K _ _4K _ _\Kh    K   ,t 1ID  _      0 W  Ifq1ID         0|
+   _4  _   H  &_     _4  _   K   >   _4Kh    K   ,          0|   Kh    K|
+    & 0|   Kh             0|     H\+ K  y_4K   _ o  -o  Y  u          ,  _h 9& _
+  &H Kh    K   ,  1ID  _      0 W    Ifq1ID         0|   j ?   v K _\_     K _0_
+4K _ _\Kh    K   ,Y 1ID  _0     0 W  Ifq1ID         0|       u          ,  _4  _
+   H  &_     _4  _   K   >6  _4Kh    K   ,          0|   Kh    K|           & 0|
+   Kh             0|     H\K   _4K   _ o  -o  Y    v          ,  _  9& _  &H*  _
+       _ Kh    K   ,  1ID  _      0 W  Ifq1ID         0|   K _\_     K _U_4K _Q_
+\Kh    K   ,  1ID  _U     0 W  Ifq1ID         0|       w          ,  _4  _   H*
+&_     _4  _   K   >   _4Kh    K   ,          0|   Kh    K|             & 0|   K
+h             0|     H\K   _4K  0_Qo  -o  Y  wy         ,  _  9& _  &H   _s
+ _sKh    K   ,  1ID  _s     0 W  Ifq1ID         0|   K _\_s    K _Y_4K _ _\Kh
+ K   ,; 1ID  _Y     0 W  Ifq1ID         0|       x<         ,  _4  _s  H  &_s
+   _4  _s  K   >   _4Kh    K   ,          0|   Kh    K|           & 0|   Kh
+        0|     H\K   _4K  2_ o  -o  Y  x\         ,  _  9& _  &H   _u      _uKh
+   K   ,  1ID  _u     0 W  Ifq1ID         0|   K _\_u    K _ _4K _ _\Kh    K   ,
+t 1ID  _        0 W  Ifq1ID         0|       yd         ,  _4  _u  H  &_u    _4
+ _u  K   >   _4Kh    K   ,          0|   Kh    K|           & 0|   Kh
+  0|     H\K  y_4K   _ o  -o  Y  z          ,  _  9& _  &H   _w      _wKh    K
+ ,  1ID  _w     0 W  Ifq1ID           0|   K _\_w    K _0_4K _ _\Kh    K   ,Y 1I
+D  _0     0 W  Ifq1ID         0|       z          ,  _4  _w  H  &_w    _4  _w  K
+   >6  _4Kh    K   ,          0|   Kh    K|           & 0|   Kh             0|
+   H\K   _4K   _ o  -o  Y   &         ,  _    9& _ Kh    K   /-K  \?          0|
+   Kh    Kh    K  \?H         0|   Kh    Kh  [ K  \  K  X  K     K  5  K
+      0|   Kh    Kh   {K  \%*n ?    ;K  \%^na?    ;K  \% n ?    ;K  \% n ?    ;K
+  \% n ?    ;K  \%,n ?    ;K  \%>n ?    ;K  \% n ?    ;o /   K  \%          0|
+ Kh    Kh  -|   \j{   \ mkU  o /!! /* 0  j    \ ukF  ! /*j    \  kV  ! /*j    \
+DkB  ! /*j    \ MkS  ! /*j    \ UkA  ! /*j    \ 0kM           0|   Kh    Kh
+       |     j /!    o / K  \%c 0  +  qK  \     \           0|   Kh    Kh
+       |     o / K  \%  0 d+  qK  \     \           0|     _  9            ,   ,
+   0   EXPORT   DSN =
+                                                        0   BDMUSOUT DSN =
+ 
+                                        VOLSER  =
+ 
+             MEMBER  =
+                                                                    DSORG   =
+ 
+                                           BLKSIZE =
+ 
+                LRECL   =
+                                                     +                 RECFM   =
+ 
+ 
+ 
+                 -------  DSNAME:  & _ j A   / j /Q  /F    /         j  m  / o /
+Q    /y      K /-|    *j     F2N |     H  0/K 0G   Gh  _  9  & _ j /Q  /6    /0
+     m /Q  _  9& _m 1H              ,q1H  1H j ?:      H&          H        0
+    0    j ?:      H           H        0 %     0    j ?:      H           Hs
+      0 q     0 m  j ?:      H<          H        0 D     0 {  q1H  1H
+      ,q1H   _m 9& _q& % P  y yP          && K ? & N | &    :N   &     N %r&
+   ?   n ?     N | &     N | &     N | &     N |h&          &&     ! |y&    0
+    &&    y! |y&    y   y&& u      %   _q 9      & _ & %0P  y yP          && K ?
+ & K ? & N   &     N  y&     N |}&    4 0    ?   n ?     N |K&      0    ?   n ?
+       ?   n ?          &&     ! |y&    0 F     &&    y! |y&  y    &&        %0
+ _  9        ---E2------E8-----  -AP------NS---
+ 
+                        LLWA Command - Replace LWA Auth Tables from Various Sour
+ces - xxxxxxxx---- -------   ------- --- ----   ------ ---- ------- ------- - --
+------Command was not invoked APF authorized.Nothing was changed.  You must say
+which input file: L-loadlib, D-Dataset, P-Parmlib.You need: ALLOC F(LLWALIB) DA(
+your.load.library) SH REUSE Load Library containing tables wa  s not allocated.
+You need: ALLOC F(LLWALST) DA(your.lrecl8.dataset) SH REUSE LRECL=8 dataset with
+ program list was not allocated.You need: ALLOC F(LLWAPRM) DA(your.IKJTSOxx.memb
+er) SH REUSE IKJTSOxx-format member was not allocated. You need: ALLOC F(LLW  AP
+OUT) DA(your.LRECL8.file) SH REUSE No LRECL=8 output produced. Need LLWAPOUT DD
+name to be allocated.No conversion is possible until the LLWAPOUT DD name is all
+ocated.This run is for data conversion only. No table loading will be done.Conve
+rsion makes   no sense. We already have the LRECL=8 input. Program will end.LREC
+L of table dataset is not 8. Not allocated.LRECL of table dataset is not 80. Not
+ allocated.RECFM of table dataset is not Fixed. Allocated LLWALIB is not a load
+module library.Return Code   = 0 Return Code = 4 Return Code = 8 Return Code = 1
+2  E2 table not found - not loaded.E8 table not found - not loaded.AP table not
+found - not loaded.NS table not found - not loaded.         PARMLIB---E2------E8
+------AP------NS---NOTBKGNDLLWAPOUTIKJEFT  E2IKJEFTE8IKJEFTAPIKJEFTNS
+h   Y                 0  E2E8APNSEnd address:  *//*      SP-252 table length:
+LOAD E2 entry point:   Measured table length: SP-252 E2 address:     Beginning o
+f E2 table: LOAD E8 entry point:   SP-252 E8 address:       Beginning of E8 tabl
+e: LOAD AP entry point:   SP-252 AP address:     Beginning of AP table: LOAD NS
+entry point:   SP-252 NS address:     Beginning of NS table: ---E2 Size: E8 Size
+: AP Size: NS Size: Card-AUTHCMDAUTHPGMAUTHTSFNAMESIS ISUPS PSUDA DAUPO+  POUMIS
+SING OR VSAMMISSINGZERO OR MISSING
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                IKJEFT-- PARMLIB
+       g
+ 
+                                                                    qLLWALIB
+                                                                              qL
+LWALST
+              qLLWAPRM                                    &
+                              qLLWAPOUT   &
+ 
+                                                    ?     d
+          j   v   1       _                       -   U       v
+  r       E   I           i         ?
+ 
+ 
+                $                               #@    ABCDEFGHI       JKLMNOPQR
+       STUVWXYZ                       ABCDEFGHI       JKLMNOPQR        STUV  WXY
+Z                           ?                               ?        }      0{
+         {  0{     &   &J   J    q \  0     }{  0   & }{  &A   {  5   0} P }|}|
+& &A              -      P } } P }*}*  }<&-  &    \} &\   \}*&\  k \ k \   } & \
+  0  j 1  l \{D 01    0{  0{Q        IKJPUTL              0{0          {Y   0{
+  3 \} q }   K }%                 ?                                   ?
+    ?              LSLT           kEPUTL      q         ?
+ 
+ 
+            z
+ ?         5695PMB01     "         ?        d     569623400     "     ?
+                q           ?       00 LSLT VER 1.0 -  06/15/08 07.46    }   & F
+                   {&& } &}   J 0{q
+                           k   k  kk  lk   K                                 C
+ F     & F0    & F8    & F4 -      j       A j     C            <& F\    & FU  F
+\        F & FYo  k  F\        FD& F o  k  F\N I     A o  j  F     C         C
+     I  }C    ;F &  @      .&I   C  &C &&     @       -  &             n     A
+        e  A  -A K             G       &  d&   &-    &   O     nA    B nB    B n
+D    B  0B o    0B%o    0B%o    0B%Kh    K      1G          0    G q1G K   I
+      0I        0C K     Kh    K      1G          0    G q1G K   I          0I
+ N   I   C N   I   C8N   I[  D N   I<  DmN   I+  E N   I&  E}       0C  }}  5&0}
+  \} q }   Kh    Kh             0I    &   0B Kh    Kh             0I    &G  0B K
+h    Kh             0I    &G  0B Kh    Kh             0I    &G  0B          0I
+          0I    0C   H   HF  FU                  F      &    &   j     C    m  H
+    0C       H  0C   H   HF  FU                  F      &    &   j     D    m  H
+  0C       H  0C   H   HF  FU                  F|     &    &   j     Dh   m  H
+0C       H  0C j  k  E   H   HF  FY  Kh    &    1G          0    G q1G K   I
+      0I            &    &   j     E    m  H  0C       H  0C Kh    K   Im
+  0I    0C  0C j  k  E   H   HF  F   Kh    &    1G          0    G q1G K   I
+      0I          &    &   j     Es   m  H  0C       H  0C Kh    K   I
+0I    0C  0C   H   HF  FUo  l                    F      &    &   j     F    m  H
+  0C       H  0C Kh    K    'K   I          0I    0C Kh    K    'K   I
+0I    0C Kh    K    'K   I[         0I    0C Kh    K    'K   I&         0I    0C
+   I      0I    0A   I7     0I    0A  0C
+                                 K     K  q  K  w  &   K 0   3 0 0   0 F> 00
+   G k 0      90123456789ABCDEF              &      dn     Gu    &  d &I  }C $&I
+  0G  -         d      n     G} e  G}         -G &   &   K  u   sKh     1G
+    0    G q1G K              0I      d  K  q    G O  q  Kh    K    qK
+    0I   j     H+     9&   j     H j     H j     HwK     K    q         0I    0H
+{K        [     0I    0H{Kh    K   I          0I        9&   j     H8     e    H
+0 &I  }H0$&I   G@ 0H8     0C      9&   K    d    n     I     &    0I      9  SAV
+EFCVESAVEPPVE   q          E2E8APPCPPNSDisplay of Last Slot contents.IKJCommand
+supplied + Function code PC command not valid if no PC table exists.PP command n
+ot valid if   no PP table exists.No FCVE foundNo PPVE foundLength of commandNew
+program name &   Kh    Kh             0    Kh    Kh   w         0         9&
+1G           i         C q1G                ,j  l   F    j       K    q 0  j
+   K      0      j      SK      uK    q 0  j       K     K      0
+  ,     9&   Kh             0             0             0             0
+9&   Kh             0         9&   Kh       a     0         9&   j  l   U    Kh
+   K     K    LK     K     N        KK   +            0     0      Kh    K     K
+    LK      1G          0    G q1G K       N         K              0     0
+  9                                            LSLT Command - Add or Change Last
+ Auth Table Entry  ---- -------   --- -- ------ ---- ---- ----- -----  Command w
+as not invoked APF authorized.Nothing was changed.  La  st slot in XX table has
+been changed to         .Last slot in XX table has been blanked.
+                                                     Supply a table code, follow
+ed by an action code. Supply a program name, as the next parameter.     Valid ta
+ble  codes are:  E2, E8, AP, NS, PC, PP. Valid action codes are:  A - add, B - b
+lank, D - display.Supply a second program name.  Full command is in the form TTA
+, TT=table code, A=action code.Please supply one program name to add to the tabl
+e.Re  turn Code = 0 Return Code = 4 Return Code = 8 Return Code = 12
+                                No Parmlib-supplied XX table was found in storag
+e. *empty*    q  Last Slot Contents - Table Name:
+ 
+ 
+ 
+ 
+ 
+                 }      0{           {  0{     &   &J   J    q \  0     }{  0
+& }{  &A   {  5   0} P }|}| & &A              -  y     P } } P }*}*  }<&-  &
+\} &\   \}*&\  k \ k \   } & \  0  j 1  \{D 01    0{  0{Q        IKJPUTL
+      0{0          {Y   0{    3 \} q }   K }%             {     ?
+                          -     ?             ?              KMBAPFLB       u
+  ?
+ 
+                                                      l
+                           ?         5695PMB01     |         ?        d   569623
+400     |     ?                     y   y       ?     y 00  KMBAPFLB_20110404_13
+.32  }       I &K  &    K  I<  I&P   I  2 0I       B        3    {  0I   { N Ib
+   { o    0I*      B j     G  0I-   0~S  C[ 0~U  D   B  0I       C  0I       E
+0I%   0I    0I       FOK A     x  (    APFL001 THE FOLLO  WING DATASET SUCCESSFU
+LLY ADDED            APFL001 TO SYSTEM APFTABLE    APFL001 DSN:
+                                0FOK A2      x  (    APFL002 THE FOLLOWING DSN S
+UCCESSFULLY REMOVED            APFL002 FROM SYSTEM APFTABLE    APFL002   DSN:
+                                              0FO  x       APFL230 APFLIB DD MIS
+SING OR INCORRECT, CORRECT             APFL230 AND RESUBMIT JOB   0   0FOK C
+   x       APFL240 THE FOLLOWING DATA SET NOT ADDED TO            APFL240 APFTAB
+LE DUE   TO UNKNOWN TABLE FORMAT    APFL240 DSN:
+                0   0FOK CF      x  |    APFL250 THE FOLLOWING DATASET IS ALREAD
+Y            APFL250 IN APFTABLE. REQUEST REJECTED    APFL250 DSN:
+                                    0   0FOK D@    x       APFL260 THE FOLLOWING
+ DATASET NOT ADDED TO             APFL260 APFTABLE DUE TO INSUFFICENT SPACE    A
+PFL260 DSN:                                               0   0FOK E       x
+   APFL270 THE FOLLOWING DATASET NOT   ADDED TO             APFL270 APFTABLE DUE
+ TO APF TABLE ALREADY FULL    APFL270 DSN:
+          0   0FOK E     x       APFL280 THE FOLLOWING DATASET NOT ADDED TO
+        APFL280 APFTABLE DUE TO OPERATOR DENIAL      APFL280 DSN:
+                                0   0FOK F     x  &    APFL290 THE DATASET TO RE
+MOVE FROM APFTABLE            APFL290 NOT PRESENT. REQUEST REJECTED    APFL290 D
+SN:                                               0   0FO    I P     I  2j     G
+   F {             m"   2        q }     t P     o   K     K      0         U
+   j     G  0I@  C[  G  0G  0I@  H   F  0G   t P     k   o   K     K      \
+       \  0I@  C[  {}K H     x       APFL310 THE FOLLOW IN DATASET NOT ADDED TO
+              APFL310 APFTABLE DUE TO APF PARAM ERROR    APFL310 DSN:
+                                    0   0FO  t P     k   o   K     K      \
+       \  0I@  A:K I       x       APFL320 THE FOLLOW IN DATASET WAS NOT REMOVED
+            APFL  320 FROM THE APFTABLE                  APFL320 DSN:
+                                    0   0FO         8               h
+        \   !              REMOVE  }       &K  &    K   {  {           {
+   { K     K       {             {d  {-$ ~H   i 0{ k  i 0{   {        0
+ q }
+ 
+ 
+                           }       &K  &    K  { {             o       K    UN
+ ~   {-n     {+ 0   0{  0          q }   o    0{+  }       &K  &    K
+  -   -~Y  {  0{         ~\  {>. ~WK  )    { K     N       {=+  g   -{ &      0{
+b 0   0{b 0   0{b 0          q }   K  )    }       &K  &      K 0~}        {
+      ,   0{   5    0{     &    0      {          ,  N   ~  }{  0          q }
+   }       &K  &    K    $        i    &             q }     }       &K  &    K
+           q }     }       &K  &    K 0~M   0~Q   0~           q }     }
+ &K  &    K               &      {          ,    {          ,          q }     }
+       &K  &    K          $    i - i --  - i    {          , -{
+     {;         ,          q }   K    i  }       &K  &    K  {          ,
+U       U    {     {          ,j     {     {-{             m"            q }
+ }       &K  &    K          i               q }     }       &K  &    K
+       {          ,   0{   5      0{    0      {          ,  N   ~  }{  0
+   q }       00000500KMB  APFQ APFLIST
+ 
+                                           g  H
+ 
+ 
+                        DAPFLIB                                             q" 0
+            |   U
+ 
+ 
+ 
+ 
+                                                                      {     ?
+                          4   8       <       *   -           %           v
+      5                   E       }   Q       \   U     ?             ?
+     STEPLIB        0STEPPCL    0   S     ?
+ 
+                                                                              z
+                                                                   ?         569
+5PMB01     |   |     ?        d     569623400     |     ?                     Q
+  0   Y       ?     Q 00% STEPLIB  01.31  20110524 #V001R18 (C) Copyright 1996,
+2011 MVS-JES2@Sympatico.Ca  All Rights Reserved.   }   0  {   {H  0 h
+  0 d      F       &}  & }  J  } qT   \CB 0   0F   &\}<& O  aK Ou  K L    0  K O
+H0@ \0  \* \ K O \ K   O \ n O      \    \ kSO j&\     kTO j \     kJO     j
+5    o L K K E}  K                     N        >        n      & 0 h2 K-K   K-F
+ o K 3 K K- 0       & u -&q&-LM &   & * &  K KM&   DM  K  \C   F   K  \C   N K
+   K      0L &0  P L L K   F  0J &0    K     &}    N  0    2      02    0     0
+         IKJPARS     J    0}  }  &0}       j L   C   K & Ku      Ky  }m 0  &1  P
+     k 0 k 0  \  &\0  0     \Ku  Ky  0       k 0 k 0 &0      k 0 &0      k   k
+  0 BK 0 \      0C j L   Ahn     A n      8n       K   K E}  K
+   N                 n        0  2 K-K   K-F o K 3 K K- 0 0N F K     N F K    8
+ DM  K  \C m L  ^KM   8  & N   K    f ^&    % 0 8    K K     K & KQ      K j L
+  |o L   K & Ku      Ky  }m 0  P     &1  k   k 0 k 0 k-0  \  &\0  0       \KQ  K
+   0       k 0 k 0 &0       \Ku  Ky  0       k 0 k 0 &0      K 0 EQ&0      k 0 &
+0      k    0  K 0 \             O 0    }m 0  P     &1  k   k 0 k 0 k-0  \  &\0
+  0     \KQ  K   0      8k 0 k 0 &0      k 0 k 0 k 0 K 0 E\&0      K 0 EQ&0
+ k   0 &0      k    0  K 0 \        K KB\*      K K F K K F K K.F K K F K K K K
+ K(KB  }m 0  P     &1  k   k 0 k 0  \  &\0  0   \K &\   \K &\  k             O
+ O   L &\   \  &0\ &\   \F &\   \Fs&\  &    0 {        IKJEFF18   0   0}  } K&0}
+  0Ah ^&       &   N        f  F   K  \C  0F K L 0 n       n        0F K L 0 n
+   Bbj L     n     {       F    \H< 0{            Oj K    O  DM  K  \C     AhK K
+ F K K F K K.F K K F K K K K K(K n      uK K K K K(K   }m 0  P     &1  k   k 0 k
+ 0  \  &\0  0   \K &\   \K &\  k               O  O   L &\   \  &0\ &\   \F &\
+  \Fs&\  &      0          IKJEFF18    F   K  \C j L   Ah  K & Ku      Ky  }m 0
+ &1  P     k 0 k 0  \  &\0  0     \Ku  Ky  0       k 0 k 0 &0      k 0 &0      k
+   k    0  K 0 \      0   0}  } K&0}  0Ahn        UK K K   F   K  \C     BQn
+ Ah      F    \H< 0{  0F K L 0 n       n     Bb           Oj K    O  DM  K  \C
+   Ah  K & Ku      KyN F K    O  }m 0  &1  P     k 0 k 0  \  &\0  0     \Ku  Ky
+ 0       k 0 k 0 &0      k 0 &0      k   k    0 KK 0 \       F     K  \C     BQn
+     Ah      F    \H< 0{  0F K L 0 n                 B j K   B   DM  K  \C     A
+h  K & Ku      KyN F K    {  }m 0  &1  P     k 0 k 0  \  &\0  0     \Ku  Ky  0
+     k 0 k 0 &0      k 0 &0      k   k    0  K 0 \     n     Ah      F    \H<
+0{  0F K L 0 n                 B j K   B  ^KM  Ah  & N   K      ^&      0AhK L F
+<K L K       F&  L  \H<    K L F K L         F   L  \H< ^&   {   & N          0{
+ n      6K O8F*  O8& O\K P EY  P & O   O & OUK P F-  P & OY    & P   P & O P P P
+   P & O0  P   & O4o O4 0   00  00   O\            B j K   B  ^KM  B     & & O}N
+   K      ^&      0B x|   ^&       & N         x%  &-O  0         0 &    & OM& O
+Q     0  i0     &OM  O}    k'L K L   K & L x!  n &      & mk'& x!   | q    N
+    @^&OMK P OM&&P  0   00 +  00   O\   &OM -O    0           0 Y   0F K L 0 n
+     n     {  0F K L 0 n       Bb          B j K   B   DM  K  \C     Ahm L  ^KM
+ Ah  & N   K    > ^&      0{     K K               K L   x     H K L     L & L\
+ J & LY  L   N K L    Hn       k    0  n      Q     0 @  K & KQ      K j L   ] o
+ L   K & Ku      Ky  }m 0  P     &1  k     k 0 k 0 k-0  \  &\0  0     \KQ  K   0
+     ] k 0 k 0 &0       \Ku  Ky  0     ] k 0 k 0 &0      K 0 EQ&0      k 0 &0
+   k    0] K 0 \               0 H  }m 0  P     &1  k   k 0 k 0 k-0  \  &\0  0
+    \KQ  K   0       k 0 k 0 &0      k 0 k 0 k 0 K 0 E\  &0      K 0 EQ&0      k
+ 0 &0      k    0  K 0 \        K KB\*     HK K F K K F K K.F K K F K K K K K(K
+B  }m 0  P     &1  k   k 0 k 0  \  &\0  0   \K &\   \K &\  k                O
+ L &\   \  &0\ &\   \F &\   \Fs&\  &    0          IKJEFF18   0   0}    }  &0}
+0Ah ^&       & N        >  K & Ku      KyN F K       }m 0  &1  P     k 0 k 0  \
+ &\0  0     \Ku  Ky  0       k 0 k 0 &0      k 0 &0      k   k    0  K 0 \     j
+ L       F   K  \C     BQn     Ah      F%   \H< 0{ n     Ah      F    \H< 0Ahn
+   Ah    DM  K  \C   F   K  \C j K   Ah          Ah ^KM  Ah  & N   K   {; ^&   {
+  0Ah    K L   K L     L & L\  J & LY  L   K OyJ   }&P     o   K   L K   Oy 0
+      U      &0J & J   J   A x     {QN FuJ   A  0   0}  }{Y&0} n     A K L F K L
+ L   Lmj     A   A         L     L       F   L  \H< ^&   Ah  & N       {; 0Ah 0F
+ K L00 K M   K M   K L F@K L FwK L   K L>  K L         L0  L  \H<n     C     K O
+H @       %     0F K L00       L0   \H< 0FdK L00   OH  AOK L5F & O  \H K L O
+   A0k*M K M FA ?    B+n -   B   -     A  0B+  -   B K M   K M         B+K M E0
+         B+    !   K M   K O    \H K M O       L0   \H<   | h  A  |    A  0C  0
+  0}  }Bk&0} n     Ah      Fh   \H< 0Ah 0   0}  }B &0} n     Ah      F   L  \H<
+0Ah 0   0}  }BY&0} n     Ah      F    \H< 0Ah 0     0}  }C &0} n     Ah      Fm
+  \H< 0AhnJO   C n J   C   J  }C           C * Fq& O   O      ji       J i   h
+     Co \            i\  h\      C: 0}     }< }}      0C           C  0C
+\} q }     N & N@P N N &}Nd    CY         , -LM    & LQ  N@& N          \
+      { J  J P     K   N K   LQK   N  \            \        \             { J
+ D          ,      N   n     D   K   D  0F K L00 K L L K O K  \H K M O K M E8nOL
+   D K M F       L0   \H< 0Nbq N      j     }  K L A4K          & u -&q  --  & -
+  - |    {       { &    0{     {D           hK     k        &        &   K
+ nJO   { n$    {D& K x   j L  \{ x    0{y         @   0{u \            \
+     1   0       } k    01 &0 0o   m"  o   q }   $TEP0001                STEPLIB
+ -LNKLST-Obtain  edReleased           0STEP                                $TEP
+                      s                           $           x       &   d
+      R                  CCYY/MM/DD   JOBLIB (JSTCB)UNKNOWNCLOSE    j     }  K L
+ A;    j     A      & u -&qx     j L  \{ x    0{          @ 0{  \            \ &
+ K   K   H!K     j L  \{h    K   Hkod  &          hK     x
+    s          k        &           d  &   j     A P K K x   j L  \{8x      0A
+          @   0{  \            \      0A & --+  |    A N   A!  A &    0A
+   K L             OPEN    O 3dO O   O   k   O q O     ND  M4  Ou &L P L L   L &
+   &&   \L &\   \N &\  k \ k \   M4& \  0  j 1  \Hu 01    0H  0H         IKJPUTL
+   q ND    0   0       } k    03 &0 0o   m"  o   q }         }    &   [     }n@
+ j   &   & K l F x     F n     { N E k   { K l F   l & l\    j & lY  l    ?kM  {
+   - N   k   {= ?-   {  0{     N   l   {w ?-   {   - N   F   {  0{= 0   0   }{ &
+0   0   0C  0  n     C n     C j l   A   k & ku      ky   m 0  P     &1  k   k 0
+ k 0 k-0  \  &\0  0   V          0     A k 0 k 0 &0       \ku  ky  0       A k 0
+ k 0 &0      K 0 E &0      k 0 &0      k    0AfK 0 \        K k k o l     Aw \C
+  0C N \ F   B22 k-k   k-F o k 3 k k- 0{    m 0  P     &1  k   k 0 k 0 k-0  \  &
+\0  0   V          0     B k 0 k 0 &0      k 0 k 0 k 0 K 0 E6&0      K 0 E &0
+   k 0 &  0      k    0B;K 0 \        K kB\*K k kB    B2 \C j l   C K k F K k F
+ K k.F K k F K k k K k(kB   m 0  P     &1  k   k 0 k 0  \  &\0  0   \k &\   \k &
+\  k            C   o   l &\   \  &0\ &\   \F &\   \F &\  &    0C         IKJEF
+F18   0    &0} q }       o K k F K k k K n FwK j F   x
+{            n      k &          j      k &         0E!   d  o l  0   0   }C
+K&0  K l F K l l       F   l   m4  ou &l P l l   l &   &&   \l &\   \n &\  k \ k
+ \   m4& \  0  j 1  \D  01    0D  0D           IKJPUTL     k & ku      ky   m 0
+ &1  P     k 0 k 0  \  &\0  0     \ku  ky  0     DFk 0 k 0 &0      k 0 &0      k
+   k    0D K 0 \     N k k   EU  k & ku      ky   m 0  &1  P     k 0 k 0  \  &\0
+  0     \ku  ky  0     E<k 0 k 0 &0      k 0 &0        k   k    0E K 0 \      0E
+U   d  j l   EU  k & ku      ky   m 0  &1  P     k 0 k 0  \  &\0  0     \ku  ky
+ 0     E k 0 k 0 &0      k 0 &0      k   k    0E\K 0 \     q o
+     $TEP                   9        K l   0123456789ABCDEF
+                   {   *         }     DCBE
+ 
+                                           $TEP001I STEPLIB Expanded    $TEP002I
+ ST  EPLIB Activated    $TEP003I STEPLIB Deactivated    $TEP004I STEPLIB Shrunk
+   $TEP005I Missing STEPLIB Dataset Name(s)    $TEP006I STEPLIB Dataset List - D
+DName():    $TEP007I -     $TEP008I STEPLIB Not ed, is not allocated    add    a
+llocat    fre    l  ist    remov    stack    destack    $TEP009I  is not an APF
+authorized library    $TEP010I dataset(s) already found in STEPLIB    $TEP011I V
+ersion:___ Release:__ Assembly Date:    $TEP012I STEPLIB OPEN Failed    $TEP013I
+ STEPLIB OPEN Failed for     $TEP  014I STEPLIB Command is not APF Authorized
+ $TEP901I TCB Address  Program   Tasklib   TCBJLB    .         ________    _____
+___  ________  ________    $TEP902I _____ - DCB Storage at ________ ________  S
+          ALLOCATE-    ADD-    ALLOCATE  OVERRID  E REPLACE-    DESTACK  UNSTACK
+-    FREE  CLOSE-    LIST-    REMOVE  DELETE-    SAVE NOMSGS-    STACK-    VERSI
+ON           DATASETS w  DSNAMES      -    OLD-    SHR      -    REUSE       FIR
+ST-    FIRST  BEFORE FRONT-    LAST  AFTER END       MSGS-    M+ SGS  LOUD VERBO
+SE-    NOMSGS  QUIET TERSE-    DEBUG       NOAPFCHK-    APFCH> K-    NOAPFCHK
+    PAUSE(1)     PAUSE      d      STEPLIB DATASET NAME(S)   2  d     &      PA
+USE        F{     ?                                         8
+                                &               %               d   h
+m       @   y       %                     ?             ?              USVT
+            ?
+ 
+ 
+                                     ?         5695PMB01        /      ?
+d   569623400           ?                     {   {     ?     { 00  USVT   VER 1
+.1   08/07/11 00.56    }        0{           {  0{     &}  & }  J
+                   A j     A!    A         A!      A  }A!   ;Aq& }   }       .&A
+  }A        -            n     {S         e  {S -{HK }<As    A O }<As  {
+  ,K   }<            K   }<    K   }<   %K  {}<   H    K   }<    K   }<    A&
+      , 0A  0       }} &0}  \}  0A           A    0A   q }      0A; 0   0A;    K
+ }<              NON                    ?             ?              USUR
+          ?
+ 
+DRSPCNOTRACFADR UNAUTHCLNT             AUTHCLIENT           TASKLVL   NOTASKLVL
+ INITUSP   NOINITUSP  DEFAULTUIDNODEFLTUID NOPSWDREQ PSWDREQ    HEX80     NOHEX8
+0    HEX40     NOHEX40    DEFUSERS  NODEFUSERS HEX10     NOHEX10    PROTDASD  NO
+PROTDASD PROTTAPE  NOPROTTAPE PROTTERM  NOPROTTERM   HEX01     NOHEX01    ACEEAM
+OD31ACEEAMOD24 PLCL1024  PLCL128    DAT4USED  DAT4NOTUSD ENVROBJOTHENVROBJHER SE
+RVAUTH  NOSERVAUTH ENVNSTFSTANOENVNSTAF DAILYLOGONNODALYLOGN HEX01     NOHEX01
+  RESTACCUIDNORESTACCU RESTACUXOTNORESACUXO CHKDOTHER NOCHKOTHER   HEX10     NOH
+EX10    HEX08     NOHEX08    HEX04     NOHEX04    HEX02     NOHEX02    HEX01
+ NOHEX01     }      0{           {  0{     &   &J   J    q \  0     }{  0   & }{
+  &A   {  5   0} P }|}| & &A              -      P } } P }*}*  }<&-  &    \} &\
+e   \}*&\  k \ k \   } & \  0  j 1  \{D 01    0{  0{Q        IKJPUTL
+  0{0          {Y   0{    3 \} q }   K }%             {     ?
+                        ?             ?              UPRC                 ?
+ 
+ 
+ 
+                   ?         5695PMB01     |  a|     ?        d   569623400
+|     ?                               ?       00  UPRC   VER 1.1   08/22/11 01.4
+8    }        0{    w      {  0{     &}  & }  J
+ Amj     A;    Am        A;      A  }A;   ;A & }   }       .&A  }Am       -
+       n     {S         e  {S -{HK } Aw    A O } AwN A }   A o A  0A o A       }
+     A          ,   %   Hj A   A j A  \A K   }  0A<K   Aw    A          , 0A
+0     }} &0}  \}  0A@   w      A    0A   q }      0A  0   0A     K }
+ -OFF         ?             ?              USOT           B     ?
+ 
+ 
+ 
+         ?         566528408     "     ?        d   569623400     "     ?
+              H   H     ?     H 00  USOT   VER 1.1   07/06/01 11.02    }
+0{           {  0{     &}  & }  J                                  A j     A
+ A         A       A{ }A    ;Au& }   }       .&A{ }A        -            n     {
+S         e  {S -{HK }<A     AyO }<A   {          ,K   }<            K   }<
+   A K   }<   %n  {  A K  {}<   Hn     A     K   }<    A*           , 0Ao 0
+}} &0}  \}  0Ad          A@   0A   q }      0A| 0   0A|    K }<              NON
+                ?             ?              USIT                 ?
+ 
+ 
+ 
+           ?         5695PMB01        &"     ?        d   569623400           ?
+                              ?       00  USIT   VER 1.1   11/03/08 13.55    }
+      0{           {  0{     &}  & }  J                                  Adj
+ A+    Ad        A+      Ay }A+   ;A & }   }       .&Ay }Ad       -            n
+     {S         e  {S -{HK }<Ao    A O }<Ao  {          ,K   }<            K   }
+<        A K   }<   %n  {  A K  {}<  A          , 0A= 0     }} &0}  / \}  0A%
+       A    0A   q }      0A  0   0A     K }<              NON                ?
+            ?              USAT           b     ?
+ 
+ 
+                                                                         ?
+   5695PMB01               ?        d   569623400           ?
+  h   h     ?     h 00  USAT VER 1.1     11/05/08 01.44    }        0{
+ {  0{     &}  & }  J                                  A j     {dj     A     A
+       A       A  }A    ;A-      .&A  }A        -            n     {S         e
+ {S -{HK }<A|    A O }<A|  {          ,K   }<          A          , 0A  0     }}
+ &0}  \}  0A           A    0A   q }      0A  0     0A     K }<              NON
+                    ?             ?              RLOAD                ?
+ 
+ 
+ 
+               ?         5695PMB01     |         ?        d   569623400     |
+  ?                               ?       00|  RLOAD - 09/21/11 - 11.25 -     --
+------------------------------                                         }     K C
+8C  }C8&}\ &\C k C0k C1k C2    C         C         C n     {      0{   Cy  A [
+     o   o   nF    {Wo C2m"C2 0{ o C2m C2nS    { o C1 0A nO    A o C1 0A nU    A
+ o C1 0A nK    A o C1 0A nP    A o C0 0A nA    A+o C1 0A nC    A;o C1 0A   nD
+ A>o C1 0A n0    A=o C0 0A nN    A o C0 0A nG    A o C0 0A nR    A o C1 &   &&
+&&  &&% &&Hj C2  AKj C2  B  0C     A          ,j C1 \A2o &  0Cbj C1 \B o &  0Cbj
+ C1 \B o &  0Cbj C1 \B o &  0Cbj C0 \B o &  0Cbj C1 \B k & o &  0Cbj C1 \B!k & o
+ &  0Cb  j C1 \B>k & o &  0Cbj C0 \Bbk & o &  0Cbj C0 \Bko &  0Cbj C0 \Bso &  0C
+bj C1 \Cbk & o &  0Cb    B{         ,j C1 \BOm"&  0Cbj C1 \BWm &  0Cbj C1 \B6m &
+  0Cbj C1 \C m &  0Cbj C0 \C m &  0Cbj C1 \C m"&  0Cbj C1 \C m &  0Cbj C1 \C m &
+  0Cbj C0 \C m &  0Cbj7  C0 \C m &  0Cbj C0 \C m"&  0Cbj C1 \Cbm &     C
+  ,k   k    }C q }
+ 
+                      ?             ?              SETPW          YRACFPW01
+   SETPWPCL   Y    SETPWMSG             ?
+ 
+ 
+                                                                 ?         5695P
+MB01     |  l^     ?        d         569623400     |     ?
+Y   Y                 ?     Y 00  SETPW   04/24/0600.19  }           {
+ & } &}   JP } }   } K     K       } &     C{&     }%&   K     P     K } C K }=C
+ P } }   J & }4& }8P } }   CD& J k&J k J P J J    0    2   {H 02    0{  0{    M
+   IKJPARS       B  -   --   -   }     -   }   C   -   }'    -   }=  C
+ }f 0   03\    A n 0   A  0   0A*j 0   A&j 0r \A  0   0A* 0      B[       % " H
+ B j     Ao   0Ad     0A       B K }fC     }'  }=  }f &C K } C*K } C*K }\C*  } m
+   o   K   Cy&   &     } K   C  0  &1  &     }\K   C  0  &1  &   K } C   }y& }m
+ } k   k     k    0} &1   0} &1   0} &1   0}\&1   d    B  0BsK J CH     0B K J C
+      0BDK J C}     0B      0CM  BqK J CQ 0C   B i    0 0B K J C\ 0BDK J CU
+0BD&0}   }   J k J o J   }4 0    3}  B  03}   0B6   0B4        IKJEFF02   0B   }
+%i   h       C  \              i\  h\      C  2   }} &0}  0C       C       P } }
+ q }       K         PASSWORD
+             PASSWORDPASSDATEFLAG4      Y    PW01PW02PW03    PW04    PW05PW06
+   m            USERID  USERID TO BE CH  ANGEDm     -      PASSWORD  NEW PASSWOR
+D      PW01        PWD001E RACF IS INACTIVE - RACSTAT RC =  PW02        PWD002E
+USER NOT AUTHORIZED TO THIS FUNCTIONPW03        PWD003E PARSE ERROR - IKJPARS RC
+ = PW04        PWD004E RACF ERROR - ICHEINTY RC =  PW0  5        PWD005E USERID
+NOT FOUNDPW06        PWD006I PASSWORD CHANGED     00  RACFPW01-04/24/06-00.19  }
+     {0   0{   V  0{       &}  & }   K^  A K  &{      0  &1   !   m   mJ  o
+  &&   k     {4&      0    08  {q 0   0{   0   {y 0   0{        0Ah    {      0{
+{   }    {0     0{M  V  0{}   3 \} q } o }            Q FACILITYRACFPW.CHANGES
+ 
+                                                        ?
+                        U           {       D     ?             ?              A
+LLIDS          EPUTL                ?
+ 
+ 
+                                                             ?         5695PMB01
+        l      ?        d     569623400           ?
+      ?        }      }A &0A &}0                             K A!    A      0A8
+     K   A     A/     0A8      K A     A:     0A8     %   {K Av    Al     0A8
+  %   H    K A     A      0A8     %        K AP    AE     0A8   0{Q            K
+ A0    A      0A8   }A q }
+                         My PSCB Userid is        My TIOT Userid is        My AS
+CB Userid is        My ASXB Userid is        My ACEE Userid is        My LWA  Us
+erid is        My CSCB Userid is                   }      0{           {  0{
+ &   &J   J    q \  0     }{  0   & }  {  &A   {  5   0} P }|}| & &A
+  -      P } } P }*}*  }<&-  &    \} &\   \}*&\  k \ k \   } & \  0  j 1  \{D 01
+    0{  0{Q   }    IKJPUTL              0{0          {Y   0{    3 \} q }   K }%
+                ?                             Q         8       H     ?
+    ?     h        IKJEFTE2        APFCTABL        IKJEFTE8        APFPTABL
+   IKJEFTNS        NSCPTABL        IKJEFTAP       {APFTTABL   {         ?
+ 
+ 
+ 
+                 ?         5695PMB01       b       ?        d         569623400
+          ?                                       {       ?      IKJEFTE276.152
+ $$      $HOWMVS $MDSMAIN#       ABUDSN  AD      ADB2UTILADDDIR  ADDFILE ADDGROU
+PADDSD   ADDUSER ADIR    ADNR    ADYOPCMDAF      AG      ALD     ALF     ALG
+ ALTDIR  ALTDSD  ALTER   ALTFILE ALTGROUPALTUSER ALU     APCACBL A  PCANB  APCAR
+B  APCAUB  APFCMD  ASUB    AU      AUCMD   BACKUP  BCMDEL  BCMDEL1 BCMNAUTHBCMNU
+PD BDATA   BDMNNOTCBDMNUPD BINDDATABLKUPD  BUDDSN  BUDGET  BURN    CAE$BQRYCANCE
+LU CAS9UDTNCDELPAIRCDELPATHCDMRSTATCDSCB   CDSCBA  CESTPAIRCESTPATHCGROUP  CHKPT
+     CINMX   CKGRACF CLCHECK CNCLPG  CNCLPGA CNVTCAT CO      COFDMON CONNECT CON
+S    CONSPROFCPSCB   CQUERY  CQUERYSGCQX     CRECOVERCSCAN   CSUSPENDDCAS    DD
+     DDIR    DEF     DEFINE  DEL     DELDIR  DELDSD  DELETE  DELFILE DELGROUPDEL
+USER DF      DG        DITTO   DITTOA  DITTOU  DMRSHR  DRI     DSPRINT DU      D
+UMPPPT ERWMAUTHEX      EXP     EXPORT  EYU9XENFEZAZSSI EZBREINIEZBTNINIFCESTABLF
+CQUERY FCWITHDRFTPD    FTPDNS  GJTRUCBSIEBCOPY IKJEHDSFIKJEHDS1IKJPRMLBIM      I
+MP     IMPORT  IOBSNMP IQIEXPN   IQIMAIN IQIQUERYIQIQUIT IRRDPI00ISPICP  ISRPCP
+ KOMPRESSLASTCLPALBADV   LBAGENT LD      LDATA   LDIR    LDIRECT LF      LFILE
+ LG      LISTB   LISTBC  LISTD   LISTDATALISTDS  LISTDSD LISTGRP LISTUSERLLWA
+ LMRKTSO LOCATE  LOCKTERMLOOK    LPQ     LPR       LPRM    LPROC   LSLT    LU
+   LWATMGR MAKEUSERMERLIN  MIMTSO  MODDVIPAMU      MVPMAIN MVPXDISPMVSCPCMDNAMED
+XFRNAMED4  NDVRC1  NETSTAT NSUPDATENSUPDAT4NYPPW   OC      OMPROUTEOP      OPER
+   OPERATOROPINFO  OPING   OPSCMD  OPSCONSLOPSOSCMDOPSPARM OP  SREPLYOPSTAT  OPS
+WTO  OSASK   OSCMD   OSNMPD  OSWTO   OTRACERTPACKRAT PARMLIB PASSWORDPDIR    PDS
+CLEANPDSEAUTHPDS38   PE      PERMDIR PERMFILEPERMIT  PF      PHRASE  PING    POP
+PER  PPTD    PPTSCAN PRINT   PW      Q       QUEUE   Q522    RACDCERTRACFSIM   R
+ACLINK RACONVRTRACPRIV RALT    RALTER  RDEF    RDEFINE RDEL    RDELETE RE      R
+ECEIVE RELOGON REMOVE  REPRO   RESOLVE REVIEW  REVVSAM REXCPCMDRL      RLIST   R
+LOAD   RLOADA  RMM     RPF     RPFE    RSH     RSHD    RVARY   SAMENDM SDSF    S
+E      SEAR  CH  SECURE  SEE     SEND    SEND@   SETC    SETCACHESETPASSWSETPW
+ SETPW2  SETR    SETROPTSSETUSER SHCDS   SM      SMTP    SNTPD   SPACE   SPFCOPY
+ SPY     SR      SRDIR   SRF     SRFILE  SRSTAT  STEPLIB STEPLIBNSTEPLIB4SU
+ SYNC    SYSPROG TEAEXTSOT  ERM    TERMINALTESTA   TESTAUTHTMONCICSTMONDB2 TMONI
+MS TMONMVS TRACERTETRANSMITTRAPFWD TRMD    TSOENQ  TSOSMS  TSUB    UGRP    UKEYC
+SA UPRC    USAT    USET    USIT    USOT    USPT    USUR    USUT    USWT    USXT
+   VERIFY  VFY     VIEWUSERVLFNOTE VMCF      VU      WAITT   WHEREIS WHOENQ  WSS
+TAT  XD      XDCCALLAXDCCMDA XF      XMDSMAINXMIT    XTRCUSERXU      YKCONMSGZAP
+     ZAP$    ZAPLWA  ZAPV    HERCMD  CPCMD
+ 
+ 
+                                                                       IKJEFTE88
+5.092  ADB2ATH ADB2UTILADRDSSU ALPAUTH APCACBL APCANB  APCARB  APCAUB  + APFPGM
+ ARMAUTH COMMAND CONSPROFCSFDAUTHCSFDPKDSCTMAES  CTMDFL  CTMRUN  CTRC  TR  CTRSP
+L  EDGAUD  EDGHSKP EDGRPTD EDGUTIL EMCICS61EMCSNAP EMCTF   EMCTFU  EQQMINORERWMA
+UTHFDRABR  FDRABRUTFDRCPK  FDREPORTFDRMONA FDRPASA FDRQUERYFDRSRSA FSYTPA00GIMSM
+P  GJTRUCBSHESEVMI ICADCFGSICADCT  ICADDCT ICADFTPDICADIKEDICADPFTPICADSLOGICADS
+OCKI  CADSOXDICADSTAKICHDSM00ICHUEX00ICHUT100ICHUT200ICHUT400IDCAMS  IEBCOPY IEH
+INIT IEHMOVE IEHPROGMIFCEREP1IKJEFF76IOEAGFMTIOEAGSLVIOEBAK  IOEBOS  IOECM   IOE
+DCEERIOEDFSXPIOEFTS  IOEGRWAGIOEMAPIDIOENEWAGIOESALVGIOESCOUTIOESMBPWIOEUDBG IOE
+ZADM IRMAUTH IRRDBU  00IRRDIP00IRRDPI00IRRDSC00IRRUT100IRRUT200IRRUT400ITPENTERI
+XCMIAPUJCLSRB  KEPSTCTOKOBROUTRKOBSPFAULISTDATALOCKTERMLWATMGR MIMTSO  MVPXDISPN
+DVRC1  OBROUTR OBSPFAU OLDCOPY OMCICS  OMEGAMONOMSPFAU PDSCLEANPDSCLEARPDSEAUTHP
+DSFAST PING    PSIPCTL RESOLVE REV  VSAM REXCPCMDSAMENDM SCRAMRE SDSF    SHERCOM
+MSHOWMVS SHOWZOS SYSPROG TESTENQ TMONMVS TMSIOCAPTMSSCR  TSOENQ  TSOSPA  WHOENQ
+ ZAPVIRT ZSIZER
+ 
+ 
+ 
+                                                                     IKJEFTNS76.
+033    OPERATOR  OPER      TERMINAL  TERM
+                                                                     IKJEFTAP86.
+120  $$      AAATHCHKAACMD001AACMD002AACMD003AACMD004AACMD005AACMD006AACMD007AA
+ CMD008AACMD009AACMD014AACMD015AACNG001AACNG002AACNG003AAGRPUSRAAPSWCHKAAREP011A
+DB2ATH ADB2UTILADRDSSU APFCMD  BACKUP  BBSDTCPABCMNUPD BDMNUPD BFFLU   CADU4804C
+ADU4805CAT01IKBCAZ2CTSOCDFAUTH CDSCB   CSCCOPY CSFDAUTHCSFDPKDSEDGAUD  EDGHSKP E
+DGRPTD EDGUTIL   EMCICS61EMCSNAP EMCTF   EMCTFU  EOUCCSYMEQQMINORERWMAUTHEX
+ FDRABR  FDRABRUTFDRCPK  FDREPORTFDRMONA FDRPASA FDRQUERYFDRSRSA FMNSMF  GIMSMP
+ GJTRUCBSIAMRECVRIAMXMONAICADCFGSICADCT  ICADDCT ICADFTPDICADIKEDICADPFTPICADSLO
+GICADSOCKICADSOXDICADSTAKICHD  SM00ICHUT100ICHUT200ICHUT400ICQASLI0IEBCOPY IKJEF
+F76IM      IOEAGFMTIOEAGSLVIOEBAK  IOEBOS  IOECM   IOEDCEERIOEDFSXPIOEFTS  IOEGR
+WAGIOEMAPIDIOENEWAGIOESALVGIOESCOUTIOEUDBG IOEZADM IRRDPI00IRRDSC00IRRUT100IRRUT
+200IRRUT400JCLSRB  LSLT    LWATEDITLWATMGR M  IMTSO  MNAPFPRCMNCDTPRCMNCD2PRCMNG
+RPPRCMNLLTPRCMNLPAPRCMNPPTPRCMNRACPRCMNRAUPRCMNRFRPRCMNSMFPRCMNSM4PRCMNSTCPRCMNS
+VCPRCMXI     MXITSF  NDVRC1  OBROUTR OBSPFAU OLDCOPY OMCICS  OMEGAMONOMSPFAU PDS
+CLEANPDSEAUTHPDSFAST PMGLAUTHPSIPCTL PTLTSRB RCFRESETREATSF    SAMENDM TMONMVS T
+MSIOCAPTMSSCR
+ 
+ 
+ 
+                                  {     ?             ?     h        KKJEFTE2
+     APFCTABL        KKJEFTE8        APFPTABL        KKJEFTNS        NSCPTABL
+     KKJEFTAP       {APFTTABL   {         ?
+ 
+ 
+                                                                   ?         569
+5PMB01       b "     ?        d         569623400           ?
+                    {       ?      IKJEFTE276.152  $$      $HOWMVS $MDSMAIN#
+   ABUDSN  AD      ADB2UTILADDDIR  ADDFILE ADDGROUPADDSD   ADDUSER ADIR    ADNR
+   ADYOPCMDAF      AG      ALD     ALF     ALG     ALTDIR  ALTDSD  ALTER   ALTFI
+LE ALTGROUPALTUSER ALU     APCACBL A  PCANB  APCARB  APCAUB  APFCMD  ASUB    AU
+     AUCMD   BACKUP  BCMDEL  BCMDEL1 BCMNAUTHBCMNUPD BDATA   BDMNNOTCBDMNUPD BIN
+DDATABLKUPD  BUDDSN  BUDGET  BURN    CAE$BQRYCANCELU CAS9UDTNCDELPAIRCDELPATHCDM
+RSTATCDSCB   CDSCBA  CESTPAIRCESTPATHCGROUP  CHKPT     CINMX   CKGRACF CLCHECK C
+NCLPG  CNCLPGA CNVTCAT CO      COFDMON CONNECT CONS    CONSPROFCPSCB   CQUERY  C
+QUERYSGCQX     CRECOVERCSCAN   CSUSPENDDCAS    DD      DDIR    DEF     DEFINE  D
+EL     DELDIR  DELDSD  DELETE  DELFILE DELGROUPDELUSER DF      DG        DITTO
+ DITTOA  DITTOU  DMRSHR  DRI     DSPRINT DU      DUMPPPT ERWMAUTHEX      EXP
+ EXPORT  EYU9XENFEZAZSSI EZBREINIEZBTNINIFCESTABLFCQUERY FCWITHDRFTPD    FTPDNS
+ GJTRUCBSIEBCOPY IKJEHDSFIKJEHDS1IKJPRMLBIM      IMP     IMPORT  IOBSNMP IQIEXPN
+   IQIMAIN IQIQUERYIQIQUIT IRRDPI00ISPICP  ISRPCP  KOMPRESSLASTCLPALBADV   LBAGE
+NT LD      LDATA   LDIR    LDIRECT LF      LFILE   LG      LISTB   LISTBC  LISTD
+   LISTDATALISTDS  LISTDSD LISTGRP LISTUSERLLWA    LMRKTSO LOCATE  LOCKTERMLOOK
+   LPQ     LPR       LPRM    LPROC   LSLT    LU      LWATMGR MAKEUSERMERLIN  MIM
+TSO  MODDVIPAMU      MVPMAIN MVPXDISPMVSCPCMDNAMEDXFRNAMED4  NDVRC1  NETSTAT NSU
+PDATENSUPDAT4NYPPW   OC      OMPROUTEOP      OPER    OPERATOROPINFO  OPING   OPS
+CMD  OPSCONSLOPSOSCMDOPSPARM OP  SREPLYOPSTAT  OPSWTO  OSASK   OSCMD   OSNMPD  O
+SWTO   OTRACERTPACKRAT PARMLIB PASSWORDPDIR    PDSCLEANPDSEAUTHPDS38   PE      P
+ERMDIR PERMFILEPERMIT  PF      PHRASE  PING    POPPER  PPTD    PPTSCAN PRINT   P
+W      Q       QUEUE   Q522    RACDCERTRACFSIM   RACLINK RACONVRTRACPRIV RALT
+ RALTER  RDEF    RDEFINE RDEL    RDELETE RE      RECEIVE RELOGON REMOVE  REPRO
+ RESOLVE REVIEW  REVVSAM REXCPCMDRL      RLIST   RLOAD   RLOADA  RMM     RPF
+ RPFE    RSH     RSHD    RVARY   SAMENDM SDSF    SE      SEAR  CH  SECURE  SEE
+   SEND    SEND@   SETC    SETCACHESETPASSWSETPW   SETPW2  SETR    SETROPTSSETUS
+ER SHCDS   SM      SMTP    SNTPD   SPACE   SPFCOPY SPY     SR      SRDIR   SRF
+   SRFILE  SRSTAT  STEPLIB STEPLIBNSTEPLIB4SU      SYNC    SYSPROG TEAEXTSOT  ER
+M    TERMINALTESTA   TESTAUTHTMONCICSTMONDB2 TMONIMS TMONMVS TRACERTETRANSMITTRA
+PFWD TRMD    TSOENQ  TSOSMS  TSUB    UGRP    UKEYCSA UPRC    USAT    USET    USI
+T    USOT    USPT    USUR    USUT    USWT    USXT    VERIFY  VFY     VIEWUSERVLF
+NOTE VMCF      VU      WAITT   WHEREIS WHOENQ  WSSTAT  XD      XDCCALLAXDCCMDA X
+F      XMDSMAINXMIT    XTRCUSERXU      YKCONMSGZAP     ZAP$    ZAPLWA  ZAPV    H
+ERCMD  CPCMD
+ 
+ 
+                                         IKJEFTE885.092  ADB2ATH ADB2UTILADRDSSU
+ ALPAUTH APCACBL APCANB  APCARB  APCAUB  + APFPGM  ARMAUTH COMMAND CONSPROFCSFDA
+UTHCSFDPKDSCTMAES  CTMDFL  CTMRUN  CTRC  TR  CTRSPL  EDGAUD  EDGHSKP EDGRPTD EDG
+UTIL EMCICS61EMCSNAP EMCTF   EMCTFU  EQQMINORERWMAUTHFDRABR  FDRABRUTFDRCPK  FDR
+EPORTFDRMONA FDRPASA FDRQUERYFDRSRSA FSYTPA00GIMSMP  GJTRUCBSHESEVMI ICADCFGSICA
+DCT  ICADDCT ICADFTPDICADIKEDICADPFTPICADSLOGICADSOCKI  CADSOXDICADSTAKICHDSM00I
+CHUEX00ICHUT100ICHUT200ICHUT400IDCAMS  IEBCOPY IEHINIT IEHMOVE IEHPROGMIFCEREP1I
+KJEFF76IOEAGFMTIOEAGSLVIOEBAK  IOEBOS  IOECM   IOEDCEERIOEDFSXPIOEFTS  IOEGRWAGI
+OEMAPIDIOENEWAGIOESALVGIOESCOUTIOESMBPWIOEUDBG IOEZADM IRMAUTH IRRDBU  00IRRDIP0
+0IRRDPI00IRRDSC00IRRUT100IRRUT200IRRUT400ITPENTERIXCMIAPUJCLSRB  KEPSTCTOKOBROUT
+RKOBSPFAULISTDATALOCKTERMLWATMGR MIMTSO  MVPXDISPNDVRC1  OBROUTR OBSPFAU OLDCOPY
+ OMCICS  OMEGAMONOMSPFAU PDSCLEANPDSCLEARPDSEAUTHPDSFAST PING    PSIPCTL RESOLVE
+ REV  VSAM REXCPCMDSAMENDM SCRAMRE SDSF    SHERCOMMSHOWMVS SHOWZOS SYSPROG TESTE
+NQ TMONMVS TMSIOCAPTMSSCR  TSOENQ  TSOSPA  WHOENQ  ZAPVIRT ZSIZER
+ 
+ 
+ 
+ 
+                                       IKJEFTNS76.033    OPERATOR  OPER      TER
+MINAL  TERM
+                                       IKJEFTAP86.120  $$      AAATHCHKAACMD001A
+ACMD002AACMD003AACMD004AACMD005AACMD006AACMD007AA  CMD008AACMD009AACMD014AACMD01
+5AACNG001AACNG002AACNG003AAGRPUSRAAPSWCHKAAREP011ADB2ATH ADB2UTILADRDSSU APFCMD
+ BACKUP  BBSDTCPABCMNUPD BDMNUPD BFFLU   CADU4804CADU4805CAT01IKBCAZ2CTSOCDFAUTH
+ CDSCB   CSCCOPY CSFDAUTHCSFDPKDSEDGAUD  EDGHSKP EDGRPTD EDGUTIL   EMCICS61EMCSN
+AP EMCTF   EMCTFU  EOUCCSYMEQQMINORERWMAUTHEX      FDRABR  FDRABRUTFDRCPK  FDREP
+ORTFDRMONA FDRPASA FDRQUERYFDRSRSA FMNSMF  GIMSMP  GJTRUCBSIAMRECVRIAMXMONAICADC
+FGSICADCT  ICADDCT ICADFTPDICADIKEDICADPFTPICADSLOGICADSOCKICADSOXDICADSTAKICHD
+ SM00ICHUT100ICHUT200ICHUT400ICQASLI0IEBCOPY IKJEFF76IM      IOEAGFMTIOEAGSLVIOE
+BAK  IOEBOS  IOECM   IOEDCEERIOEDFSXPIOEFTS  IOEGRWAGIOEMAPIDIOENEWAGIOESALVGIOE
+SCOUTIOEUDBG IOEZADM IRRDPI00IRRDSC00IRRUT100IRRUT200IRRUT400JCLSRB  LSLT    LWA
+TEDITLWATMGR M  IMTSO  MNAPFPRCMNCDTPRCMNCD2PRCMNGRPPRCMNLLTPRCMNLPAPRCMNPPTPRCM
+NRACPRCMNRAUPRCMNRFRPRCMNSMFPRCMNSM4PRCMNSTCPRCMNSVCPRCMXI     MXITSF  NDVRC1  O
+BROUTR OBSPFAU OLDCOPY OMCICS  OMEGAMONOMSPFAU PDSCLEANPDSEAUTHPDSFAST PMGLAUTHP
+SIPCTL PTLTSRB RCFRESETREATSF    SAMENDM TMONMVS TMSIOCAPTMSSCR
+ 
+ 
+ 
+ 
+    {     ?             ?              CNCLPG         QEPUTL      Q         ?
+ 
+ 
+                                z
+                     ?         5695PMB01               ?        d     569623400
+          ?                     0   Q           ?     0 00|  CNCLPG - 12/06/12 -
+ 21.56 -     --------------------------------     VER 1.2.5
+   }  /                     }  &}\ &\ dk   k   k   k   k I k  QK| R Qk I
+ K {D   0{F    B      0      B      0        A   -     A          h }A    ;I
+   .& h  A  &A   Ah 0A    > 0A   Hg     0     0   0A   Hp     0     0   0A   Hx
+    0     0   0A  } d \} q }            0     0A & H0& HM       -            K B
+:Bb  B:n     B K     O B:Bbn-B:  A  0A n?B:  A    > 0A & H o        0A   N B:I
+ B o   m   K IHB:K B:Bb         -   0I!             e  B  -A   I   HMO B:Bbo   K
+| R QK  R  K   B:   R     0      C      0     -   0I                 CNCLPG 1.2.
+5 - Make a Job, STC or TSU Cancelable, etc. (? for help)------ ----- - ---- - --
+-- ---   -- --- ----------- ----------------------------------------------------
+---------------------------Enter JOBNAME and/or ASID(hhhh) after COMMAND name,
+ then CNCL, NCNC, FORC, NFRC, NSWP, or SWAP.    Or code CSCB or DISP to just dis
+play CSCB entries.     DISPlay or CSCB will display CSCB chain entries,   withou
+t changing them. When changing a job, we want to be accurate,   therefore you sh
+ould use the DISPlay option first. To display the whole CSCB, code - (dash) for
+JOBNAME. To see this help message, c  ode ? for JOBNAME.Notes (important) :  CSC
+B (DISP) display for an ASID shows all occurrences  for that ASID, regardless of
+ JOBNAME.       CSCB (DISP) display for a JOBNAME shows all occurrences  for tha
+t JOBNAME, regardless of ASID.       CNCL, NCNC, FO  RC, NFRC, NSWP, SWAP change
+s the FIRST  entry in the CSCB chain that matches, if multiple   entries exist.
+But DISP will display ALL applicable  matching entries in the CSCB chain, so you
+ can see  which one you want to change specifically. When you code   BOTH jobnam
+e and asid, to CHANGE it,  then ONLY that specific job and asid gets changed.WE
+GOT HERETEST CHECK THISJob was not done. SYSEVENT return code was     Job xxxxxx
+xx for ASID HHHH made non-swappable.Job xxxxxxxx for ASID HHHH was made swappabl
+e  .Job xxxxxxxx for ASID HHHH already non-swappable.Job xxxxxxxx for ASID HHHH
+was already swappable.Function xxxx was called for.Job xxxxxxxx for ASID HHHH ha
+s been burned.Return code is 0Return code is 4Return code is 8
+ 
+                                                  e    K IHBbK IH  O IHBbN I IH
+ I6N IKIH    N IOIH    N I IH    N I IH    N ISIH    N IWIH   0N I IH    N I IH
+   N I2IH   H 0I      ASID(CNCL  NCNCSWAPNSWPFORCNFRCCSCBDISPBURNo       K IHBb
+0I o I o      ko   m          }   q  C      0    K| R QK  R  K   IK   R     0
+ K| R QK  R   1    I      0 2    q1     R     0     -I  0  o I o      ko   m
+      }   q  C      0    K| R QK  R  K   IO     R     0    K| R QK  R   1    I
+    0 2    q1     R     0     -I  0  o   K H I   H      0       k   U -I  0  o
+ K H I   H      0       k   U -I  0  o   o I    ko   m          }   q  C      0
+   K| R QK  R  K   IS   R     0    K| R QK  R   1    I      0+  2    q1     R
+  0     -I  0  o   o I    ko   m          }   q  C      0      K| R QK  R  K   I
+W   R     0    K| R QK  R   1    I      0 2    q1     R     0     -I  0  o   o
+ K| R QK  R  K   I K  0 A   R     0         -I  0  j      }         0       > 0A
+  0A   H0 9& H4K 0   3 0 0   0    00         k 0   H4 90123456789ABCDEF& H  8
+  -      j               n)     -n      -K                  -   0 -        n
+         K     K     K  %  K| R QK  R     R     0         -    2     K| R QK  R
+  1           0      q1     R     0      C      0    q     H8 9
+                                 & I  0   02 N 2  @     02    d  i    0 0      I
+  9
+ 
+ 
+                                               ASID parm entered  :      & H & H
+        m       &K  f  K  g  K     K  q  j      Wj       j      W       & 0  N B
+: g           & 0  j       N    q             & 0  &   K  %  K     K  @  K  d
+      q  C      0     0           0     0A   H   H  9
+                   & I          - % &  n            --  &  j      S 0  o   k?-
+    --  &  K| R QK  R .   R     0     0A   H}q    9                Bad ASID ente
+red. Use end parenthesis ) to delimit.Bad Characters marked with a ?:      & I &
+  %K| R QK  R RK  U     R     0    K| R QK  R SK  U     R     0    K| R QK  R
+1           0 U    q1     R     0    j       j       K| R QK  R 4 1
+0 0    q1     R     0     0  K| R QK  R]  1           0 0    q1     R     0
+  %  I  9    & I & H{& HUj       K| R QK  R     R     0      C      0
+m        K  f  K  g  K     K  q  n-B:    N        6    I           N
+      q  C      0             0    H{  HU  I  9N B:  & I & H  1 H          i
+     A q1 Hj      >K I I  0 bj      FP I ] K I I                    ,j      yO
+ I  0  j       M   I      {         ,  H   I  9& I & HD    K| R QK  R RK  U
+R     0    K| R QK    R SK  U     R     0    K| R QK  R   1           0 U    q1
+    R     0    K| R QK  R]  1           0 0    q1     R     0      C      0
+ HD  I  9& I & HHj            0  K  -   0 {K  -  K| R QK  R     R     0    j
+  W   0K  -   0 6K  -  K| R QK  R       R     0      HH  I  9Cancelable    Non-C
+ancelableForcible      Non-Forcible  Job Status:                 & I   C+     0
+     Ca     0      C      0      CV     0      D      0      D      0      D^
+  0      C      0      Dl     0      DI     0        C      0      D7     0
+ E      0      E      0      E>     0      Ew     0      EL     0      F      0
+     F      0      F      0      Fv     0      FJ     0      G      0      C
+  0      I  9o   K| R QK  R  K   I2   R     0     1 H          i           A q1
+H   k               ,& HY   q&} \ } o    i      hi        0   00  00    } \  HY
+  -         ,K H-   1     d     0H     q1    H*     0     0
+                                                           & I &-H  1 H        +
+   i         A q1 Hj       j        0  N {D d    K    -    K Ge   1     d
+0Gp    q1    Ga     0     -H   I  9                             , - d  i   x5
+   0  ^   u         ,K Ge   1     d     0Gp    q1    Ga     0     0  N {D d    K
+         K G    1     d     0GE    q1    G      0     -H   I  9 - d  i   x5
+ 0  ^                 ,K G    1     d     0GE    q1    G      0     0       d
+      , 1           0G'    q1    G      0     -H   I  9                 }
+  ,   0 U      1      0 \ \            \  /P - - & -   - & -     P         K
+     N         K      0  K      d   0 &      T      0 < \            \ & -   0
+     ]  \   0                    -  0        1    q   0   \            \    0 H
+     T    {   0 D \            \                ,q    9                        C
+ommand was not invoked APF authorized.End   of CSCB chain was reached.No valid k
+eyword was coded.
+ 
+                                                           This is a run of the
+CSCB Chain only ...DONTSWAPOKSWAP  DONTSWAP   QASVTOKSWDONT    Search Jobname:Ac
+tion code   :Cancel Indicator Flag :(DISPlay)Search ASID   :Job  ID :Proc ID :AS
+ID    :Previous CHACT Flags:Current  CHACT Flags: Modified CHACT Flags:       &
+  J  }   }<      }&    }  \              q }   &o  &      0   02    0&      0
+02       }  \              q }      0  i0     Q {&  0   00q          OKSW      }
+      0{           {  0{     &   &J   J    q \  0     }{  0   & }{  &A   {  5
+0} P }|{ }| & &A              -      P } } P }*}*  }<&-  &    \} &\   \}*&\  k \
+ k \   } & \  0  j 1  \{D 01    0{  0{Q   y    IKJPUTL              0{0
+ {Y   0{    3 \} q }   K }%             {     ?
+          ?             ?              CNCLPG          EPUTL                ?
+ 
+ 
+                                z
+                     ?         5695PMB01         "     ?        d     569623400
+          ?                                     ?       00|  CNCLPG - 03/03/13 -
+ 18.02 -     --------------------------------     VER 1.3.1
+   }  /                     } }&}\ &\ Mk  {k  Ak  Bk  Ck  :k I<k   K|    k I+
+     K {H   0{     B      0 H    BJ     0 H      A   -       A        \ }A    ;I
+       .& \  A  &A   A  0A    O 0A   H?     0 H   0   0A%  H"     0 H   0   0A%
+ H      0 H   0   0A% } M \} q }      -     0 H   0A & H & HU       -
+ K B=Bf  B=n     B K     O B=Bfn-B=  AK 0ASn?B=  A2   O 0A & H8o  A   Q   0A N B
+=I   B o  {m  {K IQB=K B=Bf         -   0I|             e  B  -A   I   HUO B=Bfo
+  {K|    K    UK   B=         0 H    C      0 H   -   0I&                CNCLPG
+1.3.1 - Make a Job, STC or TSU Cancelable, etc. (? for help)------ ----- - ----
+- ----   --- -- --- ----------- ------------------------------------------------
+-------------------------------Enter JOBNAME and/or ASID(hhhh) after COMMAND nam
+e,   then CNCL, NCNC, FORC, NFRC, NSWP, SWAP, CSCB or DISP.   DISPlay or CSCB wi
+ll display CSCB chain   entries,   without changing them. When changing a job, w
+e want to be accurate,   therefore you should use the DISPlay option first.
+      SEE THE NOTES, BELOW.   To display the whole CSCB, code - (dash) for JOBNA
+ME. To see this help message, code ?   for JOBNAME.Notes :     ** VERY IMPORTANT
+ TO READ ** CSCB (DISP) display for an ASID shows all occurrences  for that ASID
+, regardless of JOBNAME.       CSCB (DISP) display for a JOBNAME shows all occur
+rences  for that JOBNAME, regardless of ASID.         CNCL, NCNC, FORC, NFRC, NS
+WP, SWAP will change the FIRST  entry in the CSCB chain that matches, if MULTIPL
+E   entries exist. But DISP will display ALL applicable  matching entries in the
+ CSCB chain, so you can see  which one you want to change specific  ally. When y
+ou code BOTH jobname and asid, to CHANGE it,  then ONLY that specific job and as
+id gets changed.WE GOT HERETEST CHECK THISJob was not done. SYSEVENT return code
+ was     Job xxxxxxxx for ASID HHHH made non-swappable.Job xxxxxxxx for ASID HHH
+H   was made swappable.Job xxxxxxxx for ASID HHHH already non-swappable.Job xxxx
+xxxx for ASID HHHH was already swappable.Function xxxx was called for.Return cod
+e is 0Return code is 4Return code is 4 from the SETRLD functionReturn code is 8
+ 
+                                                                  e   UK IQBfK I
+Q  O IQBfN I IQ    N ISIQ    N IWIQ    N I IQ    N I IQ   +N I2IQ    N I6IQ    N
+ I IQ   fN I IQ   fN   IQ   { 0  I&     ASID(CNCLNCNCSWAPNSWPFORCNFRCCSCBDISPRLo
+  {   fK IQBf 0I&o I<o  A    o  Cm  C              C      0 H  K|    K    3K   I
+S         0 H  K|    K   ]  1 D  I<     0     [q1 D         0 H   -I& 0 Uo I<o
+A    o  Cm  C              C      0 H  K|    K      3K   IW         0 H  K|    K
+   ]  1 D  I<     0     [q1 D         0 H   -I& 0 Uo  AK H$I   H      0 H
+    -I& 0 Uo  AK H$I   H      0 H           -I& 0 Uo  Ao I<    o  Cm  C
+     C      0 H  K|    K    3K   I2         0 H  K|    K   ] +  1 D  I<     0
+  [q1 D         0 H   -I& 0 Uo  Ao I<    o  Cm  C                C      0 H  K|
+   K    3K   I6         0 H  K|    K   ]  1 D  I<     0     [q1 D         0 H
+-I& 0 Uo  {o  AK|    K    3K   I K   ]          0 H     Q -I& 0 UK H$IQ  H
+0 H      j  B  A  0  j" A       v     0 H     O 0A  0A   H  9           %
+    %    n       N   I          0               ,   - 4      }         & }  0
+03  00   0   }     q }  \}    -     r     }   }   H     h        nFI    }nOI
+Fo  B 0 \O      0 \k   P     M      -{H   -                         ,j  B
+0    H        0 H   0    S  O  U  P  K  A  C  D  R  0  G  N    & I K 0   3 0 0
+ 0  f 00        [k 0   I  90123456789ABCDEF& I      -      j  {   w        n)
+  }n      }K                  - w 0 }        n      W     QK  y  K    yK    yK|
+   K    Y         0 H       y }    2    yK|    K   ]  1 D         0     [q1 D
+      0 H    C      0 H  q     I  9& I  0   02 N 2  M   m 02    4  i    0 9    I
+  9
+ 
+ 
+ 
+                 ASID parm entered  :      & I & HH         m       {K  6  K  7
+ K     K     j  {    j  {    j  {           { 0  N B= 7   %       { 0  j  {    N
+                { 0  &  \K     K  U  K     K  4     \      C      0 H   0 K   g
+    0 H   0A   HH  I  9                                                & I    @
+  y -   &  n            --  &  j  :     0  o  :k?-      --  &  K|    K
+    0 H   0A   H\q  @ 9              Bad ASID entered. Use end parenthesis ) to
+delimit.Bad Characters marked with a ?:      & I &  MK|    K   ] K
+0 H    K|    K   ] K              0 H  K|    K   ]  1 D         0     [q1 D
+    0 H  j  A   qK|    K   ]< 1 D         0     [q1 D         0 H   0  K|    K
+ ]/ 1 D         0     [q1 D         0 H     M  I  9    & I & H}& H4j  A    K|
+ K    h         0 H      C      0 H         m        K  6  K  7  K     K     n-B
+=    N    S   ;    I      q    N        =   \      C      0 H           0    H}
+ H4  I  9N B=  & I & H  1            i         A:q1  j  C   OK I(I< 0  j  C    P
+ I<] K I(I<   \     8         ,j    C    O   I( 0  j  C    M   I(
+,  H   I  9& I & HM   \K|    K   ] K              0 H  K|    K   ] K
+  0 H  K|    K   ]  1 D         0     [q1 D         0 H  K|    K   ]  1 D
+  0     [q1 D         0 H    C      0 H    HM  I    9& I & HQj            0  K
+H b 0  K  H  K|    K              0 H  j      +    K  H   0 ;K  H  K|    K
+        0 H    HQ  I  9Cancelable    Non-CancelableForcible      Non-Forcible  J
+ob Status:                 & I   C      0 H    Ce     0 H    C        0 H    C1
+    0 H    D      0 H    D      0 H    D%     0 H    C      0 H    D      0 H
+ DD     0 H    C      0 H    D2     0 H    E      0 H    E&     0 H    E'     0
+H    E      0 H    ES     0 H    F      0 H    F|     0 H    Fd     0 H    F   +
+    0 H    FU     0 H    G      0 H    C      0 H    I  9& I &-H  1
+ i         A:q1  j  A    j  A   | 0  N {H 4   DK         K Gq U 1 D   4     0G
+  [q1 D  Gm     0 H   -H   I  9                             , - 4  i   x5      0
+  ^   0         ,K Gq U 1 D   4     0G    [q1 D  Gm     0 H   0  N {H 4    K
+     K GF U   1 D   4     0GQ   [q1 D  GB     0 H   -H   I  9 - 4  i   x5      0
+  ^               ,K GF U 1 D   4     0GQ   [q1 D  GB     0 H   0       }
+  , 1 D         0G    [q1 D  G      0 H   -H   I  9       %                   ,
+  0        1      0   \              \  /P - - & -   - & -     P         K
+   N    {   hK    Q 0  K        0        T    m 0 q \            \ & -   0
+ ]  \   0                    -  0        1    U   0 Y \            \    0
+ T        0   \            \                  ,q    9
+ Command was not invoked APF authorized.End of CSCB chain was reached.No valid k
+eyword was coded.
+ 
+                                                           This is a run of the
+CSCB Chain only ...DONTSWAPOKSWAP  DONTSWAP            ASVTOKSWDONT    Search Jo
+bname:Action code   :Cancel Indicator Flag :(DISPlay)Search ASID   :Job    ID :P
+roc ID :ASID    :Previous CHACT Flags:Current  CHACT Flags: Modified CHACT Flags
+:     &   J  }   }<      }&    }  \              q }   &o  &      0   02    0&
+    0   02       }  \              q }      0  i0     Q {&  0   00q          OKS
+W        }      0{           {  0{     &   &J   J    q \  0     }{  0   & }{  &A
+   {  5   0} P }|}| & &A              -      P } } P }*}*  }<&-  &    \} &\   \}
+*&\  k \ k \   } & \  0  j 1  \{D 01    0{  0{Q        IKJPUTL              0{0
+         {Y   0{    3   \} q }   K }%             {     ?
+      H       8     ?       \INMR06

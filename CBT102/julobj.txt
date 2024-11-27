@@ -1,0 +1,27 @@
+//TAPESCAN  EXEC PGM=IEWL,
+//    PARM='NCAL,MAP,LIST,LET'
+//SYSUT1      DD UNIT=SYSDA,SPACE=(2048,(200,20))
+//SYSPRINT    DD SYSOUT=*
+//SYSLMOD     DD DISP=SHR,DSN=SYS2.MVSP.SDTS.USERLIB
+//SYSLIBX     DD *
+ ESD            JULIAN
+ TXT             00  JULIAN-07/21/88-20.11  }         {
+ TXT
+ TXT            & } &}   J  q    r    {     k0  2 B   | B       A  &
+ TXT   y          A i   2 B   2 B   |&B   B B  -B  -B   { [ B  0{ [ B +&
+ TXT   \        B 3   B o0  K      r  A 2 B   | B    &h&    2 B   | B
+ TXT              ) B         o0   }} q } k }     2 B   | B     A 2 B
+ TXT   &         &   -B     B B   B   B   Aw  B   A f A%. B h&  +&B + B
+ TXT   h        3   B o0  3   B o0  K      0{2  B   A f Aw. B  0A@
+ TXT   {              B &-B & B h&  &-B &&B o B 3   B o0  3   B o0  | B
+ TXT   8         0A&                                                   0
+ TXT                <            !   p   M 3     +           $   q   N 4
+ TXT                 |
+ END
+//LKED.SYSLIN  DD *
+ INCLUDE SYSLIBX
+ ORDER   TAPESCAN,JULIAN
+ SETSSI  CE390102
+ SETCODE AC(1)
+ ENTRY   TAPESCAN
+ NAME    TAPESCAN(R)

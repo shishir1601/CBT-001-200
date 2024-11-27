@@ -1,0 +1,107 @@
+ \INMR01      &      NODENAME      IBMUSER      A      A      20050207141150
+         INMR02          IEBCOPY
+   {                IBMUSER  SEQCPY  LOADLIB     -  SEQCPY \INMR02          INMC
+OPY                          "4                   \INMR03
+  &         {  _       {           "8    Vs                       <
+ \  h)  3V
+ 
+ 
+                                                     SEQCPY               S
+   h
+ 
+ 
+                       SEQCPY
+ 
+ 
+                l                                                              5
+695PMB01        e^              d   569623400
+                  00@SEQCPY - Sequential Copy Program 02/07/05 09.08
+                                                               }     0 & } &}
+J    H           y   y   q    SA*      {  0{Q                            k   k
+  \            \    \AdK \   o A 3dA#A o Ag3 A AdK A A#k/A K A A'k/A~K AsA"K AyA
+ k:A K A A k:A[K A A K  PAmqSA*K A { K   A  0AH
+                       Today:                         Level 3.06 (        )P
+ K  M qK     K  q y8  = Yk   K  R  B6   RF8K  rC    rF8K  7C    7F8K   C:    F8K
+   C     F8K   C     F8K   CE    F8K   D     F8K   D     F8K   D     F8K   D
+ F8K    dK  wDl   wF8K   D     F8K  QC K   DC    F8K   D6    F8K   E     F8K  'E
+    'F8K  AE    AF8K  NE%   NF8K   E     F8K  %E      %F8 0EK
+ 
+              |                  -
+ 
+ 
+ 
+                                                                       | ^/^
+ 
+                       |         |
+   |
+ H%q    &        G j     G o    0G
+                               [.<(+|&         !$*);^-/        |,%_>?          :
+#@'=" abcdefghi       jklmnopqr       ~stuvwxyz   [               ]  {abcdefghi
+     }jklmnopqr      \stuvw  xyz      0123456789       abcdefghi 0A    jklmnopq
+r 4{ .*  stuvwxyz \s  = ABCDEFGHI     : JKLMNOPQR     -  STUVWXYZ   g "0
+9      O       G N    Z  E o       H% &      H j     G o    0H         H   Gqj
+   Gqh   .  Q & <    n &   G8 &&  -&     G8  O       H j     GqK -    0H O
+ Gq  GBj     H%        H;j     H o    0H;     0  H;  H       H     n0    H n9
+ H   H  | 0 0 %j     H%o       H           &   j       P      0 [ \  j     H
+ &    0 M \  j     HD    &    0   \  j     H     &    0     \  j     H4    &
+0   \  j      m     \ +     \ +  I         \       I     &    0   \   0 m    &
+@!       .                   $   &   h     !   &   .   &                       &
+  Qm   m  | \ M \ \j      dK          =   = Y 0 i \   0 6 \  N    &        I\o
+  0IUo   k        \  k        \  j     I  \ M 0I    h           \       \
+           j  q   +j      +j      % 0   \  N    {        &    0  m7  o  |   @
+    7    j       j  q   % 0   \   0         0       0 DK         .
+  } K     0   &         7     \ sj          }   0 D       7     \ s        k
+  &   }         \ s 0   -&  -   -         7    K          0 W    k0 = \ s      k
+  = \ s   @           0I      k        {    0 i \  n  #     0 { \   0   0   \
+   K  :  +  }     O 0 |+  \                j          7   \0       j 0     o
+     0  \0       j 0    \          0    }} K }   q }   k   k                  0
+    0j 0    |k 0  0     :[  \i      @  &\      K   } o  qo        Y 0   \  K
+       k  i \ y   8m      w \  O  w w     0   \   0 8 \     8 \ @ 0 @j  |
+0  k{  K    So      & &   \  &\   0    K }    \     0     8     }} N  e     > 0
+ i0   0 D&0   0  &0                i        0  K 0    \   0   \   }}    0  N
+{    K    { 0       0   ^     5 0 0 H 00      ^      K     &\   0   \      K   }
+ k  i \ y   8n       K     j       m      K \  O           O    w   8O         K
+      \     8j           k= r 0 @     0 @   dk< r    K     K  y  j       K  y
+0  k> rj           K  y %   @ 0  &\  K  a =   aE8K  g aK    b+  }     L 0 ' \
+0  k        0 Yk       m9     0 Qk   K     K    # 0  0       N  %0       N  %0
+   N   0  }  K   0 &0 - 0  K  %  n      <o   q  %     0 @  0     O       &\
+  &  j{     k     kj      yj         j       .        0    j        &&  &  K
+ K    g+  }   / Nk  |K     K    g+& }   / Nj{      j       .&      K      0   \
+    0 y.       K      0   \   0 y           0   \   0 ym    &          h   i
+    & U } % & U     & \   d 0 R \   0 y   qj      qm       K     K  [  +& }
+O   q &    i         &      0     M    IECBBFB1   3j{       0  j       .0   0  &
+\  K     K    /      kU  K     j{      o{   0  kF  K     j       kV  K      0
+   K   \ j      |   j    K   \  0 [ 1$  H        j{      j       m   K 0
+  |K      0  &\  k      \     -      K  u  K  [  o       N        6K     K     m
+    &   0 dj  q    K  [   &   0   dj       K    &m   o    &   0 dj       K    $
+&   0 !K  [ }K      &   &n &    &j      =k(& K &    &n &    % && k)&  - s   & s
+0 s \  j  F    j        0   \     0       MK     K  3  K  Z  K      0 X \   & y
+     K     +& }K    g     N 0   \     \    k    i&\  K     K  p WK  r %k  ~j
+   K  p  N    M    K    M \    &\  K  C0   0        7     \
+                         0
+                                IN                                            <0
+                                                                            O
+     OUT                                       D   0          &           e
+              e
+                                                                8    e  @e
+M                   q    2  =                     ,   ,        MATSB IN      OUT
+     SYSPRINT "Span"                    |    n is               &  :    T   !0I/
+O Error: wh  en necessary LreclBlksizeLrecl     Recfm   is missingNULLFILE Dummy
+n is a PrintoutUnit RecordTemporary                                73904 -
+                            e1SEQCPY - Sequential Copy Program
+ 
+     -Program has finished, with                 =
+                  DDname                    Ds
+                                 Volume s  erial is
+                                        R       i                   y       (
+&           H                                        Tape File Number =        0
+ Input Dataset Specifications: 0 Output Dataset Specifications:  R  eturn Code =
+      Records     =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                \INMR06

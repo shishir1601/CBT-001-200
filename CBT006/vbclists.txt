@@ -1,0 +1,62 @@
+ \INMR01      &      NODENAME      SBGOLOB      A      A      20020609171923
+         INMR02          IEBCOPY        Vs
+   &                SBGOLOB  VB  CLIST     -  GENDESC  GENFILE  GENJCL7  GENJCL8
+  GENSTAT \INMR02          INMCOPY        Vs                "4
+ \INMR03        Vs               &         {  _       &           "8 ?  Vs
+                 6              {    q 4     q
+ 
+ 
+ 
+   \GENDESC                         SBGOLOB   GENFILE          e              SB
+GOLOB   GENJCL7                         SBGOLOB   GENJCL8
+  SBGOLOB   GENSTAT                         SBGOLOB
+                                       q                      PROC 0 LIST SYMLIS
+T CONLIST  OUTPUT(NEW700) +                    DSN(CBT.CNTL)                 IF
+&SYMLIST ^= THEN CONTROL SYM            IF &CONLIST ^= THEN CONTROL CON
+   IF &LIST    ^= THEN CONTROL LIST                  FREE FILE(OUT)
+   WRITE GENERATING JCL IN &DSN(&OUTPUT).                ALLOC F(OUT) DA(&DSN(&O
+UTPUT)) SH  REU                OPENFILE OUT OUTPUT            SET &FL = 601
+       DO UNTIL &FL = 801                SET &OUT = &STR(./ AD  D NAME=@FILE&FL
+0100-02160-02160-1200-00002-00002-00000-CBT449)                PUTFILE OUT
+          SET &HYT = &STR(FILE &FL) ?              SET &OUT = &STR(//***)&HYT&ST
+R( IS CURRENTLY EMPTY                                    *   )&HYT
+    PUTFILE OUT _              SET &OUT = &STR(//*
+                                   *   )&HYT                PUTFILE OUT
+       SET &FL = &FL + 1            END                CLOSFILE OUT
+   FREE FILE  (OUT)     q             q     E E              PROC 0 LIST SYMLIST
+ CONLIST  OUTPUT(STA700) +                    DSN(CBT.CNTL)                 IF &
+SYMLIST ^= THEN CONTROL SYM            IF &CONLIST ^= THEN CONTROL CON
+  IF &LIST    ^= THEN CONTROL LIST                  FREE FILE(OUT)
+  WRITE GENERATING JCL IN &DSN(&OUTPUT).                ALLOC F(OUT) DA(&DSN(&OU
+TPUT)) SH  REU                OPENFILE OUT OUTPUT            SET &FL = 601
+      DO UNTIL &FL = 801                SET &OUT = &STR(//* EV MPTY            )
+&FL&STR( N/A        1     .0 06-09-02      080 YES  *   DOC FILE)
+ PUTFILE OUT                SET &FL = &FL + 1            END                CLOS
+FILE OUT                FREE FILE(OUT)     q             q     E E
+PROC 0 LIST SYMLIST CONLIST  OUTPUT(DES700) +                    DSN(CBT.CNTL)
+               IF &SYMLIST ^= THEN CONTROL SYM            IF &CONLIST ^= THEN CO
+NTROL CON            IF &LIST    ^= THEN CONTROL LIST                  FREE FILE
+(OUT)                WRITE GENERATING JCL IN &DSN(&OUTPUT).                ALLOC
+ F(OUT) DA(&DSN(&OUTPUT)) SH  REU                OPENFILE OUT OUTPUT
+SET &FL = 601            DO UNTIL &FL = 801                SET &OUT = &STR(//*+F
+V ILE )&FL&STR(:  EMPTY                                                *   DOC F
+ILE)                PUTFILE OUT                SET &FL = &FL + 1            END
+               CLOSFILE OUT                FREE FILE(OUT)     q             q
+  v v              PROC 0 LIST SYMLIST CONLIST  OUTPUT(JCL700) +
+    DSN(CBT.CNTL)                 IF &SYMLIST ^= THEN CONTROL SYM            IF
+&CONLIST ^= THEN CONTROL CON            IF &LIST    ^= THEN CONTROL LIST
+          FREE FILE(OUT)                WRITE GENERATING JCL IN &DSN(&OUTPUT).
+              ALLOC F(OUT) DA(&DSN(&OUTPUT)) SH  REU                OPENFILE OUT
+ OUTPUT            SET &FL = 601            DO UNTIL &FL = 701                SE
+T &OUT = &STR(//S)&E FL&STR( EXEC NULL,N=)&FL&STR(,TO='FILE0)&FL&STR(')
+       PUTFILE OUT                SET &FL = &FL + 1            END
+  CLOSFILE OUT                FREE FILE(OUT)     q             q     v v
+      PROC 0 LIST SYMLIST CONLIST  OUTPUT(JCL800) +                    DSN(CBT.C
+NTL)                 IF &SYMLIST ^= THEN CONTROL SYM            IF &CONLIST ^= T
+HEN CONTROL CON            IF &LIST    ^= THEN CONTROL LIST                  FRE
+E FILE(OUT)                WRITE GENERATING JCL IN &DSN(&OUTPUT).
+ ALLOC F(OUT) DA(&DSN(&OUTPUT)) SH  REU                OPENFILE OUT OUTPUT
+      SET &FL = 701            DO UNTIL &FL = 801                SET &OUT = &STR
+(//S)&E FL&STR( EXEC NULL,N=)&FL&STR(,TO='FILE0)&FL&STR(')                PUTFIL
+E OUT                SET &FL = &FL + 1            END                CLOSFILE OU
+T                FREE FILE(OUT)     q       \INMR06

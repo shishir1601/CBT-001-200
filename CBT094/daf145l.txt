@@ -1,0 +1,2300 @@
+ \INMR01      &      NODENAME      SBGOLOB      A      A      20051104163936
+         INMR02          IEBCOPY
+   {                SBGOLOB  DAF145  LINKLIB     -  DAF \INMR02          INMCOPY
+                          "4                   \INMR03                         &
+         {  _       {           "8    Vs                                     <
+ h   3\
+ 
+ 
+                                                  DAF                  S
+h
+ 
+ 
+           8       0DAF            DDAFINIT    {    DAFPS           DAFES
+   ZDAFSS     ,    EDAFGR          &DAFGS      -   $DAFTERM        RDAFSWA    _
+    DAFAT      H    TBLHEX          TBLMOD    n     DAFCC      \    DAFPP
+    SMFSNAP                      8       0DAFRM           TBLDSN          TBLMSG
+    n    @TBLOP           DAFCD          KDAFCSP         ADAFCT          6DAFDSO
+RG        DAFIT     (     TBLKWD         \TBLSMF     y    DAFIP4         "DAFIP6
+    .     DAFLPA    +     DA  FMB     |H               8       0DAFMC     &H
+DAFPC      8    DAFPT     /     DAFPV           DAFRECFM   8    DAF000    c    L
+DAF002    e    XDAF003    e8   XDAF007    f\   lDAF014    h    fT14DSP    V0
+T14LTP    X}    T14SPC    Z0    DAF016    j      >DAFD16    k                8
+     0DAFI16    p     DAFS16          DAFO16    r     T16CSF          T16TOO
+      T16AMB          T16FL1          DAF017     8    DAF018         ^DAF022
+ h    T22FNC          DAF024    ~}    T24BCF          T24E  OJ    0{    T24SUB
+  1H               8       0DAF036    u     T36EIN    2\    DAF042    w    qT42D
+SFL1  3     T42DSTYP  4     T42FFS    8y    T42FLAGS  9     T42FTM         ST42F
+TY         qT42JDCOD   {   kDAF043         'T43OPT          DAF045     y      DA
+F059     0   fDAF060    {    $           8     < 0DSOTYP     }   nT6XSUB
+ KT6XTYP          DAF061    AQ    DAF062    C     T62IND          DAF063    D
+  T6XIOD          T63FDT          DAF064    E     T64DTY          T64MC1
+  T64MC2            T64MC3          T64RIN     &               8     $ 0DAF065
+       [T6XFNC     -   KDAF066         yDAF067    }     T67FDT          DAF068
+  J     DAF069    K     DAF073    M    yT73CFL     &    T73CMI          T73SFL
+   -    DAF074    O      ~T747CSFL        T747CTFL        T747GCFL
+     8     | 0T747PSFL        T747PTFL   h    T747SPFL        DAF075     -   GT7
+5FL2     q    T75PST          DAF077    S    sTBLMAJOR  $    "T77DFG     h    DA
+F078    Y}    T783CFL    -    DAF079       {    T796FLG         T797FLG
+T79BFLG                    8       0T79BFL2         DAF080    5&    DAF8XR
+    T80ATH          T80AU2     y    T80DES          T80EVENT   {    T80QUAL   ;8
+    T80REA     Q    T80RE2     \    DAF081    7h    D  AF082    8\   hT82VES
+      DAF083         pDAF088                     8     h 0DAF090     }   _T90TID
+     h    DAF091         tDAF092     Y   UT92MFT          T92STP     {    DAF118
+     }   !TFTCDT     -    TFTCFM          TFTCMO     }   KTFTCST       y    TFTC
+XD          TFTPDT     H    TFTPFM     \    TFTPMO         K           8     p 0
+TFTPST          TFTPXD          TFTSLR          DAF119          T77FCDST   y   M
+T77FCLR         T77FCM         KT77FCS          T77FCT          T119FFR    \
+T80L AAA          T80AAR     q    HSMFSR     Y    HSMTYPE    Q    NFTP
+ t                 w  RMDS           tRMMAUD     y    RMMAUDAT  \Q   MRMMSEC
+      RMMSECAT       T14DSO    T    UT81D30     Y   j
+ 
+ 
+ 
+                5695PMB01         ^
+ 
+                                     [ . < ( + | &                   ! $ * ) ; ^
+ - /                   | , % _ > ?                     : # @ ' =            > _d
+"   a b c d e f g h i               j k l m n o p q r               ~ s t u v w
+x y z       569623400                                     H           Q   H   8
+                  00  DAF     11/04/0511.36        }    {   {{        0
+      0   \            \ &}  & }  J           0     y         0   \            \
+  ~         0t &0~    0     { 0 y  N z        0 D     0 {  N z        0       0
+Q     0    ,  0 Y       0       0 8     0     - 0       0       0     0z  0 [
+  0 &     0 &     0 &   { 0 &   0 & 0 *   y           0   \            \
+0 h               0 d \            \  3 \} q }       _                      00
+DAFAT   11/04/0511.36        }      {   {{ [}         0     y         0   \
+       \  ~       8       dK,  qQK    H       0          i   h   kU &+ xHo x 3
+ x       h   & y k y 3d  y  0      0 K xH  kS <K  (x K,  qQK     K  + <K    &N
+  0   :               } : &  $& -    $- -                 0 :K  -   -  $- -
+ $  -      K   j  0    & y k y 3d  y  0      0 K  |   0  K   j         k
+0       0       0       0     0     0 {   y           0   \            \ .}   3
+\} q }         DAF       _           n                  00  DAF  CC   11/04/0511
+.36        }    {   {{ [}  N   s    n s   UnNx           s        x8 0   00 &
+0  N x  <   d  x  0   00 &0   0z4 00 &0z4 \ & 0   00 Kds*6 K s_t K s t K s t K s
+isKd~ns* 0 H         \y  0    s* \   0 D    s*   e     8 e    x8N        U
+0       0     0 UP z0z0  y  0  &0   &       0  !0   ?         0  !0   |      m"s
+             n      m   ;  y&nF         A         8 e               8 e  K  A  K
+      0 }   0           U   2  y& \   0     \ A      n \                  0 \
+  0 A 0  N \   0            m    j s  \ h \ & 0   00 Kdx 9R  z &0y k y 3d  y  0
+*    0 K x     z0&0y k y 3d  y  0 *    0 K x   K x  f  [y  x    7    n        0
+ j s  \   \ & 0   00 Kdx 9R  z &0y k y 3d  y  0 *    0 K x     z0&0y k y 3d  y
+0 *    0 K x   K x  i  [y  x      7    n        0  j s  \ h \ & 0   00 Kdx 9R  z
+ &0y k y 3d  y  0 *    0 K x     z0&0y k y 3d  y  0 *    0 K x   K x  -  [y  x
+  7    n        0       0  N        mm"s  0 mN        {o s  0 m 0  !0       0z0
+20 &0z0 0  j s  \ 0 0z0 00 &0z0    [  ; - +       &     \     0   0&0      j s
+\ m \ & 0   00 Kdx  ;  z &0y k y 3d  y  0 *    0 K x     z0&0y k y 3d  y  0 *
+ 0 K x   K x t K x s  [y  x    7    N z z0   U  x8 0   00 &0  N x  <   H  x  0
+  00 &0   0z8 00 &0z8      s   7    N           t            8 e   0t &0~ K
+ kYx    < 0       0       0     % 0     0  .}   3 \} q }             n
+   High              NESYS1.DFDSS.DEFRAG LowEqualNY 00  DAFCD   11/04/0511.36
+     }    {   {{ [} }        K z     z  0   \  N   \    ;     0 <K   \ o     3
+    0 h                     r   { 0     D 0     H 0       0     0  .} } 3 \} q }
+                              00  DAFCSP  11/04/0511.36        }    {   {{ [} uN
+ ~n     }  ~n  s   y              8 ]  k    T 0        k
+      8      k    T 0        k    <     /        & ~& 1 \~    5   0  K \ 0    F
+            8 ]  k    T 0        k                              8    k    T 0
+     k          /        & ~* 1 \~    5   0  K \ 0    +             8 ]  k    T
+0        k             +                  8    k    T 0        k    M     /
+   & ~  1 \~-   5   0    K \ 0    O  y     N ~  ,    N ~       N ~       N ~
+   N ~       N ~          \   YK ~  {   0           \y  0    ~n \   0      ~n
+e     8    o s  0 @        N ~               K ~  Q 0 q         \y  0    ~n \
+0 m    ~n   e     8    o s  0 @  ~         K ~  w 0 U         \y  0    ~n \   0
+\    ~n   e     8    o s  0 @   ; }  K ~  0   0           \y  0    ~n \   0
+ ~n   e     8    o s  0 @N         N y      DN   y     K ~    0           \y  0
+   ~n \   0      ~n   e     8    o s  0 @K y    0       0 Q         \y  0    ~n
+\   0 M    ~n   e     8     0 @K ~      0           \y  0    ~n \   0      ~n
+e     8    o s  0 @K ~      0 *         \y  0    ~n \   0      ~n   e     8    o
+ s  0 @K ~  -   0           \y  0    ~n \   0      ~n   e     8      o s  0 @K ~
+      0 U         \y  0    ~n \   0 \    ~n   e     8    o s  0 @nF      K
+&       -~-  ~       K & -             8 x  {2"x   |&x &&~-K ~  m& y & y  0
+q 0     m 0       0       0     0  .} u 3 \} q }         0000000000000000<--- Un
+k  nown keyword    <--- Unknown operator   <--- Value too long     GENERAL
+   <--- Inconsistent type  <--- Unable to parse    <--- Missing keyword    <---
+Missing operator   <--- Missing value                            <--- Value Miss
+ing    *              00  DAFCT   11/04/0511.36        }    {   {{ [} 4        K
+ x     x   )  Q+ x o x 3   x k.      )   + x o x 3   x k.      )  \+ x o x 3   x
+ k.  + x o x 3   x    U 0 D   Y 0 D     0 D   0 0 D   0 D.} 4 3 \} q }         =
+                              0  0  DAFDSORG11/04/0511.36        }    {   {{ [}
+         K     j    \  K          0  j    \ %K          0  j    \ bK          0
+ j    \ qK          0  j    \  K          0  j    \ WK      0 W   8 0 W     0 W
+    0 W     0 W   0 W.}   3 \} q }                         ISPSDAPOVS   U {
+              D               y       {       Q       Y       8
+              {       H               u       Y       m
+                              M       *       U           Q   0   &
+  00  DAFES   11/04/0511.36        }    {   {{ [} < \   0   00 Kds*Y K s@     0
+          \y  0    s* \   0 &    s*   e     8 ,  K^  o  0        0    0   8  &0
+ K   pY    m0         &              K,  qQK     &0y k y 3d  y  0      0 K
+ K    % %              i           j       j        \   0   00 Kds* /K s   K st
+    0           \y  0    s* \   0      s*   e     8 ,  K^  o  0  &0  K   o K   p
+\           &        &0   \   0   00 Kds*  K s_      &0y k y 3d  y  0      0 K
+ s      0             \y  0    s* \   0 Y    s*   e     8 ,  j  {            i
+      0   \   0   00 Kds* /K s   K st     0 *         \y  0    s* \   0      s*
+  e     8 ,  o s  0                                          K   0  0  &0   0  &
+0   0  &0  o    0   01  00  \0         K,  qQK     &0y k y 3d  y  0      0 K
+ K  %                i       &          0                          DAFSMF
+                           K   0  0  &0   0  &0   0  &0   0  &0   0  &0   0 <&0
+ o   &    0   01  00  \0       K,  qQK     &0y   k y 3d  y  0      0 K     K  %
+d              i       &       K   p\       &        &0   \   0   00 Kds*  K s
+_      &0y k y 3d  y  0      0 K s    0 d         \y  0    s* \   0      s*   e
+    8 ,   0                i       K      0             M 0 Q   \            \ &
+   &0        K,  qQK     &0y k y 3d  y  0      0 K     K  %                i
+    \   0   00 Kds* H    &0y k y 3d  y  0      0 K s       &0y k y 3d  y  0
+ 0 K sd      &0y k y 3d  y  0      0 K sm  K s      0 }         \y  0    s* \
+  0      s*   e     8 ,  K     K x}           0 &{
+                                 K   0  0  &0   0  &0   0  &0   0  &0   0  &0
+0 <&0  o   &   &    0   01  00  \0      2K,  qQK     &0y k y 3d  y  0      0 K
+   K  % z                i       & s  0  K^  q K   pU           &        &0
+\   0   00 Kds*  K s_      &0y k y 3d  y  0      0 K s      0           \y  0
+ s* \   0 -    s*   e     8 ,  j  m   y        i       K z   K z   K z  {K z   j
+ s            7      & x} 0      s        1            N    +    & x} 0  P x8x8P
+ x x  0zY 00 &0zY &y  -  N   &    [ &&  -   0zU 00 &0zU 0 {&&x8 0&  00 &0&   s
+  Y     8 ,    uI   $     8 ,   0t &0~    1  &0wyK t &    0           \   0t
+  0       0 {         \   0t      0    j            3  &0w +0x K z     z x K t z
+ N   &     N   &      &&  -   0  &&x  0&  00 &0&  0  N    O   [N    P     0
+3  &0w +0x K z     z x K t z N   &     N   &      &&  - | 0  &&x  0&  00 &0&  0
+   x}K xU  K xM  K x     xU   } D  xM   } D  x    } D! xU     3  &0w +0x K z
+ z x K t z N   &     N   &      &&  - 6 0  &&x  0&  00 &0&  0   &x8N    Q    N
+  R    N t z    -N t z  }  K z t  0  N t z  }  K z t K z t N t z    mN t z    mK
+ z t  0  N t z     K z t K z t K t    0&        { 0 D   \ 0 {   0 {K   m
+      &        &0   \   0   00 Kds*  K s_      &0y k y 3d  y  0      0 K s
+0           \y  0    s* \   0      s*   e     8 ,  j s  \ m    &       &    0 @
+      0   \            \ &0       SK,  qQK     &0y k y 3d  y  0      0 K     K
+%      +           i        \   0   00 Kds* (    &0y k y 3d  y  0      0 K s
+   &0  y k y 3d  y  0      0 K sd      &0y k y 3d  y  0      0 K sm  K s    0
+        \y  0    s* \   0      s*   e     8 ,  j s   ] j  {  ]{K   m      
+ &        &0   \   0   00 Kds*  K s_      &0y k y 3d  y  0      0 K s      0]
+        \y  0    s*   \   0]     s*   e     8 ,   0]{      ]     &   k     &0
+\   0   00 Kds*  K s_      &0y k y 3d  y  0      0 K s    0]m         \y  0    s
+* \   0]     s*   e     8 ,  N zYzU     \   0   00 Kds*   0]U         \y  0    s
+* \   0]\    s*   e     8 ,  K z      0  N z8       \   0   00 Kds*     0
+    \y  0    s* \   0      s*   e     8 ,  K z    \   0   00 Kds*Y K s@     0 m
+        \y  0    s* \   0      s*   e     8 ,   0 O 0    (  0 H   0 {     0
+  0       0       0     0  .} < 3 \} q }       DAF  SMF  SORTIN    n g       QSA
+MVSAM    0                     SMFEOFMARKExtract SMF Records RDJFCB/DAFSMFGENCB/
+EXLSTGENCB/ACBOBTAIN/VSAM    VSAM_WorkareaGENCB/RPL0000000999999900.00.00.0099.9
+9.99.99 !  RELEASE/VSAM           00  DAFGR   11/04/0511.36          }    {   {{
+ [}   \   0   00 Kds*Y K s@     0           \y  0    s* \   0 &    s*   e     8
+|  N z8      K^ Dq%K   p\          D&        &0   \   0   00 Kds*  K s_      &
+0y k y 3d  y  0      0 K s      0 4         \y  0    s* \   0 0    s*   e     8
+  |  j  4            i         z          8 |     D  s   7       }  s   7
+ s*   e     8 |  N z s    n z    D   0 q         \y  0    j  \   0 m    j    e
+    8 |   0y 9 0      Q8 0   K s)s   0 Y         \y  0    s* \   0 U    s*   e
+    8 |    s*     e     8 |  K z s 0y 9 0       8 0   K s)t K s t K s t K s t K
+ s"t K sht K s t K|s t  0           \y  0    s* \   0      s*   e     8 |  n ti
+  [  s*   e     8 |  K|s ti 0           \y  0    s* \   0 H    s*   e     8 |  n
+ tR   [  s*   e     8 |  K|s t  R 0           \y  0    s* \   0      s*   e
+8 |  n u    [  s*   e     8 |  K|s u  0           \y  0    s* \   0      s*   e
+    8 |  n u    [  s*   e     8 |  K|s u  0 H         \y  0    s* \   0 D    s*
+  e     8 |   0 [j  4    K   m           D&          &0   \   0   00 Kds*  K s
+_      &0y k y 3d  y  0      0 K s      0           \y  0    s* \   0 -    s*
+e     8 |   \   0   00 Kds*Y K s@   0           \y  0    s* \   0      s*   e
+  8 |       0       0       0       0     0  .}   3 \} q }           SORTOUT   n
+                        *    Generate Report              H           -   -
+                              <   d               *           \
+              Y                       -       u   4   d   Q           M
+                  -           - 00  DAFGS   11/04/0511.36          }    {   {{ [
+}   \   0   00 Kds*Y K s@     0           \y  0    s* \   0 &    s*   e     8
+   y       s*   e     8    K s       + x K z jA  z x K s)z     + x K z jA  z x K
+ s_z     + x K z jA  z x K s'z    0 8         \y  0[   s* \   0 4    s*   e
+  8           h  s*   e     8    K sqk   zU+ x K z jA  z x K s)z    0
+\y  0[   s* \   0      s*   e     8      s*   e     8    K sqk   zY+ x K z jA  z
+ x K s)z   z8+ x K z jA  z x K s_z   z4+ x K z jA  z x K s'z    0           \y
+0[   s* \     0      s*   e     8     0           \y  0[   j  \   0      j    e
+    8      s*   e     8    K s)   0 d         \y  0[   s* \   0      s*   e
+8      s*   e     8    K s)  K s|z K s  8K s z    0 U         \y  0[   s* \   0
+\    s*   e     8      s*     e     8    K s) +K s|z K s  8K s z    0
+\y  0[   s* \   0      s*   e     8     \   0   00 Kds*Y K s@   0           \y
+0    s* \   0      s*   e     8         0 S     0 S     0 S     0 S   0 S.}   3
+\} q }           Time:   n              ~      Generate Statistics DAFSMF Date/T
+ime Range:Low  - Date: High - Date:                             {
+    D   -   m   \                   -                   00  DAFINIT 11/04/0511.3
+6        }    {   {{ [}              K  0p{   d  K  0p{       0&   m   o   m7  m
+U  k   P                HK,  qQK     &0y k y 3d  y  0      0 K     K  % F
+       i                       K,  qQ \   0   00 K    LK    &        K z    0  K
+^  m0K   pU           &        j               i        0y   k@& 0 8 0  J8 0
+k8 0  m \   0   00 Kds*Y K s@ o   0           \y  0    s* \   0 @    s*   e
+8 K                   \   0   00 Kds* KK s_   0           \y  0    s* \     0 Q
+   s*   e     8 K  K z      {             \   0   00 Kds* KK s_ {   0
+\y  0    s* \   0      s*   e     8 K  K z      H           O \   0   00 Kds* KK
+ s_ H   0 u         \y  0    s* \   0      s*   e     8 K  K z      }
+  \     0   00 Kds* KK s_ }   0           \y  0    s* \   0      s*   e     8 K
+ K z      Q             \   0   00 Kds* KK s_ Q   0 %         \y  0    s* \   0
+     s*   e     8 K  K z      \             \   0   00 Kds* KK s_ \   0 }
+  \y  0    s* \   0        s*   e     8 K  K z      Y             \   0   00 Kds
+* KK s_ Y   0           \y  0    s* \   0      s*   e     8 K  K z      0
+      \   0   00 Kds* KK s_ 0   0 q         \y  0    s* \   0 m    s*   e     8
+K  K z      8             \   0   00   Kds* KK s_ 8   0           \y  0    s* \
+  0 8    s*   e     8 K  K z   N z       K^  m K   p\           &        &0
+\   0   00 Kds*  K s_      &0y k y 3d  y  0      0 K s    0           \y  0    s
+* \   0      s*   e     8 K  j      U        i          0    0 & s K^ }n&K   pU
+         }&        &0   \   0   00 Kds*  K s_ {    &0y k y 3d  y  0      0 K s
+    0           \y  0    s* \   0      s*   e     8 K  j               i       K
+^  n K   pU           &        &0   \   0   00 Kds*  K s_ H    &  0y k y 3d  y
+  0      0 K s    0           \y  0    s* \   0      s*   e     8 K  j  -
+     i        0y   l & 0 8 0  J8 0  k8 0  mK  0oyK   pU          0&        &0
+  \   0   00 Kds*  K s_ Q    &0y k y 3d  y  0      0 K s      0 }         \y  0
+     s* \   0      s*   e     8 K  j [             i       K^[ p K   pU     
+ [ &        &0   \   0   00 Kds*  K s_ \    &0y k y 3d  y  0      0 K s    0 @
+        \y  0    s* \   0      s*   e     8 K  j [    {        i        0y   lf&
+ 0 8 0  J8 0  u8   0  wK^[yp-K   pU         [y&        &0   \   0   00 Kds*  K
+ s_ Y    &0y k y 3d  y  0      0 K s      0           \y  0    s* \   0      s*
+  e     8 K  j [Q            i       K        0             q 0   \            \
+ &   &0        K,  qQK     &0y   k y 3d  y  0      0 K     K  % L              i
+        \   0   00 Kds* H    &0y k y 3d  y  0      0 K s       &0y k y 3d  y  0
+     0 K sd      &0y k y 3d  y  0      0 K sm  K s      0 m         \y  0    s*
+\   0      s*   e     8 K  K     K      0 Q     \       } 0 M \            \ &
+ &0        K,  qQK     &0y k y 3d  y  0      0 K     K  %                i
+  \   0   00 Kds* H    &0y k y 3d  y  0      0 K s       &0y k y 3d  y  0      0
+ K sd      &0y k y 3d  y  0      0 K sm  K s      0          +  \y  0    s* \
+0 H    s*   e     8 K  K y     y      \   1  K      0                 0   \
+       \ &   &0        K,  qQK     &0y k y 3d  y  0      0 K     K  %
+     i        \   0   00 Kds* H    &0y k y 3d  y  0      0 K s       &0y k y 3d
+ y  0      0 K sd      &0y k y 3d  y  0      0 K sm  K s      0]            \y
+0    s* \   0]     s*   e     8 K  K y     y      \ < 1  K    & 0]           ]-
+0]  \            \ &   &0      ]MK,  qQK     &0y k y 3d  y  0      0 K     K  %
+               i        \   0   00 Kds* H    &0y k y 3d  y  0      0 K s       &
+0y k y 3d    y  0      0 K sd      &0y k y 3d  y  0      0 K sm  K s      0 *
+      \y  0    s* \   0      s*   e     8 K  K x4  K      0             q 0   \
+           \ &   &0        K,  qQK     &0y k y 3d  y  0      0 K     K  %
+         i        \   0     00 Kds* H    &0y k y 3d  y  0      0 K s       &0y k
+ y 3d  y  0      0 K sd      &0y k y 3d  y  0      0 K sm  K s      0 m
+\y  0    s* \   0      s*   e     8 K  K y       AmN        W    $      F 0AmN
+     {& \   0   00 Kds*S K s=   0{            \y  0    s* \   0{     s*   e
+8 K  o s     $  *   F 0AmN       {  \   0   00 Kds*S K s=     0{@         \y  0
+   s* \   0{     s*   e     8 K  o s     $  *   F 0AmN       A  \   0   00 Kds*S
+ K s= +   0{Y         \y  0    s* \   0{U    s*   e       8 K  o s     $  -   F
+0AmN        F \   0   00 Kds*S K s= *   0A          \y  0    s* \   0A&    s*
+e     8 K  o s     $  -   F 0Am   --  --D \   0   00 Kds* WK sd-    0A{
+\y  0    s* \   0A     s*   e     8 K     --  -- N /&    B< \   0   0  0 Kds* ,K
+ s /& 0B          \y  0    s* \   0B     s*   e     8 K     --  -- N /     B  \
+  0   00 Kds* 0K s /  0B          \y  0    s* \   0B@    s*   e     8 K     --
+-- N /-    C  \   0   00 Kds*  K s /- 0B\         \y  0    s* \   0B     s*   e
+      8 K     --  -   \   0   00 Kds*  K s - K se-  0C          \y  0    s* \
+0C     s*   e     8 K   \   0   00 Kds*0" 7- &0y k y 3d  y  0      0 K sb   0Cu
+        \y  0    s* \   0C     s*   e     8 K     --  --  -/h \   0   00 Kds*1 K
+ sg ^   0D            \y  0    s* \   0C     s*   e     8 K     --  --  \   0
+00 Kds*1iK s  yK s /0K s   K sc  K sf     0D          \y  0    s* \   0D%    s*
+  e     8 K     --  - { \   0   00 Kds*1in -   E K s       -     & x 2 xHx     x
+H& xH3 y x K say K sdy K sgy  0EKn   -   E K s       -     & x 2 xHx     xH& xH3
+ y x K say K sdy K sgy  0EKn -   E K s  '    -     & x 2 xHx     xH& xH3 y x K s
+ay K sdy K sgy  0EKn -   EHK s       -     & xH3 y x K say K sdy K sgy  0EKK s
+p 0EK   0E          \y  0    s* \   0EQ    s*   e       8 K     -   --  \   0
+00 Kds*2   - + x K z jA  z x K s#z!   0F          \y  0    s* \   0F     s*   e
+    8 K   \   0   00 Kds*2l  -}+ x K z jA  z x K s#z! 0Fy         \y  0    s* \
+  0Fu    s*   e     8 K   \   0   00 Kds*3   -M+ x K z jA  z x K   s#z! 0G
+    \y  0    s* \   0G     s*   e     8 K   \   0   00 Kds*3   -Q+ x K z jA  z x
+ K s#z! 0G          \y  0    s* \   0G     s*   e     8 K   \   0   00 Kds*4   -
+ + x K z jA  z x K s#z! 0GH         \y  0    s* \   0GD    s*   e     8 K     -
+ -  --D "                         {   0           q       -   D           0
+      *       {               &   h   }       &           u       @
+  8   -           q           D       d   0           0-4  I  \   0   00 Kds*4xK
+ s   K s   K ss  j    \H   K ss % 0H j    \H+K ss u 0H j    \H-K ss   0H j    \H
+ K ss   0H j    \HdK ss   0H j    \HoK ss G 0H j    \HyK ss   0H j    \H K ss
+0H    0HD         \y  0    s* \   0H{    s*   e     8 K  N -4-8  I       -8  H
+ y  &     /           d  Iu 0   00D      I  00@  -                0   0 d     \
+  0   00 Kds*Z K sh     0I          \y  0    s* \   0I     s*   e     8 K   0
+0   00D    IH 00@                   0   0 d     \   0   00 Kds*Z K sh   0I4
+    \y  0    s* \   0I0    s*   e     8 K   0       &I    \   0   00 Kds*Y K s@
+o 0 <         \y  0    s* \   0      s*   e     8 K     d 0     h 0     * 0
+  0     0  .}   3 \} q }     DAFLOG  DAFCS   DAFOUT  DAFRPT  DAFSMF  DAFSNAP DAF
+STAT DAFTRACESORTIN  SORTOUT ALLTRACEALLTRACECRITRACECRITRACE             H
+ n         JFCB   \           y                     000    Free PendingOpen Pend
+ing                 *Initializationr & BCP   ActivePhysical I/O ErrorESTAE/DAFAT
+  OBTAIN/JFCBOBTAIN/TBLKWD  Keyword_TableOBTAIN/TBLSMF  SMF_TableOBTAIN/SMFSNAP
+SMF_  SNAP OBTAIN/TBLTRT  TRT_Table    ,RDSONLYRDSONLYRDSALSORDSALSODFSMS  z/OS
+ DFSMS  OS/390DFSMS        DFP          DFA Unknown  Dump RequiredAlternateClose
+ PendingDummy RDS for Lost DataLogical I/O Error
+                   <      Y               0
+              }               00  DAFIP4  11/04/0511.36        }    {   {{ [} @
+      }         }    z          8 =     2  +0x K z     z x K z z k.z|   2  +0x K
+ z     z x K z,z k.z>   2  +0x K z     z x K z?z k.z    2  +0x K z     z x K z z
+  \z              \z  1    z            8 =    z  \   0  n \     K   \
+0       0  K   z    % 0       0       0       0     0  .} @ 3 \} q }
+                00  DAFIP6  11/04/0511.36        }    {   {{ [}         }
+  }    z          8       3   0y& 3y&&0y k y   3d  y  0      0 K z   k:z:   3
+0y& 3y&&0y k y 3d  y  0      0 K z#  k:z"   3   0y& 3y&&0y k y 3d  y  0      0 K
+ z   k:zd   3   0y& 3y&&0y k y 3d  y  0      0 K ze  k:zi   3   0y& 3y&&0y k y 3
+d  y  0      0 K z   k:z    3   0y& 3y&&0y k y 3d  y  0        0 K z   k:zl   3
+  0y& 3y&&0y k y 3d  y  0      0 K zm  k:zq   3   0y& 3y&&0y k y 3d  y  0      0
+ K zr  K   z      0       0       0       0     0  .}   3 \} q }
+            00  DAFIT   11/04/0511.36        }    {   {{ [}    x8 0   00 &0    N
+ x      *  x  0   00 &0   0z4 00 &0z4 \   0   00 Kds*7 K s t K s t K s_t K s t K
+d~ns* 0           \y  0    s* \   0      s*   e     8      x8N            0 U
+  0 \   0       0       0       0       0     0  .}   3 \} q }             n
+                        00  DAFLPA  11/04/0511.36        }    {   {{ [}   0   04
+  00   0  &0 P     K       s   Y     8      uI   $     8     0t &0~  0  +0y o y
+ 3   y K s  K t   K t     s    0     \ 0         0   00 &0   & =     0 0     0
+0     0 0     0 0   0 0.}     3 \} q }   LPALST                    LPALST+000
+  00  DAFMB   11/04/0511.36        }    {   {{ [} 8           }         }  P y y
+  &y [&     V   3   0 %K \ 0       y    }  K     + x K y)jV  y)x  0 q  &H     \
+  0y)     \   0 m     Y 0 Q     0 Q   0   0 Q   4 0 Q   0 Q.} 8 3 \} q }
+                    00  DAFMC   11/04/0511.36        }    {   {{ [}          n
+    D     5 U   0j    0 *N \ 0        D     k   &     8       k -  N         N
+            0  K     N        FN        F             -            N        S
+  & 0  K     N                      & S         -~   t        -           }   0t
+i&0~  0   -     &     }   0tR&0~  0   -     %     }   0u &0~  0   -     h     }
+  0u &0~  0   -           }   0   -~      W 0 k   0  K \ 0        -- &  -~
+0       0       0       0     0  .}   3 \} q }         NONE   &       0
+                  =     00  DAFPC   11/04/0511.36        }    {   {{ [}
+          -                       8      y_         8    K     N
+  0         T   4   0 uN \ 0        U    N 0      HK y_   0 H  &H     \   7
+\   0 D   0 H     - kN        }  z~         8    K z~   5 \zz   4   0  K \ 0
+  0z~     5k)0    0    &H     \   0z~     \   0     \   0   00 Kds*7EK s t K s t
+ K s_t K s t K sa  K   skz~ 0 q         \y  0    s* \   0 m    s*   e     8
+0 }     0       0       0       0     0  .}   3 \} q }     ReservedUnknown(  n
+                 MAJOR= =   00  DAFPP   11/04/0511.36        }    {   {{ [}
+         9         8          ]  x +    e     8    k1x K x  kK x.  K x   K x% MK
+ x" XK xk  K x~    x~      x    7          j    7     0         7     0  N 0  @
+   9    ]    N z s      x    e     8    K x sK x       x    7      x    e
+8         ]       7         0 ;   d 0 ;   h 0 ;     0 ;   0 ;.}   3 \} q }
+Level 1.4.5Date                  Dataset Audit F  acility (DAF) -Page:
+    Source=2005-10-29, Object=2005-11-04, z/OS 01.04.00        (continued)
+  00  DAFPS   11/04/0511.36        }    {   {{ [} & \   0   00 Kds*Y K s@     0
+          \y  0    s* \   0 &    s*   e     8 q  P s s P s s     y          8 q
+  \   0   00 Kds*> 0           \y  0    s* \   0      s*   e     8 q    ~n   e
+    8 q    ~          8 q    ~          8 q    ~-         8 q        ~    7
+0       0         U  y   y  &  !&   5               0       0   \            \
+ &   &0       \K,  qQK     &0y k y 3d  y  0      0 K     K  % r              i
+      \   0   00 Kds* H    &0y k y 3d  y  0      0 K s       &0y k y 3d  y  0
+   0 K sd      &0y k y 3d  y  0      0 K sm  K s      0           \y  0    s* \
+  0      s*     e     8 q  K &                8 q  K y& * 0y& 00  0y&N y& -    K
+ ~  %   0 Q         \y  0    ~n \   0 M    ~n   e     8 q  o s  0 U   ;     0  !
+0       0y&< y& 0  !0  !     y&K     K     K     K   y&      ~  S 0~-   0 |K \ 0
+      0 * 00  0 * &  !&   5        &5  K ~M 8 0           \y  0    ~n \   0 q
+ ~n   e     8 q  j s  \   \   0   00 Kds*8[K s ~ K s ~ K sa~-K s ~    0
+  \y  0    s* \   0      s*   e     8 q   0z  00 &0z  0 Uj\s     j s  \   0
+      \y  0    j  \   0      j    e     8 q     \   0   00 Kds*\    0
+\y  0    s* \   0      s*   e     8 q    y  0  &0    s*   e     8 q  K s  yK s?
+ K s  bK s@  K sp dK sz     0           \y  0    s* \   0      s*   e     8 q
+ s*   e     8 q  K s   K s?  K s   K s@ AK sp kK sz k   0   d         \y  0    s
+* \   0      s*   e     8 q    s*   e     8 q  K s  ,K s?     ;+ x o x 3 s x K s
+@  K sp  K sz     0           \y  0    s* \   0 8    s*   e     8 q     \     0
+  0&0      j s  \ }   0 &         \y  0    j  \   0 <    j    e     8 q     \
+0   00 Kds*\Z   0 q         \y  0    s* \   0 m    s*   e     8 q       &    s*
+  e     8 q  K s   K s      0 4         \y  0    s* \   0 0    s*   e     8 q
+ s*   e     8 q  K s   K s  A   0           \y  0    s* \   0      s*   e     8
+q    s*     e     8 q  K s   K s      0           \y  0    s* \   0 q    s*   e
+    8 q       &   \   0   00 Kds*     0           \y  0    s* \   0 Y    s*   e
+    8 q  K z   N z        \   0   00 Kds*3   0           \y  0    s* \   0
+ s*   e     8 q   \   0     00 Kds*Y K s@   0           \y  0    s* \   0      s
+*   e     8 q       0 S     0 S   < 0 S     0 S   0 S.} & 3 \} q }         <---
+OK                 Operator========  n     Operand_AreaType====
+     Process Control Statements<--- To^ o many keywordsMLAlias1Alias2======== OB
+TAIN/VALUE   KeywordDescription==================    2{           U          /
+  &      (       (4      +       +d      |<      &*
+      h          !   !}  $   $   $M  *<  *   )   )d  )   ;   ;@  ;}  ^   ^   ^D
+             -       -*      -        \           H                 & 00  DAFPT
+  11/04/0511.36        }    {   {{ [}          K                  8      yn
+    8      y          8      yN         8      y5         8        K     N
+            0      j    \  N    0     0 Q  &H     \   2     \   0 M  n   yn    n
+ y     n yN    n y5    K yn   0  K y    0  K yN   0  K y5   0      j    \  N
+0       0    &H     \   2     \   0    n yn    n y     n yN   un y5    K yn   0
+ K y    0  K yN   0  K y5   0      j    \  N    0       0 Q  &H     \   2     \
+  0 M    n yn    n y     n yN    n y5    K yn   0  K y    0  K yN   0  K y5   0
+     j    \  N    0       0    &H     \   2     \   0    n yn    n y     n yN
+un y5    K yn   0  K y    0  K yN   0  K y5   0      j    \  N    0       0 Q  &
+H     \   2     \     0 M  n yn    n y     n yN    n y5    K yn   0  K y    0  K
+ yN   0  K y5   0      j    \  N    0       0    &H     \   2     \   0    n yn
+   n y     n yN   un y5    K yn   0  K y    0  K yN   0  K y5   0      j    \  N
+    0       0 Q  &H     \   2     \     0 M  n yn    n y     n yN    n y5    K y
+n   0  K y    0  K yN   0  K y5   0      j    \  N    0       0    &H     \   2
+    \   0    n yn    n y     n yN   un y5    K yn   0  K y    0  K yN   0  K y5
+  0     8 0       0       0       0     0  .}   3   \} q }     Reserved
+          =     00  DAFPV   11/04/0511.36        }    {   {{ [} }       }
+  }         }       /  P y<y<  y<[  K   X   2   0 :K \ 0       y<   }    w    r
+0    w N        >     0 qN    M         }   \   0   00 Kds*  K s   t K s t K s"t
+ K s s  y<&0y k y 3d  y  0      0 K s?   0           \y  0    s* \   0      s*
+  e     8     0       0 <  &H     \   4     \   0    K      h           { 0
+D 0     H 0       0     0  .} } 3 \} q }               n     VOL=
+                    00  DAFRECFM11/04/0511.36        }    {   {{ [}          K
+   j{   \  K          0 bj    \ %K          0 bj    \ bK          0 bj    \ qK
+        0 qj    \  K          0  j    \ DK          0 Dj    \  K          0  j
+  \  K      0         0       0       0       0     0  .}   3 \} q }
+                    UFVBSTAM  00  DAFRM   11/04/0511.36        }    {   {{ [}
+                            8       n         8     \     3   0 :K \ 0      \ n
+  4   0 kK \ 0        A           8                 8           n - A     hn
+   n?      N         n*           &    N          & 4 h             8     0  K -
+   K      --                  &  j s  \ w \ Y 0   00 Kdx 8 K x   K x  n  [y  x
+  7     \ Y 0   00 Kdx 9 K x  AK x     [y  x      7     8 0       0 K   0 0 K
+4 0 K   8 0 K   0 K.}   3 \} q }           n                   *          00  DA
+FSS   11/04/0511.36        }    {   {{ [} y \   0   00 Kds*Y K s@     0
+  \y  0    s* \   0 &    s*   e     8 D  N z8 m    K   pQ  m    0       0 ySORT
+   & 0          \   0   00 Kds* 7   0 }         \y  0    s* \   0      s*   e
+  8 D  K z  q 0   \   0   00 Kds*Y K s@     0           \y  0    s* \   0      s
+*   e     8 D     m 0 :     0 :     0 :   u 0 :   0 :.} y 3 \} q }         +   n
+                       Sort Extracted SMF Records    DAF801A System Macro   Prob
+lem - R15=________                                                         DAF90
+0A Abend Sxxx Uxxxx Module=________ +
+               DAF901A Abend SDWA not present
+                                     0123456789ABCDEF
+ 
+                              ,   ,   ,   ,       ,   ,   ,                    N
+ \ 0 K \ 0   \ 0 Other                                                       Tot
+al                                                      DAF Log:
+ 
+                             Date    T  ime        SID  Job      User     Rty St
+y
+             DAFSMF          DAFRPT         Invalid    Rty Sty Description
+ 
+                     OPTION MSGDDN=DAFLOG DEBUG NOABEND SORT FIELDS=(1,80,CH,A)
+RECORD LENGTH=488,TYPE=F                                         $     DAFCS
+ &                                &
+     m   DAFLOG     &                               e
+                         DAFOUT     &                               Y
+                                     m   DAFRPT     &
+      e                                o           U       DAFSMF
+                                   DCBE
+                                                   DAFSNAP                -
+              '                                          m   DAFSTAT    &
+                        e                                                m   DAF
+TRACE   &                               e
+ 
+           SORTIN     &                               Y
+                           SORTOUT   &                                Y
+          URL      12345678901234567890123456789  0123456789012345678901
+01234567890123456789012345678901234567890        B{
+     /    *       *       *       *               -               }      ,
+ ,q  %   %%      %Q                   \       A               y   \   Q   Y   Y
+  q               00  DAFTERM 11/04/0511.36        }    {   {{ [} &j      h \
+0   00 Kds*Y K s@     0 *         \y  0    s* \   0      s*   e     8 )  N y
+     y      -                     0           0   \            \       K,  qQK
+   &0y k y 3d  y    0      0 K     K  % ;              i              w   \    N
+             &    &  &&     0 &       0 < \            \       K,  qQK     &0y k
+ y 3d  y  0      0 K     K  %                i        \   0   00 Kds* (    &0y k
+ y 3d  y  0      0 K s       &0y   k y 3d  y  0      0 K sd      &0y k y 3d  y
+0      0 K sm  K s    0           \y  0    s* \   0      s*   e     8 )  N y
+       &    &y &&     0 h       0 d \            \       K,  qQK     &0y k y 3d
+ y  0      0 K     K  % _              i          \   0   00 Kds* (    &0y k y 3
+d  y  0      0 K s       &0y k y 3d  y  0      0 K sd      &0y k y 3d  y  0
+ 0 K sm  K s  @ 0           \y  0    s* \   0 %    s*   e     8 )  N y      Q
+ &    &y &&     0 {       0   \            \ &0        K,  qQK       &0y k y 3d
+ y  0      0 K     K  % i              i        \   0   00 Kds* (    &0y k y 3d
+ y  0      0 K s       &0y k y 3d  y  0      0 K sd      &0y k y 3d  y  0      0
+ K sm  K s  q 0           \y  0    s* \   0 y    s*   e     8 )  N x4
+ &    &x4&&     0         0 8 \            \      ;K,  qQK     &0y k y 3d  y  0
+     0 K     K  % ~              i        \   0   00 Kds* (    &0y k y 3d  y  0
+     0 K s       &0y k y 3d  y  0      0 K sd      &0y k y 3d  y  0      0 K sm
+ K s    0 U           \y  0    s* \   0 \    s*   e     8 )  N y           &
+&y &&     0         0   \            \      oK,  qQK     &0y k y 3d  y  0      0
+ K     K  % ]              i        \   0   00 Kds* (    &0y k y 3d  y  0      0
+ K s       &0y k y 3d  y  0        0 K sd      &0y k y 3d  y  0      0 K sm  K s
+    0           \y  0    s* \   0      s*   e     8 )  j      \K   m      
+ &        &0   \   0   00 Kds*  K s_ Q    &0y k y 3d  y  0      0 K s      0
+        \y  0    s* \   0      s*   e     8   )  j       K   m           }&
+    &0   \   0   00 Kds*  K s_ \    &0y k y 3d  y  0      0 K s      0 <
+  \y  0    s* \   0      s*   e     8 )  j  -    K   m            &        &0
+  \   0   00 Kds*  K s_ Y    &0y k y 3d  y  0      0 K s        0 U         \y
+0    s* \   0 \    s*   e     8 )  j [    yK   m           0&        &0   \
+0   00 Kds*  K s_ 0    &0y k y 3d  y  0      0 K s      0 @         \y  0    s*
+\   0      s*   e     8 )  j [     K   m          [ &        &0   \   0     00
+ Kds*  K s_ 8    &0y k y 3d  y  0      0 K s      0           \y  0    s* \   0
+     s*   e     8 )  j [Q   QK   m          [y&        &0   \   0   00 Kds*  K
+ s_      &0y k y 3d  y  0      0 K s      0           \y  0    s* \   0 y    s*
+  e       8 )  K  0p{   d        K,  qQK     &0y k y 3d  y  0      0 K     K  %
+               i       j      d \   0   00 Kds*Y K s@   0           \y  0    s*
+\   0      s*   e     8 )  K   m            &             0 F     0 F     0 F
+  < 0 F   0 F.} & 3 \} + q }     DAFCS   DAFOUT  DAFRPT  DAFSNAP DAFSTAT DAFTRAC
+E  n             RELE  ASE/JFCBJFCB   \            ESTAE/CANCEL              Ter
+mination RELEASE/VALUE  RELEASE/TBLKWD Keyword_TableRELEASE/TBLSMF SMF_TableRELE
+ASE/SMFSNAPSMF_SNAP     RELEASE/TBLTRT TRT_Table            00  DAF000  11/04/05
+11.36        }    {   {{ [} }  x} \   y 0   00 Kds*TbK s't K sgt K smt    0    |
+H     \   0       \   0 -     0 h  |H     \   0       \   0 d     0    |H     \
+  0       \   0 y     0 }  &H     \   0       \   0       0 4  &H     \   0
+  \   0 0    s   ~   t  a X   0t    0  K \ 0      0             \y  0    s* \
+0      s*   e     8 K   0     { 0 k   D 0 k   H 0 k     0 k   0 k.} } 3 \} q }
+         n JWT=VST=RST=SYN=SYP=                         00  DAF002  11/04/0511.3
+6        }    {   {{ [} U  x} \ } 0   00 Kds*U K s't K sgt K smt      0
+  \y  0    s* \   0 -    s*   e     8 W   0     M 0     Q 0       0     \ 0
+0  .} U 3 \} q }           n                      00  DAF003  11/04/0511.36
+   }    {   {{ [} U  x} \ } 0   00 Kds*U K s't K sgt K smt    0           \y  0
+     s* \   0 -    s*   e     8 W   0     M 0     Q 0       0     \ 0     0  .}
+U 3 \} q }           n                      00  DAF007  11/04/0511.36        }
+  {   {{ [}    x} \   0   00 Kds*V K s'     0           \   0sg     0       0
+        \   0t        0    K s t  0           \   0s      0 q     0           \
+  0t      0    K swt  0s &0~  0 Y  |H     \ @ 0       \   0 U     0           \y
+  0    s* \   0      s*   e     8 k   0       0     d 0     h 0       0     0  .
+}   3 \} q }           n NONE                                       M       D
+                    D  #   @   '   =   =   "   "}      a   a       b-      b
+   cq  c   c\      d   d       d       d\      e       e\      f       fH      g
+   g       g   gq      gD      gY      h                       h          h
+                                  00  DAF014  11/04/0511.36        }    {   {{ [
+}    x}    K s  N s     &K s  K t   K t   K y   N y  & }  K y  &   0 @  |H
+  \ H 0       \   0       0    |H     \   0       \   0       0 D  |H     \ } 0
+      \   0 {     0 Y  |H     \ M   0       \   0 U     0           \y  0
+\   \   0       0    N    -    K v      0 <  &H     \   0v      \   0    j    \
+sN    -   sK w      0 h  &H     \   0w      \   0 d  j    \ QN    -   Q 0    &H
+    \ Q 0       \   0       0 \         \   0z        0       0    &H     \   0z
+      \   0       1 &+0x o x 3 y x K   y    3  +0x o x 3   x K u      0    &H
+  \   0u      \   0       1  +0x o x 3 y x K   y    3  +0x o x 3   x K v      0
+   &H     \   0v      \   0    m   m   m   m    \ \   0 Y   8         0       0
+U   0    |H     \   0       \   0       0           \   0v      0       0    &H
+    \   0v      \   0       0 %   8     \   0w      0       0    &H     \   0w
+    0 h     0    |H     \   0       \   0 y     0 }  |H     \   0       \   0
+   K wmwmK wo     0    |H     \ $ 0       \   0       0    |H     \ - 0       \
+  0    K w%  j    \ > 0    &H     \   0 |     \   0 &  j    \  m{   \ U   0 h
+8       0       0 d   0 u  |H     \ _ 0 q     \   0       0 H  |H     \   0
+  \   0 D  j{     \     0 4  &H     \   0       \   0 0              x   x o x 3
+ z.x  0 Y  z.0  0    &H     \   0z.     \   0       0 -  |H     \ 0 0       \
+0 *     0 d  |H     \ 4 0       \   0       0 y  |H     \ 8 0       \   0 u
+0    |H     \   0       \   0   H     0 0  &H     \   0       \   0     0 Fm"
+\     0     8       0       0     0    |H     \ = 0       \   0       0 -  |H
+  \   0       \   0 *     0 d  |H     \   0       \   0       0 y  &H     \ [ 0
+      \   0 u   0 Fj    \   & 4   1   ^             1   \ ^j    \   0   ^   1
+^   0    &H     \ c 0       \   0         0 <     0 <     0 <     0 <   0 <.}
+3 \} q }               BLKSIZE=                                            FORMA
+T4.DSCB                                SDC=NUC=SUC=SET=GDG=  OPE=  V0  Z0    NTU
+=NTR=NER=NEX=NTA=VOL=  X}                  CRTDT=EXPDT=BUFNO=DSORG=RECFM=LRECL=D
+EBVL=DCBBL=DSSNO= DD=MEMBER=NVOL=EXCP=NONE=EOVPQTY=SQTY=ReleaseFLSQ=EI=   00  DA
+F016  11/04/0511.36        }    {   {{ [} %  x}!   N           x}       &
+-     }    & xU 0 %  k  0      x}   <   & &   -     }    & xU   0    p  0 q    &
+ xU - k  x}       &     - !   } U  & xU 0 M     0 }    & xU -    x}   *   & -
+-     }    & xU 0    r  0      & xU -   0     * 0     - 0       0       0     0
+ .} % 3 \  } q }     13.0                     00  DAFD16  11/04/0511.36        }
+    {   {{ [}    x}K t   K t   K w    0 &  &H     \   0w      \   0 <    xUn
+   K s   0 d         \   0     Q \   \   0       0       0    |H     \ @ 0
+  \   0       0 Q  |H       \ b 0       \   0 M     0    |H     \ h 0       \
+0 8     0    |H     \   0       \   0       0    |H     \   0       \   0
+0    |H     \ m 0       \   0       0    |H     \   0       \   0 h     0    |H
+    \ u 0       \   0     \ *   0 Q  / +        0       0 M   \ - 0 8  /
+0       0 4   0     \ 0      t            8 z   0t &0~   x}K t   K t   K w
+0    &H     \   0w      \   0 &    xUn       K s   0 h         \   0       \
+\   0       0 d     0    |H     \ @ 0       \   0       0    |H     \ b 0
+\   0 Q     0    |H     \ h 0       \   0       0      |H     \   0       \   0
+      0    |H     \   0       \   0       0 %  |H     \ m 0       \   0       0
+   |H     \   0       \   0       0    |H     \ u 0       \   0     \ *   0    /
+        0       0 Q   \ - 0    /        0       0 8   0     \ 0           0
+  0     % 0       0     0  .}   3 \} q }                                     GRO
+UP=INPDS=INNDS=OUTDS=OFLDS=BYTES=RCDS=CPUT=WBLK=        00  DAFI16  11/04/0511.3
+6        }    {   {{ [}    x}K t   K t   K w    0 &  &H     \   0w      \   0 <
+     xUK s   0 @         \   0       \   \   0       0    N         K v  S 0 DK
+ v   K  Sv    0    &H     \   0v      \   0 H     0 0   8     \   0w      0
+  0    &H     \   0w      0       0    |H     \   0       \   0       0    |H
+  \   0       \     0 &  P wmwmK wo   \     0 h  /        0       0 d   \   0 y
+ /        0       0 u   0 D   \ 0 {       0 0     0 0     0 0     0 0   0 0.}
+3 \} q }           BLKSIZE=                              GROUP=RECFM=LRECL=DD=
+    00  DAFO16  11/04/0511.36          }    {   {{ [}    x}K t   K t   K w    0
+&  &H     \   0w      \   0 <    xUK s   0 @         \   0     * \   \   0
+  0    N         K v  S 0 DK v   K  Sv    0    &H     \   0v      \   0 H     0
+0   8     \   0w      0       0    &H     \   0  w      0       0    |H     \
+0       \   0       0    |H     \   0       \   0 &  P wmwmK wo   \     0 h  /
+      0       0 d   \   0 y  /        0       0 u   0 D   \ 0 {       0 0     0
+0     0 0     0 0   0 0.}   3 \} q }           BLKSIZE=
+       GROUP=RECFM=LRECL=DD=      00  DAFS16  11/04/0511.36        }    {   {{ [
+}    x}K t   K t   K w    0 &  &H     \   0w      \   0 <    xUK s   0 @
+  \   0     * \   \   0       0    N         K v  S 0 DK v   K  Sv    0    &H
+    \   0v      \   0 H     0 0   8     \   0w      0       0    &H     \   0w
+    0       0    |H     \   0       \   0       0    |H     \   0       \   0 &
+ P wmwmK wo   \     0 h  /        0       0 d   \   0 y  /        0       0 u
+0 D   \ 0 {         0 0     0 0     0 0     0 0   0 0.}   3 \} q }           BLK
+SIZE=                              GROUP=RECFM=LRECL=DD=      00  DAF017  11/04/
+0511.36        }    {   {{ [}    x}K s  N s      N s2      K s2  K t   K t
+  0 %         \ $ 0     * \     \   0       0       0    |H     \ 0 0 $     \
+0 q     4 0     8 0       0       0     0  .}   3 \} q }       NVL=
+     .        ..XXXXXXXX.SYS1.DFDSS.DEFRAG                  8       Y
+   h0  i   i   i*                   q           M   8               M   8      i
+{  i        H                                                   m   *       \
+           i                        *       -       @      j         jq
+                         j}      k       k   m{      l   l   l   l   l   lM  l8
+ m   n   n   n%  n   n   nQ  n   o       k0  m4      m   m   o   o       m   od
+     o       o}      p%  pY  q       q       pq      q<  q       qu  qD        q
+\      r       r            }                      r                       r\
+    m                               @
+                                    D       H       -           -
+          00    DAF018  11/04/0511.36        }    {   {{ [} *  x}   0
+\ g 0     h \   \   0       0       0    |H     \   0 g     \   0 %  K s   0 q
+ &H     \   0       \   0 m  K t   K t   K v    0    &H     \   0       \   0 H
+ K    ; 0 4   \ 0 0  K s    K v      < 0     & 0       0       0     0  .} * 3
+\} q }       NVL=ODS=NDS=                  N  00  DAF022  11/04/0511.36        }
+    {   {{ [}    x}N          0 U  x}N        UN        UK s  K t   K t      0
+   &H     \   0 !     \   0       0    &H       \   0 *     \   0 q   \     0 D
+  8       0       0 {   0       0       0       0       0     0  .}   3 \} q }
+       MVS     EDT=CFI=                                 00  DAF024  11/04/0511.3
+6        }    {   {{ [}    x}N    !    N    *    N    ;      N    -     0    x}K
+ xU  K xM  K x     xU   }    xM   }    x    }    x}! xUK xY  K xO  K x     xY
+}    xO   }    x    }   &x}!&xYN         K x   K xQ  K x\    x    }    xQ   }
+ x\   }   -x}!-x N        !K x0  K x   K xS    x0   }    x    }    xS     }    x
+}! x0 \     0     8       0       0     \   0 h  /        0       0 d   \   0 y
+ /        0       0 u  K s  K t    0 }  |H     \   0 <     \   0     0     0 8
+ (  0 4   0       0     < 0     & 0       0     0  .}   3 \} q }         1H
+ 0{CNT=                               00  DAF036  11/04/0511.36        }    {
+{{ [} &  x}K xU  K xM  K x     xU   } O  xM   } O  x    } O  x}! xUK t   K t
+  0 d  &H     \   0       \   0    K uI  K s     0    &H     \   0s     \   0
+   K w  < 0    &H       \   0w      \   0 Q     0    &H     \   0       \   0
+    0    &H     \   0 ;     \   0    K v    0 <  &H     \   0v      \   0    K w
+  k 0    &H     \   0w      \   0     \     0     8       0       0 q  K
+0 {   \ 0    K s  K v    0     0 \    (  0     0 2     0       0       0     <
+0     0  .} & 3 \} q }   PGM=CNM=CVS=EDT=ETM=PDS=PVS=  2\                  N
+                                            m           0                  ~
+   ~       ~       t       t   t       t       tD   "    u       u       u
+ u   uY  v   v   v   v   vy      v}      v4      w       w
+ w    -   q                     - 00  DAF042  11/04/0511.36        }    {   {{ [
+}A-  x}N   A     N   A    :N   A     N   A     N   A|    N   A%   WN   A>  ] N
+ A    > 0{   x}K t   K t       K xU    x}! xUN   {   { N  mB[    K s m   0 }  &
+H     \B$ 0{      \   0       0 4    &H     \{d 0       \   0 0     0     \ 0
+ N   B-  { K s     0    &H     \B$ 0{h     \   0       0 *  &H     \{d 0
+\   0     0{   x}    K xU  K xM  K x     xU   }{   xM   }{   x    }{   x}! xUK x
+Y  K xO    xY   }{   xO   }{  &x}!&xYK t   K t      \{m   0     8       0
+0 8  K s& N s{q    K s{D \{0   0     8       0&      0     \{4 0    /
+0&      0 &   0           \{8 0    &  \   \   0       0 %   3& &0y k y 3d  y  0{
+     0 K y    0 {  &H     \A  0y      \   0    K w &  0 Y  &H       \B  0w
+\   0 U     0    |H     \A  0&<     \   0       0    |H     \A= 0&&     \   0
+ K x & K xQ    x    }    xQ   }   -x}!-x    0 @  |H     \Ad 0-      \   0
+0    |H     \A  0-      \   0       0 D  |H     \A  0-      \   0 {     0 Y  |H
+      \Ao 0-      \   0 U     0    |H     \A  0-      \   0       0    |H     \A
+s 0-      \   0       0    |H     \Ay 0-      \   0 &     0    |H     \A  0-
+  \   0       0    |H     \A  0-      \   0 q     0 {  |H     \A  0-      \   0
+      0 U  |H       \A{ 0-      \   0 \     0    |H     \AF 0-      \   0
+0    |H     \A  0-      \   0       0 &  |H     \AK 0-      \   0 <     0    |H
+    \AQ 0-      \   0       0 q  |H     \A  0-      \   0 m  K x0& K x     x0
+}    x    }    x}! x0   0 U    |H     \AU 0       \   0 \     0    |H     \A  0
+      \   0       0    |H     \A0 0       \   0       0 &  |H     \A6 0       \
+  0 <     0    |H     \A  0       \   0       0 q  |H     \B  0       \   0 m
+  0    |H     \B  0       \   0       0 \  |  H     \B  0       \   0       0
+ |H     \B  0       \   0       0    |H     \B  0       \   0       0 <  |H
+\B  0       \   0       0    |H     \B  0       \   0 %     0 m   \ 0    N & A
+ {  0&  &x} ^ 0 S  x}K t   K t       K xU  K xM  K x     xU     }{   xM   }{   x
+    }{   x}! xU \A    0     8       0       0     \A  0     8       0       0
+  \A  0 <   8       0       0     0    |H     \A  0       \   0       0    |H
+  \A  0       \   0 h     0    |H     \A  0       \   0       0 M  |H       \A
+0       \   0 }       \s 0     0  K \ 0      0{   x}    K xU  K xM  K x     xU
+  }{   xM   }{   x    }{   x}! xUK t   K t   K s   0           \{8 0       \
+\   0       0       0 q         \   0v      0 m     0    &H     \B  0v      \
+0     \A      0 \  /        0       0     0    |H     \B: 0 $     \   0 8     0
+   |H     \B  0 *     \   0       0    |H     \B  0 -     \   0       0    |H
+  \B  0       \   0    N   A   { K xY  K xO  K x     xY   }{   xO   }{   x    }{
+  &x}!&xYK w &    0 M  &  H     \B" 0w      \   0 }  K w &  0    &H     \B  0w
+    \   0 8  K v &  0    &H     \Bh 0v      \   0     0{   x}    K xU  K xM  K x
+     xU   }{   xM   }{   x    }{   x}! xUK t   K s  K v    0    &H     \A  0v
+    \   0 q     0 {  &H     \A  0      +  \   0       0 U  &H     \A  0       \
+  0 \     0    |H     \A  0 <     \     0       0    &H     \A  0 &     \   0
+ K v    0    &H     \Bh 0v      \   0 &  K w    0 @  &H     \B" 0w      \   0
+ K w  m 0 u  &H     \B  0w      \   0       0 H  &H     \A  0       \   0 D   0{
+   x}           }] K xU    x}! xUK s  K v      0]     &H     \A  0       \   0]
+      0]    \ 0]     x}           }]wK xU    x}! xUK s  K v      0]@  &H     \A
+  0       \   0]      0]    \ 0]    0{   x}    K xU  K xM  K x     xU   }{   xM
+  }{   x    }{   x}! xUK t    0]8  &H     \A  0       \   0]4     0      &H
+\A  0       \   0    K s   0           \{8 0       \   \   0       0     0{   x
+}    K xU  K xM  K x     xU   }{   xM   }{   x    }{   x}! xUK t    0    &H
+\A  0       \   0       0 \  &H     \A< 0       \   0    K s   0           \{8
+0         \   \   0       0       0    |H     \A& 0 [     \   0    K w  & 0 -  &
+H     \Bj 0 &     \   0 *  N   A   { K xY  K xO  K x     xY   }{   xO   }{   x
+  }{  &x}!&xY  &    }{   &    0 M  |H     \A& 8       \   0 }     0 8  &H     \B
+  8       \   0 4     h  [h       0{    0{   (  0{    0{   A  0{*  A  0{*  A  0{
+*  A* 0{*   0{*.}A- 3 \} q }       ACTIVATEACDS_DatasetEAC=SCDS_Dataset   {
+                                       FORMAT4.DSCB
+     4   3               8y          FSN=FDN=FIR=FIW=  9 DDN=PGN=STN=RSP=UNT=SGS
+=VSN=KST=KPR=LST=LPR=Len=                              DSDEV=DSBSZ=DSTRP=DSIOR=D
+SIOC=DSIOP=DSIOD=DSIOQ=DSION=DSCND=DSHTS=DSWCN=DSWHI=DSSEQ=DSRLC=DSICL=DSDAO=DSM
+XR=DSMXS=AMSRB=AMSRR=AMSWB=AMSWR=AMDRB=AMDRR=AM  DWB=AMDWR=AMZRB=AMZRR=AMZWB=AMZ
+WR=DSORG=TNTRK=ASSAT=ADRLH=Alias=NO ACDS SPECIFIEDNONE=NO SCDS SPECIFIEDSTORCLAS
+=NEXT=MGMTCLAS=DATACLAS=Member= 00  DAF043  11/04/0511.36        }    {   {{ [}
+   x} \   0   00 Kds*W K s't K sgt K smt N         N            0  K s  :j
+  \ * 0    /        0       0 h    s   ~   t  a X   0t    0 BK \ 0      0 UK s
+-K su   0 UK s  # 0 U 0           \y  0    s* \   0 Y    s*   e     8 @   0
+  0       0     % 0       0     0  .}   3 \} q }           n     EID=
+             23     00  DAF045  11/04/0511.36        }    {   {{ [}    x} \   0
+  00 Kds*X K s't K sgt K smt N         N        u 0 0K s   K s    0  &0y k y 3d
+ y  0      0 K su   0  K s    0     0           \y  0    s* \   0      s*   e
+  8     0 0 /     0       0       0       0     0  .}   3 \} q }       n JCC=
+                       23                                        x*  x   xD  xY
+ z<  z        -   h           <           \               y       d   y       %
+      d                       m          [   [   [   [%  [   [   [Q  [    4
+      -   h       }   4  zq  z    m             &       q           8       Y
+                \           <       D   m   -               Q  yh  y{   q
+   xu               4   m   }  y        %  y\
+    d               m       q                                                 d
+          &           0           *       H       } [ h . - |   &           $ &
+) y ;   -                 00  DAF059  11/04/0511.36        }    {   {{ [}    x}K
+ xU  K xM  K x     xU   }    xM   }    x    }    x}! xUK xY  K xO  K x     xY
+}    xO   }    x    }   &x}!&xYK x   K xQ  K x\    x    }    xQ   }    x\   }
+-x}!-x K x0  K x   K xS      x0   }    x    }    xS   }    x}! x0N  ! b   FK t
+mN    d    K s 8 0 kK s uK w  }   0 &  &H     \   0w      \   0 <  K w  Q 0
+ &H     \   0w      \   0    K v    0    &H     \   0v      \   0       0 D  &H
+    \   0       \   0 {  K w    0    &H       \   0w      \   0 Y     0    &H
+  \   0       \   0       0    &H     \   0 S     \   0    K t    0 *   \ 0    K
+ t  mN    d   @K s 8 0 WN    e    K s   0 WK s  K w    0 u  &H     \   0w
+  \   0    K w    0    &H     \   0w      \   0 H  K v    u 0 4  &H     \ % 0v
+    \   0 0     0    &H     \   0 }     \   0    K w  Q 0    &H     \   0w
+\   0       0    &H     \   0       \   0 -     0 h  &H     \   0 S     \   0 d
+ K t    0   0    (  0     0 F     0 U     0 U     0 U   @ 0 U   0 U.}     3 \} q
+ }       NULLFILE                                    OMN=OVI=DFN=DMN=DVI=ONN=DNN
+=INTRDR                                      OFN=                  FFDI   00  DA
+F060  11/04/0511.36        }    {   {{ [}    x}N        SK s  K t   K t   K w4
+. \     0     8       0       0 -   0    &H     \   0w4     \   0 @   \     0 y
+  8       0       0 u   0 D   }     \   0v      0 {       0       0     < 0
+& 0     0  .}   3 \} q }
+                 VVDS  =      00  DAF061  11/04/0511.36        }    {   {{ [}
+ x}K s  K t   K t   K uI . \     0 *   8       0       0     0    &H     \   0u
+I     \   0     \     0     8       0       0     0     }     \   0v      0
+    0 8     0 8     0 8     0 8   0   8.}   3 \} q }       CAT=
+        00  DAF062  11/04/0511.36        }    {   {{ [} -  x}K s -K t   K t
+0 &         \   0       \   \   0       0 <  K uI   \   0 h  /        0       0
+d   0 u  &H     \   0uI     \   0       0 H  &H       \   0 !     \   0 D     0
+   |H     \ < 0       \   0 Y     & 0       0       0     * 0     0  .} - 3 \} q
+ }           CAT=CVS=VCT=                         00  DAF063  11/04/0511.36
+   }    {   {{ [}    x}K s *K t   K t   K uI   \ Y   0 *  /          0       0
+    \   0 @  /        0       0     0 q  &H     \ 0 0uI     \   0 m     4 0 Q
+8 0 Q     0 Q     0 Q   0 Q.}   3 \} q }           CAT=                     00
+DAF064  11/04/0511.36        }    {   {{ [} y  x}K s  K t   K t   K v         )
+    H& y  0    |H     \   0y      \   0 -     0 h         \y  0       \   \   0
+      0 d      [   [   N  |      N  | {   QN s }   hK v  |   0 Y  &H     \   0v
+      \   0 U  K uI   0    &H     \   0uI     \   0     \     0    /        0
+    0     \   0      /        0       0     0    |H     \   0       \   0
+0 q  |H     \   0       \   0 m     0    |H     \   0       \   0       0 \  |H
+    \   0       \   0       0    |H     \   0       \   0    K w-   0    |H
+\   0       \   0       0 &  |H+      \   0       \   0 <     0    |H     \   0
+      \   0       0 q  |H       \   0       \   0 m     0    |H     \   0
+\   0       0 \  |H     \   0       \   0       0    |H     \   0       \   0
+    0    |H     \   0       \   0       0 <  |H     \   0       \   0       0
+ |H     \   0       \   0 %     0 m  |H       \   0       \   0    K v    0    |
+H     \   0       \   0       0 \  |H     \ < 0       \   0       0    |H     \
+& 0 <     \   0       0    |H     \   0 &     \   0       0 <  |H     \   0
+  \   0       0    |H     \ * 0       \   0 %  K w%   0 q    |H     \ - 0 *
+\   0 m     0    |H     \   0 -     \   0       0 \  |H     \   0       \   0
+    0    |H     \ % 0       \   0       0    |H     \   0       \   0       0 <
+ |H     \   0       \   0       0    |H     \   0       \   0 %     0 m  |  H
+  \ @ 0       \   0       0    |H     \   0 :     \   0    K v  @ 0 \  &H     \
+d 0 @     \   0       0    |H     \ h 0 y     \   0     \     0    /        0
+    0     \   0 <  /        0       0     \ m 0 %  /        0       0       q 0
+w     0 w       0 w   u 0 w   0 w.} y 3 \} q }             STGINDEX    VOL=
+                                       CAT=   &    NIL=NEX=NLR=NDE=NIN=NUP=NRE=N
+FS=NCS=NAS=NEP=DIL=DEX=DLR=DDE=DIN=DUP=DRE=DFS=DCS=DAS=DEP=DBS=DCI=DLS=DKL=STR=B
+NO=BSP=BFD=BFI=CLN=PLH=                                  VS DD=       00  DAF065
+  11/04/0511.36        }    {   {{ [}    x}K s  K t   K t   K uI . \     0 *
+8       0       0     \   0 @   8       0 [     0     0 q  &H     \   0uI     \
+  0 m   \     0 {   8       0       0       0     }     \   0v      0 Q       0
+      0       0       0     0  .}   3 \} q }          -CAT=
+        00  DAF066  11/04/0511.36        }    {   {{ [} u  x}K s  K t   K t   K
+ uI . \     0 *   8       0       0     \ d 0 @   8         0       0     0 q
+}     \   0v      0 m     0    &H     \ h 0       \   0       0    &H     \   0u
+I     \   0 Q  N  [ w   [K v  u   0    &H     \   0 u     \   0    K    x 0
+\ 0    K s uK v      m 0     q 0       0       0     0  .} u 3 \} q   }
+   ENM=CAT=NNM=                  RN 00  DAF067  11/04/0511.36        }    {   {{
+ [}    x}K s  K t   K t   K uI   \ Y   0 *  /        0       0     \   0 @  /
+      0       0     0 q  &H     \ 0 0uI     \   0 m     4 0 Q   8 0 Q     0 Q
+  0   Q   0 Q.}   3 \} q }           CAT=                     00  DAF068  11/04/
+0511.36        }    {   {{ [}    x}K s   0    &H     \   0       \   0    K t
+ K t   K v  b 0    &H     \   0 b     \   0    K uI   0    &H     \   0uI     \
+  0    K      0 H  %  \ 0 D  K s bK v        0       0       0       0     0  .
+}   3 \} q }   ONM=NNM=CAT=                  N
+[  ]   ]   ]   ]   ]Q  ]                \           &       [       [       .  {
+Q  A    .  {4 < .  A  ( .  A  + .  A    |  B   B    |  B< < |  B  ( |  B\ + |  B
+Y   &  C<   &  Cd   &  C   CD   &  CY   &  D       D{  D\        D       E&
+      8       Y              E       E}  F\  G   G   G<  G   Gq  G   G\  H   H
+ H<  H   Hm  H   H   I   I   I<  I   Im  I   I            <       m
+             F@   <  F       E4      Fu  FD   q       Q !                    4
+                            M          K        $           U   $     < $     (
+$   & * $     + $   *   )   }   0 < )       )       &   d   )     ( )   8 + )
+    ;  }   }q   ;  }  ^ ;  J    ;  J    -  J   J   JD   -  J  /     y   y _ H
+y               00  DAF069  11/04/0511.36        }    {   {{ [}    x}K s  K t
+ K t    0 &         \ h 0       \   \   0       0 <  K uI   0 d  |H     \   0
+    \   0       0 y  |H     \   0       \   0 u     0    |H     \ m 0       \
+0 H     0 0  |H       \ q 0       \   0       0    |H     \   0       \   0
+  0    &H     \   0uI     \   0       u 0     y 0       0       0     0  .}   3
+\} q }       NDS=NUC=NUT=LNC=LNT=CAT=                     00  DAF073  11/04/0511
+.36        }    {   {{ [} u  x}  N    w     0    x}K xU  K xM  K x     xU   }
+ xM   }    x    }    x}! xUK t  -K t  - \   0 q  /        0       0 m   \ % 0
+ /        0       0    K s     0    &H     \   0       \   0 Q     0    &H
+\   0       \   0       0    &H     \   0         \   0       0    &H     \ @ 0
+      \   0       0 %  |H     \   0       \   0       0    |H     \ d 0 <     \
+  0       0    &H     \ h 0 &     \   0     \     0    /        0 !     0 Q   0
+8  &H     \   0 $     \   0 4   0     0    (  0     0     m 0   &   q 0 &     0
+&     0 &   0 &.} u 3 \} q }   RMF        &   -TSF=TOK=TDT=TTM=CRC=CSC=TDY=    C
+SS=                     00  DAF074  11/04/0511.36        }    {   {{ [}    x}N
+  [    N    <    N    +   [ 0 F  x}K xU  K xM  K x     xU   }    xM   }    x
+  }    x}! xUK t  8K t  8K s     0    &H     \   0 [     \   0       0 M  &H
+  \   0 +     \   0 }     0 8  &H     \   0       \   0 4     0    &H     \   0
+      \   0     0    x}K xU  K xM  K x     xU   }    xM   }    x    }    x}! xUK
+ xY  K xO    K x     xY   }    xO   }    x    }   &x}!&xYK x   K xQ  K x\    x
+  }    xQ   }    x\      j s  \   0 Fo s  \   0   00 Kds*Z  0           \y  0
+ s* \   0      s*   e     8 &   0 F -x}!-x K s-  0    x}K xU  K xM  K x     xU
+  }    xM   }    x    }      x}! xUK xY  K xO  K x     xY   }    xO   }    x
+}   &x}!&xYK x   K xQ  K x\    x    }    xQ   }   -x}!-x K x0  K x   K xS    x0
+  }    x    }    x}! x0K t  8K t  8 \     0    /        0       0     0 &  |H
+  \   0       \   0 <  K s   0    &H       \   0       \   0       0    &H
+\ $ 0       \   0 q     0 {  &H     \ - 0       \   0       0 U  |H     \   0&
+    \   0 \     0    |H     \ | 0&      \   0     \     0    /        0&      0
+    0 <  &H     \   0&      \   0       0    |H     \ ?   0&      \   0 %     0
+m  |H     \   0&      \   0      x\   }   0 {  &H     \   0-      \   0       0
+U  &H     \ = 0-      \   0 \   \     0    /        0-      0     \   0    /
+    0-      0     0    |H     \   0-      \   0       0 %  |H     \ c 0  -
+\   0       0    |H     \ h 0-      \   0       0    |H     \   0-      \   0
+   xS   } w 0 \  &H     \ k 0       \   0       0    &H     \ p 0       \   0
+  \     0    /        0       0     \   0 <  /        0       0     0    |H
+\   0         \   0       0    |H     \   0       \   0 h   0     0    (  0
+0 F     0 U     0 U     0 U     0 U   0 U.}   3 \} q }       RMF     TSF=TOK=TDY
+=TTM=  n         SND=   h    PCU=        CCU=                         GNFD=GISF=
+GICD=GICT=SDEV=SLSN=S+ NSP=SNIP=PNUM=PADR=PCUN=PNPC=PXPC=CNUM=CADR=CCUN=
+00  DAF075  11/04/0  511.36        }    {   {{ [} {  x}N    B     0    x}K xU  K
+ xM  K x     xU   }    xM   }    x    }    x}! xUK t   K t   K s   \     0    /
+        0       0     \   0 {  /        0       0        &0y k y 3d  y  0      0
+ K xH     0    &H     \ @ 0xH       \   0     3  &0y k y 3d  y  0      0 K y
+0    &H     \   0y      \   0       0           \ d 0       \   \   0       0
+    0 q  |H     \ h 0       \   0 m     0    |H     \   0       \   0       0 \
+ |H     \   0       \   0       0    |H     \ m 0   <     \   0       0    |H
+  \ q 0 &     \   0       0 <  |H     \   0       \   0       0    |H     \   0
+      \   0 %     0 m  |H     \ u 0 *     \   0       0    |H     \ y 0 -     \
+  0       0    &H     \   0       \   0 Q     0    &H     \ D 0   %     \   0
+  0     0    (  0     0       0       0       0       0     0  .} { 3 \} q }   R
+MF            q    TYP=CHA=    SLA=MXU=MNU=AVU=BDS=USE=REQ=SIO=PGX=DEV=
+           CU=  00  DAF077  11/04/0511.36        }    {   {{ [}    x}N
+  0    x}K xU  K xM  K x     xU   }    xM   }    x    }    x}! xUK xY  K xO  K x
+     xY   }    xO   }    x    }   &x}!&xY -x  0 D  &H     \   0&      \   0 {
+0   \  kNx N & \          0  K s \ nY\     K s& kYx  0 hN &      hN &      hN &
+        \   0     00 Kds* TK sb& K s &  0 *         \y  0    s* \   0      s*
+e     8 ~   0    &H     \   0s      \   0     \     0    /        0&      0    K
+ v1&*K v9& K w &%K w & K w & K w &  0 8  &H     \   0w      \   0 4     0    |H
+    \   0&      \   0      &   h0    &    0 <  |H     \   0&      \   0      & h
+0    & K x &  0    |H     \   0&      \   0 @    & h0    &    0    |H     \   0&
+      \   0       0 M  |H     \   0&      \   0 }     0 8  |H     \   0&      \
+  0 4     0    |H     \   0&      \   0         0    |H     \ < 0&      \   0
+    0    |H     \ & 0&<     \   0 -     0 h  |H     \   0&+     \   0 d     0
+ |H     \   0&&     \   0 y     0 }  |H     \ * 0&      \   0       0 4  |H
+\ - 0&      \   0 0     0    |H     \   0&      \   0         0    |H     \   0&
+!     \   0       0 -  &H     \ % 0&*     \   0 *     0 d  &H     \   0&@     \
+  0       0 y  &H     \   0&      \   0 u     0    &H     \   0&d     \   0 H
+  0 0  &H     \ @ 0&%     \   0       0    &H     \   0&      \   0         0
+ &H     \ d 0&      \   0       0 *  &H     \ h 0&m     \   0       0     \ 0 @
+ [&xO  t          8 ~    s         8 ~   0t &0~  -   0     0 H  (  0 D   0
+  0 8     0 8   m 0 8   q 0 8   0 8.}   3 \} q }   SYSVSAM SYSZVVDSQNM=  $   n N
+ONE   hRN@ M=RLN=WTM=WTX=WTT=QL1=QL2=QL3=QL4=EXM=EXX=SHM=SHX=EVT=DOW=DWR=DO1=SY1
+=DO2=SY2=DW1=SY3=DW2=SY4=
+      /  Ku   /  KQ  K   L   L   L    /  L       Mu  MD  NY      N   N   N   N{
+ MY  O       N   N       O       O       O@      O       P   Ph  P   P}       &
+              q   m           U  RY   {   \   \
+                                    q                      Q                H
+      %     } ,     Q |             U       Y   _           _   *         *
+_  \   \   \-  \d  \y  \   \0      4   _   D   _  d ? _  } > _  M   _  Q
+   \ SY  T   U   Wd  Wy  W                       Y}          W0  X   X   X*  X
+     V   V   Vh  V   V}  V4  W   W   W-  U   U   Uu  UM  U8  V       T       T
+     Xu      X       Y       Y       Y&   0     :   c   d h f q g }
+  00  DAF078  11/04/0511.36        }    {   {{ [} Y  x}N          0 f  x}K xU  K
+ xM  K x     xU   } |  xM   } |  x    } |  x}! xUK t   K t    \ { 0 q  /
+0       0 m  K s     0    &H     \ D 0 <     \   0       0 \  &H     \ H 0 &
+    \   0       0    &H     \   0 &     \   0       0    &H     \ } 0       \
+0       0 <  &H     \ M 0 -     \   0     0 =   0    (  0     0 f   Q 0 u     0
+u   \ 0 u   U 0 u   0 u.} Y 3 \} q }       RMF        -TSF=TOK=TDT=TTM=TDY=
+                      00  DAF079  11/04/0511.36        }    {   {{ [}    x}N
+     N        =N        o 0 k  x}K xU  K xM  K x     xU   }    xM   }    x    }
+   x}! xU &x K w      0 y  &H     \ \ 0w      \   0 u  K w    0   \ UkNx N w \
+  W     0 }K s \ nY\     K s  k  Yx  0 @N        @N    {   @N    H   @N    }
+4 \ Y 0   00 Kds* TK sb  K s    0 &         \y  0    s* \   0 <    s*   e     8
+    0 d  &H     \   0w      \   0       0 y  &H     \ 0 0s      \   0 u   3  &0y
+ k y 3d  y  0 4    0 K y    0    &H     \   0y        \   0 Y  K t    0
+  \ 8 0       \   \   0       0    N          0 <  &H     \   0       \   0
+  0    &H     \   0       \   0 %     0 m  |H     \ . 0       \   0     \     0
+   /        0 .     0     0 Q  &H     \   0 <     \   0 M   3    &0y k y 3d  y
+0 4    0 K y    0    &H     \   0y      \   0       0     \ 0    [ xM  t
+  8      s         8     0t &0~  & q 0 k  x}K xU  K xM  K x     xU   }    xM
+}    x    }    x}! xU &x K w    0    &H     \ \ 0w      \   0 H  K w    0   \
+UkNx N   \          0 4K s \ nY\     K s  kYx  0  N         N    {    N    H
+ N    }     \ Y 0   00 Kds* TK sb  K s    0           \y  0    s* \   0      s*
+  e     8     0 y  &H     \   0w      \   0 u     0    &H     \ 0 0s      \   0
+H   \     0   4  /        0       0 0   0    |H     \ . 0       \   0       0
+ |H     \   0       \   0       0    |H     \ & 0       \   0       0 @  |H
+\   0       \   0       0    &H     \   0       \   0    K t    3  &0y k y 3d  y
+  0 4    0 K y      0    &H       \   0y      \   0 Y     0    &H     \ ! 0 .
+  \   0       0    &H     \   0       \   0       0     \ 0    [ xM  t
+8      s         8     0t &0~  &   0 k  x}K xU  K xM  K x     xU   }    xM   }
+   x    }    x}! xU &x K t  QK t  Q   0      |H     \ ^ 0       \   0 Y     0
+ |H     \   0       \   0       0    |H     \   0       \   0       0    |H
+\ > 0       \   0       0 @  |H     \   0       \   0       0    |H     \   0
+    \   0     \     0 H  /        0       0 D   1  &0y k   y 3d  y  0 4    0 K y
+      0    &H     \   0y      \   0    N        + 0    &H     \ ' 0       \   0
+      0           \ 8 0       \   \   0       0    K s   \   0    /        0 |
+    0     0    &H     \ b 0 &     \   0 y     0 }  &H     \ g 0       \     0
+  3 -&0y k y 3d  y  0 4    0 K y    0    &H     \   0y      \   0       0     \
+0    [ xM  t          8      s         8     0t &0~  & O 0 k   0    (  0 @   0
+k     0       0       0       0     0  .}   3 \} q }   SYSVSAM ENQ$AVRSSYSZVVDSR
+MF     + MAJ=  $   n MIN=NONE        UCB=REQ=    SID=DVN=        OWN=    DEV=
+                              ASID=UCBMINL=EXCW=SHRW=SCOP=SALC=SAVL=SLBD=SUSE=SI
+OS=REQS=DADR=DEVN=CU=       00  DAF080  11/04/0511.36        }    {   {{ [}    x
+}K x   K x   K t   K t    \ 0   0 *  /        0       0     \ 4 0 @   8       0
+      0     \ 8 0       8       0       0 q   \   0    /        0       0    K w
+      0 \  &H     \   0w      \   0       0    &H     \   0       \   0       0
+   &H     \   0       \   0     \     0 &  /        0       0 <   \   0    /
+    0 |     0 %   \   0    /          0 -     0     0       0 y   0       0
+  0       0       0     0  .}   3 \} q }              {  ;8    SEC=   Q   \   y
+                 GROUP=TERMINAL=        00  DAF081  11/04/0511.36        }    {
+  {{ [}    x}K x   K x  bK t   K t      0       0      K v    0 %  &H     \   0
+      \   0    K w    0 m  &H     \   0w      \   0       0    |H     \   0 "
+  \   0    K      0 \   \ 0    K s  K v    0 6     0       0     < 0     & 0
+  0  .}   3 \} q }       RACF    UDS=UVL=PIV=                  N    00  DAF082
+11/04/0511.36        }    {   {{ [} *  x}N    ;   %N    -    N         N
+;N        w 0 6  x}  x}      K t   K t   K s   \   0 q  /        0       0 m
+0    |H     \   0       \   0       0 Q  |H     \   0       \   0 M     0    |H
+      \   0       \   0 8   0    x}  x}      K t   K t   K s     0    &H     \
+  0       \   0       0    |H     \   0       \   0       0    |H     \   0
+  \   0 h     0    &H     \   0       \   0     0    x}  x}      K t   K t   K s
+  K v    0      &H     \ , 0       \   0 8     0    &H     \   0       \   0
+ K    ' 0     \ 0    K s  K v    0    x}  x}      K t   K t   K s     0 h  &H
+    \ = 0s     \   0 d   0    x}  x}      K t   K t   K s     0 }  &H     \ c
+0s     \   0     0     < 0       & 0       0       0     0  .} * 3 \} q }
+ ICSF        IDO=ITE=IML=KKS=KDX=KCL=                            KV=Old_CKDS=New
+_CKDS=NCKDS=PKDS= 00  DAF083  11/04/0511.36        }    {   {{ [} d  x}N    f
+  0    x}K xU  K xM  K x     xU   }    xM   }      x    }    x}! xUK xY  K xO  K
+ x     xY   }    xO   }    x    }  K x   K x   K t   K t    \   0 M  /        0
+      0 }   \ * 0 4   8       0       0 0   \ - 0     8       0       0     \
+0    /        0       0    K w      0    &H     \ h 0w        \   0       0 @  &
+H     \   0       \   0     \ %   0 u  /        0       0     0 {  &H     \   0
+      \   0     \     0 Y  /        0       0 U   0       0     0     0    (  0
+    0       0       0     @ 0       0     0  .} d 3 \} q }          {  ;8      S
+EC=   Q   \                    GROUP=TERMINAL=  00  DAF088  11/04/0511.36
+ }    {   {{ [}    x}N          0    x}K xU  K xM  K x     xU   } [  xM   } [  x
+    } [  x}! xUK xY  K xO  K x     xY   } [  xO   } [  x    } [ &x}!&xYK x   K x
+Q  K x\      x    } [  xQ   } [  x\   } [ -x}!-x N -  q    K w   K s     0    &
+H     \ { 0       0       0    &H     \ y 0-      0     0 ;   0    (  0 &   0
+    0 d     0 d     0 d     0 d   0 d.}   3 \} q }       *DASDONLY*      STN=
+                 LOGSTREA  M=                                          Z       Z
+h  Z   Z}  Z4                                       y           m   Q   h
+h  0*  0y  0   00  2D  20  3   3   3}      0   0    &  1y  1   10  2   2   2*
+    0          1   34          3<      2d      3      }                   8
+  Y                      4       4u      4y      4       4D      4M      4
+ 4U   :  5y  6   6   6   6    :  6&  6   6    :  5H  5Y # :  68 = :  7  " :  7
+  :  7  @ :  7< a :  7  b :  7  ' :  7* # c  7    c  70  8    c    8    c  8
+d  9            U       H   }       d  9   9   9Q           d           Q
+        d     e d       f       q       <   f       \       f         # f
+f   @ = f   { " f   D   f   H @ f     a f   M b f   Q   g           g   & h
+  y   Y               00  DAF090  11/04/0511.36        }    {   {{ [}    x}K xU
+ K xM  K x     xU   }    xM   }    x    }    x}! xUN         N         N
+%N         N        \N        !N        O 0    x}K xU  K xM  K x     xU   }    x
+M   }    x    }    x}!   xUK xY  K xO  K x     xY   }    xO   }    x    }   &x}!
+&xYK x & K xQ& K x\&   x    }    xQ   }    x\   }   -x}!-x   x\K t   K t    \ \
+0     8       0       0 @   0    &H     \ U 0 Y     \   0 q    xQ \s 0-    0  K
+ \ 0    H   0     \ 0 Q   \ \   0 0     8       0       0     0    &H     \ U 0
+      \   0    [-xQ     0    x}K xU  K xM  K x     xU   }    xM   }    x    }
+ x}! xUK xY  K xO  K x     xY   }    xO   }    x    }   &x}!&xYK t   K t   n &
+   K s&  \ \ 0     8       0       0 H   0 Y  &H       \   0&      \   0 U  K v
+ &  0     \ 0    n &     K s&  \ \ 0     8       0       0     0 <  &H     \
+0&      0    K v &  0 s  x}K xU  K xM  K x     xU   }    xM   }    x    }    x}!
+ xUK xY  K xO  K x     xY   }    xO   }    x    }   &x}!&xY \   0     00 Kds*VoK
+ s't K sgt K smt  0           \&  0su     0       0           \&  0t      0    K
+ s t  0 &         \y  0    s* \   0 <    s*   e     8     0    x} \   0   00 Kds
+*W K s't K sgt K smt  0           \y  0    s* \   0      s*   e     8     0    x
+}K   xU  K xM  K x     xU   }    xM   }    x    }    x}! xUK xY  K xO  K x     x
+Y   }    xO   }    x    }   &x}!&xYK x & K xQ& K x\&   x    }    xQ   }    x\
+}   -x}!-x   x\K t   K t    \ \ 0 y   8       0       0 u   0 D  &H     \ U 0 Y
+    \   0 {    xQ   \s 0-    0 6K \ 0    0   0     \ 0     \ \   0     8
+0       0     0    &H     \ U 0       \   0    [-xQ     0    x}K xU  K xM  K x
+   xU   }    xM   }    x    }    x}! xUK xY  K xO  K x     xY   }    xO   }    x
+    }   &x}!&xYK x & K xQ& K x\&     x    }    xQ   }    x\   }   -x}!-x   x\K t
+   K t    \ \   0     8       0       0     0    &H     \ U 0 Y     \   0      x
+Q \s 0-    0  K \ 0    %   0     \ 0 @   \ \   0 m   8       0       0     0
+ &H     \ U 0       \   0    [-xQ   ! 0    x}K   xU  K xM  K x     xU   }    xM
+  }    x    }    x}! xUK xY  K xO  K x     xY   }    xO   }    x    }   &x}!&xYK
+ t   K t    \ \   0     8       0       0 -  K s& N &  !    K w & K sw  0    &
+H     \   0w      0 q     0    &H     \   0&      \   0         0 \  &H     \ U
+0 Q     \   0       0     \ 0     \ \   0     8       0       0    K s&&   0
+ &H     \   0&@     \   0       0 -  &H     \ U 0 |     \   0 *     0 d   \ 0
+  0     0 q  (  0 m   0       0 H     0 H     0 H     0 H   0 H.}   3 \} q }
+ Original   hNONEActive_SMF_Recording_DatasetSWN=SOD=  n
+         LOGSTREAM=Alternate_SMF_Recording_Dataset LOGSTREAMMedium=New    00  DA
+F091  11/04/0511.36        }    {   {{ [}    x}N          0    x}K xU %K xM  K x
+     xU   }      xM   }    x    }    x}! xUK xY @K xO  K x  b  xY   }    xO   }
+   x    }  K t    &x}!&xYK s& K v &    0 M  &H     \   0v      \   0 }     0 8
+ &H     \ h 0&      \   0 4     0    &H     \ h 0&      \   0     0 +   0    (
+0     0       0       0    +  m 0     q 0     0  .}   3 \} q }       OPN=
+             DD=      00    DAF092  11/04/0511.36        }    {   {{ [} H  x}N
+       N         N        dN    }   MN    K   MN    M     0    x}K xU  K xM  K x
+     xU   }    xM   }    x    }    x}! xUK xY  K xO  K x     xY   }    xO   }
+ x    }   &x}!&xYK x &   xY   }   -x}!-x   K t   K t   K s& K v &    0    &H
+  \   0v      \   0     \     0 <   8       0&      0    K w      0    &H     \
+O 0w      \   0 %     0 m  &H     \ % 0&      \   0      -  \v  0-    0 FK \ 0
+  {   0 M  &H     \   0v      \   0 }   \     0     8         0       0 8   0
+ |H     \   0&      \   0     0    x}K xU  K xM  K x     xU   }    xM   }    x
+  }    x}! xUK xY  K xO  K x     xY   }    xO   }    x    }   &x}!&xYN &       K
+ t   K t   K s& K v &  0 M  &H     \   0v      \   0 }   \     0       8
+0&      0 8  K w      0    &H     \ O 0w      \   0       0    &H     \ @ 0&
+  \   0     \     0 %   8       0       0     0    x}K xU  K xM  K x     xU   }
+   xM   }    x    }    x}! xUK xY  K xO  K x     xY   }    xO   }    x    }   &x
+}!&xY  N &       K t   K t   K s& K v &    0    &H     \   0v      \   0     \
+    0 <   8       0&      0    K w      0    &H     \ O 0w      \   0 %     0 m
+ &H     \   0&      \   0     \     0     8       0       0     0    x}K xU  K x
+M  K x     xU   }      xM   }    x    }    x}! xUK xY  K xO  K x     xY   }    x
+O   }    x    }   &x}!&xYN &       K t   K t   K s& K v &    0    &H     \   0v
+      \   0     \     0     8       0&      0 q  K w      0 {  &H     \ O 0w
+  \   0       0 U  &H     \ d 0&        \   0 \   \     0     8       0       0
+    0    |H     \ h 0&      \   0       0 <  |H     \   0&%     \   0       0
+ |H     \   0&      \   0 %     0 m  |H     \ m 0&      \   0       0    |H
+\ q 0&      \   0       0    |H     \   0&@     \     0 Q   0    x}K xU  K xM  K
+ x     xU   }    xM   }    x    }    x}! xUK xY  K xO  K x     xY   }    xO   }
+   x    }   &x}!&xYN &       K t   K t   K s& K v &  0 q  &H     \   0v      \
+  0 m   \     0 {   8       0&      0    K w      0 U  &H     \ O   0w      \
+0 \     0    &H     \ d 0&      \   0     \     0     8       0       0     0 <
+ |H     \   0&      \   0       0    |H     \ u 0&%     \   0 %     0 m  |H
+\ y 0&      \   0       0    |H     \   0&      \   0       0    |H     \   0&
+      \   0 Q     0    |H     \   0&@     \   0     0     0    (  0     0
+0       0     { 0     D 0     0  .} H 3 \} q }       MTN=   {MBL=    STN=RTN=UTN
+=UBL=USR=USW=UDI=UIR=UIW=VBL=VSR=VSW=VDI=VIR=VIW=                              G
+ROUP=DD=PATH=                                       h   <       q           U
+0   -       U   h   Q   h   8   h       @   h   Q                   @
+h                   h   y   }   }   <       &   h     i h       h
+                                  N                               u   }
+                  u   H   @   H                   &       0       u   \   \
+          {                                       {   U               &
+  -                   00  DAF118  11/04/0511.36        }    {   {{ [}    x}N
+     N         N         N         N         N         N    [    N    <     0 &
+ x}   0 q  &H     \ h 0       \   0 m     0    &H     \   0       \   0       0
+\         \   0v        0       0    &H     \   0v      \   0       0
+\   0v@     0       0    &H     \ m 0v@     \   0       0    |H     \ q 0
+\   0       0    |H     \   0       \   0 h  K t    \   0     8       0       0
+    \ u 0 Q   8       0       0 M   \   y 0 8   8       0       0 4   \   0
+8       0       0     0           \   0z      0       0    &H     \   0z      \
+  0 &     0           \   0z      0       0 q  &H     \   0z      \   0 m     0
+   |H     \   0       \   0     \     0 U   8         0       0 \  K s <N
+   K w      0    &H     \ + 0w      \   0    K t   K v( D   0    &H     \ { 0v(
+    \   0       0 %  |H     \ D 0       \   0       0    |H     \ H 0       \
+0     0    x}   0    &H     \   0       \   0       0 \  &H     \ }   0       \
+  0       0           \   0v      0       0    &H     \ M 0v      \   0       0
+          \   0v@     0       0    &H     \ Q 0v@     \   0    K t    \   0 m
+8       0       0     \ \ 0     8       0       0     \ U 0 M   8       0
+0   }   \ Y 0 4   8       0       0 0   0           \   0z      0       0    &H
+    \   0z      \   0       0           \   0z      0 &     0    &H     \ 0 0z
+    \   0       0 q  |H     \ 4 0       \   0 m   \ 8   0 {   8       0       0
+    0    &H     \     0       \   0 Q   \     0     8       0       0    K s <
+  0    &H     \   0 <     \   0    N         K w      0 *  &H     \   0w      \
+  0    K t   K v( D   0    &H     \   0v(     \   0 h     0    &H     \   0
+  \   0       0 M  |H     \   0         \   0 }     0 8  |H     \   0       \
+0 4  N         K v  h   0    &H     \   0 h     \   0    N        :K w      0 -
+ &H     \   0w      \   0 *  K      0 h   \ 0 d  K s hK v  < 0    x} \   0   00
+ Kds*X K s't K sgt K smt    0 }  &H     \   0         \   0      s   ~   t  a X
+  0t    0  K \ 0      0           \y  0    s* \   0      s*   e     8     0 &
+  0 >     0 >     0 >     0 >   0 >.}   3 \} q }             CCM=CTY=CSA=CSL=CCP
+=CCF=       }   y   -CRS=CRE=CBC=    CHN=CF1=CF2=PCM=PTY=PSA=P  SL=   \
+  HTRS=TRE=TBC=    SLR=    DSN=MEM=HST=RS2=SRP=SLP=DS2=MM2=  n PSU=
+                [ .  MEMBER=RENN        00  DAF119  11/04/0511.36        }    {
+  {{ [} u  x}N    w    N    y    N        { 0    x}      K xU  K xM  K x       x
+U   }    xM   }    x    }    x}! xUK xY  K xO  K x     xY   }    xO   }    x
+}   &x}!&xY      K x   K xQ  K x\    x    }    xQ   }    x\   }   -x}!-x K t   K
+ t    0    &H     \   0&      \   0       0    &H     \ D 0&      \   0    N &
+*     0             \&  0v      0     0     0 q  .      \&  0v      0 m   0
+0    &H     \ I 0v      \   0    N &  *     0 Y         \&  0v@     0 U   0
+0    .      \&  0v@     0     0     0    &H     \ } 0v@     \   0       0    |H
+    \   0&      \   0 &    +  0    |H     \   0&      \   0    N &  *     0 u
+      \&  0vt     0     0   S   0 H  .      \&  0vt     0 D   0 S   0    &H
+\ P 0vt     \   0 Y  N &  *     0           \&  0v      0     0     0    .
+\&  0v      0     0     0 -  &H     \   0v      \   0 *     0 d  |H     \   0&<
+    \   0       0 y  |H     \   0&+       \   0 u     0    &H     \ V 0&&     \
+  0 H     0 0  &H     \   0&      \   0     \     0     8       0&-     0     \
+% 0     8       0&/     0     \   0     8       0&      0     \   0     8
+0&      0     0 m  |H     \   0&      \   0       0      |H     \ @ 0&      \
+0       0    &H     \   0&      \   0 Q   \     0     8       0&      0    N &d
+&   [K w &d 0    &H     \ 4 0w      \   0    K v(&  0    &H     \ d 0v(     \
+0       0 @  &H     \   0&m     \   0      xQ \s   0-    0  K \ 0        0    x
+} 0    x}      K xU  K xM  K x     xU   }    xM   }    x    }    x}! xUK xY  K x
+O  K x     xY   }    xO   }    x    }   &x}!&xY  x} \ h 0   00 Kds*X K s't K sgt
+ K smt    0 %  &H     \   0&      \   0     \     0 m   8       0&      0      s
+   ~     t  a X   0t    0  K \ 0    D   0 Q         \y  0    s* \   0 M    s*
+e     8     0   0    (  0     0     m 0     q 0       0       0     0  .} u 3 \}
+ q }           FCC=                           yFCD=FCB=    FCH=  n FFU=   \
+                   F) CDRP=FCDLP=FCCRP=FCCLP=FCFT=FCDRIP=FCDLIP=FCCRIP=FCCLIP=FC
+RU=FCLU=FCLR=MEMBER=FCRS=                     8       Y                   h
+              U       h       0               y   4           @   8
+  d   u   D   U   -           {       }                                   0   }
+          h               D           *                 U
+              j       k             @ l       n       o       p       m       q
+    H r     }       4       &       Y   *           8           *   d   y   q
+            }           M   {   U       u           u                 d   {
+                                      4   D                           q
+              u                       { #   t   v y w y x   z   < q
+              00  DAF8XR  11/04/0511.36        }    {   {{ [}    x    } d  x}
+     x    } dkNx       N        mN         N         N         N         N
+   N         N         N         N         N         N         N        UN
+   N        [N          =N        }N        MN        QN         N    [    N
+.    N    <    N    (    N    +    N    |    N    &   ;N        dN        hN
+     N        KN        8N         N         N         N         N    !   ON
+$    N    *    N    )    N      ;    N    ^   <N    -   & \ } 0   00 Kds*7EK s t
+ K s t K s_t K s t K sa   1  &0y k y 3d  y  0 M    0 K sm     0           \y  0
+   s* \   0 -    s*   e     8 /   0   \s   0     0  K \ 0    u 0   0   \ Q   0
+D  /        0       0 {   0   \   0 Y  /          0       0 U   0   0   0   0
+0   \s   0     0  K \ 0      0     0           \ \ 0       \   \   0       0
+  0        )  U                   8 /   0  K 0    h     0    &H     \   0
+\   0 q       0     0 H  &H     \   0     \   0 D   0   0             \ \ 0
+  \   \   0       0 Y   0     0           \ \ 0       \   \   0       0     0
+  0           \ \ 0       \   \   0       0 &   0   \u5   0     0 mK \ 0      0
+   &H     \   0u5     \   0    N u5 |    kYx  0   0   0   0   0 \  &H       \
+0     \   0     0   0   0   0   0   0   0   0    &H     \ Y 0w      \   0
+0    &H     \   0       \   0     0     0    &H     \   0     \   0     0   0
+    \v    0     0 sK \ 0        0    &H     \ { 0v      \   0     0   0     0
+ &H     \     0     \   0 Q   0   0    &H     \   0     \   0     0   0   0   0
+   &H     \   0     \   0     0    y  \     0     0  K \ 0    *             8 '
+ k    -   W 0        k    sn      sk_   0 @n_      k      0    &H     \ = 0
+  \   0     0     0 \  &  H     \ c 0     \   0     0   0    &H     \ k 0     \
+  0     0   0   0   0   0    &H     \ t 0     \   0     0   0    &H     \ H 0
+  \   0     0        [            0 0     4 0     8 0       0     0  .}   3 \} q
+ }         PROFILE=DSN_PDS=  n        q              RVL=XXX=                  U
+nknown Datatype=x"  "CLASS=DSN_RVARY=MODEL=OWNER=
+               ID=FROM=DATASETAPPL=LOGSTR= NAME=SECLABEL_ADDED=SECLABEL_DELETED=
+DSN_SECLABEL= 00  HSMFSR  11/04/0511.36        }    {     {{ [}    x}N    <   [N
+    8    K s  K t   K t    \   0     8       0       0     0 d  &H     \   0 :
+    \   0    K w    0    &H     \ ( 0w      \   0 y  K w    0 M  &H     \   0w
+    \   0 }     0 8         \   0v      0 4     0    &H     \   0v        \   0
+      0     8     \   0w      0       0 *  &H     \   0w      0    K w  D 0    &
+H     \   0w      \   0 @  K w  O 0 y  &H     \ - 0w      \   0 u       0 Y
+0 Y     0 Y     0 Y   0 Y.}   3 \} q }
+          Q                  GROUP=DSORG=RECFM= FVOL=TVOL=STORCLAS=MGMTCLAS=
+    00  NFTP    11/04/0511.36        }    {   {{ [}    x}N          0    x}K xU
+%K xM  K x     xU   }    xM   }    x    }    x}! xUK xY @K xO  K x  b  xY   }
+ xO   }    x    }  +  &x}!&xYK t   K s& K v &    0 M  &H     \   0v      \   0
+}     0 8  &H       \ h 0&      \   0 4     0    &H     \ h 0&      \   0     0
++   0    (  0     0       0       0     m 0     q 0     0  .}   3 \} q }       O
+PN=                    DD=      00  RMDS    11/04/0511.36        }    {   {{ [}
+   x}N          0    x}K xU %K x  M  K x     xU   }    xM   }    x    }    x}! x
+UK xY @K xO  K x  b  xY   }    xO   }    x    }   &x}!&xYK t   K s& K v &    0
+M  &H     \   0v      \   0 }     0 8  &H     \ h 0&      \   0 4     0    &H
+  \ h 0&      \   0     0 +   0    (  0     0         0       0     m 0     q 0
+    0  .}   3 \} q }       OPN=                    DD=      00  RMMAUD  11/04/05
+11.36        }    {   {{ [}    x}K t   K t    \     0 &   8       0       0 <  n
+D      nK      nV       0      K s     0 m         \   0         \   \   0
+  0    K w    0 H  &H     \   0w      \   0 D  K w  M 0 0  &H     \ ^ 0w      \
+  0    K v    0    &H     \   0v      \   0     0 O    nD      K s  K t    0 O
+   nC      N         N  *      K s  K v  *   0 h  &H     \   0 *     \   0 d
+    0           \   0       \   \   0       0 y   0 O     0       0     < 0
+& 0     0  .}   3 \} q }         \Q
+                     MGMTCLAS=STORCLAS=DATACLAS=DSNL=   00  RMMSEC  11/04/0511.3
+6        }      {   {{ [} y  x}K s  K t   K t    0 &         \   0     | \   \
+  0       0 <   \ d   0 d   8       0       0     0    &H     \   0       \   0
+      0 D  &H     \ h 0       \   0 {     0 Y  &H     \   0       \   0 U     0
+   &H     \   0       \   0         0    &H     \ m 0 :     \   0       q 0
+  0       0     u 0     0  .} y 3 \} q }          STP=UNT=DSQ=VSQ=
+     GROUP= 00  DSOTYP  11/04/0511.36        }    {   {{ [}          nA     >K
+  k     0 >   d 0 >   h 0 >     0 >   0 >.  }   3 \} q }                       V
+S     00  SMFSNAP 11/04/0511.36        }    {   {{ [}   \x}    \   x4   \x} 3
+\x4     3K ~m  K   p        0&   o   o   k       &       &   &\  &0  o     ~m&
+ o           K,  qQK     &0y k y 3d  y  0      0 K     K    %                i
+          0       0       0       0     0  .}   3 \} q }           SNAP
+ 
+ 
+ 
+ 
+ 
+       @
+                                   0123456789ABCDEF
+    #   q   #   8       #   %           h   #       }   M       &           U
+        -                       #       #     s #     ~ #       t   <   t
+                        t       t     u t       v       <       v z   q   w   }
+                  @           w   4       w       x   4   x       &   x   m
+      % y x       z   %   z       z       \           <   z   u
+                                                            I
+                             DATASETCATALOG   Catalog name             CAT
+                                                                       C
+                                              5
+               GENERALCLASS     Class name
+                                                         C
+ 
+YGENERALCRTDT     Creation Date - yyddd
+                                           C
+                                                                   GENERALDATACL
+AS  Data class name          DATACLASS
+                             C
+                                         C
+                                                               GENERALUSE  RID
+  User identification      USER
+                           C
+        D       }   O       S   Y               <GENERALVOLUME    Volume serial
+             VOL             VOLSER
+             C                                                    4
+                                   DATASETVVDS      VSAM volume dataset name
+                                                                               C
+ 
+                    dGENERALWTX       Wait Time Max
+                                                                 C
+         $                       N!CANDLE Candle-Omegamon                 N$CACH
+ENVCandle-Omegamon                 N$PDSFASTSEA-PDSFAST                     N$RX
+QUEUECA-ASM2_Reload_Queue            NABENDAIDCW-AbendAid                     NA
+BENDDAMCW-AbendAid                       NABENDSMFCW-AbendAid
+  NACFVSAM CA-ACF2                         NACIFRDR CA-DISPATCH_ACIF_External
+    NADABASLXADABAS                          NADRPRDCTCA-LIBRARIAN_Master
+      NAICVMSTRINFOHUB                         NA  MFORDB2EDA/SQL
+          YANFGDATSIP/Printway_Queue_Dataset       NANFMIOCBIP/Printway
+            YARCDSN  DFSMS/HSM_Dataset               YARCENQG DFSMS/HSM_Dataset
+              NARCGPA  DFSMS/HSM                       NARCHBKLG  CA-ASM2_Backup
+_Log              NARCLOG  CA-ASM2_Activity_Log            NARCPVOL DFSMS/HSM
+                    NASM     CA-ASM2_Tape                    NASM2    CA-ASM2
+                      NASM2.IXRCA-ASM2_VSAM_Dataset_Reload     NASM2IXR CA-ASM2
+                          NASM2SYSACA-ASM2_Archive_Volume          NASM2SYSBCA-A
+SM2_Backup_Volume           NASTEXMM CA-ASTEX_FSR                    NATMSVDB CA
+-OPS_Status_Variable          NBBI     BB-MAINVIEW                     NBBISS
+BB-MAINVIEW                       NBLGAPI  I/M_API                         NBLGD
+ICTNI/M_Dictionary                  NBLGMAIL I/M_Mail                        NBL
+GPMFPUI/M_Panel                       NBLGRNID I/M_Record                      N
+BLGSEQN I/M_Record Key                    NBLGUT4  I/M_SDLDS
+   NBLGVCGZRI/M_Cognizer                    NBLXCAS  I/M_Server
+     NBLXDAS  I/M                             NBLXDASDSI/M
+       NBLXLCDS I/M                               NBLXMSDA I/M_APPC
+           NBLXSNAP I/M                             NBLXSPCASI/M
+             NBLXVSI  I/M                             NBMCSRDSNBMC-Registry
+               NBUNDL   CA-BUNDL                        NCA  -AM   CA-ASM2_Contr
+ol_Blocks          NCA-ENF  CA-ENF                          NCA-GNMP CA-ASM2
+                     NCADB2   CA-Platinum                     NCAIENQBLCA-EZTEST
+                       NCANDLE  Candle                          NCANDLEDDC  andl
+e-Omegamon                 NCANDLENQCandle-Omegamon                 NCAOPERA CA-
+Opera                        YCAOUPRTACA-Symdump_Dataset              NCASCHDSCC
+A-Scheduler/Smart_Console      NCASULLCKCA-APCDOC                       NCASUSLC
+KCA-APCDO  C                       NCA1     CA-1                            NCA1
+1CMT CA-11_CMT                       NCA11JEHFCA-11_JEHF                      NC
+A7SC   CA-7/SmartConsole               NCEEM@MOULE_MSGFILE
+NCFXCFMONCF_Monitor                        NCNMINIT Netview
+    NCOMPLETECOM-PLETE                       NCOMPUWRECW
+      NCOSMOS  CA-Dynam/TLMS                   NCPWKFXTCCW-AbendAid/FX
+        YCPXCSLQNCA-Symdump_CSL_Dataset+           NCSAAMGR Candle-Omegamon
+            NCSLENQBLCA-EZTEST                         NCSTADSYSSupra
+                NCTLIELEMCA-ENDEVOR_Element              YCTLIMSTRCA-ENDEVOR_Mas
+ter_Control_DataseNCTLIPROCCA-ENDEVOR                      NCTS     CA-1
+                    NCWCATALGCW-AbendAid/FX                    YDADSBI  CA-DADSP
+lus_Batch_Interface_DataYDCONTROLCA-Detector_Dataset             NDFHSTRM CICS_L
+og_Stream                 NDIFOPEN DTS-DIF                         NDRS31SYSLRS-
+DRS                         NDSAMANGRCA-ASM2_Archive/Backup            NDSAPREFX
+CA-ASM2_Date_Time_Stamp         NDSARACT CA-DISPATCH_External_Archive    NDSARRE
+Q CA-DISPATCH_External_Archive    NDSD1ACT CA-DISPATCH_External_DistributioNDSD1
+REQ CA-DISPATCH_External_DistributioNDSD2ACT CA-DISPATCH_External_DistributioNDS
+D2  REQ CA-DISPATCH_External_DistributioNDSD3ACT CA-DISPATCH_External_Distributi
+oNDSD3REQ CA-DISPATCH_External_DistributioNDSD4ACT CA-DISPATCH_External_Distribu
+tioNDSD4REQ CA-DISPATCH_External_DistributioNDSEXACT CA-DISPATCH_External_Extrac
+t    NDSEXREQ CA-  DISPATCH_External_Extract    YDSPURI01IBM-IMS_DBMS_RECON_Data
+set      NDSSI0001DSSI                            NDS50DISTCA-DISPATCH
+           NDS50OVDBCA-DISPATCH                     NDS50OVSPCA-DISPATCH
+             NDS50QRLSCA-DISPATC  H                     YDTMJBMQ MVS_Solutions-T
+hruput_Manager_DaNEBCASB  CA-Deliver                      NECMCONFLCA-MIM
+                   NECMGLOBLCA-MIM                          NEDIDSN  CA-MIM
+                     NEDIGLOBLCA-MIM                            NEMCSERVREMC-Ser
+ver                      NENDEVOR CA-ENDEVOR_Utility              NENF     CA-EN
+F                          NENFDBASECA-ENF                          NENQ$AVRSSEA
+-$AVRS                       NEPILOG  Candle-Omegamon                   NEPVTMA
+ICandle-Omegamon                 NESFCHKPTCA-Spool_Checkpoint             NESFSS
+VT CA-Spool_Initialization         NETEAS   Candle-Omegamon                 NFDR
+ABR  IDP-FDR/ABR                     NFDRABRV IDP-FDR/ABR
+NFILEAID CW-FileAid                      NFILEMASK????
+  NFOCUS   Focus                           NGDI     CA-MIM
+    NGIMISCVESMPE                            NGIMSMP  SMPE
+      NGSVXQ  NAMCA-SYSVIEW/E_Security           NGTALOCALCA-MIA
+          NHCIQNAMECW-AbendAid/FX                  NH2000000Candle-Omegamon
+            NIAMCRT  IDP-IAM                         NIAMENQ  IDP-IAM
+              NIBMNCCF Netv  iew                         NICEHIPERDFSORT_Hipersp
+ace               NIDMSCV  CA-IDMS_CV                      NIDMSDC  CA-IDMS_DC
+                    YIGDCDS  SMS_Control_Dataset             YIGDCDSXSSMS_Contro
+l_Dataset             NIMSKILL Focus                             NIMSSINK Focus
+                          NINFOMAN GEAC-Information_Expert         NINFOPAC View
+Direct                      YINTERTSTCA-InterTest_Dataset            NIOAP500 CO
+NTROL-D                       NIPCPCDS IPCP                         {
+                                         NIPGMGREXCA-GSS_ISET
+  NIXRA    CA-ASM2_IXR                     NJOBHIST CA-JOBTRAC_History
+    NKO2     Candle-Omegamon                 NKO200071Candle-Omegamon
+      NLANDMARKASG-TMON                          NLCMMAIN STK-LCM
+          NLIBRLAM CA-Librarian                    NLMSA0AR LMS
+            NLMSLOCALLMS                             YLSERVDSNCA-L-Serv_Dataset
+              NMFDDINFOCW-AbendAid                       NMIGRATORCA-Platinum
+                  NMIMCKP  CA-MIM                          NMIMGLOBLCA-MIM_Contr
+ol                  NMIMLOCALCA-MIM                          NMSIGLOBLCA-MIM
+                      NMSP     HARBOR                          NNE  TMAN  CA-Net
+man                       NNMSSID  Solve                           NNMVFS   Solv
+e                           NNPM     NPM                             NNTMNBRD CA
+-Netman                       NNVIVSAMPCA-N-Vision_Record              YNVIVSAMS
+C  A-N-Vision_Dataset             NOCENQUESCandle-Omegamon                 NOMCI
+    Candle-Omegamon                 NOPS/MVS CA-OPS/MVS                      NOR
+ACLE  ORACLE                          YOTPRMLIBOTS-Tapecopy_Parmlib_Dataset    N
+PANVALETCA-Panva  let                     NPDSMAN  CA-PDSMAN
+   NPDSMENQ CA-PDSMAN                       NPDSMTITLCA-PDSMAN
+     NPDT$DIN CA-Detector                     NPDTDINCCCA-Detector
+       NPDVSFILECW-AbendAid                       NPLATINUMCA-Platinum
+           YPSACNTL CA-SQLAnalyzer_Dataset          NPSPOPX21SW-VSAM_Assist
+             NPSPOPX22SW-VSAM_Assist                  NPXMINI  CA-XManager
+               NPXMTSS  CA-XManager                       NQUIKSTRFQuickStart
+                   NQUIKSTRTQuickStart                      NRAIJVTCB????
+                     NRAMIS   CA-RAMIS                        NRAMISIO CA-RAMIS
+                       NRAMISLOGCA-RAMIS                          NRAMISOP CA-RA
+MIS                        NRBP0200 CA-Platinum                     NRC/EDIT CA-
+Platinum-RC/EDIT             NRMOCKPT CA-Deliver_Checkpoint           YRMOUPD  C
+A-Deliver_Database_Dataset     NROSACT  CA-ROSCOE                       NROS  CL
+IBECA-ROSCOE                       NSA$CIN  CA-Detector                     NSA$
+COE  CA-Detector                     NSAGCTIMOCOM-PLETE                       YS
+ARACT  CA-VIEW_Accounting_Dataset      NSARPAC  CA-VIEW
+NSARSTC  CA  -VIEW                         YSARUPD  CA-VIEW_Database_Dataset
+    NSASDATA SAS-SAS                         NSDSI    CA-MIM
+      YSERLOG  Logrec_Dataset                  NSIBIXFP IXFP
+        YSPFDSN  ISPF_Data  set                    YSPFEDIT ISPF_Edit_Dataset
+            NSPFPAN  CA-Panvalet_Member              NSPFUSER ISPF_User
+              NSPZAPLIBSuperzap                        NSRSBATCHRA-Smart/RESTART
+                YSTKALSQNSTK-SILO_Databas+ e_Dataset       NSTKENQNMSTK-SILO
+                    NSTROBE-BCW-Strobe                         NSTROBECVCW-Strob
+e                       NSYSAOP  Printserver                     NSYSCATLGCatalo
+g                         NSYSCBR  OAM                             YSYSDSN  Syst
+em_Dataset                  NSYSDSNSYVTAM                              NSYSIEA01
+Dump                            NSYSIEFSDAllocation                      YSYSIEW
+LPLinkage_Editor_Dataset          YSYSIGGV1Master_Catalog_Dataset          YSYSI
+GGV2User_Catalog_Dataset            NSYSIKJBCTSOE_Broadcast                    N
+SYSIKJUATSOE_UADS                       NSYSNFSC Unix_System_Services_-_NSF
+ NSYSOSR02OTIS/OAM                        YSYSSMF01SMF_Dataset
+   NSYSVSAM VSAM                            NSYSVTOC VTOC
+       NSYSZ-TSSCA-Top_Secret_Initialization    NSYSZ#SSISSI
+         NSYSZALCFIEFAUTO                         NSYSZAPPCAPPC
+           NSYSZARC DFSMS/HSM                       NSYSZASCHASCH
+             NSYSZA  TR Logger                          NSYSZATS Tape
+                 NSYSZAVM AVM                             NSYSZBDT BDT
+                   NSYSZBPX BPX                             NSYSZCAXWCAXW
+                     NSYSZCBR OAM                               NSYSZCMDSCommand
+s                        NSYSZCOMMGRS                             NSYSZCSD CSD
+                           NSYSZCSV CSV                             NSYSZCT  Com
+ponent_Trace                 YSYSZDAE DAE_Dataset                       NSYSZDFH
+ CICS                            NSYSZDSCBDSCB                            YSYSZD
+SN HFS_Dataset                     NSYSZDSN3DB2                             NSYS
+ZDTS2DTS                             NSYSZDTS3DTS
+NSYSZDTS4DTS                             NSYSZDTS5DTS
+  NSYSZEC16Purge                           NSYSZERB RMF
+    NSYSZGGLGBDAM                            NSYSZGSYSSysplex_Group
+        NSYSZGTF1GTF                             NSYSZIAT JES3_Checkpoint
+          NSYSZIGDISMS                             NSYSZIGGITSB
+            NSYSZIGW0PDSE                            NSYSZIGW1PDSE
+                NSYSZIHV ESCON_Manager                   NSYSZIKTCTSOE
+                  NSYSZILRDPage                            NSYSZIO  PAGEDEL_Comm
+and                 NSYSZIOA ????                            NSYSZIOS IOS
+                      NSYSZIS  TCRestart                         NSYSZIXFPIXFP
+                          NSYSZJES2JES2_Checkpoint                 NSYSZJWTPJob_
+Step_Messages               NSYSZLLA1LLACOPY                         NSYSZLOGRLo
+grec                          NSYSZMCS MCS                               NSYSZNI
+P NIP                             YSYSZOPENOpening_Dataset                 NSYSZ
+PCCBPCCB                            NSYSZPGADPAGEADD_Command                 NSY
+SZPGDLPAGEDEL Command                 YSYSZPSWDPassword_Dat  aset
+                                               NSYSZRACFRACF
+        NSYSZRAC2RACF                            NSYSZRBMFRMF
+          NSYSZRBZZRMF                             NSYSZREUS????
+              NSYSZRMM RMM                             NSYSZRPLWCatalog
+                NSYSZSDO DLF                             NSYSZSDSFSDSF
+                  NSYSZSMF1SMF_Buffer                      NSYSZSPI SPI
+                      NSYSZSVC SVC_Table                       NSYSZTCPITCPIP
+                        NSYSZTIOTTIOT                            NSYSZTRC System
+_Trace                    NSYSZTSOETSOE                            NSYSZUSRLUser
+_Labels                     NSYSZV  ARYReconfiguration_Command         NSYSZVMV
+Volume_Mount_and_Verify         NSYSZVOLSVolume_Serial                   NSYSZVV
+DSVVDS                            NSYSZWLM WLM                             NSYSZ
+WTORWTOR                            NTAOTCPIPFisc  her-TAO                     N
+TAOTCPITFischer-TAO                     NTBLBASE Tablebase
+ NTCPIP   TCPIP                           NTCPIPL62TCPIP
+   NTCPIPSYSTCPIP                           NTELONTDFCA-TELON
+       NTELONTSTCA-TELON                        NTICMVS  TICTOC
+         NTMONMVS ASG-TMONMVS                     YTMRMCF  MVS_Solutions-Thruput
+_Manager_DaNTMSQNAMECA-1                            NTPCLOCALCA-MIA
+               NTPXBRCSTCA-TPX                          NTPXVSAMPCA-TPX
+                 NTPXVSAMSCA-TPX                          NUCCONEQNCA-1
+                   NUCC7CMDSCA-7                            NUCC7SVT CA-7
+                       NUC07    CA-7                            NVALETPANCA-Panv
+alet                     NVIOOPX21SW-VIO_Plus                     NVIOOPX22SW-VI
+O_Plus                     YVLAM-MDBDocumerge_Dataset               NVSVSSI  LRS
+-VPS_SSI                       NXCOMDYNACA-XCOM                         NXCOMGLO
+BCA-XCOM                         NXCOM62  CA-XCOM                         NXEROX
+OSFXPAF                            NXPAF    XPAF                            NXPE
+/MVS CA-L-Serv                       NXPEDIT  ERCW-Xpediter
+NXPNOTIFYCW-Xpediter                     Y24X7    Neon-MissionControl_Dataset
+  Y24X7NTSONeon-MissionControl_Dataset     N????????Unknown
+                           n
+         n                       DAF000I
+                                                      DAF500I Valid keywords are
+:
+                           DAF501I   Valid operators are:
+ 
+  DAF502I Control Statements Follow:
+                                                         DAF503I No Control Stat
+ements Specified
+                              DAF504I
+ 
+     DAF505I Parameter Processed PARM=
+                                                          DAF510I IPL
+   System=SSSS Date=YYYYDDD Time=HH.MM.SS.HH
+                                 DAF511I SMF Dump Header  System=SSSS Date=YYYYD
+DD Time=HH.MM.SS.HH
+      DAF512I SMF Dump Trailer System=SSSS Date=YYYYDDD Time=HH.MM.SS.HH
+                                                             DAF513W SMF Data Lo
+st on System=SSSS From=YYYYDDD/HH.MM.SS.HH To=YYYYDDD/HH.MM.SS.HH Count=
+                                  DAF514I Halt EOD         System=SSSS Date=YYYY
+DDD Time=HH.MM.SS.HH IPL=YYYY  DDD/HH.MM.SS.HH
+         DAF515I IPL SMF          System=SSSS Date=YYYYDDD Time=HH.MM.SS.HH
+                                                              DAF516I JESx Start
+       System=SSSS Date=YYYYDDD Time=HH.MM.S  S.HH
+                                     DAF517I JESx Stop        System=SSSS Date=Y
+YYYDDD Time=HH.MM.SS.HH
+          DAF518I FTP Logon Failed System=SSSS Date=YYYYDDD   Time=HH.MM.SS.HH
+                                                                 DAF520I Beginni
+ng Processing - __________
+                                      DAF521I Completed Processing - _____  ____
+_
+             DAF530W Executing system not recording SMF
+                                                                  DAF531W RMFMON
+ III not   collecting HFSNAME data
+                                         DAF540I DAFPV Vol=___ RRR YYYYDDD HH.MM
+.SS.HH DSN=
+              DAF550I ST  ORAGE OBTAIN   RC=__ ADDRESS=________ LENGTH=________
+                                                                     DAF551I STO
+RAGE RELEASE  RC=__ ADDRESS=________ LENGTH=________
+                                       +    DAF552T       //xxxxxxxx JCL DD Stat
+ement Missing
+                   DAF553I OPEN    xxxxxxxx RC=__
+                                                                        DAF554I
+CLOSE   xxxxxxxx RC=__
+                                               DAF555I DAFSMF DSN=
+                               DSORG=
+                    DAF560I Executing on SMF System ID     ____
+                                                                           DAF56
+1I Executing on Hardware Name ________
+                                                DAF562I Executing on LPAR Name
+     ________
+                       DAF563I Executing on VM Userid     ________
+                                                                            DAF5
+64I Executing on   CPU Type      ____-___
+                                                   DAF565I Executing on CPU Seri
+al      ______
+                        DAF566I   Executing on Architecture Level   _
+                                                                               D
+AF567I Executing on ______ ______ 00.00.00
+                                                      DAF568I Region Size Reques
+ted 0,000,000,000
+                           DAF569I Region Limit Below    0,000,000,000
+ 
+  DAF570I Region Size  Below    0,000,000,000
+                                                       DAF571I Region Limit Abov
+e    0,000,000,000
+                              DAF572I Region Size  Above    0,000,000,000
+ 
+   DAF573I DSN=                                             VOL=
+                                                          DAF600I Entering XXXXX
+X R14=RRRRRRRR R15=RRRRRRRR
+                               DAF601I Exiting  XXXXXX R14=RRRRRRRR R15=RRRRRRRR
+ 
+      DAF610I Invalid RRR YYYYDDD HH.MM.SS.HH DSN=
+                                                           DAF611I Invalid DSN I
+n DAFSMF Record
+                                  DAF612I RRR SSS YYYYDDD HH.MM.SS.HH Invalid Tr
+iplet
+       DAF613I RRR SSS YYYYDDD HH.MM.SS.HH
+           [
+                            DAF620I KWD=__________ OP=_____ VAL=__________
+ 
+ D  AF621I Original
+                                                        DAF622I Resolved
+ 
+                               DAF623I CS=__ CC=__
+ 
+    DAF624I CS=__ CC=__ RT=___ DSN=______
+                                                           DAF630I Possible Data
+set Enqueue QNM=________ RNM=
+                                DAF704W No DAFSMF Records Selected
+ 
+       DAF708E No DAFSMF Records Provided
+                                                            DAF712S Control Stat
+ement Problem
+                                   DAF716T Sort Problem
+ 
+                                                              EQ   Equal to
+                            GE   Greater than or equal to               GT   Gre
+ater than                           LE   Less than or equal to
+LT   Less than                              NE   Not equal to
+                          y                                    c    000 000 IPL
+                                                                       e    002
+000 Dump Header                                                                e
+8   003 000 Dump Trailer
+         f\   007 000 Data Lost
+                 h    014 000 INPUT or RDBACK Data Set Activity
+                         h    015 000 OUTPUT UPDAT INOUT or OUTIN   Data Set Act
+ivity                              j    016 000 DFSORT Statistics
+                                            8   017 000 Scratch Data Set Status
+                                                        018 000 Rename Non-VSAM
+  Data Set Status                                             h   022 000 Config
+uration                                                               h   022 00
+9 - Activate                                                                 ~}
+  024 000 JES2   Spool Offload
+       ~}   024 001 - Job transmitted
+               ~}   024 002 - Job received
+                       ~}   02  4 003 - SYSOUT transmitted
+                                 ~}   024 004 - SYSOUT received
+                                         u    036 000 Integrated Catalog Facilit
+y Catalog                                          w    042 000 DFSMS Statistics
+ and Configuration                                         w    042 003 - SMS Co
+nfiguration                                                        w    042 006
+- Dataset Statistics                                                         w
+  042 007 - File Timeout Statistics
+     w    042 009 - X37 Abend
+             w    042 010 - Volume Selection Failure
+                       w    042 016 - Dataset Response Time Summary
+                               w    042 020 - STOW Initialize
+                                       w    042 021 - Member Delete
+                                                      043 000 JESx Start
+                                                          y   045 000 JESx Stop
+                                                                  0   059 000 MV
+S/BDT File-to-File Transm  ission                                          {
+060 000 VSAM Volume Data Set Updated
+   AQ   061 000 Integrated Catalog Facility Define Activity
+           C    062 000 VSAM Component o  r Cluster Opened
+                     D    063 000 VSAM Catalog Entry Defined
+                             E    064 000 VSAM Component or Cluster Status
+                                          065 000 Integ+ rated Catalog Facility
+Delete Activity                                     0  66 000 Integrated Catalog
+ Facility Alter Activity                                 }    067 000 VSAM Catal
+og Entry Deleted                                                 J    068 000 VS
+AM Catalog Entry Renamed                                                   K
+069 000 VSAM Data Space Defined, Extended or Deleted
+   M    073 000 RMF Channel Path Activity
+           M    073 001 - Channel Path Activity
+                     O [  074 000 RMF Activity of Several Resources
+                             O [  074 001 - Device Activity
+                                     O [  074 006 - Hierarchical File System Sta
+tistics                                        O [  074 007 - FICON Director Sta
+tistics                                                 -.  075 000 RMF Page Dat
+a Set Activity                                                  -.  075 001 - Pa
+ge Data Set Activity                                                     S (  07
+7 000 RMF Enqueue Activity
+ S (  077 001 - Enqueue Activity
+         Y}+  078 000 RMF Virtual Storage and I/  O Queuing Activity
+                   Y}+  078 003 - I/O Queuing Activity
+                            {|  079 000 RMF Monitor II Activity
+                                    {|  079 006 - Reserve Data
+                                              {|  079 007 - Enqueue Contention D
+ata                                                   {|  079 011 - Page Data Se
+t Activity                                                   5&&  080 000 RACF
+ Processing                   8       Y
+          %       D                                   @   M       d
+          U       m               4   <       u         [    ]  .    ]  |
+&     *                 $       ~ )                            F{     ;    {  -
+   {% /    {D      A   A       A   B   B@  BM _    C   Cd      C   D       D   D
+U      E   Em  E   F  :    F
+                     7h   081 000 RACF Initialization
+                             8\   082 000 Integrated Cryptographic Service Facil
+ity (ICSF)                           8\   082 00  1 - Initialization
+                                               8\   082 007 - KEU Key Part Entry
+                                                       8\   082 008 - CKDS Refre
+sh                                                               8\   082 009 -
+Dynamic CKDS Update                                                      8\   08
+2 013 - Dynamic PKDS Update
+ 8\   082 021 - ICSF Sysplex Group Change Section
+                083 000 RACF Audit
+                        083 001 - Security Label Audit
+                                083 002 - Enterprise Identity Mapping (EIM) Audi
+t                                         088 000 System Logger Data
+                                                  088 001 - Log Stream Activity
+                                                      }!  090 000 System Status
+                                                                }!  090 005 - Se
+t SMF                                                                   }!  090
+006 - Switch SMF
+}!  090 007 - Halt EOD
+          }!  090 009 - IPL SMF
+                  }!  090 013 - SETSMF
+                          }!  090 015 - Set SMF (Restart S  MF)
+                                    }!  090 026 - IPL LOGREC
+                                             $  091 000 BatchPipes/MVS Statistic
+s                                                    $  091 021 - Dataset   Clos
+e                                                             Y*  092 000 OpenMV
+S File System Activity                                                Y*  092 00
+1 - File System Mount                                                         Y*
+  092 00  2 - File System Quiesced
+        Y*  092 004 - File System Unquiesced
+                Y*  092 005 - File System Unmounted
+                          Y*  092 006 - File System Remounted
+                                  Y*  092 007 - File System Move
+                                          }   118 000 TCP/IP Statistics
+                                                    }   118 003 - FTP Client
+                                                            }   118 070 - FTP Se
+rver Append                                                         }   118 071
+- FTP Server Delete                                  +                        }
+  118 072 - FTP Server Logon Failure
+        }   118 073 - FTP Server Rename
+                }  [118 074 - FTP Server Retrieve
+                        }  .118 075 - FTP Server Store
+                                      119 000 TCP/IP Statistics
+                                              119 003 - FTP Client
+                                                      119 070 - FTP Server
+                                                                119 072 - FTP Se
+rver Logon Failure                                                   0  240 000
+NetView FTP                                                                  0
+240 001 - ADD su  btype
+       0  240 002 - DELETE subtype
+               0  240 004 - QUERY subtype
+                       0  240 0  05 - MODIFY subtype
+                                 0  240 011 - QUEUE REBUILD subtype
+                                         0  240 012 - OPERATOR MODIFY subtype
+                                                   0  240 021 - OPEN subtype
+                                                           0  240 022 - OBTAIN s
+ubtype                                                             0  240 023 -
+GETLUNAME subtype                                                            0
+240 024 - NOTIFY subtype
+     0  240 025 - CLOSE subtype
+             R  217 000 RMDS
+                      y2  242 000 DFSMSrmm SMF Audit
+                               3  243 000 DFSMSrmm SMF Security
+                                      Y1  241 000 DFSMShsm SMF FSR
+                                                                c    F4 d    G<
+ Gu  G   H   H   I   I* f    I          g           h     %   D
+  @   M           d                   U  }   }m  }       J   J   J4  K<  Ku  K
+ L   L       M   M*  M   N  v    N   N   O   O% r  OD  P   P
+    Q   0 v    P   Q   Q@  QM  R  w    Rd x    R  z       t       u   y Q
+Y   \                                                 0        Function= Primary
+_to_level_1_migration                                      Level_x_to_level_x_mi
+gration                                      Primary_to_level_2_migration
+                               Recall_from_level_1_to_pr  imary
+                   Recall_from_level_2_to_primary
+     Delete_a_migrated_data_set                                        Daily_bac
+kup                                                      Spill_backup
+                                             Recovery
+                               Recycle_backup_volume
+                 Data_set_deletion_by_age
+   Rec  ycle_migration_volume                                          Full_volu
+me_dump                                                  Volume_or_data_set_rest
+ore                                        ABACKUP_function
+                               ARECOVER_function
+                 Expire_primary_or_migrated_data_sets
+   Partrel_function                                                  Expire_or_r
+oll_off_incremental_backup_version                       (H)BDELETE_an_increment
+al_backup_version                          Fast_replication_backup_function
+                             Fast_replication_recover_function
+               Fast_replication_delete_function
+           AUDAT=CRecord_Changed
+   DRecord_Deleted                                                   ARecord_Add
+ed                                                                   SECAT=CData
+set_Create                                                   EDataset_Extend
+                                               UDataset_Update
+                                 RDataset_Read_Access
+                     DDataset_Delete
+               DSORG=  VS
+         VSU                                                               PO
+                                                               POU
+                                                 DA
+                                   DAU
+                     PS
+         PSU                                                               IS
+                                                           a ISU
+                                                 Reserved
+                                             DISP= Shr
+                                     Old
+                       OldShr                                +
+           Mod                                                                hM
+odShr                                                           {New
+                                                  HNewShr
+                                                 LTYP= NL
+                                           SL
+                             NSL
+               SUL
+ BLP                                                                 LTM
+                                                       AL
+                                         AUL
+                                       CTRI={CYL
+                               TRK
+                 BLK
+   ABSTR                                                                 AMB=EXC
+P                            VSAM                            BSAM
+             Reserved                        Reserved                        Res
+erved                        Reserved                          Reserved
+                   CSF=Altseq                          Inrec
+       Include                         Omit                            Outrec
+                       Sum                             Outfil
+         Reserved                            FL1=BatchPipes
+ Striped                         Compressed                      Reserved
+                 Reserved                        Reserved
+ Res  erved                        Reserved                            TYPE=Sort
+                            Merge                           Copy
+            Icetool                         Reserved                        Rese
+rved                          Reserved                        Reserved
+                         FNC= Activate
+                Recover
+ BCF=First                             Continuation                    Last
+                       Reserved                        Reserved
+       Reserved                        Reserved                        Reserved
+                           EOJ=Completed_job     4               Completed_with_
+skipped          Uncompleted_job                 Cancelled
+ Reserved                        Reserved                        Reserved
+                 Reserved                             {                      1H
+  &                           Y   q   q     * Q     ( Q             &        SUB
+=  Job_transmitter                                                   Job_receive
+r                                                      SYSOUT_transmitter
+                                         SYSOUT_receiver
+                                       EIN=AEAliases_were_exported
+                             NENo_aliases_exported
+               DSFL1=Reserved                        Reserved
+       Reserved                        EXCP_processing                 Non-VSAM_
+fixed_length_records   Program_library                 Extended_format
+       Compressed_format                         DSTYP= Other
+                                            PS
+                              PDS
+                PDSE
+  DA                                                                  ISAM
+                                                        EXCP
+                                          Extended_format
+                            HFS
+                KSDS_data_component
+  KSDS_index_component                                              Variable_RRD
+S_data component                                      Variable_RR  DS_index comp
+onent                                     Fixed_length_RRDS
+                            Linear_data_set
+              ESDS
+           FFS= HFS
+  MVS                                                              ABEND=B37
+                         D37                             E37
+         Reserv  ed                        Reserved                        Reser
+ved                        Reserved                        Reserved
+                     FTM= Unknown_MVS_file_type
+            Sequential_(BSAM)_  file
+Partitioned_(BPAM)                                                Direct_Access_
+file                                                ISAM_is_not_supported
+                                      Virtual  _Sequential_Access
+                          VSAM_Entry_Sequenced
+            VSAM_Relative_Record                                              VS
+AM_Keyed_access                                                   Dummy_index_le
+vel_file_block                                      HFS_file_type
+                                                   FTY= Non-file
+                                          Regular_file                     +
+                              Directory
+                  Block_special_device
+    Character_special_device                                          Symbolic_l
+ink                                                            JDCOD= Close
+                                                          Interval
+                                                 OPT=FORMAT
+     COLD                            REQ                             LIST
+                     LO  G                             RECONFIG
+       CONSOLE                         QUICK
+   FNC=RRename                                                           SScratc
+h                                                            UUncatalog
+                                                     IOD=VSAM_cluster
+         VSAM_data                       VSAM_index                      VSAM_CA
+TALOGg                   NonVSAM                           GDG
+           Alias                           Reserved
+       SUB=DEDelete                                                          INI
+nsert                                                          UPUpd  ate
+                                                          {
+      h +                           !   ^           j Q k   l   m   n   o Q p
+            h        TYP=ANonVSAM_Dataset
+           BGDG_Base                                                         CCl
+uster                                                          DData
+                                                   EVSAM_Extension
+                                     FFree_Space
+                       GAlternate_Index
+         HActive_GDS                                                         IIn
+dex                                                            JGDG_Extension
+                                                 KVVR
+                                   LTape_Lib  rary
+                       MMastercat
+         NNonVSAM_Header                                                   OOAM
+                                                               PPage
+                                                 QVVR_Header_Secondary
+                                   RPath
+                     TTrue
+         UUsercat                                                          VVolu
+me                                                           WTape_Volume
+                                               XAlias
+                                   YUpgrade
+                     ZVVR_Header_Primary
+        NonVSAM                                                           JES3
+                                                                   IND=Successfu
+lly_opened             Incorrect_password              Catalog_or_CRA
+       VVDS_or_ICF_CATALOGg            Reserved                        Reserved
+                       Reserved                          Reserved
+             FDT=New_definition                  Altered_definition
+ Reserved                        Reserved                        Reserved
+                 Reserved                        Path_  define/alter
+   AIX_define/alter                    DTY=Data                            Index
+                           Reserved                        Reserved
+           Reserved                        Reserved                          Res
+erved                        Reserved                            MC1=Key_access
+                     RBA_access                      CI
+     Sequential                      Direct                          Input
+                       Output                          User_buffers
+           MC2=JES_output                      Control_characters              R
+eserved                        Skip_sequential                 VTAM_LOGON
+               Set_+ to_empty                    Shared_control_blocks
+ Path_AIX                              MC3=Reserved                        LSR
+                           GSR                             ICIP
+           Deferred_write                  Sequential_insert               Fixed
+_control_blocks            31_bi  t_buffers                      RIN=Close
+                     EOV                             No_space
+     Catalog/CRA                     Close/TYPE=T                    Abend
+                     CAT/VVDS                          Reserved
+           FDT=Uncataloged                     Scratched                       R
+eserved                        Reserved                        Reserved
+               Reserved                        Path_deleted
+ AIX_created                                 CDT= Sequential
+                                   SSequential
+                     PPDS
+         HHFS
+       CFM=AASCII                                                            EEB
+CDIC                                                           IImage
+                                                   BDBCS
+                                     UUCS-2
+                                 CMO=BBlock
+                       CCom  pressed
+           SStream                                                             C
+is_validReserved                        Reserved                        Reserved
+                        Reserved                           PSFL=Port_type_is_not
+_unique         ID_is_no  t_unique_or_not_known   Reserved
+  Reserved                        Port_status_changed             Port_has_been_
+removed           Port_has_been_activated         No_measurement_data_available
+     PTFL=Port_type_is_single_CU            Port_type_is_multiple_CU        Port
+_type_is_CHPID              Reserved                        Reserved
+            Reserved                        Reserved                        Rese
+rved                           SPFL=Status_of_switch_h  as_changed    Number_of_
+ports_has_changed     Switch_is_offline               Switch_is_now_online
+      Reserved                        Reserved                        Reserved
+                      Reserved                           FL2=VIO
+               Multiple_exposure_device        Alternate_control_unit          D
+evice_Name_Valid               Reserved                        Reserved
+               Reserved                        Reserved
+   P  ST=PLPA                            Common                          Duplex
+                         Local                           Swap
+         Unusable                        Brought_online                  Brought
+_offline           U                   FCDST=SSequential
+                               PPDS
+                 HHFS
+        {                                   Q                                 ~
+  s   @   '                        FCLR=110Restart_marker_reply
+                          120Service_ready_in_nnn_minutes
+            125Data_connection_already_open;_transfer_starting                15
+0File_status_okay;_about_to_  open_data_connection                200Command_oka
+y                                                   202Command_not_implemented,_
+superfluous_at_this_site              211System_status,_or_system_help_reply
+                        212Directory_status
+            213File_status                                                    21
+4Help_message                                                   215NAME_system_t
+ype                                               220Servi  ce_ready_for_new_use
+r                                     221Service_closing_control_connection
+                        225Data_connection_open;_no_transfer_in_progress
+          226Closing_data_connection;_requested_action_successful             22
+7Entering_Passive_Mode_(h1,h2,h3,h4,p1,p2)                      230User_logged_i
+n,_proceed                                        250Requested_file_action_okay,
+_completed                          257PATHNAME_created
+                        331User_name_okay,_need_password
+          332Need_account_for_login                                         350R
+equested_file_action_pending_further_information              421Service_not_ava
+ilable,_closing_control  _connection              425Cannot_open_data_connection
+                                    426Connection_closed;_transfer_aborted
+                      450Requested_file_action_not_taken;_file_busy
+        451Requested_action_aborted:_l  ocal_error_in_processing            452R
+equested_action_not_taken;_no_system_space                    500Syntax_error,_c
+ommand_unrecognized                             501Syntax_error_in_parameters_or
+_arguments                        502Command_not_impl  emented
+                      503Bad_sequence_of_commands
+        504Command_not_implemented_for_that_parameter                     530Not
+_logged_in                                                  532Need_  account_fo
+r_storing_files                                 550Requested_action_not_taken;_f
+ile_not_found/no_access           551Requested_action_aborted:_page_type_unknown
+                    552Requested_file_action_aborted;_no_dir/file_space
+        553Requested_action_not_taken;_file_name_not_allowed
+       FCM=BBlock                                                            CCo
+mpressed                                                       SStream
+                                                                 FCS=FFile
+                                                       RRecord
+                                                 FCT=AASCII
+                                 +       EEBCDIC
+                           IIma  ge
+               BDBCS
+ UUCS-2                                                              CFL=Configu
+ration_Changed           Configuration_Changed  _Since_POR POR_IODF_Contains_Tok
+en         Token_Is_Valid                  Reserved                        Reser
+ved                        Reserved                        Reserved
+               FLG=Device_Reserved_This_Processor  Minor_Name  _Truncated
+     Global_Resource                 Reserve_Converted_To_Enqueue    Reserved
+                     Reserved                        Reserved
+     Reserved                            FLG=Detail_Data                       M
+ajor_Name_Specified            Minor_Name_Specified            Minor_Name_Trunca
+ted            Global_Resource                 Specified_System                S
+pecified_System_Exclusive      Reserved                            FLG=Bad
+                         PLPA                            Common
+         Duplex                          Local                           Page
+                         Swap                            VIO
+             FL2=Reserved                          Alternate_Control_Unit
+   Device_Name_Valid               Reserved                        Reserved
+                   Reserved                        Reserved
+   Reserved                            DF  G=Resource_in_contention          Sco
+pe_of_system                 Exclusive_owner                 Waiting_job_1_exclu
+sive_usage   Waiting_job_2_exclusive_usage   Global                          Res
+erved                        Reserved                              ALLOWED=ALTER
+                           CONTROL                         UPDATE
+           READ                            NONE                            EXECU
+TE                         Reserved                        Reserved
+             INTENT=ALTER                           CONTROL
+    UPDATE                          READ                            NONE
+                    Reserved                        WRITE
+    Re  served                         ATH=NORMAL                          SPECI
+AL                         OPERATIONS                      AUDITOR
+           EXIT                            FAILSOFT                        BYPAS
+SED                          TRUSTED                             AU2=z/OS_UNIX_s
+uperuser             z/OS_UNIX_system_function       Reserved
+     Reserved                        Reserved                        Reserved
+                     Reserved                          Reserved
+            {                             =   "                DESCRIPTOR=VIOLAT
+ION                       UNDEFINED                       Reserved
+          WARNING                         Reserved                        Reserv
+ed                        Reserved                        Reserv  ed
+                         EVENT= JOBINIT
+                  ACCESS
+    ADDVOL                                                            RENAMEDS
+                                                          DELRES
+                                            DELVOL
+                              DEFINE
+                  ADDSD
+    ADDGROUP                                                          ADDUSER
+                                                        ALTDSD
+                                            ALTGROUP
+                              ALTUSER
+                CONNECT
+  DELDSD                                                              DELGROUP
+                                                        DELUSER
+                                          PASSWORD
+                            PERMIT
+                RALTER
+  RDEFINE                                                           RDELETE
+                                                      REMOVE
+                                          SETROPTS
+                            RVARY
+              APPCLU
+GENERAL                                                             DIRSRCH
+                                                      DACCESS
+                                        FACCESS
+                            CHAUDIT
+              CHDIR
+CHMOD                                                             CHOWN
+                                                      CLRSETID
+                                        EXESETID
+                          GETPSENT
+            INITOEDP
+TERMOEDP                                                          KILL
+                                                    LINK
+                                      MKDIR                          +
+                          MKNOD
+              MNTFSYS
+OPENFILE                                                          PTRACE
+                                                    RENAMEF
+                                        RMDIR
+                          SETEGID
+            SETEUID                                                           SE
+TGID                                                              SETUID
+                                                    SYMLINK
+                                      UNLINK
+                        UMNTFSYS
+            CHKFOWN                                                           CH
+KPRIV                                                           OPENSTTY
+                                                    RACLINK
+                                      IPCCHK
+                        IPCGET
+          IPCCTL                                                              SE
+TGROUP                                                          CKOWN2
+                                                  R_AUDIT
+                                    RACDCERT
+                        INITACEE
+          KTICKET                                                           RPKI
+GENC                                                          RPKIEXPT
+                                                  PDACCESS
+                                    READATA
+                      UPDATEREQ
+       [UPDATECERT                                                         .SETF
+ACL                                                          <DELFACL
+                                               (SETFSECL
+                                 +WRITEDOW  N
+                     |PKIDPUBR
+       &RPKIRESP                                                          PTEVAL
+                                                         <    PTCREATE
+                                                      {                      ;8
+                             QUALIFIER=  Successful_Initiation
+                           Password_not_valid
+             Group_not_valid                                                   O
+IDCARD_not_valid                                                   Terminal/cons
+ole_not_valid                                        Application_not_valid
+                                       Revoked_user_attempting_access
+                         User ID auto  matically_revoked
+             Successful_termination                                            U
+ndefined_user ID                                                 Insufficient_SE
+CLABEL_authority                                   N  ot_authorized_to_SECLABEL
+                                       Successful_RACINIT_initiation
+                         Successful_RACINIT_delete
+           System_now_requires_more_authority                                  R
+emote_job_entry_-_job_not_authorized                             SURROGAT_class_
+inactive                                           Submitter_not_authorized_by_u
+ser                                  Submitter_not_authorized_to_SECLABEL
+                         User not_authorized_to_job
+           WARNING-Insufficient_SECLABEL_authoriy                            WAR
+NING-SECLABEL_missing_from_user/job/profile                    WARNING-Not_autho
+rized_to_SECLABEL                                  SECLABELs_not_compatible
+                                     WARNING-SECLABELs_not_compatible
+                       Current_PASSWORD_expired
+         Invalid_new_PASSWORD                                                Ver
+ification_failed_by_installation                               Group_access_revo
+ked                                              OIDCARD_required
+                                   Network_job_  entry_-_job_not_authorized
+                       WARNING-Unknown_user_from_trusted_node_propagated
+         Successful_initiation_using_PassTicket                            Attem
+pted_replay_of_PassTicket                                    C  lient_SECLABEL_n
+ot_equivalent_to_server                          Successful
+                                   Insufficient_authority
+                     Profile_not_found_-_RACFIND_specified_on_macro
+         Access_permitted_due_to_warning                                   Faile
+d_due_to_PROTECTALL                                          WARNING_issued_due_
+to_PROTECTALL                                  Insufficient_CATEGORY/SECLEVEL
+                                   Insufficient_SECLABEL_authority
+                     WARNING-SECLABEL_missing_from_job/user/profile
+       WARNING-Insufficient_SECLABEL_authority                           WARNING
+-Data_set_not_cataloged    +                                 Data_set_not_catalo
+ged                                              Profile_not_found_-_required_fo
+r_authority_checking               WARNING-Insufficient_CATEGORY/SECLEVEL
+                     WARNING-Non-MAIN_execution_environment_detected
+       Conditional_access/use_of_EXECUTE  -controlled_program              Succe
+ssful                                                        Insufficient_author
+ity_(DATASET_only)                             Insufficient_SECLABEL_authority
+                                 Less_specific_profile_  exists_with_different_S
+ECLABEL              Successful
+       Group_not_valid                                                   User_no
+t_in_group                                                 Insufficien  t_author
+ity                                            Resource_name_already_defined
+                                 User_not_defined_to_RACF
+                   Resource_not_protected
+       WARNING-Resource_not_protected                                    User_in
+_second_qualifier_not_RACF-defined                         Less_specific_profile
+_exists_with_different_SECLABEL              Insufficient_SECLABEL_authority
+                                 Resource_not_protected_by_SECLABEL
+                   New_name_not_protected_by_SECLABEL
+     New_SECLABEL_must_dominate_old_SECLABEL                           Insuffici
+ent_SECLABEL_authority                                     WARNING-Resource_not_
+protected_by_SECLABEL                        WARNING_New_name_not_protected_by_S
+ECLABEL                        WARNING-New_SECLABEL_must_dominate_old_SECLABEL
+                 Successful
+     Resource_not_found                                                Invalid_v
+olume_identification_(DATASET_only)                      Successful
+                                           Successful
+                               Group_undefined
+        {                       -                                User_not_in_gro
+up                                                 Insufficient_authority
+                                     Resource_name_already_defined
+                       User_not_defined_to_RACF
+           Resource_not_protected                                            WAR
+NING-Resource_not_protected                                    WARNING-SECLABEL_
+missing_from_job/user/profile                    WARNING-Insufficient_S  ECLABEL
+_authority                           User_in_second_qualifier_not_RACF-defined
+                       Insufficient_SECLABEL_authority
+         Less_specific_profile_exists_with_different_SECLABEL              Succe
+ssful                                                          Insufficient_auth
+ority                                            Keyword_violations_detected
+                                   SUCCESSFUL_RETRIEVAL_OF_DSNS_FOR_SECLABEL
+                       ERROR_DURING_RETRIEVAL_OF_DSNS_FOR_SECLABEL
+         Successful                                                        Insuf
+ficient_authority                                            Keyword_violations_
+detected                                         Successful
+                                   Insufficient_authority
+                     Keyword_violations_detected
+       Successful                                                          Insuf
+ficient_authority                                            Keyword_violations_
+detected                                       SUCCESSFUL_RETRIEVAL_OF_DSNS_FOR_
+SECLABEL                         ERROR_DURING_RETRIEVAL_OF_DSNS_FO  R_SECLABEL
+                     Successful
+       Insufficient_authority                                            Keyword
+_violations_detected                                       Successful
+                                               Insufficient_authority
+                                 Keyword_violations_detected
+                   Successful
+     Insufficien  t_authority                                            Keyword
+_violations_detected                                       Successful
+                                             Insufficient_authority
+                                 Keyword_violations_detected
+                   SUCCESSFUL_RETRIEVAL_OF_DSNS_FOR_SECLABEL
+     ERROR_DURING_RETRIEVAL_OF_DSNS_FOR_SECLABEL                       Successfu
+l                                                          Insufficient_authorit
+y                                            Keyword_violations_detected
+                               Successful
+                 Insufficient_authority                      +
+     Keyword_violations_detected                                         Success
+ful                                                        Insufficient_authorit
+y                                            Keyword_violations_detected
+                               Successful
+                   Insufficient_authority
+     Insufficient_authority                                            Successfu
+l                                                        Insufficient_authority
+                                             Keyword_violations_detected
+                               Successful
+                 Insufficient_authority
+   Keyword_violations_de  tected                                       Successfu
+l                                                        Insufficient_authority
+                                           Keyword_violations_detected
+                             Successful
+                 Insufficient_authority
+   Keyword_violations_detected                                       Successful
+                                                         Insufficient_authority
+                                           Keyword_violations_detected
+                             Successful
+               Insufficient_authority
+   Keyword_violations_detected                                       Partner_ver
+ification_was_successful                               Session_established_witho
+ut_verification                          Local_LU_key_will_expire_in_<=_5_days
+                             Partner_LU_access_has_been_revoked
+               Partner_LU_key_does_not_match_this_LU_key
+ Session_terminated_for_security_reason                            Required_SESS
+ION_KEY_not_defined                                    Possible_security_attack_
+by_partner_LU                            SESSION_KEY_not_defined_for_partner_LU
+                           SESSION_KEY_not_defined_for_this_LU
+             SNA_security-related_  protocol_error
+ Profile_change_during_verification                                Expired_SESSI
+ON_KEY                                               Successful
+                                       Successful
+                           Insufficient_authority
+             SECLABEL_failure                                                  S
+uccessful                                                          Insufficient_
+authority                                            SECLABEL_failure
+                                       Successful
+                         Insufficient_authority
+          {                       -                          SECLABEL_failure
+                                               Successful
+                                 Insufficient_authority_to_change_user_audit_opt
+ions               Insufficient_authority_to_change_audito  r_audit_options
+       SECLABEL_failure                                                  Success
+ful                                                        Insufficient_authorit
+y                                            SECLABEL_failure
+                                 Successful
+                   Insufficient_authority
+     SECLABEL_failure                                                  Successfu
+l                                                          Insufficient_authorit
+y                                            SECLABEL_failure
+                               Successful
+                 Succes  sful
+     Successful                                                        Insuffici
+ent_authority                                            Successful
+                                             No_user_profile_or_no_OMVS_segment
+                               No_UID
+                 No_GID
+   Successful                                                          Successfu
+l                                                        Insufficient_authority
+                                           SECLABEL_failure
+                             Successful
+                 Insufficient_authority
+   SECLABEL_failure                                                  Successful
+                                                       Insufficient_authority
+                                           SECLABEL_failure
+                             Successful
+               Insufficient_authority
+ SECLABEL_failure                                                    Successful
+                                                       Insufficient_authority
+                                         Successful
+                           Insuff  icient_authority
+               SECLABEL_failure
+ Successful                                                        Insufficient_
+authority                                              SECLABEL_failure
+                                         Successful
+                           Insufficient_authority
+             SECLABEL_failure                                  +
+ Successful                                                          Insufficien
+t_authority                                            SECLABEL_failure
+                                         Successful
+                           Insufficient_authority
+               Successful
+ Insufficient_authority                                            Successful
+                                                     Insufficient_authority
+                                         Successful
+                           Insufficient_authority
+             Successful                                                        I
+nsufficient_authority                                              SECLABEL_fail
+ure                                                  Successful
+                                       Insufficient_authority
+                         SECLABEL_failure
+             Successful                                                        I
+nsufficient_authority                                            Successful
+                                                   User_  is_not_the_owner
+                                       SECLABEL_failure
+                         Successful
+           Insufficient_authority                                              S
+uccessful                                                        Insufficient_au
+thority                                            Successful
+                                     Insufficient_authority
+                         Keyword_violation_detected
+           Association_already_defined                                       Ass
+ociation_already_approved                                      Association_does_
+not_match                                          Association_does_not_exist
+                                     Password_not_valid_or_user_ID_is_revoked
+                       Successful
+         Insufficient_authority                                              SEC
+LABEL_failure                                                  Successful
+                                                 SECLABEL_failure
+                                   Successful
+                       Insufficient_authority
+         SECLABEL_failure                                                  Succe
+ssful                                                        Insuf  ficient_auth
+ority                                            Successful
+                                   User_is_not_the_owner
+                     SECLABEL_failure
+         Su {                      t-                      ccessful
+                                           Successful
+                             Insufficient_authority
+               Successful_certificate_registration
+   Successful_certificate_deregistration                             Not_authori
+zed_to_register_the_certificate                        Not_authorized_to_deregis
+ter_the_certificate                      No_user_ID_found_for_the_certifica  te
+                             The_certificate_is_not_trusted
+               Successful_CERTAUTH_certificate_registration
+ Insufficient_authority_CERTAUTH_registration                      Client_securi
+ty_label_n  ot_equivalent_to_server                    Successful
+                                         Failure
+                           Successful_GENCERT
+             Insufficient  _authority_GENCERT
+ Successful_REQCERT                                                Insufficient_
+authority_REQCERT                                    Successful_GENRENEW
+                                       I  nsufficient_authority_GENRENEW
+                           Successful_REQRENEW
+             Insufficient_authority_REQRENEW                                   S
+uccessful                                                          Insufficient_
+authority                                            Incorrect_pass_phrase
+                                       Successful
+                         WARNING-Insufficient_authority
+             WARNING-Insufficient_traverse_authority                           W
+ARNING-Insufficient_time-of-day_authority                        Insufficient_au
+thority                                            Insufficient_traverse_authori
+ty                                     Insufficient_time-of-day_authority
+                         Successful_admin_QUERY_or_DETAILS
+           Insufficient_authority_for_admin_QUERY_or_DETAILS                 Suc
+cessful_VERIFY                                                   Insufficient_au
+thority_for_VERIFY                                 Incorrect_VERIFY_certificate,
+_no_record_found                     Successful
+                       Insufficient  _authority
+         [ Successful_admin_UPDATECERT                                     [ Ins
+ufficient_authority_for_admin_UPDATECERT                     [ Successful_REVOKE
+                                               [ I  nsufficient_authority_for_RE
+VOKE                               . Successful
+                     . Insufficient_authority
+       . SECLABEL_failure                                        +         < Suc
+cessful                                                      <   Insufficient_au
+thority                                          < SECLABEL_failure
+                                   ( Successful
+                     ( Insufficient_authority
+         + Successful                                                      + Ins
+ufficient_authority                                          | Successful
+                                               & Successful
+                                   & Insufficient_authority
+                       Success
+         Failure                                                           Succe
+ss                                                             Failure
+                                                                            Q
+  a   b     q e   i \                        REA=CLASS
+ USER                            SPECIAL_USERS                   RESOURCE/EXIT/F
+AILSOFT          RACINIT                         COMMAND
+   CMDVIOL                         GLOBALAUDIT                         RE2=SECLE
+VEL                        VMEVENT                         LOGOPTIONS
+           SECLABELAUDIT                   COMPATMODE                      APPLA
+U  DIT                       Undefined_user_to_z/OS_UNIX     Insufficient_author
+ity_in_z/OS_U            NONE= Active_RACF_Dataset
+                {Backup_RACF_Dataset
+         VES=Spe  cial_security_mode_allowed   Special_security_mode_enabled   R
+eserved                        Key_authentication              Reserved
+               Reserved                        RACF_checking_supervisor_state  R
+eserved                                      TID=  SET_SMF
+                                     Switch_SMF
+                       HALT_EOD
+         IPL_SMF                                                             SET
+SMF                                                            SET_SMF_(Restart_
+SMF)                                             IPL_LOGREC
+                                               MFT=    MVS_Lo  cal_File_System
+                                           Remote_File_System
+                             Pipe_File_System
+               Socket_File_System
+   Cross_System_PFS_(XPFS)                                                 STP=
+ File_system_mount                                                 File_system_q
+uiesce                                               File_system_unquiesce
+                                         File_system_unmount
+                           File_system_remount
+             File_system_move                                                  F
+ile_open                                                           File_close
+                                                               FFR= Password_is_
+not_valid                                             Password_has_expired
+                                        U  ser_ID_has_been_revoked
+                            User_does_not_have_server_access
+              FTCHKPWD_User_exit_reject_login
+Excessive_bad_passwords                                             Group_ID_pro
+cess_failed                                           User_ID_is_unknown
+                                                        \INMR06

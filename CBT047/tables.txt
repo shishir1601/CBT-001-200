@@ -1,0 +1,2380 @@
+./       ADD   NAME=AFPFONTS
+  TIR:     &AFPFONTS    7            'l "   l "   LANEJ      '            CODEFO
+NT     s  CHARSET         CODEPAGE        TYPEFACE     R  WEIGHT          WIDTH
+       %  POINTSIZ        STYLE        "  CODEPD          CODEPTS         CHARFP
+                 |       [ &         ?    X0AE10    C0S0AE10  T1S0AE10  APL   ME
+DIUM   NORMAL   10     APL    133  Fixed             |       [ &         >    X0
+AE20    C0S0AE20  T1S0AE10  APL   MEDIUM   NORMAL   5     APL    133  Fixed
+         :       [   *     %   f  X0AN      C0D0GT10  T1L0PCAN  GOTHIC   MEDIUM
+  NORMAL   10     LCS 3800-1 GOTHIC     49  Fixed        q   b       [   ;   , >
+ h    X0AOA     C0L00AOA  T1L0OCR1  OCRA AOA   MEDIUM   NORMAL   10     LCS 3800
+-1 GOTHIC/OCR-A     49  Fixed        q   b       [   ;   , > h    X0AOD     C0L0
+0AON  T1L0OCR1  OCRA AON   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC/OCR-A
+49  Fixed        q   b       [   ;   , > h    X0AON     C0L00AON  T1L0OCR2  OCRA
+ AON   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC/OCR-A     49  Fixed
+         [ ^           m  X0A00361  C0A05500  T1GI0361  SONORAN SANS SERIF   MED
+IUM   NORMAL   10     INTERNATIONAL SET 5    186  Prop           y   k       [ ^
+         q    X0A00382  C0A05500  T1GI0382  SONORAN SANS SERIF   MEDIUM   NORMAL
+   10     AUSTRIA, GERMANY, SWITZERLAND    186  Prop             :       [ ^
+     b h  X0A00383  C0A05500  T1GI0383  SONORAN SANS SERIF   MEDIUM   NORMAL   1
+0     BELGIUM    186  Prop           :       [ ^         a g  X0A00384  C0A05500
+  T1GI0384  SONORAN SANS SERIF   MEDIUM   NORMAL   10     BRAZIL    186  Prop
+     q   b       [ ^              X0A00385  C0A05500  T1GI0385  SONORAN SANS SER
+IF   MEDIUM   NORMAL   10     CANADA (FRENCH)    186  Prop       q   b       [ ^
+         i    X0A00386  C0A05500  T1GI0386  SONORAN SANS SERIF   MEDIUM   NORMAL
+   10     DENMARK/NORWAY    186  Prop        q   b       [ ^         i    X0A003
+87  C0A05500  T1GI0387  SONORAN SANS SERIF   MEDIUM   NORMAL   10     SWEDEN/FIN
+LAND    186  Prop        y   k       [ ^              X0A00388  C0A05500  T1GI03
+88  SONORAN SANS SERIF   MEDIUM   NORMAL   10     FRANCE, LUXEMBOURG, SWITZERLAN
+D    186  Prop       y   k       [ ^         p    X0A00389  C0A05500  T1GI0389
+SONORAN SANS SERIF   MEDIUM   NORMAL   10     ITALY, SWITZERLAND (ITALIAN)    18
+6  Prop          q   b       [ ^         h    X0A00390  C0A05500  T1GI0390  SONO
+RAN SANS SERIF   MEDIUM   NORMAL   10     JAPAN (LATIN)    186  Prop
+ :       [ ^         c i  X0A00391  C0A05500  T1GI0391  SONORAN SANS SERIF   MED
+IUM   NORMAL   10     PORTUGAL    186  Prop      q   b       [ ^           k  X0
+A00392  C0A05500  T1GI0392  SONORAN SANS SERIF   MEDIUM   NORMAL   10     SPAIN/
+PHILIPPINES    186  Prop                 [ ^         k q  X0A00393  C0A05500  T1
+GI0393  SONORAN SANS SERIF   MEDIUM   NORMAL   10     LATIN AMERICA (SPANISH)
+ 186  Prop       y   k       [ ^              X0A00394  C0A05500  T1GI0394  SONO
+RAN SANS SERIF   MEDIUM   NORMAL   10     U.K., AUSTRAL., IRE., H.K., N.Z.   186
+  Prop       y   k       [ ^              X0A00395  C0A05500  T1GI0395  SONORAN
+SANS SERIF   MEDIUM   NORMAL   10     UNITED STATES, CANADA (ENGLISH)    186  Pr
+op                   [ ^       :   o  X0A0536I  C0A05360  T1GI0361  SONORAN SANS
+ SERIF   MEDIUM   CONDENSED   6     INTERNATIONAL SET 5    186  Prop         q
+ b       [ ^           j  X0A055AC  C0A055A0  T1DCDCFS  SONORAN SANS SERIF   MED
+IUM   NORMAL   11     U.S. TEXT SUBSET    118  Prop                  [ ^
+   m  X0A055AI  C0A055A0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   11
+  INTERNATIONAL SET 5    186  Prop           q   b       [ ^           j  X0A055
+BC  C0A055B0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   12     U.S. TEXT
+SUBSET    118  Prop                  [ ^           m  X0A055BI  C0A055B0  T1GI03
+61  SONORAN SANS SERIF   MEDIUM   NORMAL   12     INTERNATIONAL SET 5    186  Pr
+op           y   k       [ ^              X0A055BX  C0A055B0  T1GI0395  SONORAN
+SANS SERIF   MEDIUM   NORMAL   12     UNITED STATES, CANADA (ENGLISH)    186  Pr
+op       q   b       [ ^           j  X0A055DC  C0A055D0  T1DCDCFS  SONORAN SANS
+ SERIF   MEDIUM   NORMAL   14     U.S. TEXT SUBSET    118  Prop
+ [ ^           m  X0A055DI  C0A055D0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NO
+RMAL   14     INTERNATIONAL SET 5    186  Prop           y   k       [ ^
+      X0A055FB  C0A055F0  T1GI0395  SONORAN SANS SERIF   MEDIUM   NORMAL   16
+  UNITED STATES, CANADA (ENGLISH)    186  Prop       q   b       [ ^           j
+  X0A055FC  C0A055F0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   16     U.
+S. TEXT SUBSET    118  Prop                  [ ^           m  X0A055FI  C0A055F0
+  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   16     INTERNATIONAL SET 5
+ 186  Prop           q   b       [ ^           j  X0A055HC  C0A055H0  T1DCDCFS
+SONORAN SANS SERIF   MEDIUM   NORMAL   18     U.S. TEXT SUBSET    118  Prop
+             [ ^           m  X0A055HI  C0A055H0  T1GI0361  SONORAN SANS SERIF
+ MEDIUM   NORMAL   18     INTERNATIONAL SET 5    186  Prop           y   k
+ [ ^              X0A055HX  C0A055H0  T1GI0395  SONORAN SANS SERIF   MEDIUM   NO
+RMAL   18     UNITED STATES, CANADA (ENGLISH)    186  Prop       q   b       [ ^
+           j  X0A055JC  C0A055J0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL
+   20     U.S. TEXT SUBSET    118  Prop                  [ ^           m  X0A055
+JI  C0A055J0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   20     INTERNATIO
+NAL SET 5    186  Prop           q   b       [ ^           j  X0A055NC  C0A055N0
+  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   24     U.S. TEXT SUBSET    11
+8  Prop                  [ ^           m  X0A055NI  C0A055N0  T1GI0361  SONORAN
+SANS SERIF   MEDIUM   NORMAL   24     INTERNATIONAL SET 5    186  Prop
+ y   k       [ ^              X0A055NX  C0A055N0  T1GI0395  SONORAN SANS SERIF
+ MEDIUM   NORMAL   24     UNITED STATES, CANADA (ENGLISH)    186  Prop       q
+ b       [ ^           j  X0A055TC  C0A055T0  T1DCDCFS  SONORAN SANS SERIF   MED
+IUM   NORMAL   30     U.S. TEXT SUBSET    118  Prop                  [ ^
+   m  X0A055TI  C0A055T0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   30
+  INTERNATIONAL SET 5    186  Prop           q   b       [ ^           j  X0A055
+ZC  C0A055Z0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   36     U.S. TEXT
+SUBSET    118  Prop                  [ ^           m  X0A055ZI  C0A055Z0  T1GI03
+61  SONORAN SANS SERIF   MEDIUM   NORMAL   36     INTERNATIONAL SET 5    186  Pr
+op           q   b       [ ^           j  X0A0550C  C0A05500  T1DCDCFS  SONORAN
+SANS SERIF   MEDIUM   NORMAL   10     U.S. TEXT SUBSET    118  Prop
+     [ ^           m  X0A0550I  C0A05500  T1GI0361  SONORAN SANS SERIF   MEDIUM
+  NORMAL   10     INTERNATIONAL SET 5    186  Prop           y   k       [ ^
+     r    X0A0556B  C0A05560  T1GI0395  SONORAN SANS SERIF   MEDIUM   NORMAL   6
+     UNITED STATES, CANADA (ENGLISH)    186  Prop        q   b       [ ^
+      X0A0556C  C0A05560  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   6
+ U.S. TEXT SUBSET    118  Prop                   [ ^           l  X0A0556I  C0A0
+5560  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   6     INTERNATIONAL SET 5
+    186  Prop            y   k       [ ^         r    X0A0556X  C0A05560  T1GI03
+95  SONORAN SANS SERIF   MEDIUM   NORMAL   6     UNITED STATES, CANADA (ENGLISH)
+    186  Prop        y   k       [ ^         r    X0A0557B  C0A05570  T1GI0395
+SONORAN SANS SERIF   MEDIUM   NORMAL   7     UNITED STATES, CANADA (ENGLISH)
+186  Prop        q   b       [ ^              X0A0557C  C0A05570  T1DCDCFS  SONO
+RAN SANS SERIF   MEDIUM   NORMAL   7     U.S. TEXT SUBSET    118  Prop
+         [ ^           l  X0A0557I  C0A05570  T1GI0361  SONORAN SANS SERIF   MED
+IUM   NORMAL   7     INTERNATIONAL SET 5    186  Prop            y   k       [ ^
+         r    X0A0557X  C0A05570  T1GI0395  SONORAN SANS SERIF   MEDIUM   NORMAL
+   7     UNITED STATES, CANADA (ENGLISH)    186  Prop        q   b       [ ^
+          X0A0558C  C0A05580  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   8
+     U.S. TEXT SUBSET    118  Prop                   [ ^           l  X0A0558I
+C0A05580  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   8     INTERNATIONAL S
+ET 5    186  Prop            q   b       [ ^              X0A0559C  C0A05590  T1
+DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   9     U.S. TEXT SUBSET    118  Pr
+op                   [ ^           l  X0A0559I  C0A05590  T1GI0361  SONORAN SANS
+ SERIF   MEDIUM   NORMAL   9     INTERNATIONAL SET 5    186  Prop            q
+ b       [ ^   ?     i    X0A075AC  C0A075A0  T1DCDCFS  SONORAN SANS SERIF   BOL
+D   NORMAL   11     U.S. TEXT SUBSET    118  Prop        q   b       [ ^   ?
+   k  X0A075AI  C0A075A0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   11
+INTERNATIONAL SET 5    186  Prop     q   b       [ ^   ?     i    X0A075BC  C0A0
+75B0  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   12     U.S. TEXT SUBSET
+118  Prop        q   b       [ ^   ?       k  X0A075BI  C0A075B0  T1GI0361  SONO
+RAN SANS SERIF   BOLD   NORMAL   12     INTERNATIONAL SET 5    186  Prop     y
+ k       [ ^   ?     q    X0A075BX  C0A075B0  T1GI0395  SONORAN SANS SERIF   BOL
+D   NORMAL   12     UNITED STATES, CANADA (ENGLISH)    186  Prop         q   b
+     [ ^   ?     i    X0A075DC  C0A075D0  T1DCDCFS  SONORAN SANS SERIF   BOLD
+NORMAL   14     U.S. TEXT SUBSET    118  Prop        q   b       [ ^   ?       k
+  X0A075DI  C0A075D0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   14     INTE
+RNATIONAL SET 5    186  Prop     q   b       [ ^   ?     i    X0A075FC  C0A075F0
+  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   16     U.S. TEXT SUBSET    118
+ Prop        q   b       [ ^   ?       k  X0A075FI  C0A075F0  T1GI0361  SONORAN
+SANS SERIF   BOLD   NORMAL   16     INTERNATIONAL SET 5    186  Prop     q   b
+     [ ^   ?     i    X0A075HC  C0A075H0  T1DCDCFS  SONORAN SANS SERIF   BOLD
+NORMAL   18     U.S. TEXT SUBSET    118  Prop        q   b       [ ^   ?       k
+  X0A075HI  C0A075H0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   18     INTE
+RNATIONAL SET 5    186  Prop     q   b       [ ^   ?     i    X0A075JC  C0A075J0
+  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   20     U.S. TEXT SUBSET    118
+ Prop        q   b       [ ^   ?       k  X0A075JI  C0A075J0  T1GI0361  SONORAN
+SANS SERIF   BOLD   NORMAL   20     INTERNATIONAL SET 5    186  Prop     q   b
+     [ ^   ?     i    X0A075NC  C0A075N0  T1DCDCFS  SONORAN SANS SERIF   BOLD
+NORMAL   24     U.S. TEXT SUBSET    118  Prop        q   b       [ ^   ?       k
+  X0A075NI  C0A075N0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   24     INTE
+RNATIONAL SET 5    186  Prop     y   k       [ ^   ?     q    X0A075NX  C0A075N0
+  T1GI0395  SONORAN SANS SERIF   BOLD   NORMAL   24     UNITED STATES, CANADA (E
+NGLISH)    186  Prop         q   b       [ ^   ?     i    X0A075TC  C0A075T0  T1
+DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   30     U.S. TEXT SUBSET    118  Pro
+p        q   b       [ ^   ?       k  X0A075TI  C0A075T0  T1GI0361  SONORAN SANS
+ SERIF   BOLD   NORMAL   30     INTERNATIONAL SET 5    186  Prop     y   k
+ [ ^   ?     q    X0A075TX  C0A075T0  T1GI0395  SONORAN SANS SERIF   BOLD   NORM
+AL   30     UNITED STATES, CANADA (ENGLISH)    186  Prop         q   b       [ ^
+   ?     i    X0A075ZC  C0A075Z0  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL
+ 36     U.S. TEXT SUBSET    118  Prop        q   b       [ ^   ?       k  X0A075
+ZI  C0A075Z0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   36     INTERNATIONA
+L SET 5    186  Prop     y   k       [ ^   ?     q    X0A075ZX  C0A075Z0  T1GI03
+95  SONORAN SANS SERIF   BOLD   NORMAL   36     UNITED STATES, CANADA (ENGLISH)
+   186  Prop         y   k       [ ^   ?     q    X0A0750B  C0A07500  T1GI0395
+SONORAN SANS SERIF   BOLD   NORMAL   10     UNITED STATES, CANADA (ENGLISH)    1
+86  Prop         q   b       [ ^   ?     i    X0A0750C  C0A07500  T1DCDCFS  SONO
+RAN SANS SERIF   BOLD   NORMAL   10     U.S. TEXT SUBSET    118  Prop        q
+ b       [ ^   ?       k  X0A0750I  C0A07500  T1GI0361  SONORAN SANS SERIF   BOL
+D   NORMAL   10     INTERNATIONAL SET 5    186  Prop     y   k       [ ^   ?
+ p    X0A0756B  C0A07560  T1GI0395  SONORAN SANS SERIF   BOLD   NORMAL   6     U
+NITED STATES, CANADA (ENGLISH)    186  Prop          q   b       [ ^   ?     h
+  X0A0756C  C0A07560  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   6     U.S.
+TEXT SUBSET    118  Prop         q   b       [ ^   ?       j  X0A0756I  C0A07560
+  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   6     INTERNATIONAL SET 5    18
+6  Prop      q   b       [ ^   ?     h    X0A0757C  C0A07570  T1DCDCFS  SONORAN
+SANS SERIF   BOLD   NORMAL   7     U.S. TEXT SUBSET    118  Prop         q   b
+     [ ^   ?       j  X0A0757I  C0A07570  T1GI0361  SONORAN SANS SERIF   BOLD
+NORMAL   7     INTERNATIONAL SET 5    186  Prop      q   b       [ ^   ?     h
+  X0A0758C  C0A07580  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   8     U.S.
+TEXT SUBSET    118  Prop         q   b       [ ^   ?       j  X0A0758I  C0A07580
+  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   8     INTERNATIONAL SET 5    18
+6  Prop      q   b       [ ^   ?     h    X0A0759C  C0A07590  T1DCDCFS  SONORAN
+SANS SERIF   BOLD   NORMAL   9     U.S. TEXT SUBSET    118  Prop         q   b
+     [ ^   ?       j  X0A0759I  C0A07590  T1GI0361  SONORAN SANS SERIF   BOLD
+NORMAL   9     INTERNATIONAL SET 5    186  Prop                  [ ^           l
+  X0A0776I  C0A07760  T1GI0361  SONORAN SANS SERIF   BOLD   EXPANDED   6     INT
+ERNATIONAL SET 5    186  Prop            q   b       [ ^           k  X0A10037
+C0A05500  T1V10037  SONORAN SANS SERIF   MEDIUM   NORMAL   10     USA/CANADA - C
+ECP    191  Prop     y   k       [ ^         n    X0A10273  C0A05500  T1V10273
+SONORAN SANS SERIF   MEDIUM   NORMAL   10     GERMANY F.R./AUSTRIA- CECP    191
+ Prop            q   b       [ ^         i    X0A10274  C0A05500  T1V10274  SONO
+RAN SANS SERIF   MEDIUM   NORMAL   10     Belgium - CECP    191  Prop        q
+ b       [ ^         h    X0A10275  C0A05500  T1V10275  SONORAN SANS SERIF   MED
+IUM   NORMAL   10     Brazil - CECP    191  Prop                     [ ^
+   o  X0A10277  C0A05500  T1V10277  SONORAN SANS SERIF   MEDIUM   NORMAL   10
+  DENMARK/NORWAY - CECP    191  Prop                     [ ^           n  X0A102
+78  C0A05500  T1V10278  SONORAN SANS SERIF   MEDIUM   NORMAL   10     FINLAND/SW
+EDEN- CECP    191  Prop          q   b       [ ^         f    X0A10280  C0A05500
+  T1V10280  SONORAN SANS SERIF   MEDIUM   NORMAL   10     ITALY- CECP    191  Pr
+op                       [ ^           n  X0A10281  C0A05500  T1V10281  SONORAN
+SANS SERIF   MEDIUM   NORMAL   10     Japan (Latin) - CECP    191  Prop
+ q   b       [ ^              X0A10282  C0A05500  T1V10282  SONORAN SANS SERIF
+ MEDIUM   NORMAL   10     Portugal - CECP    191  Prop       y   k       [ ^
+     n    X0A10284  C0A05500  T1V10284  SONORAN SANS SERIF   MEDIUM   NORMAL   1
+0     SPAIN/LATIN AMERICA - CECP    191  Prop                        [ ^
+   o  X0A10285  C0A05500  T1V10285  SONORAN SANS SERIF   MEDIUM   NORMAL   10
+  UNITED KINGDOM - CECP    191  Prop         q   b       [ ^         h    X0A102
+97  C0A05500  T1V10297  SONORAN SANS SERIF   MEDIUM   NORMAL   10     France - C
+ECP    191  Prop         q   b       [ ^           j  X0A10500  C0A05500  T1V105
+00  SONORAN SANS SERIF   MEDIUM   NORMAL   10     INTERNATIONAL #5    191  Prop
+     q   b       [ ^         i    X0A10871  C0A05500  T1V10871  SONORAN SANS SER
+IF   MEDIUM   NORMAL   10     Iceland - CECP    191  Prop            :       [
+ *     %   f  X0A11     C0D0GT10  T1L00A11  GOTHIC   MEDIUM   NORMAL   10     LC
+S 3800-1 GOTHIC     49  Fixed                    [ ^       = j p  X0A155AC  C0A1
+55A0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   11  ITALIC   U.S. TEXT SU
+BSET    118  Prop                    [ ^       = m    X0A155AI  C0A155A0  T1GI03
+61  SONORAN SANS SERIF   MEDIUM   NORMAL   11  ITALIC   INTERNATIONAL SET 5    1
+86  Prop                 [ ^       = j p  X0A155BC  C0A155B0  T1DCDCFS  SONORAN
+SANS SERIF   MEDIUM   NORMAL   12  ITALIC   U.S. TEXT SUBSET    118  Prop
+             [ ^       = m    X0A155BI  C0A155B0  T1GI0361  SONORAN SANS SERIF
+ MEDIUM   NORMAL   12  ITALIC   INTERNATIONAL SET 5    186  Prop
+ [ ^       = j p  X0A155DC  C0A155D0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NO
+RMAL   14  ITALIC   U.S. TEXT SUBSET    118  Prop                    [ ^       =
+ m    X0A155DI  C0A155D0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   14  I
+TALIC   INTERNATIONAL SET 5    186  Prop                 [ ^       = j p  X0A155
+FC  C0A155F0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   16  ITALIC   U.S.
+ TEXT SUBSET    118  Prop                    [ ^       = m    X0A155FI  C0A155F0
+  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   16  ITALIC   INTERNATIONAL SE
+T 5    186  Prop                 [ ^       = j p  X0A155HC  C0A155H0  T1DCDCFS
+SONORAN SANS SERIF   MEDIUM   NORMAL   18  ITALIC   U.S. TEXT SUBSET    118  Pro
+p                    [ ^       = m    X0A155HI  C0A155H0  T1GI0361  SONORAN SANS
+ SERIF   MEDIUM   NORMAL   18  ITALIC   INTERNATIONAL SET 5    186  Prop
+         [ ^       = j p  X0A155JC  C0A155J0  T1DCDCFS  SONORAN SANS SERIF   MED
+IUM   NORMAL   20  ITALIC   U.S. TEXT SUBSET    118  Prop                    [ ^
+       = m    X0A155JI  C0A155J0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL
+   20  ITALIC   INTERNATIONAL SET 5    186  Prop                 [ ^       = j p
+  X0A155NC  C0A155N0  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   24  ITALI
+C   U.S. TEXT SUBSET    118  Prop                    [ ^       = m    X0A155NI
+C0A155N0  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   24  ITALIC   INTERNAT
+IONAL SET 5    186  Prop                 [ ^       = j p  X0A155TC  C0A155T0  T1
+DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   30  ITALIC   U.S. TEXT SUBSET
+118  Prop                    [ ^       = m    X0A155TI  C0A155T0  T1GI0361  SONO
+RAN SANS SERIF   MEDIUM   NORMAL   30  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [ ^       = j p  X0A155ZC  C0A155Z0  T1DCDCFS  SONORAN SANS SER
+IF   MEDIUM   NORMAL   36  ITALIC   U.S. TEXT SUBSET    118  Prop
+     [ ^       = m    X0A155ZI  C0A155Z0  T1GI0361  SONORAN SANS SERIF   MEDIUM
+  NORMAL   36  ITALIC   INTERNATIONAL SET 5    186  Prop                 [ ^
+   = j p  X0A1550C  C0A15500  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   1
+0  ITALIC   U.S. TEXT SUBSET    118  Prop                    [ ^       = m    X0
+A1550I  C0A15500  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   10  ITALIC
+INTERNATIONAL SET 5    186  Prop                 [ ^       ' l r  X0A1554A  C0A1
+554A  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   4  ITALIC   INTERNATIONAL
+ SET 5    186  Prop                  [ ^       ' l r  X0A1554I  C0A15540  T1GI03
+61  SONORAN SANS SERIF   MEDIUM   NORMAL   4  ITALIC   INTERNATIONAL SET 5    18
+6  Prop                  [ ^       '   o  X0A1556C  C0A15560  T1DCDCFS  SONORAN
+SANS SERIF   MEDIUM   NORMAL   6  ITALIC   U.S. TEXT SUBSET    118  Prop
+             [ ^       ' l r  X0A1556I  C0A15560  T1GI0361  SONORAN SANS SERIF
+ MEDIUM   NORMAL   6  ITALIC   INTERNATIONAL SET 5    186  Prop
+ [ ^       '   o  X0A1557C  C0A15570  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NO
+RMAL   7  ITALIC   U.S. TEXT SUBSET    118  Prop                     [ ^       '
+ l r  X0A1557I  C0A15570  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   7  IT
+ALIC   INTERNATIONAL SET 5    186  Prop                  [ ^       '   o  X0A155
+8C  C0A15580  T1DCDCFS  SONORAN SANS SERIF   MEDIUM   NORMAL   8  ITALIC   U.S.
+TEXT SUBSET    118  Prop                     [ ^       ' l r  X0A1558I  C0A15580
+  T1GI0361  SONORAN SANS SERIF   MEDIUM   NORMAL   8  ITALIC   INTERNATIONAL SET
+ 5    186  Prop                  [ ^       '   o  X0A1559C  C0A15590  T1DCDCFS
+SONORAN SANS SERIF   MEDIUM   NORMAL   9  ITALIC   U.S. TEXT SUBSET    118  Prop
+                     [ ^       ' l r  X0A1559I  C0A15590  T1GI0361  SONORAN SANS
+ SERIF   MEDIUM   NORMAL   9  ITALIC   INTERNATIONAL SET 5    186  Prop
+         [ ^   ?   @   u  X0A175AB  C0A175A0  T1GI0395  SONORAN SANS SERIF   BOL
+D   NORMAL   11  ITALIC   UNITED STATES, CANADA (ENGLISH)    186  Prop
+             [ ^   ?   @   n  X0A175AC  C0A175A0  T1DCDCFS  SONORAN SANS SERIF
+ BOLD   NORMAL   11  ITALIC   U.S. TEXT SUBSET    118  Prop
+ [ ^   ?   @ k q  X0A175AI  C0A175A0  T1GI0361  SONORAN SANS SERIF   BOLD   NORM
+AL   11  ITALIC   INTERNATIONAL SET 5    186  Prop                   [ ^   ?   @
+   n  X0A175BC  C0A175B0  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   12  ITA
+LIC   U.S. TEXT SUBSET    118  Prop                      [ ^   ?   @ k q  X0A175
+BI  C0A175B0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   12  ITALIC   INTERN
+ATIONAL SET 5    186  Prop                   [ ^   ?   @   n  X0A175DC  C0A175D0
+  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   14  ITALIC   U.S. TEXT SUBSET
+  118  Prop                      [ ^   ?   @ k q  X0A175DI  C0A175D0  T1GI0361
+SONORAN SANS SERIF   BOLD   NORMAL   14  ITALIC   INTERNATIONAL SET 5    186  Pr
+op                   [ ^   ?   @   n  X0A175FC  C0A175F0  T1DCDCFS  SONORAN SANS
+ SERIF   BOLD   NORMAL   16  ITALIC   U.S. TEXT SUBSET    118  Prop
+         [ ^   ?   @ k q  X0A175FI  C0A175F0  T1GI0361  SONORAN SANS SERIF   BOL
+D   NORMAL   16  ITALIC   INTERNATIONAL SET 5    186  Prop                   [ ^
+   ?   @   n  X0A175HC  C0A175H0  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL
+ 18  ITALIC   U.S. TEXT SUBSET    118  Prop                      [ ^   ?   @ k q
+  X0A175HI  C0A175H0  T1GI0361  SONORAN SANS SERIF   BOLD   NORMAL   18  ITALIC
+  INTERNATIONAL SET 5    186  Prop                   [ ^   ?   @   n  X0A175JC
+C0A175J0  T1DCDCFS  SONORAN SANS SERIF   BOLD   NORMAL   20  ITALIC   U.S. TEXT
+SUBSET    118  Prop                      [ ^   ?   @ k q  X0A175JI  C0A175J0  T1
+GI0361  SONORAN SANS SERIF   BOLD   NORMAL   20  ITALIC   INTERNATIONAL SET 5
+ 186  Prop                   [ ^   ?   @   n  X0A175NC  C0A175N0  T1DCDCFS  SONO
+RAN SANS SERIF   BOLD   NORMAL   24  ITALIC   U.S. TEXT SUBSET    11
+  T1V10500  BOOK   BOLD   NORMAL   10  ITALIC   INTERNATIONAL #5    191  Prop
+     q   b       [     /   > h    X0BITR    C0S0BITR  T1D0BASE  BOOK   BOLD   NO
+RMAL   10  ITALIC   DCF REL 2 COMPATIBILITY    128  Prop         q   b       [
+ ;   , > h    X0BOA     C0L00BOA  T1L0OCRB  OCRB BOA   MEDIUM   NORMAL   10
+LCS 3800-1 GOTHIC/OCR-B     49  Fixed        q   b       [   ;   , > h    X0BON
+    C0L00BON  T1L0OCRB  OCRB BON   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC/OC
+R-B     49  Fixed        q   b       [     /     g    X0BRRA    C0S0BRTR  T1DABA
+SE  BOOK   BOLD   NORMAL   10     Austria/Germany F.R.- DABASE    129  Prop
+     q   b       [     /          X0BRRB    C0S0BRTR  T1DBBASE  BOOK   BOLD   NO
+RMAL   10     Belgium/Swiss/Luxembourg-DBBASE    189  Prop       q   b       [
+   /          X0BRRD    C0S0BRTR  T1DDBASE  BOOK   BOLD   NORMAL   10     Denmar
+k/Norway/Iceland - DDBASE    193  Prop           :       [     /     b h  X0BRRE
+    C0S0BRTR  T1DEBASE  BOOK   BOLD   NORMAL   10     Finland/Sweden - DEBASE
+ 189  Prop       h           [     /     :    X0BRRF    C0S0BRTR  T1DFBASE  BOOK
+   BOLD   NORMAL   10     France - DFBASE    138  Prop       h           [     /
+       "  X0BRRI    C0S0BRTR  T1DIBASE  BOOK   BOLD   NORMAL   10     Italy - DI
+BASE    140  Prop        h           [     /       "  X0BRRJ    C0S0BRTR  T1V102
+74  BOOK   BOLD   NORMAL   10     Belgium - CECP    191  Prop        h
+ [     /       =  X0BRRK    C0S0BRTR  T1V10275  BOOK   BOLD   NORMAL   10     Br
+azil - CECP    191  Prop             :       [     /     " e  X0BRRL    C0S0BRTR
+  T1V10281  BOOK   BOLD   NORMAL   10     Japan (Latin) - CECP    191  Prop
+     h           [     /     :    X0BRRM    C0S0BRTR  T1V10282  BOOK   BOLD   NO
+RMAL   10     Portugal - CECP    191  Prop       q   b       [     /     h    X0
+BRRN    C0S0BRTR  T1DNBASE  BOOK   BOLD   NORMAL   10     Netherlands/Portugal -
+ DNBASE    193  Prop         h           [     /       "  X0BRRS    C0S0BRTR  T1
+DSBASE  BOOK   BOLD   NORMAL   10     Spain - DSBASE    193  Prop            :
+     [     /     b h  X0BRRU    C0S0BRTR  T1DUBASE  BOOK   BOLD   NORMAL   10
+  United Kingdom - DUBASE    127  Prop           :       [     /     d    X0BRRZ
+    C0S0BRTR  T1001068  BOOK   BOLD   NORMAL   10     Text With Numeric Spacing
+   126  Prop     h           [     /       "  X0BRR0    C0S0BRTR  T1V10871  BOOK
+   BOLD   NORMAL   10     Iceland - CECP    191  Prop        h           [     /
+     @ b  X0BRR1    C0S0BRTR  T1V10037  BOOK   BOLD   NORMAL   10     USA/CANADA
+ - CECP    191  Prop     q   b       [     /     e    X0BRR2    C0S0BRTR  T1V102
+73  BOOK   BOLD   NORMAL   10     GERMANY F.R./AUSTRIA- CECP    191  Prop
+         :       [     /       f  X0BRR3    C0S0BRTR  T1V10277  BOOK   BOLD   NO
+RMAL   10     DENMARK/NORWAY - CECP    191  Prop             :       [     /
+ " e  X0BRR4    C0S0BRTR  T1V10278  BOOK   BOLD   NORMAL   10     FINLAND/SWEDEN
+- CECP    191  Prop          h           [     /       @  X0BRR5    C0S0BRTR  T1
+V10280  BOOK   BOLD   NORMAL   10     ITALY- CECP    191  Prop           q   b
+     [     /     e    X0BRR6    C0S0BRTR  T1V10284  BOOK   BOLD   NORMAL   10
+  SPAIN/LATIN AMERICA - CECP    191  Prop                :       [     /       f
+  X0BRR7    C0S0BRTR  T1V10285  BOOK   BOLD   NORMAL   10     UNITED KINGDOM - C
+ECP    191  Prop         h           [     /       =  X0BRR8    C0S0BRTR  T1V102
+97  BOOK   BOLD   NORMAL   10     France - CECP    191  Prop         h
+ [     /     # a  X0BRR9    C0S0BRTR  T1V10500  BOOK   BOLD   NORMAL   10     IN
+TERNATIONAL #5    191  Prop          :       [     /     b h  X0BRTR    C0S0BRTR
+  T1D0BASE  BOOK   BOLD   NORMAL   10     DCF REL 2 COMPATIBILITY    128  Prop
+         :       [   $     | = d  X0C       C0S0D224  T1GDP037  DATA1   MEDIUM
+ NORMAL   8     DP: UNITED STATES    191  Fixed          q   b       [   ;   , >
+ h    X0CAOA    C0L00AOA  T1L0OCR1  OCRA AOA   MEDIUM   NORMAL   10     LCS 3800
+-1 GOTHIC/OCR-A     49  Fixed        h           [   $     | # a  X0CBEJ    C0S0
+CB12  T1V10274  COURIER   BOLD   NORMAL   9     Belgium - CECP    191  Fixed
+ h           [   $     | :    X0CBEK    C0S0CB12  T1V10275  COURIER   BOLD   NOR
+MAL   9     Brazil - CECP    191  Fixed          :       [   $     | a g  X0CBEL
+    C0S0CB12  T1V10281  COURIER   BOLD   NORMAL   9     Japan (Latin) - CECP
+191  Fixed           :       [   $     | @ b  X0CBEM    C0S0CB12  T1V10282  COUR
+IER   BOLD   NORMAL   9     Portugal - CECP    191  Fixed            h
+ [   $     | # a  X0CBE0    C0S0CB12  T1V10871  COURIER   BOLD   NORMAL   9
+Iceland - CECP    191  Fixed         :       [   $     | = d  X0CBE1    C0S0CB12
+  T1V10037  COURIER   BOLD   NORMAL   9     USA/CANADA - CECP    191  Fixed
+     q   b       [   $     | g    X0CBE2    C0S0CB12  T1V10273  COURIER   BOLD
+ NORMAL   9     GERMANY F.R./AUSTRIA- CECP    191  Fixed             :       [
+ $     | b h  X0CBE3    C0S0CB12  T1V10277  COURIER   BOLD   NORMAL   9     DENM
+ARK/NORWAY - CECP    191  Fixed          :       [   $     | a g  X0CBE4    C0S0
+CB12  T1V10278  COURIER   BOLD   NORMAL   9     FINLAND/SWEDEN- CECP    191  Fix
+ed       h           [   $     |   =  X0CBE5    C0S0CB12  T1V10280  COURIER   BO
+LD   NORMAL   9     ITALY- CECP    191  Fixed        q   b       [   $     | g
+  X0CBE6    C0S0CB12  T1V10284  COURIER   BOLD   NORMAL   9     SPAIN/LATIN AMER
+ICA - CECP    191  Fixed             :       [   $     | b h  X0CBE7    C0S0CB12
+  T1V10285  COURIER   BOLD   NORMAL   9     UNITED KINGDOM - CECP    191  Fixed
+     h           [   $     | :    X0CBE8    C0S0CB12  T1V10297  COURIER   BOLD
+ NORMAL   9     France - CECP    191  Fixed          :       [   $     | ' c  X0
+CBE9    C0S0CB12  T1V10500  COURIER   BOLD   NORMAL   9     INTERNATIONAL #5
+191  Fixed               :       [   $     , @ b  X0CB0J    C0S0CB10  T1V10274
+COURIER   BOLD   NORMAL   10     Belgium - CECP    191  Fixed            h
+     [   $     , # a  X0CB0K    C0S0CB10  T1V10275  COURIER   BOLD   NORMAL   10
+     Brazil - CECP    191  Fixed         :       [   $     , b h  X0CB0L    C0S0
+CB10  T1V10281  COURIER   BOLD   NORMAL   10     Japan (Latin) - CECP    191  Fi
+xed          :       [   $     , ' c  X0CB0M    C0S0CB10  T1V10282  COURIER   BO
+LD   NORMAL   10     Portugal - CECP    191  Fixed           q   b       [   $
+   , g    X0CB0Z    C0S0CB10  T1001068  COURIER   BOLD   NORMAL   10     Text Wi
+th Numeric Spacing    126  Fixed             :       [   $     , @ b  X0CB00
+C0S0CB10  T1V10871  COURIER   BOLD   NORMAL   10     Iceland - CECP    191  Fixe
+d                :       [   $     , " e  X0CB01    C0S0CB10  T1V10037  COURIER
+  BOLD   NORMAL   10     USA/CANADA - CECP    191  Fixed         q   b       [
+ $     , h    X0CB02    C0S0CB10  T1V10273  COURIER   BOLD   NORMAL   10     GER
+MANY F.R./AUSTRIA- CECP    191  Fixed            :       [   $     , c i  X0CB03
+    C0S0CB10  T1V10277  COURIER   BOLD   NORMAL   10     DENMARK/NORWAY - CECP
+  191  Fixed         :       [   $     , b h  X0CB04    C0S0CB10  T1V10278  COUR
+IER   BOLD   NORMAL   10     FINLAND/SWEDEN- CECP    191  Fixed      h
+ [   $     ,   "  X0CB05    C0S0CB10  T1V10280  COURIER   BOLD   NORMAL   10
+ ITALY- CECP    191  Fixed       q   b       [   $     , h    X0CB06    C0S0CB10
+  T1V10284  COURIER   BOLD   NORMAL   10     SPAIN/LATIN AMERICA - CECP    191
+Fixed            :       [   $     , c i  X0CB07    C0S0CB10  T1V10285  COURIER
+  BOLD   NORMAL   10     UNITED KINGDOM - CECP    191  Fixed     h           [
+ $     , # a  X0CB08    C0S0CB10  T1V10297  COURIER   BOLD   NORMAL   10     Fra
+nce - CECP    191  Fixed         :       [   $     , = d  X0CB09    C0S0CB10  T1
+V10500  COURIER   BOLD   NORMAL   10     INTERNATIONAL #5    191  Fixed
+ q   b       [   $     , e    X0CB10    C0S0CB10  T1D0BASE  COURIER   BOLD   NOR
+MAL   10     DCF REL 2 COMPATIBILITY    128  Fixed           q   b       [   $
+   | d    X0CB12    C0S0CB12  T1D0BASE  COURIER   BOLD   NORMAL   9     DCF REL
+2 COMPATIBILITY    128  Fixed            q   b       [   $     | d    X0CB15
+C0S0CB15  T1D0BASE  COURIER   BOLD   NORMAL   8     DCF REL 2 COMPATIBILITY    1
+28  Fixed            q   b       [   $     | f    X0CB2Z    C0S0CB12  T1001068
+COURIER   BOLD   NORMAL   9     Text With Numeric Spacing    126  Fixed
+ h           [   $     | # a  X0CB5J    C0S0CB15  T1V10274  COURIER   BOLD   NOR
+MAL   8     Belgium - CECP    191  Fixed     h           [   $     | :    X0CB5K
+    C0S0CB15  T1V10275  COURIER   BOLD   NORMAL   8     Brazil - CECP    191  Fi
+xed          :       [   $     | a g  X0CB5L    C0S0CB15  T1V10281  COURIER   BO
+LD   NORMAL   8     Japan (Latin) - CECP    191  Fixed           :       [   $
+   | @ b  X0CB5M    C0S0CB15  T1V10282  COURIER   BOLD   NORMAL   8     Portugal
+ - CECP    191  Fixed            q   b       [   $     | f    X0CB5Z    C0S0CB15
+  T1001068  COURIER   BOLD   NORMAL   8     Text With Numeric Spacing    126  Fi
+xed          h           [   $     | # a  X0CB50    C0S0CB15  T1V10871  COURIER
+  BOLD   NORMAL   8     Iceland - CECP    191  Fixed         :       [   $     |
+ = d  X0CB51    C0S0CB15  T1V10037  COURIER   BOLD   NORMAL   8     USA/CANADA -
+ CECP    191  Fixed          q   b       [   $     | g    X0CB52    C0S0CB15  T1
+V10273  COURIER   BOLD   NORMAL   8     GERMANY F.R./AUSTRIA- CECP    191  Fixed
+             :       [   $     | b h  X0CB53    C0S0CB15  T1V10277  COURIER   BO
+LD   NORMAL   8     DENMARK/NORWAY - CECP    191  Fixed          :       [   $
+   | a g  X0CB54    C0S0CB15  T1V10278  COURIER   BOLD   NORMAL   8     FINLAND/
+SWEDEN- CECP    191  Fixed       h           [   $     |   =  X0CB55    C0S0CB15
+  T1V10280  COURIER   BOLD   NORMAL   8     ITALY- CECP    191  Fixed        q
+ b       [   $     | g    X0CB56    C0S0CB15  T1V10284  COURIER   BOLD   NORMAL
+  8     SPAIN/LATIN AMERICA - CECP    191  Fixed             :       [   $     |
+ b h  X0CB57    C0S0CB15  T1V10285  COURIER   BOLD   NORMAL   8     UNITED KINGD
+OM - CECP    191  Fixed      h           [   $     | :    X0CB58    C0S0CB15  T1
+V10297  COURIER   BOLD   NORMAL   8     France - CECP    191  Fixed          :
+     [   $     | ' c  X0CB59    C0S0CB15  T1V10500  COURIER   BOLD   NORMAL   8
+    INTERNATIONAL #5    191  Fixed                       [   ) >       m  X0CD15
+    C0S0CD15  T1D0BASE  COURIER   MEDIUM   ULTRA-EXPANDED   8     DCF REL 2 COMP
+ATIBILITY    128  Fixed          q   b       [   ) >     e    X0CD5J    C0S0CD15
+  T1V10274  COURIER   MEDIUM   ULTRA-EXPANDED   8     Belgium - CECP    191  Fix
+ed           q   b       [   ) >     d    X0CD5K    C0S0CD15  T1V10275  COURIER
+  MEDIUM   ULTRA-EXPANDED   8     Brazil - CECP    191  Fixed            q   b
+     [   ) >       j  X0CD5L    C0S0CD15  T1V10281  COURIER   MEDIUM   ULTRA-EXP
+ANDED   8     Japan (Latin) - CECP    191  Fixed     q   b       [   ) >     f
+  X0CD5M    C0S0CD15  T1V10282  COURIER   MEDIUM   ULTRA-EXPANDED   8     Portug
+al - CECP    191  Fixed                      [   ) >       o  X0CD5Z    C0S0CD15
+  T1001068  COURIER   MEDIUM   ULTRA-EXPANDED   8     Text With Numeric Spacing
+   126  Fixed        q   b       [   ) >     e    X0CD50    C0S0CD15  T1V10871
+COURIER   MEDIUM   ULTRA-EXPANDED   8     Iceland - CECP    191  Fixed
+ q   b       [   ) >     h    X0CD51    C0S0CD15  T1V10037  COURIER   MEDIUM   U
+LTRA-EXPANDED   8     USA/CANADA - CECP    191  Fixed                    [   ) >
+     j p  X0CD52    C0S0CD15  T1V10273  COURIER   MEDIUM   ULTRA-EXPANDED   8
+  GERMANY F.R./AUSTRIA- CECP    191  Fixed                   [   ) >       k  X0
+CD53    C0S0CD15  T1V10277  COURIER   MEDIUM   ULTRA-EXPANDED   8     DENMARK/NO
+RWAY - CECP    191  Fixed            q   b       [   ) >       j  X0CD54    C0S0
+CD15  T1V10278  COURIER   MEDIUM   ULTRA-EXPANDED   8     FINLAND/SWEDEN- CECP
+  191  Fixed         :       [   ) >     b h  X0CD55    C0S0CD15  T1V10280  COUR
+IER   MEDIUM   ULTRA-EXPANDED   8     ITALY- CECP    191  Fixed
+ [   ) >     j p  X0CD56    C0S0CD15  T1V10284  COURIER   MEDIUM   ULTRA-EXPANDE
+D   8     SPAIN/LATIN AMERICA - CECP    191  Fixed                   [   ) >
+   k  X0CD57    C0S0CD15  T1V10285  COURIER   MEDIUM   ULTRA-EXPANDED   8     UN
+ITED KINGDOM - CECP    191  Fixed            q   b       [   ) >     d    X0CD58
+    C0S0CD15  T1V10297  COURIER   MEDIUM   ULTRA-EXPANDED   8     France - CECP
+   191  Fixed            q   b       [   ) >     g    X0CD59    C0S0CD15  T1V105
+00  COURIER   MEDIUM   ULTRA-EXPANDED   8     INTERNATIONAL #5    191  Fixed
+                 [ )   ?       o  X0CE10    C0S0CE10  T1D0BASE  COURIER EXTENDED
+   MEDIUM   NORMAL   10     DCF REL 2 COMPATIBILITY    128  Fixed        q   b
+     [   )     % f    X0CE12    C0S0CE12  T1D0BASE  COURIER   MEDIUM   NORMAL
+9     DCF REL 2 COMPATIBILITY    128  Fixed                      [ ^       b   s
+  X0CH10    C0S0CH10  T1D0BASE  COURIER OVERSTRIKE   MEDIUM   NORMAL   10  OVERS
+TRUCK   DCF REL 2 COMPATIBILITY    128  Fixed                :       [   )
+ c i  X0CIEJ    C0S0CI12  T1V10274  COURIER   MEDIUM   NORMAL   9  ITALIC   Belg
+ium - CECP    191  Fixed         :       [   )       b h  X0CIEK    C0S0CI12  T1
+V10275  COURIER   MEDIUM   NORMAL   9  ITALIC   Brazil - CECP    191  Fixed
+ q   b       [   )       i    X0CIEL    C0S0CI12  T1V10281  COURIER   MEDIUM   N
+ORMAL   9  ITALIC   Japan (Latin) - CECP    191  Fixed       q   b       [   )
+     d    X0CIEM    C0S0CI12  T1V10282  COURIER   MEDIUM   NORMAL   9  ITALIC
+Portugal - CECP    191  Fixed                :       [   )       c i  X0CIE0
+C0S0CI12  T1V10871  COURIER   MEDIUM   NORMAL   9  ITALIC   Iceland - CECP    19
+1  Fixed     q   b       [   )       f    X0CIE1    C0S0CI12  T1V10037  COURIER
+  MEDIUM   NORMAL   9  ITALIC   USA/CANADA - CECP    191  Fixed
+     [   )         n  X0CIE2    C0S0CI12  T1V10273  COURIER   MEDIUM   NORMAL
+9  ITALIC   GERMANY F.R./AUSTRIA- CECP    191  Fixed         q   b       [   )
+          X0CIE3    C0S0CI12  T1V10277  COURIER   MEDIUM   NORMAL   9  ITALIC
+DENMARK/NORWAY - CECP    191  Fixed      q   b       [   )       i    X0CIE4
+C0S0CI12  T1V10278  COURIER   MEDIUM   NORMAL   9  ITALIC   FINLAND/SWEDEN- CECP
+    191  Fixed           :       [   )         f  X0CIE5    C0S0CI12  T1V10280
+COURIER   MEDIUM   NORMAL   9  ITALIC   ITALY- CECP    191  Fixed
+     [   )         n  X0CIE6    C0S0CI12  T1V10284  COURIER   MEDIUM   NORMAL
+9  ITALIC   SPAIN/LATIN AMERICA - CECP    191  Fixed         q   b       [   )
+          X0CIE7    C0S0CI12  T1V10285  COURIER   MEDIUM   NORMAL   9  ITALIC
+UNITED KINGDOM - CECP    191  Fixed          :       [   )       b h  X0CIE8
+C0S0CI12  T1V10297  COURIER   MEDIUM   NORMAL   9  ITALIC   France - CECP    191
+  Fixed      q   b       [   )       e    X0CIE9    C0S0CI12  T1V10500  COURIER
+  MEDIUM   NORMAL   9  ITALIC   INTERNATIONAL #5    191  Fixed           q   b
+     [   )   |   d    X0CI0J    C0S0CI10  T1V10274  COURIER   MEDIUM   NORMAL
+10  ITALIC   Belgium - CECP    191  Fixed                :       [   )   |   c i
+  X0CI0K    C0S0CI10  T1V10275  COURIER   MEDIUM   NORMAL   10  ITALIC   Brazil
+- CECP    191  Fixed     q   b       [   )   |        X0CI0L    C0S0CI10  T1V102
+81  COURIER   MEDIUM   NORMAL   10  ITALIC   Japan (Latin) - CECP    191  Fixed
+     q   b       [   )   |   e    X0CI0M    C0S0CI10  T1V10282  COURIER   MEDIUM
+   NORMAL   10  ITALIC   Portugal - CECP    191  Fixed                       [
+ )   |     n  X0CI0Z    C0S0CI10  T1001068  COURIER   MEDIUM   NORMAL   10  ITAL
+IC   Text With Numeric Spacing    126  Fixed         q   b       [   )   |   d
+  X0CI00    C0S0CI10  T1V10871  COURIER   MEDIUM   NORMAL   10  ITALIC   Iceland
+ - CECP    191  Fixed            q   b       [   )   |   g    X0CI01    C0S0CI10
+  T1V10037  COURIER   MEDIUM   NORMAL   10  ITALIC   USA/CANADA - CECP    191  F
+ixed                     [   )   |     o  X0CI02    C0S0CI10  T1V10273  COURIER
+  MEDIUM   NORMAL   10  ITALIC   GERMANY F.R./AUSTRIA- CECP    191  Fixed
+ q   b       [   )   |     j  X0CI03    C0S0CI10  T1V10277  COURIER   MEDIUM   N
+ORMAL   10  ITALIC   DENMARK/NORWAY - CECP    191  Fixed     q   b       [   )
+ |        X0CI04    C0S0CI10  T1V10278  COURIER   MEDIUM   NORMAL   10  ITALIC
+ FINLAND/SWEDEN- CECP    191  Fixed          :       [   )   |   a g  X0CI05
+C0S0CI10  T1V10280  COURIER   MEDIUM   NORMAL   10  ITALIC   ITALY- CECP    191
+ Fixed                   [   )   |     o  X0CI06    C0S0CI10  T1V10284  COURIER
+  MEDIUM   NORMAL   10  ITALIC   SPAIN/LATIN AMERICA - CECP    191  Fixed
+ q   b       [   )   |     j  X0CI07    C0S0CI10  T1V10285  COURIER   MEDIUM   N
+ORMAL   10  ITALIC   UNITED KINGDOM - CECP    191  Fixed         :       [   )
+ |   c i  X0CI08    C0S0CI10  T1V10297  COURIER   MEDIUM   NORMAL   10  ITALIC
+ France - CECP    191  Fixed     q   b       [   )   |   f    X0CI09    C0S0CI10
+  T1V10500  COURIER   MEDIUM   NORMAL   10  ITALIC   INTERNATIONAL #5    191  Fi
+xed                      [   )   |     l  X0CI10    C0S0CI10  T1D0BASE  COURIER
+  MEDIUM   NORMAL   10  ITALIC   DCF REL 2 COMPATIBILITY    128  Fixed
+             [   )         k  X0CI12    C0S0CI12  T1D0BASE  COURIER   MEDIUM   N
+ORMAL   9  ITALIC   DCF REL 2 COMPATIBILITY    128  Fixed
+ [   )         k  X0CI15    C0S0CI15  T1D0BASE  COURIER   MEDIUM   NORMAL   8  I
+TALIC   DCF REL 2 COMPATIBILITY    128  Fixed                        [   )
+   m  X0CI2Z    C0S0CI12  T1001068  COURIER   MEDIUM   NORMAL   9  ITALIC   Text
+ With Numeric Spacing    126  Fixed              :       [   )       c i  X0CI5J
+    C0S0CI15  T1V10274  COURIER   MEDIUM   NORMAL   8  ITALIC   Belgium - CECP
+  191  Fixed         :       [   )       b h  X0CI5K    C0S0CI15  T1V10275  COUR
+IER   MEDIUM   NORMAL   8  ITALIC   Brazil - CECP    191  Fixed      q   b
+ [   )       i    X0CI5L    C0S0CI15  T1V10281  COURIER   MEDIUM   NORMAL   8  I
+TALIC   Japan (Latin) - CECP    191  Fixed       q   b       [   )       d    X0
+CI5M    C0S0CI15  T1V10282  COURIER   MEDIUM   NORMAL   8  ITALIC   Portugal - C
+ECP    191  Fixed                        [   )         m  X0CI5Z    C0S0CI15  T1
+001068  COURIER   MEDIUM   NORMAL   8  ITALIC   Text With Numeric Spacing    126
+  Fixed              :       [   )       c i  X0CI50    C0S0CI15  T1V10871  COUR
+IER   MEDIUM   NORMAL   8  ITALIC   Iceland - CECP    191  Fixed     q   b
+ [   )       f    X0CI51    C0S0CI15  T1V10037  COURIER   MEDIUM   NORMAL   8  I
+TALIC   USA/CANADA - CECP    191  Fixed                      [   )         n  X0
+CI52    C0S0CI15  T1V10273  COURIER   MEDIUM   NORMAL   8  ITALIC   GERMANY F.R.
+/AUSTRIA- CECP    191  Fixed         q   b       [   )            X0CI53    C0S0
+CI15  T1V10277  COURIER   MEDIUM   NORMAL   8  ITALIC   DENMARK/NORWAY - CECP
+ 191  Fixed      q   b       [   )       i    X0CI54    C0S0CI15  T1V10278  COUR
+IER   MEDIUM   NORMAL   8  ITALIC   FINLAND/SWEDEN- CECP    191  Fixed
+ :       [   )         f  X0CI55    C0S0CI15  T1V10280  COURIER   MEDIUM   NORMA
+L   8  ITALIC   ITALY- CECP    191  Fixed                    [   )         n  X0
+CI56    C0S0CI15  T1V10284  COURIER   MEDIUM   NORMAL   8  ITALIC   SPAIN/LATIN
+AMERICA - CECP    191  Fixed         q   b       [   )            X0CI57    C0S0
+CI15  T1V10285  COURIER   MEDIUM   NORMAL   8  ITALIC   UNITED KINGDOM - CECP
+ 191  Fixed          :       [   )       b h  X0CI58    C0S0CI15  T1V10297  COUR
+IER   MEDIUM   NORMAL   8  ITALIC   France - CECP    191  Fixed      q   b
+ [   )       e    X0CI59    C0S0CI15  T1V10500  COURIER   MEDIUM   NORMAL   8  I
+TALIC   INTERNATIONAL #5    191  Fixed                       [   )   |   j p  X0
+CO10    C0S0CO10  T1D0BASE  COURIER   MEDIUM   NORMAL   10  OVERSTRUCK   DCF REL
+ 2 COMPATIBILITY    128  Fixed           :       [   ^   , > " e  X0CREJ    C0S0
+CR12  T1V10274  COURIER12   MEDIUM   NORMAL   9     Belgium - CECP    191  Fixed
+             :       [   ^   , > = d  X0CREK    C0S0CR12  T1V10275  COURIER12
+MEDIUM   NORMAL   9     Brazil - CECP    191  Fixed          q   b       [   ^
+ , > e    X0CREL    C0S0CR12  T1V10281  COURIER12   MEDIUM   NORMAL   9     Japa
+n (Latin) - CECP    191  Fixed               :       [   ^   , >   f  X0CREM
+C0S0CR12  T1V10282  COURIER12   MEDIUM   NORMAL   9     Portugal - CECP    191
+Fixed            :       [   ^   , > " e  X0CRE0    C0S0CR12  T1V10871  COURIER1
+2   MEDIUM   NORMAL   9     Iceland - CECP    191  Fixed             :       [
+ ^   , > b h  X0CRE1    C0S0CR12  T1V10037  COURIER12   MEDIUM   NORMAL   9
+USA/CANADA - CECP    191  Fixed      q   b       [   ^   , >   j  X0CRE2    C0S0
+CR12  T1V10273  COURIER12   MEDIUM   NORMAL   9     GERMANY F.R./AUSTRIA- CECP
+  191  Fixed     q   b       [   ^   , > f    X0CRE3    C0S0CR12  T1V10277  COUR
+IER12   MEDIUM   NORMAL   9     DENMARK/NORWAY - CECP    191  Fixed          q
+ b       [   ^   , > e    X0CRE4    C0S0CR12  T1V10278  COURIER12   MEDIUM   NOR
+MAL   9     FINLAND/SWEDEN- CECP    191  Fixed               :       [   ^   , >
+ @ b  X0CRE5    C0S0CR12  T1V10280  COURIER12   MEDIUM   NORMAL   9     ITALY- C
+ECP    191  Fixed            q   b       [   ^   , >   j  X0CRE6    C0S0CR12  T1
+V10284  COURIER12   MEDIUM   NORMAL   9     SPAIN/LATIN AMERICA - CECP    191  F
+ixed     q   b       [   ^   , > f    X0CRE7    C0S0CR12  T1V10285  COURIER12
+MEDIUM   NORMAL   9     UNITED KINGDOM - CECP    191  Fixed              :
+ [   ^   , > = d  X0CRE8    C0S0CR12  T1V10297  COURIER12   MEDIUM   NORMAL   9
+    France - CECP    191  Fixed              :       [   ^   , > a g  X0CRE9
+C0S0CR12  T1V10500  COURIER12   MEDIUM   NORMAL   9     INTERNATIONAL #5    191
+ Fixed                   [   )   | _   k  X0CR0A    C0S0CR10  T1DABASE  COURIER
+  MEDIUM   NORMAL   10     Austria/Germany F.R.- DABASE    129  Fixed
+             [   )   | _   n  X0CR0B    C0S0CR10  T1DBBASE  COURIER   MEDIUM   N
+ORMAL   10     Belgium/Swiss/Luxembourg-DBBASE    189  Fixed
+ [   )   | _   n  X0CR0D    C0S0CR10  T1DDBASE  COURIER   MEDIUM   NORMAL   10
+   Denmark/Norway/Iceland - DDBASE    193  Fixed         q   b       [   )   | _
+ g    X0CR0E    C0S0CR10  T1DEBASE  COURIER   MEDIUM   NORMAL   10     Finland/S
+weden - DEBASE    189  Fixed             :       [   )   | _ " e  X0CR0F    C0S0
+CR10  T1DFBASE  COURIER   MEDIUM   NORMAL   10     France - DFBASE    138  Fixed
+             :       [   )   | _ = d  X0CR0I    C0S0CR10  T1DIBASE  COURIER   ME
+DIUM   NORMAL   10     Italy - DIBASE    140  Fixed              :       [   )
+ | _ = d  X0CR0J    C0S0CR10  T1V10274  COURIER   MEDIUM   NORMAL   10     Belgi
+um - CECP    191  Fixed              :       [   )   | _ ' c  X0CR0K    C0S0CR10
+  T1V10275  COURIER   MEDIUM   NORMAL   10     Brazil - CECP    191  Fixed
+     q   b       [   )   | _ d    X0CR0L    C0S0CR10  T1V10281  COURIER   MEDIUM
+   NORMAL   10     Japan (Latin) - CECP    191  Fixed                :       [
+ )   | _ " e  X0CR0M    C0S0CR10  T1V10282  COURIER   MEDIUM   NORMAL   10     P
+ortugal - CECP    191  Fixed                     [   )   | _   l  X0CR0N    C0S0
+CR10  T1DNBASE  COURIER   MEDIUM   NORMAL   10     Netherlands/Portugal - DNBASE
+    193  Fixed               :       [   )   | _ = d  X0CR0S    C0S0CR10  T1DSBA
+SE  COURIER   MEDIUM   NORMAL   10     Spain - DSBASE    193  Fixed          q
+ b       [   )   | _ g    X0CR0U    C0S0CR10  T1DUBASE  COURIER   MEDIUM   NORMA
+L   10     United Kingdom - DUBASE    127  Fixed         q   b       [   )   | _
+ i    X0CR0Z    C0S0CR10  T1001068  COURIER   MEDIUM   NORMAL   10     Text With
+ Numeric Spacing    126  Fixed           :       [   )   | _ = d  X0CR00    C0S0
+CR10  T1V10871  COURIER   MEDIUM   NORMAL   10     Iceland - CECP    191  Fixed
+             :       [   )   | _ a g  X0CR01    C0S0CR10  T1V10037  COURIER   ME
+DIUM   NORMAL   10     USA/CANADA - CECP    191  Fixed       q   b       [   )
+ | _      X0CR02    C0S0CR10  T1V10273  COURIER   MEDIUM   NORMAL   10     GERMA
+NY F.R./AUSTRIA- CECP    191  Fixed      q   b       [   )   | _ e    X0CR03
+C0S0CR10  T1V10277  COURIER   MEDIUM   NORMAL   10     DENMARK/NORWAY - CECP
+191  Fixed           q   b       [   )   | _ d    X0CR04    C0S0CR10  T1V10278
+COURIER   MEDIUM   NORMAL   10     FINLAND/SWEDEN- CECP    191  Fixed
+ h           [   )   | _ # a  X0CR05    C0S0CR10  T1V10280  COURIER   MEDIUM   N
+ORMAL   10     ITALY- CECP    191  Fixed     q   b       [   )   | _      X0CR06
+    C0S0CR10  T1V10284  COURIER   MEDIUM   NORMAL   10     SPAIN/LATIN AMERICA -
+ CECP    191  Fixed      q   b       [   )   | _ e    X0CR07    C0S0CR10  T1V102
+85  COURIER   MEDIUM   NORMAL   10     UNITED KINGDOM - CECP    191  Fixed
+         :       [   )   | _ ' c  X0CR08    C0S0CR10  T1V10297  COURIER   MEDIUM
+   NORMAL   10     France - CECP    191  Fixed               :       [   )   | _
+   f  X0CR09    C0S0CR10  T1V10500  COURIER   MEDIUM   NORMAL   10     INTERNATI
+ONAL #5    191  Fixed        q   b       [   )   | _ g    X0CR10    C0S0CR10  T1
+D0BASE  COURIER   MEDIUM   NORMAL   10     DCF REL 2 COMPATIBILITY    128  Fixed
+             :       [   )   | _ a g  X0CR10CB  C0S0CR10  T1GDP037  COURIER   ME
+DIUM   NORMAL   10     DP: UNITED STATES    191  Fixed           :       [   )
+ | _ c i  X0CR10CF  C0S0CR10  T1GDP276  COURIER   MEDIUM   NORMAL   10     DP: C
+ANADA (FRENCH)    191  Fixed     q   b       [   )   | _ g    X0CR10DI  C0S0CR10
+  T1GDP256  COURIER   MEDIUM   NORMAL   10     DP: INTERNATIONAL SET 5    191  F
+ixed         q   b       [   ^   , > h    X0CR12    C0S0CR12  T1D0BASE  COURIER1
+2   MEDIUM   NORMAL   9     DCF REL 2 COMPATIBILITY    128  Fixed        q   b
+     [   )     % f    X0CR15    C0S0CR15  T1D0BASE  COURIER   MEDIUM   NORMAL
+8     DCF REL 2 COMPATIBILITY    128  Fixed          q   b       [   ^   , >
+  X0CR2Z    C0S0CR12  T1001068  COURIER12   MEDIUM   NORMAL   9     Text With Nu
+meric Spacing    126  Fixed          :       [   )     % ' c  X0CR5J    C0S0CR15
+  T1V10274  COURIER   MEDIUM   NORMAL   8     Belgium - CECP    191  Fixed
+         :       [   )     % @ b  X0CR5K    C0S0CR15  T1V10275  COURIER   MEDIUM
+   NORMAL   8     Brazil - CECP    191  Fixed                :       [   )     %
+ c i  X0CR5L    C0S0CR15  T1V10281  COURIER   MEDIUM   NORMAL   8     Japan (Lat
+in) - CECP    191  Fixed         :       [   )     % = d  X0CR5M    C0S0CR15  T1
+V10282  COURIER   MEDIUM   NORMAL   8     Portugal - CECP    191  Fixed
+ q   b       [   )     % h    X0CR5Z    C0S0CR15  T1001068  COURIER   MEDIUM   N
+ORMAL   8     Text With Numeric Spacing    126  Fixed            :       [   )
+   % ' c  X0CR50    C0S0CR15  T1V10871  COURIER   MEDIUM   NORMAL   8     Icelan
+d - CECP    191  Fixed               :       [   )     %   f  X0CR51    C0S0CR15
+  T1V10037  COURIER   MEDIUM   NORMAL   8     USA/CANADA - CECP    191  Fixed
+     q   b       [   )     % i    X0CR52    C0S0CR15  T1V10273  COURIER   MEDIUM
+   NORMAL   8     GERMANY F.R./AUSTRIA- CECP    191  Fixed       q   b       [
+ )     % d    X0CR53    C0S0CR15  T1V10277  COURIER   MEDIUM   NORMAL   8     DE
+NMARK/NORWAY - CECP    191  Fixed                :       [   )     % c i  X0CR54
+    C0S0CR15  T1V10278  COURIER   MEDIUM   NORMAL   8     FINLAND/SWEDEN- CECP
+  191  Fixed     h           [   )     % :    X0CR55    C0S0CR15  T1V10280  COUR
+IER   MEDIUM   NORMAL   8     ITALY- CECP    191  Fixed      q   b       [   )
+   % i    X0CR56    C0S0CR15  T1V10284  COURIER   MEDIUM   NORMAL   8     SPAIN/
+LATIN AMERICA - CECP    191  Fixed       q   b       [   )     % d    X0CR57
+C0S0CR15  T1V10285  COURIER   MEDIUM   NORMAL   8     UNITED KINGDOM - CECP    1
+91  Fixed                :       [   )     % @ b  X0CR58    C0S0CR15  T1V10297
+COURIER   MEDIUM   NORMAL   8     France - CECP    191  Fixed                :
+     [   )     % " e  X0CR59    C0S0CR15  T1V10500  COURIER   MEDIUM   NORMAL
+8     INTERNATIONAL #5    191  Fixed         y   k       [   ) >   : m    X0CW15
+    C0S0CW15  T1D0BASE  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   DCF REL
+2 COMPATIBILITY    128  Fixed            q   b       [   ) >   :   j  X0CW5J
+C0S0CW15  T1V10274  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   Belgium - CE
+CP    191  Fixed     q   b       [   ) >   :      X0CW5K    C0S0CW15  T1V10275
+COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   Brazil - CECP    191  Fixed
+             [   ) >   : j p  X0CW5L    C0S0CW15  T1V10281  COURIER   MEDIUM   U
+LTRA-EXPANDED   8  ITALIC   Japan (Latin) - CECP    191  Fixed
+ [   ) >   :   k  X0CW5M    C0S0CW15  T1V10282  COURIER   MEDIUM   ULTRA-EXPANDE
+D   8  ITALIC   Portugal - CECP    191  Fixed            y   k       [   ) >   :
+ o    X0CW5Z    C0S0CW15  T1001068  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALI
+C   Text With Numeric Spacing    126  Fixed          q   b       [   ) >   :   j
+  X0CW50    C0S0CW15  T1V10871  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC
+Iceland - CECP    191  Fixed                 [   ) >   :   m  X0CW51    C0S0CW15
+  T1V10037  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   USA/CANADA - CECP
+ 191  Fixed          y   k       [   ) >   : p    X0CW52    C0S0CW15  T1V10273
+COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   GERMANY F.R./AUSTRIA- CECP    19
+1  Fixed                     [   ) >   : k q  X0CW53    C0S0CW15  T1V10277  COUR
+IER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   DENMARK/NORWAY - CECP    191  Fixed
+                 [   ) >   : j p  X0CW54    C0S0CW15  T1V10278  COURIER   MEDIUM
+   ULTRA-EXPANDED   8  ITALIC   FINLAND/SWEDEN- CECP    191  Fixed       q   b
+     [   ) >   : h    X0CW55    C0S0CW15  T1V10280  COURIER   MEDIUM   ULTRA-EXP
+ANDED   8  ITALIC   ITALY- CECP    191  Fixed        y   k       [   ) >   : p
+  X0CW56    C0S0CW15  T1V10284  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC
+SPAIN/LATIN AMERICA - CECP    191  Fixed                     [   ) >   : k q  X0
+CW57    C0S0CW15  T1V10285  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   UNIT
+ED KINGDOM - CECP    191  Fixed      q   b       [   ) >   :      X0CW58    C0S0
+CW15  T1V10297  COURIER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   France - CECP
+ 191  Fixed                  [   ) >   :   l  X0CW59    C0S0CW15  T1V10500  COUR
+IER   MEDIUM   ULTRA-EXPANDED   8  ITALIC   INTERNATIONAL #5    191  Fixed
+                 [ ^           m  X0C00361  C0C05500  T1GI0361  CENTURY SCHOOLBO
+OK   MEDIUM   NORMAL   10     INTERNATIONAL SET 5    186  Prop           y   k
+     [ ^         q    X0C00382  C0C05500  T1GI0382  CENTURY SCHOOLBOOK   MEDIUM
+  NORMAL   10     AUSTRIA, GERMANY, SWITZERLAND    186  Prop             :
+ [ ^         b h  X0C00383  C0C05500  T1GI0383  CENTURY SCHOOLBOOK   MEDIUM   NO
+RMAL   10     BELGIUM    186  Prop           :       [ ^         a g  X0C00384
+C0C05500  T1GI0384  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     BRAZIL    186
+ Prop        q   b       [ ^              X0C00385  C0C05500  T1GI0385  CENTURY
+SCHOOLBOOK   MEDIUM   NORMAL   10     CANADA (FRENCH)    186  Prop       q   b
+     [ ^         i    X0C00386  C0C05500  T1GI0386  CENTURY SCHOOLBOOK   MEDIUM
+  NORMAL   10     DENMARK/NORWAY    186  Prop        q   b       [ ^         i
+  X0C00387  C0C05500  T1GI0387  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     SW
+EDEN/FINLAND    186  Prop        y   k       [ ^              X0C00388  C0C05500
+  T1GI0388  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     FRANCE, LUXEMBOURG, SW
+ITZERLAND    186  Prop       y   k       [ ^         p    X0C00389  C0C05500  T1
+GI0389  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     ITALY, SWITZERLAND (ITALIA
+N)    186  Prop          q   b       [ ^         h    X0C00390  C0C05500  T1GI03
+90  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     JAPAN (LATIN)    186  Prop
+         :       [ ^         c i  X0C00391  C0C05500  T1GI0391  CENTURY SCHOOLBO
+OK   MEDIUM   NORMAL   10     PORTUGAL    186  Prop      q   b       [ ^
+   k  X0C00392  C0C05500  T1GI0392  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10
+  SPAIN/PHILIPPINES    186  Prop                 [ ^         k q  X0C00393  C0C0
+5500  T1GI0393  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     LATIN AMERICA (SPA
+NISH)    186  Prop       y   k       [ ^              X0C00394  C0C05500  T1GI03
+94  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     U.K., AUSTRAL., IRE., H.K., N.
+Z.   186  Prop       y   k       [ ^              X0C00395  C0C05500  T1GI0395
+CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10     UNITED STATES, CANADA (ENGLISH)
+ 186  Prop                   [ ^           m  X0C055AI  C0C055A0  T1GI0361  CENT
+URY SCHOOLBOOK   MEDIUM   NORMAL   11     INTERNATIONAL SET 5    186  Prop
+                 [ ^           m  X0C055BI  C0C055B0  T1GI0361  CENTURY SCHOOLBO
+OK   MEDIUM   NORMAL   12     INTERNATIONAL SET 5    186  Prop
+     [ ^           m  X0C055DI  C0C055D0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM
+  NORMAL   14     INTERNATIONAL SET 5    186  Prop                       [ ^
+       m  X0C055FI  C0C055F0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   1
+6     INTERNATIONAL SET 5    186  Prop                       [ ^           m  X0
+C055HI  C0C055H0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   18     INTERN
+ATIONAL SET 5    186  Prop                       [ ^           m  X0C055JI  C0C0
+55J0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   20     INTERNATIONAL SET
+5    186  Prop                       [ ^           m  X0C055NI  C0C055N0  T1GI03
+61  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   24     INTERNATIONAL SET 5    186  Pr
+op                       [ ^           m  X0C055TI  C0C055T0  T1GI0361  CENTURY
+SCHOOLBOOK   MEDIUM   NORMAL   30     INTERNATIONAL SET 5    186  Prop
+             [ ^           m  X0C055ZI  C0C055Z0  T1GI0361  CENTURY SCHOOLBOOK
+ MEDIUM   NORMAL   36     INTERNATIONAL SET 5    186  Prop
+ [ ^           m  X0C0550I  C0C05500  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NO
+RMAL   10     INTERNATIONAL SET 5    186  Prop                       [ ^
+   l  X0C0556I  C0C05560  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   6
+ INTERNATIONAL SET 5    186  Prop                        [ ^           l  X0C055
+7I  C0C05570  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   7     INTERNATION
+AL SET 5    186  Prop                        [ ^           l  X0C0558I  C0C05580
+  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   8     INTERNATIONAL SET 5
+186  Prop                        [ ^           l  X0C0559I  C0C05590  T1GI0361
+CENTURY SCHOOLBOOK   MEDIUM   NORMAL   9     INTERNATIONAL SET 5    186  Prop
+         q   b       [ ^   ?       k  X0C075AI  C0C075A0  T1GI0361  CENTURY SCHO
+OLBOOK   BOLD   NORMAL   11     INTERNATIONAL SET 5    186  Prop     q   b
+ [ ^   ?       k  X0C075BI  C0C075B0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORM
+AL   12     INTERNATIONAL SET 5    186  Prop     q   b       [ ^   ?       k  X0
+C075DI  C0C075D0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   14     INTERNAT
+IONAL SET 5    186  Prop     q   b       [ ^   ?       k  X0C075FI  C0C075F0  T1
+GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   16     INTERNATIONAL SET 5    186
+Prop     q   b       [ ^   ?       k  X0C075HI  C0C075H0  T1GI0361  CENTURY SCHO
+OLBOOK   BOLD   NORMAL   18     INTERNATIONAL SET 5    186  Prop     q   b
+ [ ^   ?       k  X0C075JI  C0C075J0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORM
+AL   20     INTERNATIONAL SET 5    186  Prop     q   b       [ ^   ?       k  X0
+C075NI  C0C075N0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   24     INTERNAT
+IONAL SET 5    186  Prop     q   b       [ ^   ?       k  X0C075TI  C0C075T0  T1
+GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   30     INTERNATIONAL SET 5    186
+Prop     q   b       [ ^   ?       k  X0C075ZI  C0C075Z0  T1GI0361  CENTURY SCHO
+OLBOOK   BOLD   NORMAL   36     INTERNATIONAL SET 5    186  Prop     q   b
+ [ ^   ?       k  X0C0750I  C0C07500  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORM
+AL   10     INTERNATIONAL SET 5    186  Prop     q   b       [ ^   ?       j  X0
+C0756I  C0C07560  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   6     INTERNATI
+ONAL SET 5    186  Prop      q   b       [ ^   ?       j  X0C0757I  C0C07570  T1
+GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   7     INTERNATIONAL SET 5    186  P
+rop      q   b       [ ^   ?       j  X0C0758I  C0C07580  T1GI0361  CENTURY SCHO
+OLBOOK   BOLD   NORMAL   8     INTERNATIONAL SET 5    186  Prop      q   b
+ [ ^   ?       j  X0C0759I  C0C07590  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORM
+AL   9     INTERNATIONAL SET 5    186  Prop                  [ ^       = m    X0
+C155AI  C0C155A0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   11  ITALIC
+INTERNATIONAL SET 5    186  Prop                 [ ^       = m    X0C155BI  C0C1
+55B0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   12  ITALIC   INTERNATIONA
+L SET 5    186  Prop                 [ ^       = m    X0C155DI  C0C155D0  T1GI03
+61  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   14  ITALIC   INTERNATIONAL SET 5    1
+86  Prop                 [ ^       = m    X0C155FI  C0C155F0  T1GI0361  CENTURY
+SCHOOLBOOK   MEDIUM   NORMAL   16  ITALIC   INTERNATIONAL SET 5    186  Prop
+             [ ^       = m    X0C155HI  C0C155H0  T1GI0361  CENTURY SCHOOLBOOK
+ MEDIUM   NORMAL   18  ITALIC   INTERNATIONAL SET 5    186  Prop
+ [ ^       = m    X0C155JI  C0C155J0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NO
+RMAL   20  ITALIC   INTERNATIONAL SET 5    186  Prop                 [ ^       =
+ m    X0C155NI  C0C155N0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   24  I
+TALIC   INTERNATIONAL SET 5    186  Prop                 [ ^       = m    X0C155
+TI  C0C155T0  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   30  ITALIC   INTE
+RNATIONAL SET 5    186  Prop                 [ ^       = m    X0C155ZI  C0C155Z0
+  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   36  ITALIC   INTERNATIONAL SE
+T 5    186  Prop                 [ ^       = m    X0C1550I  C0C15500  T1GI0361
+CENTURY SCHOOLBOOK   MEDIUM   NORMAL   10  ITALIC   INTERNATIONAL SET 5    186
+Prop                 [ ^       ' l r  X0C1556I  C0C15560  T1GI0361  CENTURY SCHO
+OLBOOK   MEDIUM   NORMAL   6  ITALIC   INTERNATIONAL SET 5    186  Prop
+         [ ^       ' l r  X0C1557I  C0C15570  T1GI0361  CENTURY SCHOOLBOOK   MED
+IUM   NORMAL   7  ITALIC   INTERNATIONAL SET 5    186  Prop                  [ ^
+       ' l r  X0C1558I  C0C15580  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL
+   8  ITALIC   INTERNATIONAL SET 5    186  Prop                  [ ^       ' l r
+  X0C1559I  C0C15590  T1GI0361  CENTURY SCHOOLBOOK   MEDIUM   NORMAL   9  ITALIC
+   INTERNATIONAL SET 5    186  Prop                  [ ^   ?   @ k q  X0C175AI
+C0C175A0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   11  ITALIC   INTERNATIO
+NAL SET 5    186  Prop                   [ ^   ?   @ k q  X0C175BI  C0C175B0  T1
+GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   12  ITALIC   INTERNATIONAL SET 5
+ 186  Prop                   [ ^   ?   @ k q  X0C175DI  C0C175D0  T1GI0361  CENT
+URY SCHOOLBOOK   BOLD   NORMAL   14  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [ ^   ?   @ k q  X0C175FI  C0C175F0  T1GI0361  CENTURY SCHOOLBO
+OK   BOLD   NORMAL   16  ITALIC   INTERNATIONAL SET 5    186  Prop
+     [ ^   ?   @ k q  X0C175HI  C0C175H0  T1GI0361  CENTURY SCHOOLBOOK   BOLD
+NORMAL   18  ITALIC   INTERNATIONAL SET 5    186  Prop                   [ ^   ?
+   @ k q  X0C175JI  C0C175J0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   20
+ ITALIC   INTERNATIONAL SET 5    186  Prop                   [ ^   ?   @ k q  X0
+C175NI  C0C175N0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   24  ITALIC   IN
+TERNATIONAL SET 5    186  Prop                   [ ^   ?   @ k q  X0C175TI  C0C1
+75T0  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   30  ITALIC   INTERNATIONAL
+SET 5    186  Prop                   [ ^   ?   @ k q  X0C175ZI  C0C175Z0  T1GI03
+61  CENTURY SCHOOLBOOK   BOLD   NORMAL   36  ITALIC   INTERNATIONAL SET 5    186
+  Prop                   [ ^   ?   @ k q  X0C1750I  C0C17500  T1GI0361  CENTURY
+SCHOOLBOOK   BOLD   NORMAL   10  ITALIC   INTERNATIONAL SET 5    186  Prop
+             [ ^   ?   # j p  X0C1756I  C0C17560  T1GI0361  CENTURY SCHOOLBOOK
+ BOLD   NORMAL   6  ITALIC   INTERNATIONAL SET 5    186  Prop
+ [ ^   ?   # j p  X0C1757I  C0C17570  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORM
+AL   7  ITALIC   INTERNATIONAL SET 5    186  Prop                    [ ^   ?   #
+ j p  X0C1758I  C0C17580  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   8  ITAL
+IC   INTERNATIONAL SET 5    186  Prop                    [ ^   ?   # j p  X0C175
+9I  C0C17590  T1GI0361  CENTURY SCHOOLBOOK   BOLD   NORMAL   9  ITALIC   INTERNA
+TIONAL SET 5    186  Prop        q   b       [   !     | i    X0DORA    C0S0DOTR
+  T1DABASE  BOOK   MEDIUM   NORMAL   10     Austria/Germany F.R.- DABASE    129
+ Prop        q   b       [   !     |   k  X0DORB    C0S0DOTR  T1DBBASE  BOOK   M
+EDIUM   NORMAL   10     Belgium/Swiss/Luxembourg-DBBASE    189  Prop     q   b
+     [   !     |   k  X0DORD    C0S0DOTR  T1DDBASE  BOOK   MEDIUM   NORMAL   10
+    Denmark/Norway/Iceland - DDBASE    193  Prop         :       [   !     | d
+  X0DORE    C0S0DOTR  T1DEBASE  BOOK   MEDIUM   NORMAL   10     Finland/Sweden -
+ DEBASE    189  Prop     h           [   !     | @ b  X0DORF    C0S0DOTR  T1DFBA
+SE  BOOK   MEDIUM   NORMAL   10     France - DFBASE    138  Prop     h
+ [   !     | # a  X0DORI    C0S0DOTR  T1DIBASE  BOOK   MEDIUM   NORMAL   10
+Italy - DIBASE    140  Prop      h           [   !     | # a  X0DORJ    C0S0DOTR
+  T1V10274  BOOK   MEDIUM   NORMAL   10     Belgium - CECP    191  Prop      h
+         [   !     | :    X0DORK    C0S0DOTR  T1V10275  BOOK   MEDIUM   NORMAL
+ 10     Brazil - CECP    191  Prop           :       [   !     | a g  X0DORL
+C0S0DOTR  T1V10281  BOOK   MEDIUM   NORMAL   10     Japan (Latin) - CECP    191
+ Prop        h           [   !     | @ b  X0DORM    C0S0DOTR  T1V10282  BOOK   M
+EDIUM   NORMAL   10     Portugal - CECP    191  Prop     q   b       [   !     |
+      X0DORN    C0S0DOTR  T1DNBASE  BOOK   MEDIUM   NORMAL   10     Netherlands/
+Portugal - DNBASE    193  Prop       h           [   !     | # a  X0DORS    C0S0
+DOTR  T1DSBASE  BOOK   MEDIUM   NORMAL   10     Spain - DSBASE    193  Prop
+     :       [   !     | d    X0DORU    C0S0DOTR  T1DUBASE  BOOK   MEDIUM   NORM
+AL   10     United Kingdom - DUBASE    127  Prop     q   b       [   !     | f
+  X0DORZ    C0S0DOTR  T1001068  BOOK   MEDIUM   NORMAL   10     Text With Numeri
+c Spacing    126  Prop           h           [   !     | # a  X0DOR0    C0S0DOTR
+  T1V10871  BOOK   MEDIUM   NORMAL   10     Iceland - CECP    191  Prop
+ :       [   !     | = d  X0DOR1    C0S0DOTR  T1V10037  BOOK   MEDIUM   NORMAL
+ 10     USA/CANADA - CECP    191  Prop           q   b       [   !     | g    X0
+DOR2    C0S0DOTR  T1V10273  BOOK   MEDIUM   NORMAL   10     GERMANY F.R./AUSTRIA
+- CECP    191  Prop              :       [   !     | b h  X0DOR3    C0S0DOTR  T1
+V10277  BOOK   MEDIUM   NORMAL   10     DENMARK/NORWAY - CECP    191  Prop
+     :       [   !     | a g  X0DOR4    C0S0DOTR  T1V10278  BOOK   MEDIUM   NORM
+AL   10     FINLAND/SWEDEN- CECP    191  Prop        h           [   !     |   =
+  X0DOR5    C0S0DOTR  T1V10280  BOOK   MEDIUM   NORMAL   10     ITALY- CECP    1
+91  Prop         q   b       [   !     | g    X0DOR6    C0S0DOTR  T1V10284  BOOK
+   MEDIUM   NORMAL   10     SPAIN/LATIN AMERICA - CECP    191  Prop
+ :       [   !     | b h  X0DOR7    C0S0DOTR  T1V10285  BOOK   MEDIUM   NORMAL
+ 10     UNITED KINGDOM - CECP    191  Prop       h           [   !     | :    X0
+DOR8    C0S0DOTR  T1V10297  BOOK   MEDIUM   NORMAL   10     France - CECP    191
+  Prop           :       [   !     | ' c  X0DOR9    C0S0DOTR  T1V10500  BOOK   M
+EDIUM   NORMAL   10     INTERNATIONAL #5    191  Prop                :       [
+ !     | d    X0DOTR    C0S0DOTR  T1D0BASE  BOOK   MEDIUM   NORMAL   10     DCF
+REL 2 COMPATIBILITY    128  Prop     q   b       [   !       i    X0DUMP    C0L0
+DUMP  T1L0DUMP  DUMP   MEDIUM   NORMAL   8     LCS 3800-1 DUMP CHARACTER SET
+ 80  Fixed       q   b       [   $     | d    X0D224    C0S0D224  T1D0BASE  DATA
+1   MEDIUM   NORMAL   8     DCF REL 2 COMPATIBILITY    128  Fixed            q
+ b       [   -   % ? i    X0D225    C0S0D225  T1D0BASE  DATA1 BASE   MEDIUM   NO
+RMAL   8     DCF REL 2 COMPATIBILITY    128  Fixed           :       [
+ b h  X0D226    C0S0D226  T1D0BASE  DATA1   BOLD   NORMAL   8     DCF REL 2 COMP
+ATIBILITY    128  Fixed      q   b       [   $            X0D227    C0S0D227  T1
+D0BASE  DATA1   MEDIUM   NORMAL   8  ITALIC   DCF REL 2 COMPATIBILITY    128  Fi
+xed      q   b       [           h    X0EBRA    C0S0EBTR  T1DABASE  ESSAY   BOLD
+   NORMAL   10     Austria/Germany F.R.- DABASE    129  Prop         q   b
+ [             j  X0EBRB    C0S0EBTR  T1DBBASE  ESSAY   BOLD   NORMAL   10     B
+elgium/Swiss/Luxembourg-DBBASE    189  Prop      q   b       [             j  X0
+EBRD    C0S0EBTR  T1DDBASE  ESSAY   BOLD   NORMAL   10     Denmark/Norway/Icelan
+d - DDBASE    193  Prop          :       [           c i  X0EBRE    C0S0EBTR  T1
+DEBASE  ESSAY   BOLD   NORMAL   10     Finland/Sweden - DEBASE    189  Prop
+ h           [           # a  X0EBRF    C0S0EBTR  T1DFBASE  ESSAY   BOLD   NORMA
+L   10     France - DFBASE    138  Prop      h           [           :    X0EBRI
+    C0S0EBTR  T1DIBASE  ESSAY   BOLD   NORMAL   10     Italy - DIBASE    140  Pr
+op       h           [           :    X0EBRJ    C0S0EBTR  T1V10274  ESSAY   BOLD
+   NORMAL   10     Belgium - CECP    191  Prop       h           [             "
+  X0EBRK    C0S0EBTR  T1V10275  ESSAY   BOLD   NORMAL   10     Brazil - CECP
+191  Prop            :       [             f  X0EBRL    C0S0EBTR  T1V10281  ESSA
+Y   BOLD   NORMAL   10     Japan (Latin) - CECP    191  Prop         h
+ [           # a  X0EBRM    C0S0EBTR  T1V10282  ESSAY   BOLD   NORMAL   10     P
+ortugal - CECP    191  Prop      q   b       [           i    X0EBRN    C0S0EBTR
+  T1DNBASE  ESSAY   BOLD   NORMAL   10     Netherlands/Portugal - DNBASE    193
+ Prop        h           [           :    X0EBRS    C0S0EBTR  T1DSBASE  ESSAY
+BOLD   NORMAL   10     Spain - DSBASE    193  Prop           :       [
+ c i  X0EBRU    C0S0EBTR  T1DUBASE  ESSAY   BOLD   NORMAL   10     United Kingdo
+m - DUBASE    127  Prop      q   b       [           e    X0EBRZ    C0S0EBTR  T1
+001068  ESSAY   BOLD   NORMAL   10     Text With Numeric Spacing    126  Prop
+         h           [           :    X0EBR0    C0S0EBTR  T1V10871  ESSAY   BOLD
+   NORMAL   10     Iceland - CECP    191  Prop           :       [           ' c
+  X0EBR1    C0S0EBTR  T1V10037  ESSAY   BOLD   NORMAL   10     USA/CANADA - CECP
+    191  Prop            q   b       [           f    X0EBR2    C0S0EBTR  T1V102
+73  ESSAY   BOLD   NORMAL   10     GERMANY F.R./AUSTRIA- CECP    191  Prop
+         :       [           a g  X0EBR3    C0S0EBTR  T1V10277  ESSAY   BOLD   N
+ORMAL   10     DENMARK/NORWAY - CECP    191  Prop            :       [
+   f  X0EBR4    C0S0EBTR  T1V10278  ESSAY   BOLD   NORMAL   10     FINLAND/SWEDE
+N- CECP    191  Prop         h           [             '  X0EBR5    C0S0EBTR  T1
+V10280  ESSAY   BOLD   NORMAL   10     ITALY- CECP    191  Prop          q   b
+     [           f    X0EBR6    C0S0EBTR  T1V10284  ESSAY   BOLD   NORMAL   10
+   SPAIN/LATIN AMERICA - CECP    191  Prop               :       [           a g
+  X0EBR7    C0S0EBTR  T1V10285  ESSAY   BOLD   NORMAL   10     UNITED KINGDOM -
+CECP    191  Prop        h           [             "  X0EBR8    C0S0EBTR  T1V102
+97  ESSAY   BOLD   NORMAL   10     France - CECP    191  Prop        h
+ [           @ b  X0EBR9    C0S0EBTR  T1V10500  ESSAY   BOLD   NORMAL   10     I
+NTERNATIONAL #5    191  Prop         :       [           c i  X0EBTR    C0S0EBTR
+  T1D0BASE  ESSAY   BOLD   NORMAL   10     DCF REL 2 COMPATIBILITY    128  Prop
+                 [   $         o  X0EIRA    C0S0EITR  T1DABASE  ESSAY   MEDIUM
+ NORMAL   10  ITALIC   Austria/Germany F.R.- DABASE    129  Prop
+     [   $       l r  X0EIRB    C0S0EITR  T1DBBASE  ESSAY   MEDIUM   NORMAL   10
+  ITALIC   Belgium/Swiss/Luxembourg-DBBASE    189  Prop                  [   $
+     l r  X0EIRD    C0S0EITR  T1DDBASE  ESSAY   MEDIUM   NORMAL   10  ITALIC   D
+enmark/Norway/Iceland - DDBASE    193  Prop      q   b       [   $         j  X0
+EIRE    C0S0EITR  T1DEBASE  ESSAY   MEDIUM   NORMAL   10  ITALIC   Finland/Swede
+n - DEBASE    189  Prop          :       [   $       c i  X0EIRF    C0S0EITR  T1
+DFBASE  ESSAY   MEDIUM   NORMAL   10  ITALIC   France - DFBASE    138  Prop
+     :       [   $       b h  X0EIRI    C0S0EITR  T1DIBASE  ESSAY   MEDIUM   NOR
+MAL   10  ITALIC   Italy - DIBASE    140  Prop           :       [   $       b h
+  X0EIRJ    C0S0EITR  T1V10274  ESSAY   MEDIUM   NORMAL   10  ITALIC   Belgium -
+ CECP    191  Prop           :       [   $       a g  X0EIRK    C0S0EITR  T1V102
+75  ESSAY   MEDIUM   NORMAL   10  ITALIC   Brazil - CECP    191  Prop        q
+ b       [   $       h    X0EIRL    C0S0EITR  T1V10281  ESSAY   MEDIUM   NORMAL
+  10  ITALIC   Japan (Latin) - CECP    191  Prop             :       [   $
+ c i  X0EIRM    C0S0EITR  T1V10282  ESSAY   MEDIUM   NORMAL   10  ITALIC   Portu
+gal - CECP    191  Prop                  [   $       j p  X0EIRN    C0S0EITR  T1
+DNBASE  ESSAY   MEDIUM   NORMAL   10  ITALIC   Netherlands/Portugal - DNBASE
+193  Prop            :       [   $       b h  X0EIRS    C0S0EITR  T1DSBASE  ESSA
+Y   MEDIUM   NORMAL   10  ITALIC   Spain - DSBASE    193  Prop       q   b
+ [   $         j  X0EIRU    C0S0EITR  T1DUBASE  ESSAY   MEDIUM   NORMAL   10  IT
+ALIC   United Kingdom - DUBASE    127  Prop                  [   $         l  X0
+EIRZ    C0S0EITR  T1001068  ESSAY   MEDIUM   NORMAL   10  ITALIC   Text With Num
+eric Spacing    126  Prop                :       [   $       b h  X0EIR0    C0S0
+EITR  T1V10871  ESSAY   MEDIUM   NORMAL   10  ITALIC   Iceland - CECP    191  Pr
+op       q   b       [   $       e    X0EIR1    C0S0EITR  T1V10037  ESSAY   MEDI
+UM   NORMAL   10  ITALIC   USA/CANADA - CECP    191  Prop
+ [   $         m  X0EIR2    C0S0EITR  T1V10273  ESSAY   MEDIUM   NORMAL   10  IT
+ALIC   GERMANY F.R./AUSTRIA- CECP    191  Prop           q   b       [   $
+ i    X0EIR3    C0S0EITR  T1V10277  ESSAY   MEDIUM   NORMAL   10  ITALIC   DENMA
+RK/NORWAY - CECP    191  Prop        q   b       [   $       h    X0EIR4    C0S0
+EITR  T1V10278  ESSAY   MEDIUM   NORMAL   10  ITALIC   FINLAND/SWEDEN- CECP    1
+91  Prop             :       [   $       " e  X0EIR5    C0S0EITR  T1V10280  ESSA
+Y   MEDIUM   NORMAL   10  ITALIC   ITALY- CECP    191  Prop
+ [   $         m  X0EIR6    C0S0EITR  T1V10284  ESSAY   MEDIUM   NORMAL   10  IT
+ALIC   SPAIN/LATIN AMERICA - CECP    191  Prop           q   b       [   $
+ i    X0EIR7    C0S0EITR  T1V10285  ESSAY   MEDIUM   NORMAL   10  ITALIC   UNITE
+D KINGDOM - CECP    191  Prop            :       [   $       a g  X0EIR8    C0S0
+EITR  T1V10297  ESSAY   MEDIUM   NORMAL   10  ITALIC   France - CECP    191  Pro
+p            :       [   $       d    X0EIR9    C0S0EITR  T1V10500  ESSAY   MEDI
+UM   NORMAL   10  ITALIC   INTERNATIONAL #5    191  Prop     q   b       [   $
+       j  X0EITR    C0S0EITR  T1D0BASE  ESSAY   MEDIUM   NORMAL   10  ITALIC   D
+CF REL 2 COMPATIBILITY    128  Prop      q   b       [   !     | i    X0ELRA
+C0S0ELTR  T1DABASE  ESSAY   LIGHT   NORMAL   10     Austria/Germany F.R.- DABASE
+    129  Prop        q   b       [   !     |   k  X0ELRB    C0S0ELTR  T1DBBASE
+ESSAY   LIGHT   NORMAL   10     Belgium/Swiss/Luxembourg-DBBASE    189  Prop
+ q   b       [   !     |   k  X0ELRD    C0S0ELTR  T1DDBASE  ESSAY   LIGHT   NORM
+AL   10     Denmark/Norway/Iceland - DDBASE    193  Prop         :       [   !
+   | d    X0ELRE    C0S0ELTR  T1DEBASE  ESSAY   LIGHT   NORMAL   10     Finland/
+Sweden - DEBASE    189  Prop     h           [   !     | @ b  X0ELRF    C0S0ELTR
+  T1DFBASE  ESSAY   LIGHT   NORMAL   10     France - DFBASE    138  Prop     h
+         [   !     | # a  X0ELRI    C0S0ELTR  T1DIBASE  ESSAY   LIGHT   NORMAL
+ 10     Italy - DIBASE    140  Prop      h           [   !     | # a  X0ELRJ
+C0S0ELTR  T1V10274  ESSAY   LIGHT   NORMAL   10     Belgium - CECP    191  Prop
+     h           [   !     | :    X0ELRK    C0S0ELTR  T1V10275  ESSAY   LIGHT
+NORMAL   10     Brazil - CECP    191  Prop           :       [   !     | a g  X0
+ELRL    C0S0ELTR  T1V10281  ESSAY   LIGHT   NORMAL   10     Japan (Latin) - CECP
+    191  Prop        h           [   !     | @ b  X0ELRM    C0S0ELTR  T1V10282
+ESSAY   LIGHT   NORMAL   10     Portugal - CECP    191  Prop     q   b       [
+ !     |      X0ELRN    C0S0ELTR  T1DNBASE  ESSAY   LIGHT   NORMAL   10     Neth
+erlands/Portugal - DNBASE    193  Prop       h           [   !     | # a  X0ELRS
+    C0S0ELTR  T1DSBASE  ESSAY   LIGHT   NORMAL   10     Spain - DSBASE    193  P
+rop          :       [   !     | d    X0ELRU    C0S0ELTR  T1DUBASE  ESSAY   LIGH
+T   NORMAL   10     United Kingdom - DUBASE    127  Prop     q   b       [   !
+   | f    X0ELRZ    C0S0ELTR  T1001068  ESSAY   LIGHT   NORMAL   10     Text Wit
+h Numeric Spacing    126  Prop           h           [   !     | # a  X0ELR0
+C0S0ELTR  T1V10871  ESSAY   LIGHT   NORMAL   10     Iceland - CECP    191  Prop
+         :       [   !     | = d  X0ELR1    C0S0ELTR  T1V10037  ESSAY   LIGHT
+NORMAL   10     USA/CANADA - CECP    191  Prop           q   b       [   !     |
+ g    X0ELR2    C0S0ELTR  T1V10273  ESSAY   LIGHT   NORMAL   10     GERMANY F.R.
+/AUSTRIA- CECP    191  Prop              :       [   !     | b h  X0ELR3    C0S0
+ELTR  T1V10277  ESSAY   LIGHT   NORMAL   10     DENMARK/NORWAY - CECP    191  Pr
+op           :       [   !     | a g  X0ELR4    C0S0ELTR  T1V10278  ESSAY   LIGH
+T   NORMAL   10     FINLAND/SWEDEN- CECP    191  Prop        h           [   !
+   |   =  X0ELR5    C0S0ELTR  T1V10280  ESSAY   LIGHT   NORMAL   10     ITALY- C
+ECP    191  Prop         q   b       [   !     | g    X0ELR6    C0S0ELTR  T1V102
+84  ESSAY   LIGHT   NORMAL   10     SPAIN/LATIN AMERICA - CECP    191  Prop
+         :       [   !     | b h  X0ELR7    C0S0ELTR  T1V10285  ESSAY   LIGHT
+NORMAL   10     UNITED KINGDOM - CECP    191  Prop       h           [   !     |
+ :    X0ELR8    C0S0ELTR  T1V10297  ESSAY   LIGHT   NORMAL   10     France - CEC
+P    191  Prop           :       [   !     | ' c  X0ELR9    C0S0ELTR  T1V10500
+ESSAY   LIGHT   NORMAL   10     INTERNATIONAL #5    191  Prop                :
+     [   !     | d    X0ELTR    C0S0ELTR  T1D0BASE  ESSAY   LIGHT   NORMAL   10
+    DCF REL 2 COMPATIBILITY    128  Prop                 [   $         n  X0EOTR
+    C0S0EOTR  T1D0BASE  ESSAY   MEDIUM   NORMAL   10  OVERSTRUCK   DCF REL 2 COM
+PATIBILITY    128  Prop          q   b       [   $     ,      X0ESRA    C0S0ESTR
+  T1DABASE  ESSAY   MEDIUM   NORMAL   10     Austria/Germany F.R.- DABASE    129
+  Prop                   [   $     ,   l  X0ESRB    C0S0ESTR  T1DBBASE  ESSAY
+MEDIUM   NORMAL   10     Belgium/Swiss/Luxembourg-DBBASE    189  Prop
+             [   $     ,   l  X0ESRD    C0S0ESTR  T1DDBASE  ESSAY   MEDIUM   NOR
+MAL   10     Denmark/Norway/Iceland - DDBASE    193  Prop            q   b
+ [   $     , e    X0ESRE    C0S0ESTR  T1DEBASE  ESSAY   MEDIUM   NORMAL   10
+ Finland/Sweden - DEBASE    189  Prop                :       [   $     , ' c  X0
+ESRF    C0S0ESTR  T1DFBASE  ESSAY   MEDIUM   NORMAL   10     France - DFBASE
+138  Prop            h           [   $     , @ b  X0ESRI    C0S0ESTR  T1DIBASE
+ESSAY   MEDIUM   NORMAL   10     Italy - DIBASE    140  Prop     h           [
+ $     , @ b  X0ESRJ    C0S0ESTR  T1V10274  ESSAY   MEDIUM   NORMAL   10     Bel
+gium - CECP    191  Prop     h           [   $     , # a  X0ESRK    C0S0ESTR  T1
+V10275  ESSAY   MEDIUM   NORMAL   10     Brazil - CECP    191  Prop          :
+     [   $     , b h  X0ESRL    C0S0ESTR  T1V10281  ESSAY   MEDIUM   NORMAL   10
+     Japan (Latin) - CECP    191  Prop           :       [   $     , ' c  X0ESRM
+    C0S0ESTR  T1V10282  ESSAY   MEDIUM   NORMAL   10     Portugal - CECP    191
+ Prop            q   b       [   $     ,   j  X0ESRN    C0S0ESTR  T1DNBASE  ESSA
+Y   MEDIUM   NORMAL   10     Netherlands/Portugal - DNBASE    193  Prop      h
+         [   $     , @ b  X0ESRS    C0S0ESTR  T1DSBASE  ESSAY   MEDIUM   NORMAL
+  10     Spain - DSBASE    193  Prop     q   b       [   $     , e    X0ESRU
+C0S0ESTR  T1DUBASE  ESSAY   MEDIUM   NORMAL   10     United Kingdom - DUBASE
+127  Prop            q   b       [   $     , g    X0ESRZ    C0S0ESTR  T1001068
+ESSAY   MEDIUM   NORMAL   10     Text With Numeric Spacing    126  Prop
+ h           [   $     , @ b  X0ESR0    C0S0ESTR  T1V10871  ESSAY   MEDIUM   NOR
+MAL   10     Iceland - CECP    191  Prop         :       [   $     , " e  X0ESR1
+    C0S0ESTR  T1V10037  ESSAY   MEDIUM   NORMAL   10     USA/CANADA - CECP    19
+1  Prop          q   b       [   $     , h    X0ESR2    C0S0ESTR  T1V10273  ESSA
+Y   MEDIUM   NORMAL   10     GERMANY F.R./AUSTRIA- CECP    191  Prop
+ :       [   $     , c i  X0ESR3    C0S0ESTR  T1V10277  ESSAY   MEDIUM   NORMAL
+  10     DENMARK/NORWAY - CECP    191  Prop          :       [   $     , b h  X0
+ESR4    C0S0ESTR  T1V10278  ESSAY   MEDIUM   NORMAL   10     FINLAND/SWEDEN- CEC
+P    191  Prop       h           [   $     ,   "  X0ESR5    C0S0ESTR  T1V10280
+ESSAY   MEDIUM   NORMAL   10     ITALY- CECP    191  Prop        q   b       [
+ $     , h    X0ESR6    C0S0ESTR  T1V10284  ESSAY   MEDIUM   NORMAL   10     SPA
+IN/LATIN AMERICA - CECP    191  Prop             :       [   $     , c i  X0ESR7
+    C0S0ESTR  T1V10285  ESSAY   MEDIUM   NORMAL   10     UNITED KINGDOM - CECP
+  191  Prop      h           [   $     , # a  X0ESR8    C0S0ESTR  T1V10297  ESSA
+Y   MEDIUM   NORMAL   10     France - CECP    191  Prop          :       [   $
+   , = d  X0ESR9    C0S0ESTR  T1V10500  ESSAY   MEDIUM   NORMAL   10     INTERNA
+TIONAL #5    191  Prop           q   b       [   $     , e    X0ESTR    C0S0ESTR
+  T1D0BASE  ESSAY   MEDIUM   NORMAL   10     DCF REL 2 COMPATIBILITY    128  Pro
+p            q   b       [   *     %   j  X0FM10    C0L0FM10  T1L00FMT  FORMAT
+ MEDIUM   NORMAL   10     LCS 3800-1 FORMAT CHARACTERS     37  Fixed     q   b
+     [   *     ,      X0FM12    C0L0FM12  T1L00FMT  FORMAT   MEDIUM   NORMAL   9
+     LCS 3800-1 FORMAT CHARACTERS     37  Fixed      q   b       [   *     ,
+  X0FM15    C0L0FM15  T1L00FMT  FORMAT   MEDIUM   NORMAL   8     LCS 3800-1 FORM
+AT CHARACTERS     37  Fixed                  [   $     |   k  X0F224A   C0S0D224
+  T1GI0395  DATA1   MEDIUM   NORMAL   8     UNITED STATES, CANADA (ENGLISH)    1
+86  Fixed            h           [   !       :    X0GBEJ    C0D0GB12  T1V10274
+GOTHIC   BOLD   NORMAL   9     Belgium - CECP    191  Fixed      h           [
+ !         "  X0GBEK    C0D0GB12  T1V10275  GOTHIC   BOLD   NORMAL   9     Brazi
+l - CECP    191  Fixed           :       [   !         f  X0GBEL    C0D0GB12  T1
+V10281  GOTHIC   BOLD   NORMAL   9     Japan (Latin) - CECP    191  Fixed
+ h           [   !       # a  X0GBEM    C0D0GB12  T1V10282  GOTHIC   BOLD   NORM
+AL   9     Portugal - CECP    191  Fixed     h           [   !       :    X0GBE0
+    C0D0GB12  T1V10871  GOTHIC   BOLD   NORMAL   9     Iceland - CECP    191  Fi
+xed          :       [   !       ' c  X0GBE1    C0D0GB12  T1V10037  GOTHIC   BOL
+D   NORMAL   9     USA/CANADA - CECP    191  Fixed           q   b       [   !
+     f    X0GBE2    C0D0GB12  T1V10273  GOTHIC   BOLD   NORMAL   9     GERMANY F
+.R./AUSTRIA- CECP    191  Fixed              :       [   !       a g  X0GBE3
+C0D0GB12  T1V10277  GOTHIC   BOLD   NORMAL   9     DENMARK/NORWAY - CECP    191
+ Fixed           :       [   !         f  X0GBE4    C0D0GB12  T1V10278  GOTHIC
+ BOLD   NORMAL   9     FINLAND/SWEDEN- CECP    191  Fixed        h           [
+ !         '  X0GBE5    C0D0GB12  T1V10280  GOTHIC   BOLD   NORMAL   9     ITALY
+- CECP    191  Fixed         q   b       [   !       f    X0GBE6    C0D0GB12  T1
+V10284  GOTHIC   BOLD   NORMAL   9     SPAIN/LATIN AMERICA - CECP    191  Fixed
+             :       [   !       a g  X0GBE7    C0D0GB12  T1V10285  GOTHIC   BOL
+D   NORMAL   9     UNITED KINGDOM - CECP    191  Fixed       h           [   !
+       "  X0GBE8    C0D0GB12  T1V10297  GOTHIC   BOLD   NORMAL   9     France -
+CECP    191  Fixed           :       [   !       @ b  X0GBE9    C0D0GB12  T1V105
+00  GOTHIC   BOLD   NORMAL   9     INTERNATIONAL #5    191  Fixed            q
+ b       [   !     | i    X0GB0A    C0D0GB10  T1DABASE  GOTHIC   BOLD   NORMAL
+ 10     Austria/Germany F.R.- DABASE    129  Fixed                   [   !     |
+   k  X0GB0B    C0D0GB10  T1DBBASE  GOTHIC   BOLD   NORMAL   10     Belgium/Swis
+s/Luxembourg-DBBASE    189  Fixed                        [   !     |   k  X0GB0D
+    C0D0GB10  T1DDBASE  GOTHIC   BOLD   NORMAL   10     Denmark/Norway/Iceland -
+ DDBASE    193  Fixed            q   b       [   !     | d    X0GB0E    C0D0GB10
+  T1DEBASE  GOTHIC   BOLD   NORMAL   10     Finland/Sweden - DEBASE    189  Fixe
+d                :       [   !     | @ b  X0GB0F    C0D0GB10  T1DFBASE  GOTHIC
+ BOLD   NORMAL   10     France - DFBASE    138  Fixed            h           [
+ !     | # a  X0GB0I    C0D0GB10  T1DIBASE  GOTHIC   BOLD   NORMAL   10     Ital
+y - DIBASE    140  Fixed     h           [   !     | # a  X0GB0J    C0D0GB10  T1
+V10274  GOTHIC   BOLD   NORMAL   10     Belgium - CECP    191  Fixed     h
+     [   !     | :    X0GB0K    C0D0GB10  T1V10275  GOTHIC   BOLD   NORMAL   10
+    Brazil - CECP    191  Fixed          :       [   !     | a g  X0GB0L    C0D0
+GB10  T1V10281  GOTHIC   BOLD   NORMAL   10     Japan (Latin) - CECP    191  Fix
+ed           :       [   !     | @ b  X0GB0M    C0D0GB10  T1V10282  GOTHIC   BOL
+D   NORMAL   10     Portugal - CECP    191  Fixed            q   b       [   !
+   |      X0GB0N    C0D0GB10  T1DNBASE  GOTHIC   BOLD   NORMAL   10     Netherla
+nds/Portugal - DNBASE    193  Fixed      h           [   !     | # a  X0GB0S
+C0D0GB10  T1DSBASE  GOTHIC   BOLD   NORMAL   10     Spain - DSBASE    193  Fixed
+     q   b       [   !     | d    X0GB0U    C0D0GB10  T1DUBASE  GOTHIC   BOLD
+NORMAL   10     United Kingdom - DUBASE    127  Fixed            q   b       [
+ !     | f    X0GB0Z    C0D0GB10  T1001068  GOTHIC   BOLD   NORMAL   10     Text
+ With Numeric Spacing    126  Fixed          h           [   !     | # a  X0GB00
+    C0D0GB10  T1V10871  GOTHIC   BOLD   NORMAL   10     Iceland - CECP    191  F
+ixed         :       [   !     | = d  X0GB01    C0D0GB10  T1V10037  GOTHIC   BOL
+D   NORMAL   10     USA/CANADA - CECP    191  Fixed          q   b       [   !
+   | g    X0GB02    C0D0GB10  T1V10273  GOTHIC   BOLD   NORMAL   10     GERMANY
+F.R./AUSTRIA- CECP    191  Fixed             :       [   !     | b h  X0GB03
+C0D0GB10  T1V10277  GOTHIC   BOLD   NORMAL   10     DENMARK/NORWAY - CECP    191
+  Fixed          :       [   !     | a g  X0GB04    C0D0GB10  T1V10278  GOTHIC
+ BOLD   NORMAL   10     FINLAND/SWEDEN- CECP    191  Fixed       h           [
+ !     |   =  X0GB05    C0D0GB10  T1V10280  GOTHIC   BOLD   NORMAL   10     ITAL
+Y- CECP    191  Fixed        q   b       [   !     | g    X0GB06    C0D0GB10  T1
+V10284  GOTHIC   BOLD   NORMAL   10     SPAIN/LATIN AMERICA - CECP    191  Fixed
+             :       [   !     | b h  X0GB07    C0D0GB10  T1V10285  GOTHIC   BOL
+D   NORMAL   10     UNITED KINGDOM - CECP    191  Fixed      h           [   !
+   | :    X0GB08    C0D0GB10  T1V10297  GOTHIC   BOLD   NORMAL   10     France -
+ CECP    191  Fixed          :       [   !     | ' c  X0GB09    C0D0GB10  T1V105
+00  GOTHIC   BOLD   NORMAL   10     INTERNATIONAL #5    191  Fixed           q
+ b       [   !     | d    X0GB10    C0D0GB10  T1D0BASE  GOTHIC   BOLD   NORMAL
+ 10     DCF REL 2 COMPATIBILITY    128  Fixed                :       [   !
+ c i  X0GB12    C0D0GB12  T1D0BASE  GOTHIC   BOLD   NORMAL   9     DCF REL 2 COM
+PATIBILITY    128  Fixed     q   b       [   !       h    X0GB2A    C0D0GB12  T1
+DABASE  GOTHIC   BOLD   NORMAL   9     Austria/Germany F.R.- DABASE    129  Fixe
+d        q   b       [   !         j  X0GB2B    C0D0GB12  T1DBBASE  GOTHIC   BOL
+D   NORMAL   9     Belgium/Swiss/Luxembourg-DBBASE    189  Fixed     q   b
+ [   !         j  X0GB2D    C0D0GB12  T1DDBASE  GOTHIC   BOLD   NORMAL   9     D
+enmark/Norway/Iceland - DDBASE    193  Fixed         :       [   !       c i  X0
+GB2E    C0D0GB12  T1DEBASE  GOTHIC   BOLD   NORMAL   9     Finland/Sweden - DEBA
+SE    189  Fixed     h           [   !       # a  X0GB2F    C0D0GB12  T1DFBASE
+GOTHIC   BOLD   NORMAL   9     France - DFBASE    138  Fixed     h           [
+ !       :    X0GB2I    C0D0GB12  T1DIBASE  GOTHIC   BOLD   NORMAL   9     Italy
+ - DIBASE    140  Fixed      q   b       [   !       i    X0GB2N    C0D0GB12  T1
+DNBASE  GOTHIC   BOLD   NORMAL   9     Netherlands/Portugal - DNBASE    193  Fix
+ed       h           [   !       :    X0GB2S    C0D0GB12  T1DSBASE  GOTHIC   BOL
+D   NORMAL   9     Spain - DSBASE    193  Fixed          :       [   !       c i
+  X0GB2U    C0D0GB12  T1DUBASE  GOTHIC   BOLD   NORMAL   9     United Kingdom -
+DUBASE    127  Fixed     q   b       [   !       e    X0GB2Z    C0D0GB12  T10010
+68  GOTHIC   BOLD   NORMAL   9     Text With Numeric Spacing    126  Fixed
+                 [   * _       l  X0GC15    C0D0GC15  T1D0BASE  GOTHIC   MEDIUM
+  SEMI-CONDENSED   7     DCF REL 2 COMPATIBILITY    128  Fixed
+     [   * _       n  X0GC5Z    C0D0GC15  T1001068  GOTHIC   MEDIUM   SEMI-CONDE
+NSED   7     Text With Numeric Spacing    126  Fixed                     [ )
+     l r  X0GFC     C0L00GSC  T1L0FOLD  GOTHIC UPPERCASE   MEDIUM   CONDENSED
+6     LCS 3800-1 GOTHIC FOLDED    252  Fixed     y   k       [   >   # = r    X0
+GFT1    C0T0MACD  T1L0FOLD  MACDONALD DOUGLAS FOLDED   MEDIUM   NORMAL   10
+LCS 3800-1 GOTHIC FOLDED    252  Prop        q   b       [   *     % g    X0GF10
+    C0D0GT10  T1L0FOLD  GOTHIC   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC FOLD
+ED    252  Fixed         q   b       [   *     , f    X0GF12    C0D0GT12  T1L0FO
+LD  GOTHIC   MEDIUM   NORMAL   9     LCS 3800-1 GOTHIC FOLDED    252  Fixed
+     y   k       [   >   # = r    X0GF14    C0TDGF14  T1L0FOLD  MACDONALD DOUGLA
+S FOLDED   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC FOLDED    252  Prop
+ q   b       [   *     , f    X0GF15    C0D0GT15  T1L0FOLD  GOTHIC   MEDIUM   NO
+RMAL   8     LCS 3800-1 GOTHIC FOLDED    252  Fixed          y   k       [   >
+ # = r    X0GF16    C0TDGF16  T1L0FOLD  MACDONALD DOUGLAS FOLDED   MEDIUM   NORM
+AL   10     LCS 3800-1 GOTHIC FOLDED    252  Fixed           :       [   *
+ b h  X0GIEJ    C0D0GI12  T1V10274  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Belgi
+um - CECP    191  Fixed          :       [   *       a g  X0GIEK    C0D0GI12  T1
+V10275  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Brazil - CECP    191  Fixed
+ q   b       [   *       h    X0GIEL    C0D0GI12  T1V10281  GOTHIC   MEDIUM   NO
+RMAL   9  ITALIC   Japan (Latin) - CECP    191  Fixed            :       [   *
+     c i  X0GIEM    C0D0GI12  T1V10282  GOTHIC   MEDIUM   NORMAL   9  ITALIC   P
+ortugal - CECP    191  Fixed         :       [   *       b h  X0GIE0    C0D0GI12
+  T1V10871  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Iceland - CECP    191  Fixed
+     q   b       [   *       e    X0GIE1    C0D0GI12  T1V10037  GOTHIC   MEDIUM
+  NORMAL   9  ITALIC   USA/CANADA - CECP    191  Fixed                       [
+ *         m  X0GIE2    C0D0GI12  T1V10273  GOTHIC   MEDIUM   NORMAL   9  ITALIC
+   GERMANY F.R./AUSTRIA- CECP    191  Fixed          q   b       [   *       i
+  X0GIE3    C0D0GI12  T1V10277  GOTHIC   MEDIUM   NORMAL   9  ITALIC   DENMARK/N
+ORWAY - CECP    191  Fixed       q   b       [   *       h    X0GIE4    C0D0GI12
+  T1V10278  GOTHIC   MEDIUM   NORMAL   9  ITALIC   FINLAND/SWEDEN- CECP    191
+Fixed            :       [   *       " e  X0GIE5    C0D0GI12  T1V10280  GOTHIC
+ MEDIUM   NORMAL   9  ITALIC   ITALY- CECP    191  Fixed                     [
+ *         m  X0GIE6    C0D0GI12  T1V10284  GOTHIC   MEDIUM   NORMAL   9  ITALIC
+   SPAIN/LATIN AMERICA - CECP    191  Fixed          q   b       [   *       i
+  X0GIE7    C0D0GI12  T1V10285  GOTHIC   MEDIUM   NORMAL   9  ITALIC   UNITED KI
+NGDOM - CECP    191  Fixed           :       [   *       a g  X0GIE8    C0D0GI12
+  T1V10297  GOTHIC   MEDIUM   NORMAL   9  ITALIC   France - CECP    191  Fixed
+     q   b       [   *       d    X0GIE9    C0D0GI12  T1V10500  GOTHIC   MEDIUM
+  NORMAL   9  ITALIC   INTERNATIONAL #5    191  Fixed            q   b       [
+ *         j  X0GI12    C0D0GI12  T1D0BASE  GOTHIC   MEDIUM   NORMAL   9  ITALIC
+   DCF REL 2 COMPATIBILITY    128  Fixed                 [   *         o  X0GI2A
+    C0D0GI12  T1DABASE  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Austria/Germany F
+.R.- DABASE    129  Fixed                    [   *       l r  X0GI2B    C0D0GI12
+  T1DBBASE  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Belgium/Swiss/Luxembourg-DBBA
+SE    189  Fixed                 [   *       l r  X0GI2D    C0D0GI12  T1DDBASE
+GOTHIC   MEDIUM   NORMAL   9  ITALIC   Denmark/Norway/Iceland - DDBASE    193  F
+ixed     q   b       [   *         j  X0GI2E    C0D0GI12  T1DEBASE  GOTHIC   MED
+IUM   NORMAL   9  ITALIC   Finland/Sweden - DEBASE    189  Fixed         :
+ [   *       c i  X0GI2F    C0D0GI12  T1DFBASE  GOTHIC   MEDIUM   NORMAL   9  IT
+ALIC   France - DFBASE    138  Fixed         :       [   *       b h  X0GI2I
+C0D0GI12  T1DIBASE  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Italy - DIBASE    140
+  Fixed                  [   *       j p  X0GI2N    C0D0GI12  T1DNBASE  GOTHIC
+ MEDIUM   NORMAL   9  ITALIC   Netherlands/Portugal - DNBASE    193  Fixed
+     :       [   *       b h  X0GI2S    C0D0GI12  T1DSBASE  GOTHIC   MEDIUM   NO
+RMAL   9  ITALIC   Spain - DSBASE    193  Fixed      q   b       [   *         j
+  X0GI2U    C0D0GI12  T1DUBASE  GOTHIC   MEDIUM   NORMAL   9  ITALIC   United Ki
+ngdom - DUBASE    127  Fixed                 [   *         l  X0GI2Z    C0D0GI12
+  T1001068  GOTHIC   MEDIUM   NORMAL   9  ITALIC   Text With Numeric Spacing
+126  Fixed               :       [   -   % ?   f  X0GLEJ    C0D0GL12  T1V10274
+GOTHIC   SEMI-LIGHT   NORMAL   9     Belgium - CECP    191  Fixed            :
+     [   -   % ? " e  X0GLEK    C0D0GL12  T1V10275  GOTHIC   SEMI-LIGHT   NORMAL
+   9     Brazil - CECP    191  Fixed         q   b       [   -   % ? f    X0GLEL
+    C0D0GL12  T1V10281  GOTHIC   SEMI-LIGHT   NORMAL   9     Japan (Latin) - CEC
+P    191  Fixed              :       [   -   % ? a g  X0GLEM    C0D0GL12  T1V102
+82  GOTHIC   SEMI-LIGHT   NORMAL   9     Portugal - CECP    191  Fixed
+ :       [   -   % ?   f  X0GLE0    C0D0GL12  T1V10871  GOTHIC   SEMI-LIGHT   NO
+RMAL   9     Iceland - CECP    191  Fixed            :       [   -   % ? c i  X0
+GLE1    C0D0GL12  T1V10037  GOTHIC   SEMI-LIGHT   NORMAL   9     USA/CANADA - CE
+CP    191  Fixed                 [   -   % ?   k  X0GLE2    C0D0GL12  T1V10273
+GOTHIC   SEMI-LIGHT   NORMAL   9     GERMANY F.R./AUSTRIA- CECP    191  Fixed
+         q   b       [   -   % ? g    X0GLE3    C0D0GL12  T1V10277  GOTHIC   SEM
+I-LIGHT   NORMAL   9     DENMARK/NORWAY - CECP    191  Fixed         q   b
+ [   -   % ? f    X0GLE4    C0D0GL12  T1V10278  GOTHIC   SEMI-LIGHT   NORMAL   9
+     FINLAND/SWEDEN- CECP    191  Fixed              :       [   -   % ? ' c  X0
+GLE5    C0D0GL12  T1V10280  GOTHIC   SEMI-LIGHT   NORMAL   9     ITALY- CECP
+191  Fixed                       [   -   % ?   k  X0GLE6    C0D0GL12  T1V10284
+GOTHIC   SEMI-LIGHT   NORMAL   9     SPAIN/LATIN AMERICA - CECP    191  Fixed
+         q   b       [   -   % ? g    X0GLE7    C0D0GL12  T1V10285  GOTHIC   SEM
+I-LIGHT   NORMAL   9     UNITED KINGDOM - CECP    191  Fixed             :
+ [   -   % ? " e  X0GLE8    C0D0GL12  T1V10297  GOTHIC   SEMI-LIGHT   NORMAL   9
+     France - CECP    191  Fixed             :       [   -   % ? b h  X0GLE9
+C0D0GL12  T1V10500  GOTHIC   SEMI-LIGHT   NORMAL   9     INTERNATIONAL #5    191
+  Fixed          :       [   -   _   a g  X0GL0J    C0D0GL10  T1V10274  GOTHIC
+ SEMI-LIGHT   NORMAL   10     Belgium - CECP    191  Fixed           :       [
+ -   _     f  X0GL0K    C0D0GL10  T1V10275  GOTHIC   SEMI-LIGHT   NORMAL   10
+  Brazil - CECP    191  Fixed        q   b       [   -   _   g    X0GL0L    C0D0
+GL10  T1V10281  GOTHIC   SEMI-LIGHT   NORMAL   10     Japan (Latin) - CECP    19
+1  Fixed             :       [   -   _   b h  X0GL0M    C0D0GL10  T1V10282  GOTH
+IC   SEMI-LIGHT   NORMAL   10     Portugal - CECP    191  Fixed
+ [   -   _     k  X0GL0Z    C0D0GL10  T1001068  GOTHIC   SEMI-LIGHT   NORMAL   1
+0     Text With Numeric Spacing    126  Fixed                :       [   -   _
+ a g  X0GL00    C0D0GL10  T1V10871  GOTHIC   SEMI-LIGHT   NORMAL   10     Icelan
+d - CECP    191  Fixed       q   b       [   -   _   d    X0GL01    C0D0GL10  T1
+V10037  GOTHIC   SEMI-LIGHT   NORMAL   10     USA/CANADA - CECP    191  Fixed
+                     [   -   _     l  X0GL02    C0D0GL10  T1V10273  GOTHIC   SEM
+I-LIGHT   NORMAL   10     GERMANY F.R./AUSTRIA- CECP    191  Fixed           q
+ b       [   -   _   h    X0GL03    C0D0GL10  T1V10277  GOTHIC   SEMI-LIGHT   NO
+RMAL   10     DENMARK/NORWAY - CECP    191  Fixed        q   b       [   -   _
+ g    X0GL04    C0D0GL10  T1V10278  GOTHIC   SEMI-LIGHT   NORMAL   10     FINLAN
+D/SWEDEN- CECP    191  Fixed             :       [   -   _   = d  X0GL05    C0D0
+GL10  T1V10280  GOTHIC   SEMI-LIGHT   NORMAL   10     ITALY- CECP    191  Fixed
+                     [   -   _     l  X0GL06    C0D0GL10  T1V10284  GOTHIC   SEM
+I-LIGHT   NORMAL   10     SPAIN/LATIN AMERICA - CECP    191  Fixed           q
+ b       [   -   _   h    X0GL07    C0D0GL10  T1V10285  GOTHIC   SEMI-LIGHT   NO
+RMAL   10     UNITED KINGDOM - CECP    191  Fixed            :       [   -   _
+   f  X0GL08    C0D0GL10  T1V10297  GOTHIC   SEMI-LIGHT   NORMAL   10     France
+ - CECP    191  Fixed            :       [   -   _   c i  X0GL09    C0D0GL10  T1
+V10500  GOTHIC   SEMI-LIGHT   NORMAL   10     INTERNATIONAL #5    191  Fixed
+ q   b       [   -   _        X0GL10    C0D0GL10  T1D0BASE  GOTHIC   SEMI-LIGHT
+  NORMAL   10     DCF REL 2 COMPATIBILITY    128  Fixed      q   b       [   -
+ % ? i    X0GL12    C0D0GL12  T1D0BASE  GOTHIC   SEMI-LIGHT   NORMAL   9     DCF
+ REL 2 COMPATIBILITY    128  Fixed       q   b       [   -   % ? i    X0GL15
+C0D0GL15  T1D0BASE  GOTHIC   SEMI-LIGHT   NORMAL   8     DCF REL 2 COMPATIBILITY
+    128  Fixed       y   k       [       @ " r    X0GL16    C0TDGL16  T1D0BASE
+SONORAN SANS SERIF TD BANK   MEDIUM   NORMAL   8     DCF REL 2 COMPATIBILITY
+128  Fixed       y   k       [       @ " r    X0GL17    C0TDGL17  T1D0BASE  SONO
+RAN SANS SERIF TD BANK   MEDIUM   NORMAL   8     DCF REL 2 COMPATIBILITY    128
+ Fixed       y   k       [       @ " r    X0GL19    C0TDGL19  T1D0BASE  SONORAN
+SANS SERIF TD BANK   MEDIUM   NORMAL   8     DCF REL 2 COMPATIBILITY    128  Fix
+ed       q   b       [   -   % ?   j  X0GL2Z    C0D0GL12  T1001068  GOTHIC   SEM
+I-LIGHT   NORMAL   9     Text With Numeric Spacing    126  Fixed         :
+ [   -   % ?   f  X0GL5J    C0D0GL15  T1V10274  GOTHIC   SEMI-LIGHT   NORMAL   8
+     Belgium - CECP    191  Fixed            :       [   -   % ? " e  X0GL5K
+C0D0GL15  T1V10275  GOTHIC   SEMI-LIGHT   NORMAL   8     Brazil - CECP    191  F
+ixed         q   b       [   -   % ? f    X0GL5L    C0D0GL15  T1V10281  GOTHIC
+ SEMI-LIGHT   NORMAL   8     Japan (Latin) - CECP    191  Fixed              :
+     [   -   % ? a g  X0GL5M    C0D0GL15  T1V10282  GOTHIC   SEMI-LIGHT   NORMAL
+   8     Portugal - CECP    191  Fixed       q   b       [   -   % ?   j  X0GL5Z
+    C0D0GL15  T1001068  GOTHIC   SEMI-LIGHT   NORMAL   8     Text With Numeric S
+pacing    126  Fixed         :       [   -   % ?   f  X0GL50    C0D0GL15  T1V108
+71  GOTHIC   SEMI-LIGHT   NORMAL   8     Iceland - CECP    191  Fixed
+ :       [   -   % ? c i  X0GL51    C0D0GL15  T1V10037  GOTHIC   SEMI-LIGHT   NO
+RMAL   8     USA/CANADA - CECP    191  Fixed                 [   -   % ?   k  X0
+GL52    C0D0GL15  T1V10273  GOTHIC   SEMI-LIGHT   NORMAL   8     GERMANY F.R./AU
+STRIA- CECP    191  Fixed            q   b       [   -   % ? g    X0GL53    C0D0
+GL15  T1V10277  GOTHIC   SEMI-LIGHT   NORMAL   8     DENMARK/NORWAY - CECP    19
+1  Fixed         q   b       [   -   % ? f    X0GL54    C0D0GL15  T1V10278  GOTH
+IC   SEMI-LIGHT   NORMAL   8     FINLAND/SWEDEN- CECP    191  Fixed
+ :       [   -   % ? ' c  X0GL55    C0D0GL15  T1V10280  GOTHIC   SEMI-LIGHT   NO
+RMAL   8     ITALY- CECP    191  Fixed                       [   -   % ?   k  X0
+GL56    C0D0GL15  T1V10284  GOTHIC   SEMI-LIGHT   NORMAL   8     SPAIN/LATIN AME
+RICA - CECP    191  Fixed            q   b       [   -   % ? g    X0GL57    C0D0
+GL15  T1V10285  GOTHIC   SEMI-LIGHT   NORMAL   8     UNITED KINGDOM - CECP    19
+1  Fixed             :       [   -   % ? " e  X0GL58    C0D0GL15  T1V10297  GOTH
+IC   SEMI-LIGHT   NORMAL   8     France - CECP    191  Fixed             :
+ [   -   % ? b h  X0GL59    C0D0GL15  T1V10500  GOTHIC   SEMI-LIGHT   NORMAL   8
+     INTERNATIONAL #5    191  Fixed          :       [   *     %   f  X0GN
+C0D0GT10  T1L000GN  GOTHIC   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC     64
+Fixed        q   b       [ -         i    X0GPEJ    C0D0GP12  T1V10274  GOTHIC P
+ROPORTIONAL   MEDIUM   NORMAL   9     Belgium - CECP    191  Prop        q   b
+     [ -         h    X0GPEK    C0D0GP12  T1V10275  GOTHIC PROPORTIONAL   MEDIUM
+   NORMAL   9     Brazil - CECP    191  Prop                     [ -           n
+  X0GPEL    C0D0GP12  T1V10281  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Ja
+pan (Latin) - CECP    191  Prop          q   b       [ -              X0GPEM
+C0D0GP12  T1V10282  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Portugal - CEC
+P    191  Prop       q   b       [ -         i    X0GPE0    C0D0GP12  T1V10871
+GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Iceland - CECP    191  Prop
+ q   b       [ -           k  X0GPE1    C0D0GP12  T1V10037  GOTHIC PROPORTIONAL
+  MEDIUM   NORMAL   9     USA/CANADA - CECP    191  Prop     y   k       [ -
+     n    X0GPE2    C0D0GP12  T1V10273  GOTHIC PROPORTIONAL   MEDIUM   NORMAL
+9     GERMANY F.R./AUSTRIA- CECP    191  Prop                        [ -
+   o  X0GPE3    C0D0GP12  T1V10277  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9
+  DENMARK/NORWAY - CECP    191  Prop                     [ -           n  X0GPE4
+    C0D0GP12  T1V10278  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     FINLAND/SW
+EDEN- CECP    191  Prop          q   b       [ -         f    X0GPE5    C0D0GP12
+  T1V10280  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     ITALY- CECP    191  Pr
+op           y   k       [ -         n    X0GPE6    C0D0GP12  T1V10284  GOTHIC P
+ROPORTIONAL   MEDIUM   NORMAL   9     SPAIN/LATIN AMERICA - CECP    191  Prop
+                     [ -           o  X0GPE7    C0D0GP12  T1V10285  GOTHIC PROPO
+RTIONAL   MEDIUM   NORMAL   9     UNITED KINGDOM - CECP    191  Prop         q
+ b       [ -         h    X0GPE8    C0D0GP12  T1V10297  GOTHIC PROPORTIONAL   ME
+DIUM   NORMAL   9     France - CECP    191  Prop         q   b       [ -
+   j  X0GPE9    C0D0GP12  T1V10500  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9
+  INTERNATIONAL #5    191  Prop                  [ -         j p  X0GP12    C0D0
+GP12  T1D0GP12  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     DCF GP12 COMPATIBI
+LITY    126  Prop        y   k       [ -         p    X0GP2A    C0D0GP12  T1DABA
+SE  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Austria/Germany F.R.- DABASE
+  129  Prop          y   k       [ -              X0GP2B    C0D0GP12  T1DBBASE
+GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Belgium/Swiss/Luxembourg-DBBASE
+ 189  Prop       y   k       [ -              X0GP2D    C0D0GP12  T1DDBASE  GOTH
+IC PROPORTIONAL   MEDIUM   NORMAL   9     Denmark/Norway/Iceland - DDBASE    193
+  Prop                   [ -         k q  X0GP2E    C0D0GP12  T1DEBASE  GOTHIC P
+ROPORTIONAL   MEDIUM   NORMAL   9     Finland/Sweden - DEBASE    189  Prop
+ q   b       [ -              X0GP2F    C0D0GP12  T1DFBASE  GOTHIC PROPORTIONAL
+  MEDIUM   NORMAL   9     France - DFBASE    138  Prop       q   b       [ -
+     i    X0GP2I    C0D0GP12  T1DIBASE  GOTHIC PROPORTIONAL   MEDIUM   NORMAL
+9     Italy - DIBASE    140  Prop        y   k       [ -         q    X0GP2N
+C0D0GP12  T1DNBASE  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Netherlands/Po
+rtugal - DNBASE    193  Prop         q   b       [ -         i    X0GP2S    C0D0
+GP12  T1DSBASE  GOTHIC PROPORTIONAL   MEDIUM   NORMAL   9     Spain - DSBASE
+193  Prop                    [ -         k q  X0GP2U    C0D0GP12  T1DUBASE  GOTH
+IC PROPORTIONAL   MEDIUM   NORMAL   9     United Kingdom - DUBASE    127  Prop
+                 [ -         m    X0GP2Z    C0D0GP12  T1001068  GOTHIC PROPORTIO
+NAL   MEDIUM   NORMAL   9     Text With Numeric Spacing    126  Prop     q   b
+     [ ^              X0GREG    C0A05580  T1DCDCFS  SONORAN SANS SERIF   MEDIUM
+  NORMAL   8     U.S. TEXT SUBSET    118  Prop                   [ $   _     l r
+  X0GR0A    C0D0GR10  T1DABASE  GOTHIC REVERSE   MEDIUM   NORMAL   10     Austri
+a/Germany F.R.- DABASE    129  Fixed     y   k       [ $   _     o    X0GR0B
+C0D0GR10  T1DBBASE  GOTHIC REVERSE   MEDIUM   NORMAL   10     Belgium/Swiss/Luxe
+mbourg-DBBASE    189  Fixed          y   k       [ $   _     o    X0GR0D    C0D0
+GR10  T1DDBASE  GOTHIC REVERSE   MEDIUM   NORMAL   10     Denmark/Norway/Iceland
+ - DDBASE    193  Fixed                      [ $   _       m  X0GR0E    C0D0GR10
+  T1DEBASE  GOTHIC REVERSE   MEDIUM   NORMAL   10     Finland/Sweden - DEBASE
+ 189  Fixed          q   b       [ $   _     f    X0GR0F    C0D0GR10  T1DFBASE
+GOTHIC REVERSE   MEDIUM   NORMAL   10     France - DFBASE    138  Fixed
+ q   b       [ $   _     e    X0GR0I    C0D0GR10  T1DIBASE  GOTHIC REVERSE   MED
+IUM   NORMAL   10     Italy - DIBASE    140  Fixed           q   b       [ $   _
+     e    X0GR0J    C0D0GR10  T1V10274  GOTHIC REVERSE   MEDIUM   NORMAL   10
+  Belgium - CECP    191  Fixed           q   b       [ $   _     d    X0GR0K
+C0D0GR10  T1V10275  GOTHIC REVERSE   MEDIUM   NORMAL   10     Brazil - CECP    1
+91  Fixed            q   b       [ $   _       j  X0GR0L    C0D0GR10  T1V10281
+GOTHIC REVERSE   MEDIUM   NORMAL   10     Japan (Latin) - CECP    191  Fixed
+ q   b       [ $   _     f    X0GR0M    C0D0GR10  T1V10282  GOTHIC REVERSE   MED
+IUM   NORMAL   10     Portugal - CECP    191  Fixed          y   k       [ $   _
+     m    X0GR0N    C0D0GR10  T1DNBASE  GOTHIC REVERSE   MEDIUM   NORMAL   10
+  Netherlands/Portugal - DNBASE    193  Fixed            q   b       [ $   _
+ e    X0GR0S    C0D0GR10  T1DSBASE  GOTHIC REVERSE   MEDIUM   NORMAL   10     Sp
+ain - DSBASE    193  Fixed                       [ $   _       m  X0GR0U    C0D0
+GR10  T1DUBASE  GOTHIC REVERSE   MEDIUM   NORMAL   10     United Kingdom - DUBAS
+E    127  Fixed                      [ $   _       o  X0GR0Z    C0D0GR10  T10010
+68  GOTHIC REVERSE   MEDIUM   NORMAL   10     Text With Numeric Spacing    126
+Fixed        q   b       [ $   _     e    X0GR00    C0D0GR10  T1V10871  GOTHIC R
+EVERSE   MEDIUM   NORMAL   10     Iceland - CECP    191  Fixed           q   b
+     [ $   _     h    X0GR01    C0D0GR10  T1V10037  GOTHIC REVERSE   MEDIUM   NO
+RMAL   10     USA/CANADA - CECP    191  Fixed                    [ $   _     j p
+  X0GR02    C0D0GR10  T1V10273  GOTHIC REVERSE   MEDIUM   NORMAL   10     GERMAN
+Y F.R./AUSTRIA- CECP    191  Fixed                   [ $   _       k  X0GR03
+C0D0GR10  T1V10277  GOTHIC REVERSE   MEDIUM   NORMAL   10     DENMARK/NORWAY - C
+ECP    191  Fixed            q   b       [ $   _       j  X0GR04    C0D0GR10  T1
+V10278  GOTHIC REVERSE   MEDIUM   NORMAL   10     FINLAND/SWEDEN- CECP    191  F
+ixed         :       [ $   _     b h  X0GR05    C0D0GR10  T1V10280  GOTHIC REVER
+SE   MEDIUM   NORMAL   10     ITALY- CECP    191  Fixed                  [ $   _
+     j p  X0GR06    C0D0GR10  T1V10284  GOTHIC REVERSE   MEDIUM   NORMAL   10
+  SPAIN/LATIN AMERICA - CECP    191  Fixed                   [ $   _       k  X0
+GR07    C0D0GR10  T1V10285  GOTHIC REVERSE   MEDIUM   NORMAL   10     UNITED KIN
+GDOM - CECP    191  Fixed            q   b       [ $   _     d    X0GR08    C0D0
+GR10  T1V10297  GOTHIC REVERSE   MEDIUM   NORMAL   10     France - CECP    191
+Fixed            q   b       [ $   _     g    X0GR09    C0D0GR10  T1V10500  GOTH
+IC REVERSE   MEDIUM   NORMAL   10     INTERNATIONAL #5    191  Fixed
+         [ $   _       m  X0GR10    C0D0GR10  T1D0BASE  GOTHIC REVERSE   MEDIUM
+  NORMAL   10     DCF REL 2 COMPATIBILITY    128  Fixed                      [ )
+           k  X0GSC     C0L00GSC  T1L038BA  GOTHIC UPPERCASE   MEDIUM   CONDENSE
+D   6     LCS 3800-1 GOTHIC     64  Fixed                :       [   *     %   f
+  X0GS10    C0D0GT10  T1L038BA  GOTHIC   MEDIUM   NORMAL   10     LCS 3800-1 GOT
+HIC     64  Fixed            :       [   *     , " e  X0GS12    C0D0GT12  T1L038
+BA  GOTHIC   MEDIUM   NORMAL   9     LCS 3800-1 GOTHIC     64  Fixed
+ :       [   *     , " e  X0GS15    C0D0GT15  T1L038BA  GOTHIC   MEDIUM   NORMAL
+   8     LCS 3800-1 GOTHIC     64  Fixed         q   b       [   *     , e    X0
+GS20    C0D0GT20  T1D0BASE  GOTHIC   MEDIUM   NORMAL   5     DCF REL 2 COMPATIBI
+LITY    128  Fixed               :       [   *     , @ b  X0GTEJ    C0D0GT12  T1
+V10274  GOTHIC   MEDIUM   NORMAL   9     Belgium - CECP    191  Fixed
+ h           [   *     , # a  X0GTEK    C0D0GT12  T1V10275  GOTHIC   MEDIUM   NO
+RMAL   9     Brazil - CECP    191  Fixed         :       [   *     , b h  X0GTEL
+    C0D0GT12  T1V10281  GOTHIC   MEDIUM   NORMAL   9     Japan (Latin) - CECP
+ 191  Fixed          :       [   *     , ' c  X0GTEM    C0D0GT12  T1V10282  GOTH
+IC   MEDIUM   NORMAL   9     Portugal - CECP    191  Fixed               :
+ [   *     , @ b  X0GTE0    C0D0GT12  T1V10871  GOTHIC   MEDIUM   NORMAL   9
+ Iceland - CECP    191  Fixed                :       [   *     , " e  X0GTE1
+C0D0GT12  T1V10037  GOTHIC   MEDIUM   NORMAL   9     USA/CANADA - CECP    191  F
+ixed         q   b       [   *     , h    X0GTE2    C0D0GT12  T1V10273  GOTHIC
+ MEDIUM   NORMAL   9     GERMANY F.R./AUSTRIA- CECP    191  Fixed            :
+     [   *     , c i  X0GTE3    C0D0GT12  T1V10277  GOTHIC   MEDIUM   NORMAL   9
+     DENMARK/NORWAY - CECP    191  Fixed         :       [   *     , b h  X0GTE4
+    C0D0GT12  T1V10278  GOTHIC   MEDIUM   NORMAL   9     FINLAND/SWEDEN- CECP
+ 191  Fixed      h           [   *     ,   "  X0GTE5    C0D0GT12  T1V10280  GOTH
+IC   MEDIUM   NORMAL   9     ITALY- CECP    191  Fixed       q   b       [   *
+   , h    X0GTE6    C0D0GT12  T1V10284  GOTHIC   MEDIUM   NORMAL   9     SPAIN/L
+ATIN AMERICA - CECP    191  Fixed            :       [   *     , c i  X0GTE7
+C0D0GT12  T1V10285  GOTHIC   MEDIUM   NORMAL   9     UNITED KINGDOM - CECP    19
+1  Fixed     h           [   *     , # a  X0GTE8    C0D0GT12  T1V10297  GOTHIC
+ MEDIUM   NORMAL   9     France - CECP    191  Fixed         :       [   *     ,
+ = d  X0GTE9    C0D0GT12  T1V10500  GOTHIC   MEDIUM   NORMAL   9     INTERNATION
+AL #5    191  Fixed          q   b       [   *     , g    X0GTJZ    C0D0GT20  T1
+001068  GOTHIC   MEDIUM   NORMAL   5     Text With Numeric Spacing    126  Fixed
+         q   b       [   *     , g    X0GTNZ    C0D0GT24  T1001068  GOTHIC   MED
+IUM   NORMAL   4     Text With Numeric Spacing    126  Fixed
+ [ -         k q  X0GTRI    C0D0GP12  T1D0BASE  GOTHIC PROPORTIONAL   MEDIUM   N
+ORMAL   9     DCF REL 2 COMPATIBILITY    128  Prop       q   b       [   *     %
+   j  X0GT0A    C0D0GT10  T1DABASE  GOTHIC   MEDIUM   NORMAL   10     Austria/Ge
+rmany F.R.- DABASE    129  Fixed                 [   *     %   m  X0GT0B    C0D0
+GT10  T1DBBASE  GOTHIC   MEDIUM   NORMAL   10     Belgium/Swiss/Luxembourg-DBBAS
+E    189  Fixed                      [   *     %   m  X0GT0D    C0D0GT10  T1DDBA
+SE  GOTHIC   MEDIUM   NORMAL   10     Denmark/Norway/Iceland - DDBASE    193  Fi
+xed          q   b       [   *     % f    X0GT0E    C0D0GT10  T1DEBASE  GOTHIC
+ MEDIUM   NORMAL   10     Finland/Sweden - DEBASE    189  Fixed              :
+     [   *     % = d  X0GT0F    C0D0GT10  T1DFBASE  GOTHIC   MEDIUM   NORMAL   1
+0     France - DFBASE    138  Fixed              :       [   *     % ' c  X0GT0I
+    C0D0GT10  T1DIBASE  GOTHIC   MEDIUM   NORMAL   10     Italy - DIBASE    140
+ Fixed               :       [   *     % ' c  X0GT0J    C0D0GT10  T1V10274  GOTH
+IC   MEDIUM   NORMAL   10     Belgium - CECP    191  Fixed               :
+ [   *     % @ b  X0GT0K    C0D0GT10  T1V10275  GOTHIC   MEDIUM   NORMAL   10
+  Brazil - CECP    191  Fixed                :       [   *     % c i  X0GT0L
+C0D0GT10  T1V10281  GOTHIC   MEDIUM   NORMAL   10     Japan (Latin) - CECP    19
+1  Fixed         :       [   *     % = d  X0GT0M    C0D0GT10  T1V10282  GOTHIC
+ MEDIUM   NORMAL   10     Portugal - CECP    191  Fixed                      [
+ *     %   k  X0GT0N    C0D0GT10  T1DNBASE  GOTHIC   MEDIUM   NORMAL   10     Ne
+therlands/Portugal - DNBASE    193  Fixed                :       [   *     % ' c
+  X0GT0S    C0D0GT10  T1DSBASE  GOTHIC   MEDIUM   NORMAL   10     Spain - DSBASE
+    193  Fixed           q   b       [   *     % f    X0GT0U    C0D0GT10  T1DUBA
+SE  GOTHIC   MEDIUM   NORMAL   10     United Kingdom - DUBASE    127  Fixed
+     q   b       [   *     % h    X0GT0Z    C0D0GT10  T1001068  GOTHIC   MEDIUM
+  NORMAL   10     Text With Numeric Spacing    126  Fixed            :       [
+ *     % ' c  X0GT00    C0D0GT10  T1V10871  GOTHIC   MEDIUM   NORMAL   10     Ic
+eland - CECP    191  Fixed               :       [   *     %   f  X0GT01    C0D0
+GT10  T1V10037  GOTHIC   MEDIUM   NORMAL   10     USA/CANADA - CECP    191  Fixe
+d        q   b       [   *     % i    X0GT02    C0D0GT10  T1V10273  GOTHIC   MED
+IUM   NORMAL   10     GERMANY F.R./AUSTRIA- CECP    191  Fixed       q   b
+ [   *     % d    X0GT03    C0D0GT10  T1V10277  GOTHIC   MEDIUM   NORMAL   10
+  DENMARK/NORWAY - CECP    191  Fixed                :       [   *     % c i  X0
+GT04    C0D0GT10  T1V10278  GOTHIC   MEDIUM   NORMAL   10     FINLAND/SWEDEN- CE
+CP    191  Fixed     h           [   *     % :    X0GT05    C0D0GT10  T1V10280
+GOTHIC   MEDIUM   NORMAL   10     ITALY- CECP    191  Fixed      q   b       [
+ *     % i    X0GT06    C0D0GT10  T1V10284  GOTHIC   MEDIUM   NORMAL   10     SP
+AIN/LATIN AMERICA - CECP    191  Fixed       q   b       [   *     % d    X0GT07
+    C0D0GT10  T1V10285  GOTHIC   MEDIUM   NORMAL   10     UNITED KINGDOM - CECP
+   191  Fixed                :       [   *     % @ b  X0GT08    C0D0GT10  T1V102
+97  GOTHIC   MEDIUM   NORMAL   10     France - CECP    191  Fixed
+ :       [   *     % " e  X0GT09    C0D0GT10  T1V10500  GOTHIC   MEDIUM   NORMAL
+   10     INTERNATIONAL #5    191  Fixed         q   b       [   *     % f    X0
+GT10    C0D0GT10  T1D0BASE  GOTHIC   MEDIUM   NORMAL   10     DCF REL 2 COMPATIB
+ILITY    128  Fixed          q   b       [   *     , e    X0GT12    C0D0GT12  T1
+D0BASE  GOTHIC   MEDIUM   NORMAL   9     DCF REL 2 COMPATIBILITY    128  Fixed
+         q   b       [   ;   | _ g    X0GT13    C0D0GT13  T1D0BASE  GOTHIC13   M
+EDIUM   NORMAL   8     DCF REL 2 COMPATIBILITY    128  Fixed         q   b
+ [   *     , e    X0GT15    C0D0GT15  T1D0BASE  GOTHIC   MEDIUM   NORMAL   8
+ DCF REL 2 COMPATIBILITY    128  Fixed           q   b       [   *     , e    X0
+GT18    C0D0GT18  T1D0BASE  GOTHIC   MEDIUM   NORMAL   6     DCF REL 2 COMPATIBI
+LITY    128  Fixed           q   b       [   *     ,      X0GT2A    C0D0GT12  T1
+DABASE  GOTHIC   MEDIUM   NORMAL   9     Austria/Germany F.R.- DABASE    129  Fi
+xed                  [   *     ,   l  X0GT2B    C0D0GT12  T1DBBASE  GOTHIC   MED
+IUM   NORMAL   9     Belgium/Swiss/Luxembourg-DBBASE    189  Fixed
+         [   *     ,   l  X0GT2D    C0D0GT12  T1DDBASE  GOTHIC   MEDIUM   NORMAL
+   9     Denmark/Norway/Iceland - DDBASE    193  Fixed           q   b       [
+ *     , e    X0GT2E    C0D0GT12  T1DEBASE  GOTHIC   MEDIUM   NORMAL   9     Fin
+land/Sweden - DEBASE    189  Fixed               :       [   *     , ' c  X0GT2F
+    C0D0GT12  T1DFBASE  GOTHIC   MEDIUM   NORMAL   9     France - DFBASE    138
+ Fixed               :       [   *     , @ b  X0GT2I    C0D0GT12  T1DIBASE  GOTH
+IC   MEDIUM   NORMAL   9     Italy - DIBASE    140  Fixed            q   b
+ [   *     ,   j  X0GT2N    C0D0GT12  T1DNBASE  GOTHIC   MEDIUM   NORMAL   9
+ Netherlands/Portugal - DNBASE    193  Fixed         :       [   *     , @ b  X0
+GT2S    C0D0GT12  T1DSBASE  GOTHIC   MEDIUM   NORMAL   9     Spain - DSBASE    1
+93  Fixed            q   b       [   *     , e    X0GT2U    C0D0GT12  T1DUBASE
+GOTHIC   MEDIUM   NORMAL   9     United Kingdom - DUBASE    127  Fixed
+ q   b       [   *     , g    X0GT2Z    C0D0GT12  T1001068  GOTHIC   MEDIUM   NO
+RMAL   9     Text With Numeric Spacing    126  Fixed         q   b       [   *
+   , e    X0GT20    C0D0GT20  T1D0BASE  GOTHIC   MEDIUM   NORMAL   5     DCF REL
+ 2 COMPATIBILITY    128  Fixed           q   b       [   *     , e    X0GT24
+C0D0GT24  T1D0BASE  GOTHIC   MEDIUM   NORMAL   4     DCF REL 2 COMPATIBILITY
+128  Fixed           q   b       [   ;   | _ i    X0GT3Z    C0D0GT13  T1001068
+GOTHIC13   MEDIUM   NORMAL   8     Text With Numeric Spacing    126  Fixed
+ q   b       [   *     ,      X0GT5A    C0D0GT15  T1DABASE  GOTHIC   MEDIUM   NO
+RMAL   8     Austria/Germany F.R.- DABASE    129  Fixed                  [   *
+   ,   l  X0GT5B    C0D0GT15  T1DBBASE  GOTHIC   MEDIUM   NORMAL   8     Belgium
+/Swiss/Luxembourg-DBBASE    189  Fixed                       [   *     ,   l  X0
+GT5D    C0D0GT15  T1DDBASE  GOTHIC   MEDIUM   NORMAL   8     Denmark/Norway/Icel
+and - DDBASE    193  Fixed           q   b       [   *     , e    X0GT5E    C0D0
+GT15  T1DEBASE  GOTHIC   MEDIUM   NORMAL   8     Finland/Sweden - DEBASE    189
+ Fixed               :       [   *     , ' c  X0GT5F    C0D0GT15  T1DFBASE  GOTH
+IC   MEDIUM   NORMAL   8     France - DFBASE    138  Fixed               :
+ [   *     , @ b  X0GT5I    C0D0GT15  T1DIBASE  GOTHIC   MEDIUM   NORMAL   8
+ Italy - DIBASE    140  Fixed                :       [   *     , @ b  X0GT5J
+C0D0GT15  T1V10274  GOTHIC   MEDIUM   NORMAL   8     Belgium - CECP    191  Fixe
+d            h           [   *     , # a  X0GT5K    C0D0GT15  T1V10275  GOTHIC
+ MEDIUM   NORMAL   8     Brazil - CECP    191  Fixed         :       [   *     ,
+ b h  X0GT5L    C0D0GT15  T1V10281  GOTHIC   MEDIUM   NORMAL   8     Japan (Lati
+n) - CECP    191  Fixed          :       [   *     , ' c  X0GT5M    C0D0GT15  T1
+V10282  GOTHIC   MEDIUM   NORMAL   8     Portugal - CECP    191  Fixed
+ q   b       [   *     ,   j  X0GT5N    C0D0GT15  T1DNBASE  GOTHIC   MEDIUM   NO
+RMAL   8     Netherlands/Portugal - DNBASE    193  Fixed         :       [   *
+   , @ b  X0GT5S    C0D0GT15  T1DSBASE  GOTHIC   MEDIUM   NORMAL   8     Spain -
+ DSBASE    193  Fixed            q   b       [   *     , e    X0GT5U    C0D0GT15
+  T1DUBASE  GOTHIC   MEDIUM   NORMAL   8     United Kingdom - DUBASE    127  Fix
+ed           q   b       [   *     , g    X0GT5Z    C0D0GT15  T1001068  GOTHIC
+ MEDIUM   NORMAL   8     Text With Numeric Spacing    126  Fixed             :
+     [   *     , @ b  X0GT50    C0D0GT15  T1V10871  GOTHIC   MEDIUM   NORMAL   8
+     Iceland - CECP    191  Fixed                :       [   *     , " e  X0GT51
+    C0D0GT15  T1V10037  GOTHIC   MEDIUM   NORMAL   8     USA/CANADA - CECP    19
+1  Fixed         q   b       [   *     , h    X0GT52    C0D0GT15  T1V10273  GOTH
+IC   MEDIUM   NORMAL   8     GERMANY F.R./AUSTRIA- CECP    191  Fixed
+ :       [   *     , c i  X0GT53    C0D0GT15  T1V10277  GOTHIC   MEDIUM   NORMAL
+   8     DENMARK/NORWAY - CECP    191  Fixed         :       [   *     , b h  X0
+GT54    C0D0GT15  T1V10278  GOTHIC   MEDIUM   NORMAL   8     FINLAND/SWEDEN- CEC
+P    191  Fixed      h           [   *     ,   "  X0GT55    C0D0GT15  T1V10280
+GOTHIC   MEDIUM   NORMAL   8     ITALY- CECP    191  Fixed       q   b       [
+ *     , h    X0GT56    C0D0GT15  T1V10284  GOTHIC   MEDIUM   NORMAL   8     SPA
+IN/LATIN AMERICA - CECP    191  Fixed            :       [   *     , c i  X0GT57
+    C0D0GT15  T1V10285  GOTHIC   MEDIUM   NORMAL   8     UNITED KINGDOM - CECP
+  191  Fixed     h           [   *     , # a  X0GT58    C0D0GT15  T1V10297  GOTH
+IC   MEDIUM   NORMAL   8     France - CECP    191  Fixed         :       [   *
+   , = d  X0GT59    C0D0GT15  T1V10500  GOTHIC   MEDIUM   NORMAL   8     INTERNA
+TIONAL #5    191  Fixed          q   b       [   *     ,      X0GT8A    C0D0GT18
+  T1DABASE  GOTHIC   MEDIUM   NORMAL   6     Austria/Germany F.R.- DABASE    129
+  Fixed                  [   *     ,   l  X0GT8B    C0D0GT18  T1DBBASE  GOTHIC
+ MEDIUM   NORMAL   6     Belgium/Swiss/Luxembourg-DBBASE    189  Fixed
+             [   *     ,   l  X0GT8D    C0D0GT18  T1DDBASE  GOTHIC   MEDIUM   NO
+RMAL   6     Denmark/Norway/Iceland - DDBASE    193  Fixed           q   b
+ [   *     , e    X0GT8E    C0D0GT18  T1DEBASE  GOTHIC   MEDIUM   NORMAL   6
+ Finland/Sweden - DEBASE    189  Fixed               :       [   *     , ' c  X0
+GT8F    C0D0GT18  T1DFBASE  GOTHIC   MEDIUM   NORMAL   6     France - DFBASE
+138  Fixed               :       [   *     , @ b  X0GT8I    C0D0GT18  T1DIBASE
+GOTHIC   MEDIUM   NORMAL   6     Italy - DIBASE    140  Fixed                :
+     [   *     , @ b  X0GT8J    C0D0GT18  T1V10274  GOTHIC   MEDIUM   NORMAL   6
+     Belgium - CECP    191  Fixed            h           [   *     , # a  X0GT8K
+    C0D0GT18  T1V10275  GOTHIC   MEDIUM   NORMAL   6     Brazil - CECP    191  F
+ixed         :       [   *     , b h  X0GT8L    C0D0GT18  T1V10281  GOTHIC   MED
+IUM   NORMAL   6     Japan (Latin) - CECP    191  Fixed          :       [   *
+   , ' c  X0GT8M    C0D0GT18  T1V10282  GOTHIC   MEDIUM   NORMAL   6     Portuga
+l - CECP    191  Fixed           q   b       [   *     ,   j  X0GT8N    C0D0GT18
+  T1DNBASE  GOTHIC   MEDIUM   NORMAL   6     Netherlands/Portugal - DNBASE    19
+3  Fixed         :       [   *     , @ b  X0GT8S    C0D0GT18  T1DSBASE  GOTHIC
+ MEDIUM   NORMAL   6     Spain - DSBASE    193  Fixed            q   b       [
+ *     , e    X0GT8U    C0D0GT18  T1DUBASE  GOTHIC   MEDIUM   NORMAL   6     Uni
+ted Kingdom - DUBASE    127  Fixed           q   b       [   *     , g    X0GT8Z
+    C0D0GT18  T1001068  GOTHIC   MEDIUM   NORMAL   6     Text With Numeric Spaci
+ng    126  Fixed             :       [   *     , @ b  X0GT80    C0D0GT18  T1V108
+71  GOTHIC   MEDIUM   NORMAL   6     Iceland - CECP    191  Fixed
+ :       [   *     , " e  X0GT81    C0D0GT18  T1V10037  GOTHIC   MEDIUM   NORMAL
+   6     USA/CANADA - CECP    191  Fixed         q   b       [   *     , h    X0
+GT82    C0D0GT18  T1V10273  GOTHIC   MEDIUM   NORMAL   6     GERMANY F.R./AUSTRI
+A- CECP    191  Fixed            :       [   *     , c i  X0GT83    C0D0GT18  T1
+V10277  GOTHIC   MEDIUM   NORMAL   6     DENMARK/NORWAY - CECP    191  Fixed
+     :       [   *     , b h  X0GT84    C0D0GT18  T1V10278  GOTHIC   MEDIUM   NO
+RMAL   6     FINLAND/SWEDEN- CECP    191  Fixed      h           [   *     ,   "
+  X0GT85    C0D0GT18  T1V10280  GOTHIC   MEDIUM   NORMAL   6     ITALY- CECP
+191  Fixed       q   b       [   *     , h    X0GT86    C0D0GT18  T1V10284  GOTH
+IC   MEDIUM   NORMAL   6     SPAIN/LATIN AMERICA - CECP    191  Fixed
+ :       [   *     , c i  X0GT87    C0D0GT18  T1V10285  GOTHIC   MEDIUM   NORMAL
+   6     UNITED KINGDOM - CECP    191  Fixed     h           [   *     , # a  X0
+GT88    C0D0GT18  T1V10297  GOTHIC   MEDIUM   NORMAL   6     France - CECP    19
+1  Fixed         :       [   *     , = d  X0GT89    C0D0GT18  T1V10500  GOTHIC
+ MEDIUM   NORMAL   6     INTERNATIONAL #5    191  Fixed          y   k       [ )
+       b o    X0GUC     C0L00GUC  T1L038BA  GOTHIC UPPERCASE   MEDIUM   CONDENSE
+D   6  UNDERSCORE   LCS 3800-1 GOTHIC     64  Fixed          y   k       [ )   ?
+     m    X0GU10    C0L0GU10  T1L038BA  GOTHIC UPPERCASE   MEDIUM   NORMAL   10
+ UNDERSCORE   LCS 3800-1 GOTHIC     64  Fixed                        [ )   ?   "
+ l r  X0GU12    C0L0GU12  T1L038BA  GOTHIC UPPERCASE   MEDIUM   NORMAL   9  UNDE
+RSCORE   LCS 3800-1 GOTHIC     64  Fixed                 [ )   ?   " l r  X0GU15
+    C0L0GU15  T1L038BA  GOTHIC UPPERCASE   MEDIUM   NORMAL   8  UNDERSCORE   LCS
+ 3800-1 GOTHIC     64  Fixed                 [ ;           l  X0G00361  C0G05500
+  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   10     INTERNATIONAL SET 5
+186  Prop            y   k       [ ;         p    X0G00382  C0G05500  T1GI0382
+MONOTYPE GARAMOND   MEDIUM   NORMAL   10     AUSTRIA, GERMANY, SWITZERLAND    18
+6  Prop              :       [ ;         a g  X0G00383  C0G05500  T1GI0383  MONO
+TYPE GARAMOND   MEDIUM   NORMAL   10     BELGIUM    186  Prop            :
+ [ ;           f  X0G00384  C0G05500  T1GI0384  MONOTYPE GARAMOND   MEDIUM   NOR
+MAL   10     BRAZIL    186  Prop         q   b       [ ;         i    X0G00385
+C0G05500  T1GI0385  MONOTYPE GARAMOND   MEDIUM   NORMAL   10     CANADA (FRENCH)
+    186  Prop        q   b       [ ;         h    X0G00386  C0G05500  T1GI0386
+MONOTYPE GARAMOND   MEDIUM   NORMAL   10     DENMARK/NORWAY    186  Prop
+ q   b       [ ;         h    X0G00387  C0G05500  T1GI0387  MONOTYPE GARAMOND
+MEDIUM   NORMAL   10     SWEDEN/FINLAND    186  Prop         y   k       [ ;
+     r    X0G00388  C0G05500  T1GI0388  MONOTYPE GARAMOND   MEDIUM   NORMAL   10
+     FRANCE, LUXEMBOURG, SWITZERLAND    186  Prop        y   k       [ ;
+ o    X0G00389  C0G05500  T1GI0389  MONOTYPE GARAMOND   MEDIUM   NORMAL   10
+ ITALY, SWITZERLAND (ITALIAN)    186  Prop           q   b       [ ;         g
+  X0G00390  C0G05500  T1GI0390  MONOTYPE GARAMOND   MEDIUM   NORMAL   10     JAP
+AN (LATIN)    186  Prop              :       [ ;         b h  X0G00391  C0G05500
+  T1GI0391  MONOTYPE GARAMOND   MEDIUM   NORMAL   10     PORTUGAL    186  Prop
+     q   b       [ ;           j  X0G00392  C0G05500  T1GI0392  MONOTYPE GARAMON
+D   MEDIUM   NORMAL   10     SPAIN/PHILIPPINES    186  Prop                  [ ;
+         j p  X0G00393  C0G05500  T1GI0393  MONOTYPE GARAMOND   MEDIUM   NORMAL
+  10     LATIN AMERICA (SPANISH)    186  Prop        y   k       [ ;         r
+  X0G00394  C0G05500  T1GI0394  MONOTYPE GARAMOND   MEDIUM   NORMAL   10     U.K
+., AUSTRAL., IRE., H.K., N.Z.   186  Prop        y   k       [ ;         r    X0
+G00395  C0G05500  T1GI0395  MONOTYPE GARAMOND   MEDIUM   NORMAL   10     UNITED
+STATES, CANADA (ENGLISH)    186  Prop                    [ ;           l  X0G055
+AI  C0G055A0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   11     INTERNATION
+AL SET 5    186  Prop                        [ ;           l  X0G055BI  C0G055B0
+  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   12     INTERNATIONAL SET 5
+186  Prop                        [ ;           l  X0G055DI  C0G055D0  T1GI0361
+MONOTYPE GARAMOND   MEDIUM   NORMAL   14     INTERNATIONAL SET 5    186  Prop
+                     [ ;           l  X0G055FI  C0G055F0  T1GI0361  MONOTYPE GAR
+AMOND   MEDIUM   NORMAL   16     INTERNATIONAL SET 5    186  Prop
+         [ ;           l  X0G055HI  C0G055H0  T1GI0361  MONOTYPE GARAMOND   MEDI
+UM   NORMAL   18     INTERNATIONAL SET 5    186  Prop                        [ ;
+           l  X0G055JI  C0G055J0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL
+  20     INTERNATIONAL SET 5    186  Prop                        [ ;           l
+  X0G055NI  C0G055N0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   24     INT
+ERNATIONAL SET 5    186  Prop                        [ ;           l  X0G055TI
+C0G055T0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   30     INTERNATIONAL S
+ET 5    186  Prop                        [ ;           l  X0G055ZI  C0G055Z0  T1
+GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   36     INTERNATIONAL SET 5    186
+ Prop                        [ ;           l  X0G0550I  C0G05500  T1GI0361  MONO
+TYPE GARAMOND   MEDIUM   NORMAL   10     INTERNATIONAL SET 5    186  Prop
+     q   b       [ ;           k  X0G0556I  C0G05560  T1GI0361  MONOTYPE GARAMON
+D   MEDIUM   NORMAL   6     INTERNATIONAL SET 5    186  Prop     q   b       [ ;
+           k  X0G0557I  C0G05570  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL
+  7     INTERNATIONAL SET 5    186  Prop     q   b       [ ;           k  X0G055
+8I  C0G05580  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   8     INTERNATIONA
+L SET 5    186  Prop     q   b       [ ;           k  X0G0559I  C0G05590  T1GI03
+61  MONOTYPE GARAMOND   MEDIUM   NORMAL   9     INTERNATIONAL SET 5    186  Prop
+     q   b       [ ;   >       j  X0G075AI  C0G075A0  T1GI0361  MONOTYPE GARAMON
+D   BOLD   NORMAL   11     INTERNATIONAL SET 5    186  Prop      q   b       [ ;
+   >       j  X0G075BI  C0G075B0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL
+12     INTERNATIONAL SET 5    186  Prop      q   b       [ ;   >       j  X0G075
+DI  C0G075D0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   14     INTERNATIONAL
+ SET 5    186  Prop      q   b       [ ;   >       j  X0G075FI  C0G075F0  T1GI03
+61  MONOTYPE GARAMOND   BOLD   NORMAL   16     INTERNATIONAL SET 5    186  Prop
+     q   b       [ ;   >       j  X0G075HI  C0G075H0  T1GI0361  MONOTYPE GARAMON
+D   BOLD   NORMAL   18     INTERNATIONAL SET 5    186  Prop      q   b       [ ;
+   >       j  X0G075JI  C0G075J0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL
+20     INTERNATIONAL SET 5    186  Prop      q   b       [ ;   >       j  X0G075
+NI  C0G075N0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   24     INTERNATIONAL
+ SET 5    186  Prop      q   b       [ ;   >       j  X0G075TI  C0G075T0  T1GI03
+61  MONOTYPE GARAMOND   BOLD   NORMAL   30     INTERNATIONAL SET 5    186  Prop
+     q   b       [ ;   >       j  X0G075ZI  C0G075Z0  T1GI0361  MONOTYPE GARAMON
+D   BOLD   NORMAL   36     INTERNATIONAL SET 5    186  Prop      q   b       [ ;
+   >       j  X0G0750I  C0G07500  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL
+10     INTERNATIONAL SET 5    186  Prop      q   b       [ ;   >          X0G075
+6I  C0G07560  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   6     INTERNATIONAL
+SET 5    186  Prop       q   b       [ ;   >          X0G0757I  C0G07570  T1GI03
+61  MONOTYPE GARAMOND   BOLD   NORMAL   7     INTERNATIONAL SET 5    186  Prop
+     q   b       [ ;   >          X0G0758I  C0G07580  T1GI0361  MONOTYPE GARAMON
+D   BOLD   NORMAL   8     INTERNATIONAL SET 5    186  Prop       q   b       [ ;
+   >          X0G0759I  C0G07590  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL
+9     INTERNATIONAL SET 5    186  Prop           :       [   *     %   f  X0G11
+    C0D0GT10  T1L000GN  GOTHIC   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC
+64  Fixed                    [ ;       ' l r  X0G155AI  C0G155A0  T1GI0361  MONO
+TYPE GARAMOND   MEDIUM   NORMAL   11  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [ ;       ' l r  X0G155BI  C0G155B0  T1GI0361  MONOTYPE GARAMON
+D   MEDIUM   NORMAL   12  ITALIC   INTERNATIONAL SET 5    186  Prop
+     [ ;       ' l r  X0G155DI  C0G155D0  T1GI0361  MONOTYPE GARAMOND   MEDIUM
+ NORMAL   14  ITALIC   INTERNATIONAL SET 5    186  Prop                  [ ;
+   ' l r  X0G155FI  C0G155F0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   16
+  ITALIC   INTERNATIONAL SET 5    186  Prop                  [ ;       ' l r  X0
+G155HI  C0G155H0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   18  ITALIC   I
+NTERNATIONAL SET 5    186  Prop                  [ ;       ' l r  X0G155JI  C0G1
+55J0  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   20  ITALIC   INTERNATIONAL
+ SET 5    186  Prop                  [ ;       ' l r  X0G155NI  C0G155N0  T1GI03
+61  MONOTYPE GARAMOND   MEDIUM   NORMAL   24  ITALIC   INTERNATIONAL SET 5    18
+6  Prop                  [ ;       ' l r  X0G155TI  C0G155T0  T1GI0361  MONOTYPE
+ GARAMOND   MEDIUM   NORMAL   30  ITALIC   INTERNATIONAL SET 5    186  Prop
+             [ ;       ' l r  X0G155ZI  C0G155Z0  T1GI0361  MONOTYPE GARAMOND
+MEDIUM   NORMAL   36  ITALIC   INTERNATIONAL SET 5    186  Prop
+ [ ;       ' l r  X0G1550I  C0G15500  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NOR
+MAL   10  ITALIC   INTERNATIONAL SET 5    186  Prop                  [ ;       @
+ k q  X0G1556I  C0G15560  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   6  ITA
+LIC   INTERNATIONAL SET 5    186  Prop                   [ ;       @ k q  X0G155
+7I  C0G15570  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   7  ITALIC   INTERN
+ATIONAL SET 5    186  Prop                   [ ;       @ k q  X0G1558I  C0G15580
+  T1GI0361  MONOTYPE GARAMOND   MEDIUM   NORMAL   8  ITALIC   INTERNATIONAL SET
+5    186  Prop                   [ ;       @ k q  X0G1559I  C0G15590  T1GI0361
+MONOTYPE GARAMOND   MEDIUM   NORMAL   9  ITALIC   INTERNATIONAL SET 5    186  Pr
+op                   [ ;   >   # j p  X0G175AI  C0G175A0  T1GI0361  MONOTYPE GAR
+AMOND   BOLD   NORMAL   11  ITALIC   INTERNATIONAL SET 5    186  Prop
+         [ ;   >   # j p  X0G175BI  C0G175B0  T1GI0361  MONOTYPE GARAMOND   BOLD
+   NORMAL   12  ITALIC   INTERNATIONAL SET 5    186  Prop                    [ ;
+   >   # j p  X0G175DI  C0G175D0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL
+14  ITALIC   INTERNATIONAL SET 5    186  Prop                    [ ;   >   # j p
+  X0G175FI  C0G175F0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   16  ITALIC
+ INTERNATIONAL SET 5    186  Prop                    [ ;   >   # j p  X0G175HI
+C0G175H0  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   18  ITALIC   INTERNATION
+AL SET 5    186  Prop                    [ ;   >   # j p  X0G175JI  C0G175J0  T1
+GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   20  ITALIC   INTERNATIONAL SET 5
+186  Prop                    [ ;   >   # j p  X0G175NI  C0G175N0  T1GI0361  MONO
+TYPE GARAMOND   BOLD   NORMAL   24  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [ ;   >   # j p  X0G175TI  C0G175T0  T1GI0361  MONOTYPE GARAMON
+D   BOLD   NORMAL   30  ITALIC   INTERNATIONAL SET 5    186  Prop
+     [ ;   >   # j p  X0G175ZI  C0G175Z0  T1GI0361  MONOTYPE GARAMOND   BOLD   N
+ORMAL   36  ITALIC   INTERNATIONAL SET 5    186  Prop                    [ ;   >
+   # j p  X0G1750I  C0G17500  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   10
+ITALIC   INTERNATIONAL SET 5    186  Prop                    [ ;   >   :   o  X0
+G1756I  C0G17560  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   6  ITALIC   INTE
+RNATIONAL SET 5    186  Prop                     [ ;   >   :   o  X0G1757I  C0G1
+7570  T1GI0361  MONOTYPE GARAMOND   BOLD   NORMAL   7  ITALIC   INTERNATIONAL SE
+T 5    186  Prop                     [ ;   >   :   o  X0G1758I  C0G17580  T1GI03
+61  MONOTYPE GARAMOND   BOLD   NORMAL   8  ITALIC   INTERNATIONAL SET 5    186
+Prop                     [ ;   >   :   o  X0G1759I  C0G17590  T1GI0361  MONOTYPE
+ GARAMOND   BOLD   NORMAL   9  ITALIC   INTERNATIONAL SET 5    186  Prop
+     :       [   *     %   f  X0HN      C0D0GT10  T1L0PCHN  GOTHIC   MEDIUM   NO
+RMAL   10     LCS 3800-1 GOTHIC     49  Fixed            :       [   *     %   f
+  X0H11     C0D0GT10  T1L0PCHN  GOTHIC   MEDIUM   NORMAL   10     LCS 3800-1 GOT
+HIC     49  Fixed        q   b       [ )   ?     i    X0H210AC  C0H200A0  T1V105
+00  HELVETICA LATIN1   MEDIUM   NORMAL   11     INTERNATIONAL #5    191  Prop
+     q   b       [ )   ?     i    X0H210BC  C0H200B0  T1V10500  HELVETICA LATIN1
+   MEDIUM   NORMAL   12     INTERNATIONAL #5    191  Prop        q   b       [ )
+   ?     i    X0H210DC  C0H200D0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL
+ 14     INTERNATIONAL #5    191  Prop        q   b       [ )   ?     i    X0H210
+FC  C0H200F0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   16     INTERNATIONA
+L #5    191  Prop        q   b       [ )   ?     i    X0H210HC  C0H200H0  T1V105
+00  HELVETICA LATIN1   MEDIUM   NORMAL   18     INTERNATIONAL #5    191  Prop
+     q   b       [ )   ?     i    X0H210JC  C0H200J0  T1V10500  HELVETICA LATIN1
+   MEDIUM   NORMAL   20     INTERNATIONAL #5    191  Prop        q   b       [ )
+   ?     i    X0H210NC  C0H200N0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL
+ 24     INTERNATIONAL #5    191  Prop        q   b       [ )   ?     i    X0H210
+TC  C0H200T0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   30     INTERNATIONA
+L #5    191  Prop        q   b       [ )   ?     i    X0H210ZC  C0H200Z0  T1V105
+00  HELVETICA LATIN1   MEDIUM   NORMAL   36     INTERNATIONAL #5    191  Prop
+                 [ )   ?       m  X0H2100A  C0H20000  T1V10285  HELVETICA LATIN1
+   MEDIUM   NORMAL   10     UNITED KINGDOM - CECP    191  Prop           q   b
+     [ )   ?     f    X0H2100B  C0H20000  T1V10297  HELVETICA LATIN1   MEDIUM
+NORMAL   10     France - CECP    191  Prop           q   b       [ )   ?     i
+  X0H2100C  C0H20000  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   10     INTE
+RNATIONAL #5    191  Prop        q   b       [ )   ?     g    X0H2100D  C0H20000
+  T1V10871  HELVETICA LATIN1   MEDIUM   NORMAL   10     Iceland - CECP    191  P
+rop                      [ )   ?     l r  X0H21000  C0H20000  T1V10284  HELVETIC
+A LATIN1   MEDIUM   NORMAL   10     SPAIN/LATIN AMERICA - CECP    191  Prop
+ q   b       [ )   ?          X0H21001  C0H20000  T1V10037  HELVETICA LATIN1   M
+EDIUM   NORMAL   10     USA/CANADA - CECP    191  Prop                   [ )   ?
+     l r  X0H21002  C0H20000  T1V10273  HELVETICA LATIN1   MEDIUM   NORMAL   10
+    GERMANY F.R./AUSTRIA- CECP    191  Prop      q   b       [ )   ?     g    X0
+H21003  C0H20000  T1V10274  HELVETICA LATIN1   MEDIUM   NORMAL   10     Belgium
+- CECP    191  Prop          q   b       [ )   ?     f    X0H21004  C0H20000  T1
+V10275  HELVETICA LATIN1   MEDIUM   NORMAL   10     Brazil - CECP    191  Prop
+                     [ )   ?       m  X0H21005  C0H20000  T1V10277  HELVETICA LA
+TIN1   MEDIUM   NORMAL   10     DENMARK/NORWAY - CECP    191  Prop
+         [ )   ?       l  X0H21006  C0H20000  T1V10278  HELVETICA LATIN1   MEDIU
+M   NORMAL   10     FINLAND/SWEDEN- CECP    191  Prop                :       [ )
+   ?     d    X0H21007  C0H20000  T1V10280  HELVETICA LATIN1   MEDIUM   NORMAL
+ 10     ITALY- CECP    191  Prop                 [ )   ?       l  X0H21008  C0H2
+0000  T1V10281  HELVETICA LATIN1   MEDIUM   NORMAL   10     Japan (Latin) - CECP
+    191  Prop            q   b       [ )   ?     h    X0H21009  C0H20000  T1V102
+82  HELVETICA LATIN1   MEDIUM   NORMAL   10     Portugal - CECP    191  Prop
+     q   b       [ )   ?     h    X0H2106C  C0H20060  T1V10500  HELVETICA LATIN1
+   MEDIUM   NORMAL   6     INTERNATIONAL #5    191  Prop         q   b       [ )
+   ?     h    X0H2107C  C0H20070  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL
+ 7     INTERNATIONAL #5    191  Prop         q   b       [ )   ?     h    X0H210
+8C  C0H20080  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   8     INTERNATIONAL
+ #5    191  Prop         q   b       [ )   ?     h    X0H2109C  C0H20090  T1V105
+00  HELVETICA LATIN1   MEDIUM   NORMAL   9     INTERNATIONAL #5    191  Prop
+     q   b       [ )   ?       k  X0H220A1  C0H200A0  T1000361  HELVETICA LATIN1
+   MEDIUM   NORMAL   11     INTERNATIONAL SET 5    186  Prop     q   b       [ )
+   ?       k  X0H220B1  C0H200B0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL
+ 12     INTERNATIONAL SET 5    186  Prop     q   b       [ )   ?       k  X0H220
+D1  C0H200D0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   14     INTERNATIONA
+L SET 5    186  Prop     q   b       [ )   ?       k  X0H220F1  C0H200F0  T10003
+61  HELVETICA LATIN1   MEDIUM   NORMAL   16     INTERNATIONAL SET 5    186  Prop
+     q   b       [ )   ?       k  X0H220H1  C0H200H0  T1000361  HELVETICA LATIN1
+   MEDIUM   NORMAL   18     INTERNATIONAL SET 5    186  Prop     q   b       [ )
+   ?       k  X0H220J1  C0H200J0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL
+ 20     INTERNATIONAL SET 5    186  Prop     q   b       [ )   ?       k  X0H220
+N1  C0H200N0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   24     INTERNATIONA
+L SET 5    186  Prop     q   b       [ )   ?       k  X0H220T1  C0H200T0  T10003
+61  HELVETICA LATIN1   MEDIUM   NORMAL   30     INTERNATIONAL SET 5    186  Prop
+     q   b       [ )   ?       k  X0H220Z1  C0H200Z0  T1000361  HELVETICA LATIN1
+   MEDIUM   NORMAL   36     INTERNATIONAL SET 5    186  Prop         :       [ )
+   ?     a g  X0H2200A  C0H20000  T1000391  HELVETICA LATIN1   MEDIUM   NORMAL
+ 10     PORTUGAL    186  Prop        q   b       [ )   ?          X0H2200B  C0H2
+0000  T1000392  HELVETICA LATIN1   MEDIUM   NORMAL   10     SPAIN/PHILIPPINES
+ 186  Prop                   [ )   ?       o  X0H2200C  C0H20000  T1000393  HELV
+ETICA LATIN1   MEDIUM   NORMAL   10     LATIN AMERICA (SPANISH)    186  Prop
+     y   k       [ )   ?     q    X0H2200D  C0H20000  T1000394  HELVETICA LATIN1
+   MEDIUM   NORMAL   10     U.K., AUSTRAL., IRE., H.K., N.Z.   186  Prop
+ y   k       [ )   ?     q    X0H2200E  C0H20000  T1000395  HELVETICA LATIN1   M
+EDIUM   NORMAL   10     UNITED STATES, CANADA (ENGLISH)    186  Prop         q
+ b       [ )   ?     f    X0H22000  C0H20000  T1000390  HELVETICA LATIN1   MEDIU
+M   NORMAL   10     JAPAN (LATIN)    186  Prop           q   b       [ )   ?
+   k  X0H22001  C0H20000  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   10
+INTERNATIONAL SET 5    186  Prop     y   k       [ )   ?     o    X0H22002  C0H2
+0000  T1000382  HELVETICA LATIN1   MEDIUM   NORMAL   10     AUSTRIA, GERMANY, SW
+ITZERLAND    186  Prop               :       [ )   ?       f  X0H22003  C0H20000
+  T1000383  HELVETICA LATIN1   MEDIUM   NORMAL   10     BELGIUM    186  Prop
+         :       [ )   ?     " e  X0H22004  C0H20000  T1000384  HELVETICA LATIN1
+   MEDIUM   NORMAL   10     BRAZIL    186  Prop          q   b       [ )   ?
+ h    X0H22005  C0H20000  T1000385  HELVETICA LATIN1   MEDIUM   NORMAL   10
+CANADA (FRENCH)    186  Prop         q   b       [ )   ?     g    X0H22006  C0H2
+0000  T1000386  HELVETICA LATIN1   MEDIUM   NORMAL   10     DENMARK/NORWAY    18
+6  Prop          q   b       [ )   ?     g    X0H22007  C0H20000  T1000387  HELV
+ETICA LATIN1   MEDIUM   NORMAL   10     SWEDEN/FINLAND    186  Prop          q
+ b       [ )   ?       k  X0H22008  C0H20000  T1000388  HELVETICA LATIN1   MEDIU
+M   NORMAL   10     FRANCE, SWITZERLAND    186  Prop     y   k       [ )   ?
+ n    X0H22009  C0H20000  T1000389  HELVETICA LATIN1   MEDIUM   NORMAL   10
+ITALY, SWITZERLAND (ITALIAN)    186  Prop            q   b       [ )   ?       j
+  X0H22061  C0H20060  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   6     INTER
+NATIONAL SET 5    186  Prop      q   b       [ )   ?       j  X0H22071  C0H20070
+  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   7     INTERNATIONAL SET 5    18
+6  Prop      q   b       [ )   ?       j  X0H22081  C0H20080  T1000361  HELVETIC
+A LATIN1   MEDIUM   NORMAL   8     INTERNATIONAL SET 5    186  Prop      q   b
+     [ )   ?       j  X0H22091  C0H20090  T1000361  HELVETICA LATIN1   MEDIUM
+NORMAL   9     INTERNATIONAL SET 5    186  Prop      q   b       [ )   ?
+  X0H23001  C0H20000  T1000437  HELVETICA LATIN1   MEDIUM   NORMAL   10     PERS
+ONAL COMPUTER    255  Prop       q   b       [ )   ?     h    X0H23002  C0H20000
+  T1000850  HELVETICA LATIN1   MEDIUM   NORMAL   10     PC MULTILINGUAL    255
+Prop         y   k       [ )   ?     n    X0H23003  C0H20000  T1000860  HELVETIC
+A LATIN1   MEDIUM   NORMAL   10     PORTUGAL - PERSONAL COMPUTER    255  Prop
+                     [ )   ?     m    X0H23004  C0H20000  T1000861  HELVETICA LA
+TIN1   MEDIUM   NORMAL   10     ICELAND - PERSONAL COMPUTER    255  Prop
+         [ )   ?       l  X0H23005  C0H20000  T1000863  HELVETICA LATIN1   MEDIU
+M   NORMAL   10     CANADIAN FRENCH - PC    255  Prop                        [ )
+   ?     l r  X0H23006  C0H20000  T1000865  HELVETICA LATIN1   MEDIUM   NORMAL
+ 10     NORDIC - PERSONAL COMPUTER    255  Prop                  [ )   ?     k q
+  X0H23007  C0H20000  T1001004  HELVETICA LATIN1   MEDIUM   NORMAL   10     IBM
+PC DESKTOP PUBLISHING    221  Prop                   [ )   ?       m  X0H23008
+C0H20000  T1000819  HELVETICA LATIN1   MEDIUM   NORMAL   10     LATIN1 ISO/ANSI
+8-BIT    191  Prop                       [ )   ?       o  X0H24001  C0H20000  T1
+001002  HELVETICA LATIN1   MEDIUM   NORMAL   10     DCF REL 2 COMPATIBILITY    1
+23  Prop         q   b       [ )   ?     i    X0H24002  C0H20000  T1001003  HELV
+ETICA LATIN1   MEDIUM   NORMAL   10     U.S. TEXT SUBSET    118  Prop
+         [ )   ?   @   n  X0H310AC  C0H300A0  T1V10500  HELVETICA LATIN1   MEDIU
+M   NORMAL   11  ITALIC   INTERNATIONAL #5    191  Prop                      [ )
+   ?   @   n  X0H310BC  C0H300B0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL
+ 12  ITALIC   INTERNATIONAL #5    191  Prop                      [ )   ?   @   n
+  X0H310DC  C0H300D0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   14  ITALIC
+  INTERNATIONAL #5    191  Prop                      [ )   ?   @   n  X0H310FC
+C0H300F0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   16  ITALIC   INTERNATIO
+NAL #5    191  Prop                      [ )   ?   @   n  X0H310HC  C0H300H0  T1
+V10500  HELVETICA LATIN1   MEDIUM   NORMAL   18  ITALIC   INTERNATIONAL #5    19
+1  Prop                      [ )   ?   @   n  X0H310JC  C0H300J0  T1V10500  HELV
+ETICA LATIN1   MEDIUM   NORMAL   20  ITALIC   INTERNATIONAL #5    191  Prop
+                 [ )   ?   @   n  X0H310NC  C0H300N0  T1V10500  HELVETICA LATIN1
+   MEDIUM   NORMAL   24  ITALIC   INTERNATIONAL #5    191  Prop
+     [ )   ?   @   n  X0H310TC  C0H300T0  T1V10500  HELVETICA LATIN1   MEDIUM
+NORMAL   30  ITALIC   INTERNATIONAL #5    191  Prop                      [ )   ?
+   @   n  X0H310ZC  C0H300Z0  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   36
+ ITALIC   INTERNATIONAL #5    191  Prop                      [ )   ?   @   n  X0
+H3100C  C0H30000  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   10  ITALIC   IN
+TERNATIONAL #5    191  Prop                      [ )   ?   #   m  X0H3106C  C0H3
+0060  T1V10500  HELVETICA LATIN1   MEDIUM   NORMAL   6  ITALIC   INTERNATIONAL #
+5    191  Prop                       [ )   ?   #   m  X0H3107C  C0H30070  T1V105
+00  HELVETICA LATIN1   MEDIUM   NORMAL   7  ITALIC   INTERNATIONAL #5    191  Pr
+op                       [ )   ?   #   m  X0H3108C  C0H30080  T1V10500  HELVETIC
+A LATIN1   MEDIUM   NORMAL   8  ITALIC   INTERNATIONAL #5    191  Prop
+             [ )   ?   #   m  X0H3109C  C0H30090  T1V10500  HELVETICA LATIN1   M
+EDIUM   NORMAL   9  ITALIC   INTERNATIONAL #5    191  Prop
+ [ )   ?   @ k q  X0H320A1  C0H300A0  T1000361  HELVETICA LATIN1   MEDIUM   NORM
+AL   11  ITALIC   INTERNATIONAL SET 5    186  Prop                   [ )   ?   @
+ k q  X0H320B1  C0H300B0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   12  ITA
+LIC   INTERNATIONAL SET 5    186  Prop                   [ )   ?   @ k q  X0H320
+D1  C0H300D0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   14  ITALIC   INTERN
+ATIONAL SET 5    186  Prop                   [ )   ?   @ k q  X0H320F1  C0H300F0
+  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   16  ITALIC   INTERNATIONAL SET
+5    186  Prop                   [ )   ?   @ k q  X0H320H1  C0H300H0  T1000361
+HELVETICA LATIN1   MEDIUM   NORMAL   18  ITALIC   INTERNATIONAL SET 5    186  Pr
+op                   [ )   ?   @ k q  X0H320J1  C0H300J0  T1000361  HELVETICA LA
+TIN1   MEDIUM   NORMAL   20  ITALIC   INTERNATIONAL SET 5    186  Prop
+         [ )   ?   @ k q  X0H320N1  C0H300N0  T1000361  HELVETICA LATIN1   MEDIU
+M   NORMAL   24  ITALIC   INTERNATIONAL SET 5    186  Prop                   [ )
+   ?   @ k q  X0H320T1  C0H300T0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL
+ 30  ITALIC   INTERNATIONAL SET 5    186  Prop                   [ )   ?   @ k q
+  X0H320Z1  C0H300Z0  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   36  ITALIC
+  INTERNATIONAL SET 5    186  Prop                   [ )   ?   @ k q  X0H32001
+C0H30000  T1000361  HELVETICA LATIN1   MEDIUM   NORMAL   10  ITALIC   INTERNATIO
+NAL SET 5    186  Prop                   [ )   ?   # j p  X0H32061  C0H30060  T1
+000361  HELVETICA LATIN1   MEDIUM   NORMAL   6  ITALIC   INTERNATIONAL SET 5
+186  Prop                    [ )   ?   # j p  X0H32071  C0H30070  T1000361  HELV
+ETICA LATIN1   MEDIUM   NORMAL   7  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [ )   ?   # j p  X0H32081  C0H30080  T1000361  HELVETICA LATIN1
+   MEDIUM   NORMAL   8  ITALIC   INTERNATIONAL SET 5    186  Prop
+     [ )   ?   # j p  X0H32091  C0H30090  T1000361  HELVETICA LATIN1   MEDIUM
+NORMAL   9  ITALIC   INTERNATIONAL SET 5    186  Prop        q   b       [ )   _
+     g    X0H410AC  C0H400A0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   11
+  INTERNATIONAL #5    191  Prop          q   b       [ )   _     g    X0H410BC
+C0H400B0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   12     INTERNATIONAL #5
+  191  Prop          q   b       [ )   _     g    X0H410DC  C0H400D0  T1V10500
+HELVETICA LATIN1   BOLD   NORMAL   14     INTERNATIONAL #5    191  Prop
+ q   b       [ )   _     g    X0H410FC  C0H400F0  T1V10500  HELVETICA LATIN1   B
+OLD   NORMAL   16     INTERNATIONAL #5    191  Prop          q   b       [ )   _
+     g    X0H410HC  C0H400H0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   18
+  INTERNATIONAL #5    191  Prop          q   b       [ )   _     g    X0H410JC
+C0H400J0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   20     INTERNATIONAL #5
+  191  Prop          q   b       [ )   _     g    X0H410NC  C0H400N0  T1V10500
+HELVETICA LATIN1   BOLD   NORMAL   24     INTERNATIONAL #5    191  Prop
+ q   b       [ )   _     g    X0H410TC  C0H400T0  T1V10500  HELVETICA LATIN1   B
+OLD   NORMAL   30     INTERNATIONAL #5    191  Prop          q   b       [ )   _
+     g    X0H410ZC  C0H400Z0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   36
+  INTERNATIONAL #5    191  Prop          q   b       [ )   _     g    X0H4100C
+C0H40000  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   10     INTERNATIONAL #5
+  191  Prop          q   b       [ )   _     f    X0H4106C  C0H40060  T1V10500
+HELVETICA LATIN1   BOLD   NORMAL   6     INTERNATIONAL #5    191  Prop
+ q   b       [ )   _     f    X0H4107C  C0H40070  T1V10500  HELVETICA LATIN1   B
+OLD   NORMAL   7     INTERNATIONAL #5    191  Prop           q   b       [ )   _
+     f    X0H4108C  C0H40080  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   8
+ INTERNATIONAL #5    191  Prop           q   b       [ )   _     f    X0H4109C
+C0H40090  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   9     INTERNATIONAL #5
+ 191  Prop           q   b       [ )   _          X0H420A1  C0H400A0  T1000361
+HELVETICA LATIN1   BOLD   NORMAL   11     INTERNATIONAL SET 5    186  Prop
+ q   b       [ )   _          X0H420B1  C0H400B0  T1000361  HELVETICA LATIN1   B
+OLD   NORMAL   12     INTERNATIONAL SET 5    186  Prop       q   b       [ )   _
+          X0H420D1  C0H400D0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   14
+  INTERNATIONAL SET 5    186  Prop       q   b       [ )   _          X0H420F1
+C0H400F0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   16     INTERNATIONAL SET
+5    186  Prop       q   b       [ )   _          X0H420H1  C0H400H0  T1000361
+HELVETICA LATIN1   BOLD   NORMAL   18     INTERNATIONAL SET 5    186  Prop
+ q   b       [ )   _          X0H420J1  C0H400J0  T1000361  HELVETICA LATIN1   B
+OLD   NORMAL   20     INTERNATIONAL SET 5    186  Prop       q   b       [ )   _
+          X0H420N1  C0H400N0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   24
+  INTERNATIONAL SET 5    186  Prop       q   b       [ )   _          X0H420T1
+C0H400T0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   30     INTERNATIONAL SET
+5    186  Prop       q   b       [ )   _          X0H420Z1  C0H400Z0  T1000361
+HELVETICA LATIN1   BOLD   NORMAL   36     INTERNATIONAL SET 5    186  Prop
+ q   b       [ )   _          X0H42001  C0H40000  T1000361  HELVETICA LATIN1   B
+OLD   NORMAL   10     INTERNATIONAL SET 5    186  Prop       q   b       [ )   _
+     i    X0H42061  C0H40060  T1000361  HELVETICA LATIN1   BOLD   NORMAL   6
+ INTERNATIONAL SET 5    186  Prop        q   b       [ )   _     i    X0H42071
+C0H40070  T1000361  HELVETICA LATIN1   BOLD   NORMAL   7     INTERNATIONAL SET 5
+    186  Prop        q   b       [ )   _     i    X0H42081  C0H40080  T1000361
+HELVETICA LATIN1   BOLD   NORMAL   8     INTERNATIONAL SET 5    186  Prop
+ q   b       [ )   _     i    X0H42091  C0H40090  T1000361  HELVETICA LATIN1   B
+OLD   NORMAL   9     INTERNATIONAL SET 5    186  Prop                    [ )   _
+   :   l  X0H510AC  C0H500A0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   11  I
+TALIC   INTERNATIONAL #5    191  Prop                        [ )   _   :   l  X0
+H510BC  C0H500B0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   12  ITALIC   INTE
+RNATIONAL #5    191  Prop                        [ )   _   :   l  X0H510DC  C0H5
+00D0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   14  ITALIC   INTERNATIONAL #5
+    191  Prop                        [ )   _   :   l  X0H510FC  C0H500F0  T1V105
+00  HELVETICA LATIN1   BOLD   NORMAL   16  ITALIC   INTERNATIONAL #5    191  Pro
+p                        [ )   _   :   l  X0H510HC  C0H500H0  T1V10500  HELVETIC
+A LATIN1   BOLD   NORMAL   18  ITALIC   INTERNATIONAL #5    191  Prop
+             [ )   _   :   l  X0H510JC  C0H500J0  T1V10500  HELVETICA LATIN1   B
+OLD   NORMAL   20  ITALIC   INTERNATIONAL #5    191  Prop
+ [ )   _   :   l  X0H510NC  C0H500N0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL
+   24  ITALIC   INTERNATIONAL #5    191  Prop                        [ )   _   :
+   l  X0H510TC  C0H500T0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   30  ITALI
+C   INTERNATIONAL #5    191  Prop                        [ )   _   :   l  X0H510
+ZC  C0H500Z0  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   36  ITALIC   INTERNAT
+IONAL #5    191  Prop                        [ )   _   :   l  X0H5100C  C0H50000
+  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   10  ITALIC   INTERNATIONAL #5
+191  Prop            q   b       [ )   _       k  X0H5106C  C0H50060  T1V10500
+HELVETICA LATIN1   BOLD   NORMAL   6  ITALIC   INTERNATIONAL #5    191  Prop
+ q   b       [ )   _       k  X0H5107C  C0H50070  T1V10500  HELVETICA LATIN1   B
+OLD   NORMAL   7  ITALIC   INTERNATIONAL #5    191  Prop     q   b       [ )   _
+       k  X0H5108C  C0H50080  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   8  IT
+ALIC   INTERNATIONAL #5    191  Prop     q   b       [ )   _       k  X0H5109C
+C0H50090  T1V10500  HELVETICA LATIN1   BOLD   NORMAL   9  ITALIC   INTERNATIONAL
+ #5    191  Prop                 [ )   _   :   o  X0H520A1  C0H500A0  T1000361
+HELVETICA LATIN1   BOLD   NORMAL   11  ITALIC   INTERNATIONAL SET 5    186  Prop
+                     [ )   _   :   o  X0H520B1  C0H500B0  T1000361  HELVETICA LA
+TIN1   BOLD   NORMAL   12  ITALIC   INTERNATIONAL SET 5    186  Prop
+         [ )   _   :   o  X0H520D1  C0H500D0  T1000361  HELVETICA LATIN1   BOLD
+  NORMAL   14  ITALIC   INTERNATIONAL SET 5    186  Prop                     [ )
+   _   :   o  X0H520F1  C0H500F0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   1
+6  ITALIC   INTERNATIONAL SET 5    186  Prop                     [ )   _   :   o
+  X0H520H1  C0H500H0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   18  ITALIC
+INTERNATIONAL SET 5    186  Prop                     [ )   _   :   o  X0H520J1
+C0H500J0  T1000361  HELVETICA LATIN1   BOLD   NORMAL   20  ITALIC   INTERNATIONA
+L SET 5    186  Prop                     [ )   _   :   o  X0H520N1  C0H500N0  T1
+000361  HELVETICA LATIN1   BOLD   NORMAL   24  ITALIC   INTERNATIONAL SET 5    1
+86  Prop                     [ )   _   :   o  X0H520T1  C0H500T0  T1000361  HELV
+ETICA LATIN1   BOLD   NORMAL   30  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [ )   _   :   o  X0H520Z1  C0H500Z0  T1000361  HELVETICA LATIN1
+   BOLD   NORMAL   36  ITALIC   INTERNATIONAL SET 5    186  Prop
+     [ )   _   :   o  X0H52001  C0H50000  T1000361  HELVETICA LATIN1   BOLD   NO
+RMAL   10  ITALIC   INTERNATIONAL SET 5    186  Prop                     [ )   _
+       n  X0H52061  C0H50060  T1000361  HELVETICA LATIN1   BOLD   NORMAL   6  IT
+ALIC   INTERNATIONAL SET 5    186  Prop                      [ )   _       n  X0
+H52071  C0H50070  T1000361  HELVETICA LATIN1   BOLD   NORMAL   7  ITALIC   INTER
+NATIONAL SET 5    186  Prop                      [ )   _       n  X0H52081  C0H5
+0080  T1000361  HELVETICA LATIN1   BOLD   NORMAL   8  ITALIC   INTERNATIONAL SET
+ 5    186  Prop                      [ )   _       n  X0H52091  C0H50090  T10003
+61  HELVETICA LATIN1   BOLD   NORMAL   9  ITALIC   INTERNATIONAL SET 5    186  P
+rop                      [   / | >     k  X0IGAA    C00011ZA  T1GIG395  ISIL GOT
+HIC   MEDIUM   NORMAL   11     USA CANADA WITH GRAPHICS    202  Fixed
+ q   b       [   ^   % ?      X0IGAB    C00011ZB  T1GIG395  ISIL GOTHIC   BOLD
+ NORMAL   11     USA CANADA WITH GRAPHICS    202  Fixed      q   b       [   / |
+ _     j  X0IG7A    C00007ZA  T1GIG395  ISIL GOTHIC   MEDIUM   NORMAL   7     US
+A CANADA WITH GRAPHICS    202  Fixed                 [ ^         l r  X0IUOSPC
+C0A05500  T1GIG395  SONORAN SANS SERIF   MEDIUM   NORMAL   10     USA CANADA WIT
+H GRAPHICS    202  Prop                  [   $     |   k  X0JMD224  C0S0D224  T1
+GI0395  DATA1   MEDIUM   NORMAL   8     UNITED STATES, CANADA (ENGLISH)    186
+Fixed                        [   -   % ? j p  X0JMD225  C0S0D225  T1GI0395  DATA
+1 BASE   MEDIUM   NORMAL   8     UNITED STATES, CANADA (ENGLISH)    186  Fixed
+                 [   $       k q  X0JMD227  C0S0D227  T1GI0395  DATA1   MEDIUM
+ NORMAL   8  ITALIC   UNITED STATES, CANADA (ENGLISH)    186  Fixed
+     [   *     ,   l  X0JMGT18  C0D0GT18  T1GI0395  GOTHIC   MEDIUM   NORMAL   6
+     UNITED STATES, CANADA (ENGLISH)    186  Fixed               :       [   ;
+ | _ c i  X0JOE1    C0S0PR12  T1GI0361  PRESTIGE   MEDIUM   NORMAL   9     INTER
+NATIONAL SET 5    186  Fixed                 [ *   >       l  X0J055JE  C0J055J0
+  T1GE0200  SONORAN DISPLAY   MEDIUM   NORMAL   20     SONORAN DISPLAY FONTS
+ 83  Prop                        [ *   >       l  X0J055ZE  C0J055Z0  T1GE0200
+SONORAN DISPLAY   MEDIUM   NORMAL   36     SONORAN DISPLAY FONTS     83  Prop
+                     [     , ?     n  X0KL0A    C0L0KL10  T1L00KN1  KATAKANA   S
+EMI-LIGHT   NORMAL   10     LCS 3800-1 GOTHIC/KATAKANA    128  Fixed
+         [     , ?     n  X0KL0B    C0L0KL10  T1L02773  KATAKANA   SEMI-LIGHT
+NORMAL   10     LCS 3800-1 GOTHIC/KATAKANA     63  Fixed                     [
+   , ?     n  X0KL0C    C0L0KL10  T1L02774  KATAKANA   SEMI-LIGHT   NORMAL   10
+    LCS 3800-1 GOTHIC/KATAKANA    109  Fixed         q   b       [     , ?   e
+  X0KL10    C0L0KL10  T1000290  KATAKANA   SEMI-LIGHT   NORMAL   10     Japan (K
+ATAKANA)    128  Fixed           q   b       [     , >   d    X0KL12    C0L0KL12
+  T1000290  KATAKANA   SEMI-LIGHT   NORMAL   9     Japan (KATAKANA)    128  Fixe
+d            q   b       [     , >   d    X0KL15    C0L0KL15  T1000290  KATAKANA
+   SEMI-LIGHT   NORMAL   8     Japan (KATAKANA)    128  Fixed
+     [     , >     m  X0KL2A    C0L0KL12  T1L00KN1  KATAKANA   SEMI-LIGHT   NORM
+AL   9     LCS 3800-1 GOTHIC/KATAKANA    128  Fixed                      [     ,
+ >     m  X0KL2B    C0L0KL12  T1L02773  KATAKANA   SEMI-LIGHT   NORMAL   9     L
+CS 3800-1 GOTHIC/KATAKANA     63  Fixed                      [     , >     m  X0
+KL2C    C0L0KL12  T1L02774  KATAKANA   SEMI-LIGHT   NORMAL   9     LCS 3800-1 GO
+THIC/KATAKANA    109  Fixed                      [     , >     m  X0KL5A    C0L0
+KL15  T1L00KN1  KATAKANA   SEMI-LIGHT   NORMAL   8     LCS 3800-1 GOTHIC/KATAKAN
+A    128  Fixed                      [     , >     m  X0KL5B    C0L0KL15  T1L027
+73  KATAKANA   SEMI-LIGHT   NORMAL   8     LCS 3800-1 GOTHIC/KATAKANA     63  Fi
+xed                      [     , >     m  X0KL5C    C0L0KL15  T1L02774  KATAKANA
+   SEMI-LIGHT   NORMAL   8     LCS 3800-1 GOTHIC/KATAKANA    109  Fixed
+ q   b       [   ;   | _      X0KNJA    C0L0KN20  T1L00KN1  KATAKANA   MEDIUM
+NORMAL   5     LCS 3800-1 GOTHIC/KATAKANA    128  Fixed      q   b       [   ;
+ | _      X0KNJB    C0L0KN20  T1L02773  KATAKANA   MEDIUM   NORMAL   5     LCS 3
+800-1 GOTHIC/KATAKANA     63  Fixed      q   b       [   ;   | _      X0KNJC
+C0L0KN20  T1L02774  KATAKANA   MEDIUM   NORMAL   5     LCS 3800-1 GOTHIC/KATAKAN
+A    109  Fixed      q   b       [   ;   , >   j  X0KN0A    C0L0KATA  T1L00KN1
+KATAKANA   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC/KATAKANA    128  Fixed
+ q   b       [   ;   , >   j  X0KN0B    C0L0KATA  T1L02773  KATAKANA   MEDIUM
+NORMAL   10     LCS 3800-1 GOTHIC/KATAKANA     63  Fixed     q   b       [   ;
+ , >   j  X0KN0C    C0L0KATA  T1L02774  KATAKANA   MEDIUM   NORMAL   10     LCS
+3800-1 GOTHIC/KATAKANA    109  Fixed     q   b       [   ;   , >   j  X0KN1
+C0L0KATA  T1L00KN1  KATAKANA   MEDIUM   NORMAL   10     LCS 3800-1 GOTHIC/KATAKA
+NA    128  Fixed         :       [   ;   , > a g  X0KN10    C0L0KATA  T1000290
+KATAKANA   MEDIUM   NORMAL   10     Japan (KATAKANA)    128  Fixed           :
+     [   ;   | _   f  X0KN12    C0L0KN12  T1000290  KATAKANA   MEDIUM   NORMAL
+ 9     Japan (KATAKANA)    128  Fixed            :       [   ;   | _   f  X0KN15
+    C0L0KN15  T1000290  KATAKANA   MEDIUM   NORMAL   8     Japan (KATAKANA)    1
+28  Fixed        q   b       [   ;   | _      X0KN2A    C0L0KN12  T1L00KN1  KATA
+KANA   MEDIUM   NORMAL   9     LCS 3800-1 GOTHIC/KATAKANA    128  Fixed      q
+ b       [   ;   | _      X0KN2B    C0L0KN12  T1L02773  KATAKANA   MEDIUM   NORM
+AL   9     LCS 3800-1 GOTHIC/KATAKANA     63  Fixed      q   b       [   ;   | _
+      X0KN2C    C0L0KN12  T1L02774  KATAKANA   MEDIUM   NORMAL   9     LCS 3800-
+1 GOTHIC/KATAKANA    109  Fixed          :       [   ;   | _   f  X0KN20    C0L0
+KN20  T1000290  KATAKANA   MEDIUM   NORMAL   5     Japan (KATAKANA)    128  Fixe
+d        q   b       [   ;   | _      X0KN5A    C0L0KN15  T1L00KN1  KATAKANA   M
+EDIUM   NORMAL   8     LCS 3800-1 GOTHIC/KATAKANA    128  Fixed      q   b
+ [   ;   | _      X0KN5B    C0L0KN15  T1L02773  KATAKANA   MEDIUM   NORMAL   8
+   LCS 3800-1 GOTHIC/KATAKANA     63  Fixed      q   b       [   ;   | _      X0
+KN5C    C0L0KN15  T1L02774  KATAKANA   MEDIUM   NORMAL   8     LCS 3800-1 GOTHIC
+/KATAKANA    109  Fixed          :       [   ;   , > a g  X0K290    C0L0KATA  T1
+000290  KATAKANA   MEDIUM   NORMAL   10     Japan (KATAKANA)    128  Fixed
+     :       [ ! / | _   a g  X0LBEJ    C0S0LB12  T1V10274  LETTER GOTHIC   BOLD
+   NORMAL   9     Belgium - CECP    191  Fixed           :       [ ! / | _     f
+  X0LBEK    C0S0LB12  T1V10275  LETTER GOTHIC   BOLD   NORMAL   9     Brazil - C
+ECP    191  Fixed        q   b       [ ! / | _   g    X0LBEL    C0S0LB12  T1V102
+81  LETTER GOTHIC   BOLD   NORMAL   9     Japan (Latin) - CECP    191  Fixed
+         :       [ ! / | _   b h  X0LBEM    C0S0LB12  T1V10282  LETTER GOTHIC
+BOLD   NORMAL   9     Portugal - CECP    191  Fixed          :       [ ! / | _
+ a g  X0LBE0    C0S0LB12  T1V10871  LETTER GOTHIC   BOLD   NORMAL   9     Icelan
+d - CECP    191  Fixed       q   b       [ ! / | _   d    X0LBE1    C0S0LB12  T1
+V10037  LETTER GOTHIC   BOLD   NORMAL   9     USA/CANADA - CECP    191  Fixed
+                     [ ! / | _     l  X0LBE2    C0S0LB12  T1V10273  LETTER GOTHI
+C   BOLD   NORMAL   9     GERMANY F.R./AUSTRIA- CECP    191  Fixed           q
+ b       [ ! / | _   h    X0LBE3    C0S0LB12  T1V10277  LETTER GOTHIC   BOLD   N
+ORMAL   9     DENMARK/NORWAY - CECP    191  Fixed        q   b       [ ! / | _
+ g    X0LBE4    C0S0LB12  T1V10278  LETTER GOTHIC   BOLD   NORMAL   9     FINLAN
+D/SWEDEN- CECP    191  Fixed             :       [ ! / | _   = d  X0LBE5    C0S0
+LB12  T1V10280  LETTER GOTHIC   BOLD   NORMAL   9     ITALY- CECP    191  Fixed
+                     [ ! / | _     l  X0LBE6    C0S0LB12  T1V10284  LETTER GOTHI
+C   BOLD   NORMAL   9     SPAIN/LATIN AMERICA - CECP    191  Fixed           q
+ b       [ ! / | _   h    X0LBE7    C0S0LB12  T1V10285  LETTER GOTHIC   BOLD   N
+ORMAL   9     UNITED KINGDOM - CECP    191  Fixed            :       [ ! / | _
+   f  X0LBE8    C0S0LB12  T1V10297  LETTER GOTHIC   BOLD   NORMAL   9     France
+ - CECP    191  Fixed            :       [ ! / | _   c i  X0LBE9    C0S0LB12  T1
+V10500  LETTER GOTHIC   BOLD   NORMAL   9     INTERNATIONAL #5    191  Fixed
+ q   b       [ ! / | _        X0LB12    C0S0LB12  T1D0BASE  LETTER GOTHIC   BOLD
+   NORMAL   9     DCF REL 2 COMPATIBILITY    128  Fixed      q   b       [ ! / |
+ _   d    X0LB12CB  C0S0LB12  T1GDP037  LETTER GOTHIC   BOLD   NORMAL   9     DP
+: UNITED STATES    191  Fixed            q   b       [ ! / | _   f    X0LB12CF
+C0S0LB12  T1GDP276  LETTER GOTHIC   BOLD   NORMAL   9     DP: CANADA (FRENCH)
+ 191  Fixed          q   b       [ ! / | _        X0LB12DI  C0S0LB12  T1GDP256
+LETTER GOTHIC   BOLD   NORMAL   9     DP: INTERNATIONAL SET 5    191  Fixed
+             [ ! / | _   k q  X0LB12U   C0S0LB12  T1GI0395  LETTER GOTHIC   BOLD
+   NORMAL   9     UNITED STATES, CANADA (ENGLISH)    186  Fixed
+ [ ! / | _     n  X0LB2A    C0S0LB12  T1DABASE  LETTER GOTHIC   BOLD   NORMAL
+9     Austria/Germany F.R.- DABASE    129  Fixed                     [ ! / | _
+ k q  X0LB2B    C0S0LB12  T1DBBASE  LETTER GOTHIC   BOLD   NORMAL   9     Belgiu
+m/Swiss/Luxembourg-DBBASE    189  Fixed                  [ ! / | _   k q  X0LB2D
+    C0S0LB12  T1DDBASE  LETTER GOTHIC   BOLD   NORMAL   9     Denmark/Norway/Ice
+land - DDBASE    193  Fixed      q   b       [ ! / | _        X0LB2E    C0S0LB12
+  T1DEBASE  LETTER GOTHIC   BOLD   NORMAL   9     Finland/Sweden - DEBASE    189
+  Fixed          :       [ ! / | _   b h  X0LB2F    C0S0LB12  T1DFBASE  LETTER G
+OTHIC   BOLD   NORMAL   9     France - DFBASE    138  Fixed          :       [ !
+ / | _   a g  X0LB2I    C0S0LB12  T1DIBASE  LETTER GOTHIC   BOLD   NORMAL   9
+  Italy - DIBASE    140  Fixed                   [ ! / | _     o  X0LB2N    C0S0
+LB12  T1DNBASE  LETTER GOTHIC   BOLD   NORMAL   9     Netherlands/Portugal - DNB
+ASE    193  Fixed            :       [ ! / | _   a g  X0LB2S    C0S0LB12  T1DSBA
+SE  LETTER GOTHIC   BOLD   NORMAL   9     Spain - DSBASE    193  Fixed       q
+ b       [ ! / | _        X0LB2U    C0S0LB12  T1DUBASE  LETTER GOTHIC   BOLD   N
+ORMAL   9     United Kingdom - DUBASE    127  Fixed                  [ ! / | _
+   k  X0LB2Z    C0S0LB12  T1001068  LETTER GOTHIC   BOLD   NORMAL   9     Text W
+ith Numeric Spacing    126  Fixed                :       [ !   % ?   c i  X0LREJ
+    C0S0LR12  T1V10274  LETTER GOTHIC   MEDIUM   NORMAL   9     Belgium - CECP
+  191  Fixed         :       [ !   % ?   b h  X0LREK    C0S0LR12  T1V10275  LETT
+ER GOTHIC   MEDIUM   NORMAL   9     Brazil - CECP    191  Fixed      q   b
+ [ !   % ?   i    X0LREL    C0S0LR12  T1V10281  LETTER GOTHIC   MEDIUM   NORMAL
+  9     Japan (Latin) - CECP    191  Fixed       q   b       [ !   % ?   d    X0
+LREM    C0S0LR12  T1V10282  LETTER GOTHIC   MEDIUM   NORMAL   9     Portugal - C
+ECP    191  Fixed                :       [ !   % ?   c i  X0LRE0    C0S0LR12  T1
+V10871  LETTER GOTHIC   MEDIUM   NORMAL   9     Iceland - CECP    191  Fixed
+ q   b       [ !   % ?   f    X0LRE1    C0S0LR12  T1V10037  LETTER GOTHIC   MEDI
+UM   NORMAL   9     USA/CANADA - CECP    191  Fixed                      [ !   %
+ ?     n  X0LRE2    C0S0LR12  T1V10273  LETTER GOTHIC   MEDIUM   NORMAL   9
+GERMANY F.R./AUSTRIA- CECP    191  Fixed         q   b       [ !   % ?        X0
+LRE3    C0S0LR12  T1V10277  LETTER GOTHIC   MEDIUM   NORMAL   9     DENMARK/NORW
+AY - CECP    191  Fixed      q   b       [ !   % ?   i    X0LRE4    C0S0LR12  T1
+V10278  LETTER GOTHIC   MEDIUM   NORMAL   9     FINLAND/SWEDEN- CECP    191  Fix
+ed           :       [ !   % ?     f  X0LRE5    C0S0LR12  T1V10280  LETTER GOTHI
+C   MEDIUM   NORMAL   9     ITALY- CECP    191  Fixed                    [ !   %
+ ?     n  X0LRE6    C0S0LR12  T1V10284  LETTER GOTHIC   MEDIUM   NORMAL   9
+SPAIN/LATIN AMERICA - CECP    191  Fixed         q   b       [ !   % ?        X0
+LRE7    C0S0LR12  T1V10285  LETTER GOTHIC   MEDIUM   NORMAL   9     UNITED KINGD
+OM - CECP    191  Fixed          :       [ !   % ?   b h  X0LRE8    C0S0LR12  T1
+V10297  LETTER GOTHIC   MEDIUM   NORMAL   9     France - CECP    191  Fixed
+ q   b       [ !   % ?   e    X0LRE9    C0S0LR12  T1V10500  LETTER GOTHIC   MEDI
+UM   NORMAL   9     INTERNATIONAL #5    191  Fixed                       [ !   %
+ ?     k  X0LR12    C0S0LR12  T1D0BASE  LETTER GOTHIC   MEDIUM   NORMAL   9
+DCF REL 2 COMPATIBILITY    128  Fixed            q   b       [ !   % ?   f    X0
+LR12CB  C0S0LR12  T1GDP037  LETTER GOTHIC   MEDIUM   NORMAL   9     DP: UNITED S
+TATES    191  Fixed          q   b       [ !   % ?   h    X0LR12CF  C0S0LR12  T1
+GDP276  LETTER GOTHIC   MEDIUM   NORMAL   9     DP: CANADA (FRENCH)    191  Fixe
+d                    [ !   % ?     k  X0LR12DI  C0S0LR12  T1GDP256  LETTER GOTHI
+C   MEDIUM   NORMAL   9     DP: INTERNATIONAL SET 5    191  Fixed
+         [ !   % ?   j p  X0LR2A    C0S0LR12  T1DABASE  LETTER GOTHIC   MEDIUM
+ NORMAL   9     Austria/Germany F.R.- DABASE    129  Fixed       y   k       [ !
+   % ?   m    X0LR2B    C0S0LR12  T1DBBASE  LETTER GOTHIC   MEDIUM   NORMAL   9
+    Belgium/Swiss/Luxembourg-DBBASE    189  Fixed            y   k       [ !   %
+ ?   m    X0LR2D    C0S0LR12  T1DDBASE  LETTER GOTHIC   MEDIUM   NORMAL   9
+Denmark/Norway/Iceland - DDBASE    193  Fixed                        [ !   % ?
+   k  X0LR2E    C0S0LR12  T1DEBASE  LETTER GOTHIC   MEDIUM   NORMAL   9     Finl
+and/Sweden - DEBASE    189  Fixed            q   b       [ !   % ?   d    X0LR2F
+    C0S0LR12  T1DFBASE  LETTER GOTHIC   MEDIUM   NORMAL   9     France - DFBASE
+   138  Fixed                :       [ !   % ?   c i  X0LR2I    C0S0LR12  T1DIBA
+SE  LETTER GOTHIC   MEDIUM   NORMAL   9     Italy - DIBASE    140  Fixed
+         [ !   % ?   k q  X0LR2N    C0S0LR12  T1DNBASE  LETTER GOTHIC   MEDIUM
+ NORMAL   9     Netherlands/Portugal - DNBASE    193  Fixed          :       [ !
+   % ?   c i  X0LR2S    C0S0LR12  T1DSBASE  LETTER GOTHIC   MEDIUM   NORMAL   9
+    Spain - DSBASE    193  Fixed                 [ !   % ?     k  X0LR2U    C0S0
+LR12  T1DUBASE  LETTER GOTHIC   MEDIUM   NORMAL   9     United Kingdom - DUBASE
+   127  Fixed                        [ !   % ?     m  X0LR2Z    C0S0LR12  T10010
+68  LETTER GOTHIC   MEDIUM   NORMAL   9     Text With Numeric Spacing    126  Fi
+xed          q   b       [   $     | d    X0MONO    C0S0D224  T1D0BASE  DATA1
+MEDIUM   NORMAL   8     DCF REL 2 COMPATIBILITY    128  Fixed
+     [   %     @   n  X0N210AC  C0N200A0  T1V10500  TIMES NEW ROMAN LATIN1   MED
+IUM   NORMAL   11     INTERNATIONAL #5    191  Prop                      [   %
+   @   n  X0N210BC  C0N200B0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL
+   12     INTERNATIONAL #5    191  Prop                      [   %     @   n  X0
+N210DC  C0N200D0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   14     IN
+TERNATIONAL #5    191  Prop                      [   %     @   n  X0N210FC  C0N2
+00F0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   16     INTERNATIONAL
+#5    191  Prop                      [   %     @   n  X0N210HC  C0N200H0  T1V105
+00  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   18     INTERNATIONAL #5    191  P
+rop                      [   %     @   n  X0N210JC  C0N200J0  T1V10500  TIMES NE
+W ROMAN LATIN1   MEDIUM   NORMAL   20     INTERNATIONAL #5    191  Prop
+             [   %     @   n  X0N210NC  C0N200N0  T1V10500  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   24     INTERNATIONAL #5    191  Prop
+ [   %     @   n  X0N210TC  C0N200T0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM
+  NORMAL   30     INTERNATIONAL #5    191  Prop                      [   %     @
+   n  X0N210ZC  C0N200Z0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   3
+6     INTERNATIONAL #5    191  Prop                      [   %     @ m    X0N210
+0A  C0N20000  T1V10285  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     UNITED
+ KINGDOM - CECP    191  Prop     q   b       [   %     @   k  X0N2100B  C0N20000
+  T1V10297  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     France - CECP    1
+91  Prop                 [   %     @   n  X0N2100C  C0N20000  T1V10500  TIMES NE
+W ROMAN LATIN1   MEDIUM   NORMAL   10     INTERNATIONAL #5    191  Prop
+             [   %     @   l  X0N2100D  C0N20000  T1V10871  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   10     Iceland - CECP    191  Prop            y   k
+ [   %     @ r    X0N21000  C0N20000  T1V10284  TIMES NEW ROMAN LATIN1   MEDIUM
+  NORMAL   10     SPAIN/LATIN AMERICA - CECP    191  Prop                    [
+ %     @   o  X0N21001  C0N20000  T1V10037  TIMES NEW ROMAN LATIN1   MEDIUM   NO
+RMAL   10     USA/CANADA - CECP    191  Prop         y   k       [   %     @ r
+  X0N21002  C0N20000  T1V10273  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10
+  GERMANY F.R./AUSTRIA- CECP    191  Prop                    [   %     @   l  X0
+N21003  C0N20000  T1V10274  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     Be
+lgium - CECP    191  Prop            q   b       [   %     @   k  X0N21004  C0N2
+0000  T1V10275  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     Brazil - CECP
+   191  Prop                 [   %     @ m    X0N21005  C0N20000  T1V10277  TIME
+S NEW ROMAN LATIN1   MEDIUM   NORMAL   10     DENMARK/NORWAY - CECP    191  Prop
+                 [   %     @ l r  X0N21006  C0N20000  T1V10278  TIMES NEW ROMAN
+LATIN1   MEDIUM   NORMAL   10     FINLAND/SWEDEN- CECP    191  Prop      q   b
+     [   %     @      X0N21007  C0N20000  T1V10280  TIMES NEW ROMAN LATIN1   MED
+IUM   NORMAL   10     ITALY- CECP    191  Prop                   [   %     @ l r
+  X0N21008  C0N20000  T1V10281  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10
+  Japan (Latin) - CECP    191  Prop                  [   %     @   m  X0N21009
+C0N20000  T1V10282  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     Portugal -
+ CECP    191  Prop                       [   %     #   m  X0N2106C  C0N20060  T1
+V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   6     INTERNATIONAL #5    191
+  Prop                       [   %     #   m  X0N2107C  C0N20070  T1V10500  TIME
+S NEW ROMAN LATIN1   MEDIUM   NORMAL   7     INTERNATIONAL #5    191  Prop
+                 [   %     #   m  X0N2108C  C0N20080  T1V10500  TIMES NEW ROMAN
+LATIN1   MEDIUM   NORMAL   8     INTERNATIONAL #5    191  Prop
+     [   %     #   m  X0N2109C  C0N20090  T1V10500  TIMES NEW ROMAN LATIN1   MED
+IUM   NORMAL   9     INTERNATIONAL #5    191  Prop                       [   %
+   @ k q  X0N220A1  C0N200A0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL
+   11     INTERNATIONAL SET 5    186  Prop                   [   %     @ k q  X0
+N220B1  C0N200B0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   12     IN
+TERNATIONAL SET 5    186  Prop                   [   %     @ k q  X0N220D1  C0N2
+00D0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   14     INTERNATIONAL
+SET 5    186  Prop                   [   %     @ k q  X0N220F1  C0N200F0  T10003
+61  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   16     INTERNATIONAL SET 5    186
+  Prop                   [   %     @ k q  X0N220H1  C0N200H0  T1000361  TIMES NE
+W ROMAN LATIN1   MEDIUM   NORMAL   18     INTERNATIONAL SET 5    186  Prop
+             [   %     @ k q  X0N220J1  C0N200J0  T1000361  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   20     INTERNATIONAL SET 5    186  Prop
+ [   %     @ k q  X0N220N1  C0N200N0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM
+  NORMAL   24     INTERNATIONAL SET 5    186  Prop                   [   %     @
+ k q  X0N220T1  C0N200T0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   3
+0     INTERNATIONAL SET 5    186  Prop                   [   %     @ k q  X0N220
+Z1  C0N200Z0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   36     INTERN
+ATIONAL SET 5    186  Prop       q   b       [   %     @ g    X0N2200A  C0N20000
+  T1000391  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     PORTUGAL    186  P
+rop                      [   %     @   o  X0N2200B  C0N20000  T1000392  TIMES NE
+W ROMAN LATIN1   MEDIUM   NORMAL   10     SPAIN/PHILIPPINES    186  Prop
+ y   k       [   %     @ o    X0N2200C  C0N20000  T1000393  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   10     LATIN AMERICA (SPANISH)    186  Prop
+         [   %     @   u  X0N2200D  C0N20000  T1000394  TIMES NEW ROMAN LATIN1
+ MEDIUM   NORMAL   10     U.K., AUSTRAL., IRE., H.K., N.Z.   186  Prop
+             [   %     @   u  X0N2200E  C0N20000  T1000395  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   10     UNITED STATES, CANADA (ENGLISH)    186  Prop
+     q   b       [   %     @   k  X0N22000  C0N20000  T1000390  TIMES NEW ROMAN
+LATIN1   MEDIUM   NORMAL   10     JAPAN (LATIN)    186  Prop                 [
+ %     @ k q  X0N22001  C0N20000  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NO
+RMAL   10     INTERNATIONAL SET 5    186  Prop       y   k       [   %     @   s
+  X0N22002  C0N20000  T1000382  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10
+  AUSTRIA, GERMANY, SWITZERLAND    186  Prop     q   b       [   %     @ f    X0
+N22003  C0N20000  T1000383  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     BE
+LGIUM    186  Prop           q   b       [   %     @ e    X0N22004  C0N20000  T1
+000384  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     BRAZIL    186  Prop
+                     [   %     @   m  X0N22005  C0N20000  T1000385  TIMES NEW RO
+MAN LATIN1   MEDIUM   NORMAL   10     CANADA (FRENCH)    186  Prop
+         [   %     @   l  X0N22006  C0N20000  T1000386  TIMES NEW ROMAN LATIN1
+ MEDIUM   NORMAL   10     DENMARK/NORWAY    186  Prop                        [
+ %     @   l  X0N22007  C0N20000  T1000387  TIMES NEW ROMAN LATIN1   MEDIUM   NO
+RMAL   10     SWEDEN/FINLAND    186  Prop                        [   %     @ k q
+  X0N22008  C0N20000  T1000388  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10
+  FRANCE, SWITZERLAND    186  Prop       y   k       [   %     @   ~  X0N22009
+C0N20000  T1000389  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     ITALY, SWI
+TZERLAND (ITALIAN)    186  Prop                  [   %     # j p  X0N22061  C0N2
+0060  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   6     INTERNATIONAL S
+ET 5    186  Prop                    [   %     # j p  X0N22071  C0N20070  T10003
+61  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   7     INTERNATIONAL SET 5    186
+ Prop                    [   %     # j p  X0N22081  C0N20080  T1000361  TIMES NE
+W ROMAN LATIN1   MEDIUM   NORMAL   8     INTERNATIONAL SET 5    186  Prop
+             [   %     # j p  X0N22091  C0N20090  T1000361  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   9     INTERNATIONAL SET 5    186  Prop
+ [   %     @   o  X0N23001  C0N20000  T1000437  TIMES NEW ROMAN LATIN1   MEDIUM
+  NORMAL   10     PERSONAL COMPUTER    255  Prop                     [   %     @
+   m  X0N23002  C0N20000  T1000850  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   1
+0     PC MULTILINGUAL    255  Prop           y   k       [   %     @   ~  X0N230
+03  C0N20000  T1000860  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     PORTUG
+AL - PERSONAL COMPUTER    255  Prop      y   k       [   %     @      X0N23004
+C0N20000  T1000861  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     ICELAND -
+PERSONAL COMPUTER    255  Prop                   [   %     @ l r  X0N23005  C0N2
+0000  T1000863  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     CANADIAN FRENC
+H - PC    255  Prop      y   k       [   %     @ r    X0N23006  C0N20000  T10008
+65  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     NORDIC - PERSONAL COMPUTER
+    255  Prop        y   k       [   %     @ q    X0N23007  C0N20000  T1001004
+TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10     IBM PC DESKTOP PUBLISHING    2
+21  Prop                     [   %     @ m    X0N23008  C0N20000  T1000819  TIME
+S NEW ROMAN LATIN1   MEDIUM   NORMAL   10     LATIN1 ISO/ANSI 8-BIT    191  Prop
+     y   k       [   %     @ o    X0N24001  C0N20000  T1001002  TIMES NEW ROMAN
+LATIN1   MEDIUM   NORMAL   10     DCF REL 2 COMPATIBILITY    123  Prop
+             [   %     @   n  X0N24002  C0N20000  T1001003  TIMES NEW ROMAN LATI
+N1   MEDIUM   NORMAL   10     U.S. TEXT SUBSET    118  Prop          y   k
+ [   %     b n    X0N310AC  C0N300A0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM
+  NORMAL   11  ITALIC   INTERNATIONAL #5    191  Prop            y   k       [
+ %     b n    X0N310BC  C0N300B0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NO
+RMAL   12  ITALIC   INTERNATIONAL #5    191  Prop            y   k       [   %
+   b n    X0N310DC  C0N300D0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL
+   14  ITALIC   INTERNATIONAL #5    191  Prop            y   k       [   %     b
+ n    X0N310FC  C0N300F0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   1
+6  ITALIC   INTERNATIONAL #5    191  Prop            y   k       [   %     b n
+  X0N310HC  C0N300H0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   18  I
+TALIC   INTERNATIONAL #5    191  Prop            y   k       [   %     b n    X0
+N310JC  C0N300J0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   20  ITALI
+C   INTERNATIONAL #5    191  Prop            y   k       [   %     b n    X0N310
+NC  C0N300N0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   24  ITALIC
+INTERNATIONAL #5    191  Prop            y   k       [   %     b n    X0N310TC
+C0N300T0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   30  ITALIC   INTE
+RNATIONAL #5    191  Prop            y   k       [   %     b n    X0N310ZC  C0N3
+00Z0  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   36  ITALIC   INTERNAT
+IONAL #5    191  Prop            y   k       [   %     b n    X0N3100C  C0N30000
+  T1V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10  ITALIC   INTERNATIONA
+L #5    191  Prop                        [   %     a m    X0N3106C  C0N30060  T1
+V10500  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   6  ITALIC   INTERNATIONAL #5
+   191  Prop                 [   %     a m    X0N3107C  C0N30070  T1V10500  TIME
+S NEW ROMAN LATIN1   MEDIUM   NORMAL   7  ITALIC   INTERNATIONAL #5    191  Prop
+                 [   %     a m    X0N3108C  C0N30080  T1V10500  TIMES NEW ROMAN
+LATIN1   MEDIUM   NORMAL   8  ITALIC   INTERNATIONAL #5    191  Prop
+     [   %     a m    X0N3109C  C0N30090  T1V10500  TIMES NEW ROMAN LATIN1   MED
+IUM   NORMAL   9  ITALIC   INTERNATIONAL #5    191  Prop     y   k       [   %
+   b q    X0N320A1  C0N300A0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL
+   11  ITALIC   INTERNATIONAL SET 5    186  Prop         y   k       [   %     b
+ q    X0N320B1  C0N300B0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   1
+2  ITALIC   INTERNATIONAL SET 5    186  Prop         y   k       [   %     b q
+  X0N320D1  C0N300D0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   14  I
+TALIC   INTERNATIONAL SET 5    186  Prop         y   k       [   %     b q    X0
+N320F1  C0N300F0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   16  ITALI
+C   INTERNATIONAL SET 5    186  Prop         y   k       [   %     b q    X0N320
+H1  C0N300H0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   18  ITALIC
+INTERNATIONAL SET 5    186  Prop         y   k       [   %     b q    X0N320J1
+C0N300J0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   20  ITALIC   INTE
+RNATIONAL SET 5    186  Prop         y   k       [   %     b q    X0N320N1  C0N3
+00N0  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   24  ITALIC   INTERNAT
+IONAL SET 5    186  Prop         y   k       [   %     b q    X0N320T1  C0N300T0
+  T1000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   30  ITALIC   INTERNATIONA
+L SET 5    186  Prop         y   k       [   %     b q    X0N320Z1  C0N300Z0  T1
+000361  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   36  ITALIC   INTERNATIONAL SE
+T 5    186  Prop         y   k       [   %     b q    X0N32001  C0N30000  T10003
+61  TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   10  ITALIC   INTERNATIONAL SET 5
+   186  Prop         y   k       [   %     a p    X0N32061  C0N30060  T1000361
+TIMES NEW ROMAN LATIN1   MEDIUM   NORMAL   6  ITALIC   INTERNATIONAL SET 5    18
+6  Prop          y   k       [   %     a p    X0N32071  C0N30070  T1000361  TIME
+S NEW ROMAN LATIN1   MEDIUM   NORMAL   7  ITALIC   INTERNATIONAL SET 5    186  P
+rop          y   k       [   %     a p    X0N32081  C0N30080  T1000361  TIMES NE
+W ROMAN LATIN1   MEDIUM   NORMAL   8  ITALIC   INTERNATIONAL SET 5    186  Prop
+         y   k       [   %     a p    X0N32091  C0N30090  T1000361  TIMES NEW RO
+MAN LATIN1   MEDIUM   NORMAL   9  ITALIC   INTERNATIONAL SET 5    186  Prop
+                 [   |     :   l  X0N410AC  C0N400A0  T1V10500  TIMES NEW ROMAN
+LATIN1   BOLD   NORMAL   11     INTERNATIONAL #5    191  Prop
+     [   |     :   l  X0N410BC  C0N400B0  T1V10500  TIMES NEW ROMAN LATIN1   BOL
+D   NORMAL   12     INTERNATIONAL #5    191  Prop                        [   |
+   :   l  X0N410DC  C0N400D0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL
+ 14     INTERNATIONAL #5    191  Prop                        [   |     :   l  X0
+N410FC  C0N400F0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   16     INTE
+RNATIONAL #5    191  Prop                        [   |     :   l  X0N410HC  C0N4
+00H0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   18     INTERNATIONAL #5
+    191  Prop                        [   |     :   l  X0N410JC  C0N400J0  T1V105
+00  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   20     INTERNATIONAL #5    191  Pro
+p                        [   |     :   l  X0N410NC  C0N400N0  T1V10500  TIMES NE
+W ROMAN LATIN1   BOLD   NORMAL   24     INTERNATIONAL #5    191  Prop
+             [   |     :   l  X0N410TC  C0N400T0  T1V10500  TIMES NEW ROMAN LATI
+N1   BOLD   NORMAL   30     INTERNATIONAL #5    191  Prop
+ [   |     :   l  X0N410ZC  C0N400Z0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD
+NORMAL   36     INTERNATIONAL #5    191  Prop                        [   |     :
+   l  X0N4100C  C0N40000  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   10
+    INTERNATIONAL #5    191  Prop            q   b       [   |         k  X0N410
+6C  C0N40060  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   6     INTERNATI
+ONAL #5    191  Prop     q   b       [   |         k  X0N4107C  C0N40070  T1V105
+00  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   7     INTERNATIONAL #5    191  Prop
+     q   b       [   |         k  X0N4108C  C0N40080  T1V10500  TIMES NEW ROMAN
+LATIN1   BOLD   NORMAL   8     INTERNATIONAL #5    191  Prop     q   b       [
+ |         k  X0N4109C  C0N40090  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORM
+AL   9     INTERNATIONAL #5    191  Prop                 [   |     :   o  X0N420
+A1  C0N400A0  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   11     INTERNAT
+IONAL SET 5    186  Prop                     [   |     :   o  X0N420B1  C0N400B0
+  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   12     INTERNATIONAL SET 5
+   186  Prop                     [   |     :   o  X0N420D1  C0N400D0  T1000361
+TIMES NEW ROMAN LATIN1   BOLD   NORMAL   14     INTERNATIONAL SET 5    186  Prop
+                     [   |     :   o  X0N420F1  C0N400F0  T1000361  TIMES NEW RO
+MAN LATIN1   BOLD   NORMAL   16     INTERNATIONAL SET 5    186  Prop
+         [   |     :   o  X0N420H1  C0N400H0  T1000361  TIMES NEW ROMAN LATIN1
+ BOLD   NORMAL   18     INTERNATIONAL SET 5    186  Prop                     [
+ |     :   o  X0N420J1  C0N400J0  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORM
+AL   20     INTERNATIONAL SET 5    186  Prop                     [   |     :   o
+  X0N420N1  C0N400N0  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   24
+INTERNATIONAL SET 5    186  Prop                     [   |     :   o  X0N420T1
+C0N400T0  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   30     INTERNATIONA
+L SET 5    186  Prop                     [   |     :   o  X0N420Z1  C0N400Z0  T1
+000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   36     INTERNATIONAL SET 5    1
+86  Prop                     [   |     :   o  X0N42001  C0N40000  T1000361  TIME
+S NEW ROMAN LATIN1   BOLD   NORMAL   10     INTERNATIONAL SET 5    186  Prop
+                 [   |         n  X0N42061  C0N40060  T1000361  TIMES NEW ROMAN
+LATIN1   BOLD   NORMAL   6     INTERNATIONAL SET 5    186  Prop
+     [   |         n  X0N42071  C0N40070  T1000361  TIMES NEW ROMAN LATIN1   BOL
+D   NORMAL   7     INTERNATIONAL SET 5    186  Prop                      [   |
+       n  X0N42081  C0N40080  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL
+ 8     INTERNATIONAL SET 5    186  Prop                      [   |         n  X0
+N42091  C0N40090  T1000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   9     INTER
+NATIONAL SET 5    186  Prop                      [   |       l r  X0N510AC  C0N5
+00A0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   11  ITALIC   INTERNATIO
+NAL #5    191  Prop                  [   |       l r  X0N510BC  C0N500B0  T1V105
+00  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   12  ITALIC   INTERNATIONAL #5    19
+1  Prop                  [   |       l r  X0N510DC  C0N500D0  T1V10500  TIMES NE
+W ROMAN LATIN1   BOLD   NORMAL   14  ITALIC   INTERNATIONAL #5    191  Prop
+             [   |       l r  X0N510FC  C0N500F0  T1V10500  TIMES NEW ROMAN LATI
+N1   BOLD   NORMAL   16  ITALIC   INTERNATIONAL #5    191  Prop
+ [   |       l r  X0N510HC  C0N500H0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD
+NORMAL   18  ITALIC   INTERNATIONAL #5    191  Prop                  [   |
+ l r  X0N510JC  C0N500J0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   20
+ ITALIC   INTERNATIONAL #5    191  Prop                  [   |       l r  X0N510
+NC  C0N500N0  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   24  ITALIC   IN
+TERNATIONAL #5    191  Prop                  [   |       l r  X0N510TC  C0N500T0
+  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   30  ITALIC   INTERNATIONAL
+#5    191  Prop                  [   |       l r  X0N510ZC  C0N500Z0  T1V10500
+TIMES NEW ROMAN LATIN1   BOLD   NORMAL   36  ITALIC   INTERNATIONAL #5    191  P
+rop                  [   |       l r  X0N5100C  C0N50000  T1V10500  TIMES NEW RO
+MAN LATIN1   BOLD   NORMAL   10  ITALIC   INTERNATIONAL #5    191  Prop
+         [   |     " k q  X0N5106C  C0N50060  T1V10500  TIMES NEW ROMAN LATIN1
+ BOLD   NORMAL   6  ITALIC   INTERNATIONAL #5    191  Prop                   [
+ |     " k q  X0N5107C  C0N50070  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORM
+AL   7  ITALIC   INTERNATIONAL #5    191  Prop                   [   |     " k q
+  X0N5108C  C0N50080  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   8  ITAL
+IC   INTERNATIONAL #5    191  Prop                   [   |     " k q  X0N5109C
+C0N50090  T1V10500  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   9  ITALIC   INTERNA
+TIONAL #5    191  Prop       y   k       [   |       o    X0N520A1  C0N500A0  T1
+000361  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   11  ITALIC   INTERNATIONAL SET
+5    186  Prop           y   k       [   |       o    X0N520B1  C0N500B0  T10003
+61  TIMES NEW ROMAN LATIN1   BOLD   NORMAL   12  ITALIC   INTERNATIONAL SET 5
+ 186  Prop           y   k       [   |       o    X0N520D1  C0N500D0  T1000361
+TIMES NEW ROMAN LATIN1   BOLD   NORMAL   14  ITALIC   INTERNATIONAL SET 5    186
+  Prop           y   k       [   |       o    X0N520F1  C0N500F0  T1000361  TIME
+S NEW ROMAN LATIN1   BOLD   NORMAL   16  ITALIC   INTERNATIONAL SET 5    186  Pr
+op           y   k       [   |       o    X0N520H1  C0N500H0  T1000361  TIMES NE
+W ROMAN LATIN1   BOLD   NORMAL   18  ITALIC   INTERNATIONAL SET 5    186  Prop
+         y   k       [   |       o    X0N520J1  C0N500J0  T1000361  TIMES NEW RO
+MAN LATIN1   BOLD   NORMAL   20  ITALIC   INTERNATIONAL SET 5    186     y   k

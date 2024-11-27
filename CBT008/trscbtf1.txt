@@ -1,0 +1,15 @@
+//SBGOLOBT  JOB (ACCT#),S-GOLOB,
+// NOTIFY=&SYSUID,
+// CLASS=B,MSGCLASS=X
+//****************************************************
+//*                                                  *
+//*       TRSMAIN WITH PACK OPTION                   *
+//*                                                  *
+//****************************************************
+//*OBLIB  DD   DISP=SHR,DSN=SBGOLOB.W$$.LINKLIB
+//STEP     EXEC PGM=TRSMAIN,PARM=PACK
+//SYSPRINT DD   SYSOUT=*
+//INFILE   DD   DISP=SHR,DSN=CBT.DFDSS.CBT488.BACKUP
+//OUTFILE  DD   DISP=(NEW,CATLG),UNIT=SYSDA,
+//       DSN=CBT.DFDSS.CBT488.TERSED,
+//       SPACE=(CYL,(90,90),RLSE),VOL=SER=WORK91

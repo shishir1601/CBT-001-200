@@ -1,0 +1,141 @@
+PROC 3 SLSSPRT SLSSLINE SLSSFORM DEBUG
+    IF &DEBUG ^= &STR( ) THEN DO
+      CONTROL MSG LIST CONLIST SYMLIST
+      ISPEXEC  CONTROL DISPLAY  LINE SM
+    END DO
+    ELSE DO
+      CONTROL NOMSG
+    END DO
+    SET FS = &STR(                                                                                          )
+    SET DSNCNT = 0
+    SET PRTRTN = &STR(N)
+    SET SAVELINE = &STR( )
+ERROR +
+    DO
+      SET RC = &LASTCC
+      IF &LASTCC EQ 400 THEN DO
+        CLOSFILE SLSSIN
+        CLOSFILE SLSSOUT
+        FREE F(SLSSIN)
+        FREE F(SLSSOUT)
+        EXIT
+      END DO
+      ELSE RETURN
+    END DO
+OUTFILE: +
+    FREE F(SLSSOUT)
+    SET FORM = &STR(P014)
+    IF &STR(&SLSSFORM) = &STR(2) THEN DO
+      SET FORM = &STR(P001)
+    END DO
+    IF &STR(&SLSSPRT) = &STR(1) THEN DO
+      ALLOC F(SLSSOUT) SYSOUT(G) DEST(FETCH) FORM(&FORM) LRECL(91) BLKSIZE(5460) RECFM(F B A)
+    END DO
+    ELSE DO
+      ALLOC F(SLSSOUT) SYSOUT(A) DEST(FETCH) LRECL(91) BLKSIZE(5460) RECFM(F B A)
+    END DO
+    OPENFILE SLSSOUT OUTPUT
+    OPENFILE SLSSIN INPUT
+    GETFILE SLSSIN
+SETPAGE: +
+    SET PAGNUM = 0
+    SET MAXLN = 59
+    SET CHKMXS = 56
+    SET CHKMXD = 53
+    IF &STR(&SLSSLINE) = &STR(S) THEN DO
+      SET CR = &STR( )
+    END DO
+    ELSE DO
+      SET CR = &STR(0)
+    END DO
+SETHDR: +
+    SET HDR0A = &STR(    &SYSDATE                          ISL LIBRARY)
+    SET HDR0B = &STR( REPORT                      PAGE: )
+    SET HDR1A = &STR(    LOCATION: )
+    SET HDR1B = &STR(                                                       )
+    SET HDR4A = &STR(   ---------------------------------------------)
+    SET HDR4B = &STR(------------------------------------------)
+    SET HDR2A = &STR(                                  MANUAL LIST)
+    SET HDR2B = &STR(ING BY LOCATION                            )
+    SET HDR3A = &STR(    MANUAL-ID                              )
+    SET HDR3B = &STR( TITLE                              COPIES     )
+    GOTO PRTHDR
+PRTHDR: +
+    SET LOCATN = &SUBSTR(1:8,&STR(&SLSSIN&FS))
+    SET PAGNUM = &PAGNUM + 1
+    SET SLSSOUT = &STR(1&HDR0A&HDR0B&PAGNUM)
+    PUTFILE SLSSOUT
+    SET SLSSOUT = &STR( &HDR2A&HDR2B)
+    PUTFILE SLSSOUT
+    SET SLSSOUT = &STR( &HDR1A&LOCATN&HDR1B)
+    PUTFILE SLSSOUT
+    SET SLSSOUT = &STR(   )
+    PUTFILE SLSSOUT
+    SET SLSSOUT = &STR( &HDR3A&HDR3B)
+    PUTFILE SLSSOUT
+    SET SLSSOUT = &STR( &HDR4A&HDR4B)
+    PUTFILE SLSSOUT
+    SET LNCNT = 6
+    IF &STR(&PRTRTN) = &STR(Y) THEN DO
+      SET SLSSOUT = &STR(&SAVELINE)
+      SET PRTRTN = &STR(N)
+      GOTO PRTLIN
+    END DO
+LOOPTBL: +
+    SET BYPASS = &STR(N)
+    SET SLSSOUT = &STR( )
+    SET R1 = &SUBSTR(10:18,&STR(&SLSSIN&FS))
+    SET R2 = &SUBSTR(20:79,&STR(&SLSSIN&FS))
+SETLIN: +
+    SET COPIES = 1
+    SET DONE = &STR(NO)
+    DO WHILE &DONE = &STR(NO)
+      GETFILE SLSSIN
+      IF &STR(&R1) ^= &STR(&SUBSTR(10:18,&STR(&SLSSIN&FS))) THEN DO
+        SET DONE = &STR(YES)
+        SET R3 = &SUBSTR(1:3,&STR(&COPIES&FS))
+      END DO
+      ELSE DO
+        SET COPIES = &COPIES + 1
+      END DO
+    END DO
+    SET SLSSOUT = &STR(&CR    &R1    &R2     &R3)
+PRTLIN: +
+    IF &STR(&SLSSLINE) = &STR(S) THEN DO
+      IF &LNCNT > &CHKMXS THEN DO
+        SET SAVELINE = &STR(&SLSSOUT)
+        SET PRTRTN = &STR(Y)
+        GOTO PRTHDR
+      END DO
+    END DO
+    ELSE DO
+      IF &LNCNT > &CHKMXD THEN DO
+        SET SAVELINE = &STR(&SLSSOUT)
+        SET PRTRTN = &STR(Y)
+        GOTO PRTHDR
+      END DO
+    END DO
+    PUTFILE SLSSOUT
+    IF &STR(&CR) = &STR( ) THEN DO
+      SET LNCNT = &LNCNT + 1
+    END DO
+    ELSE DO
+      SET LNCNT = &LNCNT + 2
+    END DO
+CHKLN: +
+    IF &LNCNT < &MAXLN THEN DO
+      IF &STR(&LOCATN) ^= &STR(&SUBSTR(1:8,&STR(&SLSSIN&FS))) THEN DO
+        SET PAGNUM = 0
+        GOTO PRTHDR
+      END DO
+      ELSE DO
+        GOTO LOOPTBL
+      END DO
+    END DO
+    ELSE DO
+      IF &STR(&LOCATN) ^= &STR(&SUBSTR(1:8,&STR(&SLSSIN&FS))) THEN DO
+        SET PAGNUM = 0
+      END DO
+      GOTO PRTHDR
+    END DO
+    EXIT

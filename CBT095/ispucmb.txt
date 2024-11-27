@@ -1,0 +1,13 @@
+  PREP: ISPUCMB        &                           o
+%           +           _           [                  +              =   *
+             .^=  *            ^                 %           l        CMDIN
+  _   SCIN       ._   Z           _   Z           _ b Z           _ P Z
+  _ { Z           [ I  &%COMMAND TABLE - &TABLE -      -------------------------
+------------------------ &%COMMAND ===>_
+        %SCROLL ===>_    +  % ++INSERT, DELETE, AND CHANGE COMMAND ENTRIES.  UND
+ERSCORES NEED NOT BE BLANKED.  +ENTER%END+COMMAND TO SAVE CHANGES OR%CANCEL+TO E
+ND WITHOUT SAVING.  +  +  %     VERB      T  ACTION  +                     DESCR
+IPTION  + &_    _        +_ +_
+          + &                     [
+            +  &ZHTOP  ISR00003  ISR39000  &ZHTOP  ISR00003  ISP39000  &SCIN  PA
+GE  (SEL ZCTVERB ZCTTRUNC ZCTACT ZCTDESC)  VPUT CMDIN PROFILE

@@ -1,0 +1,123 @@
+ \INMR01      &      P390      SBGOLOB      A      A      20060104142729
+     INMR02          IEBCOPY        oh                                 _;      {
+                SBGOLOB  W$$  LINKLIB     -  LISTS  LISTSPC  LISTV  LISTVOL  LV
+ SP \INMR02          INMCOPY        oh                "4                   \INMR
+03        oh               &         {  _   _;  {           "8    Vs         |
+      o 4  y                 i)  3 {   J
+ 
+ 
+                                                                    LV       YLI
+STS    4   4       S        q     LISTSPC       LISTSPC  4   4       S        q
+        LISTV    4   4       S        q     LISTVOL       LISTVOL  4   4       S
+        q         LV       4   4       S        q     LISTVOL
+                                    SP       4   4       S        q     LISTSPC
+ 
+ 
+ 
+     &LISTSPC        _PARSLIST       iEPUTL           LOCINDEX        #PAN$AUD
+ 
+ 
+ 
+                                              5695PMB01                        d
+           569623400
+          } &}0  }0  00
+                     8!      *  }!   A  {8&   k   k {4  {     &       &
+        o Q     &     { &   P { {     &     { &   P          0}Q   \    IKJPARS
+      O j       O   { j     }8o Q j     J j     J j     K  0J       R      0
+         -k P K P P   P j     J   P|    k.       -P K PWQ j Q   Jfj     Jf  PW &
+   -   - -P  0J o Q    \      O m Q K PWQ   LU      P@  O  0J K P    0J} &   -
+ -  P  -P   R      0      o Q  0           K Q \  0    OW 0    O  0    O   K  0
+K  0O  0OW 0P  0O  0Ok  LU 0JSj Q   P   R      0        & { k R K[R R P P P   PW
+         - -P   R  -P k P K P P    0  n4Q   P K   Q K PaQ K PbQ k Pf  Pb  Pd   -
+PfK {0Q 3dRe{0  ReQ K {0Q,3dR {0  R Q    r  Q +   K R>R   R>    Ph      Ph     -
+P  }L  -            L    h           -       }        Q N       L K         <
+                 [  L    <  L      0L      0L [ P     P N Q     L K   Q  0L [ P
++   K R R   R   +   K R'R   R'    R    < 0      {         P@  O  0K<  { K P P k
+P K P P    0   0 +  P n4Q   P K   Q K P P k R K[R R    0      O n1Q   O   {& -Q;
+n Q-  M<     -P K Q Q+n Q+  M K R| & 0Myn Q+  M:K R|   0Myn Q+  M K R|   0Myn Q+
+  M K R|   0Myn Q+K R|      Q           N  &Q K   &  r  K   &     K     &     K
+  & .   K   & .   <             N        +  N    !  N[     0M K   Qc   }   0 +
+P n3Q   N K   Q  0N  &Q  0M  &Q  0M +   K R_R   R_  j Q   N k*R  0N  -P  -
++   K R R   R   +   K R@R   R@  K RcP   R    < 0    j Q  \O   {&K R PW      R k
+R>K   R?R>K {3  3   {3    Q K {0  3d  {0    Q K {0  3d  {0    Q  r            O
+  NO  R    < 0    K R Q     NDq {  9 }} q }     k }     RN     0     0O K R  [K
+R P   R      0    j Q   JSj Q   Ju 0O K R   K RdP   R      0     0JSK R RVK R P
+  R      0     0O K   R  b  R      0     0O K R R5K R:P   R      0     0JSK R
+K R P   R      0     0JSK R   K RhP K R Q   R    < 0     0JS   !     0     0O
+ _     0     0L}K     K   & K   &
+ 
+ 
+ 
+ 
+                                                                           01234
+56789ABCDEF      DSORG ALLOC UNUSED EXTENTS DSNAME
+                                              VOLUME DSCBS EXTEN  TS TRACKS  VTO
+CNO VALID COMMANDINVALID LEVEL - DSN NOT ON DISK - DSN ON MULTIVOLUMES: USE SPAC
+E COMMAND ERROR READING CATALOG DSN - DSN NOT FOUND - UNSUPPORTED KEYWORDERROR R
+EADING F4 DSCBINSUFFICIENT STORAGE USE LISTC OR DSAT COMMANDVOLUME (XXXXXX) NOT
+  MOUNTED FOR {          6                    A          6
+                 6                                            ISPSDAPO U       i
+               DATASET             LEVEL *           VOLUME        -    EXTENTS
+ $          d +            LEVEL   hd            VOLUME         001CBT501    11/
+03/87     }        0{           {  0{     &   &J   J    q \  0     }{  0   & }{
+ &A   {  5   0} P }|}| & &A              -      P } } P }*}*  }<&-  &    \} &\
+ \}*&\  k \ k \   } & \  0  j 1  \{D 01    0{  0{Q   Y    IKJPUTL              0
+{0          {Y   0{    3 \}   q }   K }%             00  LOCINDEX   }     0
+      &J  &      J     {& }m ~      N ~     A K ~       k   K     k   k  -k  |K
+} ~   }     B  2{  0{  0B  0{ k.    }     B0  B       } k ~  0{ k  |  }     B  2
+{f 0{k 0{yk ~   }     ~   }  0{   }   K ~   B   {       {4. B2    ~   }   ~    2
+{M 0{\ 0B   ~     ~  0{ K ~   K   B K } B\P }&}&P } }   } & }<  A    8      &
+& } K   BU  }       B               i         & ~%    n     B n0    A nB    A@
+   0A*& ~ P }q}q  } & }     & }u  ~   ~%  B*nA    A        0A j ~   A     [ ~
+~       . ~   AU  A       A} 0A N ~   K }       & ~   }q    }mq   K   } K
+j     B n     B: 0   0B:n     B  0   0B: 0BY  B& 0B   B& 0   0B: 0   0B: 0B    0
+  B-       0   0B: 0    }mj     B     &1      &          0Bu      B     [   q }
+                                                   8              ={
+                       Q   U   Y       4
+           <       \                                 &LISTVOL        HEPUTL
+      LOCINDEX   h    PARSLIST   H   i#PAN$AUD
+ 
+ 
+ 
+              5695PMB01         ^              d           569623400
+                         H                                } &}0  }0  00
+                                                                     8! O   O;
+}!   A  {8& O k O k {4  {     &       &                 o L     &     { &   P {
+{   O<&     { &   P          0}Q   \    IKJPARS       K j       K   { j     }8o
+L j     J j     J  0J2      N      0O&           -k LkK LlLk  Lkj     J+  L;
+k.       -L K L L j L   J=j     J=  L  &   -   - -L| 0Jyo L   O       K m L   M
+  M  r   r  K L   j     J   L8  L   J   L      0O&   r    Jsj {   JSk {    0K
+    L   K  0J K L    0K  &   -   -  L  -L j     K   L2 &   -   - -L8 -L|  N
+ 0O&  o L  0O   Oy   0O   K@ 0O!  L  0O*  L   K  0Kd 0L  0Kd 0K@ 0K  0K8k {  0J=
+j     Kq  L8  L   K   L      0O&   0K  }} q }     k }     N[     0O&   0K K N N4
+K N&Lk    N      0O&  j L   K j L  0JKK N NQK N*Lk  N      0O&   0K K N N]K N$L
+  N      0O&   0K K N O   N      0O&   0K   O      0O&   0K K     K   & K   & N
+L L2
+ 
+ 
+ 
+ 
+           0123456789ABCDEF      VOLUME  DATASET NAME
+                                                              VOLUME  DATASET NA
+ME             NO VALID COMMANDNO DATASETS CATALOGED   TO - ERROR READING CATALO
+G DSN - DSN NOT FOUND - UNSUPPORTED KEYWORDINSUFFICIENT STORAGE USE LISTC OR DSA
+T COMMAND          H       h        {      u               s        A      s
+                                   s         i               DATASE  T
+   LEVEL *           VOLUME        -    EXTENTS  $          d            LEVEL
+ hd            VOLUME         001CBT500    06/26/86     }      0{           {  0
+{     &   &J   J    q \  0     }{  0   & }{  &A   {  5   0} P }|}| & &A
+       -      P } } P }*}*  }<&-  &    \} &\   \}*&\  k \ k \   } & \  0  j 1  \
+{D 01    0{  0{Q        IKJPUTL              0{0          {Y   0{    3 \} q }
+K }%             00  LOCINDEX   }     0           &J  &      J     {& }m ~
+N ~     A K ~         k   K     k   k  -k  |K } ~   }     B  2{  0{  0B  0{ k.
+  }     B0  B       } k ~  0{ k  |  }     B  2{f 0{k 0{yk ~   }     ~   }  0{
+}   K ~ B   {       {4. B2    ~   }   ~    2{M 0{\ 0B   ~     ~  0{ K ~   K   B
+K } B\P }&}&P } }   } & }<  A      8      &   & } K   BU  }       B
+  i         & ~%    n     B n0    A nB    A@     0A*& ~ P }q}q  } & }     & }u
+~   ~%  B*nA    A      0A j ~   A     [ ~   ~       . ~   AU  A       A} 0A N ~
+  K }       & ~   }q    }mq   K   } K       j       B n     B: 0   0B:n     B  0
+   0B: 0BY  B& 0B   B& 0   0B: 0   0B: 0B    0  B-       0   0B: 0    }mj     B
+    &1      &          0Bu      B       q }
+               8              ={                                   Q           @
+   d       m   q               {               *       -                     \IN
+MR06

@@ -1,0 +1,48 @@
+ ESD            CDLXPGM         GDLXPGM         TPRODTRN
+ ESD            GPRODTRN   -    PPRODPSB        QPRODPSB
+ ESD            FPRODFCT   {    HPRODFCT   \    JPRODJCT
+ ESD            KPRODJCT        DPRODDCT        EPRODDCT   -
+ ESD            SPRODTST        UPRODTST        MPRODPPT   {
+ ESD            NPRODPPT   \    APRODPCT        BPRODPCT
+ ESD            TREGNTRN        GREGNTRN   -    PREGNPSB
+ ESD            QREGNPSB        FREGNFCT   {    HREGNFCT   \
+ ESD            JREGNJCT        KREGNJCT        DREGNDCT
+ ESD            EREGNDCT   -    SREGNTST        UREGNTST
+ ESD            MREGNPPT   {    NREGNPPT   \    AREGNPCT
+ ESD            BREGNPCT        ICHRRCDE
+ TXT               CDLXPGM GDLXPGM  {\
+ TXT              aGDLXPGM CDLXPGM  {\
+ TXT              bTPRODTRNGPRODTRN {\
+ TXT   -          cGPRODTRNTPRODTRN {\
+ TXT              dPPRODPSBQPRODPSB {\
+ TXT              eQPRODPSBPPRODPSB {\
+ TXT   {          fFPRODFCTHPRODFCT {\
+ TXT   \          gHPRODFCTFPRODFCT {\
+ TXT              hJPRODJCTKPRODJCT {\
+ TXT              iKPRODJCTJPRODJCT {\
+ TXT               DPRODDCTEPRODDCT {\
+ TXT   -           EPRODDCTDPRODDCT {\
+ TXT               SPRODTSTUPRODTST {\
+ TXT               UPRODTSTSPRODTST {\
+ TXT   {           MPRODPPTNPRODPPT {\
+ TXT   \           NPRODPPTMPRODPPT {\
+ TXT               APRODPCTBPRODPCT {\
+ TXT              jBPRODPCTAPRODPCT {\
+ TXT              kTREGNTRNGREGNTRN {\
+ TXT   -          lGREGNTRNTREGNTRN {\
+ TXT              mPREGNPSBQREGNPSB {\
+ TXT              nQREGNPSBPREGNPSB {\
+ TXT   {          oFREGNFCTHREGNFCT {\
+ TXT   \          pHREGNFCTFREGNFCT {\
+ TXT              qJREGNJCTKREGNJCT {\
+ TXT              rKREGNJCTJREGNJCT {\
+ TXT               DREGNDCTEREGNDCT {\
+ TXT   -           EREGNDCTDREGNDCT {\
+ TXT               SREGNTSTUREGNTST {\
+ TXT               UREGNTSTSREGNTST {\
+ TXT   {           MREGNPPTNREGNPPT {\
+ TXT   \           NREGNPPTMREGNPPT {\
+ TXT               AREGNPCTBREGNPCT {\
+ TXT              ~BREGNPCTAREGNPCT {\
+ TXT
+ END                            1566896201 020187236

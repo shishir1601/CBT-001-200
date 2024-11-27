@@ -1,0 +1,42 @@
+)ATTR
+ \ AREA(DYNAMIC)
+ { TYPE(CHAR)  CAPS(OFF)  HILITE(REVERSE) COLOR(RED)
+ ~ TYPE(CHAR)  CAPS(OFF)  HILITE(REVERSE) COLOR(TURQ)
+ # TYPE(CHAR)  CAPS(OFF)  HILITE(REVERSE) COLOR(GREEN)
+ _ TYPE(CHAR)  CAPS(OFF)  HILITE(REVERSE) COLOR(YELLOW)
+ } TYPE(CHAR)  CAPS(OFF)  HILITE(REVERSE) COLOR(WHITE)
+ / TYPE(CHAR)  CAPS(OFF)  HILITE(REVERSE) COLOR(PINK)
+ % TYPE(TEXT)  CAPS(OFF)
+ + TYPE(TEXT)  CAPS(OFF)                  COLOR(WHITE)
+ ! TYPE(TEXT)  CAPS(OFF)                  COLOR(YELLOW)
+ ^ TYPE(TEXT)   JUST(RIGHT)                        COLOR(TURQ)
+ [ TYPE(TEXT)   JUST(RIGHT) HILITE(USCORE)         COLOR(WHITE)
+ | TYPE(OUTPUT) CAPS(OFF) JUST(RIGHT)     COLOR(GREEN)
+09 TYPE(OUTPUT) CAPS(OFF) HILITE(USCORE)  COLOR(TURQ) JUST(ASIS)
+ @ TYPE(OUTPUT) JUST(RIGHT) INTENS(LOW) CAPS(OFF)  COLOR(TURQ)
+ " TYPE(OUTPUT) JUST(RIGHT) INTENS(HIGH) CAPS(OFF) COLOR(YELLOW)
+02 TYPE(OUTPUT) JUST(RIGHT) HILITE(REVERSE)        COLOR(BLUE)
+11 TYPE(OUTPUT) JUST(RIGHT) INTENS(LOW) CAPS(OFF)  COLOR(WHITE)
+)BODY WINDOW(75,19) EXPAND(  )
+"XDD     % - [CPU Utilization Display for SMF + - "XTIME   +
+%        ^CPU_Type:"Z    ^  Number_CP:"Z ^   SU/Sec:"SUSEC ^   MIPS:"MIPS +
+!        +----1----2----3----4----5----6----7----8----9----0....1....2....
++\CPUB1,CPUCL1                                                            \
++\CPUB2,CPUCL2                                                            \
++\CPUB3,CPUCL3                                                            \
++\CPUB4,CPUCL4                                                            \
++\CPUB5,CPUCL5                                                            \
++\CPUB6,CPUCL6                                                            \
++\CPUB7,CPUCL7                                                            \
++\CPUB8,CPUCL8                                                            \
++\CPUB9,CPUCL9                                                            \
++\CPUB10,CPUCL10                                                          \
++\CPUB11,CPUCL11                                                          \
++\CPUB12,CPUCL12                                                          \
++\CPUB13,CPUCL13                                                          \
++\CPUB14,CPUCL14                                                          \
++\CPUB15,CPUCL15                                                          \
+!SRM_Cpu:@OCPU! Uic:@UIC! Pfr:@PRTE! Swrt:@SWPRT! MA:@MIGR  %! Afq:@AFQA +
+)INIT
+ .ZVARS = '(CPUMODL NUMCP)'
+)END

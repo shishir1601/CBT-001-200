@@ -1,0 +1,6 @@
+   F   & %: -  Tennessee Eastman ISPF "Mods" : - %OPTION ===>_ZCMD  +| %  1 -+Br
+oadcast Dataset Update  % n2 -+Command Table Edit  %  3 -+Console Display Facili
+ty  % k4 -+GRS/ENQ Display  %  5 -+Display logo of submitter  %  11 -+Update TSO
+ logon information d)PROC[ k&SEL = TRANS( &ZCMD   1,'CMD(%VBROAD) MODE(FSCR)'
+2,'CMD(%VCMDEDIC) MODE(FSCR)'  q3,'PGM(CDF) NEWAPPL(CDF)'   4,'PGM(VUTL16)'   5,
+'PGM(VISPFG2) PARM(/VLOGO)'   11,'PGM(VLOGON)'  d*,? ) c)END.

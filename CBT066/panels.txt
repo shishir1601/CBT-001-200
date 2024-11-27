@@ -1,0 +1,147 @@
+./        ADD LIST=ALL,NAME=DISPLAY
+)ATTR DEFAULT(   ) FORMAT(MIX)
+ 0B TYPE(AB)
+ 0D TYPE(PS)
+ 04 TYPE(ABSL)
+ 05 TYPE(PT)
+ 09 TYPE(FP)
+ 0A TYPE(NT)
+ 0C TYPE(NT) SKIP(ON)
+ 11 TYPE(SAC)
+ 13 TYPE(NEF) PADC(USER)
+ 25 AREA(SCRL) EXTEND(ON)
+ 26 AREA(DYNAMIC)
+    TYPE(DATAOUT) PAS(ON)
+    TYPE(CHAR) COLOR(WHITE)
+    TYPE(CHAR) COLOR(RED)
+    TYPE(CHAR) COLOR(BLUE)
+    TYPE(CHAR) COLOR(GREEN)
+    TYPE(CHAR) COLOR(PINK)
+    TYPE(CHAR) COLOR(YELLOW)
+    TYPE(CHAR) COLOR(TURQ)
+    TYPE(DATAOUT)
+    TYPE(CHAR) COLOR(WHITE) HILITE(REVERSE)
+    TYPE(CHAR) COLOR(RED) HILITE(REVERSE)
+    TYPE(CHAR) COLOR(BLUE) HILITE(REVERSE)
+    TYPE(CHAR) COLOR(GREEN) HILITE(REVERSE)
+    TYPE(CHAR) COLOR(PINK) HILITE(REVERSE)
+    TYPE(CHAR) COLOR(YELLOW) HILITE(REVERSE)
+    TYPE(CHAR) COLOR(TURQ) HILITE(REVERSE)
+ 2F TYPE(DATAOUT) COLOR(TURQ)
+)BODY  CMD(ZCMD)
+-------------------------- DISPLAY Option Menu ---------------------------------
+ Command ===> ZCMD
+ 
+ Select display item from list below ===> O
+ SAREA37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+)AREA SAREA37
+    1  ADMFINFO    Asynchronous Data Mover Info.
+    2  APFLST      Authorised Lib List.
+    3  APPCVER     Display APPC version.
+    4  ARCHLVL     Display System architecture level.
+    5  ASCBGONE    Display unusable address spaces.
+    6  ASCBSLOT    Display Page dataset slots.
+    7  ASMVOLS     Display ASM thresholds.
+    8  ASVTSCAN    Scan for unusable ASVTs.
+    9  CACHE       List cacheing (SUB,DEV).
+   10  CATVOL      Display master catalog name and volser.
+   11  CA1INFO     Display information about CA-1 environment.
+   12  CDSLVL      Display STK control dataset level.
+   13  CHPID       Display PCHID/CHPID correspondence.
+   14  CMCCHK      CMCT (RMF 78:3) check/set.
+   15  COLORS (1)  Check capability of terminal to display color.
+   16  COLORS (2)  Check capability of terminal to display color.
+   17  CPU         Current CPU busy and page rate.
+   18  CPUID       CPU type and serial.
+   19  CSALST      List ASCBs with frame counts etc.
+   20  DAL         Job/STC/TSO/INIT display (USER,JOBS,INIT).
+   21  DAE         Data from DAE (IBM code).
+   22  DAELIST     Data from DAE.
+   23  DCL         Console configuration (SUM).
+   24  DEVS        Online DASD & TAPE devices.
+   25  DFHSM       Display DFHSM level.
+   26  DFPLVL      Details about DFP features (LVL).
+   27  DSFLVL      Display ICKDSF level.
+   28  DSSLVL      Display ADRDSSU level.
+   29  DSRM        SRM PARMLIB suffixes.
+   30  DXCFSTR     Display XCF structure info.
+   31  DYNEXITS    Dynamic exit info.
+   32  GRSMON      GRS Monitor (ISGACLS0).
+   33  GUESTNAM    Display MVS guest name (from VM).
+   34  INFO        INFO titles (kwd).
+   35  IOCDSLST    Display IOCDS information.
+   36  IOINFO      I/O token.
+   37  IPLINFO     Information about last IPL.
+   38  IPLMEM      LOADxx used for IPL.
+   39  IPLSTAT     IPL stage timings.
+   40  ISRDDN      Work with allocated datasets.
+   41  ISRFIND     Find members in PDSs.
+   42  JES3JCT     Display information about JES3 JCT level.
+   43  LASTCLPA    Time and date of last CLPA.
+   44  LASTIPL     Time and date of last IPL.
+   45  LASTJES3    Time and date of last JES3 start.
+   46  LELVL       List LE version and platform.
+   47  LNKLST      Linklist library names.
+   48  LOOK        Display areas of system storage.
+   49  LPA         Review modules in LPA.
+   50  LPALST      LPA list library names.
+   51  LPARCAP     Display CEC and LPAR MSU capacity.
+   52  LPARNM      Display LPAR name.
+   53  LXATSCAN    List counters from LXAT.
+   54  MAPPPT      Map PPT entries.
+   55  MAPSYS      UCBS/device types (ALL|cua).
+   56  MAPUCVT     Map user CVT addresses.
+   57  MAPXA       Storage addresses.
+   58  MEM         Display CSA/SQA memory boundaries etc.
+   59  MULCCHK     Multi Usage Licence Charge info.
+   60  MSU         Display LPAR MSU value.
+   61  NUCMAP      Nucleus CSECT addresses.
+   62  OPTCHK      HIPER CACHE verification.
+   63  PARMLST     Current PARMLIB concatenation.
+   64  PROCINFO    Processor information.
+   65  PRSMINFO    Display information about PR/SM.
+   66  PAGING      PAGE dataset usage.
+   67  RACFDS      RACF dataset and table info.
+   68  RACF        RACF level.
+   69  REALCPU     Display real cpuid.
+   70  RMFHIST     RMF summary data history.
+   71  SHOWMVS     Roland Schiradin's SHOWMVS.
+   72  SHOWLPAR    Show LPAR weights etc.
+   73  SMF         SMF dataset usage.
+   74  SORTOPT     SORT default options.
+   75  SPLEXNAM    Display sysplex name.
+   76  SPY         MVS master console.
+   77  SRMCONS     SRM Constants.
+   78  SSIDCHK     Display DASD SSIDs.
+   79  SSNAMES     Subsystem name table.
+   80  SVCTAB      SVC table (USER).
+   81  PLEXSTRT    Display time of last sysplex start.
+   82  SYSSYM      Display system symbols.
+   83  SYSTAT      Data from CVT etc.
+   84  SWAQUERY    Check where SWA is.
+   85  TAPETAB     Last n tapes on drives.
+   86  TASID       Display interesting stuff.
+   87  TSOREL      TSO/E Release level.
+   88  TSOUSERS    TSO users logged on.
+   89  UCBSCAN     Display devices and online channels.
+   90  VSAMNAME    VSAM dataset names.
+   91  VTAMLVL     VTAM version & rel.
+   92  VTAMSESS    Active VTAM sessions.
+   93  WHATJES     Show name job entry subsystem.
+   94  WHATSEC     Show name of active security system.
+   95  WHATSYS     Show name of system we're on.
+   96  WLMINFO     Display information abour WLM.
+)INIT
+  .HELP = DISHELP1
+  .CURSOR = O
+  &PRMS = ''
+)END

@@ -1,0 +1,1210 @@
+*                    TSO HELP FOR 'REVEDIT' RELEASE 41.5     MARCH 2008
+)F Function -
+  REVEDIT is the fullscreen editor component of the REVIEW command.
+  REVEDIT is not a TSO command, but this HELP member will be accessed
+  when HELP is requested in a non-ISPF environment.
+ 
+  REVEDIT allows the editing of MVS data sets residing on direct
+  access storage devices (DASD) which may contain records which have
+  a fixed-length or variable-length format.  Currently only non-VSAM
+  is supported.
+ 
+  Under MVS/ESA and later (including OS/390 and z/OS) data being
+  edited may be held in a data space which can grow with the data up
+  to two gigabytes (2GB) in size subject to installation limits
+  implemented either by design (eg. system exits) or circumstance (eg.
+  insufficient auxiliary storage to allow processing to continue).
+ 
+  On pre-ESA systems data being edited is held in the user's region.
+ 
+  REVEDIT can also be invoked in VIEW mode indicated by blue (instead
+  of green) line numbers.  Changes made to the data in VIEW mode
+  cannot be saved back to the data set being viewed.  Data being
+  viewed - whether changed or not - can be exported using the CREATE
+  and/or REPLACE subcommands.
+ 
+  When a data set is being edited it is serialized to protect against
+  concurrent update.  This serialization is not performed for VIEW.
+ 
+  REVIEW has an alias of REVED which changes the default action
+  from Browse to Edit.
+)X Syntax -
+         UPDATE
+     or, if not in an ISPF environment
+         EDIT
+     or, for VIEW mode when not in a ISPF environment
+         VIEW
+)O Operands -
+   Member name if invoking from a member list.
+)S Subcommands -
+ ----------------------- GLOBAL SUBCOMMANDS ---------------------------
+ 
+ These subcommands are available in all display modes of REVIEW:
+ 
+   HELP    - Request HELP about REVIEW and/or its subcommands.
+             This will be intercepted by ISPF if REVIEW is
+             running as an ISPF dialog.
+   HEL     - Same as 'HELP' except ISPF will not intercept it.
+   FSHELP  - Same as 'HEL'.
+   FSH     - Same as 'HEL'.
+   KEYS    - Display current Program Function Key values.
+   ?       - Display the release of REVIEW that is in use.
+   TSO     - Issue a TSO command.
+   TSS     - Same as 'TSO'.
+   PFK#    - Set Program Function Key '#' to a specified value.
+   PFK0    - Set Program Function Keys to default values.
+   RECALL  - Recall previously typed-in commands for optional
+             editing and reissuing.
+   RETRIEVE- Same as 'RECALL'.
+   SWAP    - List or transfer control between parallel sessions.
+   UP      - Scroll backwards a specified number of lines or records.
+             If no operand is specified, the 'scroll' value is used.
+             This is displayed in the upper right corner.
+             Note that scrolling up to a previous volume or data
+             set cannot be performed.
+   '-'     - Same as 'UP'.
+   DOWN    - Scroll forwards a specified number of lines or records.
+             If no operand is specified, the 'scroll' value is used.
+             This is displayed in the upper right corner.
+   '+'     - Same as 'DOWN'.
+   TOP     - Scroll up to the first line or record (on this volume).
+   BOTTOM  - Scroll down to the last line or record.
+   BOT     - Same as 'BOTTOM'.
+   END     - END the command.
+   CANCEL  - Same as 'END' but user profile changes are not saved.
+   CAN     - Same as 'CANCEL'.
+   EXIT    - Terminate the whole REVIEW session.
+   RETURN  - Same as 'EXIT'.
+   =X      - Same as 'EXIT' when not running as an ISPF dialog.
+ 
+ ----------------------- REVEDIT SUBCOMMANDS -----------------------
+ 
+ These subcommands are available while editing file data:
+ 
+   LEFT    - Scroll to the left a specified number of columns.
+             If no operand is specified, the 'scroll' value is used.
+   '<'     - Same as 'LEFT'.
+   RIGHT   - Scroll to the RIGHT a specified number of columns.
+             If no operand is specified, the 'scroll' value is used.
+   '>'     - Same as 'RIGHT'.
+   LIST    - Display the specified record number.
+             (Relative record number only, not sequence numbers.)
+   L       - Same as 'LIST'.
+   LOC     - Same as 'LIST'.
+   LOCATE  - Same as 'LIST'.
+   CAPS ON - Ensure all data entered is translated to upper case.
+   CAPS OFF- Ensure the case of entered data is not changed.
+   CAPS    - Toggle the CAPS setting.
+   COLS ON - Activate the column marker.
+   COLS OFF- Deactivate the column marker.
+   COLS    - Toggle the display of the column marker.
+   COPY    - Import the contents of a data set into the edited data.
+   CREATE  - Create a new data set or member with edit session data.
+   CRE     - Same as 'CREATE'.
+   REPLACE - Replace a data set or member with edit session data.
+   REP     - Same as 'REPLACE'.
+   REPL    - Same as 'REPLACE'.
+   DELETE  - Delete either all excluded or all unexcluded records.
+   DEL     - Same as 'DELETE'.
+   HEX ON  - Display the data in hexadecimal and character formats.
+   HEX OFF - Display the data in character format.
+   HEX     - If HEX currently on, turn it off.  If off, turn it on.
+   HI OFF  - Turns off syntax highlighting.
+   HI JCL  - Activates JCL source code syntax highlighting only.
+   HI AUTO - Activates syntax highlighting based on the type of
+             data detected by REVEDIT.
+   HI ASM  - Set HI AUTO in the profile and set the current source
+             type to Assembler.
+   HI CLIST- Set HI AUTO in the profile and set the current source
+             type to CLIST.
+   HI DATA - Set HI AUTO in the profile and set the current source
+             type to DATA which suppresses non-JCL highlighting.
+   HI PLI  - Set HI AUTO in the profile and set the current source
+             type to PL/I.
+   FIND    - Search until the specified data or pattern is found.
+   F       - Same as 'FIND'.
+   FINDNOT - Search until the specified data or pattern is not found.
+   FN      - Same as 'FINDNOT'.
+   RFIND   - Repeat the previous FIND or FINDNOT or EXCLUDE or EXNOT.
+   IFIND   - Same as 'RFIND'.
+   EXCLUDE - Exclude lines from display.
+   X       - Same as 'EXCLUDE'.
+   FLIP    - Toggle the exclusion status of every data record.
+   STATS   - Set whether member statistics are to be stored or not.
+   LEVEL   - Set the modification level of the member statistics.
+   VERSION - Set the version level of the member statistics.
+   NUMBER  - Set sequence numbering on or off.
+   UNNUM   - Clear sequence numbers from the data.
+   PROFILE - Display current profile settings.
+   PROF    - Same as 'PROFILE'.
+   REDO    - Undo an 'UNDO'.
+   RENUM   - Resequence the data records.
+   RESET   - Clear all line commands and cancel all exclusions.
+   RES     - Same as 'RESET'.
+   SORT    - Sort records into a different order based on data content.
+   SUBMIT  - Submit the data set or MEMBER being edited.
+             TSO SUBMIT is invoked.
+   SUB     - Same as 'SUBMIT'.
+   UNDO    - Undo a change to the data being edited or viewed.
+   UNDO ON - Enable UNDO.
+   UNDO OFF- Disable UNDOa nd release UNDO resources.
+   ZAP     - Control whether PDS members with fixed-length records
+             that have an unchanged record count at save time are
+             to be stored in the same location (using update-in-place)
+             to save disk space, or not.
+ --------------------- REVEDIT LINE COMMANDS ---------------------
+ 
+ These actions codes are entered in the line number field in the
+ left margin and specify locations for specific actions.
+ 
+          Table of valid line action codes.
+ --------------------------------------------------------------------
+ Code | Meaning |n|B|Bn| Description
+ ---- | ------- |-|-|--| --------------------------------------------
+   (  | left    |C|Y|C | shift data in record(s) left
+   )  | right   |C|Y|C | shift data in record(s) right
+   A  | After   |X| |  | target of copy of move is after this line
+   B  | Before  |X| |  | target of copy of move is before this line
+   C  | Copy    |L|Y|  | line(s) to be copied
+   D  | Delete  |L|Y|  | line(s) to be deleted
+   F  | First   |L| |  | first lines of excluded block are unexcluded
+   I  | Insert  |L| |  | insert new line(s) after this line
+   L  | Last    |L| |  | last lines of excluded block are unexcluded
+   M  | Move    |L|Y|  | line(s) to be moved
+   O  | Over    |L|Y|  | line(s) to be overlaid
+   R  | Repeat  |X|Y|X | line(s) to be repeated
+   S  | Show    | | |  | selected excluded block is unexcluded
+   U  | Upper   |L|Y|  | line(s) to be translated to upper case
+   W  | loWer   |L|Y|  | line(s) to be translated to lower case
+   X  | eXclude |L|Y|  | line(s) to be excluded
+  TF  |TextFlow |C| |  | reflow text
+  TS  |TextSplit|L| |  | split text to a new line and insert
+ --------------------------------------------------------------------
+   Legend: n - Function of multiplier number after action code.
+           B - Can the action code be doubled to denote the first
+               and last lines of a contiguous block of lines?
+          Bn - Function of multiplier number after action block code.
+           C - Multiplier specifies number of columns.
+           L - Multiplier specifies number of lines.
+           X - Multiplier specifies number of times.
+           Y - Yes, the code can be doubled for block start and end.
+ ----------------------------------------------------------------------
+=HELP=HEL=FSHELP=FSH
+)F Function -
+  The HELP subcommand provides function, syntax, and operand
+  information on the 'REVIEW' command and its subcommands.
+)X Syntax -
+         HELP   'subcommand name'
+                FUNCTION  SYNTAX  OPERANDS('keyword list')  ALL
+                POSITIONAL('operand number') MSG('msgid')
+  Aliases  - HEL, FSHELP, FSH
+  Required - None.
+  Defaults - ALL if FUNCTION, SYNTAX, and OPERANDS not specified.
+  Note     - If HELP is entered without any operands a list of
+             subcommands of the current command will be displayed.
+  Note     - 'keyword list' is optional when OPERANDS is used.
+)O Operands -
+)P 'subcommand name'
+           - Name of the subcommand of 'REVIEW' to be explained.
+))FUNCTION - Function data is to be displayed.
+))SYNTAX   - Format is to be displayed.
+))OPERANDS('keyword list')
+           - Operand description is to be displayed.  If
+             'keyword list' is present, only those keyword descriptions
+             are to be displayed.
+    'keyword list'
+           - Keywords separated by commas, blanks, or tabs.
+))ALL      - Function, syntax, and operand descriptions are to be
+             displayed.
+))POSITIONAL('operand number')
+           - A description of the positional operand specified is to
+             be displayed.
+))MSGID('msgid')
+           - A description of the message identified by msgid is to be
+             displayed.
+=FIND=F
+)F   The FIND subcommand positions the display to a data string,
+  and the record containing the matched data will have any display
+  exclusion status reset.
+ 
+  FIND notes:
+   1.  A search argument is required.  A single unquoted asterisk
+       may be used to specify the same argument as was last used.
+   2.  The first operand is always treated as the search argument.
+   3.  The search argument determines whether the search is case
+       sensitive, case insensitive or for a picture string, or
+       for a string of hexadecimal digits byte-aligned with two
+       digits per data byte.
+   4.  Quotation marks are required whenever the string type needs
+       to be specified.
+   5.  Quotation marks are optional for the default string type
+       unless the string contains one or more blank characters.
+   6.  Operands specifying various keywords and/or column numbers
+       may be supplied in any order after the search argument.
+)X Syntax -
+     FIND 'string'  'column-1'  'column-2'
+                     FIRST / NEXT / PREV / LAST / ALL
+                     PREFIX / SUFFIX / WORD
+                     EX / NX
+ 
+ Alias    - F
+ Defaults - NEXT
+ Required - 'string'
+)O Operands -
+)P 'string'  - Specifies the data and data type to locate.
+              Quoted strings may have the string type indicated
+              before the leading quote or after the trailing quote.
+              String types are:
+ 
+              C - Character for case sensitive search.
+ 
+              T - Text for case insensitive search.
+ 
+              X - Hexadecimal digits (byte-aligned and two to a byte).
+ 
+              P - Picture data where special mask characters represent
+                  various categories of data.  Valid picture masks are:
+                     ^ - any non-blank character.
+                     $ - any special character.
+                     = - any character.
+                     # - any decimal numeric character.
+                     - - any non-numeric character.
+                     @ - any alphabetic character.
+                     > - any upper case alphabetic character.
+                     < - any lower case alphabetic character.
+                     . - any non-displayable character.
+                  Non-mask characters represent themselves, with
+                  matching of specific alphabetics being case
+                  insensitive.
+ 
+              Unquoted strings and strings without a string type
+              specified are treated as character (type C) strings,
+              which requests a case insensitive search.
+ 
+)P 'column-1' - Optional, specifies first or only column to search.
+)P 'column-2' - Optional, specifies last column where the string
+              may end.
+))FIRST   - Search forward from the start of the file or member.
+))NEXT    - Search forward from the current location.
+))PREV    - Search backward from the current location.
+))LAST    - Search backward from the end of the file or member.
+))ALL     - Search forward from the start of the file or member
+             for all occurrences, report the count, and show the first.
+))PREFIX  - Search for the string only at the start of a
+              word longer than the string.  PRE for short.
+))SUFFIX  - Search for the string only at the end of a
+              word longer than the string.  SUF for short.
+))WORD    - Search for the string only when it starts at the start
+              of a word and ends at the end of a word.
+))EX      - Only search records excluded from display.  X for short.
+))NX      - Only search records not excluded from display.
+=FINDNOT=FN
+)F   The FINDNOT subcommand positions the display to a data string
+  which does NOT match the search argument, and the record containing
+  the mismatch will have any display exclusion status reset.
+ 
+  The notes listed under FIND also apply to FINDNOT.
+)X Syntax -
+   FINDNOT 'string'  'column-1'  'column-2'
+                      FIRST / NEXT / PREV / LAST / ALL
+                      PREFIX / SUFFIX / WORD
+                      EX / NX
+ 
+ Alias    - FN
+ Defaults - NEXT
+ Required - 'string'
+)O Operands -
+)P 'string'  - Specifies the character data to mismatch.
+)P 'column-1' - Optional, specifies first or only column to search.
+              eg. "FN ' ' 70"
+                   will search for a non-blank in column 70.
+              eg. "FN ' ' ALL"
+                   will count all non-blanks.
+)P 'column-2' - Optional, specifies last column where the string
+              may end.
+))FIRST   - Search forward from the start of the file or member.
+))NEXT    - Search forward from the current location.
+))PREV    - Search backward from the current location.
+))LAST    - Search backward from the end of the file or member.
+              for all occurrences, excluding other lines.
+))ALL     - Search forward from the start of the file or member
+             for all occurrences, report the count, and show the first.
+))PREFIX  - Search for the string only at the start of a
+              word longer than the string.  PRE for short.
+))SUFFIX  - Search for the string only at the end of a
+              word longer than the string.  SUF for short.
+))WORD    - Search for the string only when it starts at the start
+              of a word and ends at the end of a word.
+))EX      - Only search records excluded from display.  X for short.
+))X       - Same as 'EX'.
+))NX      - Only search records not excluded from display.
+=EXCLUDE=EX=X
+)F   The EXCLUDE subcommand positions the display to a data string,
+  and the record containing the matched data will be excluded from
+  display.  Alternatively, EXCLUDE may be used to exclude all lines.
+ 
+  EXCLUDE notes:
+   1.  A search argument is required unless ALL is the only
+       operand specified.  A single unquoted asterisk may
+       be used to specify the same argument as was last used.
+   2.  The first operand is always treated as the search argument
+       unless ALL is the only operand specified.
+   3.  The search argument determines whether the search is case
+       sensitive, case insensitive or for a picture string, or
+       for a string of hexadecimal digits byte-aligned with two
+       digits per data byte.
+   4.  Quotation marks are required whenever the string type needs
+       to be specified.
+   5.  Quotation marks are optional for the default string type
+       unless the string contains one or more blank characters.
+   6.  Operands specifying various keywords and/or column numbers
+       may be supplied in any order after the search argument.
+   7.  EXCLUDE will never search records which are excluded from
+       display.
+)X Syntax -
+     EXCLUDE 'string'  'column-1'  'column-2'
+                        FIRST / NEXT / PREV / LAST / ALL
+                        PREFIX / SUFFIX / WORD
+              or
+     EXCLUDE ALL
+ 
+ Aliases  - EX, X
+ Defaults - NEXT
+ Required - 'string' unless ALL is the only operand.
+)O Operands -
+)P 'string'  - Specifies the data and data type to locate.
+              Quoted strings may have the string type indicated
+              before the leading quote or after the trailing quote.
+              String types are:
+ 
+              C - Character for case sensitive search.
+ 
+              T - Text for case insensitive search.
+ 
+              X - Hexadecimal digits (byte-aligned and two to a byte).
+ 
+              P - Picture data where special mask characters represent
+                  various categories of data.  Valid picture masks are:
+                     ^ - any non-blank character.
+                     $ - any special character.
+                     = - any character.
+                     # - any decimal numeric character.
+                     - - any non-numeric character.
+                     @ - any alphabetic character.
+                     > - any upper case alphabetic character.
+                     < - any lower case alphabetic character.
+                     . - any non-displayable character.
+                  Non-mask characters represent themselves, with
+                  matching of specific alphabetics being case
+                  insensitive.
+ 
+              Unquoted strings and strings without a string type
+              specified are treated as character (type C) strings,
+              which requests a case insensitive search.
+ 
+)P 'column-1' - Optional, specifies first or only column to search.
+)P 'column-2' - Optional, specifies last column where the string
+              may end.
+))FIRST   - Search forward from the start of the file or member.
+))NEXT    - Search forward from the current location.
+))PREV    - Search backward from the current location.
+))LAST    - Search backward from the end of the file or member.
+))ALL     - Search forward from the start of the file or member
+             for all occurrences, report the count, and show the first.
+))PREFIX  - Search for the string only at the start of a
+              word longer than the string.  PRE for short.
+))SUFFIX  - Search for the string only at the end of a
+              word longer than the string.  SUF for short.
+))WORD    - Search for the string only when it starts at the start
+              of a word and ends at the end of a word.
+=EXNOT=EXN=XN
+)F   The EXNOT subcommand positions the display to a data string
+  which does NOT match the search argument, and the record containing
+  the mismatch will be excluded from display.  Excluded lines will
+  not be searched.
+ 
+  The notes listed under FIND also apply to FINDNOT.
+)X Syntax -
+   EXNOT 'string'  'column-1'  'column-2'
+                    FIRST / NEXT / PREV / LAST / ALL
+                    PREFIX / SUFFIX / WORD
+ 
+ Aliases  - EXN, XN
+ Defaults - NEXT
+ Required - 'string'
+)O Operands -
+)P 'string'  - Specifies the character data to mismatch.
+)P 'column-1' - Optional, specifies first or only column to search.
+              eg. "XN ' ' 70"
+                   will exclude a non-blank in column 70.
+              eg. "XN ' ' ALL"
+                   will exclude all non-blanks.
+)P 'column-2' - Optional, specifies last column where the string
+              may end.
+))FIRST   - Search forward from the start of the file or member.
+))NEXT    - Search forward from the current location.
+))PREV    - Search backward from the current location.
+))LAST    - Search backward from the end of the file or member.
+              for all occurrences, excluding other lines.
+))ALL     - Search forward from the start of the file or member
+             for all occurrences, report the count, and show the first.
+))PREFIX  - Search for the string only at the start of a
+              word longer than the string.  PRE for short.
+))SUFFIX  - Search for the string only at the end of a
+              word longer than the string.  SUF for short.
+))WORD    - Search for the string only when it starts at the start
+              of a word and ends at the end of a word.
+=RFIND=IFIND
+)F   The RFIND subcommand repeats the previous FIND or FINDNOT
+  or EXCLUDE or EXNOT operation.  No operands are allowed.  It is
+  expected that RFIND will be used as the default meaning of a
+  PFK such as PF5 or PF17.
+ 
+)X Syntax -
+     RFIND
+ 
+ Alias    - IFIND
+ Defaults - Same operation, string, direction and range.
+ Required - None.
+)O Operands - None.
+=CHANGE=CHG=C
+)F   The CHANGE subcommand performs the alteration of selected data
+  in a specified way.  The display is also repositioned to show the
+  change.
+ 
+  CHANGE notes:
+   1.  A search argument or "from string" is required, as is a
+       data replacement specification or "to string".  For either
+       operand (or both operands) a single unquoted asterisk may be
+       used to specify the same argument as was last used
+   2.  The first operand is always treated as the search argument.
+   3.  The search argument determines whether the search is case
+       sensitive, case insensitive or for a picture string, or
+       for a string of hexadecimal digits byte-aligned with two
+       digits per data byte.
+   4.  If the replacement specification is a picture string then
+       it must be the same length as the search argument.
+   5.  The only picture string mask characters that are recognised
+       in the "to string" are '=' (to leave the character unchanged),
+       '>' (to perform upper case translation), and '<' (to perform
+       lower case translation).  All other characters are processed
+       literally.
+   6.  Quotation marks are required whenever the string type needs
+       to be specified.
+   7.  Quotation marks are optional for the default string type
+       unless the string contains one or more blank characters.
+   8.  Operands specifying various keywords and/or column numbers
+       may be supplied in any order after the search argument.
+)X Syntax -
+     CHANGE 'string-1'  'string-2'
+                    'column-1'  'column-2'
+                     FIRST / NEXT / PREV / LAST / ALL
+                     PREFIX / SUFFIX / WORD
+                     EX / NX
+ 
+ Aliases  - CHG, C
+ Defaults - NEXT
+ Required - 'string-1', 'string-2'
+)O Operands -
+)P 'string-1' - Specifies the data and data type to be replaced.
+              Quoted strings may have the string type indicated
+              before the leading quote or after the trailing quote.
+              String types are:
+ 
+              C - Character for case sensitive search.
+ 
+              T - Text for case insensitive search.
+ 
+              X - Hexadecimal digits (byte-aligned and two to a byte).
+ 
+              P - Picture data where special mask characters represent
+                  various categories of data.  Valid picture masks are:
+                     ^ - any non-blank character.
+                     $ - any special character.
+                     = - any character.
+                     # - any decimal numeric character.
+                     - - any non-numeric character.
+                     @ - any alphabetic character.
+                     > - any upper case alphabetic character.
+                     < - any lower case alphabetic character.
+                     . - any non-displayable character.
+                  Non-mask characters represent themselves, with
+                  matching of specific alphabetics being case
+                  insensitive.
+ 
+              Unquoted strings and strings without a string type
+              specified are treated as text (type T) strings,
+              which requests a case insensitive search.
+ 
+)P 'string-2' - Specifies the replacement data.
+              Quoted strings may have the string type indicated
+              before the leading quote or after the trailing quote.
+              String types are:
+ 
+              C - Character for replacement exactly as typed.
+ 
+              T - Text for upper case replacement.
+ 
+              X - Hexadecimal digits (byte-aligned and two to a byte).
+ 
+              P - Picture data where special mask characters represent
+                  various categories of data.  Valid picture masks are:
+                     = - character is to be left unchanged.
+                     > - character is to be translated to upper case.
+                     < - character is to be translated to lower case.
+                  Non-mask characters represent themselves.
+                  The picture string must have the same length
+                  as the search argument.
+ 
+              Unquoted strings and strings without a string type
+              specified are treated as text (type T) strings,
+              which requests a case insensitive search.
+ 
+)P 'column-1' - Optional, specifies first or only column to search.
+)P 'column-2' - Optional, specifies last column where the string
+              may end.
+))FIRST   - Search forward from the start of the file or member.
+))NEXT    - Search forward from the current location.
+))PREV    - Search backward from the current location.
+))LAST    - Search backward from the end of the file or member.
+))ALL     - Search forward from the start of the file or member
+             for all occurrences, report the count, and show the first.
+))PREFIX  - Search for the string only at the start of a
+              word longer than the string.  PRE for short.
+))SUFFIX  - Search for the string only at the end of a
+              word longer than the string.  SUF for short.
+))WORD    - Search for the string only when it starts at the start
+              of a word and ends at the end of a word.
+))EX      - Only search records excluded from display.  X for short.
+))X       - Same as 'EX'.
+))NX      - Only search records not excluded from display.
+=RCHANGE=ICHANGE
+)F   The RCHANGE subcommand repeats the previous CHANGE operation.
+  No operands are allowed.  It is expected that RCHANGE will be used
+  as the default meaning of a PFK such as PF6 or PF18.
+ 
+)X Syntax -
+     RCHANGE
+ 
+ Alias    - ICHANGE
+ Defaults - Same string specifications and direction and range.
+ Required - None.
+)O Operands - None.
+=FLIP
+)F   The FLIP subcommand causes to exclusion status of every line
+  to be toggled to the opposite setting.  All lines eligible for
+  display are excluded, and all excluded lines become eligible for
+  display.
+ 
+)X Syntax -
+     FLIP
+ 
+ Aliases  - None.
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=DELETE=DEL
+)F   The DELETE subcommand causes the deletion of all lines that are
+  either excluded or not excluded.
+ 
+)X Syntax -
+     DELETE    ALL     EX / NX
+ 
+ Alias    - DEL
+ Defaults - None.
+ Required - ALL and one of EX and NX.
+)O Operands - None.
+))EX      - Only delete records excluded from display.  X for short.
+))X       - Same as 'EX'.
+))NX      - Only delete records not excluded from display.
+))ALL     - A required operand to verify the scope of the deletion.
+=RESET=RES
+)F   The RESET subcommand deactivates all line exclusions and
+  clears all pending line commands.  Indications of CHANGE ALL
+  activity (underscored line number) and CHANGE errors (line
+  number shown in reverse video) are also cleared.  The display
+  of PROFILE details is turned off.
+ 
+)X Syntax -
+     RESET
+ 
+ Alias    - RES
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=UP=-
+)F   The UP subcommand moves the display up the specified number of
+  lines; if no operand is entered, the scroll amount is used.
+)X Syntax -
+     UP 'amount'
+ 
+ Aliases  - UP, -
+ Defaults - Scroll amount
+ Required - None.
+)O Operands -
+)P 'amount' - Specifies the number of lines to move the display.
+              It must be a decimal number, or 'HALF' ('H') or
+              'PAGE' ('P') or 'CSR' ('C') or 'MAX' ('M').
+=DOWN=+
+)F   The DOWN subcommand moves the display down the specified number
+  of lines; if no operand is entered, the scroll amount is used.
+)X Syntax -
+     DOWN 'amount'
+ 
+ Aliases  - DOWN, +
+ Defaults - Scroll amount
+ Required - None.
+)O Operands -
+)P 'amount' - Specifies the number of lines to move the display.
+              It must be a decimal number, or 'HALF' ('H') or
+              'PAGE' ('P') or 'CSR' ('C') or 'MAX' ('M').
+=LEFT=<
+)F   The LEFT subcommand moves the display left the specified number of
+  columns; if no operand is entered, the scroll amount is used.
+)X Syntax -
+     LEFT 'amount'
+ 
+ Aliases  - LEFT, <
+ Defaults - Scroll amount
+ Required - None.
+)O Operands -
+)P 'amount' - Specifies the number of lines to move the display.
+              It must be a decimal number, or 'HALF' ('H') or
+              'PAGE' ('P') or 'CSR' ('C') or 'MAX' ('M').
+=RIGHT=>
+)F   The RIGHT subcommand moves the display right the specified number
+  of columns; if no operand is entered, the scroll amount is used.
+)X Syntax -
+     RIGHT 'amount'
+ 
+ Aliases  - RIGHT, >
+ Defaults - Scroll amount
+ Required - None.
+)O Operands -
+)P 'amount' - Specifies the number of lines to move the display.
+              It must be a decimal number, or 'HALF' ('H') or
+              'PAGE' ('P') or 'CSR' ('C') or 'MAX' ('M').
+=TOP
+)F   The TOP subcommand moves the display to the first line of the
+  data set or member.  It differs from 'UP MAX' when line exclusion
+  is active in that line exclusion is not cancelled.  In this case,
+  TOP can be used to view the results of a "FIND ALL" search from
+  the start without the need to reissue the "FIND ALL" command.
+)X Syntax -
+     TOP
+ 
+ Aliases  - None.
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=BOTTOM=BOT
+)F   The BOTTOM subcommand moves the display to the last line of the
+  data set or member.
+)X Syntax -
+     BOTTOM
+ 
+ Alias    - BOT
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=KEYS=?
+)F   The KEYS subcommand displays the current Program Function Key
+  values.  Each PF Key (1 to 24) has a default value which may
+  be changed with the PFK command.
+)X Syntax -
+     KEYS
+ 
+ Alias    - ?
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=RECALL
+)F   The RECALL subcommand causes previously typed-in commands to be
+  displayed in the primary input area where they may be changed if
+  required and then reissued.  Note that single character input strings
+  and text implied by PFK usage are not recallable.  The first command
+  recalled is the most recently typed in command.  Consecutive RECALL
+  commands cause increasingly older commands to be recalled.
+)X Syntax -
+     RECALL
+ 
+ Alias    - The DUP character (X'1C').
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=PFK
+)F   The PFK subcommand changes PFK definitions for the duration of
+  the REVIEW session; to change a PFK, a subcommand such as
+  'PFK6 RIGHT 1'  is entered to change PFK6 to 'RIGHT 1'.
+ 
+  By default, the PF KEYS are defined as the following:
+              PFK1  - HEL     PFK2  - SWAP LIST  PFK3  - END
+              PFK4  - TSO     PFK5  - RFIND      PFK6  - FULL
+              PFK7  - UP      PFK8  - DOWN       PFK9  - SWAP
+              PFK10 - LEFT    PFK11 - RIGHT      PFK12 - RECALL
+              PFK13 - TOP     PFK14 - BOTTOM     PFK15 - END
+              PFK16 - SMF     PFK17 - RFIND      PFK18 - EREP
+              PFK19 - UP      PFK20 - DOWN       PFK21 - HEX
+              PFK22 - ASCII   PFK23 - TSO REV    PFK24 - RECALL
+ 
+  Changes to the PFK assignments may be saved in the profile data set.
+)X Syntax -
+     PFK## 'newpfdata'
+ 
+ Aliases  - None.
+ Defaults - None.
+ Required - nn and 'newpfdata'
+)O Operands -
+)P  ##      - Specifies the PF Key to be modified.
+              ## is a 1 or 2 decimal digit number in the range of
+              0 to 24 inclusive.  Numbers from 1 to 24 specify a
+              particular Program Function Key.  If ## is 0 then
+              all 24 PF Keys will be assigned their default values.
+ 
+ 'newpfdata'- Specifies the new subcommand for this PF Key.
+=HEX
+)F   The HEX subcommand specifies whether the hexadecimal byte
+  contents of the data is to be displayed or not.
+)X Syntax -
+     HEX  ON / OFF
+ 
+ Aliases  - None.
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that the data's hexadecimal should be shown.
+))OFF    - Specifies that the data's hexadecimal should not be shown.
+=NULLS=NULL=NUL
+)F   The NULLS subcommand specifies whether trailing blanks on a
+  screen line showing a data record are to be written to the terminal
+  as blanks or (except for the first) as nulls to allow 3270 insert
+  mode to operate without prior character deletion.
+)X Syntax -
+     NULLS  ON / OFF
+ 
+ Aliases  - NULL, NUL
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that after the last non-blank character and
+         one blank of data shown on a screen line, subsequent blanks
+         to the end of the line will be rendered as nulls.
+))OFF    - Specifies that all blanks in the data will be represented
+         by blanks on the terminal display.
+=CAPS
+)F   The CAPS subcommand specifies whether input alphabetic data
+  is to automatically be translated to upper case or left unchanged.
+)X Syntax -
+     CAPS  ON / OFF
+ 
+ Aliases  - None.
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that lower-case alphabetic data entered by the
+         user will be folded to upper case.
+))OFF    - Specifies that alphabetic data entered by the user will
+         not have its case altered.
+=COLUMNS=COLS=COL
+)F   The COLUMNS subcommand can activate a column indicator line so
+  that the exact column number of specific data can be more easily
+  determined.
+     The amount of virtual storage used to hold data being edited
+  is also displayed in the left margin.  If this size is always shown
+  in megabytes (MB) then a data space is being used to hold the data.
+  If this size is ever shown in kilobytes (KB) then the user region
+  is being used to hold the data.
+     The COLUMNS display is not visible when PROFILE ON is in effect.
+  The COLUMNS display is not affected by the RESET command.
+)X Syntax -
+     COLUMNS  ON / OFF
+ 
+ Aliases  - COLS, COL
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that top data display line is used to show
+         a column number indicator line.
+))OFF    - Specifies that column number indicator line is not to
+         be shown.
+=STATS
+)F   The STATS subcommand specifies whether REVEDIT should save PDS
+  and PDSE member statistics in the directory entry's userdata or not.
+)X Syntax -
+     STATS  ON / OFF
+ 
+ Aliases  - None.
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that REVEDIT is to save member statistics.
+))OFF    - Specifies that REVEDIT is not to save member statistics.
+=LEVEL=LEV
+)F   The LEVEL subcommand allows a user to specify the modification
+  level number to be saved in a member's statistics.
+)X Syntax -
+     LEVEL  'levnum'
+ 
+ Alias    - LEV
+ Defaults - None.
+ Required - 'levnum'
+)O Operands -
+)P 'levnum'  - specifies a decimal number in the 0 to 99 range.
+=VERSION=VERS=VER
+)F   The VERSION subcommand allows a user to specify the modification
+  version number to be saved in a member's statistics.
+)X Syntax -
+     VERSION 'vernum'
+ 
+ Aliases  - VERS, VER
+ Defaults - None.
+ Required - 'vernum'
+)O Operands -
+)P 'vernum'  - specifies a decimal number in the 1 to 99 range.
+=ZAP
+)F   The ZAP subcommand permits the use of update-in-place to save
+  PDS member contents in some cases in order to save disk space.
+  Update-in-place is only used for non-PDSE PDS members with
+  fixed-length records when the number of records to be saved
+  equals the number of records currently on disk.
+)X Syntax -
+     ZAP  ON / OFF
+ 
+ Aliases  - None.
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that REVEDIT is allowed to use update-in-place.
+))OFF    - Specifies that REVEDIT is never to use update-in-place.
+=PROFILE=PROF
+)F   The PROFILE subcommand causes the display of the current settings
+  of several editing options which affect how REVEDIT behaves.
+     The amount of virtual storage used to hold data being edited
+  is also displayed in the left margin.  If this size is always shown
+  in megabytes (MB) then a data space is being used to hold the data.
+  If this size is ever shown in kilobytes (KB) then the user region
+  is being used to hold the data.
+     The PROFILE display overlays the COLUMNS display, so PROFILE OFF
+  must be in effect for the COLUMNS display to be visible.  The PROFILE
+  display is turned off by the RESET command.
+)X Syntax -
+     PROFILE  ON / OFF
+ 
+ Alias    - PROF
+ Defaults - Opposite mode.
+ Required - None.
+)O Operands -
+))ON     - Specifies that current profile settings are to be shown.
+))OFF    - Specifies that current profile settings are not to be shown.
+=NUMBER=NUMB=NUM
+)F   The NUMBER subcommand specifies whether the data is to have
+  record sequence numbers in the last eight (8) bytes of the data.
+  EBCDIC numeric characters are used.  Only fixed-length records
+  having a length of at least 40-bytes can have sequence numbers
+  maintained by REVEDIT.  For PDS or PDSE members with STATS ON, the
+  last two digits contain the last update modification level number.
+)X Syntax -
+     NUMBER  ON / OFF
+ 
+ Aliases  - NUMB, NUM
+ Defaults - None.
+ Required - ON or OFF
+)O Operands -
+))ON     - Specifies that the data is to contain sequence numbers.
+))OFF    - Specifies that sequence numbers are not to be used.
+=UNNUMBER=UNNUM=UNN
+)F   The UNNUMBER subcommand can only be used when NUMBER ON is in
+  effect, and causes all sequence numbers to be replaced by blanks,
+  and sets NUMBER to OFF.
+)X Syntax -
+     UNNUMBER
+ 
+ Aliases  - UNNUM, UNN
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=RENUMBER=RENUM=REN
+)F   The RENUMBER subcommand causes all records to have sequence
+  numbers loaded (or reloaded) into the last eight (8) bytes of
+  data, and sets NUMBER to ON.  For PDS or PDSE members with STATS
+  ON, the last two digits contain the last update modification level
+  number.  Only fixed-length records having a length of at least
+  40-bytes can have sequence numbers maintained by REVEDIT.
+)X Syntax -
+     RENUMBER
+ 
+ Aliases  - RENUM, REN
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=SWAP
+)F   The SWAP subcommand specifies which parallel REVIEW session
+  is to become the current session.  It can also list the started
+  REVIEW sessions which are eligible to become the current session.
+  A parallel REVIEW session is created when the REVIEW TSO subcommand
+  (not the ISPF TSO subcommand) is used to create a recursive REVIEW
+  session.  The nesting order of these sessions can be changed by SWAP.
+)X Syntax -
+     SWAP   LIST / #
+ 
+ Aliases  - None.
+ Default  - 1
+ Required - None.
+)O Operands -
+))LIST    - Specifies that all parallel REVIEW sessions are to be
+            listed in SWAP target session number order.
+))#       - Specifies the decimal number of the target REVIEW session
+            that is to be swapped with the current session.  The
+            current session is always session 0, so the 'SWAP 0'
+            subcommand is a no-operation.
+=SUBMIT=SUB
+)F   The SUBMIT subcommand invokes TSO SUBMIT to submit the edit
+  session's copy of the data for background processing.
+)X Syntax -
+     SUBMIT
+ 
+ Alias    - SUB
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=COPY
+)F   The COPY subcommand facilitates the importing of the contents
+  of a data set or member into the data being edited.  The insertion
+  point is specified by an 'A' (for after) or 'B' (for before) line
+  command.  If there are no edit data lines then the insertion point
+  line command is not required.
+     If a member of a partitioned data set is being edited, another
+  member of the same data set can be directly nominated as the copy
+  data source by specifying its name as the subcommand operand.
+     If no operands are specified then a data entry panel is displayed
+  where the user can nominate the copy data source.
+)X Syntax -
+     COPY  'member'
+ 
+ Aliases  - None.
+ Defaults - None.
+ Required - None.
+)O Operands -
+)P 'member'  - Specifies a member name of the PDS being edited.
+=CREATE=CRE
+)F   The CREATE subcommand facilitates the exporting of data being
+  edited into a new data set or new member of an old or new data set.
+  The data lines to be copied are specified by a 'C' line command
+  with an optional multiplier, or by a 'CC'..'CC' block of lines.
+     If a member of a partitioned data set is being edited, another
+  member of the same data set can be directly nominated as the data
+  target by specifying its name as the subcommand operand.
+     If no operands are specified then a data entry panel is displayed
+  where the user can nominate the data set to contain to written data.
+     CREATE is the same as REPLACE except that an existing data set (or
+  member if partitioned) will not be overwritten.
+)X Syntax -
+     CREATE  'member'
+ 
+ Alias    - CRE
+ Defaults - None.
+ Required - None.
+)O Operands -
+)P 'member'  - Specifies a new member name of the PDS being edited.
+=REPLACE=REPL=REP
+)F    The REPLACE subcommand facilitates the exporting of data being
+  edited into an existing data set.  The data lines to be copied are
+  specified by a 'C' line command with an optional multiplier, or by
+  a 'CC'..'CC' block of lines.
+     If a member of a partitioned data set is being edited, another
+  member of the same data set can be directly nominated as the data
+  target by specifying its name as the subcommand operand.
+     If no operands are specified then a data entry panel is displayed
+  where the user can nominate the data set to contain to written data.
+     REPLACE is the same as CREATE except that a new data set cannot
+  be created.
+)X Syntax -
+     REPLACE  'member'
+ 
+ Aliases  - REPL, REP
+ Defaults - None.
+ Required - None.
+)O Operands -
+)P 'member'  - Specifies a member name of the PDS being edited.
+=TSO=TSS
+)F   The TSO subcommand specifies a TSO command processor to be
+  invoked from the REVIEW processor.  Commands generating an implicit
+  EXEC such as SYSPROC member names and commands immediately prefixed
+  by a percent sign (%) are supported.
+)X Syntax -
+     TSO  'command' 'operands'
+ 
+ Alias    - TSS
+ Defaults - None.
+ Required - 'command'
+)O Operands -
+)P 'command'  - Specifies a TSO command to be executed.
+ 
+)P 'operands' - Specifies any desired operands for this TSO command.
+=LOCATE=LOC=L=LIST
+)F   The LOCATE subcommand repositions the display to the relative
+  line number entered, or locates a pending line command.
+)X Syntax -
+     LOCATE 'lineno'
+        or
+     LOCATE COMMAND / CHANGE / ERROR / UPDATE
+            FIRST / NEXT / PREV / LAST
+ 
+ Aliases  - L, LOC, LOCATE
+ Defaults - NEXT if one of COMMAND, CHANGE or ERROR specified.
+ Required - lineno or one of COMMAND, CHANGE or ERROR
+)O Operands -
+)P 'lineno' -  Specifies the relative line number to which the display
+               is to be positioned.
+))COMMAND - specifies that a pending line command rather than a
+            record number is to be located.  COM or CMD for short.
+))CHANGE  - specifies that a line altered by a CHANGE ALL rather than a
+            record number is to be located.  CHA or CHG for short.
+))ERROR   - specifies that a line where a CHANGE ALL failed rather than
+            a record number is to be located.  ERR for short.
+))UPDATE  - specifies that a line which has been altered this session
+            rather than a record number is to be located.
+            UPD for short.
+))FIRST   - requests the relocation to the first line with the
+            specified condition.
+))NEXT    - requests the relocation to the next line with the
+            specified condition.
+))PREV    - requests the relocation to the previous line with the
+            specified condition.
+))LAST    - requests the relocation to the last line with the
+            specified condition.
+=SORT
+)F   The SORT subcommand allows records to be reordered according to
+  data content.
+)X Syntax -
+       SORT 'column-1'  'column-2'
+               A / D
+               EX / NX
+ 
+ Aliases  - None.
+ Defaults - A (ascending order), and all records are sorted.
+ Required - None.
+)O Operands -
+)P 'column-1' - Optional, specifies first column of the sort field.
+                If not specified the start of the record is assumed.
+)P 'column-2' - Optional, specifies last column of the sort field.
+                If not specified the end of the record is assumed,
+                except for sequence numbers which are not sorted
+                unless the sort field starts within the sequence
+                number data.
+))A           - Requests sorting in ascending order.
+                This is the default.
+))D           - Requests sorting in descending order.
+))EX          - Only search records excluded from display.  X for short.
+))NX          - Only search records not excluded from display.
+))COMMAND - specifies that a pending line command rather than a
+=HILITE=HI
+)F   The HILITE subcommand controls syntax coloring and highlighting.
+  This status is saved in the profile if one exists.  The highlighting
+  is only ever displayed when 80-byte records are being edited.
+)X Syntax -
+     HILITE AUTO / ASM / JCL / OFF
+ 
+ Alias    - HI
+ Default  - None.
+ Required - one of AUTO, ASM, JCL or OFF.
+)O Operands -
+))AUTO    - specifies that both JCL and non-JCL source highlighting
+            may be displayed.  JCL syntax highlighting is used for
+            records beginning with '//' or '/*'.  Other source types
+            may be detected based upon the data content, especially
+            the first non-comment record.
+))JCL     - specifies JCL syntax highlighting is to be displayed
+            whenever records beginning with '//' or '/*' are shown.
+            Non-JCL records will not be highlighted.
+))ASM     - specifies that automatic syntax highlighting is to be
+            enabled, and that Assembler source syntax highlighting
+            is to be used for non-JCL records in this session.
+))CLIST   - specifies that automatic syntax highlighting is to be
+            enabled, and that TSO CLIST source syntax highlighting
+            is to be used for non-JCL records in this session.
+))PLI     - specifies that automatic syntax highlighting is to be
+            enabled, and that PL/I source syntax highlighting is
+            to be used for non-JCL records in this session.
+))DATA    - specifies that automatic syntax highlighting is to be
+            enabled, but that no highlighting is to be used for
+            non-JCL records in this session.
+))OFF     - specifies syntax highlighting is never to be displayed.
+            This also suppresses JCL highlighting extensions such
+            as data set name catalog look-up.
+=UNDO
+)F   The UNDO subcommand without operands instructs the editor to
+  restore the data to the state that existed before the latest
+  changes input by the user were applied.  Only changes performed
+  in the current Edit session since UNDO was last activated can be
+  undone.  No more than 31 consecutive UNDOs can ever be performed,
+  and this number may not be achievable for large data sets.
+ 
+  The UNDO subcommand with an operand controls whether UNDO is
+  enabled or disabled.  UNDO will not be enabled if the data width
+  exceeds an internal limit of around four thousand columns, nor
+  if there are more records than an arbitrary internal limit.
+ 
+  Use REDO to undo an UNDO.
+)X Syntax -
+     UNDO  ON / OFF
+ 
+ Aliases  - None.
+ Defaults - Perform an UNDO operation.
+ Required - None.
+)O Operands -
+))ON     - Specifies that necessary resources are to be acquired
+         and that UNDO is to be enabled.
+))OFF    - Specifies that UNDO is to be disabled and its associated
+         resources can be released.
+=REDO
+)F   The REDO subcommand instructs the editor to reapply the changes
+  which were removed by the most recent UNDO subcommand (that has
+  not also been redone).
+ 
+  REDO is only available if UNDO is enabled and has not not been
+  disabled since the UNDO subcommand being backed out.  Once manual
+  changes are applied to the edit data after an UNDO, that UNDO can
+  no longer be backed out by REDO.
+ 
+  Use UNDO to undo changes to the data before using REDO.
+)X Syntax -
+     REDO
+ 
+ Aliases  - None.
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=CANCEL=CAN
+)F   The CANCEL subcommand instructs REVEDIT to discard all data
+  being edited and terminate.
+)X Syntax -
+     CANCEL
+ 
+ Alias    - CAN
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=END
+)F   The END subcommand instructs REVEDIT to terminate after saving
+  any changed data.  If the data cannot be saved then REVEDIT will
+  not terminate.
+)X Syntax -
+     END
+ 
+ Aliases  - None.
+ Defaults - None.
+ Required - None.
+)O Operands - None.
+=EXIT=RETURN==X
+)F   The EXIT subcommand performs the same processing as END, except
+  that if REVEDIT was invoked from a member selection list then the
+  member selection list will not be displayed but instead the entire
+  REVIEW session will end.
+)X Syntax -
+     EXIT
+ 
+ Aliases  - RETURN, =X
+ Defaults - None.
+ Required - None.
+)O Operands - None.

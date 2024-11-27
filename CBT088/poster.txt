@@ -1,0 +1,248 @@
+//ZPOSTER  JOB (IS,OTS,M00,000,76),'SYSTEMS***BRIAN',
+//      CLASS=T,MSGCLASS=R,NOTIFY=C7BRIAN TYPRUN=SCAN
+/*JOBPARM S=CPUA,K=0
+//LKED   EXEC  PGM=IEWL,PARM=(MAP,NCAL)
+//SYSPRINT DD  SYSOUT=A
+//SYSUT1 DD UNIT=SYSDA,SPACE=(TRK,(10,10))
+//SYSLMOD DD DSN=&&LOADGO(POSTER),DISP=(,PASS),SPACE=(TRK,(5,5,1)),
+//           UNIT=SYSDA
+//SYSLIN  DD  *
+ ESD            POSTER1         POSTER2         POSTER3        s
+ ESD            POSTER4
+ TXT              }     r   r &}m    }m &    {r   r   r                !
+ TXT                *** THIS IS POSTER - - RELEASE 2 ***
+ TXT   -               h    REPLY TO 'OPTIONS;' IN THIS MANNER
+ TXT                      REPLY 00,'XY'
+ TXT   w             Q    WHERE X IS EITHER A P OR N TO SPECIFY POSITIVE
+ TXT                 6    OR NEGATIVE BLOCKING
+ TXT                  j     AND Y IS EITHER A SPACE OR ANY CHARACTER AVA
+ TXT            ILABLE
+ TXT                j     ON YOUR PRINT CHAIN/TRAIN.
+ TXT   ;            j     IF Y IS A SPACE EACH LETTER OR NUMBER WILL BE
+ TXT   o            j     COMPOSED OF THE LETTER BEING FORMED.
+ TXT   D              k     FOR TERMINATION OF THE PROGRAM TYPE $$$ AT T
+ TXT            HE END OF
+ TXT                k     YOUR LAST MESSAGE.
+ TXT                k     NOTE: THIS PROGRAM REQUIRES A SYSPRINT (DDNAME
+ TXT   !        ) DD
+ TXT   ;            kf    STATEMENT FOR IT'S EXECUTION PHASE.
+ TXT                  k     NOW BEGIN!
+ TXT   s          kPm,k m%k m   kB            OPTIONS;
+ TXT   H            m       o m,nPm,  l nNm,  l   l     **SYNTAX ERROR**
+ TXT              TRY AGAIN
+ TXT               0k   qwk m k   K=      l =      %    POSTER MESSAGE
+ TXT                m       k m|j     l>n$    lk 0   -r        0l<j m|
+ TXT   :        k k m|           1      qw 0l<n$   -~}n$   -~}j m|  m k
+ TXT            m|           1      qw 0l<K l\      m     CHARACTER   NO
+ TXT            T AVAILABLE. RETYPE MESSAGE.
+ TXT               0l       m       q }
+ TXT
+ TXT                                     P
+ TXT            X
+ TXT   d        X
+ TXT            X
+ TXT            X
+ TXT            X
+ TXT                        j m|  l n m%  r<K r m%nPm,  r K m1r Kbm2m1k
+ TXT            m_Kbm>m_Kcn m_ 0r K m_r Kbm>m_Kbn m_k m1Kbm2m1Kcn m1Kco"
+ TXT            n Kcp n Kcpin Kcq n  &   6        n9 0          o= 0
+ TXT   Q              p  0          ph 0          q  0     6      n9 0
+ TXT               &r  6
+ TXT                                                u   SYSPRINT
+ TXT   &               e                   e
+ TXT            o   nA      n       nE      nI      nO      nU    E nB
+ TXT                nC      nD      nF      nG     &nH     DnJ      nK
+ TXT   Y            nL     @nM     snN    ] nP     wnQ    { nR    A nS
+ TXT              C nT    DWnV    E nW    G nX    H nY      nZ      n0
+ TXT              ~8n1    s n2    s!n3    t-n4    t n5    t2n6    u n7
+ TXT              v n8    v n9    w\n-    x n=    y n.    y n:    y n,
+ TXT   H          y<n;    y n?    y n!    y6n'    z n/    z n|r   z n(r
+ TXT              z<n)r   z n#r   z n%r     n[r     n^      n<      n>
+ TXT               &n+     \ 0lFkXr  -r     C   K@n m_ &    Kcn o"   0C0
+ TXT            k0r  -r  0 ok1r  -r   K n m_ -ro  K o|m_K o m_K p m_K p9
+ TXT   y        m_K q=m_  K@n m_ &     -r K n m_ &     0l-k2r  -r   K n
+ TXT   \        m_K ocm_K p m_K p m_K q m_  K n m_K ocm_K p m_K p m_K q
+ TXT            m_K o m_K oXm_K p%m_K p1m_K q m_  K n m_K ocm_K p m_K p
+ TXT   &        m_K q m_K o m_K oXm_K p%m_K p1m_K q m_  K[n m_K o m_ -ro
+ TXT   h        K o m1K o m1K p m1K pwm1K q m1  K o m1K o m1K p m1K pwm1
+ TXT   {        K q m1  K o m1 &     0  k3r  -r   K n m_K o m_ &     -ro
+ TXT   8        K o m_K o m_K p m_K pCm_K q m_  K o m_ &     0  k4r  -r
+ TXT              K[o m_ &    K o m1 &    K@n m_ &     -r K o m_ &     0
+ TXT            l-k5r  -r   K n m_K[o m_ &    K o m1 &     -ro 0C0k6r  -
+ TXT            r   K o m_K ovm_K p m_K p m_K q m_  K<o m_K&orm_K p m_K!
+ TXT   Q        p m_K-q m_  K o m_K|o m_K>p m_K pjm_K q m_  K@n m_ -roK
+ TXT            o m1K o m1K p m1K pQm1K q)m1  K o m1K o m1K p m1K pQm1K
+ TXT            q)m1K o m1K oum1K p m1K pzm1K q m1  K o m1K o m1 -ro &
+ TXT               0C0k7r  -r     vhK o m_K n m_ -roK ocm_K p m_K p m_K
+ TXT            q m_  K n m_K ocm_K p m_K p m_K q m_  K n m_K ocm_K p m_
+ TXT   0        K p m_K q m_   8    K n n K ocn K p n>K p n%K q n   K n
+ TXT            n K ocn K p n K p n^K q n)  K n m1 -ro 0  k8r  -r   K o
+ TXT   -        m_K ovm_K p m_K p m_K q m_K o m_K oPm_K p!m_K p m_K q^m_
+ TXT   q          K o m_K orm_K p m_K p m_K q m_K o m_K o m_K p(m_K p}m_
+ TXT   }        K q m_  K o m_K|o m_K>p m_K pjm_K q m_  K@n m_ -ro  K o
+ TXT            m1K oum1K p m1K pzm1K q m1K o m1K oOm1K p m1K p m1K q;m1
+ TXT              K o m1K o m1 &     0  k9r  -r   K o m_K oPm_K p!m_K p
+ TXT            m_K q^m_  K o m_K o m_K p(m_K p}m_K q m_K o m_K orm_K p
+ TXT            m_K p m_K q m_  K o m_K o m_K p m_K pCm_K q m_K o m_K o
+ TXT   Y        m_K p m_K pjm_K q m_  K n m_K.o m_ -ro  K o m1K oOm1K p
+ TXT            m1K p m1K q;m1  K o m1 -ro &    K o m_K o m_K p m_K pQm_
+ TXT            K q)m_ 0  kXr  -r   K o m_ &     0l-kXr  -r   K o m_K o
+ TXT            m_ &     0l-kXr K n m_ &     0l-kXr  -r   K o m_ 0y kXr
+ TXT   H         -r   K o m_ -roK n m_K ocm_K p m_K p m_K q m_  K n m_ -
+ TXT            ro  K ocm1K p m1K p m1K q m1   0l-kXr  -r   K o m_ 0y kX
+ TXT            r  -r   K o m_ &    K n m_K o m_ &    K n m1 -ro   0  kX
+ TXT            r  -r   K o m1 0y kXr  -r K o m_ &     0l kXr  -r   vh 0
+ TXT   y        v kXr  -r   K@n m_ &     0l-kXr  -r   K@n m_ &    K;o m1
+ TXT   \         &     0l-kXr  -r   K@n m_K;o m1 &    K@n m_ &     0l-kX
+ TXT            r  -r   K o m_K o m_ &    K@n m_ &     -r K o m_K o m_ &
+ TXT   &            K@n m_ &     -r K o m_K o m_ &     0l-kXr  -r     v
+ TXT   h        K o;m1 -ro  v K n m1 -ro 0  kXr  -r       K@n m_ &    K[
+ TXT   {        o m1 0  kXr  -r K@n m_K oem_K p m_K%pnm_K q m_   -r K o
+ TXT   8        m_K*olm_K p m_K psm_K+q m_   -r K o m_K o m_K p m_K p m_
+ TXT            K q m_   -r K o m_K o[m_K p m_K p m_K q m_   -r K o m_K
+ TXT            o m_K p m_K pHm_K q&m_   0l-kXr  -r   K o m_K o m_K p m_
+ TXT            K pCm_K q m_  K o m_K o m_K p m_K p m_K q m_  K o m_K ov
+ TXT   Q        m_K p m_K p m_K q m_  K+o m_K oqm_K p m_K*p m_K q m_  K
+ TXT            o m_K%o m_K p m_K p m_K@q m_   0l kXr  -r   K o m_ &
+ TXT            K o+m_ &     0l-kXr  -r   K o m_ &    K o m_ &     -r K
+ TXT            o m_ &     0l-
+ TXT            kMr  -r  &     0l kBr  -r   K@n m_ &    K o m1K o m1 &
+ TXT   H           -roK o m_K o m_K p m_K pwm_K q m_K o m_K o m_K p m_K
+ TXT            p m_K q m_K o/m_K oUm_K p m_K pZm_K q%m_  K@n m_ -ro &
+ TXT              Kcn m1 -roK n m_K ofm_K_p m_K pnm_K q m_  Kcn m1 -roK
+ TXT            o m_K olm_K p m_K psm_K q m_K o m_K oFm_K p(m_K pNm_K q*
+ TXT   y        m_  Kcn m1 -roK o m_K o m_K p m_K p m_K q m_K o.m_K oKm_
+ TXT   \        K p!m_K pm_K q m_   0l-kEr  -r   K@n m_ &    K o m1K o
+ TXT            m1 &    K o m1 &     0l-kAr  -r   K n m_K ocm_K p m_K p
+ TXT   &        m_K q m_  K[n m_K<ocm_K|p m_K p m_K q m_  K n m_K ocm_K$
+ TXT   h        p m_K;p m_K-q m_   -r K o m_ -roK o m_K o m_K p m_K pHm_
+ TXT   {        K q&m_   -r K o m_ -roK o m_K oFm_K p(m_K pNm_K q*m_   -
+ TXT   8        r K o m_ -roK o.m_K oKm_K p!m_K pm_K q m_   -r K o m_ -
+ TXT            roK o m_K oPm_K p!m_K p m_K q^m_   -r K o m_ -roK o m_K
+ TXT            o m_K p(m_K p}m_K q m_   -r K o m_ -roK o m_K o m_K p m_
+ TXT            K pCm_K q m_   -r K n m_ -roK o m_K o m_K p m_K p m_K q
+ TXT   Q        m_   -r K n m_ -roK o m_K ovm_K p m_K p m_K q m_   -r K
+ TXT            n m_ -roK o m_K orm_K p m_K p m_K q m_   0l-kCr  -r
+ TXT              K o m_K ovm_K p m_K p m_K q m_  K<o m_K&orm_K p m_K!p
+ TXT            m_K-q m_  K o m_K|o m_K>p m_K pjm_K q m_   -r K n m_K oc
+ TXT            m_K p m_K p m_K q m_K o.m_K oKm_K p!m_K pm_K q m_   -r
+ TXT   0        K n m_K ocm_K p m_K p m_K q m_K o m_K o m_K p m_K p m_K
+ TXT            q m_   -r K n m_K o m_ 8     &    K n m_K ocm_K p m_K p
+ TXT   -        m_K q m_K o/m_K oUm_K p m_K pZm_K q,m_  K n m_K ocm_K p
+ TXT   q        m_K p m_K q m_K o m_K oPm_K p!m_K p m_K q^m_   -r K o m_
+ TXT   }        K ogm_K p m_K pom_K q m_K o m_K o m_K p m_K pPm_K q*m_
+ TXT             -r K o m_K omm_K p m_K ptm_K q m_K o m_K o m_K p m_K pP
+ TXT            m_K q*m_   -r K o m_K o m_K p m_K p m_K q m_K o m_K o m_
+ TXT            K p m_K pPm_K q*m_   0l-kDr  -r   K@n m_ &    K[o m1 &
+ TXT              K n m_K ocm_K p m_K p m_K q m_K o/m_K oUm_K p m_K pZm_
+ TXT   Y        K q,m_  K@n q  -roK n m_K ocm_K p m_K p m_K q m_K o m_K
+ TXT            oPm_K p!m_K p m_K q^m_   -r K o m_K ogm_K>p m_K|pom_K q
+ TXT            m_   -r K-o m_K!omm_K p m_K&ptm_K<q m_   -r K o m_K o m_
+ TXT            K p m_K p m_K q m_   0l-kFr  -r   K@n m_ &    K n m1K o
+ TXT   H        m1 &    K n m1 &     0l-kGr  -r        &    K o m_ &
+ TXT             -roK n m_K ocm_K p m_K p m_K q m_K o m_K o m_K p m_K p
+ TXT            m_K q m_K o-m_K oTm_K p m_K pYm_K q|m_  K n m_K o m_ -ro
+ TXT            K oOm_K p m_K p m_K q;m_   -r K o m_K ogm_K p m_K pom_K
+ TXT   y        q m_K o m_K o m_K p m_K pPm_K q*m_   -r K o m_K omm_K p
+ TXT   \        m_K ptm_K q m_K o m_K o m_K p m_K pPm_K q*m_   -r K o m_
+ TXT            K o m_K p m_K p m_K q m_K o m_K o m_K p m_K pPm_K q*m_
+ TXT   &         0l-kHr  -r   K@n m_ &     -r K o m_ &    K@n m_ &     0
+ TXT   h        l-kIr  -r   K n m_K o m_ &    K@n m_ &     -r K n m_K o
+ TXT   {        m_ &     0l-kJr  -r   K o m_K ovm_K p m_K p m_K q m_  K
+ TXT   8        o m_K orm_K p m_K p m_K q m_  K o m_K o m_K p m_K pjm_K
+ TXT            q m_   -r K n m_K ocm_K p m_K p m_K q m_   -r K n m_K oc
+ TXT            m_K p m_K p m_K q m_   -r K n m_ &    K n m_K ocm_K p m_
+ TXT            K p m_K q m_  K n m_K ocm_K p m_K p m_K q m_   -r K(o m_
+ TXT   Q         -roK o m_K ogm_K p m_K pom_K q m_   -r K(o m_ -roK o m_
+ TXT            K omm_K p m_K ptm_K q m_   -r K(o m_ -roK o m_K o m_K p
+ TXT            m_K p m_K q m_   0l-kKr  -r   K@n m_ &     -r K o m_K o
+ TXT            m_K p m_K pCm_K q m_  K o m_K o m_K p m_K p m_K q m_  K.
+ TXT            o m_K ovm_K p m_K$p m_K^q m_   -r K o m_K orm_K p m_K p
+ TXT   0        m_K q m_K o.m_K oKm_K p!m_K pm_K q m_   -r K o m_K o m_
+ TXT            K p m_K pjm_K q m_K o m_K o m_K p m_K p m_K q m_   -r K
+ TXT   -        n m_K ocm_K p m_K p m_K q m_K o m_K o m_K p m_K p m_K qb
+ TXT   q        m_   -r K n m_K ocm_K p m_K p m_K q m_   -r K n m_K ocm_
+ TXT   }        K p m_K p m_K q m_   -r K n m_K ocm_K p m_K p m_K q m_
+ TXT             0l-kLr  -r   K@n m_ &    K_o m1 &     0l-kMr  -r   K@n
+ TXT            m_ &     -r K o m_K o m_K p(m_K p}m_K q m_   -r K o m_K
+ TXT            o m_K p m_K pCm_K q m_   -r K o m_K o m_K p m_K p m_K q
+ TXT            m_   -r K o m_K o m_K p m_K p m_K q m_   -r K o m_K o m_
+ TXT   Y        K p m_K pHm_K q&m_   -r K o m_K oFm_K p(m_K pNm_K q*m_
+ TXT            K@n m_ &     0l-kNr  -r   K@n m_ &     -r K o m_K o m_K
+ TXT            p(m_K p}m_K q m_   -r K o mBK o mBK p mBK pCmBK q mB  K
+ TXT            o mBK o mBK p mBK p mBK q mB  K o mBK ovmBK p mBK p mBK
+ TXT   H        q mB  K o mBK ormBK p mBK p mBK q mB  K o mBK o mBK p mB
+ TXT            K pjmBK q mB  K@n m_ &     0l-kOr  -r        &     0  kP
+ TXT            r  -r   K@n m_ &    K n m1K o m1 &      C0 -roK o m_K o
+ TXT            m_K p m_K pEm_K q[m_K o/m_K oUm_K p m_K pZm_K q%m_  K o
+ TXT   y        m_ &    K|o m1 -roK o m_K o m_K p m_K pHm_K q&m_  K|o m1
+ TXT   \         -roK o m_K oFm_K p(m_K pNm_K q*m_  K|o m1 -roK o.m_K oK
+ TXT            m_K p!m_K pm_K q m_   0l-
+ TXT            kQr  -r        &     -roK o m_K ovm_K p m_K p m_K q m_
+ TXT            K n m_ -roK o/m_K oUm_K p m_K pZm_K q,m_  K o m_K oPm_K
+ TXT   y        p!m_K p m_K q^m_K o m1K o m1K p m1K p m1K q m1K ocm1K p
+ TXT   \        m1K p m1K q m1   -r K o m_K oim_K p m_K p m_K q m_   -r
+ TXT            K>n m_K,ocm_K p m_K p m_K q m_   -r K n m_K ocm_K p m_K
+ TXT   &        p m_K q m_K o m_K o m_K p m_K p m_K q m_   0l-kRr  -r
+ TXT   h        K@n m_ &    K n m1K o m1 &     -roK o m_K o m_K p m_K p
+ TXT   {        m_K q m_  K o m_K ovm_K p m_K p m_K q m_  K o m_K orm_K
+ TXT   8        p m_K p m_K q m_K o m_K o m_K p m_K p m_K q m_K o/m_K oU
+ TXT            m_K p m_K pZm_K q,m_  K o m_ -roK o m_K o m_K p m_K pjm_
+ TXT            K q m_   -r K n m_K ocm_K p m_K p m_K q m_K o m_K o m_K
+ TXT            p m_K pHm_K q&m_   -r K n m_K ocm_K p m_K p m_K q m_K o
+ TXT   Q        m_K oFm_K p(m_K pNm_K q*m_   -r K n m_K ocm_K p m_K p m_
+ TXT            K q m_K o.m_K oKm_K p!m_K pm_K q m_   0l-kSr  -r     C
+ TXT            K o m_K oPm_K p!m_K p m_K q^m_  K o m_K o m_K p(m_K p}m_
+ TXT            K q m_K o m_K orm_K p m_K p m_K q m_  K o m_K o m_K p m_
+ TXT            K pCm_K q m_K o m_K o m_K p m_K pjm_K q m_  K n m_K[o m_
+ TXT   0         -ro  K o m1K oOm1K p m1K p m1K q;m1  K o m1 -ro 8 &
+ TXT            K n m_K ocm_K p m_K p m_K q m_K o m_K o m_K p m_K p m_K
+ TXT   -        q m_  K n m_ &     -r K o m_K ogm_K p m_K pom_K q m_K o
+ TXT   q        m_K oXm_K p%m_K p1m_K q m_   -r K o m_K omm_K p m_K ptm_
+ TXT   }        K q m_K o m_K oXm_K p%m_K p1m_K q m_   -r K o m_K o m_K
+ TXT            p m_K p m_K q m_   0l-kTr  -r   K o m_ &    K@n m_ &
+ TXT             -r K o m_ &     0l-kUr  -r   K o m_ -roK ovm_K p m_K p
+ TXT            m_K q m_  K o m_K orm_K p m_K p m_K q m_  K o m_K o m_K
+ TXT            p m_K pjm_K q m_   0 wkVr  -r   K o m_ -roK o m_K p m_K
+ TXT   Y        pCm_K q m_  K o m_K o m_K p m_K p m_K p m_K q m_  K o m_
+ TXT            K ovm_K p m_K p m_K q m_   -r K o m_K orm_K p m_K p m_K
+ TXT            q m_   -r K o m_K o m_K p m_K pjm_K q m_   -r K n m_K oc
+ TXT            m_K p m_K p m_K q m_   -r K n m_K ocm_K p m_K p m_K q m_
+ TXT   H           -r K o m_K ogm_K p m_K pom_K q m_   -r K o m_K omm_K
+ TXT            p m_K ptm_K q m_   -r K o m_ -roK o m_K o m_K p m_K p m_
+ TXT            K q m_   -r K o m_ -roK o m_K o[m_K p m_K p m_K q m_   -
+ TXT            r K o m_ -roK o m_K o m_K p m_K pHm_K q&m_   0l-kWr  -r
+ TXT   y          K@n m_ &     -r K o m_K ogm_K p m_K pom_K q m_   -r K
+ TXT   \        o m_K omm_K p m_K ptm_K q m_   -r K o m_K o m_K p m_K p
+ TXT            m_K q m_   -r K o m_K ovm_K p m_K p m_K q m_   -r K o m_
+ TXT   &        K orm_K p m_K p m_K q m_   -r K o m_K o m_K p m_K pjm_K
+ TXT   h        q m_  K@n m_ &     0l-kXr  -r   K@n m_ -roK o m1K*olm1K
+ TXT   {        p m1K psm1K+q m1  K@n m_ -roK o m1K o m1K p m1K p m1K q
+ TXT   8        m1  K@n m_ -roK o m1K o m1K p m1K p m1K q m1   -r K o m_
+ TXT            K ogm_K p m_K pom_K q m_K o m_K o m_K p(m_K p}m_K q m_
+ TXT             -r K-o m_K!omm_K p m_K&ptm_K<q m_   -r K o m_K o m_K p
+ TXT            m_K p m_K q m_   -r K o m_K ovm_K p m_K p m_K q m_   -r
+ TXT   Q        K<o m_K&orm_K p m_K!p m_K-q m_   -r K o m_K o m_K p m_K
+ TXT            pjm_K q m_K o m_K oFm_K p(m_K pNm_K q*m_  K@n m_ -roK o
+ TXT            m1K o m1K p m1K p m1K q m1  K o m1K oum1K p m1K pzm1K q
+ TXT            m1  K+o m1K oqm1K p m1K*p m1K q m1   0l-kYr  -r   K o>m_
+ TXT            K o0m_K p m_K p5m_K q m_  K o/m_K oUm_K p m_K pZm_K q,m_
+ TXT   0          K o m_K oPm_K p!m_K p m_K q^m_   -r K o m_K o m_K p(m_
+ TXT            K p}m_K q m_   -r K o m_K o m_K p m_K p m_K q m_   -r K/
+ TXT   -        n m_K^ocm_K*p m_K!p m_K q m_   -r K n m_K!ocm_K*p m_K^p
+ TXT   q        m_K/q m_   -r K n m_K ocm_K p m_K pHm_K q&m_   -r K o m_
+ TXT   }        K oFm_K p(m_K pNm_K q*m_   -r K o.m_K oKm_K p!m_K pm_K
+ TXT            q m_   -r K o m_K o m_K p m_K p m_K q m_   -r K o m_K o
+ TXT            m_K p m_K p m_K qbm_   0l-kZr  -r       K o m_K n m_ -ro
+ TXT            K ofm_K p m_K pmm_K q m_  K o m_K okm_K p m_K p~m_K q m_
+ TXT              K o m_K o m_K p m_K p[m_K q m_  K o m_K o m_K p m_K p
+ TXT   Y        m_K q m_  K o m_K o m_K p m_K pFm_K q+m_  K o n K o n K
+ TXT            p n>K pwn%K q n   K o n K o n K p n K pwn^K q n)  K.o n!
+ TXT            K(o n K&p n K pwn K q n&  K o n+K!o n.K*p n K^pwn K/q n
+ TXT              K o n  -ro 8K o m1K oCm1K p.m1K pKm1K q!m1  K o m1K o}
+ TXT   H        m1K p m1K p m1K q m1  K o m1K o m1K p m1K p m1K q m1   0
+ TXT            l-
+ RLD
+ END
+//GO EXEC PGM=*.LKED.SYSLMOD
+//SYSPRINT DD SYSOUT=A

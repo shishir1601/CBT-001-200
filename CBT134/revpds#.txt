@@ -1,0 +1,3091 @@
+-\INMR01      &      ORIGNODE      ORIGUID      DESTNODE      DESTUID      20090
+207140842        \INMR02          IEBCOPY        Y                         &
+     &                       GREG  REVIEW  PANELS \INMR02          INMCOPY
+  Y                  -                   \INMR03        Y                &
+   {  _    & &            "8    Vs                                     r Q&  y
+ 
+ 
+ 
+                              REVHB01   REV@PRIM               "        TRIDJK
+  REVFAQ           p              TRIDJKA   REVHBDT                ?        TRID
+JK    REVHBGN            |   ^   !    TRIDJK    REVHB00                ^
+TRIDJK    REVHB01                  "        TRIDJK                  REVHB05A  RE
+VHB02        &       ^   \    TRIDJK    REVHB03                ^        TRIDJK
+  REVHB04                ?        TRIDJK    REVHB04A                        TRID
+JK    REVHB05                ^        TRIDJK      REVHB05A               ^
+  TRIDJK                  REVHB07C  REVHB05B               ^        TRIDJK    RE
+VHB06                ?        TRIDJK    REVHB07                         TRIDJK
+  REVHB07A               ?        TRIDJK    REVHB07B                 ?        TR
+IDJK    REVHB07C               ?        TRIDJK                  REVHB10   REVHB0
+7D               ?        TRIDJK    REVHB07E                        TRIDJK    RE
+VHB07F                        TRIDJK    REVHB08                ?        TRID  JK
+    REVHB09                "   )    TRIDJK    REVHB10                         TR
+IDJK                  REVHE02   REVHB11                ^        TRIDJK    REVHB1
+2                ^        TRIDJK    REVHEDT                         TRIDJK    RE
+VHE00                  ^        TRIDJK    REVHE01                ?        TRIDJK
+    REVHE02                         TRIDJK                  REVHE05B  REVHE03
+                      TRIDJK    REVHE04                         TRIDJK    REVHE0
+4A                          TRIDJK    REVHE05                         TRIDJK
+REVHE05A                        TRIDJK    REVHE05B                        TRIDJK
+                  REVHJDT   REVHE06                         TRIDJK    REVHE07
+                 .    TRIDJKA   REVHE08                           TRIDJK    REVH
+E09                ?        TRIDJK    REVHE10                         TRIDJK
+REVHJDT                ?        TRIDJK                  REVHO00   REVHJ00
+         ?        TRIDJK    REVHJ01                           TRIDJK    REVHJ02
+               "        TRIDJK    REVHJ03                "        TRIDJK    REVH
+ODT                |        TRIDJK    REVHO00                ^        TRIDJK
+              REVHO06   REVHO01                         TRIDJK    REVHO  02
+                    TRIDJK    REVHO03                |        TRIDJK    REVHO04
+               |        TRIDJK    REVHO05                |        TRIDJK    REVH
+O06                ?        TRIDJK                  REVHP02   REVHO07
+     |          TRIDJK    REVHO08                ?        GREG      REVHPDT
+           |        TRIDJK    REVHP00                ^        TRIDJK    REVHP01
+                        TRIDJK    REVHP02                         TRIDJK
+          REVHUDT   R  EVHP03                         TRIDJK    REVHP04
+       |        TRIDJK    REVHP05                |        TRIDJK    REVHP06
+           |        TRIDJK    REVHP07                         GREG      REVHUDT
+               |        TRIDJK                    REVHU05   REVHU00
+   ^        TRIDJK    REVHU01                |        TRIDJK    REVHU02
+                TRIDJK    REVHU03                |        TRIDJK    REVHU04
+           |        TRIDJK    REVHU05                  |        TRIDJK
+                  REVHU06                |        TRIDJK    REVHU07
+   ? &      GREG      REVLOGO          p     ?        GREG      REVPANEL
+       |        GREG
+                                                            )ATTR
+                                                              ! TYPE(TEXT) COLOR
+(WHITE) HILITE(USCORE)                                        { TYPE(NT)
+                                                                @ TYPE(ET)
+                                                                # TYPE(DT)
+                                                              )BODY CMD( ) WINDO
+W(60,3)                                                       {     @The REV  IE
+W FAQ is located at:                      {                     {
+                                          {                     {     !http://ww
+w.prycroft6.com.au/REVIEW/revfaq.html+    {                     )INIT
+                                                                    &ZUP = REVFA
+Q                                                                   &ZWINTTL = '
+REVIEW FAQ'                                                         &ZCMD = ' '
+                          O                                           &CMD = ' '
+                                                                    )END
+ 
+              )ATTR DEFAULT(%+_)
+                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                  [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                    ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PA
+D(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                  )BODY EXPAND(\\)
+                  %TUTORIAL+-\-\-[REVIEW Detailed Information+-\-\-%TUTORIAL
+                  %OPTION  ===>_ZCMD
+                   +
+ 
+                       Detailed information for the[REVIEW+c  ommand processor i
+s contained              in the TSO HELP member for[REVIEW.+ This member resides
+ in the SYSHELP          concatenation.   Enter one of the following commands to
+ view the HELP           member in 3270 full screen mode.
+ 
+                             %TSO FSHELP REVIEW+
+                             %TSO HEL REVIEW+
+ 
+                          )INIT
+                          )PROC
+                         ^  )END
+                                                     0)ATTR DEFAULT(%+_)
+                                                          % TYPE(TEXT) INTENS(HI
+GH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HI
+GH) COLOR(YELLOW)                                           + TYPE(TEXT) INTENS(
+LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS
+(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS
+(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTE
+NS(HIGH) CAPS(OFF)                                            # TYPE(AB)    FORM
+AT(MIX)                                                       " TYPE(ABSL) GE(ON
+)                                                         )ABC DESC('Help') MNEM
+(1)                                                         PDC PDCTEXT('REVIEW
+TSO full-screen help')                                       ACTION RUN(TSO) PAR
+M('HEL REVIEW')                                             PDC PDCTEXT('About..
+.')                                                            ACTION RUN(TUTOR)
+ PARM('REVLOGO')                                              PDC PDCTEXT('REVIE
+W FAQ')                                                        ACTION RUN(TUTOR)
+ PARM('REVFAQ')                                                 )ABCINIT
+                                                                .ZVARS=HELP
+                                                                )BODY EXPAND(\\)
+                                                                  \ \# Help
+                                                                  %TUTORIAL+-\-\
+-[REVIEW Command Processor+-\-\-%TUTORIAL                         %OPTION  ===>_
+ZCMD                                                               +%
+    ---------------------------------------------                   %
+    |                  REVIEW                   |                   %
+    ---------------------------------------------                   +
+                                                                        [REVIEW+
+allows you to display MVS and Unix files.
+                                                                         Members
+ of partitioned   data sets, sequential data sets, VSAM data sets,         and U
+nix files can be displayed, and can be scrolled forward, backward,         left,
+ or right.
+                                                                           The f
+ollowing topics are presented in sequence, or may be selected by number:    %1+-
+ Types of data sets               %7+- Display modes (HEX/ASCII/SMF/EREP)   %2+-
+ Invoking[REVIEW+                 %8+- Global   subcommands                   %3
++- Directory display list           %9+- Browse subcommands                   %4
++- Display screen format           %10+- ISPF services (Browse/Edit/View)     %5
++- Scrolling data                  %11+- TSO commands
+%6+-[REVIEW+profile                  %12+- Ending a[REVIEW+session
+                                                                               T
+he following topics will be presented only if selected by number:
+ %13+- General[REVIEW+information      %14+- Detailed[REVIEW+information
+)INIT
+&ZHTOP = REVHB00
+)PROC
+    &ZSEL = TRANS(&ZCMD  1,REVHB01   2,REVHB02   3,REVHB03   4,REVHB04
+                         5,REVHB05   6,REVHB06   7,REVHB07   8,REVHB08
+                           9,REVHB09  10,REVHB10  11,REVHB11  12,REVHB12
+                          13,*REVHBGN 14,*REVHBDT
+                             *,'?')
+    )END
+                                )ATTR DEFAULT(%+_)
+                                    % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(
+ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                      + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP
+(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(L
+EFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(L
+EFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                    )BODY EXPAND(\\)
+                                    %TUTORIAL+-\-\-[REVIEW Types of Datasets+-\-
+\-%TUTORIAL                         %OPTION  ===>_ZCMD
+                                     +
+ 
+                                       [REVIEW+can display sequential, partiti
+oned, partitioned-extended,               VSAM, and Unix HFS (Hierarchical File
+System) files that have the               the following characteristics.
+ 
+                                                %Record Formats+- fixed, variabl
+e, or undefined                                                 - blocked or unb
+locked                                                          - standard or sp
+anned                                                             - with or with
+out printer control characters
+                                                  %Data Lengths+  - 1 to 65535 b
+ytes of data, inclusive
+                                              )INIT
+                                              )PROC
+                                              )END
+                                                                          )ATTR
+DEFAULT(%+_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
++ TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+| TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )B
+ODY EXPAND(\\)                                                                %T
+UTORIAL+-\-\-[REVIEW Directory Displays+-\-\-%TUTORIAL                        %O
+PTION  ===>_ZCMD                                                               +
+ 
+ 
+  [REVIEW+has three (3) different direct  ory displays.
+ 
+     The following can be selected by name:
+ 
+        %DATA    +- for a PDS, a data PDSE, and concatenated
+                    files of any sort of PDS and/or PDSE.
+        %OBJECT  +- for an unconcatenated program object PDSE.
+          %UNIX    +- for UNIX directories and files in
+                      hierarchical file structures.
+ 
+        )INIT
+        )PROC
+          &ZSEL = TRANS(&ZCMD  DATA,*REVHP00  OBJECT,*REVHO00  UNIX,*REVHU00
+                    s            *,'?')
+          )END
+                                    )ATTR DEFAULT(%#_)
+                                        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) S
+KIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                          $ TYPE(TEXT) INTENS(HIGH) COLOR(GREEN)
+                                          @ TYPE(TEXT) INTENS(HIGH) COLOR(RED) H
+ILITE(USCORE)                             # TYPE(TEXT) INTENS(LOW)  COLOR(TURQ)
+SKIP(ON)                                  _ TYPE(INP  UT) INTENS(HIGH) CAPS(ON)
+JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON)
+JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INPUT) INTENS(HIGH) CAPS(OFF)
+                                        )BODY EXPAND(\\)
+                                          %TUTORIAL#-\-\-[REVIEW Display Screen
+Format#-\-\-%TUTORIAL                     %OPTION  ===>_ZCMD
+                                         #
+ 
+                                               The six areas of the[REVIEW#displ
+ay screen are shown below.                     They are:%(1)#Title,%(2)#Line/Col
+umn numbers,%(3)#  Command,                     %(4)#Scroll amount,%(5)#Ruler,%(
+6)#Data fields.
+                                                      .-------------------------
+--------------------------------  -----.#               |
+                                       |        %(1)#=> | %AD.HELP(REVIEW) - 37.
+05 ------------------- Line 1 Col 1 80#| <=%(2)#%(3)#=> | %Command ==>@
+                      %Scroll ==>@CSR #| <=%(4)  #%(5)#=> |[1       10        20
+        30        40        50        60#|                |[+---+----+----+----+
+----+----+----+----+----+----+----+----+#|                |$*
+ TSO HELP FOR 'REVIEW' RELEASE 37.5   NO#| <=%(6)#        |$)F   Function -
+                                          #|                |$  The REVIEW comma
+nd allows a data set or UNIX entity to be #|                |$  a 3270 TSO termi
+nal in full screen mode.  Both disk and ta#|                |$  may be REVIEW  e
+d.  If a PDS without a member is specified t#|                |$  member selecti
+on list is displayed.  Load module members w#|                |$  residence mode
+ of ANY are shown in high intensity or green#|
+ 
+       (continued)                                      )INIT
+                                                        )PROC
+                                                          &ZCONT = REVHB04A
+                                                          )END
+ 
+    )ATTR DEFAULT(%+_)
+        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+        [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+          + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+          _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+          ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+          | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+        )BODY EXPAND(\\)
+        %TUTORIAL+-\-\-[REVIEW Display Screen Format+-\-\-%TUTORIAL
+        %OPTION  ===>_ZCMD
+         +
+ 
+             The six display screen areas shown on   the previous page are:
+ 
+               (1) -%Title+- identifies the name of the data set (and member).
+If                   ISPF statistics are present, the version/mod   level is dis
+played.
+                 (2) -%Line/Column numbers+- shows the data line and column numb
+ers                    that are being displayed.
+ 
+                   (3) -%Command+- where subcommands are entered.
+ 
+                     (4) -%Scroll amount+- where the scrolling amount is display
+ed.  You can               change the amount by overtyping the amount field.
+ 
+                     (5) -%Rul  er+- where the ruler header lines are displayed.
+ 
+                       (6) -%Data fields+- where the data is displayed.  Each fi
+eld extends to               the full width o  f the display.
+                      )INIT
+                      )PROC
+                      )END
+                                                 -)ATTR DEFAULT(%+_)
+                                                      % TYPE(TEXT) INTENS(HIGH)
+COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH)
+COLOR(YELLOW)                                           + TYPE(TEXT) INTENS(LOW)
+  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIG
+H) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIG
+H) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(H
+IGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                      %TUTORIAL+-\-\-[REVIEW Scr
+olling+-\-\-%TUTORIAL                                 %OPTION  ===>_ZCMD
+                                                       +
+ 
+                                                          [REVIEW+allows you to
+scroll up and do  wn through the data.  If the data is       too wide to fit on
+the screen, you can also scroll left and right.
+                                                             To scroll, enter on
+e of the six scroll commands (U  P, DOWN, LEFT, RIGHT,         TOP or BOTTOM).
+Minus, plus, less than, and greater than signs are aliases     for UP, DOWN, LEF
+T, and RIGHT.
+                                                                 To change the n
+umber of lines or columns being scrolled, change the             scroll amount f
+ield.
+                                                                 The following t
+opics will be presented only if selected by number:                 %1+- Scroll
+commands                                                            %2+- Scroll
+amount                                                          )INIT
+                                                                  )PROC
+                                                                    &ZSEL = TRAN
+S(&ZCMD  1,*REVHB05A  2,*REVHB05B
+         *,n '?')                                                   )END
+ 
+             -)ATTR DEFAULT(%+_)
+                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                  [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                    ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PA
+D(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                  )BODY EXPAND(\\)
+                  %TUTORIAL+-\-\-[REVIEW Scroll Commands+-\-\-%TUTORIAL
+                  %OPTION  ===>_ZCMD
+                   +
+ 
+                       Use the scroll commands (or the defau  lt PF keys) to scr
+oll:
+                          %UP    +(PF7)  - toward the top of the data
+                          %DOWN  +(PF8)  - toward the bottom of the data
+                            %LEFT  +(PF10) - toward the first column of the data
+                            %RIGHT +(PF11) - toward the last column of the data
+ 
+                             Usually, you can combine scrolling with other actio
+ns by entering a             command and then pressing a scroll PF key (instead
+of the ENTER key).           Both the action and the scroll will process.
+ 
+                               If the amount in the scroll amount field is not v
+alid when a scroll command     is entered, an error message is displayed.  Eithe
+r correct the scroll           amount, o  r take an action other than scrolling.
+ 
+                              )INIT
+                              )PROC                    n
+                                )END
+                                                          )ATTR DEFAULT(%+_)
+                                                              % TYPE(TEXT) INTEN
+S(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTEN
+S(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) INT
+ENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT)
+INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                              %TUTORIAL+-\-\-[RE
+VIEW Scroll Amount+-\-\-%TUTORIAL                             %OPTION  ===>_ZCMD
+                                                               +
+ 
+                                                                   The scroll am
+ount is displayed on the   terminal screen, following the            command fie
+ld.  You can change the scroll amount by typing over the             scroll amou
+nt with a new amount.
+                                                                       Valid scr
+oll amounts are:
+                                                                        %PAGE+to
+ scroll by one page.
+                                                                          %HALF+
+to scroll by half a page.
+                                                                            %nnn
+n+(any number from 1 to 9999) to scroll by the specified
+  number of lines or columns.
+                                                                            %CSR
++ to   scroll to the position of the cursor within the data (or by
+    a page if the cursor is outside the data or is already
+    positioned in the top, bottom, left, or right margin).
+ 
+%DATA+to scroll by a page minus one line when scrolling up or down
+      or by a page minus one column when scrolling left or right.           )INI
+T                                 Q                                           )P
+ROC                                                                           )E
+ND
+                        )ATTR DEFAULT(%+_)
+                            % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                            [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                              + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                              _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COL
+OR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COL
+OR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                            )BODY EXPAND(\\)
+                            %TUTORIAL+-\-\-[REVIEW Profile+-\-\-%TUTORIAL
+                            %OPTION  ===>_ZCMD
+                             +
+ 
+                                 The[REVIEW+profile is stored as membe  r%REVPRO
+F+in the library                   allocated to ddname ISPPROF.  The DISPLAY and
+ COLOR commands                    update the profile.  The[REVIEW+user profile
+contains the data display          colors, scrolling amount, and the 24 PF Key v
+alues   (XISPMODE).
+                                  )INIT
+                                  )PROC
+                    %               )END
+                                                              )ATTR DEFAULT(%+_)
+                                                                  % TYPE(TEXT) I
+NTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) I
+NTENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT)
+ INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT
+) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT
+) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP
+UT) INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND(\
+\)                                                                %TUTORIAL+-\-\
+-[REVIEW Display Modes+-\-\-%TUTORIAL                             %OPTION  ===>_
+ZCMD                                                               +
+ 
+                                                                       The subco
+mmands listed below are used   to control the settings of the            various
+ modes and controls for the display.
+                                                                         The fol
+lowing topics are presented in sequence, or   may be selected by name:
+                                                                            %HEX
+    +- to set HEX mode on/off and to specify a hex display.                 %ASC
+II  +- to set ASCII mode on/off and to specify an ASCII di  splay.            %S
+MF    +- to set SMF mode on/off and to specify a formatted SMF display.       %E
+REP   +- to set EREP mode on/off and to specify an formatted EREP display.    %F
+ORMAT +- to format data based on the data type in the DS or DC statement.
+                                                                            )INI
+T                                                                           )PRO
+C                                                                             &Z
+SEL = TR  ANS(&ZCMD  HEX,REVHB07A   ASCII,REVHB07B     SMF,REVHB07C
+                    EREP,REVHB07D  FORMAT,REVHB07E
+                     *,'?')                                                   )E
+ND
+                          )ATTR DEFAULT(%#_)
+                              % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                              [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                $ TYPE(TEXT) INTENS(HIGH) COLOR(GREEN)
+                                @ TYPE(TEXT) INTENS(HIGH) COLOR(RED) HILITE(USCO
+RE)                             # TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                                _ TYPE(INP  UT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ COLOR(RED) PAD(_)                | TYPE(INPUT) INTENS(HIGH) CAPS(OFF)
+                              )BODY EXPAND(++)
+                                %TUTORIAL#-+-+-[REVIEW Hex Display Screen Format
+#-+-+-%TUTORIAL                 %OPTION  ===>_ZCMD
+                               #
+ 
+                                     The six areas of the[REVIEW%Hex#display scr
+een are shown below.                 They are:%(1)#Title,%(2)#Line/Column number
+s,%(3)#  Command,                     %(4)#Scroll amount,%(5)#Ruler,%(6)#Hex dat
+a fields.
+                                            .-----------------------------------
+----------------------  -----.#               |
+                             |        %(1)#=> | %AD.HELP(REVIEW) - 37.05 -------
+------------ Line 1 Col 1 80#| <=%(2)#%(3)#=> | %Command ==>@
+            %Scroll ==>@CSR #| <=%(4)  #%(5)#=> |[ 1       5        10        15
+        20        25        30#|                |[/\------/\--------/\--------/\
+--------/\--------/\--------/\#|                |$5C40404040404040404040
+404040404040E3E2D640C8C5D3D740#| <=%(6)#        |$5D  C640C6A49583A38996
+40404040404040404040404040404040#|                |$4040E3888540D9C5E5C9C5E64083
+9694948195844081939396A6A2408140#|                |$40408140F3F2F7F040E3E2D640A3
+859994899581934089954086A4939340#|                |$40409481A840828  540D9C5E5C9
+C5E685844B4040C986408140D7C4E240A6#|                |$404094859482859940A2859385
+83A3899695409389A2A34089A2408489A2#|                |$40409985A289848595
+96848540968640C1D5E84081998540A288#|
+ 
+                                              )INIT
+                                              )PROC
+                 #                              )END
+                                                                         0)ATTR
+DEFAULT(%#_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+$ TYPE(TEXT) INTENS(HIGH) COLOR(GREEN)
+@ TYPE(TEXT) INTENS(HIGH) COLOR(RED) HILITE(USCORE)
+# TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INP  UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+  ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+  | TYPE(INPUT) INTENS(HIGH) CAPS(OFF)                                        )B
+ODY EXPAND(\\)
+%TUTORIAL#-\-\-[REVIEW ASCII Display Screen Format#-\-\-%TUTORIAL
+%OPTION  ===>_ZCMD                                                             #
+ 
+ 
+     The six areas of the[REVIEW%ASCII#display screen are shown below.
+     They are:%(1)#Title,%(2)#Line/Column numbers,%(3)#  Command,
+      %(4)#Scroll amount,%(5)#Ruler,%(6)#ASCII data fields.
+ 
+            .---------------------------------------------------------  -----.#
+              |                                                              |
+      %(1)#=> | %TRIDJK.README.TXT on WORK15 --------------- Line 1 Col 1 80#| <
+=%(2)#%(3)#=> | %Command ==>@                               %Scroll ==>@CSR #| <
+=%(4)  #%(5)#=> |[1       10        20        30        40        50        60#|
+                |[+---+----+----+----+----+----+----+----+----+----+----+----+#|
+                |$Vista TN3270 For Windows..------------------------....Vista #|
+ <=%(6)#        |$s   a program designed to emulate IBM..standard 3270 series te
+#|                |$(TCP) environment..provided by a standard WINSOCK interface.
+#|                |$ by:....    Tom Brennan..    523 N. Nora Ave...    West Covi
+#|                |$f you need supp  ort, enhancements, registration information
+,.#|                |$ress your opinion of the product, please..send a note to:.
+..#|                |$oftware.com....or visit..   ..    www.tombrennansoftware.c
+om#|
+              )INIT
+              )PROC
+              )END
+                                         0)ATTR DEFAULT(%#_)
+                                              % TYPE(TEXT) INTENS(HIGH) COLOR(WH
+ITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YE
+LLOW)                                           $ TYPE(TEXT) INTENS(HIGH) COLOR(
+GREEN)                                          @ TYPE(TEXT) INTENS(HIGH) COLOR(
+RED) HILITE(USCORE)                             # TYPE(TEXT) INTENS(LOW)  COLOR(
+TURQ) SKIP(ON)                                  _ TYPE(INP  UT) INTENS(HIGH) CAP
+S(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAP
+S(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INPUT) INTENS(HIGH) CAP
+S(OFF)                                        )BODY EXPAND(\\)
+                                                %TUTORIAL#-\-\-[REVIEW SMF Displ
+ay Screen Format#-\-\-%TUTORIAL                 %OPTION  ===>_ZCMD
+                                               #
+ 
+                                                     The six areas of the[REVIEW
+%SMF#display screen are shown below.                 They are:%(1)#Title,%(2)#Li
+ne/Column numbers,%(3)#  Command,                     %(4)#Scroll amount,%(5)#Ru
+ler,%(6)#SMF formatted data fields.
+                                                            .-------------------
+--------------------------------------  -----.#               |
+                                             |        %(1)#=> | %SYS1.MAN1 on MP
+SYSF ----------------------- Line 1 Col 1 80#| <=%(2)#%(3)#=> | %Command ==>@
+                            %Scroll ==>@CSR #| <=%(4)  #%(5)#=> |[1       10
+    20        30        40        50        60#|                |[+---+----+----
++----+----+----+----+----+----+----+----+----+#|                |$ 64 08:56:40 0
+4.022 A1VS RMFGAT   SYS1.RMFMON.DS2.DATA    B=#| <=%(6)#        |$ 6  4 08:56:40
+ 04.022 A1VS IEESYSAS SYS1.MAN2.DATA     VSAM B=#|                |$ 60 08:56:40
+ 04.022 A1VS IEESYSAS SYS1.MAN2                 #|                |$ 42 08:56:40
+ 04.022 A1VS IEESYSAS CLOSE Scroll right for mor#|                |$ 90 08:56:40
+ 04  .022 A1VS SMF      subtype   6 SWITCH SMF    #|                |$230 08:56:
+40 04.022 A1VS RDRH                               #|                |$ 30 08:56:
+40 04.022 A1VS RDRH     STC26082             RDRH #|
+                                                              )INIT
+                                                              )PROC
+                                                              )END
+ 
+         0)ATTR DEFAULT(}+_)
+              } TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+              [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                $ TYPE(TEXT) INTENS(HIGH) COLOR(GREEN)
+                @ TYPE(TEXT) INTENS(HIGH) COLOR(RED) HILITE(USCORE)
+                + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                _ TYPE(INP  UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                  ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(
+_)                | TYPE(INPUT) INTENS(HIGH) CAPS(OFF)
+              )BODY EXPAND(\\)
+                }TUTORIAL+-\-\-[REVIEW EREP Display Screen Format+-\-\-}TUTORIAL
+                }OPTION  ===>_ZCMD
+               +
+ 
+                     The six areas of the[REVIEW}EREP+display screen are shown b
+elow.                They are:}(1)+Title,}(2)+Line/Column numbers,}(3)+  Command
+,                     }(4)+Scroll amount,}(5)+Ruler,}(6)+EREP formatted data fie
+lds.
+                            .---------------------------------------------------
+------  -----.+               |
+             |        }(1)+=> | }SYS1.A1.LOGREC on WLMDW1 ------------------ Lin
+e 1 Col 1 80+| <=}(2)+}(3)+=> | }Command ==>@                               }Scr
+oll ==>@CSR +| <=}(4)  +}(5)+=> |[1       10        20        30        40
+  50        60+|                |[*DATE* TIME-OF-DAY RECTYP CPU-SERIAL# JOB-NAME
+ IDNO VOLUME/L+|                |$XTNT:0380.00-03CF.0E  LAST-REC:0380.01.03  90%
+:03C7.0E  DEVT+| <=}(6)+        |$04  .022 10:18:57.58 LOGREC 0205F1-9672 3-MINU
+TE CURRENCY RECO+|                |$04.022 00:05:46.19 MDR    0205F1-9672
+    345 LM2548  +|                |$04.022 00:18:00.97 MDR    0205F1-9672
+    343 LM6668  +|                |$04.022 00:18:01  .08 MDR    0205F1-9672
+      344 LM6530  +|                |$04.022 00:18:45.93 MDR    0205F1-9672
+      350 LM6458  +|                |$04.022 00:22:16.85 MDR    0205F1-9672
+      341 LM2268  +|
+                              )INIT
+                              )PROC
+                              )END
+                                                          )ATTR DEFAULT(%+_)
+                                                              % TYPE(TEXT) INTEN
+S(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTEN
+S(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) INT
+ENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT)
+INTENS(HIGH) CAPS(OFF)                                            # AREA(SCRL) E
+XTEND(ON)                                                     )BODY EXPAND(\\)
+                                                              %TUTORIAL+-\-\-[RE
+VIEW FORM  AT Subcommand+-\-\-%TUTORIAL                         %OPTION  ===>_ZC
+MD                                                             ++
+                                                                #SCRLAREA ------
+------------------------  -----------------------------------#    )AREA SCRLAREA
+ 
+ 
+                                                                    +  The%FORMA
+T+subcommand causes[REVIEW+to format file data on the               +  screen ac
+cording to the data structure and types specified in                +  Assembler
+ DS and/or DC statements.  The "ruler" heading line ab  ove           +  the dat
+a is used to show the names of the visible data items, and            +  where r
+oom permits the starting column number of the item is shown           +  directl
+y above the data item name.                                             +
+                                                                        +  The f
+ormat of the actual file data remains unchanged when HEX ON             +  is ac
+tive.  When HEX OFF is current, each data item is formatted             +  accor
+ding   to the data type in the DS or DC statement.  The main data         +  typ
+es are character, hexadecimal, decimal, and binary integer.               +
+                                                                          +  The
+ Assembler statemen  ts are read from the partitioned data set(s)           +  a
+llocated to the REVFMTS file.  REVFMTS must be allocated before it          +  c
+an be used by this subcommand.  The TSO subcommand may be useful in         +  h
+elping to perform this allocation   from within[REVIEW.+ The FMTVAR           +
+ subcommand can be used to override the data type of a specific data          +
+ item or variable in a dynamic fashion.                                       +
+ 
++  Note that for variable-length records, the record descriptor word
++  (RDW) is assumed to be present in the data structure source, even
++  though the contents of the RDW are not shown by[REVIEW.+
+  +
+  +  When using this subcommand (as opposed to the SMF subcommand) to
+  +  format SMF records, the following members of SYS1.MACLIB may be
+    +  useful, especially after a FINDSMF ALL subcommand has been issued:
+    +     IFASMFR  - type 0                   IAZSMF49 - type 49
+    +     IFASMFR1 - type 7                   IFASMFR5 - type 50
+    +     IFGS  MF14 - type 14 and type 15      IAZSMF45 - type 52
+      +     IGGSMF17 - type 17                  IAZSMF45 - type 53
+      +     IFASMFR2 - type 20                  IAZSMF45 - type 54
+      +     IGESMF21 - type 2  1                  IAZSMF45 - type 55
+        +     IOSDSMFR - type 22                  IAZSMF45 - type 56
+        +     IAZSMF24 - type 24                  IAZSMF45 - type 57
+        +     IAZSMF25 - type 25                    IAZSMF45 - type 58
+          +     IAZSMF26 - type 26                  IDASMF62 - type 62
+          +     IFASMFI6 - type 36                  IGGSMF63 - type 63
+          +     IFASMFR4 - type 40                  IDASMF6  4 - type 64
+            +     IAZSMF43 - type 43                  IGGSMF67 - type 67
+            +     IAZSMF45 - type 45                  IGGSMF68 - type 68
+            +     IAZSMF47 - type 47                  IGGSMF69 - type 69
+              +     IAZSMF48 - type 48                  IFASMFR9 - type 80
+              +
+              +  When[REVIEWing+a VTOC, the VTOC entries can be formatted by
+                +  'FORMAT ON' even when no REVFMTS file allocation is present.
+                +
+                +  %Syntax+-
+                +     FO  RMAT  'fmtname' / ON / OFF
+                  +
+                  +  %Alias+-
+                  +     FMT
+                    +
+                    )INIT
+                    )PROC
+                      &ZCONT = REVHB07F
+                      )END
+                                               0)ATTR DEFAULT(%#_)
+                                                    % TYPE(TEXT) INTENS(HIGH) CO
+LOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) CO
+LOR(YELLOW)                                           $ TYPE(TEXT) INTENS(HIGH)
+COLOR(GREEN)                                          @ TYPE(TEXT) INTENS(HIGH)
+COLOR(RED) HILITE(USCORE)                             # TYPE(TEXT) INTENS(LOW)
+COLOR(TURQ) SKIP(ON)                                  _ TYPE(INP  UT) INTENS(HIG
+H) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIG
+H) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INPUT) INTENS(HIG
+H) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                      %TUTORIAL#-\-\-[REVIEW VTO
+C Formatted Display Screen Format#-\-\-%TUTORIAL      %OPTION  ===>_ZCMD
+                                                     #
+ 
+                                                           The six areas of the[
+REVIEW%VTOC#formatted display screen are shown below.      They are:%(1)#Title,%
+(2)#Line/Column numbers,%(3)#  Command,                     %(4)#Scroll amount,%
+(5)#Ruler,%(6)#VTOC data fields.
+                                                                  .-------------
+--------------------------------------------  -----.#               |
+                                                   |        %(1)#=> | %FORMAT4.D
+SCB on MPIPLF -------------------- Line 1 Col 1 80#| <=%(2)#%(3)#=> | %Command =
+=>@                               %Scroll ==>@CSR #| <=%(4)  #%(5)#=> |[1
+                                     45       46    #|                |[DS1DSNAM
+                                     DS1FMTID DS1DSS#|                |$........
+.................................... F4       ......#| <=%(6)#        |$..  ....
+...................................... F5       ......#|                |$SYS1.V
+TOCIX.MPIPLF                           F1       MPIPLF#|                |$NETVIE
+W.CNMLINK                              F1       MPIPLF#|                |$SYS1.P
+ARMLIB                                   F1       MPIPLF#|                |$TCPI
+P.SEZADES                                F1       MPIPLF#|                |$TCPI
+P.SEZAXLD1                               F1       MPIPLF#|
+                                                                    )INIT
+                                                                    )PROC
+                                                                    )END
+ 
+                )ATTR DEFAULT(%+_)
+                    % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                    [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                      + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                      _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                      ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                        ! AREA(SCRL) EXTEND(ON)
+                    )BODY EXPAND(\\)
+                    %TUTORIAL+-\-\-[REVIEW Glob  al Subcommands+-\-\-%TUTORIAL
+                      %OPTION  ===>_ZCMD
+                     ++
+                      !SCRLAREA ------------------------------  ----------------
+-------------------!    )AREA SCRLAREA
+                        +
+                        +  These subcommands are available in all display mod  e
+s of[REVIEW:+             +
+                          %  HELP    +- Request HELP about[REVIEW+and/or its sub
+commands.                 %  KEYS    +- Display current Program Function Key val
+ues.                        %  ?       +- Display the release of[REVIEW+that is
+in use.                     %  TSO     +- Issue a TSO command.
+                            %  RECALL  +- Recall previously typed-in commands fo
+r optional                    +             editing and reissuing.
+                              %  RETRIEVE+- Same as 'RECALL'.
+                              %  SWAP    +- List or transfer control between par
+allel sessions.               %  UP      +  - Scroll backwards a specified numbe
+r of lines or records.          +             If no operand is specified, the 's
+croll' value is used.           +             This is displayed in the upper rig
+ht corner.                      +             Note that s  crolling up to a prev
+ious volume or data               +             set cannot be performed.
+                                  %  DOWN    +- Scroll forwards a specified numb
+er of lines or records.           +             If no operand is specifi  ed, th
+e 'scroll' value is used.           +             This is displayed in the upper
+ right corner.                      %  TOP     +- Scroll up to the first line or
+ record (on this volume).           %  BOTTOM  +- Scroll down to the last line o
+r recor  d.                           %  BOT     +- Same as 'BOTTOM'.
+                                      %  END     +- END the command.
+                                      %  CANCEL  +- Same as 'END' but user profi
+le changes are not sav  ed.             %  CAN     +- Same as 'CANCEL'.
+                                        %  EXIT    +- Terminate the whole[REVIEW
++session.                               %  RETURN  +- Same as 'EXIT'.
+                                          +
+                                          )INIT
+                                          )PROC
+                                          )END
+                                                                      )ATTR DEFA
+ULT(%+_)                                                                  % TYPE
+(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE
+(TEXT) INTENS(HIGH) COLOR(YELLOW)                                           + TY
+PE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TY
+PE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TY
+PE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TY
+PE(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY
+EXPAND(\\)                                                                %TUTOR
+IAL+-\-\-[REVIEW ISPF Services+-\-\-%TUTORIAL                             %OPTIO
+N  ===>_ZCMD                                                               +
+ 
+                                                                               T
+he%EDIT, BROWSE,+and%VIEW+subcommand  s request ISPF services for the
+ data set or member currently being[REVIEWed.+ These subcommands are only
+ valid when the current data set is an MVS DASD data set.  The ISPF
+ request will only succeed in an ISPF environment.
+ 
+)INIT
+)PROC                                                             %
+  )END
+                           })ATTR DEFAULT(%+_)
+                                % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                                [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                  + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                )BODY EXPAND(\\)
+                                %TUTORIAL+-\-\-[REVIEW TSO Commands+-\-\-%TUTORI
+AL                              %OPTION  ===>_ZCMD
+                                 +
+ 
+                                     The%SUBMIT+subcommand will submit the   dat
+a set or member currently              being[REVIEWed.+ TSO SUBMIT is invoked.
+The data set must be                   sequential or partitioned, and have fixed
+ length 80-byte records.
+ 
+                                         The%TSO+subcommand specifies a TSO comm
+and processor to be invoked              from the[REVIEW+processor.  Commands ge
+nerating an implicit EXE  C such           as SYSPROC member names and commands
+immediately prefixed by a percent          sign are supported.
+ 
+                                          )INIT
+                                          )PROC
+                                          )END
+                                                                    )ATTR DEFAUL
+T(%+_)                                                                  % TYPE(T
+EXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(T
+EXT) INTENS(HIGH) COLOR(YELLOW)                                           + TYPE
+(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE
+(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE
+(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE
+(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY EX
+PAND(\\)                                                                %TUTORIA
+L+-\-\-[REVIEW Termination+-\-\-%TUTORIAL                               %OPTION
+ ===>_ZCMD                                                               +
+ 
+                                                                             The
+%END+subcommand terminates the[REV  IEW+command, or, if in member              s
+election mode, returns to the member selection list.  The member               s
+election list may be bypassed with the EXIT subcommand.
+ 
+ The%EXIT+subcommand terminates the[REVIEW+command, bypassing the
+ member selection list.
+ 
+   The%CANCEL+subcommand performs the same processing as the END subcommand
+   without saving the[REVIEW+user profile to disk.  The[REVIEW+user
+   profile (which contains data display colors, scrolling amount and 24 PF
+     Key values) is normally only rewritten to disk at the END of a[REVIEW+
+     session if it has been changed during that session.  If a member list has
+     not been displayed in a session then the[REVIEW+session is terminated
+     without s  aving the user profile.  If a member list has been shown it is
+       reshown but the user profile is no longer considered to have been
+       altered, even though the profile "in-core" still has the changes applied
+       to it.  Changing the p  rofile at this stage and exiting will cause all
+         accumulated profile changes for the[REVIEW+session to be saved to disk
+         unless another CANCEL is issued.
+      )INIT                                 Q
+        )PROC
+        )END
+                                  )ATTR DEFAULT(%+_)
+                                      % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKI
+P(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                        + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SK
+IP(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST
+(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST
+(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                      )BODY EXPAND(\\)
+                                      %TUTORIAL+-\-\-[REVEDIT Detailed Informati
+on+-\-\-%TUTORIAL                     %OPTION  ===>_ZCMD
+                                       +
+ 
+                                           Detailed information for the[REVEDIT+
+  option of[REVIEW+is contained              in the TSO HELP member[REVEDIT.+ Th
+is member resides in the SYSHELP             concatenation.   Enter one of the f
+ollowing commands to view the HELP           member in 3270 full screen mode.
+ 
+                                                 %TSO FSHELP REVEDIT+
+                                                 %TSO HEL REVEDIT+
+ 
+                                              )INIT
+                                              )PROC
+                                             ^  )END
+                                                                         0)ATTR
+DEFAULT(%+_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
++ TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+| TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+  # TYPE(AB)    FORMAT(MIX)
+  " TYPE(ABSL) GE(ON)                                                         )A
+BC DESC('Help') MNEM(1)
+PDC PDCTEXT('REVEDIT TSO full-screen help')
+ ACTION RUN(TSO) PARM('HEL REVEDIT')
+PDC PDCTEXT('About...')
+   ACTION RUN(TUTOR) PARM('REVLOGO')
+  PDC PDCTEXT('REVIEW FAQ')
+   ACTION RUN(TUTOR) PARM('REVFAQ')
+    )ABCINIT
+    .ZVARS=HELP
+    )BODY EXPAND(\\)
+      \ \# Help
+      %TUTORIAL+-\-\-[REVEDIT Component of REVIEW+-\-\-%TUTORIAL
+      %OPTION  ===>_ZCMD
+       +%               ---------------------------------------------
+        %               |                  REVEDIT                  |
+        %               ---------------------------------------------
+        +
+             The[REVEDIT+component of[REVIEW+allows you to create and change
+             MVS files.
+ 
+               Members of partitioned data sets and sequential data sets can be
+               edited, and can be scrolled forward, backward, left, or right.
+ 
+               The following topics are presented in sequence, or may be selecte
+d by number:    %1+- Types of data sets               %6+- Global subcommands
+                %2+- Invoking[REVEDIT+                %7+- Edit p  rimary subcom
+mands             %3+- Directory display list           %8+- Edit line subcomman
+ds                %4+- Display screen format            %9+- TSO commands
+                  %5+- Scrolling data                  %10+- Ending a[REVEDIT+se
+  ssion
+ 
+                   The following topics will be presented only if selected by nu
+mber:                %11+- Detailed[REVEDIT+information
+                    )INIT
+                    &ZHTOP = REVHE00
+                    )PROC
+                        &ZSEL = TRANS(&ZCMD  1,REVHE01   2,REVHE02   3,REVHE03
+ 4,REVHE04                                   5,REVHE05   6,REVHE06   7,REVHE07
+ 8,REVHE08                                     9,REVHE09  10,REVHE10
+                                              11,*REVHEDT
+                                                 *,'?')
+                        )END
+                                                   })ATTR DEFAULT(%+_)
+                                                        % TYPE(TEXT) INTENS(HIGH
+) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH
+) COLOR(YELLOW)                                           + TYPE(TEXT) INTENS(LO
+W)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(H
+IGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(H
+IGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS
+(HIGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                        %TUTORIAL+-\-\-[REVEDIT
+Types of Datasets+-\-\-%TUTORIAL                        %OPTION  ===>_ZCMD
+                                                         +
+ 
+                                                           [REVEDIT+can edit seq
+uential, partition  ed, and partitioned-extended              files that have th
+e following characteristics.
+ 
+                                                                    %Record Form
+ats+- fixed or variable
+    - blocked or unblocked
+    - with or without printer control characters
+                                                                      %Data Leng
+ths+  - 1 to 32760 bytes of data, inclusive
+                                                                  )INIT
+                                                                  )PROC
+                                                                  )END
+ 
+            )ATTR DEFAULT(%+_)
+                % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                  + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                  ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(
+_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                )BODY EXPAND(\\)
+                %TUTORIAL+-\-\-[REVEDIT Invocation+-\-\-%TUTORIAL
+                %OPTION  ===>_ZCMD
+                 +
+ 
+                   [REVEDIT+is a fullscreen editor and a c  omponent of[REVIEW.+
+                     [REVEDIT+is not a TSO command, but the[REVEDIT+HELP member
+will be               accessed when HELP is requested in a non-ISPF environment.
+ 
+                       [REVEDIT+allows the editing of MVS data sets residing on
+direct                  access storage devices (DASD) which may contain records
+which have              a fixed-length or variable-length format.  Currently onl
+y non-VS  AM              is supported.
+ 
+                          Under MVS/ESA and later (including OS/390 and z/OS) da
+ta being                    edited is held in a data space which can grow with t
+he data up to               two (2) gigabytes in size subject to installation li
+mits implemented            either by design (eg. system exits) or circumstance
+(eg. insufficient           auxiliary   storage to allow processing to continue)
+.
+                               Syntax -
+                                    %UPDATE+
+                                   or, if not in an ISPF environment
+                                      %EDIT+
+                              )INIT                                 Q
+                                )PROC
+                                )END
+                                                          )ATTR DEFAULT(%+_)
+                                                              % TYPE(TEXT) INTEN
+S(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTEN
+S(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) INT
+ENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT)
+INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                              %TUTORIAL+-\-\-[RE
+VIEW Directory Display Information+-\-\-%TUTORIAL             %OPTION  ===>_ZCMD
+                                                               ++
+                                                                %
+---------------------------------------------                   %
+|               PDS/PDSE                      |                   %
+  |       Directory Display Information       |                   %
+  ---------------------------------------------                   +
+                                                                       The follo
+wing topics are presented in sequence or may be requested              by number
+:                                                                        %1+- Ac
+cessing and updating members                                               %2+-
+Reading or writing member contents to or from a file                       %3+-[
+REVIEW+directory display control                                           %4+-
+Sorting directory entries                                                    %5+
+- Searching members                                                          %6+
+-[REVIEW+session control                                                     %7+
+-[REVIEW+member selection action codes
+                                                                             The
+ following topics will be presented only if selected by number:                %
+8+- General[REVIEW+information                                            )INIT
+                                                                            )PRO
+C                                                                             &Z
+SEL = TRANS(&ZCMD  1,REVHP01   2,REVHP02   3,REVHP03   4,REVHP04
+                   5,REVHP05   6,RQ EVHP06   7,REVHP07   8,*REVHBGN
+                     *,'?')                                                   )E
+ND
+                        )ATTR DEFAULT(%#_)
+                            % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                            [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                              $ TYPE(TEXT) INTENS(HIGH) COLOR(GREEN)
+                              [ TYPE(TEXT) INTENS(HIGH) COLOR(RED)
+                              ] TYPE(TEXT) INTENS(HIGH) COLOR(BLUE)
+                              @ TYPE(TEX  T) INTENS(HIGH) COLOR(RED) HILITE(USCO
+RE)                             # TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                                _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) C
+OLOR(RED)                       ^ TYPE(INPUT) INTENS(HI  GH) CAPS(ON) JUST(LEFT)
+ COLOR(RED) PAD(_)                | TYPE(INPUT) INTENS(HIGH) CAPS(OFF)
+                              )BODY EXPAND(\\)
+                              %TUTORIAL#-\-\-[REVEDIT Display Screen F  ormat#-\
+-\-%TUTORIAL                    %OPTION  ===>_ZCMD
+                               #
+ 
+                                     The six areas of the[REVEDIT#display screen
+ are shown below.                    They are:%(1)#Title,%(2)#Line/Column number
+s,%(3)#Command,                     %(4)#Scroll amount,%(5)#Line command fields,
+%(6)#Data fields.
+                                            .-----------------------------------
+---------------------------.#               |
+                           |          % (1)#=>|%REVEDIT  AD.HELP(REVEDIT) - 01.0
+1        Columns 00001 00072#| <=%(2)#% (3)#=>|%Command ===>@
+           %Scroll ==>@CSR  #| <=%(4)#        |[******]*************************
+**** Top of Data ***********#|                |$00  0001 *                    TS
+O HELP FOR 'REVEDIT' RELEASE 3#|                |$000002 )F Function -
+                              #|                |$000003   REVEDIT is a componen
+t of REVIEW which is a fullscr#|        % (5)#=>|$000004   REVEDI  T is not a TS
+O command, but this HELP member #| <=%(6)#        |$000005   when HELP is reques
+ted in a non-ISPF environment.  #|                |$000006
+                                #|                |$000007   REVEDIT allows the
+  editing of MVS data sets residin#|                |$000008   access storage de
+vices (DASD) which may contain rec#|
+                                                                           (cont
+inued)                                        )INIT
+                                              )PROC
+                                              &ZCONT = REVHE04A
+                              >                 )END
+                                                                          )ATTR
+DEFAULT(%+_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
++ TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+| TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )B
+ODY EXPAND(\\)                                                                %T
+UTORIAL+-\-\-[REVEDIT Display Screen Format+-\-\-%TUTORIAL                    %O
+PTION  ===>_ZCMD                                                               +
+ 
+ 
+   The six display screen areas shown on   the previous page are:
+ 
+     (1) -%Title+- identifies the name of the data set (and member).  If
+           ISPF statistics are present, the version/mod   level is displayed.
+ 
+       (2) -%Line/Column numbers+- shows the data line and column numbers
+             that are being displayed.
+ 
+         (3) -%Command+- where subcommands are entered.
+ 
+           (4) -%Scroll amount+- where the scrolling amount is displayed.  You c
+an               change the amount by overtyping the amount field.
+ 
+           (5) -%Lin  e command fields+- where line commands are entered.
+ 
+             (6) -%Data fields+- where the data is displayed.  Each field extend
+s to               the full width o  f the display.
+            )INIT
+            )PROC
+            )END
+                                       -)ATTR DEFAULT(%+_)
+                                            % TYPE(TEXT) INTENS(HIGH) COLOR(WHIT
+E) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELL
+OW)                                           + TYPE(TEXT) INTENS(LOW)  COLOR(TU
+RQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON
+) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON
+) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(
+OFF)                                        )BODY EXPAND(\\)
+                                            %TUTORIAL+-\-\-[REVEDIT Scrolling+-\
+-\-%TUTORIAL                                %OPTION  ===>_ZCMD
+                                             +
+ 
+                                                [REVEDIT+allows you to scroll up
+ and d  own through the data. If the data is       too wide to fit on the screen
+, you can also scroll left and right.
+                                                   To scroll, enter one of the s
+ix scroll commands (U  P, DOWN, LEFT, RIGHT,         TOP or BOTTOM).  Minus, plu
+s, less than, and greater than signs are aliases     for UP, DOWN, LEFT, and RIG
+HT.
+                                                       To change the number of l
+ines or columns being scrolled, change the             scroll amount field.
+ 
+                                                       The following topics will
+ be presented only if selected by number:                 %1+- Scroll commands
+                                                          %2+- Scroll amount
+                                                      )INIT
+                                                        )PROC
+                                                          &ZSEL = TRANS(&ZCMD  1
+,*REVHE05A  2,*REVHE05B                                                        *
+,n '?')                                                   )END
+ 
+   -)ATTR DEFAULT(%+_)
+        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+        [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+          + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+          _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+          ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+          | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+        )BODY EXPAND(\\)
+        %TUTORIAL+-\-\-[REVEDIT Scroll Commands+-\-\-%TUTORIAL
+        %OPTION  ===>_ZCMD
+         +
+ 
+             Use the scroll commands (or the defau  lt PF keys) to scroll:
+ 
+                %UP    +(PF7)  - toward the top of the data
+                %DOWN  +(PF8)  - toward the bottom of the data
+                  %LEFT  +(PF10) - toward the first column of the data
+                  %RIGHT +(PF11) - toward the last column of the data
+ 
+                   Usually, you can combine scrolling with other actions by ente
+ring a             command and then pressing a scroll PF key (instead of the ENT
+ER key).           Both the action and the scroll will process.
+ 
+                     If the amount in the scroll amount field is not valid when
+a scroll command     is entered, an error message is displayed.  Either correct
+the scroll           amount, o  r take an action other than scrolling.
+ 
+                    )INIT
+                    )PROC                    n
+                      )END
+                                                )ATTR DEFAULT(%+_)
+                                                    % TYPE(TEXT) INTENS(HIGH) CO
+LOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) CO
+LOR(YELLOW)                                           + TYPE(TEXT) INTENS(LOW)
+COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIGH)
+ CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH)
+ CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIG
+H) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                    %TUTORIAL+-\-\-[REVEDIT Scro
+ll Amount+-\-\-%TUTORIAL                            %OPTION  ===>_ZCMD
+                                                     +
+ 
+                                                         The scroll amount is di
+splayed on the   terminal screen, following the            command field.  You c
+an change the scroll amount by typing over the             scroll amount with a
+new amount.
+                                                             Valid scroll amount
+s are:
+                                                              %PAGE+to scroll by
+ one page.
+                                                                %HALF+to scroll
+by half a page.
+                                                                  %nnnn+(any num
+ber from 1 to 9999) to scroll by the specified                          number o
+f lines or columns.
+                                                                  %CSR+ to   scr
+oll to the position of the cursor within the data (or by                  a page
+ if the cursor is outside the data or is already                          positi
+oned in the top, bottom, left, or right margin).
+                                                                      %DATA+to s
+croll by a page minus one line when scrolling up or down                    or b
+y a page minus one column when scrolling left or right.           )INIT
+                        Q                                           )PROC
+                                                                    )END
+ 
+              )ATTR DEFAULT(%+_)
+                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                  [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                    ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PA
+D(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                      ! AREA(SCRL) EXTEND(ON)
+                  )BODY EXPAND(\\)
+                  %TUTORIAL+-\-\-[REVIEW Glob  al Subcommands+-\-\-%TUTORIAL
+                    %OPTION  ===>_ZCMD
+                   ++
+                    !SCRLAREA ------------------------------  ------------------
+-----------------!    )AREA SCRLAREA
+                      +
+                      +  These subcommands are available in all display mod  es
+of[REVIEW:+             +
+                        %  HELP    +- Request HELP about[REVEDIT.+
+                        %  KEYS    +- Display current Program Function Key value
+s.                        %  ?       +- Display the release of[REVIEW+that is in
+ use.                     %  TSO     +- Issue a TSO command.
+                          %  RECALL  +- Recall previously typed-in commands for
+optional                    +             editing and reissuing.
+                            %  RETRIEVE+- Same as 'RECALL'.
+                            %  SWAP    +- List or transfer control between paral
+lel sessions.               %  UP      +  - Scroll backwards a specified number
+of lines or records.          +             If no operand is specified, the 'scr
+oll' value is used.           +             This is displayed in the upper right
+ corner.                      +             Note that s  crolling up to a previo
+us volume or data               +             set cannot be performed.
+                                %  DOWN    +- Scroll forwards a specified number
+ of lines or records.           +             If no operand is specifi  ed, the
+'scroll' value is used.           +             This is displayed in the upper r
+ight corner.                      %  TOP     +- Scroll up to the first line or r
+ecord (on this volume).           %  BOTTOM  +- Scroll down to the last line or
+recor  d.                           %  BOT     +- Same as 'BOTTOM'.
+                                    %  END     +- END the command.
+                                    %  CANCEL  +- Same as 'END' but user profile
+ changes are not sav  ed.             %  CAN     +- Same as 'CANCEL'.
+                                      %  EXIT    +- Terminate the whole[REVIEW+s
+ession.                               %  RETURN  +- Same as 'EXIT'.
+                                        +
+                                        )INIT
+                                        )PROC
+                                        )END
+                                                                   })ATTR DEFAUL
+T(%+_)                                                                  % TYPE(T
+EXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(T
+EXT) INTENS(HIGH) COLOR(YELLOW)                                           + TYPE
+(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE
+(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE
+(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE
+(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY EX
+PAND(\\)                                                                %TUTORIA
+L+-\-\-[REVIEW TSO Commands+-\-\-%TUTORIAL                              %OPTION
+ ===>_ZCMD                                                               +
+ 
+                                                                             The
+%SUBMIT+subcommand will submit the   data set or member currently              b
+eing edited.  TSO SUBMIT is invoked.  The data set must be                     s
+equential or partitioned, and have fixed length 80-byte records.
+ 
+ 
+ The%TSO+subcommand specifies a TSO command processor to be invoked
+ from the[REVIEW+processor.  Commands generating an implicit EXE  C such
+   as SYSPROC member names and commands immediately prefixed by a percent
+   sign are supported.
+ 
+  )INIT
+  )PROC
+  )END
+                            )ATTR DEFAULT(%+_)
+                                % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                                [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                  + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                )BODY EXPAND(\\)
+                                %TUTORIAL+-\-\-[REVEDIT Termination+-\-\-%TUTORI
+AL                              %OPTION  ===>_ZCMD
+                                 +
+ 
+                                     The%END+subcommand instructs[REVEDIT+  to t
+erminate after saving                  any changed data.  If the data cannot be
+saved then[REVEDIT+will                not terminate.
+ 
+                                         The%EXIT+subcommand performs the same p
+rocessing as END, except                 that if[REVEDIT+was invoked from a memb
+er selection list then the               member selection list will not be displ
+ayed but instead the ent  ire             [REVIEW+session will end.
+ 
+                                           The%CANCEL+subcommand instructs[REVED
+IT+to discard all data                       being edited and terminate.
+ 
+                                          )INIT
+                                          )PROC       s
+                                            )END
+                                                                      )ATTR DEFA
+ULT(%+_)                                                                  % TYPE
+(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE
+(TEXT) INTENS(HIGH) COLOR(YELLOW)                                           + TY
+PE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TY
+PE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TY
+PE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TY
+PE(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY
+EXPAND(\\)                                                                %TUTOR
+IAL+-\-\-[REVIEW Directory Display Information+-\-\-%TUTORIAL             %OPTIO
+N  ===>_ZCMD                                                               +
+ 
+                                                                               D
+etailed information for the PDSE pro  gram object directory display is
+ contained in the TSO HELP member[REVPDSE.+ This member resides in
+ the SYSHELP concatenation.   Enter one of the following commands to
+ view the HELP member in 3270 full screen mode.
+ 
+     %TSO FSHELP REVPDSE+
+     %TSO HEL REVPDSE+
+ 
+  )INIT
+  )PROC
+ ^  )END
+                              )ATTR DEFAULT(%+_)
+                                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON
+)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(O
+N)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                      # TYPE(AB)    FORMAT(MIX)
+                                      " TYPE(ABSL) GE(ON)
+                                  )ABC DESC('Help') MNEM(1)
+                                    PDC PDCTEXT('REVPDSE TSO full-screen help')
+                                     ACTION RUN(TSO) PARM('HEL REVPDSE')
+                                    PDC PDCTEXT('About...')
+                                       ACTION RUN(TUTOR) PARM('REVLOGO')
+                                      PDC PDCTEXT('REVIEW FAQ')
+                                       ACTION RUN(TUTOR) PARM('REVFAQ')
+                                        )ABCINIT
+                                        .ZVARS=HELP
+                                        )BODY EXPAND(\\)
+                                          \ \# Help
+                                          %TUTORIAL+-\-\-[REVIEW Directory Displ
+ay Information+-\-\-%TUTORIAL             %OPTION  ===>_ZCMD
+                                           ++
+                                            %               --------------------
+-------------------------                   %               |          PDSE Prog
+ram Object              |                   %                 |       Directory
+Display Information       |                   %               ------------------
+---------------------------                   +
+                                                 The following topics a  re pres
+ented in sequence or may be requested              by number:
+                                                     %1+- Accessing members
+                                                     %2+-[REVIEW+directory displ
+ay con  trol                                           %3+- Sorting directory en
+tries                                                  %4+- Searching members
+                                                       %5+-[REVIEW+session contr
+ol                                                       %6+- Program object att
+ributes - Part 1                                         %7+- Program object att
+ributes - Part 2                                         %8+-[REVIEW+member sele
+ction action codes
+                                                         The following topics wi
+ll be presented only if selected by number:                %9+- Detailed PDSE pr
+ogram object directory display information              )INIT
+                                                        )PROC
+                                                          &ZSEL = TRANS(&ZCMD  1
+,REVHO01   2,REVHO02   3,REVHO03   4,REVHO04                      4
+ 5,REVHO05   6,REVHO06   7,REVHO07   8,REVHO08
+ 9,*REVHODT  *,'?')                                       )END
+ 
+   -)ATTR DEFAULT(%+_)
+        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+        [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+          + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+          _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+          ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+          | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+        )BODY EXPAND(\\)
+        %TUTORIAL+-\-\-[REVIEW Accessing Members+-\-\-%TUTORIAL
+        %OPTION  ===>_ZCMD
+         +
+ 
+           Subcmd   Aliases  Function
+ 
+            %SELECT   S  SEL  +Choose a member for[REVIEW+and review it.
+                               eg.%s aProgram+starts a[REVIEW+Bro  wse of member
+%aProgram.+                      eg.%s POSTING+ starts a[REVIEW+Browse of member
+%POSTING.+
+              %BROWSE   B       +Choose a member for ISPF Browse and browse it.
+                                   An ISPF environment is required for this subc
+ommand.                            eg.%bRoWsE mIxIt+starts an ISPF Browse of mem
+ber%mIxIt.+
+ 
+                                     Note that the operand specifying the member
+ name                                is not automatically folded to upper case,
+and                                    has a maximum length of eight (8) charact
+ers.
+                    )INIT
+                    )PROC                    n
+                      )END
+                                                )ATTR DEFAULT(%+_)
+                                                    % TYPE(TEXT) INTENS(HIGH) CO
+LOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) CO
+LOR(YELLOW)                                           + TYPE(TEXT) INTENS(LOW)
+COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIGH)
+ CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH)
+ CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIG
+H) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                    %TUTORIAL+-\-\-[REVIEW Contr
+olling the Display+-\-\-%TUTORIAL                   %OPTION  ===>_ZCMD
+                                                     +
+ 
+                                                       Subcmd   Aliases  Functio
+n
+                                                        %DOWN             +Scrol
+l down towards the bottom of the list.                  %UP               +Scrol
+l up towards the top of the l  ist.                       %BOTTOM           +Sam
+e as%DOWN MAX.+                                           %TOP              +Sam
+e as%UP MAX.+
+                                                            %LOCATE LOC LIST L+S
+croll the display to position the first entry name                             (
+or ID name if SORT ID is in effect) starting with                              t
+he string matching the subcommand operand.
+                                                              %IFIND    RFIND
++Scroll the display to position the next (or first)
+ tagged entry at the top of the display.
+                                                                %TAGFLIP  TF
+  +Untag all tagged entries and tag all untagged entries.
+                                                                %RESET    RES
+  +Untag   all entries.
+                                                                  %REFRESH  REF
+    +Refresh the entry list from DASD.  Tags are discarded.       )INIT
+                        Q                                           )PROC
+                                                                    )END
+ 
+             &)ATTR DEFAULT(%+_)
+                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                  [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                    ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PA
+D(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                  )BODY EXPAND(\\)
+                  %TUTORIAL+-\-\-[REVIEW Sorting the Entries+-\-\-%TUTORIAL
+                  %OPTION  ===>_ZCMD
+                   +
+ 
+                     Subcommand        Function
+ 
+                      %SORT NAME        +Sort the list into ascending name order
+.
+                        %SORT CHA         +Sort the list into descending change
+timestamp order.        %SORT DATE        +Sort the list into descending change
+timestamp order.
+                          %SORT SIZE        +Sort the list into descending size
+order.
+                          %SORT TTR         +Sort the list into ascending MLT or
+ TTR order.  This is                           the order that the members were s
+aved into the PDSE.
+                            %SORT ID          +Sort the list into ascending user
+/job order.                 %SORT JOB           +Sort the list into ascending us
+er/job order.                 %SORT USER        +Sort the list into ascending us
+er/job order.
+                              %SORT SSI         +Sort t  he list into ascending
+SSI order.                      %SORT VER         +Sort the list into ascending
+SSI order.                      )INIT
+                                )PROC                                 h
+                                  )END
+                                                            )ATTR DEFAULT(%+_)
+                                                                % TYPE(TEXT) INT
+ENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INT
+ENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) I
+NTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT)
+INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT)
+INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT
+) INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                                %TUTORIAL+-\-\-[
+REVIEW Searching Members+-\-\-%TUTORIAL                         %OPTION  ===>_ZC
+MD                                                               +
+ 
+                                                                   Subcmd   Alia
+ses  Function
+                                                                    %SEARCH   FI
+ND  F +Causes the presentation of a data entry panel where the
+       search parameters are to be entere  d.
+ 
+         If any members are tagged only tagged members are searched.
+ 
+           After the search, members with matching data will be
+           tagged, and will be the only members tagged.                 )INIT
+                                                                          )PROC
+                                                                          )END
+ 
+                    )ATTR DEFAULT(%+_)
+                        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                        [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                          + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                          _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(R
+ED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(R
+ED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                        )BODY EXPAND(\\)
+                        %TUTORIAL+-\-\-[REVIEW Session Control+-\-\-%TUTORIAL
+                        %OPTION  ===>_ZCMD
+                         +
+ 
+                           Subcmd   Aliases  Function
+ 
+                            %EXIT     END  =X +Terminate the[REVIEW+session.
+                            %CANCEL   CAN     +Terminate the[REVIEW+session with
+o  ut updating your profile.
+                              %SWAP LIST        +Display a list of parallel[REVI
+EW+sessions.                  %SWAP             +Swap to the second most recent[
+REVIEW+session.                 %SWAP #           +Swap to the[REVIEW+session nu
+mber%#+where%#+is a                                decimal number which can be o
+btained from%SWAP LIST.+
+                                  %TSO      TSS     +Invoke the Command Processo
+r named by the operand.                              If the named command is[REV
+IEW+a parallel session                               is started.
+ 
+                                    )INIT
+                                    )PROC
+                                    )END
+                                                                )ATTR DEFAULT(%+
+_)                                                                  % TYPE(TEXT)
+ INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT)
+ INTENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEX
+T) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP
+  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND
+(\\)                                                                %TUTORIAL+-\
+-\-[REVIEW Program Object Attributes (1)+-\-\-%TUTORIAL             %OPTION  ===
+>_ZCMD                                                               +
+ 
+                                                                            %AMd
++- Addressing mode of program.
+                                                                        %A24+- 2
+4-bit addressing mode.                                                  %A31+- 3
+1-bit addressing mode.                                                    %ANY+-
+ either addressing mode.                                                  %OV +-
+ Segment Overlay program which must have 24-bit addressing mode.
+ 
+  %At+ - Additional program attribute - display precedence order as listed.
+                                                                            %NX
++- Program is Not eXecutable.  It cannot be fetched into storage.             %N
+E +- Program is Not Editable.  It cannot be reprocessed by the Binder.        %S
+C +- Program is in Scatter format - unlikely for a program object.            %O
+L +- Program is Only Loadable.  It can only be fetched by a LOAD macro.       %P
+G +- Progr  am requires Page alignment.  It is loaded on a 4K page boundary.
+%TS +- Program object contains Test Symbol information to assist debugging.
+%NM +- Program is Not Migratable.  It cannot be converted to a load module.
+ 
+  )INIT
+  )PROC
+  )END
+                              )ATTR DEFAULT(%+_)
+                                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON
+)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(O
+N)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                  )BODY EXPAND(\\)
+                                  %TUTORIAL+-\-\-[REVIEW Program Object Attribut
+es (2)+-\-\-%TUTORIAL             %OPTION  ===>_ZCMD
+                                   +
+ 
+                                          %RU+ - Program reusability level.
+ 
+                                      %RU+ - Program is serially reusable.
+                                      %RN+ - Program is serially reusable, and r
+eenterable.                             %RF+ - Program is serially reusable, ree
+nterable, and refreshable.
+ 
+                                                %V+  - Program Management Versio
+n of the program object.
+                                          %d + - Program object is DLL-enabled.
+ 
+ 
+                                             The names of aliases which can be h
+idden are shown in parentheses.
+                                              %*+after the real name indicates t
+hat the 8-byte real or primary name was        generated by the Binder, and that
+ the long alias name is the alternative        primary name, that is, t  he prim
+ary name specified on the bind.
+ 
+                                                )INIT
+      Q                                           )PROC
+                                                  )END
+                                                                            )ATT
+R DEFAULT(%+_)
+% TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+[ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+  + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+  ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+  | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+)BODY EXPAND(\\)
+%TUTORIAL+-\-\-[REVIEW Directory Display Information+-\-\-%TUTORIAL
+%OPTION  ===>_ZCMD
+ +
+ 
+     Detailed information for the PDS/PDSE   directory display is contained
+       in the TSO HELP member[REVPDS.+ This member resides in the SYSHELP
+       concatenation.   Enter one of the following commands to view the HELP
+       member in 3270 full screen mode.
+ 
+           %TSO FSHELP REVPDS+
+           %TSO HEL REVPDS+
+ 
+        )INIT
+        )PROC
+       ^  )END
+                                   -)ATTR DEFAULT(%+_)
+                                        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) S
+KIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                          + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ)
+SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JU
+ST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JU
+ST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                            # TYPE(AB)    FORMAT(MIX)
+                                            " TYPE(ABSL) GE(ON)
+                                        )ABC DESC('Help') MNEM(1)
+                                          PDC PDCTEXT('REVPDS TSO full-screen he
+lp')                                       ACTION RUN(TSO) PARM('HEL REVPDS')
+                                          PDC PDCTEXT('About...')
+                                             ACTION RUN(TUTOR) PARM('REVLOGO')
+                                            PDC PDCTEXT('REVIEW FAQ')
+                                             ACTION RUN(TUTOR) PARM('REVFAQ')
+                                              )ABCINIT
+                                              .ZVARS=HELP
+                                              )BODY EXPAND(\\)
+                                                \ \# Help
+                                                %TUTORIAL+-\-\-[REVIEW Directory
+ Display Information+-\-\-%TUTORIAL             %OPTION  ===>_ZCMD
+                                                 ++
+                                                  %               --------------
+-------------------------------                   %               |
+  PDS/PDSE                    |                   %                 |       Dire
+ctory Display Information       |                   %               ------------
+---------------------------------                   +
+                                                       The following topics a  r
+e presented in sequence or may be requested              by number:
+                                                           %1+- Accessing and up
+dating members                                             %2+- Reading or writi
+ng member co  ntents to or from a file                       %3+-[REVIEW+directo
+ry display control                                           %4+- Sorting direct
+ory entries                                                  %5+- Searching memb
+ers                                                            %6+-[REVIEW+sessi
+on control                                                     %7+-[REVIEW+membe
+r selection action codes
+                                                               The following top
+ics will be presented only if selected by number:                %8+- Detailed P
+DS/PDSE directory display information                       )INIT
+                                                              )PROC
+                                                                &ZSEL = TRANS(&Z
+CMD  1,REVHP01   2,REVHP02   3,REVHP03   4,REVHP04
+     5,REVHP05   6,REVHP06   7,REVHP07   8,*REVHPDT                     u
+       *,'?')                                                   )END
+ 
+          )ATTR DEFAULT(%+_)
+              % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+              [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+              )BODY EXPAND(\\)
+              %TUTORIAL+-\-\-[REVIEW Accessing and Updating Members+-\-\-%TUTORI
+AL            %OPTION  ===>_ZCMD
+               +
+ 
+                 Subcmd   Aliases  Function
+ 
+                  %SELECT   S  SEL  +Choose a member for[REVIEW+and review it.
+                                     eg.%s member01+starts a[REVIEW+Bro  wse of
+member%MEMBER01.+
+                    %UPDATE   U       +Choose a member for[REVEDIT+and edit it.
+                                       eg.%u member01+starts a[REVIEW+Edit of me
+mber%M  EMBER01.+
+                      %BROWSE   B       +Choose a member for ISPF Browse and bro
+wse it.                                  eg.%b member01+starts an ISPF Browse of
+ member%MEMBER01.+
+                        %EDIT     E       +Choose a member for ISPF Edit and edi
+t it.                                      eg.%e member01+starts an ISPF Edit of
+ member%MEMBER01.+
+                          %VIEW     V       +Choose a member for ISPF View and v
+iew it.                                      eg.%v member01+starts an ISPF View
+of member%MEMBER01.+      )INIT                    V
+                            )PROC
+                            )END
+                                                      )ATTR DEFAULT(%+_)
+                                                          % TYPE(TEXT) INTENS(HI
+GH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HI
+GH) COLOR(YELLOW)                                           + TYPE(TEXT) INTENS(
+LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS
+(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS
+(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTE
+NS(HIGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                          %TUTORIAL+-\-\-[REVIEW
+ Transferring Member Contents+-\-\-%TUTORIAL              %OPTION  ===>_ZCMD
+                                                           +
+ 
+                                                             Subcmd   Aliases  F
+unction
+                                                              %PDSLOAD  PDS
++Write new member contents from sequential input.
+ PDSLOAD (or REVLMOD for load modul  es) will be invoked.
+                                                                %OFFLOAD  OFF
+  +Copy members to a sequential file with%./+control records.
+   Sort into TTR order first to preserve aliases.
+                                                                  %SEQLOAD  SEQ
+    +Copy member contents to a sequential file.
+     This is not available when the record format is undefined.
+                                                                    %DELINK   DL
+      +Delink load modules and produce object decks.
+       The DELINKI program will be invoked.  Segment overlay
+         programs and program objects cannot be processed.            )INIT
+                                                                      )PROC
+                                                                      )END
+ 
+                  )ATTR DEFAULT(%+_)
+                      % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                      [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                        + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                        _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED
+)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED
+) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                      )BODY EXPAND(\\)
+                      %TUTORIAL+-\-\-[REVIEW Controlling the Display+-\-\-%TUTOR
+IAL                   %OPTION  ===>_ZCMD
+                       +
+ 
+                         Subcmd   Aliases  Function
+ 
+                          %DOWN             +Scroll down towards the bottom of t
+he list.                  %UP               +Scroll up towards the top of the l
+ ist.                       %BOTTOM           +Same as%DOWN MAX.+
+                            %TOP              +Same as%UP MAX.+
+ 
+                              %LOCATE LOC LIST L+Scroll the display to position
+the first entry name                             (or ID name if SORT ID is in ef
+fect) starting with                              the string matching the subcomm
+and operand.
+                                %IFIND    RFIND   +Scroll the display to positio
+n the next (or first)                              tagged entry at the top of th
+e display.
+                                  %TAGFLIP  TF      +Untag all tagged entries an
+d tag all untagged entries.
+                                  %RESET    RES     +Untag   all entries.
+ 
+                                    %REFRESH  REF     +Refresh the entry list fr
+om DASD.  Tags are discarded.       )INIT                                 Q
+                                      )PROC
+                                      )END
+                                                                )ATTR DEFAULT(%+
+_)                                                                  % TYPE(TEXT)
+ INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT)
+ INTENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEX
+T) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP
+  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND
+(\\)                                                                %TUTORIAL+-\
+-\-[REVIEW Sorting the Entries+-\-\-%TUTORIAL                       %OPTION  ===
+>_ZCMD                                                               +
+ 
+                                                                       Subcomman
+d        Function
+                                                                        %SORT NA
+ME        +Sort the list into ascending name order.
+                                                                          %SORT
+CHA         +Sort the list into descending change timestamp order.        %SORT
+DATE        +Sort the list into descending change timestamp order.
+                                                                            %SOR
+T SIZE        +Sort the list into descending size order.
+                                                                            %SOR
+T TTR         +Sort the list into ascending TTR order.  This is
+                 the order that the members were saved into the PDS.
+                                                                              %S
+ORT ID          +Sort the list into ascending UserId order.                   %S
+ORT USER          +Sort the list into ascending UserId order.
+ 
+%SORT SSI         +Sort the list into ascending SSI or VV.MM order.
+%SORT VER         +Sort t  he list into ascending SSI or VV.MM order.
+  )INIT
+  )PROC
+  )END
+                              )ATTR DEFAULT(%+_)
+                                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON
+)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(O
+N)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                  )BODY EXPAND(\\)
+                                  %TUTORIAL+-\-\-[REVIEW Searching Members+-\-\-
+%TUTORIAL                         %OPTION  ===>_ZCMD
+                                   +
+ 
+                                     Subcmd   Aliases  Function
+ 
+                                      %SEARCH   FIND  F +Causes the presentation
+ of a data entry panel where the                         search parameters are t
+o be entere  d.
+                                                           If any members are ta
+gged only tagged members are searched.
+                                                             After the search, m
+embers with matching data will be                            tagged, and will be
+ the only members tagged.                 )INIT
+                                            )PROC
+                                            )END
+                                                                      )ATTR DEFA
+ULT(%+_)                                                                  % TYPE
+(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE
+(TEXT) INTENS(HIGH) COLOR(YELLOW)                                           + TY
+PE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TY
+PE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TY
+PE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TY
+PE(INP  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY
+EXPAND(\\)                                                                %TUTOR
+IAL+-\-\-[REVIEW Session Control+-\-\-%TUTORIAL                           %OPTIO
+N  ===>_ZCMD                                                               +
+ 
+                                                                             Sub
+cmd   Aliases  Function
+                                                                              %E
+XIT     END  =X +Terminate the[REVIEW+session.                                %C
+ANCEL   CAN     +Terminate the[REVIEW+session witho  ut updating your profile.
+ 
+%SWAP LIST        +Display a list of parallel[REVIEW+sessions.
+%SWAP             +Swap to the second most recent[REVIEW+session.
+  %SWAP #           +Swap to the[REVIEW+session number%#+where%#+is a
+                     decimal number which can be obtained from%SWAP LIST.+
+ 
+    %TSO      TSS     +Invoke the Command Processor named by the operand.
+                       If the named command is[REVIEW+a parallel session
+                       is started.
+ 
+      )INIT
+      )PROC
+      )END
+                                  )ATTR DEFAULT(%+_)
+                                      % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKI
+P(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                        + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SK
+IP(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST
+(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST
+(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                      )BODY EXPAND(\\)
+                                      %TUTORIAL+-\-\-[REVIEW Directory Display I
+nformation+-\-\-%TUTORIAL             %OPTION  ===>_ZCMD
+                                       +
+ 
+                                           Detailed information for the Unix dir
+  ectory display is contained                in the TSO HELP member[REVUNIX.+ Th
+is member resides in the SYSHELP             concatenation.   Enter one of the f
+ollowing commands to view the HELP           member in 3270 full screen mode.
+ 
+                                                 %TSO FSHELP REVUNIX+
+                                                 %TSO HEL REVUNIX+
+ 
+                                              )INIT
+                                              )PROC
+                                             ^  )END
+                                                                         -)ATTR
+DEFAULT(%+_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
++ TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+| TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+  # TYPE(AB)    FORMAT(MIX)
+  " TYPE(ABSL) GE(ON)                                                         )A
+BC DESC('Help') MNEM(1)
+PDC PDCTEXT('REVUNIX TSO full-screen help')
+ ACTION RUN(TSO) PARM('HEL REVUNIX')
+PDC PDCTEXT('About...')
+   ACTION RUN(TUTOR) PARM('REVLOGO')
+  PDC PDCTEXT('REVIEW FAQ')
+   ACTION RUN(TUTOR) PARM('REVFAQ')
+    )ABCINIT
+    .ZVARS=HELP
+    )BODY EXPAND(\\)
+      \ \# Help
+      %TUTORIAL+-\-\-[REVIEW Directory Display Information+-\-\-%TUTORIAL
+      %OPTION  ===>_ZCMD
+       ++
+        %               ---------------------------------------------
+        %               |                   Unix                    |
+        %                 |       Directory Display Information       |
+          %               ---------------------------------------------
+          +
+             The following topics a  re presented in sequence or may be requeste
+d              by number:
+                 %1+- Accessing entries
+                 %2+-[REVIEW+directory display con  trol
+                   %3+- Sorting directory entries
+                   %4+- Searching files
+                   %5+-[REVIEW+session control
+                     %6+- Entry attribute flags
+                     %7+-[REVIEW+entry selection action codes
+ 
+                     The following topics will be presented only if selected by
+number:                %8+- Detailed Unix directory display information
+                  )INIT
+                    )PROC
+                      &ZSEL = TRANS(&ZCMD  1,REVHU01   2,REVHU02   3,REVHU03   4
+,REVHU04                                   5,REVHU05   6,REVHU06   7,REVHU07   8
+,*REVHUDT                     u              *,'?')
+                      )END
+                                                )ATTR DEFAULT(%+_)
+                                                    % TYPE(TEXT) INTENS(HIGH) CO
+LOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) CO
+LOR(YELLOW)                                           + TYPE(TEXT) INTENS(LOW)
+COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIGH)
+ CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH)
+ CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIG
+H) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                    %TUTORIAL+-\-\-[REVIEW Acces
+sing and Updating Entries+-\-\-%TUTORIAL            %OPTION  ===>_ZCMD
+                                                     +
+ 
+                                                       Subcmd   Aliases  Functio
+n
+                                                        %SELECT   S  SEL  +Choos
+e an entry for[REVIEW+and review it.
+                                                          %BROWSE   B       +Cho
+ose a file for ISPF Browse and browse it.                                    An
+ISPF environment is required for this subcommand.
+                                                            %EDIT     E       +C
+hoose a file for ISPF Edit and edit it.                                        A
+n ISPF environment is required for this subcommand.
+                                                              %/pathname
++Jump directly to a path and[REVIEW+it.
+ 
+ 
+ 
+   Note that the operand specifying the entry or file
+   is not automatically folded to upper case.
+                                                                  )INIT
+                                                                  )PROC
+                                                                  )END
+ 
+              )ATTR DEFAULT(%+_)
+                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                  [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                    ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PA
+D(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                  )BODY EXPAND(\\)
+                  %TUTORIAL+-\-\-[REVIEW Controlling the Display+-\-\-%TUTORIAL
+                  %OPTION  ===>_ZCMD
+                   +
+ 
+                     Subcmd   Aliases  Function
+ 
+                      %DOWN             +Scroll down towards the bottom of the l
+ist.                  %UP               +Scroll up towards the top of the l  ist
+.                       %BOTTOM           +Same as%DOWN MAX.+
+                        %TOP              +Same as%UP MAX.+
+ 
+                          %LOCATE LOC LIST L+Scroll the display to position the
+first entry name                             (or ID name if SORT ID is in effect
+) starting with                              the string matching the subcommand
+operand.
+                            %IFIND    RFIND   +Scroll the display to position th
+e next (or first)                              tagged entry at the top of the di
+splay.
+                              %TAGFLIP  TF      +Untag all tagged entries and ta
+g all untagged entries.
+                              %RESET    RES     +Untag   all entries.
+ 
+                                %REFRESH  REF     +Refresh the entry list from D
+ASD.  Tags are discarded.       )INIT                                 Q
+                                  )PROC
+                                  )END
+                                                            )ATTR DEFAULT(%+_)
+                                                                % TYPE(TEXT) INT
+ENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INT
+ENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) I
+NTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT)
+INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT)
+INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT
+) INTENS(HIGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                                %TUTORIAL+-\-\-[
+REVIEW Sorting the Entries+-\-\-%TUTORIAL                       %OPTION  ===>_ZC
+MD                                                               +
+ 
+                                                                   Subcommand
+     Function
+                                                                    %SORT NAME
+      +Sort the list into ascending name order.
+                                                                      %SORT CHA
+        +Sort the list into descending change timestamp order.        %SORT MOD
+        +Sort the list into descending change timestamp order.
+                                                                        %SORT CR
+E         +Sort the list into descending create timestamp order.
+                                                                        %SORT AC
+C         +Sort the list into descending access timestamp order.
+                                                                          %SORT
+SIZE        +Sort the list into descending size order.
+                                                                          %SORT
+ID            +Sort the list into ascending owner name order.               %SOR
+T OWNER       +Sort the list into ascending owner name order.               %SOR
+T USER        +Sort the list into ascending owner name order.
+                                                                              )I
+NIT                                                                           )P
+ROC                                                                           )E
+ND
+                          )ATTR DEFAULT(%+_)
+                              % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                              [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                                _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) C
+OLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) C
+OLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                              )BODY EXPAND(\\)
+                              %TUTORIAL+-\-\-[REVIEW Searching Members+-\-\-%TUT
+ORIAL                         %OPTION  ===>_ZCMD
+                               +
+ 
+                                 Subcmd   Aliases  Function
+ 
+                                  %SEARCH   FIND  F +Causes the presentation of
+a data entry panel where the                         search parameters are to be
+ entere  d.
+                                                       If any entries are tagged
+ only tagged files are searched.
+                                                         After the search, files
+ with matching data will be                              tagged, and will be the
+ only entries tagged.                 )INIT
+                                        )PROC
+                                        )END
+                                                                  )ATTR DEFAULT(
+%+_)                                                                  % TYPE(TEX
+T) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEX
+T) INTENS(HIGH) COLOR(YELLOW)                                           + TYPE(T
+EXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(I
+NPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(I
+NPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(I
+NP  UT) INTENS(HIGH) CAPS(OFF)                                        )BODY EXPA
+ND(\\)                                                                %TUTORIAL+
+-\-\-[REVIEW Session Control+-\-\-%TUTORIAL                           %OPTION  =
+==>_ZCMD                                                               +
+ 
+                                                                         Subcmd
+  Aliases  Function
+                                                                          %EXIT
+    END  =X +Terminate the[REVIEW+session.                                %CANCE
+L   CAN     +Terminate the[REVIEW+session witho  ut updating your profile.
+                                                                            %SWA
+P LIST        +Display a list of parallel[REVIEW+sessions.                  %SWA
+P             +Swap to the second most recent[REVIEW+session.                 %S
+WAP #           +Swap to the[REVIEW+session number%#+where%#+is a
+                 decimal number which can be obtained from%SWAP LIST.+
+ 
+%TSO      TSS     +Invoke the Command Processor named by the operand.
+                   If the named command is[REVIEW+a parallel session
+                   is started.
+ 
+  )INIT
+  )PROC
+  )END
+                             &)ATTR DEFAULT(%+_)
+                                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON
+)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(O
+N)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEF
+T) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                  )BODY EXPAND(\\)
+                                  %TUTORIAL+-\-\-[REVIEW UNIX Entry Attributes+-
+\-\-%TUTORIAL                     %OPTION  ===>_ZCMD
+                                   +
+ 
+                                                The first flag of the Mode F  la
+gs is the File Type.
+ 
+                                                   Flag  Indicated Attribute
+ 
+                                                       %d+ Directory
+                                                       %c+ Character Special fil
+e                                                        %-+ Regular file
+                                                         %p+ Named Pipe (FIFO) S
+pecial file                                              %l+ Symbolic Link
+                                                           %b+ Block Special fil
+e                                                          %s+ Socket file
+                                                           %e+ External Link
+                                                             %n+ Non-Share Addre
+ss Space program                                             %A+ APF Authorised
+program                                                      %N+ APF Authorised
+and Non-Share AS                                             %t+ Sticky   bit on
+ (shown as last flag of Mode Flags)
+                                                )INIT
+                                                )PROC
+      h                                           )END
+                                                                           &)PAN
+EL KEYLIST(REVKEYL,REV)                                                     )ATT
+R                                                                              0
+1  TYPE(CHAR)    INTENS(LOW)  COLOR(BLUE)
+ 02  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)
+ 03  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)
+ 04  TYPE(CHAR)    INTENS(LOW)  COLOR(GREEN)
+ 05  TYPE(CH  AR)    INTENS(LOW)  COLOR(TURQ)
+   06  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)
+   07  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)
+   11  TYPE(CHAR)    INTENS  (LOW)  COLOR(BLUE)    HILITE(BLINK)
+     12  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)     HILITE(BLINK)
+     13  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)    HILITE(BLINK)
+     14  TYPE(CHAR)    INTENS(LOW)  COLOR(  GREEN)   HILITE(BLINK)
+       15  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    HILITE(BLINK)
+       16  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)  HILITE(BLINK)
+       17  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)   HILI  TE(BLINK)
+         21  TYPE(CHAR)    INTENS(LOW)  COLOR(BLUE)    HILITE(REVERSE)
+         22  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)     HILITE(REVERSE)
+         23  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)    HILITE(REVERSE)
+           24  TYPE(CHAR)    INTENS(LOW)  COLOR(GREEN)   HILITE(REVERSE)
+           25  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    HILITE(REVERSE)
+           26  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)  HILITE(REVERSE)
+             27  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)   HILITE(REVERSE)
+             31  TYPE(CHAR)    INTENS(LOW)  COLOR(BLUE)    HILITE(USCORE)
+             32  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)     HILITE(USCORE)
+             33  TYPE(  CHAR)    INTENS(LOW)  COLOR(PINK)    HILITE(USCORE)
+               34  TYPE(CHAR)    INTENS(LOW)  COLOR(GREEN)   HILITE(USCORE)
+               35  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    HILITE(USCORE)
+               36  TYPE(CHAR)    INTE  NS(LOW)  COLOR(YELLOW)  HILITE(USCORE)
+                 37  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)   HILITE(USCORE)
+                 41  TYPE(CHAR)    INTENS(LOW)  COLOR(BLUE)    GE(ON)
+                 42  TYPE(CHAR)    INTENS(LOW)  COLO  R(RED)     GE(ON)
+                   43  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)    GE(ON)
+                   44  TYPE(CHAR)    INTENS(LOW)  COLOR(GREEN)   GE(ON)
+                   45  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    GE  (ON)
+                     46  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)  GE(ON)
+                     47  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)   GE(ON)
+                     51  TYPE(CHAR)    INTENS(LOW)  COLOR(BLUE)    GE(ON) HILITE
+(B  LINK)              52  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)     GE(ON) HILI
+TE(BLINK)              53  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)    GE(ON) HILI
+TE(BLINK)              54  TYPE(CHAR)    INTENS(LOW)  COLOR(GREEN)   GE(ON) HILI
+TE(BLINK)                55  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    GE(ON) HI
+LITE(BLINK)              56  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)  GE(ON) HI
+LITE(BLINK)              57  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)   GE(ON) HI
+LITE(BLINK)              61  TYP  E(CHAR)    INTENS(LOW)  COLOR(BLUE)    GE(ON)
+HILITE(REVERSE)            62  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)     GE(ON)
+HILITE(REVERSE)            63  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)    GE(ON)
+HILITE(REVERSE)            64  TYPE(CHAR)    IN  TENS(LOW)  COLOR(GREEN)   GE(ON
+) HILITE(REVERSE)            65  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    GE(ON
+) HILITE(REVERSE)            66  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)  GE(ON
+) HILITE(REVERSE)            67  TYPE(CHAR)    INTENS(LOW)  CO  LOR(WHITE)   GE(
+ON) HILITE(REVERSE)            71  TYPE(CHAR)    INTENS(LOW)  COLOR(BLUE)    GE(
+ON) HILITE(USCORE)             72  TYPE(CHAR)    INTENS(LOW)  COLOR(RED)     GE(
+ON) HILITE(USCORE)             73  TYPE(CHAR)    INTENS(LOW)  COLOR(PINK)      G
+E(ON) HILITE(USCORE)             74  TYPE(CHAR)    INTENS(LOW)  COLOR(GREEN)   G
+E(ON) HILITE(USCORE)             75  TYPE(CHAR)    INTENS(LOW)  COLOR(TURQ)    G
+E(ON) HILITE(USCORE)             76  TYPE(CHAR)    INTENS(LOW)  COLOR(YELLOW)  G
+E(ON) HILITE  (USCORE)             77  TYPE(CHAR)    INTENS(LOW)  COLOR(WHITE)
+ GE(ON) HILITE(USCORE)             0A  TYPE(DATAIN)  INTENS(LOW)  COLOR(GREEN)
+                                   0B  TYPE(DATAIN)  INTENS(HIGH) COLOR(RED)
+                                     0C  TYPE(DATAOUT) INTENS(LOW)  COLOR(BLUE)
+                                     0D  TYPE(DATAOUT) INTENS(HIGH) COLOR(WHITE)
+                                     $   TYPE(OUTPUT)  INTENS(HIGH) COLOR(WHITE)
+ JUST(ASIS) CAPS(OFF)                %   T  YPE(TEXT)    INTENS(HIGH) COLOR(WHIT
+E)                                     +   TYPE(TEXT)    INTENS(LOW)
+                                       _   TYPE(INPUT)   INTENS(HIGH) COLOR(RED)
+ CAPS(OFF) JUST(LEFT) HILITE(USCORE)   #   AREA(DYNAMIC)   EXTEND(ON) SCROLL(ON)
+                                      )BODY WIDTH(&ZSCREENW) EXPAND(\\)
+                                      $REVLN1
+                                      %Command ===>_ZCMD\ \
+                      %Scroll ===>_REVS+#REVBUF,REVSHDW  --------------\-\------
+---------------------------------------#)INIT
+                                         .HELP   = &REVHELP
+                                           &ZHTOP  = &REVHELP
+                                           .CURSOR = &REVCSR
+                                           .CSRPOS = &REVPOS
+                                             .ALARM = &REVALRM
+                                            )PROC
+                                             &REVLVL = LVLINE(REVBUF)
+                                     z         &REVCSR = .CURSOR
+                                               &REVPOS = .CSRPOS
+                                               {             &REVPFK = .PFKEY
+                                                            )END
+ 
+     -)ATTR DEFAULT(%+_)
+          % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+          [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+            + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+            _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+            ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+            | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+          )BODY EXPAND(\\)
+          %TUTORIAL+-\-\-[REVIEW Member Selection Codes+-\-\-%TUTORIAL
+          %OPTION  ===>_ZCMD
+           +
+ 
+             Code  Function
+ 
+              %   S +Browse the member with[REVIEW.+ This is the default
+                     selection code when the cursor is placed on th  e leader do
+t.
+                %   /+[REVIEW+the member with the%DATA+operand.
+ 
+                  %   B +Browse the member with ISPF Browse.
+ 
+                  %   R +Reset or untag the member.
+                    %   T +Tag the member for display control purposes, or for
+                           later processing by SEARCH, OFFLOAD, SEQLOAD or DELIN
+K.
+                    %   H +Displ  ay program history.
+                      %   M +Display program map.
+                      )INIT
+                      )PROC                    n
+                        )END
+                                                  )ATTR DEFAULT(%+_)
+                                                      % TYPE(TEXT) INTENS(HIGH)
+COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH)
+COLOR(YELLOW)                                           + TYPE(TEXT) INTENS(LOW)
+  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIG
+H) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIG
+H) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(H
+IGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                      %TUTORIAL+-\-\-[REVIEW Ent
+ry Selection Codes+-\-\-%TUTORIAL                     %OPTION  ===>_ZCMD
+                                                       +
+ 
+                                                         Code  Function
+ 
+                                                          %   S +Browse the entr
+y contents with[REVIEW.+ This is the default                     selection code
+when the cursor is placed on th  e leader dot.
+                                                            %   /+[REVIEW+the en
+try contents with the%DATA+operand.
+                                                              %   A+[REVIEW+the
+entry contents - if a file treat as an                              %ASCII text+
+file.
+                                                                %   B +Browse th
+e regular file with ISPF Browse.                                %   E +Edit the
+regular file with ISPF Edit.
+                                                                %   R +Reset   o
+r untag the member.                                               %   T +Tag the
+ member for display control purposes, or for                             later p
+rocessing by SEARCH.
+                                                                    %   H +Displ
+ay program history.                                                 %   M +Displ
+ay program map.                                                     )INIT
+                          Q                                           )PROC
+                                                                      )END
+ 
+               })ATTR
+                  ! TYPE(TEXT) COLOR(WHITE) HILITE(USCORE)
+                  { TYPE(NT)
+                    @ TYPE(ET)
+                    # TYPE(DT)
+                    | AREA(SCRL) EXTEND(ON)
+                  )BODY CMD( ) W  INDOW(60,10)
+                    {     @Unlicensed Materials - Property of the Free World  {
+                    {                                                         {
+                    {     !http://www.cbttape.o  rg/ftp/cbt/CBT134.zip+
+{                     {
+{                     @      Weapon Masters present and past...
+                      |S1
+  |                     )AREA S1
+                        #        Greg Price
+                        #        John Kalinich
+                          #        Bruce Leland
+                          #        Tony Watson
+                          #        Bill Godfrey
+                            )INIT
+                              &ZUP = REVLOGO
+                              &ZWINTTL = 'REVIEW Command'
+                                &ZCMD = ' '
+                                &CMD = ' '
+                              )END
+                                                       &)ATTR DEFAULT(%+_)
+                                                            # TYPE(AB)    FORMAT
+(MIX)                                                       % TYPE(TEXT)  INTENS
+(HIGH) COLOR(WHITE) SKIP(ON)                                  [ TYPE(TEXT)  INTE
+NS(HIGH) COLOR(YELLOW)                                        + TYPE(TEXT)  INTE
+NS(LOW)  COLOR(TURQ) SKIP(ON)                                 _ TYPE(INPUT) INTE
+NS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INP  UT) IN
+TENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INPUT) IN
+TENS(HIGH) CAPS(OFF)                                            " TYPE(ABSL) GE(
+ON)                                                         )ABC DESC('RefList')
+ MNEM(1  )                                                    PDC DESC('Current
+Data Set List &ZDSCURT.') MNEM(1) ACC(CTRL+ALT+P)              ACTION RUN(ISRRLI
+ST) PARM('PL1')                                               PDC DESC('Current
+Library List &ZDSCURLT  .') MNEM(2) ACC(CTRL+SHIFT+P)            ACTION RUN(ISRR
+LIST) PARM('LL1')                                               PDC DESC('List o
+f Personal Data Set Lists') MNEM(1) PDSEP(ON) ACC(CTRL+ALT+O)    ACTION RUN(ISRR
+LIST) PARM('PL2')                                                 PDC DESC('List
+ of Personal Library Lists') MNEM(2) ACC(CTRL+SHIFT+O)             ACTION RUN(IS
+RRLIST) PARM('LL2')                                               )ABCINIT
+                                                                    .ZVARS=REFLI
+ST                                                                        VGET (
+ZCURTB ZCURLTB) PROFILE                                                   IF (&Z
+CURTB = &Z) &ZDSCURT = &Z                                                   ELSE
+ &ZDSCURT= '(&ZCURTB)'                                                      IF (
+&ZCURLTB = &Z) &ZDSCURLT = &Z                                               ELSE
+ &ZDSCURLT= '(&ZCURLTB)'                                              )ABC DESC(
+'R  efMode') MNEM(2)                                                    PDC DESC
+('List Execute') UNAVAIL(ZRM1) MNEM(1) ACTION RUN(ISRRLIST) PARM('BEX') PDC DESC
+('List Retrieve') UNAVAIL(ZRM2) MNEM(2) ACTION RUN(ISRRLIST) PARM('BRT'))ABCINIT
+                                                                          .ZVARS
+=REFMODE                                                                    VGET
+ (ZBLIST) PROFILE                                                           IF (
+&ZBLIST = 'EXECUTE')
+&zrm1 = 1
+&zrm2 = 0
+&refmode = 2
+ELSE
+  &zrm1 = 0
+  &zrm2 = 1
+    &refmode = 1
+)ABC DESC('Help') MNEM(1)
+PDC PDCTEXT('REVIEW command tutorial')
+   ACTION RUN(TUTOR) PARM('REVHB00')
+  PDC PDCTEXT('REVIEW TSO full-screen help')
+   ACTION RUN(TSO) PARM('HEL REVIEW')
+  PDC PDCTEX  T('About...')
+     ACTION RUN(TUTOR) PARM('REVLOGO')
+    PDC PDCTEXT('REVIEW FAQ')
+     ACTION RUN(TUTOR) PARM  ('REVFAQ')
+      )ABCINIT
+      .ZVARS=HELP
+      )BODY EXPAND(\\)
+        %# RefList# RefMode# Help+
+        "-----------------------------------------------------------------------
+--------+\ \[REVIEW Command Processor\ \
+          %Command ===>_ZCMD
+         ++
+          %ISPF Library:
+            +   Project%===>_PRJ1    %
+            +   Library%===>_LIB1    %
+            +   Type   %===>_TYP1    %
+              +   Member %===>_MEM1    %
+              +
+              %Other Partitioned, Sequential, VSAM, Unix HFS File, or ddname FIL
+E:            +   Data   Set Name  %===>|DSN1
+               %+   Volume Serial  %===>_VOL1  +  (If not cataloged)
+                +   Options        %===>_OPT1
+               %+  [REVIEW+CP Name %=  ==>_CMD1    +
+                  )INIT
+                    .CURSOR = DSN1
+                    .NRET = ON
+                      IF (&REVPDSN = &Z)
+                        .CURSOR = MEM1
+                      IF (&REVPDSN ^= &Z)
+                          .CURSOR = DSN1
+                        .HELP   = REVHB00
+                        &ZHTOP  = REVHB00
+                          &MEM1 = &Z
+                          &DSN1 = &REVPDSN
+                          &VOL1 = &REVPVOL
+                 z          &CMD1 = &REVPCMD
+                            IF (&CMD1 = &Z)  &CMD1 = 'REVIEW'
+                                       &)REINIT
+                                          .CURSOR = DSN1
+                                          .NRET = ON
+                                            IF (&DSN1 ^= &Z)
+                                              &DSN1 = &REVPDSN
+                                              &VOL1 = &REVPVOL
+                                              &MEM1 = &Z
+                                              REFRESH (*)
+                                            )PROC
+                                              /* Start NRETRIEV code */
+                                                .NRET = OFF
+                                                IF (&ZVERB = NRETRIEV)
+                                                  VGET (ZCURTB,ZCURLTB) PROFILE
+                                                    IF (.CURSOR NE DSN1 AND .CUR
+SOR NE VOL1)                                          .NRET = LIB
+                                                      IF (&ZNRLIB = YES)
+                                                          .CURSOR = MEM1
+                                                          &PRJ1 = &ZNRPROJ
+                                                          &LIB1 = &ZNRGRP1
+                                                            &TYP1 = &ZNRTYPE
+                                                            &MEM1 = &ZNRMEM
+                                                            &DSN1 = &Z
+                                                              &VOL1 = &Z
+                                                              .MSG = ISRDS013
+                                                            ELSE .MSG = ISRDS011
+                                                          ELSE
+                                                              .NRET = DSN
+                                                              IF (&ZNRDS = YES)
+                                                                .CURSOR = DSN1
+                                                                  &DSN1 = &ZNROD
+SN                                                                &VOL1 = &ZNRVO
+L                                                                 .MSG = ISRDS01
+4                                                                 ELSE .MSG = IS
+RDS012                                                        /* End NRETRIEV co
+de */
+                                                                /* Start RefList
+ code */                                                        VGET (ZRDSN ZRVO
+L) SHARED                                                       IF (&ZRDSN ^= '
+')                                                                  &DSN1 = &ZRD
+SN                                                                  VGET (ZREFVO
+LM) PROFILE                                                         IF (&ZREFVOL
+M = 'ON')                                                               &VOL1 =
+&ZRVOL                                                                ELSE
+                                            /* OW15849*/                &VOL1 =
+&Z                                          /* OW15849*/              &ZDSVO  L
+= &VOL1                                                                 .CURSOR
+= DSN1                                                                  &ZRDSN =
+ ' '                                                                    &ZRVOL =
+ ' '                                                                      VPUT (
+ZRDSN ZRVOL) SHARED                                                       VPUT (
+ZDSVOL) SHARED                                                            VGET (
+ZBLIST) PROFILE                                                             IF (
+&ZBLIST ^= 'EXECUTE') .MSG = ISRDS003                                     VGET (
+DSALSEL) SHARED                                                           IF (&D
+SALSEL ^= ' ')                                                                VG
+ET (DSA1,DSA2,DSA6,DSA7) SHARED                                               &P
+RJ1 = &DSA1                                                                   &L
+IB1 = &DSA2
+&TYP1 = &DSA6
+&MEM1  = &DSA7
+&DSN1 = ' '
+  &VOL1 = ' '
+  &DSALSEL = ' '
+  VPUT (DSALSEL) SHARED
+  .CUR  SOR = MEM1
+    VGET (ZBLIST) PROFILE
+    IF (&ZBLIST ^= 'EXECUTE') .MSG = ISRDS003
+  /* End RefList code   */
+ 
+    &REVPDSN = &DSN1
+    &REVPVOL = &VOL1
+      &REVPCMD = &CMD1
+      VPUT (PRJ1 LIB1 TYP1) PROFILE
+      VPUT (REVPDSN REVPVOL REVPCMD) SHARED
+ 
+        IF (&DSN1 = &Z)
+          VER (&PRJ1,NB,DSNAME)
+            VER (&LIB1,NB,DSNAME)
+            VER (&TYP1,NB,DSNAME)
+            IF (&MEM1 = &Z)
+ z              &OPT2 = 0
+              ELSE
+                              VER (&MEM1,DSNAME,MSG=ISRE090)
+                              &OPT2 = 1
+                            IF (&VOL1 ^= &Z) .MSG=ISRE094
+ 
+                            IF (&DSN1 ^= &Z)
+                               &RFC = TRUNC(&DSN1,1)          /* If first charac
+ter    */                      IF (&RFC   = '''')               /*   of DSN is "
+'" check */                         &RREM = .TRAIL              /*   to see if l
+ast "'"  */                         &RREM2 = TRUNC(&RREM,'''')  /*   is missing.
+         */                         IF (&RREM2 = &RREM)           /* If last "'"
+ missing   */                            &DSN1 = '&DSN1&RFC'      /*   add it to
+ the end.  */                      IF (&VOL1 = &Z)
+                                      &OPT2 = 2
+                                     IF (&VOL1 ^= &Z)
+                                        &OPT2 = 3
+                                  &ZSEL = TRANS(&OPT2,
+                                                  0,'CMD(&CMD1 ''&PRJ1..&LIB1..&
+TYP1'' &OPT1)'                                    1,'CMD(&CMD1 ''&PRJ1..&LIB1..&
+TYP1(&MEM1)'' &OPT1)'                             2,'CMD(&CMD1 &DSN1 &OPT1)'
+                                                    3,'CMD(&CMD1 &DSN1 VOL(&VOL1
+) &OPT1)'                                          ' ',' '
+                                                    *,'?' )
+                                   ^  )END
+                                                                )ATTR DEFAULT(%+
+_)                                                                  % TYPE(TEXT)
+ INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT)
+ INTENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEX
+T) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP
+  UT) INTENS(HIGH) CAPS(OFF)                                            ! AREA(S
+CRL) EXTEND(ON)                                                     )BODY EXPAND
+(\\)                                                                %TUTORIAL+-\
+-\-[REVEDIT Edi  t Primary Subcommands+-\-\-%TUTORIAL                 %OPTION  =
+==>_ZCMD                                                             ++
+                                                                      !SCRLAREA
+------------------------------  -----------------------------------!    )AREA SC
+RLAREA                                                                  +
+                                                                           These
+ primary subcommands are available while edit  ing file data:
+                                                                          %  LEF
+T     +- Scroll to the left a specified number of columns.
+      +  If no operand is specified, the 'scroll' value is u  sed.          %  R
+IGHT    +- Scroll to the RIGHT a specified number of columns.
+        +  If no operand is specified, the 'scroll' value is used.          %  L
+OCATE   +- Display the specified record number.
+          +  (Relative record number only, not sequence numbers.)             %
+ CAPS ON  +- Ensure all data entered is translated to upper case.             %
+ CAPS OFF +- Ensure the case of entered data is not changed.                  %
+ CAPS       +- Toggle the CAPS setting.
+%  COLS ON  +- Activate the column marker.
+%  COLS OFF +- Deactivate the column marker.
+%  COLS     +- Toggle the   display of the column marker.
+  %  COPY     +- Import the contents of a data set into the edited data.
+  %  CREATE   +- Create a new data set or member with edit session data.
+  %  PROF ON  +- Activate the profile se  ttings display.
+    %  PROF OFF +- Deactivate the profile settings display.
+    %  PROF     +- Toggle the display of the profile settings.
+    %  HEX ON   +- Display the data in hexadecimal and   character formats.
+      %  HEX OFF  +- Display the data in character format.
+      %  HEX      +- If HEX currently on, turn it off.  If off, turn it on.
+      %  HI OFF   +- Turns off syntax highlighting.
+        %  HI ASM   +- Activates Assembler source code syntax highlighting.
+        %  HI JCL   +- Activates JCL source code syntax highlighting.
+        %  HI AUTO  +- Activates syntax highlighting for JCL and Assembler
+                      +  source whenever they are detected.
+          %  FIND     +- Search until the specified data or pattern is found.
+          %  FINDNOT  +- Search until the specified data or pattern is not found
+.         %  IFIND      +- Repeat the previous FIND or FINDNOT or EXCLUDE or EXN
+OT.         %  CHANGE   +- Find and then change a specified character string.
+            %  ICHANGE  +- Repeat the previous CHANGE.
+            %  DELETE   +- Delete e  xcluded or nonexcluded lines.
+              %  EXCLUDE  +- Exclude lines from display.
+              %  EXNOT    +- Exclude lines from display that do not contain the
+string.       %  FLIP     +- Toggle the exclusion   status of every data record.
+                %  STATS    +- Set whether member statistics are to be stored or
+ not.           %  LEVEL    +- Set the modification level of the member statisti
+cs.             %  VERSION  +- Set the version level of the membe  r statistics.
+                  %  NUMBER   +- Set sequence numbering on or off.
+                  %  UNNUM    +- Clear sequence numbers from the data.
+                  %  REDO     +- Undo an 'UNDO'.
+                    %  RENUM    +- Resequence the data records.
+                    %  NULLS ON +- Replace trailing blanks with 3270 null charac
+ters.               %  NULLS OFF+- Preserve trailing blanks.
+                      %  REPLACE  +- Replace a data set or member with edit sess
+ion data.             %  RESET    +- Clear all line commands and cancel all excl
+usions.               %  SORT     +- Sort records into a different order based o
+n data content.       %  SUBMI  T   +- Submit the data set or MEMBER being edite
+d.                                  +  TSO SUBMIT is invoked.
+                        %  UNDO     +- Undo a change to the data being edited or
+ viewed.                %  UNDO ON  +- Enable   UNDO.
+                          %  UNDO OFF +- Disable UNDOa nd release UNDO resources
+.                         %  ZAP      +- Control whether PDS members with fixed-
+length records                        +  that have an unchan  ged record count a
+t save time are                         +  to be stored in the same location (us
+ing update-in-place)                    +  to save disk space, or not.
+                            )INIT
+                              )PROC
+                              )END
+                                                        )ATTR DEFAULT(%+_)
+                                                            % TYPE(TEXT) INTENS(
+HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(
+HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) INTEN
+S(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT) INTE
+NS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTE
+NS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) IN
+TENS(HIGH) CAPS(OFF)                                            ! AREA(SCRL) EXT
+END(ON)                                                     )BODY EXPAND(\\)
+                                                            %TUTORIAL+-\-\-[REVE
+DIT Edi  t Line Subcommands+-\-\-%TUTORIAL                    %OPTION  ===>_ZCMD
+                                                             +
+                                                                 These line subc
+ommands are available   while editing file data:
+                                                                %  I +- Insert l
+ine (to insert 1 or more lines of new data).                    %  D +- Delete l
+ine (to delete 1 line, several lines,   or a block of lines).     %  R +- Repeat
+ line (to repeat a single line 1 or more times,                   %    +
+       or to repeat a block of lines 1 or more times).            %  C +- To ide
+ntify the source of a copy operation.                               %  M +- To i
+dentify the source of a move operation.                             %  A +- To i
+dentify the destination of a move/copy operation.                   %  B +- To i
+dentify the destination of a move/copy operation.                     %  O +- To
+ identify the destination of a move/copy overlay operation.           %  ) +- Sh
+ift right one or more columns.                                        %  ( +- Sh
+ift left one or more columns.                                         %  X +- Ex
+cl  ude one line, several lines, or a block of lines.                   %  F +-
+Show the first line(s) from a block of excluded lines.                  %  L +-
+Show the last line(s) from a block of excluded lines.                   %  S +-
+Show the lines fr  om a block of excluded lines.                          %  W +
+- Lowercase, to change text from uppercase to lowercase.                  %  U +
+- Uppercase, to change text from lowercase to uppercase.                  % TF +
+- Text flow, to flow text to the   end of a paragraph.                      % TS
+ +- Text split, to split a text line at the cursor to allow insertion.      )INI
+T                                                                           )PRO
+C                                              #                              )E
+ND
+                        )ATTR DEFAULT(%+_)
+                            % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                            [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                              + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                              _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COL
+OR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COL
+OR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                            )BODY EXPAND(\\)
+                            %TUTORIAL+-\-\-[REVIEW Job Output Listings+-\-\-%TUT
+ORIAL                       %OPTION  ===>_ZCMD
+                             +
+ 
+                                 Detailed information for REVIEWing jo  b output
+ on JES spool is contained         in the TSO HELP member[REVOUT.+ This member r
+esides in the SYSHELP              concatenation.   Enter one of the following c
+ommands to view the HELP           member in 3270 full screen mode.
+ 
+                                       %TSO FSHELP REVOUT+
+                                       %TSO HEL REVOUT+
+ 
+                                    )INIT
+                                    )PROC
+                                   ^  )END
+                                                               })ATTR DEFAULT(%+
+_)                                                                  % TYPE(TEXT)
+ INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT)
+ INTENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEX
+T) INTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INP
+UT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP
+  UT) INTENS(HIGH) CAPS(OFF)                                            # TYPE(A
+B)    FORMAT(MIX)                                                       " TYPE(A
+BSL) GE(ON)                                                         )ABC DESC('H
+elp') MNEM(1)                                                         PDC PDCTEX
+T('REVOUT TSO full-screen help')                                       ACTION RU
+N(TSO) PARM('HEL REVOUT')                                             PDC PDCTEX
+T('About...')                                                            ACTION
+RUN(TUTOR) PARM('REVLOGO')                                              PDC PDCT
+EXT('REVIEW FAQ')                                                        ACTION
+RUN(TUTOR) PARM('REVFAQ')                                                 )ABCIN
+IT                                                                        .ZVARS
+=HELP                                                                     )BODY
+EXPAND(\\)                                                                  \ \#
+ Help                                                                       %TUT
+ORIAL+-\-\-[REVIEW Job Output Listings+-\-\-%TUTORIAL                       %OPT
+ION  ===>_ZCMD                                                               ++
+                                                                              %
+              ---------------------------------------------                   %
+              |                 REVIEW                    |                   %
+                |            Job Output Listings            |
+%               ---------------------------------------------
++
+   The following topics a  re presented in sequence or may be requested
+     by number:
+       %1+- Job output list display format
+       %2+- Job output list subcommands
+         %3+- Job processing selection codes
+ 
+       The following topics will be presented only if s  elected by number:
+           %4+- Detailed Job Output Listing information
+      )INIT
+      )PROC
+          &ZSEL = TRANS(&ZCMD  1,REVHJ01   2,REVHJ02   3,REVHJ03   4,*REVHJDT
+                               *,'?')
+        )END
+                                    )ATTR DEFAULT(%+_)
+                                        % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) S
+KIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                          + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ)
+SKIP(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JU
+ST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JU
+ST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                            ! AREA(SCRL) EXTEND(ON)
+                                        )BODY EXPAND(\\)
+                                        %TUTORIAL+-\-\-[REVOUT Prim  ary Subcomm
+ands+-\-\-%TUTORIAL                       %OPTION  ===>_ZCMD
+                                         ++
+                                          !SCRLAREA ----------------------------
+--  -----------------------------------!    )AREA SCRLAREA
+                                            +
+                                               These primary subcommands are ava
+ilable from the j  ob list display:
+                                              %  STATUS   +- Issue a search for
+a different job name.                         )INIT
+                                                )PROC
+                                                )END
+                                                                          )ATTR
+DEFAULT(%+_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
++ TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+| TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+  ! AREA(SCRL) EXTEND(ON)                                                     )B
+ODY EXPAND(\\)                                                                %T
+UTORIAL+-\-\-[REVOUT Line   Subcommands+-\-\-%TUTORIAL
+%OPTION  ===>_ZCMD                                                             +
+ 
+   These line subcommands are available   from the job list display:
+ 
+  %  S +- Look at available job output. [REVIEW+will be used.
+  %  P +- Purge job output.  A batch job will also be c  ancelled.
+    %  O +- Release job output for printing.
+    %    +  A new SYSOUT class can be specified in the Q column.
+    %  C +- Cancel a job before or during execution.
+      %    +  The job will not be purged.
+      )INIT
+      )PROC
+     ^  )END
+                                 &)ATTR DEFAULT(%+_)
+                                      % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKI
+P(ON)                                 [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                                        + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SK
+IP(ON)                                  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST
+(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST
+(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                                          ! AREA(SCRL) EXTEND(ON)
+                                      )BODY EXPAND(\\)
+                                      %TUTORIAL+-\-\-[REVIEW Brow  se Subcommand
+s+-\-\-%TUTORIAL                        %OPTION  ===>_ZCMD
+                                       ++
+                                        !SCRLAREA ------------------------------
+  -----------------------------------!    )AREA SCRLAREA
+                                          +
+                                             These subcommands are available whi
+le[REVIEWing+fi  le data.
+                                            %  LEFT     +- Scroll to the left a
+specified number of columns.                            +  If no operand is spec
+ified, the 'scroll' value is u  sed.          %  RIGHT    +- Scroll to the RIGHT
+ a specified number of columns.                           +  If no operand is sp
+ecified, the 'scroll' value is used.          %  LOCATE   +- Display the specifi
+ed record number.                                           +  (Relative record
+number only, not sequence numbers.)             %  HEX ON   +- Display the scree
+n in hexadecimal.                               %  HEX OFF  +- Display the scree
+n in character mode.                            %  HEX        +- If HEX currentl
+y on, turn it off.  If off, turn it on.           %  FIND     +- Search until th
+e specified data or pattern is found.             %  FINDSMF  +- Search for an S
+MF record type and optionally sub-type.           %  FINDNOT  +- Search unt  il
+the specified data or pattern is not found.         %  IFIND    +- Repeat the pr
+evious FIND or FINDNOT operation.                   %  RESET    +- Deactivate li
+ne exclusion caused by the ALL or REST                          +  operand of a
+FIND or FI  NDNOT subcommand.                         %  FULL ON  +- Use full EB
+CDIC translation for display with using any                       +  APL charact
+ers.                                                  %  FULL OFF +- Use the sta
+ndard 3270 keyboard chara  cter set for display.        %  FULL     +- If FULL i
+s on, turn it off.  If off, turn it on.                 %  ASCII ON +- Specifies
+ that ASCII data is being[REVIEWed+and that                         +  character
+s are to be translated to EBCDIC before   being                       +  display
+ed.  Note that search arguments to the 'FIND' and                     +  'FINDNO
+T' commands typed in while in ASCII mode are                          +  transla
+ted to ASCII.                                               %  ASCII OFF+ - Leav
+e the characters to be displayed in EBCDIC.                 %  ASCII    +- If AS
+CII is on, turn it off.  If off, turn it on.                %  DISP T   +- Displ
+ay TN/T11-like EBCDIC text characters where possible.                     +  Thi
+s is similar to 3278T in ISPF.                                %  DISP A   +- Dis
+play APL/EBCDIC characters where possible.                                +  Thi
+s is similar to 3278A in ISPF.                                %  DISP     +- Tog
+gle b  etween DISP T and DISP A.                                %  DIR      +- D
+isplay the directory of the partitioned data set or file                    +  c
+urrently being[REVIEWed.+                                       %  MEMBER   +- S
+witch to a specified   member within the same                                 +
+ partitioned data set (or concatenation thereof)                              +
+ as the current member.                                           %  NEWTOP   +-
+ Specify a relative physical addres  s to be considered
++  as the top-of-data.  This is useful for looking past
++  I/O errors, end-of-file markers, and at deleted members.
++  It is also useful for directly viewing data a l  ong way
+  +  from the start without reading all the preceding records.        %  SUBMIT
+  +- Submit the file or MEMBER being[REVIEWed.+
+  +  TSO SUBMIT is invoked.
+    +  The data set must be sequential or partitioned,
+    +  and have fixed length 80-byte records.                           %  SMF O
+N   +- If SMF data is being examined, convert the record
+      +  to eye-readable format.                                          %  SMF
+ OFF  +- Undo 'SMF ON'.                                                   %  SMF
+      +- If SMF is currently on, turn it off.  If off, turn it on.        %  ERE
+P ON  +- If LOG  REC data is being examined, convert the record
+        +  to eye-readable format.                                          %  E
+REP OFF +- Undo 'EREP ON'.                                                  %  E
+REP     +- If EREP is currentl  y on, turn it off. If off, turn it on.        %
+ FORMAT   +- Format file data according to Assembler data definition
+          +  source code in the nominated member of the REVFMTS file.
+          +  VTOC entries can be formatted wi  thout the REVFMTS file.
+%  FMT OFF  +- Suspend record formatting.  Disable picture rendering.
+%  FMT ON   +- Resume record formatting.
+%  FMTVAR   +- Manually specify the data type of a data item  .
+  %  APPEND   +- Copy[REVIEWed+data starting from the first record shown
+              +  on the screen to an output file.  Data is to be appended
+              +  to any existing data in the output file.                  z
+    %  COPYOUT  +- Copy[REVIEWed+data starting from the first record shown
+                +  on the screen to an output file.  Any data in the output
+                 {            +  file will be overwritten and lost.
+                  %  PICDATA  +- Cause Assembler source statements containing pi
+cture                         +  image data to be written to a file.
+                  %    EDIT     +- Process the current data set with ISPF EDIT.
+                    %  BROWSE   +- Process the current data set with ISPF BROWSE
+.                   %  VIEW     +- Process the current data set with ISPF VIEW.
+                    %  UPDATE   +-   Process the current data set with REVEDIT,
+the fullscreen                    +  editor component of[REVIEW.+
+                      %  RTF      +- COPYOUT print files with message and ASM te
+xt coloring.          )INIT                      T
+                        )PROC
+                        )END
+                                                  )ATTR DEFAULT(%#_)
+                                                      % TYPE(TEXT) INTENS(HIGH)
+COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INTENS(HIGH)
+COLOR(YELLOW)                                           $ TYPE(TEXT) INTENS(HIGH
+) COLOR(GREEN)                                          @ TYPE(TEXT) INTENS(HIGH
+) COLOR(RED) HILITE(USCORE)                             # TYPE(TEXT) INTENS(LOW)
+  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INP  UT) INTENS(H
+IGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT) INTENS(H
+IGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INPUT) INTENS(H
+IGH) CAPS(OFF)                                        )BODY EXPAND(\\)
+                                                        %TUTORIAL#-\-\-[REVOUT J
+ob List Display#-\-\-%TUTORIAL                          %OPTION  ===>_ZCMD
+                                                       #
+ 
+                                                              .-----------------
+-----------------------------------------------------.#       | %REVOUT   TRIDJK
+                                          LINE 1 OF 2# |        | %COMMAND ===>@
+                                     %SCROLL ===>@CS # |        | $S Q JOBNAME
+JOBIDENT STATUS          STEPNAME PROCSTEP   CPU-TIME# |        | $' ' TRIDJK
+TSU32280 ON OUTPUT QUEUE                               # |        | $' ' TRIDJK
+  TSU00194 EXECUTING       LOGDED                 48.74# |        .-------------
+---------------------------------------------------------.#          | |
+                                                                       | |
+                                                                       | |
+                                                                       | +------
+%SYSOUT class (for release)#                                           +----  --
+--%Job selection code (S, P, O, C)#                               )INIT
+                                                                  )PROC
+                                                                  )END
+ 
+              )ATTR DEFAULT(%+_)
+                  % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+                  [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+                    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+                    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+                    ^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PA
+D(_)                | TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+                  )BODY EXPAND(\\)
+                  %TUTORIAL+-\-\-[REVIEW Member Selection Codes+-\-\-%TUTORIAL
+                  %OPTION  ===>_ZCMD
+                   +
+ 
+                     Code  Function
+ 
+                      %   S +Browse the member with[REVIEW.+ This is the default
+                             selection code when the cursor is placed on th  e l
+eader dot.
+                        %   /+[REVIEW+the member with the%DATA+operand.
+ 
+                          %   U +Edit the member with[REVEDIT.+
+ 
+                          %   B +Browse the member with ISPF Browse.
+                            %   E +Edit the member with ISPF Edit.
+                            %   V +View the member with ISPF View.
+ 
+                            %   D +Delet  e a member from an unconcatenated PDS
+(not PDSE).                   %   R +Restore a deleted member, or reset (untag)
+a tagged member.              %   T +Tag the member for display control purposes
+, or for                             later processing b  y SEARCH, OFFLOAD, SEQL
+OAD or DELINK.
+                                %   H +Display program history.
+                                )INIT                                 Q
+                                  )PROC
+                                  )END
+                                                           &)ATTR DEFAULT(%+_)
+                                                                % TYPE(TEXT) INT
+ENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [ TYPE(TEXT) INT
+ENS(HIGH) COLOR(YELLOW)                                           + TYPE(TEXT) I
+NTENS(LOW)  COLOR(TURQ) SKIP(ON)                                  _ TYPE(INPUT)
+INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)                       ^ TYPE(INPUT)
+INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)                | TYPE(INP  UT
+) INTENS(HIGH) CAPS(OFF)                                            # AREA(SCRL)
+ EXTEND(ON)                                                     )BODY EXPAND(\\)
+                                                                %TUTORIAL+-\-\-[
+REVIEW Gene  ral Information+-\-\-%TUTORIAL                       %OPTION  ===>_
+ZCMD                                                             ++
+                                                                  #SCRLAREA ----
+--------------------------  -----------------------------------#    )AREA SCRLAR
+EA                                                                  +
+                                                                    +The[REVIEW+
+command allows a data set or UNIX entity   to be examined at a        +3270 TSO
+terminal in full screen mode.  Both disk and tape files may be        +REVIEWed.
+  Load module members with a residence mode of ANY are shown          +in high i
+ntensity or green in the member list.  SCLM-managed memb  ers           +are fla
+gged with an equals ('=') sign in the member list.  When looking        +at file
+ data, a 'K' may be shown in the "ruler" heading line to denote         +the fir
+st and last, or only, column(s) of VSAM record keys.  On color            +termi
+nals the portion of the "ruler" line corresponding to record keys         +is sh
+own in red.  If the record format indicates printer carriage              +contr
+ol characters then an 'A' or an 'M' as appropriate may be shown in        +colum
+n 1 of   the "ruler" heading line.                                          +
+                                                                            [REV
+IEW+can format records according to Assembler data structure                +sou
+rce code supplied by   the user. [REVIEW+can also format system               +r
+elated data such as SMF records, EREP data, VTOC entries, tape                +l
+abels and load module structure and identification data. [REVIEW+             +c
+an format the directories of ZIP fil  es created by PKZIP, Info-ZIP,
++WinZIP, etc.
++
+[REVIEW+can display the history of program objects   residing in PDSE
+  +data sets or UNIX files, including compilation and program bind
+  +timestamps.
+  +
+    [REVIEW+can display pictures in 1-bit (black-and-white), 4-bit
+    +(16 colors) and 8-bit (256 colors) single-plane ".PCX" (ZSoft
+    +Paintbrush) files on a terminal with 3270 graphics capabilities.
+      +
+      [REVIEW+can display pictures in 1-bit (black-and-white), 4-bit
+      +(16 colors), 8-bit (256 colors), 16-bit (high color), 24-bit or
+      +32-bit (t  rue color) uncompressed single-plane ".BMP" (Windows or
+        +OS/2 Bitmap) files on a terminal with 3270 graphics capabilities.
+        +
+        +(Colors in color pictu  res will be coarsely rendered in 3270 colors.)
+          +
+          [REVIEW+can process a single data set or a pre-allocated file
+          +concatenation.  Partitioned files c  an be sequentialized,
+            +offloaded in PDSLOAD (IEBUPDTE-like) format, or searched for
+            +specific or picture-masked data.  Load modules can be offloaded
+            +into a sequential format, and can be delinked in  to object decks.
+              +Sequential offload files can be processed to restore members
+              +into partitioned data sets.
+              +
+                [REVIEW+can process the system PARMLIB concatenation.
+                +
+                [REVIEW+has three (3) different directory displays.  They are:
+                  +    1)%PDS+type - for a PDS, a data PDSE, and concatenated
+                  +       files of any sort of PDS and/or PDSE.
+                  +    2)%PDSE+type - for an unconcatenated program object PDSE.
+                  +    3)%  UNIX+type - for UNIX directories and files in
+                    +       hierarchical file structures.
+                    +
+                    [REVIEW+can process U  NIX files such as HFS (Hierarchical F
+ile System)           +files.
+                      +
+                      [REVIEW+allows access to, and the   saving of, data by dat
+a content,              +data beyond I/O errors and end-of-file markers, and dat
+a from                  +deleted members of a PDS.
+                        +
+                          [REVIEW+can convert ASCII data to EBCDIC.
+                          +
+                          [REVIEW+can be invoked recursively by using the TSO su
+bcomma  nd.                 +Swapping between parallel sessions allows access to
+ any nested                 +REVIEW session without requiring the termination of
+ any other                  +REVIEW session.
+                     z        +
+                              +The 'REVED' command is a way of invoking[REVIEW+a
+nd setting the                             }+default action for non-VSAM data se
+ts to edit with REVEDIT instead             +of browse with REVIEW.  Using REVED
+ with a sequential data set                 +name immediately starts a REVEDIT s
+ession.  Using REVED with a                 +  partitioned data set name alters
+the meaning of the 'S' selection              +code to mean edit (with REVEDIT)
+rather than browse (with REVIEW).             +
+                                              )INIT         0
+                                                )PROC
+                                                )END
+                                                                         &)ATTR
+DEFAULT(%+_)                                                                  %
+TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)                                 [
+TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
++ TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+_ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+^ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED) PAD(_)
+| TYPE(INP  UT) INTENS(HIGH) CAPS(OFF)
+  # AREA(SCRL) EXTEND(ON)                                                     )B
+ODY EXPAND(\\)                                                                %T
+UTORIAL+-\-\-[REVIEW Invo  king The Command Processor+-\-\-%TUTORIAL
+%OPTION  ===>_ZCMD                                                             +
+#SCRLAREA -----------------------------------------------------------------#
+)AREA SCRLAREA
+  +
+  +       [REVIEW+ 'dsname'  UNIT('unit')  VOLUME('volume')  QUICK  DATA
+  +                       TOP('rel-addr')  SUBSYS('subs  ys')  XISPMODE
+    +    or
+    +       [REVIEW+ 'filename'  FILE  DATA  TOP('rel-addr')  XISPMODE
+    +    or
+      +       [REVIEW+ 'pathname'
+      +
+      +%Required+- 'dsname'
+        +    or      'filename'  FILE
+        +    or      'pathname'  which must begin with a slash
+        +    or      no operands for "point and shoot".
+        +
+          +%Defaults+- TOP(0)
+          +            UNIT(SYSALLDA) when VOLUME is specified.
+          +
+            +%Aliases +- REV, REVEDIT, REVVSAM
+            +
+            +
+              +
+              + %Operands+-
+              +
+                + %'dsname'+or%'dsname(member)'+- The data set to be examined.
+                + %'filename'+- The DDNAME allocated to the data set to be exami
+ned.            + %'pathname'+- The path name of an UNIX directory.
+                  +
+                  +  If the first operand begins with a slash ('/') then it is d
+eemed to          +  specify an UNIX directory path, and no other operands are a
+llowed.             +  A specific UNIX file may be specified to directly access
+the data            +  contained in the file.
+                    +
+                    +  If the   first operand does not begin with a slash then i
+t is assumed          +  to be a DSNAME unless it is followed by the keyword 'FI
+LE'.                  +
+                      +  Specifying the quote  d dsname of 'FORMAT4.DSCB' and a
+VOLUME                  +  requests that the VTOC of that volume be REVIEWed.
+                        +
+                        +  Specifying the file name of PARML  IB when there is n
+o PARMLIB                 +  allocated on a OS/390 1.2 or later system requests
+that the                  +  logical PARMLIB service be used to[REVIEW+the syste
+m PARMLIB                 +  concatenation.
+                            +
+                            +  If no operands are supplied then[REVIEW+reads the
+ screen image               +  and extracts the data set name from the part of t
+he screen                     +  containing the cursor.  This works in both full
+screen and line               +  modes, but not under Session Manager which upda
+tes the screen                +  before[REVIEW+receives control.  If a data set
+name is not found               +  then normal TSO prompting is commenced except
+ for a recursive                + [REVIEW+session where a message is displayed.
+                                +
+                                +  A mem  ber name is NOT considered part of the
+ data set name for                +  "point and shoot" purposes.
+                                  +
+                                  +  A UNIX path name c  annot be processed by "
+point and shoot".                   +
+                                    %FILE     +- This keyword indicates that the
+ first operand is                   +            a FILENAME, not a DSN  AME.  Th
+is is useful for looking              +            at a temporary data set or at
+ concatenated libraries.              +            A member name may be specifie
+d in the first operand                +            after the DDNAME if the DDNAM
+E is   allocated to a                   +            PDS.  This allows you to en
+ter 'REVIEW SYSPROC(X) F'               +            to look at member 'X' in wh
+atever PDS is allocated to              +            DDNAME 'SYSPROC'.
+                                          +
+                                          +            Note that REVIEWing a con
+catenated sequential file may             +            cause unexpected behaviou
+r.                                 z        +
+                                            +            The 'FILE' operand may
+be abbreviated to 'F'.                                   &+
+                                                          %VOLUME('volume')+- Fo
+r uncataloged data sets, the volume serial.               +
+                                                          +              'VOLUME
+' may be abbreviated to 'V'.                                +
+                                                            %UNIT('unit')+- For
+uncataloged data sets, the unit type.                       +            T  his
+operand is ignored if 'VOLUME' is not specified.              +            If 'V
+OLUME' is specified the default unit is 'SYSALLDA'.           +            For d
+ata sets accessed via the catalog, the unit is                +            deter
+mined fro  m the catalog entry.                                 +
+                                                                +            'UN
+IT' may be abbreviated to 'U'.                                  +
+                                                                  %TOP('rel-addr
+')+- This specifies a relative address within the                 +            d
+ata set to be considered as the logical top-of-data.              +            '
+TOP' performs the same function as the   'NEWTOP'                   +
+ subcommand before the initial display of data.  As with            +
+ 'NEWTOP', 'rel-addr' is a 1 to 6 hexadecimal digit                 +
+ number interpreted as a TTR for disk data sets, or as                +
+   a BLOCK IDENTIFIER for tape data sets.  When 0 is                  +
+   specified or defaulted to, no special action is taken.             +
+   This operand is ignored for VSAM and subsystem data sets.            +
+                                                                        +
+     'TOP' may be abbreviated to 'T'.                                   +
+                                                                        %TTR('re
+l-ad  dr')+- Same as TOP('rel-addr').                                     +
+                                                                          %SUBSY
+S('subsys')+- For subsystem data sets, this specifies the 1-4             +
+       character su  bsystem name.  The subsystem must be active            +
+         and allow data set allocation for this to be successful.           +
+         The subsystem data set name specified may include a                +
+         member name in parenthese  s if appropriate.                         +
+           This operand is ignored if 'VOLUME' is specified.                  +
+                                                                              +
+           'SUBSYS' may be abbreviated to 'S'.
++
+%QUICK    +- This indicates that if an unquoted data set name was
++            specified then the name was fully qualified apart f  rom
+  +            the prefix (ie. no trailing qualifier has to be added).
+  +            This saves a search of the catalog to look for trailing
+  +            qualifiers which is otherwise performed unconditionally
+    +            unless the 'VOLUME' operand was specified.  This operand
+    +            is ignored if 'VOLUME' is specified.
+    +
+    +              The 'QUICK' operand may be abbreviated to 'Q'.
+      +
+      %DATA     +- This operand has several uses which, in general, mean
+      +            that contr  ol data is displayed rather than interpreted.
+        +            Specifically, this operand has seven (7) different
+        +            functions depending upon the type of data set being
+        +            REVIEWed.
+          +
+          +            1) For a VSAM component -
+          +               'DATA' indicates that control int  erval information
+            +               and DB2 tablespace structure is not to be interprete
+d           +               and that physical blocks are to be shown as-is witho
+ut          +               extracting logical records or rows.
+              +
+              +            2) For a VSAM KSDS (Key-Sequenced Data Set) cluster -
+              +               'DATA' indicates that records are to be presented
+in              +               RBA (Relative Byte Address) or physical order ra
+ther            +               than in key-sequence order.
+                +
+                +              3) For a partitioned data set -
+                  +               'DATA' indicates that the PDS directory is to
+be                +               REVIEWed as a sequential file, thereby preclud
+ing               +               acces  s to the contents of members.
+                    +
+                    +            4) For other disk files with fixed length recor
+ds -                +               'DATA' indicates t  hat direct access logic
+which can             +               speed up access to different parts of the
+file will             +               not be used.  This logic is employed by de
+fault when            +               RECFM=F, RECFM=FS, or RECFM=FBS   unless '
+DATA' is                +               specified.  It is also used when RECFM=F
+B and the               +               VTOC indicates more than 256 tracks of d
+ata unless              +               'DATA' is specified.
+                          +               (If this direct access logic is used a
+nd the file               +               does not use standard blocking, incorr
+ect line                  +               numbers and/or I/O errors could possib
+ly occur.          z        +               The 'NEWTOP' subcommand (without any
+ operand)                   +               can be used from within[REVIEW+to ma
+ke[REVIEW+                               -+               start behaving as if '
+DATA' had been specified.)                +
+                                          +            5) For a SUBSYSTEM data s
+et with a member included -               +                 'DATA' indicates tha
+t a sequential file will be                 +               allocated to the spe
+cified member only and data from            +               other members will n
+ot be accessible.  Use the 'DATA'           +                 operand if the sub
+system data set has members but the           +               subsystem does not
+ support partitioned access.                  +               (Normally, if 'DAT
+A' was not specified then data from           +               the nominat  ed me
+mber would initially be displayed,              +               but data from ot
+her members could subsequently                  +               be displayed by
+using the 'MEMBER' subcommand.)                 +
+                                                  +            6) For a ZIP file
+ 'DATA' indicates that the ZIP directory          +               will not be fo
+rmatted, but that normal sequential read          +               and display pr
+ocessing will take plac  e.  Only DASD              +               sequential d
+ata sets and UNIX files are checked for             +               ZIP format b
+y REVIEW.                                           +
+                                                      +            7) For a PCX
+(Paintbrush) file 'DATA' indicates that               +               picture da
+ta is not to be interpreted, but that normal          +               data displ
+ay processing will take place.  Without the             +               'DATA' o
+perand[REVIEW+would attempt to display the              +               picture
+image contained in 1-bit, 4-bit or 8-bit color          +               single-p
+lane PCX file.  (The 'FORMAT OFF' subcommand            +                 can be
+ used from within[REVIEW+to instruct[REVIEW+to            +               discar
+d the picture data and therefore no longer show           +               the pi
+cture image.  A subsequent 'NEWTOP' subcommand            +               could
+be   used to reactivate the image display.)  PCX            +               file
+s are recognised by data content when the first             +               reco
+rd is at least 80 bytes long.  The rendering of             +               pict
+ures is never atte  mpted when[REVIEW+is running as           +               an
+ ISPF application.                                            +
+                                                              +            The '
+DATA' operand may be abbreviated   to 'D'.                      +
+                                                                %XISPMODE+- This
+ specifies that[REVIEW+                                         +            1)
+is not to act as an ISPF application and is ther  efore           +
+  to perform terminal I/O and subcommand processing               +
+  natively; and                                                   +            2
+) is not to determine terminal capabilities from ISPF               +
+    variables but is to issue a Read Partition (Query)              +
+    itself if appropriate.                                          +
+                                                                    +
+   This operand will only affect processing in an ISPF                +
+   environment.                                                       +
+                                                                      +
+   The second   function listed above relates to detecting              +
+     the graphics capabilities of the TSO terminal.  If you             +
+     want[REVIEW+to render graphic images (pictures) in an              +
+     ISPF environment then t  he XISPMODE operand is required             +
+       so that[REVIEW+will detect that the terminal can handle            +
+       graphics.  Without this operand,[REVIEW+determines                 +
+       color, highlighting and graphics esc  ape support from               +
+         ISPF, does not perform terminal I/O for a Query, and               +
+         can therefore present non-graphic file data more rapidly.          +
+                                                                              +
+           The 'XISPMODE' operand may be abbreviated to 'X'.                  +
+                                                                              )I
+NIT
+)PROC
+)END
+             \INMR06

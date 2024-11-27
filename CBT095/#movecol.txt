@@ -1,0 +1,14 @@
+  PREP: MOVECOLS       &
+%           +           _                  +       >              ZCMD        _
+-  &%EDITMAC  -------------------- MOVECOLS MACRO ------------------------- TUTO
+RIAL &%COMMAND ===>_
+     +  +  +THE%MOVECOLS+MACRO IS USED TO MOVE COLUMNS WITHIN A DATASET.  +  +US
+E:  +FIRST ON THE LINE NUMBERS OF THE DATA SET INDICATE A RANGE OF THE LINES  +C
+ONTAINING THE COLUMNS TO BE MOVED WITH  RANGE INDICATORS "SS"  TO "SS"  +OR "SNN
+"  (NN BENG NUMBERS).  THEN ON THE COMMAND LINE TYPE IN MOVECOLS  +AND THE START
+,  STOP  AND  DESTINATION  COLUNM  NUMBERS.  +  %COMMAND ===> MOVECOLS 6 9 30 &+
+***************************** TOP OF DATA *************************************
+ %        &SEP  +SS0001  DATA LINE 1  +000002  DATA LINE 2  +SS0003  DATA LINE 3
+  +  %RESULT:  %        &SEP  +000001  DATA  1                      LINE  +00000
+2  DATA  2                      LINE  +000003  DATA  3                      LINE
+  &SEP  ----+----1----+----2----+----3----+----4----+----5----+----6----+----7

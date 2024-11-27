@@ -1,0 +1,51 @@
+)ATTR
+  ! TYPE(TEXT) COLOR(WHITE) HILITE(USCORE)
+  } TYPE(TEXT) COLOR(YELLOW)
+  [ TYPE(TEXT) COLOR(RED)
+  ] TYPE(TEXT) COLOR(WHITE)
+  { TYPE(NT)
+  @ TYPE(ET)
+  # TYPE(DT)
+  $ AREA(SCRL) EXTEND(ON)
+)BODY CMD( ) WINDOW(60,20)
+$S1                                                       $
+)AREA S1
+]         .------------------------------------.
+]           \                                /
+]             \                 [/]        /
+]               \              [/]       /
+]                 \           [/]      /
+]                   \      #oOOo]    /
+]                     \    #oOOo]  /
+]                       \   #oo] /
+]                         \    /
+]                          |  |
+]                          |  |
+]                          |  |
+]                          |  |
+]                          |  |
+]                          |  |
+]                   ------------------
+]                      }PDS@Command
+]                      @Born on!1972]
+]
+)INIT
+  &ZUP = P86BIRTH
+  *Rexx(ZSTDYEAR,PDSAGE,RMD,RM2D,ORDINAL)
+    pdsage = zstdyear - 1972
+    rmd  = Right(pdsage,1)
+    rm2d = Left(Right(pdsage,2),1)
+    ordinal = 'th'
+    If rmd = '1' Then
+      ordinal = 'st'
+    If rmd = '2' Then
+      ordinal = 'nd'
+    If rmd = '3' Then
+      ordinal = 'rd'
+    If rm2d = '1' Then
+      ordinal = 'th'
+  *EndRexx
+  &ZWINTTL = 'Happy &PDSAGE&ORDINAL Birthday'
+  &ZCMD = ' '
+  &CMD = ' '
+)END

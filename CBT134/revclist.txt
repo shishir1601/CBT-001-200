@@ -1,0 +1,239 @@
+$\INMR01      &      REVNODE      REVIEW      NODE      USER      201401
+            \INMR02          IEBCOPY        Vs                        &
+                        REVIEW  REVIEW  CLIST \INMR02          INMCOPY        Vs
+                "4                   \INMR03        Vs               &         {
+  _      &            "8    Vs                                      \  i Q iZ
+ (   (
+ 
+ 
+                              REVTAPE   GUESS#           b ^ b ^        GREG
+  RANDOM           b ^            GREG      REVINIT                         GREG
+      REVLISTC           ?   ?        GREG      REVOUTJB
+GREG      REVTAPE          g     i          GREG                              RE
+VUSPDS           ^            GREG      UBOAT            b ^ b ^        GREG
+ 
+ 
+                                 (      /* )STARTHELP
+                                00010000/* )F FUNCTION -
+                                00020000/*    GUESS# GIVES YOUR KIDS SOMETHING T
+O DO WHEN ACCOMPANYING          00030000/  *    PARENT TO DATA CENTER. TEACHES B
+INARY SEARCH STRATEGY AND         00040000/*    ALGEBRA OF INEQUALITIES.
+                                  00050000/*    OBJECT: TO GUESS A RANDOM NUMBER
+ 0<N<101 IN FEWEST POSSIBLE TRIES.00060000/* )X SYNTAX -
+                                    00070000/*    GUESS#
+                                    00080000/* )O OPERANDS -
+                                    00090000/*    NO OPERANDS
+                                      00100000/* )ENDHELP
+                                      00110000/*
+                                      00120000ERROR GOTO STUPID
+                                        00130000SET &BG EQ 0
+                                        00140000REPEAT: +
+                                        00150000SET &TG EQ 0
+                                          00160000SET &LH EQ 101
+                                          00170000SET &HL EQ 0
+                                          00180000SET &Y EQ 0
+                                            00190000SET N EQ 1
+                                            00200000DO WHILE &N LE 2
+                                            00210000  SET &X EQ &SUBSTR(8,&SYSTI
+ME)                                         0022000  0  SET &Y EQ &STR(&Y)&STR(&
+X)                                            00230000  SET M EQ 1
+                                              00240000  DO WHILE &M LE 50
+                                              00250000    SET M EQ   &M+1
+                                                00260000  END
+                                                00270000  SET N EQ &N+1
+                                                00280000END
+                                                  00290000SET &Y EQ 1+&Y
+                                                  00300000WRITE I'M THINKING OF
+A NUMBER BETWEEN 0 AND 101                        00310000GUESS: WRITE WHAT'S YO
+UR GUESS?   &HL   < NUMBER < &LH                    00320000READ &G
+                                                    00330000IF &DATATYPE(&G) NE
+NUM THEN +                                          00340000DO
+                                                      00350000  STUPID: WRITE &G
+ IS NOT A NUMBER, STUPID.                             00360000  GOTO GUESS
+                                                      00370000END
+                                              +         00380000  SET &TG EQ &TG
++1                                                        00390000DO WHILE &G =
+&Y                                                        00400000WRITE YOU GUES
+SED IT IN &TG TRIES.                                      00410000IF &TG EQ &BG
+THEN +                                                    0  0420000WRITE THIS E
+QUALS YOUR BEST PREVIOUS GUESS.                             00430000IF &TG LT &B
+G THEN +                                                    00440000DO
+                                                            00450000WRITE   THIS
+ IS &EVAL(&BG-&TG) BETTER THAN YOUR PREVIOUS BEST OF &BG TRIES00460000  SET &BG
+EQ &TG                                                        00470000END
+                                                              00480000IF &TG GT
+&BG AND &  BG NE 0 THEN +                                       00490000WRITE YO
+UR BEST PREVIOUS GUESS WAS &BG TRIES.                           00500000IF &BG E
+Q 0 THEN SET &BG EQ &TG                                         00510000WRITE WO
+ULD YOU LIKE TO PLAY AGA  IN? Y/N                                 00520000READ &
+ANS                                                               00530000IF &AN
+S EQ Y THEN GOTO REPEAT                                           00540000EXIT
+                                                                    00550000END
+                                                                    00560000DO W
+HILE &G LT &Y                                                       00570000  IF
+ &G GT &HL THEN SET &HL EQ &G                                         00580000
+WRITE GUESS HIGHER.                                                   00590000
+GOTO GUESS                                                            00600000EN
+D
+DO WHILE &G GT &Y
+  IF &G LT &LH THEN SET &LH EQ &G
+  WRITE GUESS LOWER.
+  GO  TO GUESS                                                            006500
+00END                                                                     006600
+00 {     (             (     &PROC 1 DIG
+                      00000100/*
+                 */   00000200/* THIS IS YOUR BASIC PRIMITIVE RANDOM NUMBER GENE
+RATOR.           */   00000300/  * USED BY "UBOAT" AND "GUESS#".
+                   */   00000400/*
+                   */   00000500SET &Y EQ 0
+                        00000600SET N EQ 1
+                          00000700DO WHILE &N LE &DIG
+                          00000800  SET &X EQ &SUBSTR(8,&SYSTIME)
+                          00000900  SET &Y EQ &STR(&STR(&Y)&S  TR(&X))
+                            00001000  SET M EQ 1
+                            00001100  DO WHILE &M LE 120  /* ARBITRARY - ALLOWS
+TIMER TO RUN FOR A WHILE.   00001201    SET M EQ &M+1
+                              00001300  END
+                              00001400  SET N EQ &N+1
+                              00001500END
+                                00001600EXIT CODE(&STR(&Y))
+                                00001700     (             (     {PROC 0
+                                                                  /*   CLIST TO
+ALLOCATE THE REVIEW/RFE PROFILE DATA SET FOR MVS/370 ONLY         SET PROFDSN =
+&SYSUID..REVPROF                                                  I  F &SYSDSN('
+&PROFDSN') = OK THEN ALLOC F(REVPROF) DA('&PROFDSN')                ELSE DO
+                                                                    CONTROL NOMS
+G                                                                   FREE ATTR(PR
+OF  ATTR)                                                             CONTROL MS
+G                                                                     ATTR PROFA
+TTR RECFM(F B) LRECL(80) BLKSIZE(2960)                                ALLOC F(RE
+VPROF) DA('&PROFDT SN') NEW USING(PROFATTR) DIR(10) SP(2 2) TR          FREE ATT
+R(PROFATTR)                                                             END
+                                                                             (
+           (     -PROC 1 DSNAME USERCAT
+                  CONTROL NOPROMPT
+                  SET SYSOUTTRAP = 300
+                  L  ISTCAT ENTRIES('&DSNAME') ALL
+                    IF &USERCAT = USERCAT THEN +
+                    LISTCAT ENTRIES('&DSNAME') ALL CATALOG('&DSNAME')
+                    SET SYSOUTTRAP   = 0
+                      SET CATLINES = &SYSOUTLINE
+                      SET N = 0
+                      LOOP: SET N = &N + 1
+                        IF &N > &CATLINES THEN END
+                        SET CATMSG = &&SYSOUTLINE&N
+                        REVCATCH &STR(&CATMSG)                  f
+                          GOTO LOOP
+                               (             (     {PROC 0 JOB()
+                                                    CONTROL NOPROMPT
+                                                    SET SYSOUTTRAP = 300
+                                                    S  T &JOB
+                                                      SET SYSOUTTRAP = 0
+                                                      SET JOBLINES = &SYSOUTLINE
+                                                      SET N = 0
+                                                        LOOP: SET N = &N + 1
+                                                        IF &N > &JOBLINES THEN E
+ND                                                      SET STATMSG = &&SYSOUTLI
+NE&T N                                                    REVOUTST &STR(&STATMSG
+)                                                         GOTO LOOP
+                                                               (             (
+    PROC 1 DSN VOLSER(REVIEW) UNIT(TAPE) LBL(BLP) FSN(1) PTF                0001
+0000CONTROL NOFLUSH                                                         0002
+0000/*                                                                      0003
+0000/  *  CLIST TO SEE WHAT IS ON A TAPE VOLUME.                              00
+040000/*                                                                      00
+050000/*  UNLESS AUTOMATIC VOLUME RECOGNITION IS EXPLOITED, USERS WITHOUT THE 00
+060000/*  MOUNT ATTR  IBUTE WILL NOT GET VERY FAR.  CATALOGUED TAPE DATA SETS
+00070000/*  CAN BE REVIEWED DIRECTLY WITHOUT THIS CLIST.  UNCATALOGUED
+00080000/*  STANDARD LABELLED DATA SETS CAN ALSO BE REVIEWED DIRECTLY WITHOUT
+00090000/*  THIS CLIST BY SPECIFYIN  G UNIT AND VOLUME ON THE COMMAND, ONLY AS
+  00100000/*  LONG AS THE FILE SEQUENCE NUMBER IS ONE (1).  THIS CLIST CAN BE
+  00110000/*  USED TO REVIEW TAPE LABELS AS WELL AS TAPE DATA FILES.
+  00120000/*
+    00130000/*  IN THE EVENT OF ANY ABNORMAL TERMINATION WHICH FLUSHES THE CLIST
+,   00140000/*  REVFILE WILL NOT BE FREED, SO PLEASE ENSURE THAT YOU DO NOT
+    00150000/*  UNNECESSARILY HOG A TAPE DRIVE.
+      00160000/*
+      00170000IF '&LBL' = 'SL' OR '&LBL' = 'AL' THEN GOTO NOATTR
+      00180000IF &PTF =   THEN ATTR REVATTR DSORG(PS) BLKSIZE(32760) RECFM(U)
+        00190000   ELSE ATTR REVATTR DSORG(PS) BLKSIZE(7200) RECFM(F B) LRECL(80
+)       00200000ALLOC FILE(REVFILE) DA(&DSN) USING(REVATTR) UNIT(&UNIT) LABEL(&L
+BL)  -  00210000      VOLUME(&VOLSER) POSITION(&FSN) SHR REUSE
+        0022000  0FREE ATTR(REVATTR)
+          00230000GOTO REVIT
+          00240000                           /* USE DCB INFORMATION FROM TAPE LA
+BELS. */  00250000NOATTR:  -
+            00260000ALLOC FILE(REVFILE) DA(&DSN) UNIT(&UNIT) LABEL(&LBL)  -
+            00270000      VOLUME(&VOLSER) POSITION(&FSN) SHR REUSE
+            00280000REVIT: REVIEW REVFILE FILV E
+              00290000FREE FILE(REVFILE)
+              00300000END
+              00310000     (             (     {PROC 3 SUBCMD PROGRAM DSNAME
+                                                CONTROL NOPROMPT LIST
+                                                SET SYSOUTTRAP = 2000
+                                                P  DS '&DSNAME' &STR(&SUBCMD) &S
+TR(&PROGRAM)                                      SET SYSOUTTRAP = 0
+                                                  SET PDSLINES = &SYSOUTLINE
+                                                  SET N = 0
+                                                    LOOP: SET N = &N + 1
+                                                    IF &N > &PDSLINES THEN END
+                                                    SET PDSMSG = &&SYSOUTLINE&NT
+                                                      REVCATCH &STR(&PDSMSG)
+                                                      GOTO LOOP
+                                                           (             (
+/*                                                                 */
+/* EXERCISE IN 3-DIMENSIONAL BINARY SEARCH.                        */
+/*                                                                 */
+/  * NOTE: REQUIRES "RANDOM" TO BE INSTALLED IN SYS2.CMDPROC         */   000400
+00/*       OR EQUIVALENT                                             */   000500
+00/*                                                                 */   000600
+00SET &N EQ 7 /*   OPTIMUM VALUE */                                         0007
+0000WRITE YOU ARE THE CAPTAIN OF THE DESTROYER USS KLUDGE.                  0008
+0000WRITE AN ENEMY SUB HAS BEEN REPORTED IN YOUR AREA.                      0009
+0000WRITE YOUR MISSION: DESTROY   IT BEFORE IT DESTROYS YOU.                  00
+100000WRITE SPECIFY DEPTH CHARGE EXPLOSION POINT WITH A TRIO OF NUMBERS       00
+110000WRITE SEPARATED BY BLANKS OR COMMAS. E.G. 51,0,99                       00
+120000WRITE THE FIRST NUMBER REPRESENTS COORDI  NATES SOUTH-NORTH 0-99.
+00130000WRITE THE SECOND NUMBER REPRESENTS COORDINATES WEST-EAST 0-99.
+00140000WRITE THE THIRD NUMBER REPRESENTS THE DEPTH. 0 = SURFACE, 99 = BOTTOM.
+00150000WRITE YOU ARE SEARCHING A 100 X 100 X 100 CUBE.
+  00160000GOODLUCK: WRITE GOOD LUCK.
+  00170000WRITE
+  00180000RANDOM 2
+    00190000SET &A EQ &LASTCC
+    00200000RANDOM 2
+    00210000SET &B EQ &LASTCC
+    0022000  0RANDOM 2
+      00230000SET &C EQ &LASTCC
+      00240000SET &I EQ 1
+      00250000DO WHILE &I   LE &N
+        00260000WRITENR SHOT #&I.. =>&STR( )
+        00270000AGAIN: +
+        00280000READ &X,&Y,&Z
+          00290000IF &X-&A EQ 0 AND &Y-&B EQ 0 AND &Z-&C EQ 0 THEN +
+          00300000DO
+          00310000WRITE BOOM! YOU FOUND IT IN &I TRIES.
+            00320000REPLAY: WRITE ANOTHER GAME? Y/N
+            00330000READ &YN
+            00340000IF &YN EQ Y THEN GOTO GOODLUCK
+              00350000EXIT
+              00360000END
+              00370000SET &P EQ &STR()
+      +         00380000SET &Q EQ &STR()
+                  00390000SET &R EQ &STR( AND )
+                  00400000SET &S EQ &STR()
+                  00410000IF &X GT &A THEN SET &P EQ NORTH
+                  0  0420000IF &X LT &A THEN SET &P EQ SOUTH
+                    00430000IF &Y GT &B THEN SET &Q EQ EAST
+                    00440000IF &Y LT &B THEN SET &Q EQ WEST
+                    00450000IF (&P   EQ &STR() AND &Q EQ &STR()) THEN SET &R EQ
+&STR()                00460000IF &Z GT &C THEN SET &S EQ TOO LOW.
+                      00470000IF &Z LT &C THEN SET &S EQ TOO HIGH.
+                      00480000IF &Z EQ &C THEN SE  T &S EQ DEPTH OK.
+                        00490000WRITE SONAR REPORTS SHOT WAS &P&Q&R&S
+                        00500000SET &I EQ &I+1
+                        00510000END
+                          00520000WRITE YOU HAVE BEEN TORPEDOED! ABANDON SHIP!
+                          00530000WRITE THE SUBMARINE WAS AT &A, &B, &C..
+                          00540000GOTO REPLAY
+                            00550000 {     (       \INMR06

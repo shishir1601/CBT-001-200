@@ -1,0 +1,112 @@
+//***FILE 008 now contains the jobs used by Sam Golob to create     *   FILE 008
+//*           this tape.  This stuff (in Arnie's time) used to be   *   FILE 008
+//*           part of File 001, but was taken out by Sam Golob for  *   FILE 008
+//*           lack of space.  Also, the jobs at the Connecticut     *   FILE 008
+//*           Bank used different JCL than we now use.  So we are   *   FILE 008
+//*           now re-inserting our JCL on the CBT Tape here in      *   FILE 008
+//*           File 008, so you can get an idea about how this tape  *   FILE 008
+//*           was created.  Load modules for the programs found     *   FILE 008
+//*           in this JCL can be found on the member LOADLIB, in    *   FILE 008
+//*           TSO XMIT format.                                      *   FILE 008
+//*                                                                 *   FILE 008
+//*       >>  Description of creating the tape and reloading        *   FILE 008
+//*       >>  its files to the www.cbttape.org web site:            *   FILE 008
+//*                                                                 *   FILE 008
+//*           After the tape has been created, using the jobs       *   FILE 008
+//*           NEWT488*, it was then unloaded to disk, using the     *   FILE 008
+//*           jobs V488J** and the pds'es converted to TSO XMIT     *   FILE 008
+//*           format using the jobs V488X**.  All the files are     *   FILE 008
+//*           then FTP'ed to the PC.                                *   FILE 008
+//*                                                                 *   FILE 008
+//*           For zipping, I use WinRAR (the authentic version      *   FILE 008
+//*           from their web site www.rarlab.com).  And then I      *   FILE 008
+//*           FTP all the zipped files to the www.cbttape.org       *   FILE 008
+//*           web site.                                             *   FILE 008
+//*                                                                 *   FILE 008
+//*           Several tape copying and tape mapping programs        *   FILE 008
+//*           are used, as described in the rest of the NEWT488*    *   FILE 008
+//*           jobs.  The program load modules for these, have       *   FILE 008
+//*           been supplied, in the member LOADLIB.                 *   FILE 008
+//*                                                                 *   FILE 008
+//*           - - - - - - - - - - - - - - - - - - - - - - - - - -   *   FILE 008
+//*                                                                 *   FILE 008
+//*           Other materials included here:                        *   FILE 008
+//*                                                                 *   FILE 008
+//*           Member CBTSTATS (dated CBT Version 320) contains      *   FILE 008
+//*           some of Arnie's old job stats, which he recorded for  *   FILE 008
+//*           his own records.  The information in this member      *   FILE 008
+//*           contains the (clock time) length of his runs, exact   *   FILE 008
+//*           footages, and record counts, etc.  I don't want to    *   FILE 008
+//*           leave it out.  Arnie Casinghino forged the spirit     *   FILE 008
+//*           of this collection, and dedicated his every extra     *   FILE 008
+//*           effort to its continuance.  I had a very big act      *   FILE 008
+//*           to follow, in trying to maintain and enhance Arnie's  *   FILE 008
+//*           work of 15 years.  Arnie definitely set the tone.     *   FILE 008
+//*                                                                 *   FILE 008
+//*           Arnie's data on this file extends through Version     *   FILE 008
+//*           320 of this tape.  Arnie supported this tape through  *   FILE 008
+//*           Version 321.  After that point, the management of     *   FILE 008
+//*           the CBT Tape was taken over by me (Sam Golob), in     *   FILE 008
+//*           Sept. 1990.  My first tape version was Version 322.   *   FILE 008
+//*                                                                 *   FILE 008
+//*           - - - - - - - - - - - - - - - - - - - - - - - - - -   *   FILE 008
+//*                                                                 *   FILE 008
+//*           I kept the tape up across an assortment of jobs,      *   FILE 008
+//*           and also through the kindness of several data         *   FILE 008
+//*           centers, all of whom are owed a big "thank you".      *   FILE 008
+//*                                                                 *   FILE 008
+//*           VERY VERY special thanks go to the late Gilbert       *   FILE 008
+//*           Saint-flour, who left us too soon.  Gilbert was       *   FILE 008
+//*           solely responsible for providing a work platform      *   FILE 008
+//*           to support the making of this tape, for at least      *   FILE 008
+//*           5 years.  And when I was working at an MVS site       *   FILE 008
+//*           in one company, the lines were always open to         *   FILE 008
+//*           Gilbert's machine so that everything could be         *   FILE 008
+//*           preserved and none of the material got lost.          *   FILE 008
+//*           BTW this was with written permission from that        *   FILE 008
+//*           company.                                              *   FILE 008
+//*                                                                 *   FILE 008
+//*           More thanks........                                   *   FILE 008
+//*                                                                 *   FILE 008
+//*           Also, big thanks have to go to Scott Sherer and       *   FILE 008
+//*           NaSPA, for contracting to duplicate the tapes after   *   FILE 008
+//*           I made the first one.  This went on for almost ten    *   FILE 008
+//*           years, until we started the www.cbttape.org website   *   FILE 008
+//*           at the end of 1998.  NaSPA's support began in 1989,   *   FILE 008
+//*           when Arnie was still making CBT Tapes at CBT.         *   FILE 008
+//*                                                                 *   FILE 008
+//*           Even before Arnie's shop lost their tape drives,      *   FILE 008
+//*           Scott and NaSPA were already duplicating tapes        *   FILE 008
+//*           at Deluxe Check Printers.                             *   FILE 008
+//*                                                                 *   FILE 008
+//*           Arnie's "Connecticut Bank & Trust" data center        *   FILE 008
+//*           got rid of their tape drives in 1990.                 *   FILE 008
+//*           (We had about 1 1/2 years' advance warning before     *   FILE 008
+//*           we were obligated to completely switch over).         *   FILE 008
+//*                                                                 *   FILE 008
+//*           Even more special thanks go to Sam Knutson, who       *   FILE 008
+//*           started the website, paid for it himself for a while, *   FILE 008
+//*           administers it, and so forth.  The fact that he put   *   FILE 008
+//*           it on a reliable provider with much redundancy and    *   FILE 008
+//*           almost no down time, is a great boon to someone who   *   FILE 008
+//*           is doing an IPL of a new system during off hours,     *   FILE 008
+//*           especially on a Sunday.                               *   FILE 008
+//*                                                                 *   FILE 008
+//*           If some tool breaks, while you are installing a new   *   FILE 008
+//*           version of MVS, you can hunt around on our site for   *   FILE 008
+//*           a newer version of what broke, and the hour doesn't   *   FILE 008
+//*           matter.                                               *   FILE 008
+//*                                                                 *   FILE 008
+//*           Many big pats on the back go to Sam Knutson. THANKS!  *   FILE 008
+//*           (For a lot of other stuff he does, too, and for his   *   FILE 008
+//*           continued enthusiasm.)                                *   FILE 008
+//*                                                                 *   FILE 008
+//*           More thanks go to the many contributors of material.  *   FILE 008
+//*           THE ENTIRE COLLECTION DEPENDS ON ALL OF YOU.......    *   FILE 008
+//*                                                                 *   FILE 008
+//*           Other thanks go to people who insisted that I not     *   FILE 008
+//*           be able to make one penny from this endeavor.  It     *   FILE 008
+//*           has certainly kept the spirit of the CBT Tape up,     *   FILE 008
+//*           and the costs down.  All the best of everything to    *   FILE 008
+//*           all of you.  (I mean it.)  You know who you are.      *   FILE 008
+//*                                                                 *   FILE 008

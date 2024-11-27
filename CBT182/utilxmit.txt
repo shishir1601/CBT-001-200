@@ -1,0 +1,1120 @@
+ \INMR01      &      N1      SBGOLOB      A      A      20140401183528
+  \INMR02          IEBCOPY                                                   {
+              SBGOLOB  FILE182  UTILXMIT \INMR02          INMCOPY
+           "4                   \INMR03                         &         {  _
+     {           "8    Vs           $   &                         r\& 5     b
+e     5
+ 
+ 
+                         BLK3330  2BLKDISK              S  h h   q      o  BLK23
+051             S  h h   q     BLKDISK    o  BLK23052             S  h h   q
+ BLKDISK    o  BLK2314              S  h h   q     BLKDISK    o  BLK3330
+      S  h h   q     BLKDI  SK    o                            BLK3380   BLK3330
+1             S  h h   q     BLKDISK    o  BLK3340              S  h h   q     B
+LKDISK    o  BLK3350              S  h h   q     BLKDISK    o  BLK3375
+    S  h h   q     BLKDISK    o  BLK3380                S  h h   q     BLKDISK
+  o                  COMPAREB  BLK3390              S  h h   q     BLKDISK    o
+ BLK9345              S  h h   q     BLKDISK    o  COBANAL             BS
+ h     COMPARE             BT        h     COMPARE$              BT        h
+ COMPARE   COMPAREB             S        h                 DSAT      COMPAREC
+         BT        q         COMPAREW            BT        q         DELINKI
+         BT        h     DISASM               S a      h     DISKMAP
+    S        q     gk  DSAT                BT  8 8   q     ko
+                 FSHELP   6DSATNEW             BT    h   q         DVOL
+        S  8 8   h     DVOLO                S  0 0   q      o  DWNSPDSR
+   C3          h     FSH                 BT  -     h     REVIEW    FSHELP
+       BT  -     h     REVIEW                          OFFLOAD  YHEL
+     BT  -     h     REVIEW    MINIUNZ              S &  y   h     MINIZIP
+        S  Y     h       MXI                 BS        h     OFFLMOD
+ BT        h     OFFLOAD              S        q      l
+             PDSMATCH  OFFLOADW             S        q     OFFLOAD    l  PDSLOAD
+              S        q      l  PDS  LOADN             S        q      l  PDSLO
+ADW             S        q     PDSLOAD    l  PDSMATCH             S        q
+                                                   REVCAT   YREBUILD
+  2        h     RELEASE             C2        q        o  RELEASEO            C
+3  Y Y   h     RESOURCE             S  - -   h     REV                 BT  -
+ h     REVIEW    REVCAT              BT        h
+         REVOUT   8REVED               BT  -     h     REVIEW    R  EVIEW
+       BT  -     h     REVLEV              BT  -     h     REVIEW    REVLMOD
+         BT        h     REVLPDS             BT        h     REVOUT
+ BT  -     h     REVIEW                        VTOC     8REVSMF               T
+   q     h     REVTOCRD            [S        h     REVVSAM             BT  -
+ h     REVIEW    REV38               BT [{     h     REVIEW    RFE
+   BT  -     h     REVIEW    VTOC                BT [H     h
+               V  TOCUTIL             S  8 8   h
+ 
+ 
+                                                    b              BLKDISK
+  4BLKPCL     8    BLK9345         BLK3390   q    BLK3380   y    BLK3375   
+   BLK3350   H         b
+                                                            5
+ 
+                                                 b         566528408   l       b
+        d     566896201   l       b                     h   8           b     h
+00  BLKDISK  }    {    H &}     }  &}   ~     0   00 n 0    <N 0        0 *  E
+0   \]  0]0K   0      \      N   G    dK  @  K { Fq  { K     K       {q&     F &
+     {m&   K      0   02       ]0  {m 0  $0F     2      0 K|   &  u      n
+     Ez 0   \]  0]0P {s{s 0  $0F    :     0 K|   &     Fu }    E  0   \]  0]0n 0
+ N   {v    N   {u   :   } :  F  0G          00 ! F  0    {s 0  $0F    o     0 K|
+   &  y 0  $0F          0 K|   &      @                i    ;     -  $ F  }  !-F
+yN   {u    N     {v        n  t    .   !                 n       !&F  0   3.0G
+ *\Hm \{si\     \F N   {v   + \F       \ n      +  o {w! F & -  \  j {w   +    !
+ F &     -                   DB 0   \]           i       $ F & -  \      ! F &
+   -                   DB 0     \]           i         DB 0   \]           i
+      0 +   \      ! F &   $&F                !!&F m"{w&&-  0 M    F  0   \]
+     i       N   {u   h    G N   {v   q    H &&{<h&  &&{&   u      Ez 0   \]  0
+               F      \            F    u &     -  $&Fy }  !-Fy 0  ! F !  u  F
+     -  }    -     &    0  K {P     u+   K { {J  {9  k={9n {     K { {  0      +
+   K A {M  A   k=A n A    =K A A  0 %  {P 0   \]   A  0   \]   A  0   \]   F  }
+ K+C C    u+   K C {J  C   +   K C {J  C   +   K C {J  C       <  w* F ! {&) {<+
+   K C G   C     C  0   \]   F       {y! F{   } [  i         F  }      FD }
+0    F         i         <  w&       <  w&       $ F  }    i          }  K+C C
+ F         <  w     }      <  w&     <  w+   K C {J  C         K C G +   K   C {
+J  C       +   K C {J  C   <  w* F ! {&) {<+   K C G   C     C  0   \]  0   ^ y
+     A  0   \]  |     &                  F         )  u     b  E  0   \]  0
+\          +   K Ay{J  Ax  +&  K A {   A     A  0   \]           !&F +&  K AJ{
+ A}             Y!&F +&  K AT{   AS                !&F +&  K A8{   A7    A} 0
+\] n        0    E  0   \]  0  K    u    +   K E {J  E     E  0   \] n       N {
+ F       A  0   \] N { {    :K B^      +   K Bd{M  Bc  k=Bcn Bd   {K BdBe 0    B
+^ 0   \]   Bh 0   \]   BG   0   \] K+C C    -{ ! F +   K C {J  C    &- +&  K C {
+J  C     +&  K C {J  C     * F ! {&) {<+   K C G   C     C  0   \] $-Fy  F    0
+ A  0   \]       .   [   n      sn       n       n         FH 0    F  0    F} 0
+   FM 0  +   K C {J  C   k=C n C    \K C   C  0      <   +   K Cd{J  Cc  k=Ccn C
+d    K CdCe 0    +   K Cl{I  Ck  k=Ckn Cl    K ClCm 0    C  0 & \]     +   K Cz{
+J  Cy  k=Cyn Cz   %K CzC  0 !    +   K C {M  C   K C C n C    mK C C     +   K C
+G{J  CF  k=CFn CG    K CGCH 0     -k  t \  +   K C {M    C   K CRC n C     K CRC
+     k  t \  +   K C {M  C   K CWC n C     K CWC   Cs 0 . \] n     ]8    +   K C
+ {   CZ    A  0   \]   CZ 0   \]  0]8 \ d   0  <0G                @     0     h
+0   0   0   0   0   0   0   0   0   0   0  n  t   D.0  !0   0 0   0     0      n
+  t } W$ FQ      *\F )\F\!0FUn  t    $0FQ    ! F  0 +        !0FY  )\F *\F    0!
+0FY  )\F *\F  1!0F0 0          !0F4  )\F *\F    0!0F4  )\F *\F  1!0F8 0
+    h / \ u   - \ u  [&G   * F  5q    0    !&G   ) G       [&G   * G   !&G   ) F
+     +  O[&G [&G              4 / \    [ G  - \    [&G   * F  5q    0    !&G   )
+ G         [&G   * G   !&G   ) F       [&G                    ! 0   \ dn    =
+  \ d     t  G     }         f        0   0  &    0   00Y \0 q }  \}  \ d      j
+ {w = 0 h               0{    0  De 0   \] k   o {wq\ d  j {w =   h =q  h | &  D
+  0   \]         i         &\{ K|B F   i     B $0G K B    0]   { ! F & {    @  ]
+   B       ]8 0]y  {  \   0    {q \    B  0   01  \{ &\  k \ k \ & \ k \   j {q
+ ]0 \{     +0  K E {M  E   k=E n E   ]OK E E  0]D   0]S        ]   D1  ]\ ) 0
+0]    }}  \} q }   K B   ABCDE123  456    # # #  9345   9345          q2
+-1      :   Y230522305-2    -   $  2314   2314    H     =3330   3330    m     _3
+33013330-1          _3340   3340      2 .  3350   3350         . 3375   3375
+       3380   3380      Q   -3390   3390           Vs
+  Y
+                                         f
+ 
+ 
+ 
+            ,   ,   ,   XXXXXX BLOCKSIZE SUMMARY;    LRECL 123456    KEY LENGT
+H 123             BLOCKSIZE    BLOCKS/TRACK    LRECLS/TRACK    UTILIZATION
+      ---------    ------------    ------------    ----------- FOR BLKSIZE 12,34
+5  AND 1,234,567 RECORDS, ALLOCATE: 1,234,567 BLOCKS, 1,234,567 TRACKS, OR 1,234
+,567 CYLINDER  S
+                    XXXXXX TRACK CAPACITY;    KEY LENGTH 123        BLOCKS/TRACK
+     BLKSIZE     BYTES/TRACK     UTILIZATION       ------------     -------
+-----------     -----------
+                             DEVICE SUMMARY: MAX BLOCKSIZE 12,345   TRACKS 12,34
+5   BYTES 1,234,567,890  NOCYLS 1,123   TRKS/CYL=2    TRKSIZE 12,345   DSCB/TRK=
+2    PDS/TRK=2   1,234,567 CALLS WERE MADE   TO COMPUTE TRACK CAPACITY; 34 IS TH
+E BASELINE NUMBER*** VERIFICATION ERROR, COMPARE R2 & R3 WITH R4 & R5; CORRESPON
+DS TO R15 & R0*** VERIFICATION ERROR, DEVICE NOT GENNED ON YOUR SYSTEM ***.*** T
+RKCALC RESULTS UNEXPECTED, CHECK TABLE ****** PUTLINE ERRO  R, R15 123 *** RECOR
+D SIZE 12,345 DOES NOT FIT ON A TRACK*** 32,760 IS THE MAXIMUM ALLOWED RECORD SI
+ZE*** YOUR BLOCKSIZE IS NOT A MULTIPLE OF YOUR LOGICAL RECORD LENGTH*** NULL REC
+ORDS ARE NOT SUPPORTED*** THE MAXIMUM LEGAL KEY LENGTH IS 255 CHARACTERS*  ** TH
+IS DEVICE NAME IS NOT SUPPORTED*** PROGRAM ERROR, LOOK AT R2 AND R3
+                                                                            8
+                   "8       Y                                       k
+\                     Y                PDSCALL    . % RECOMMENDED-->   !@ {S
+          h   [    _;% , ,K, , ,%,[, ,    F   h           B       \   s   ;
+    B   = *     6     b -       Q       @     0                     H w
+;     K     % [     H :+        8 O   k   O h   [     U B   =       o :       2
+}     +     Y F   h             B   = *         6     o         =     2 }     |
+    o       Y F u b -                 >           y f |   f         S {   @ S Q
+  m   &     0   o k   +     Y F   h | -       Q               W D s   ;     H
+s   ;     8 O     d         \     :   8       h   [     U         o :       2
++     Y F   h     Y   B   = *     6   B   o         2 }         |       Y F u }
+F u b -                             6 -     2 }     |              m
+LRECL  LOGICAL RECORD LENGTH           KEYLENGTH               RECORDS V
+   NUMBER V           BLKSIZE        -    TRACKCAP-    NOTRACKCAP      -    VERI
+FY  Um            KEY LENGTH  THE RECORD KEY LENGTH   m            NUMBER OF REC
+ORDS  THE NUMBER OF RECORDS FOR AN ALLOCATION COMPUTATION   m     |        BLOCK
+SIZE TO USE  THE BLOCKSIZE TO USE FOR AN ALLOCATION COMPUTATION   {     b
+                                        b             b              COMPARE
+     COMPRPCL             b
+ 
+ 
+                                                   b         5695PMB01     |   |
+     b              569623400     |     b        h    | COMPAREW/51010FB5/FD7500
+0002     b                                     b       00  COMPARE     01/24/03
+10.41  0
+                                    }    0        j       j     ~    &      &}
+& }  J  } P        3   O 0  COMPAREB& 0          & }}          2q }  \}      h
+~    j 1   h        h       ~ P 0 0  01   ~     ~[   0~ P 0 0   ~ &}  & }  R&
+ 0 dK 0   K 0       & 0 P        m& 0  0  j 1  \~k 01  0~s           0 00 &0   0
+j K 0  dK 0     j & 0  0  K 0   K 0       & 0 P         & 0    @& 0 K   0   & 0
+   0  j 2  \s  02    0s  0 &  s  0s IKJPARS & 0       s    0     \   0[m   @k l
+K l l K l*l K lhl K l lh    j             l  0     0sbK l 0   s@ &j K &     l &
+& j     s      0     0s K & 0   s K lh& j     s      0     0s K & 0   sMo &    *
+j       t     j     t         t  0     0t K & 0   t    <j     t         t  0
+ 0t K & 0   t  0t&  & K &    0tuK j4l  \t  0j4    k  jU  jU      tu      l K l
+j4n     to.     tf  l  0tu       \ Q     HK m & K n &.j &.  u n &   u K m[& K &
+  K &    \ Q     HK   m &  -m8K -  dK - &   mmP     k   m0     &/       j -  \
+[mK n  uK n m[    n          |  mmP     k      &/                 j
+    [m  l! 0     0u K l*0   uf &j K &     l!& & j     uH     0     0u K & 0   u
+K l & j     u         u  0     0u K   & 0   uUo &     j     v         v  0     0
+v K & 0   v     j     v[        v[ 0     0v K & 0   v  0v   & K &    0v K j4l* \
+t  0j4    k  jU  jU      v       lgK l*j4n     v .     v   l! \ Q     HK m & K
+n &.j &.  x K m[& n lh  vKn &   x n &   wqK m[lh -  m8K -  dK - &   mmP     k
+m0     &/       j -  \[mK n  uK n m[    n          |  mmP     k      &/   
+        K j j K &   K & m  \ QK j j K l lhK & lhK &  h \ Q     HK m &  0x K m[&
+K &   K &    \ Q     HK m &  -m8K -  dK - &   mmP     k   m0       &/       j
+-  \[mK n  uK n m[    n          |  mmP     k      &/             N l l*  x N
+lhl   x   m  \x K       m  \x N       x          \   0x  0   00  00  00  00 n 0
+  N 0     xw    0  10  0xh  0   n     ykK &   K &  4k & k & o &  \ Q     HK m &
+   -mqK^-   K - m   mmk   m0  o      &/       j -  \[mk o K+o o K o  4    o
+ 7    k mm  mm   &/         j     yk   7   \0     y j 0   yko         0  \0
+    j 0  \y         0   n     y K &   o &  \ Q     HK m &  0z n     y K &    \ Q
+     HK m &  0z   n     z K &  y \ Q     HK m & k l  0z n     z    %j     z
+ 0  K m      0z K m 0   z k l  0z   l  0lQ&0   0l0&0  o    \   \0 K     P m m K
+lQ yK l   K l\   \   \\ [\\ N \     zqK lU\ k*lU \zDn     zy \  n     z  \  &\lY
+ \\&&\l  0  TEXT=.     BUFF=10  24  MBRHDR=COND
+              MODE=SYS, F=06, MBRHDR=COND BUFF=1024, DATA=(CSECT,ADCON=NO)
+              DATA       BUFF=1024  MAXDIFF=5,CONTINUE
+               0 &    & 0   &0      [  0         0[     j  0  j 2  \ 4 02    0
+ 0 &     0  IKJDAIR & 0    Y  &\j   l &0l{ 0l{&0   0j &0    &0lD 0lD&0   0   0lH
+ 0lH&0  &    0 &   * 0  IKJEFF18& 0    0l{ \j      \   \\  0\           n 0
+j 0     N 0        \   \\  0 =   \           \   0[m \   0[m+  0m[ \ hK 0    00
+  m[     \   0[m 0m[ \ s 0 Q 0m K 0  O 00   m[     \   0[m  +0   0m[ \ hK 0    0
+0 k 0 3 0  +o00 n00     K 0 0 k 0 n00     K 0 0 k 0  00   m[     0  n*m   [  \[
+ 0   0[   l    0 qK 0 l    k 10     l!   0  K 0 l*     10    j P  u uP     K  m
+   \  &\ u \  &\ y \ \\  0  N       [  \\ k 0  00  \   \ \ 0[ K 0    \[      d 0
+   \ m&\  k \ k \    u& \   qj    j P     K  m   \ \\  \   \ \ 0[ K      \[
+ d 0   \ m&\  k \ k \     & \   qj    0   0[        @i   h       [  \
+  i\  h\      [ n m   [WK &   K & m  \ Qn m   [ K &   K & m  \ Qn m     K &   K
+& m  \ Q  n m     K &   K & m  \ Qn m     K &   K & m  \ Qn m     n l     K &
+K & m n l    >kA&  \ Qj          q       QK j      d \j &\  k \  0  j 1Q \     Q
+   0     0 H   {    IKJSTCK                ; 2   }} &0}    h      q }   SYSDA
+ 
+ 
+ 
+      PARSE ERRORYOU ARE COMPARING A D  ATA SET TO ITSELFIKJ58509I DATA SET NAME
+ REQUIRED WHEN MEMBER IS SPECIFIEDUNABLE TO ALLOCATE    IKJPUTL SYSALLDA
+NEWDD   COMPAREXIKJPUTL                 PDSE     IS A PARTITIONED DATA SET     I
+S NOT IN THE DATA SET       COMPARE TYPORG=PSPDSCALL   COMPARE RETURN CODE IKJ
+                                      DYNAM      &
+ &                                                    DYNAM
+                      A                                                  "
+  OLD DATA SET NAME       FIRST (OR OLD) DATA SET NAME        NEW DATA SET NAME
+      SECOND (OR NEW) DATA SET NAME           OUNIT             NUNIT m
+  OVOLUME D           NVOLUME        -    PRINT-    SYSOUT     OUTFILE  -    NOP
+RIN  T      -    IEBCOMPR-    ZEBCOMPR      -    FULL      -    LOAD-    VSAM
+    ASM-    ASM-    NOASM  lm    <       UNIT  UNIT NAME FOR OLD DATA SET  Cm
+         UNIT  UNIT NAME FOR NEW DATA SET  9m    *       VOLUME  VOLUME SERIAL F
+OR OLD DATA SET   > m            VOLUME  VOLUME SERIAL FOR NEW DATA SET  /m    %
+       OUTFILE FILENAME  OUTFILE FILENAME        {     b
+                   b             b              DISASM          DISASM1
+DISASM2   <{         b
+ 
+ 
+                                              b         5695PMB01
+b        d       569623400           b                                 b
+}                     &   &J   J         0  DISASM   A      {    0   s       u
+          INVALID PARM, SPECIFY ONLY SUPVR AND/OR FLTPT               i       N
+{ (     N { (     k  % 0 0N { (     N { (     N { (      0 YN { (     k  %k  _
+   8   D               D               <                  j [        o    k  |
+.    <   7       0 *             0      &                 &  d&  hk   !   &
+   q   -      &   &  mk   !  q&  q                &  -K     &   !   &   K  O(:k-
+ F    K  F         -                          &/   0   70      8 \     7\   n -
+         0 0    n -    kn -    kn -    k    n -    kn -    kn -    k    n -    k
+n -    kn -    k 0 0j      > rj      0k  n 0 B&    h g- j -    Bo   j -    K F
+ 0   F   F{     h      rN   {       [          W 0         8k   &/   0   70
+ 8 \     7\    r    $     !   !            9j -     o   &       k0  K  O< k- F
+  K  F       f       f   m w          N -       N -          q   b        2   -
+m   n       k   K   - m      {  h{       {    k+  j -    8k-      - $        {
+    K    H {      K  N HK   <<n      bK   <&n      bK   < n      bK   (pn      b
+K   <sn      bK     K   (  {     \K  S IK     o0  K  1   {     4K  5 HP      0
+ 0      <0 F!0 d 0 h    K   0 K   0 K     K   < n       K     < n       K   < n
+      K   < n       K   < n       K   < n       K   < n       K   < n       K
+< n       K   <{    N         N             j -    h w                   kk   &
+ m     9&        -           9&  u   h w   f  h               K   - K   -   m
+K   - m   K   - j -  \  j -     K   <FK   - K   - K   -  t  K     K   < n
+K   < n       K   < n       K   < n       K   < n       K   < n       K   < n
+    K   < n       K  R< n       K  R(  {     \K    H {     \K  S H {     4K  V H
+ {     \K      Hn       n        {      K  2 H 0   {     4K  8 H {      K    HK
+  (uj       K   (xK   ( j       K   ([j       K   ( K   ( j      %K   ( j
+n      dn       N        qK      0  n       N         j       K  O<H 0  o   K  O
+< K     K     K           !   &                2  &   .  y  &
+    k   &  h   u 9&  y  .                       j            1h0  i0
+j      >    j  !   :    K  =  j           j  !   uj            0  j            1
+h0  i0       D    K  :  j      O 0  j    !    K    |K  ?  K  G< K  S      K  J<W
+ { <   4K    H    K  J<4 { |   \K  T H    K  J<  {     \K    Hj      <K  9(
+K  J(  {     4K  T H    K  J({ {     4K    H    K  J(R {     \K  S H    K  J(  {
+ !    K    Hj  !    K  V< j  !   HK   < j  !   OK   <%  j  !   UK  4< j  $   2K
+ 9( j  !    K   < j  !    K   < j  $    K   <@    K  J(7 { *   4K    H    K  J+
+ { ^    K  Y H    K  J+  { /   4K    H    K  J+  {     \K    Hj       K  V< j
+   qK  9+     j  !    K  J<  {      K  R H    K  J(  {      K  T H      K  J(  {
+ ,    K  T H    K  J+  { _    K  Y H    j       K  J<  { ?   4K    H    K  J+ K
+ S      j       K  J+  { :    K    H    K  J(  { "   \K    H    K  J+?    j
+ b            K  P(     K  P([    K  J+ j       K  P(     j      OK   ( k0 F
+K   +    0     y 9j   3  H{  0  3  H{  0  3  H{  0  3d H{ L  H     H   9j .m \ @
+    .    F   7    K  G       Kn  F   -     Kn0 F   -     Kn- F   -8    Jk  F9
+ L     9k1 F8    J 9 0 f             G   d ) 9  [    7     {          n      B
+   {   0  K          {      n      4n,     4           B 0 &             {   0
+n       K                {        n              0 &N        ! 9K  G   0  K  G
+ 0  K  G   0  K  G   0  K  G   0  K  G   0  K  G   0   0 o             G   m )
+                    i        - d    n -     n -    8N -      8N -      8    K -
++a     0   -  n -     N -                      0  <       h   <             &
+&     &    -     dN  /           /$         - kL-  {-    4kA- K -  H    &-  n
+    N   +a         0     G  ${   G- K -   kL-     &-   0 s    n       N
+n       n            0 Kn       kW-  0  kV- K -     K -   K -       &-   0 4n
+   4kL-    G  !{  K - { n      =K - { n      =K - { k - n      =P - - K - {    G
+- ${     4 G-  {-    4kA- K -  Hk - K - - k -     kA-  0  K -      0         M 0
+ Q   8 0 H  n  >   }K  F      K  F       -   -       {-    4K    G HK  }- K  L-
+n -      {-    \K    H         0   {     0 &   -   <  {   k1 FK  9+d    k0 F
+     {     4K  G HK          <   }            K    H     h     o h         o
+     r  &           k1 FK|    K     K  #+p   ;       dn       N   +a           0
+ 6K  #+ K  a     ;     0   { d 0            {      0    <{   & 0     8 0     0 m
+K| V  j [@       B(>3    Bo0 A  [<       7    K|     9 0  K  #+~   ;     { &n {
+    K   { K  #+w   ;      { n            0  K     K  #+ K  a{    hn          0
+  k+          +  83  8  o0     {    K    8     0 |   B    K    9     0 |   D   !
+K          0 |     |K         k,        +  83  8  o0     B   mK    8 0     D   w
+K    9 0  K        ;         0  K  #+ K  a     ;       U       <              q
+}                      <
+ 
+                                                            1
+ 
+ 
+                                   -                                     Y
+                g
+ 
+                                      0     SYMBOL        TYPE   IND  ADDR    SE
+G  LRID   LENG  ESDID  RSECT  AMODE  RMODE
+                            0     RELPTR  POSPTR      TYPE     LEN    DIR   ADDR
+ 
+          1***** PHASE 1 LABEL TABLE *****
+                                                     0  ADDR TYPE  SYMBOL  LEN
+ 
+ 
+                      +                                                    01234
+56789ABCDEFMEMBER AN  D CSECT MUST BE ENTERED VIA SYSINMEMBER OR CSECT NAME OVER
+ 8 CHARACTERSNO MEMBER NAME FOUND IN CONTROL CARD OR PARMSPECIFIED MEMBER NOT FO
+UND IN SYSLIB PDSSPECIFIED CSECT NOT FOUND IN MEMBERSYMBOL TABLE FULL: OVER 4000
+ ENTRIESRLD TABLE FULL: OVER 3000 E  NTRIES     ................................
+................................ ...............................................
+................................................................................
+.ABCDEFGHI.......JKLMNOPQR........STUVWXYZ......01  23456789......
+                          SYSPUNCH  &&                               &
+                                          SYSIN
+     &                                                {   SYSLIB
+                                                                m   SYSPRINT   &
+ 
+   QLOADLIB                                             PAGE ALIGN REQRDSCTRLEN=
+  ***** RLD INFO *****ACONVCONNULLALIAS INDIC=RENTREUSOVLYTESTSCTREXECREFRE.P. A
+DDRESS OF THIS MEMBER=PRDISPUNRESOLVEDLRSDERPCPRCMWXE/STAB??????  ??**DIRECTORY
+INFO FOR MODULE TTR OF MODULE=CONCATENATION NBR=TTR, 1ST TXT RECD=OLTRANSLATE TB
+L LEN=ESD ID OF   1ST TXT=AUTH CODE=***** REAL MEMBER DIRECTORY INFO *****  SUPV
+RFLTPT*** EXTERNAL SYMBOL TABLE ***PRCUM??: ??: YESNO ANY31 24 *** ALIAS ***TTR
+OF NOTE/SCATTER LIST=NBR NOTE ENTRIES=ATTRIBUTES 1=TOTAL LENGTH=LENGTH OF 1ST TX
+T RECD=E. P. ADDR=ATTRIBUTES 2h =SSI PRESENTESD ID CONTAINING E.P.=REAL MEMBER N
+AME=SSI INFO=AMODE=24 RMODE=24 ******** T E X T *****CSECTENTRYREQU DSECTEQUEND
+      o{     b     h                       5                           [       H
+       M               &   N   R                      &       R       Z
+   b        }                     &   &J   J         0  DISASM1     n &      {
+n {     j {    *P { {      0  n &      {  n {     j {    fP { {      0   { Un {
+    j {    yP { {      0 k          k   & &*& &-    & &   &                S  k
+  & & & &&      & &   & j         &    7    K|&:      k0  k1& K &R Y    K|& &:
+  N &:     WN &c $    N &:      N &: -    K     k & m &      0  n &       &%K
+& K       &*n      O  & K     kL  k   kA   {      K     k       & & K          0
+    &*n        0   {&- {&         &     &         &g    &g     O  &     &      \
+nP&    !nD&       & n      4N   &k   &     0  K {    0    &k    &k      2 & &kK
+{ & 2 & & K { & 2 & &gK { & j {    OnD&    yN { &    OK { & K { & N { {
+k { &{&- 9K      0  K    : 0  K      0  K        0  K    y 0  K      0  K      0
+  K    Ak { k &  9 % 4n &     K  X&i  &i    &i     QL   & N        S -&  -&
+K - & kU- 2 & & 9 &      Q|{&  {- 2 & &iK - &     K     & &    -&  -&    6nA-
+ BN -  W   BK -        0 s 0 6K    M 0 2K    h 0 2K        0 2K    uk & q% 4 9&
+  n &:    L   &iN          {&& {&     K { &:2 & &i| &     <             {     &{
+&&k {  A    | &   &    7    K|&:  K|& &:n &:    K { &:kL{ L   &cN         2 & &c
+9 &  |    | &   { L   &hN         2 & &h9 &       | &         {     k {
+ ;K {        9K      0  K      0  K      0  K      0  k &      9  &"    &"     @
+  &f    &f     f2 & &"2 & &fN & &       &%K   & K   &     & &% 9K      0 oK
+ 0 oK    Zk &  9 -& K &<&   &<  &      G${& &{  N            S {  N   {     N
+{  } D      &{   0   -&     N   -  }           0  j &|   DN        D          n
+      nC     D         D h g  <    h  K     n      Dn      h   Un      DN
+ d h   0 | h  K      {   G      <0      n 0     n       n({     n {     n      K
+n      Dj0   \ D 0                 <\      n \     n {     n({     n {     n {
+    n {    Dj0{  \ D {   G {${& ]G-     N   -    DnL-    Dn      ;         0  n
+          K &c  K     K     k   K     K     j       n      y 0           Y 1   0
+ 6 0 0 0   0 o 0 u 0 2 0   0   0 0 0   h 0   0 \ 0 6 0 6 0 6 0 D[   & &<K      0
+ wj       j      Dn       n       j      D        h   2 &     & h        D 0 yj
+      j       j0      n      Dn      Dn      Dj      D 0  j       j       j0
+  n      Dj      D 0  j       j       j0      j        Dn &    yj       j0     y
+n      Dnk     Dj      D 0 yj      yj0     D 0 yj      Dn       n       j      D
+n       j      Dn       n       n       n      yj      y 0 Dn &    qj0     qj
+   Dj0     yj      yj      Dj      yj      y 0 DK|&: _n       N     -    U     0
+           6kC   0  kX  n                   nC      j       j       n      < 0
+n      <     0 <N             & &< 0 wk   K     K     N   -              dkC   0
+  kX   0  nL-         N   -     nL-          0  K   -     -         -  #& &<
+       0 wk   k   P     K      9          j           j           j            0
+  n       n    i  nb   i  nl   i  n       N         n    i  n    i            j
+     k    j      k    j      k     0             0  nh     {n      {j    i   9
+          j     +       j           j            0                      K  0 Y&
+ Y 0  K  Y 0       [           0        h                 K  0 Y&  Y 0  K  Y 0
+   [2 &       & h   n0          h        0  n=         \n       N              0
+ m 9   9    K  0 Y&  Y         0  K  Y 0       [ 0   9k   P     K       &*n    i
+N        &o   N         N          &K      0 &N         K           <       K
+  o        0 6j         h   <       nP      i   h             &   &    s      &
+  &   &     kA   {      K     k   kL  n      0n      0n      0n      0ng     0nf
+        ! &     j{               0                & &    Y 9 -&       &
+ -&      0  N -          SN -       K      0 SN -       n -    @k - N -        0
+ *N -      ynL-    SnU-    * 0 SnU-     nL     * 0 SnU      nL-    SK &:- K -
+K   &: 0       0   -& n -      -&          0  &-&  9     -&    -&     nU-     kL
+-      0  K &  _    q }     3   {  0  3   {  0  3   {  0  3d  { L          6 9
+& j    \    &    7    K &  _  &   n &    B  &   n0&    B  &   n-&    B8 &   k &
+9 &      K 9k1& 8 &    9     B   D   w
+    00000000
+ 
+ 
+ 
+                 Y     %  %
+                                                                    A
+    0123456789ABCDEF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      END BEFORE BEGININVALID DECIMAL LENGTH COL 23-25INVALID OFFSET COL 10-13IN
+VALID LENGTH COL 15-18DATAOVER 256 USING CARDSINVALID HEX OFFSET COL 16-21LABEL
+TABLE OVERFLOWINVALID NAME COL 1-8INVALID NBR FIELDS COL 16-19*** USER ENTERED C
+ARDS   ***INVALID BEGIN COL 7-12INVALID REG COL 211ST OFFSET INVALID HEX2ND OFFS
+ET INVALID HEXUSINGDSECTULABLUNIDENT OR OUT OF SEQINVALID END COL 14-19INVALID A
+DDRESS COL 25-30UNDEFINED DSECT COL 25-32INVALID TYPE COL 23INVALID NAME COL 7-1
+4END OFFSET BEFORE   BEGIN                                                  SPM
+      BALR      BCTR      BCR       SSK       ISK       SVC       BSM       BASS
+M     BASR      MVCL      CLCL      LPR       LNR       LTR       LCR       NR
+      CLR       OR        XR      +   LR        CR        AR        SR        MR
+        DR        ALR       SLR         LPDR      LNDR      LTDR      LCDR
+HDR       LRDR      MXR       MXDR      LDR       CDR       ADR       SDR
+MDR       DDR       AWR       SWR       LPER      LNER      LTER      LCER
+HER       LRER      AXR       SXR       LER         CER       AER       SER
+  MER       DER       AUR       SUR       STH       LA        STC       IC
+  EX        BAL       BCT       BC        LH        CH        AH        SH
+  MH        BAS       CVD       CVB       ST        LAE
+    N         CL        O         X         L         C         A         S
+    M      &  D      &  AL        SL        STD
+                                  MXD       LD        CD        AD        SD
+      MD        DD        AW        SW        STE
+                                              LE        CE        AE        SE
+      ME        DE        AU        SU        SSM                 LPSW
+      WRD         RDD       BXH       BXLE      SRL       SLL       SRA       SL
+A       SRDL      SLDL      SRDA      SLDA      STM       TM        MVI       TS
+        NI        CLI       OI        XI        LM        TRACE     LAM       ST
+AM
+ 
+          STNSM     STOSM     SIGP      MC                  LRA
+                              STCTL     LC  TL                          CS     &
+  CDS    &            CLM       STCM      ICM
+ 
+                                                                MVN       MVC
+    MVZ       NC        CLC       OC        XC                  MVCK      MVCP
+    MVCS      TR        TRT       ED        EDMK
+                                                      MVCIN
+                                                        SRP       MVO       PACK
+      UNPK                                              ZAP       CP        AP
+      SP        MP        DP                                PR          UPT
+    SIO           SIOF        TIO         CLRIO       HIO         HDV         TC
+H       u VAE       v VAER      w VMXSE       STIDP       STIDC       SCK
+  STCK        SCKC        STCKC       SPT         STPT        SPKA        IPK
+      PTLB        SPX           STPX        STAP        RRB         SIE
+PC          SAC         CFC         SERVC       IPTE        IPM         IVSK
+    IAC         SSAR        EPAR        ESAR        PT          ISKE        RRBE
+        SSKE        TB          DXR           CSCH        HSCH        MSCH
+  SSCH        STSCH       TSCH        TPI         SAL         RSCH        STCRW
+      STCPS       RCHP        SCHM        BAKR        STURA       MSTA        PA
+LB        EREG       [ESTA       .LURA       <TAR   +      (CPYA       +SAR
+   |EAR         MVPG        IESBE       MADS          SQDR        SQER        LG
+ND       aLGNE       bEXPD       cEXPE       dLGCD       eLGCE      U VLI
+V LASP      V TPROT     V MVCSK     V MVCDK        EXCP/XDAP      WAIT/WAITR/...
+ POST           EXIT           GETMAIN        FREEMAIN       LINK             XC
+TL           LOAD           DELETE         GET/FREEMAIN R TIME           SYNCH
+        ABEND          SPIE           ERREXCP        PURGE          RESTORE
+   BLDL/FIND      OPEN           CLOSE          STOW           OPEN TYPE J    CL
+  OSE TYPE T   DEVTYPE        TRKBAL         LOCATE, ETC    OBTAIN         'RESE
+RVED'     SCRATCH        RENAME         FEOV           ALLOC          IOHALT
+     MGCR/QEDIT     WTO/WTOR       WTL            SEGLD/SEGWT    'RESERVED'
+LABEL            EXTRACT        IDENTIFY       ATTACH         CIRB           CHA
+P           OVLYBRCH       TTIMER         STIMER         DEQ            'RESERVE
+D'     'RESERVED'     SNAP/SDUMP     RESTART        RELEX          DISABLE
+  EOV            ENQ/RESERVE      FREEDBUF       RELBUF/REQBUF  OLTEP          (
+E)STAE/STAI   IKJEGS6A       DETACH         CHKPT          RDJFCB         'RESER
+VED'     BTAMTEST       'RESERVED'     SYNAD...       BSP            GSERV
+    ASGNBFR, ETC   'NO MACRO'     SPAR            [DAR           .DQUEUE
+<IFBSTAT       +LSPACE        |STATUS         SETPRT                        SMFW
+TM         GRAPHICS       DDRSWAP        ATLAS          DOM
+     $VOLSTAT       *TCBEXCP       )TGET/TPUT     ;STCC            ^SYSEVENT
+  -STAX          /IKJEGS9G       PROTECT        DYNALLOC       IKJEFFIB       QT
+IP           AQCTL (TCAM)   XLATE          TOPCTL (TCAM)  IMGLIB        ,MODESET
+       _ESR TYPE 4    >DSTATUS       ?'NO MACRO'     PGRLSE         PGFIX/P  GFR
+EE/. EXCPVR         ESR TYPE 1     DEBCHK         TESTAUTH       GETMAIN/FREEMA
+VSAM          :ESR TYPE 2    #PURGEDQ       @TPIO          'EVENTS        =MSS I
+NTERFACE "                             a              bRACHECK       cRACINIT
+    dRACLI  ST       eRACDEF        f              g              h
+ iESR TYPE 6     PGSER (XA)     CVAF...       H              PCICS(HPSVC)   QCIC
+S(CSVC)                    TMON CICS     0              1              2CA-7
+      3              4                5CA-11         6              7CA-1 (X)
+   8CA-1 (Y)      9
+                             JES3 SDF              {     b                <{
+       q                   b        }                     &   &J   J         0
+DISASM2     n &      {(hn {     j {    *P { {      0  n &      {(hn {     j {
+ fP { {      0   {  n {     j {    yP { {      0 k -& K &<&   &<  &      G${& &{
+ uN [? v         {& N  v{     N  v{    }      &{&  0  N  v-  }      K &:- K &c<8
+k*&iK &v<        0     0  j &|    N             .    %n       nC b        .
+ h g  <    h(hK (=  n (=    n (c        n       N          h   0 m h  K (=  K
+(g {   G      <0    (hn 0     n      *n      *n(       *n       n       j0   \
+ 0 *             <\    (hn \    *n {    *n {    *n({    *n {     n {     j0{  \
+   {   G {${& ]G-    KN  v-     nL-     n           N - (g   yn -    y     0  K
+&:- K  m-  o    N -      *           0 *n           K &c  K    vK       k   K
+  K     j (d    n (e     0 q           1   0   0   0   0 { 0   0   0   0   0 8 0
+ ! 0   0   0   0   0 :K   &: 0  N &: S    .-&  0             0[   & &<K   (f 0
+j (e   Uj       n       n      Uj               h   2 &     & h          0  j (e
+      j      %j0     %n       n       n (c    j        0 %j (e   <j      %j0
+ %n (c    j        0 %j (e   %j      %j0     %j       n &     j (e    j0      n
+(c    nk      j        0  j (e    j0       0  j       n       n      Mj       n
+(c    j       n         n       n       n       j        0  n &     j0      j
+    j0      j       j       j (d    j        0  K|&: Sn       N  v-          0
+    .    fkC   0  kX  n  b   %   m       m    K         &   nC b   Uj       j
+   Mn  n     0  n  n         0    N  m          & &< 0  k   K  q uK    SP  d dK
+   SK  m[$   d&   N  v-         .     kC b 0 kkX b 0 knL-    bK   - K  a-     N
+ v-     nL-    b.-&          0  K  b-     -    m     rK  d  K   -     -  #& &<
+       0  &  <N    S    N  a n    &-   -        K    S -  n      Mn  n   MP
+nW b    K &c< K &i         0kA bK &c<BK &i bk'& K &:  K    rk   k   K    n   m
+    K    dnC b    nX b    j       j  n    j       n  n    N  d[$    K &i<  0 H
+ d      <m    K &i<D+ & 3 & & o0& k'&  0 H   d         SK &i  <q 0 H  <F    + &
+o & K &i<H3 & & k'&  0 HK &i<    m      K &  d  & k'   0 HN    S    n  n       %
+n  n    n  n    K & <  0  K & <  0  K & <} 0    &  0    & k(  K         n      k
+   fk)   0 HK &i<K { d     { mi{   { {  K & [e  & k'{  0 H           0k   K
+ Sk  bP  d dK    SP  m mK   [$K  q[$   < 9n       n       j       K &v(  0  K &v
+(  0  K &v<M 0      <S   [          h   + & o & 3 & & kR&i       @K & &   &  0 f
+K & &   &   <S    n      sj        9  K   <U2 & 0    0& h0  +0& o & 3 & &  0
+ OK   &  9  K   &  9n       K &v( j\      K &v(       h   + & o & 3 & & kR&i
+    K & &  0&  0  K & &  0& k,0 2 &       & h        ]   b    K 0  y     9n
+ dn    i  nb   i  nl   i  n      wN   [$   wn    i  n    i       ]   [    K &i y
+     9     ]   [    K &i   y  & k,0     .     nn     6nk      K 0 < K 0   k'0
+   9K 0 <K {     !K 0 [ek'0      9n       nq     [K &v<  0 [K &v(       h   + &
+o & 3 & & kR&i       @K & &  0&  0 fK & &  0& nh     sn      sj      8 9  K 0 <U
+n]      n        02 &       & h   + & o + & 3 & &         K 0 &      0 8K 0 &
+  k,0      ]   [    K 0  y     9             ]        K &i y  & k,0          [
+  K 0  y     9      h        ]       ,K &i y  & k,0       2 &       & h   n0
+  j (e           xK 0  y     9   [    K 0  y  0 2 &       & h   + & o & k,0 3 0
+&         3 0 &  0  j0     O          h   n       n         j       j      Sj
+    + & o & 3 & &        !K &i&  0&  0  K &i&  0& k,0 n      q2 &       & h
+   ]   b    K 0  y 0  kR0   2 &     & h   + & o & 3 & &         K 0 &  0  K 0 &
+ 0  n       K &c(  0&h 0 qK &c(  0&h 0  n       K &c(  0&hn      qK   &v<y 0 qK
+&c(  0&h 0       9       =   !   M   h   K   k   }     0         w   D       F
+     H   D 0  K &c<W 0  K &c(  0  K &c(< 0  K &c(| 0  K &c(  0  K &c<Y 0  K &c<
+ 0  K &c<  0         =       w 0                         K       }     0     H
+       F   & 0  K &c<  0  K &c(  0  K &c(  0  K &c($ 0  K &c<0 0  K &c<2 0  n=
+        n       N        d     0   9  K &v        + & o & 3 & &         K &i&  0
+ H       BK &i&  0 HK &i&  9           ]   [    K &i y  & k,0          [    K 0
+ y     9 9 9&   K   &:- K &c<8k*&in -  }   r  - + & 3 & & o0&        <K & &  0
+       ;K & &  0  K & & k,&        0     9&  *              h      O   w   Q   w
+K &v(; 0  K &v(,   % 0    i   h   + & o & 3 & & K  y S       YK  y&      0
+    K  y&      0          K  y&        0  K  y&    zk(  j (e        + & o & 3 &
+&         K   &      0          K   &      0  K   &     K   <Uh   + & o & 3 & &
+        K   &      0  K   & n0      K    S 0      k)   ~$      * 9K  y{
+n      W    ]~{     k(  + & 3 & & o0&         K     &      0          K   &
+ 0  K   &     k)   ~$    { %   * 9&                 n      %nh      h      O
+   Q    K &v(; 0  K &v(,   % 0 *  i   h   + & o & 3 & &        FK  y&      0
+      K  y&      0         2K  y&      0  K  y&    zK   <4h   +   & o & 3 & &
+      K   &      0  K   &     k)    .  HN   <    &K    S   ~$        9K  y{
+n            ~$    { %     9&        F             Fn      Fh      O   {   Q   {
+K &v(; 0 FK &v(,   % 0 M  i   h   h   + & o & 3 & &         K  y&      0
+    K  y&      0          K  y&      0  K  y&    z               0 HK   (      0
+ oK   <4+ & o & 3 & &         K   &      0  K   &          DK   <U+ & o & 3 & &
+        K   &      0 DK   &     k)   ~$        9K  y{     n                 k(
++ & 3 & & o0&           K   &      0  K   &     k)   ~$    { %     9  & K|& &:j
+        & <63 &B& o0&I  &:   7    K|&: S 9j [  i     -  h{  <{[   [ n {    S  i
+  h     {     nP{    D  ]p{     N { [,   S     0     {& ]p{          {&    S 0
+q  - 9  q  - 9  & j    \      &    7    K &  S  &   n &       &   n0&       &
+n-&     8 &   k & 9 &  \   + 9k1& 8 &    93 [e{  0 =3 [e{  0 =3 [e{  0 =3d[e{ L
+[e[$  [e[  9&  &  & n       n       n        {     >K & [e {     !K &P[e {
+n       n       n      2K & [e 0  K & [e 0    K & [e 0  K & [en        {      n
+      n       n       K &[e 0  K &V[e 0  K &V[e 0  K &V[eP        & 9K [?[,k [
+&   K . [,  [ n      UN   [$    N  v      K &c< kR&i   {  +{& 3 & & o0&  {     H
+K & &  0  K & &        0P          0 @  &*n       N  v    +   o [ N  v      N
+[?    K [?   0  N   [?    K [?        < [   [ o [ N           K     K &c( nD
+   G    &   &&   b]G     :   0 b     0  K &i{  {& n {    q {      K { <U      +
+& 3 & & o0&        HK { &  0  K { &        0 0  N    v   0k*&i {&  0  kA&i {
+ >K & [e {&  0       0 Y     9        q }            [      &
+ 
+                                                                 <   Y
+ 
+                                                               0123456789ABCDEF
+ 
+ 
+ 
+   IKJEFFIB       QTIP           AQCTL (TCAM)   XLATE          TOPCTL (TCAM)  IM
+GLIB        ,MODESET         _ESR TYPE 4    >DSTATUS       ?'NO MACRO'     PGRLS
+E         PGFIX/PGFREE/. EXCPVR         ESR TYPE 1     DEBCHK         TESTAUTH
+     GETMAIN/FREEMA VSAM          :ESR TYPE 2    #PURGEDQ       @TPIO          '
+EVENTS        =MSS INTERFACE "                               a              bRAC
+HECK       cRACINIT       dRACLIST       eRACDEF        f              g
+      h              iESR TYPE 6     PGSER (XA)     CVAF...       H
+ PCICS(HPSVC)   QCICS(CSVC)                    TMON CICS 7     0              1
+             2CA-7          3              4              5CA-11         6
+        7CA-1 (X)      8CA-1 (Y)      9
+                                                 JES3 SDF        {     b
+                     Y       0   4     b             b              RELEASE
+   8RELEAPCL   8         b
+ 
+                                                             v
+                                                  b         566528408   k
+b        d     566896201   k       b                     Y   8   0       b     Y
+ 00  RELEASE     04/29/92 14.15    H  }       {   {    j    {       &}  & }  R&
+l- 0 @K 0   K 0       & 0 P         & 0  0  j 1  \{  01  0{    y     0 00 &0   0
+  K 0   K 0       & 0 P        8& 0     & 0 P     K 0   & 0      \      N    Y
+{  8K l      0  j 2  \A  02    0A  0 &  A  0A IKJPARS & 0       A          \IQo
+j6 0 \        j     A      \     0A 2   \   A |   & l K j   n     A     j     A
+     \     0AsK j \   A o j6    m j6    j     AK         \IQo j6 0H k jqK jrjq
+    jq \     0A4  K j \   A K jFjqj     C j j6  B    0    0  0B K j 0   B  1j k.
+0  00  \jF \ 0B K 0 jH \B   \   jq 0C  0 @ \jd&\0 P \ \   jq& \ o \ K \   k \
+ @   0  j 2\ \Bo 02\   0B  0 &  Bs 0B IKJEHDEF& 0     B  0C  0H  0B  0H  0B  0B\
+ 0C  0C  0C  0C  0C K k    0k    \jq  \    0B K k \   B8 10 K 0         k  \IQ 0
+H          \IQ 0H                      \      C  \  n     C  0   70 N 0 j   C
+       \IQ 0H   j K     K         &   K      0j &0  P 0 0 k 0   jq& 0 K 0   K 0
+  K 0   K 0   j j6  C K 0 j K 0   K 0   k 0 k   0 k 0 j     D          \IQ 0H j
+    D        \   0D K 0 \   D   j  \I     D  \I o j6 0H o j4 0j K l<0 j 0.  D|
+ ~     \IQo j6 0H   l<  l     n l   Dk         \IQo j6 0H                     n
+    E N   l<  DF   0       0Dw 0  j 0   E K j 0   k K       j   &     j &     k
+&         E j j6  E          \IQo j6 0H o j6  k K       j &     k &         DQ 0
+E m7j6  jUj{ ;  E j  ;  E  0E o j6j     D n     E          \IQo j6 0H  &l K &
+K & l< 0l*  & &0&   &   m & 0 kg0  -l{K - & k l   l    &        j j6  EUo{  m
+k l   l m0  o      &        j &   F    -     \IQo j6 0H K l & o j4  &
+      H  0  [\      F  \    &   & & }   }    0   00    Lq }   } h        }H   j
+j6  F2n     F2     0l    0 0  F   l     H  0FO< l  1     }H           l   & l  }
+G        0l     < l       G  0H  0l     G  "  G  0H n     H     &            0
+[\   S  G     G  0H      }H  \   = }H  0G k l   l    &        m j4o{m>k l   l
+m0  o      &/        2  G<    i           -   - & }   }    0   00    Lq }   }
+k l   l    &/       m m>  k l   l m0  o      &/       K - l k l   l    &/
+      0H   G<k l   l    &/        0H     l-j j4  H-k l   l    &        m j4
+j j4  Hm  j  0j P 0 0 k 0 K 0 l<K 0   K 0    \I m"j4    HS  k k   K=    K     +
+       (K    S 1     Q  H  0K 0  {K 0 jH    0    \IQ            I j j6  A
+   \IQ    i   h       I  \            i\  h\      I  0j8 0 \&\l  0  j 2  \I  02
+   0I> 0 &  I- 0I IKJDAIR & 0    \l   &\l   l &0l  0l &0   0j &0    &0l  0l &0
+ 0   0l  0l &0    &0   0 &  I{ 0IHIKJEFF18& 0    0l  \l      j   l     k  uK+ v
+ u \ \ 0I K  u   \I6   t  qj   P     P  u uK    * \  &\   \ u&\   \ \\  0 yN
+     + \\ k 0  00  \ u \ \ 0 -K 0    \ !   @ 0   \  &\  k \ k \     & \   qj
+ j P  u uK      \ \\  \ u \ \ 0  K  y   \     @ 0   \  &\  k \ k \      u& \
+qj     j j6    K j      @ \j &\  k \  0  j 1Q \     Q   0   0 &     0  IKJSTCK
+& 0                ; 0      {  }} &0}       q }
+                                  DYNAM
+  A   +                                                 ERROR IN PARSE SERVICE R
+OUTI  NEIKJ58503I DATA SET  NOT IN CATALOGERROR IN DEFAULT SERVICE ROUTINEUNABLE
+ TO OPEN DATASETIKJ58509I MEMBER NAME MUST NOT BE SPECIFIEDORGANIZATION OF DATA
+SET MUST BE PARTITIONED OR SEQUENTIALYOU ALREADY HAVE THIS DATA SET OPEN; RELEAS
+E FAILEDDATA SET IS   NOT ON A DIRECT ACCESS DEVICEUNABLE TO OBTAIN DSCB FOR DAT
+A SETDATA SET HAS NEVER BEEN OPENEDONLY ONE DATA SET ALLOWED WITH VOLUME KEYWORD
+    IKJPUTL         SYSALLDA RELEASED FROM DATA SET           TRACKSPDSCALLIKJ
+                  DATA SET NAME   M         LEAVE       SPACE  -    EXTENTS
+      VOLUME x  wm  .         NUMBER OF TRACKS  NUMBER OF UNUSED TRACKS TO LEAVE
+ UN-RELEASED   m            VOLUME SERIAL  VOLUME SERIAL OF DATASET IF NOT CATAL
+OGED   {     b             b              RELEASE         RELEAPCL             b
+ 
+ 
+                                   z
+                        b         5695PMB01     |         b        d     5696234
+00     |     b                             0       b       00  RELEASE     04/04
+/07 22.35    H  }       {   {    j    {       &}  & }  R& l- 0 @K 0   K 0
+& 0 P         & 0  0  j 1  \{  01  0{    \     0 00 &0   0  K 0   K 0       & 0
+P         & 0     & 0 P     K 0   & 0      \      N       {  8K l      0  j 2  \
+A  02    0A  0 &  A  0A IKJPARS & 0       A          \  o j6 0          j     A
+     \     0A 2   \   A |   & l K j  Yn     A     j     A      \     0AsK j \
+A o j6    m j6    j     AK         \  o j6 0H k jqK jrjq      jq \     0A4  K j
+\   A K jFjqj     C j j6  B    0    0  0B K j 0   B  1j k.0  00  \jF \ 0B K 0 jH
+ \B   \   jq 0C  0 @ \jd&\0 P \ \   jq& \ o \ K \   k \    @   0  j 2\ \Bo 02\
+ 0B  0 &  Bs 0B IKJEHDEF& 0     B  0C  0H  0B  0H  0B  0B\ 0C  0C  0C  0C  0C K
+k  ! 0k    \jq  \    0B K k \   B8 10 K 0  _      k  \   0H    @     \   0H
+                 \      C  \  n     C    1    j     C   C         0     N   j
+Cf        j     Cq  Cq      C          \   0H   j K     K         &   K      0j
+&0  P 0 0 k 0   jq& 0 K   0  YK 0  YK 0  YK 0  Yj j6  D K 0 j K 0  0K 0  Yk 0 k
+0 k 0 j     D          \   0H j     D*       \   0D K 0 \   D   j  \I     D  \I
+o j6 0H o j4 0j K l<0 j 0.  D          \  o j6 0H   l<  l     n l   DH   [     \
+  o j6 0H                     n     E N     l<  D    0       0D  0  j 0   E K j
+0   k K       j &     j &     k &         E=j j6  E          \  o j6 0H o j6  k
+K       j &     k &         E  0E m7j6  jUj{ ;  E j  ;  E  0E o j6j     D n
+EB   n     \  o j6 0H  &l K &   K & l< 0l*  & &0&   &     m & 0 kg0  -l{K - & k
+l   l    &        j j6  F o{m k l   l m0  o      &        j &   F          \
+  o j6 0H K l & o j4  &               H> 0  [\      F  \    &   & & }   }    0
+ 00    Lq }   } h        }H>  j j6  G n     G      0l    0 0  FY  l       H& 0G
+< l  1     }H>          l   & l  }G{       0l   < l       G{ 0H> 0l     G  "  G{
+ 0H>n     H&    &            0  [\   S  G%    G  0H>     }H> \   = }H> 0G{k l
+l    &        m j4o{m>k l   l m0  o      &/        2  Gb    i           -
+- &   }   }    0   00    Lq }   } k l   l    &/       m m>k l   l m0  o    
+&/       K - l k l   l    &/        0H   Gbk l   l    &/        0H     l-j
+j4  Hok l   l    &        m j4j j4  H   j  0j P 0 0 k 0 K 0 l<K 0  YK 0  Y \I
+m"j4    I   k k   K  =    K     +        (K      1        I  0K 0  8K 0 jH  0
+ \              I j j6  A          \      i   h       I  \            i\  h\
+  I< 0j8 0  &\l  0  j 2  \I  02    0Iu 0 &  Io 0I IKJDAIR & 0    \l   &\l   l &0
+l  0l &0   0j &0    &0l  0l &0   0     0l  0l &0    &0   0 &  I6 0I IKJEFF18& 0
+   0l  \l    j   l     k  uK+ v u \ \ 0  K  u   \     t  qj   P     P  u uK
+ m \  &\   \ u&\   \ \\  0 yN        d \\ k 0  00  \ u \ \ 0 oK 0    \     @ 0
+ \  &\  k \ k \     & \   qj    j P  u uK        \ \\  \ u \ \ 0  K  y   \ U
+ @ 0   \  &\  k \ k \    u& \   qj     j j6    K j      @ \j &\  k \  0  j 1Q \
+ <   Q   0   0 &     0 -IKJSTCK & 0                ; 0      {  }} &0}       q }
+                                                                +     DYNAM
+                                      A
+                ERROR IN PARSE SERVICE ROUTINEIKJ58503I DATA SET  NOT IN CATALOG
+ERROR IN DEFAULT SERVICE ROUTINEUNABLE TO OPEN DATASETIKJ58509I MEMBER NAME MUST
+ NOT BE SPECIFIEDORGANIZATION OF DATA SET MUST BE PARTITIONED OR SEQUENTIALYO  U
+ ALREADY HAVE THIS DATA SET OPEN; RELEASE FAILEDDATA SET IS NOT ON A DIRECT ACCE
+SS DEVICEUNABLE TO OBTAIN DSCB FOR DATA SETDATA SET HAS NEVER BEEN OPENEDONLY ON
+E DATA SET ALLOWED WITH VOLUME KEYWORDIKJPUTL         SYSALLDA RELEASED FROM DAT
+A SET                 TRACKSPDSCALLIKJ                DATA SET NAME           LE
+AVE       SPACE  -    EXTENTS           VOLUME x  wm  .         NUMBER OF TRACKS
+  NUMBER OF UNUSED TRACKS TO LEAVE UN-RELEASED   m            VOLUME SERIAL  VOL
+UME SERIAL OF DATASET IF NO  T CATALOGED   {     b             b              DV
+OL           DDVOLPCL    H   WIXTOFMT5             b
+ 
+ 
+                                                                            b
+      566528408           b        d       569623400           b
+     0   H   Y           b     0 00  DVOL     03/19/02 09.53  }    0   0   0  {
+             J    &   &   P K K     L   L K     K       K &     L &   K     K
+    K &       &     L &   K           H K J!}%K|J;} K L u   t   L   }{  L   J
+L   }{  L P J J P J J P K K   K         K   K o K   O & }      0A         IKJPAR
+S           L      \      N       A K K8  n     A k   M       A o t K x x   xH
+          y   y   x   m0  o      &        n     Awk   j x}  A m t k    0t
+    k J P J J P K K P P*P* 0      &0K N       B   N       B  0s2n J   B      0s[
+     0s     k J K L-u K M*v K N w K O tHK L       n*    B         y K O L      &
+K  -    K   K o K         & K  0  j 0  \B j 40  B   K  0K       B   K n     B
+ 0Ck 0   0Ck 0  j 41  C   KdP     k    \P &\   \K &\  K   D| \P  *&\  k  -o  / \
+O &\       \            \     C  0   0Ck  KdP     k    \P &\   \K &\  K   D| \P*
+&\  k  -o  / \O &\       \            \     C  0   0Ck  P & K   n     B  -K
+ @     0O   Oy &K n &   B!&&}   }    0   04     K n*    D       N   &   C   D
+   }B!nU    B!  N   K   C8  D n K   B!N   K   D   B!K L & &&J n*    D%M       D%
+  }   O     D  0O     K O tH  O K   L     & }  0B   K O L k J   J K LfK K O^K  7
+   0  <0 ;  ~oK Ln0 K O 0   Oy  D  \GS \\ n \   D N   \   D N 0 \   D K Lr\ K O
+\ j     D2K L  {  K O, - 0E j     E K L{ aK O,  k/O j     E K L    0E j     E K
+L  j 0E j     E K L  qK O L j     E&K LM  j     E K L  j     E K L  K O,Lj
+  EfK L4  K O,L4N       Eq 0L-    P J J k }{k J j     H   L   n4}{   MK J } k J
+K J8}MK J }FK J }     j }Y    F K M   3d} }\3d}&}UL }  Y  }  8K M } 3d} } 3d}&}
+L }  Y  }  8K M } N       F K O M P JDJD       0J j 0   H    { 0F   L&       4n5
+}   F4        y M - -   H   K J6-   J6       &    < J8          JD }F       Fs.\
+ %    FQ  F  \ \y       JD&   K \ -       F   M J J   H K J J  0F n7}    4
+  ydM - -   H P J J     -  0J8      G [    0  & J & J     -  0J8    J   G*  G $
+J ! J  0G   ! J  0G    0  J   & J & J{   &      - $ -         JD }G       G .\ %
+    G   G  \ \y       JD&   K \ J K \ JC      G M J J   H   K J J  0F   D   E
+J   K   M1  M2  M3  OP  M9  K L4 \K O,L4N          0L      0     S  J + } K }-
+  }-}*K N } N       H*K O:N N       H} 0L     nFM   H= 0M     j J   H  0~     j
+J   H  0~6     0N     j J   H}    + } K }-    }-}*K O }  0O     N J        *+ }
+K }-    }-}*K M'} + } K }-    }-}*K Mm} < J8  + } K }-    }-}*K M_} N       I K
+O M_K OfM'K O Mm 0I[ 0M*         &J  -MJN &     I     + } K }-    }-}*K - } k+-
+      + } K }-    }-}*K - } k/- .& %      I N       IHK O MJK OoMPk+On 0I} 0M
+       &  J  -N   N &             + } K }-    }-}*K - }/k/- .& %      I N
+  K OrN + } K }-    }-}*K O }  0   0N     K J  >          J  0  N         K O
+ 0   0       0      n*      n J     K N L N         K O:N  0O      0   0N      0
+  M        y 0O      0   yN        YK O: 6 0   0 2     0  N         K O: [ 0   0
+       0   0       0   0  N          0O      0B  0s2     0B  h        AF 0 yP
+  j J  b  J K  'K n  '   =k  #K  @ =K                m    K          u      K  D
+            j  u      j J       }{&   +      0 &     b    j J  b      J    8
+  K              b
+     *   |       a   h      SYS99999      XXXXXX      / UCB                  m
+         y               h      SYS99999  g  D
+ 
+ 
+                       {NONE      }   L i   h        O \            i\  h\
+  j t    6  y   x      &         0J          | 0                   4 L    q }
+k }  \          y N        b  L  \  k \ k \   J!& \  0  j 1  \ % 01    0 b 0
+      IKJPUTL     K8   o  J)       yj t       x   J;   7    K|J;}  2  e    0 &
+         0   0           \ 0                          0123456789ABCDEF
+   H
+RESRVDRESDNT     PDSCALLRESERVED RESIDENT PRIVATEPUBLIC STORAGEALLOCATED  ONLINE
+           OFFLINE PENDING  UNLOAD PENDING   ON NOT READY             ERROR READ
+ING FORMAT 4 DSC  B                                                         ERRO
+R READING FORMAT 5 DSCB
+VOLUME CONTAINS NO FREE SPACE
+    UNABLE TO INTERPRET COMMAND
+          *** WARNING - VOLUME MAY CONTAIN DOS DATA SETS
+          ??????????????????????  9345????????2305-12305-22314  3330  3340  3350
+  3375  3330-13380  3390      *** WARNING - VT  OC DAMAGE BIT IS SET.  PLEASE NO
+TIFY YOUR SYSTEMS PROGRAMMER        SERIAL  --UNIT--   ATTRIBUTES VSAM AVAIL ---
+--TOTALS----- LARGEST-EXTENT 5 EXTS            ADDR TYPE   MOUNT/USE      DSCBS
+TRACKS  EXT  CYL  CYL+TR  TRACKS TRACKS
+                                                  UNABLE TO OPEN HARDCOPY DCB -
+HARDCOPY CANCELLED
+ 
+                                  A               {                   VOLUME SER
+IAL = XXXXXX     UNIT = XXX     TYPE = XXXXXX                             STATUS
+: REMOVABLE           UNALLOCATED  OFFLINE                                    VS
+AM: OWNERSH  IP - OFF   TIMESTAMPS - ................/................
+    FREE SPACE IS XXXXX TRACKS IN XXXX EXTENTS INCLUDING XXXX FULL CYLINDERS
+        LARGEST EXTENTS ARE: /CYL+TR/
+                                   /TRACKS/
+                  VTOC CONTAINS XXXX BLANK DSCB'S
+                      XXXXXX - VOLUME OR UCB NOT FOUND
+                          INDEXED VTOC CO  NTAINS XXXX FREE VIR'S
+                                                                    X          &
+ 
+        X          &                                    +             K     K J!
+0 K L   K JDJ  -}D -}I -}  -}L -}Q -}  -}S -}X -}  -}2   -}7 -}  -J  -J  -J  -J
+ -J  -J  -J  -J  -J  -J  -J  -J  -J  -J  -}D -}  -}M -}  -}U -}  -}5 -}  -J  -J
+ -J  -J  -J  -J  -J  -J      W          {      VOLUME SERIAL  *       SHORT-
+SHORT-    LONG       HEADER-    HEADER-    NOHEADER      -    PRINT-      NOPRIN
+T      -    SERONLY NOHEADER           HARDCOPY    Vm            DDNAME  DDNAME
+FOR HARDCOPY OUTPUT    00  IXTOFMT5-VERSION_1.0   }                 {* 0{
+    {  0{      J    &}            & } &}  M }*}*  Ad        {h    & }      0{ &
+}      0   01  00     {w 00     {  0B  0B  0{  0Bq 0Bq  } K M } K M0B   M0k   m
+  o   o   &    0} &0      {4 0A  0A  0Bs 0Bs 0Bsn M7  Bs    K   }   N & }&  } K
+M }   }&K M0B   M0k   m   o   o   &   &    0}<&0      A- 0A  0Bs 0Bs 0Bs 0Bs
+K   }<P }*}*K J }*    } K M }   }&K M0B K }4C K J C   M0k   m9  o   o   &   &
+ 0}4&0      AM 0A0 0AY 0Bs 0Bs 0Bsn M7  Bs    K   B\K   J k7  K   J P  g gK }*J
+M JqJq  B n M7  B K  gBU 0BF  }   }&K M0B   M0k   m   &   &         B- \B    }}
+   0B           B% 0B           &0     0BK   0   0B    0   0B   i        0   0B
+  {    \  0   0B      0B  }}  \} q }           00001   CVPL
+                                            ICVEDT02        w{     b
+ @                   ~       5                               <   &           j
+     y   [   A   r                       &       /   E     b             b
+        REBUILD              b
+ 
+ 
+ l                                                    b         5695PMB01     "
+e       b        d   569623400     "     b                                 b
+    }                    0  &   &      0 hREBUILD 06/26/0708.54
+                                                          K &     & K (   P < <
+k (  {&d&{<   & K &   & <d {& K < { k ( n (    UK|& (#K &  ;K & < ( .{N < &h  .Y
+N &   <     (    0 Un (     j <#    (  hn &)    (  dn &)   U(    0 U&       n &
+    n &     n &     n &     n &    qn &    yn&&    :  <d      &  }  K & <Q 0 mK
+&   & <d     9      &       &~i     <qP     n &    4n (    >K|+ & K|& (#K &
+&   &~(   ( .{K|&   +  0 >K   &uo   n (    >K|+ & K|& (#K &   N &u<     K & <
+& n           k,   h   0 *kA& 3 & &v  & ( k,&   &   &~(   ( .{K|& +      9    &
+ mk ( n &     k (    m 9      &  un (     n (     (   nA&u    kA&u3 &v& k &   &v
+( n &     K|+ & K &  _k*& N < <\      k,&   &   < (  4( .{K|& + K & &uK < &sN &
+<     K|+ & K &  _k*& k-&   < $ &   & (  4N < <\   *k,   h    < (  4( .{K &u(#K
+< < K|& + K & (#n &     N &u<     K & (#N|& (#    ( .{   u 9    &   n (    &n (
+   {(   n &     n &u    K|+ & K &  _k*& N < <\      k,&   < + <-3 & <-o0& ( .{K|
+& + K & &uK &   K &   K & &to0& k(&  {<   { N &s<Y   *h   N &s<W   *h   N &s<U
+ *h   & <h  &   &    w           wnA     h     0  K &     & n          kk)   0
+K & <   & n           k+    <h+ <-3 + <-o0+   +  0  n0     2       0  k)   0   0
+ 0    k)  3 & < k &   & (  {< 3d& { k &&  & ( n &t   <K &+  n &t   <K &<  n &t
+ <K &[  ( .{  &s! < & <   &s! < & <      9      K     &   n (     n (    k(   n
+&     n &u    K|+ & K &  _k*& N < <\   Kk,&   < + <-3 & <-o0& ( .{K & + K &
+K &  !K & &to0& k(& K & &u  & n           k)  3 & < k &   & (  {< 3d& { k &&  &
+( n &t   ;K &+  n &t   ;K &<  n &t   ;K &[  ( .{  &s! < & <   &s! < & <      9
+  &  Dn (    m(   K & &-3 & < k &   & ( 3F& & k &   & ( n &    OK && &n &    OK
+&< &      &       & i    2 Y 0 H 0 Q 0   0   0 m 0   0   0 d 0   0 8 0   0 @ 0
+ 0   0   0 @ 0   0   0   0 Y 0   0 % 0   0 4 0   0   0   0 d 0 H 0  n &)    K|&
+(# 0  n (    b( .{  <     &   & < ! < & < kI( n &^        &^  x     & K (      D
+ 9      &  M   M 9      &     n (       &|h   (   nB&     K   (     &,    k-
+i    h  (  4 0  K   ( 3   &,    ( k'       9      &   N & <    Fj &     K <-&|m
+<-  <-+     k &) 0  j &     2 <-&|m <-  <-+    |j &    w2 <-&|N &|<-   |j &
+j &|   |j &    Fj &|   |n (       &|h   (     k,   h  j &     j &|    k0   0
+&|(        9    &   n (         &|+ <-9 <-(     9 <-(     3 & <-o0&  0 *3 & <-o0
+&  0 *3 & <-o0&     n       K &    0  N   &|   d     0 -K &        9    &  Dj &|
+   yk &) 0  n (       &|h   (      D 9      &   n (         &|h   (  %j &    8j
+&|   8k0   0    &|(        9      &   n &,    k &) 0  N & <    Uj &     N &- #
+ &j0&%    j &%     0    &%      <-m <-2 </&%m </N <-</    j &     K <-&%m <-  <-
++     j &     2 <-&%m <-  <-+     j &    D2 <-&%N &%<-    j &    Mj &%      j &
+   Uj &%    n (       &%h   (   k,   h    &%(        9      &   n &,    j &%
+k &) 0  n &     j &     2 <-&%m <-  <-+     j &     j &%    n (       &%h   (
+     9      &   N &,<     k &)     9    &  4j &,    k &) 0  n (       &,h   (
+k,   h  +   &%h   (   k,   h    &,(      4 9      &   j &,    N & <    |j &
+K <-&%  m <-  <-+     j &     2 <-&%m <-  <-+     j &    |2 <-&,m <-  <-+    |k
+&) 0 un (    u  &%h   (   k,   h      &,h   (  4k,   h    &%(        9      &
+N & <     j &     2 <-&,m <-2 </&%m </K < &%m < N <-</    N <-<     N </<     j
+&     K <-&,m <-  <-+       k &) 0  n (       &%h   (   k,   h    &,h   (   k,
+ h    &%(   k,   h    &,  < (  4     9    &  &j &    Y2 <-&,m <-  &|  </m </
+  < m < N <-</    N <-<     2 </&|m </  </      < N <-</    N <-<     j &    8j
+&|    j &     j &|    k &) 0  n (         &|h   (   k,   h    &|(   k,   h    &,
+k <8(      & 9      &  Hj &|    n &    qj &     n &,    j{&%   qj &    qj &|   q
+k &) 0 {n (       &|h   (   k,   h    &,k <8(      H 9      &   j &|   \k &) 0
+n (       &|h   (   k,   h    &|  < (  4k,   h    &  ,k <8(        9      &   n
+(       &|h   (   k,   h    &|(   K   (     &,    k-    i    h  (  4     9    &
+  n &     j &    u2 <-&|m <-  <-+     j &     j &|    k &) 0 8n (    0n &     j0
+&|    k0   0 Y  &|h   (   k,   h    &|(        9      &   n (         &|h   (  %
+  &|(        9      &   n &_    j &    -2 <-&|m <-  <-+    -k &) 0 dn (    @  &|
+h   (   k,   h    &|(        9      &  Uj &_   uk &) 0  n (    M  &_h   (   k,
+ h    &|h   (   k,   h    &|(      U 9      &   n &|    k &) 0    &,k <8(
+   9      &   N &,<     k &)     9    &   j &     2 <-&,m <-n <-    k &) 0    &,
+k <8(        9    &   j &    hj0&|   hk &) 0    &,k <8(   n (     K   ( 3   &|
+  ( k'       9    &  0  &|      <8  &,(   k,   h    &_k <8(      0 9      &
+&|h     <         <8  &,(   k,   h    &|  <       <8  &_(        9      &   k <8
+n (       &|h   (   k,   h    &,(   n (     k,   h    &|(   k,   h    &_(
+ 9      &  Yk <8  &|i     &,(   k,   h    &_(   n (    \k,   h    &|(      Y 9
+    &     &|  <       <     k &  ) 0  n &_    j{&>      &|h     <       <8  &,(
+  k,   h      &_  <2   -K    = h          (  4k,   h    &|  < (  4     9      &
+  k <8  &,(   k,   h    &_(        9      &  0kR    < x      M    o0   h   0 Yk1
+  . <     o0   h     0 9      &     <m+ <-9 <-  (     9 <-(     9 <-(     3   <-
+o0   h   0  3   <-o0   h   0  3   <-o0   h   0  3   <-o0   h       9    &  Y  <
+x     ( n0     {K &   K & (#n &    Sn &    ykR&  0 Sn &     kR&  0 SkR&  0 SK
+  n       k,   h   0 Sk,   h     Y 9    &     <6m <6h     <5m   <5n (     ( [w 0
+  h     <4m <4(  Dn      &n <4    k(   h    <4(   k)   h   0    <6+ <-9 <-(    h
+9 <-(     9 <-(     3   <-o0   h   0  3   <-o0   h   0  3   <-o0   h   0  3   <-
+o0   h  n <4    n <5    k(   h  n <4   S  <4(   n <5    k,   h    <5(   k)     h
+       9    &  {  <6m <6h     <5m <5n (     ( [w 0  (  Dn       n <8    k(   h
+    <8(  4k)   h   0    <6(  4n <8   =n <5    k(   h  n <8        <8(  4k,   h
+n <5      <5(   k)   h     { 9      &   k       <5i     <q            [ <6 0&  0
+&       0           n 0     nA0          0  K   0 K ( 0  h  n            h
+ 9    &   n (      {<   { +h    kX(  0 |kC( K < <SK <@< K (.{  0  N < <2    nC(
+   uN < <0   u(    0 &n &    DN < <\   DN < <    D 0   {< nX(       { +h     0
+  { +h     0    <   (. {< + K   {   <       <     &{<   <     & <      9    &
+n (     K &   K & ( kL&     < + <-9 <-(     3 & <-o0&   &  0  3 & <-o0&   & k'
+     {(. 0< 3 & <'k &   & ( nC(    Y& < 3   { K    *    (          0 s  <   < i
+      <    \    K && a   @ 0   0 0 b  K    * 0<W    3d& { k &&  & (     K && a 0
+   0<U    3 & { k &+  & (  0   0<S    3   & { k &<  & (  0  3 & { k &[  & ( ( .{
+k ( kC(      9      K &   K   (.& [  {< k &)      x   ! & K &?  n2    [     n &?
+  [ nx&?   UN   <Q  [mN   {   [   [m     0 D  N   <Q  [m2 ([{ m0([N   ([  [   [m
+     0 WN   <Q  [mN   {   [   [m     0[   n     [mK &     K &   K &   j{&?  [
+[-k &  0[%k &  0[%k & P & &     &     [ K &-  K &;  K &^  k &)  [  9      K & {
+& .m    <5i     <q      .d    [ <6 0&@P 0 0 & 0 k 0 kA0 3 0 0 k 0   0 (   &   &@
+    . N       .d  .      0[6K (,  K     K   (,        .     & &@  &     .dK |i d
+( .q  .     LABEL TABLE OVERFLOW, ABENDING              i         .m  &@P      9
+    & .   &m      |h   7    Kd|h(#  .  9    & .U  &q      &    7    K|& (#  .U 9
+    n (   < 8 <-( kR& K &  _9 <-(   < 3 & </o0&  0< 3 & <-o0& K & & ( .{  <-( 9
+<-(    }.6K &  z( .{        K   & q }
+ 
+                                                       *  r   CNOP1  2  3  4  5
+ 6  7  8  9  10 11   12 13 14 B     ,X',*+
+ 
+ 
+89ABCDEF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                  NOP1  2  3  4  5  6  7  8  9  10 11 12 13 14 B
+  NOP1  BH 3  BL 5  6  BNEBE 9  10 BNL12 BNH14 B  NOP1  2  3  4  5  6  BNZBZ 9
+  10 11 12 13 14 B  NOP1  2  3  4  5  6  BNEBE 9  10 11 12 13 14 B  NOP1  BH 3
+BL 5  6  BNEBE 9  10 BNL12 13 14 B  NOPBO BP 3  4  5  6  BNZBZ 9  10 11 12 13 14
+ B  NOP1  2  3  BM 5  6  BNZBZ 9  10 11 12 13 14 B  NOP1  BP 3  BM 5  6  BNZBZ 9
+  10 BNM12 BNP  14 B  NOPBO BP 3  BM 5  6  BNZBZ 9  10 BNM12 BNPBNOB  NOP1  BP 3
+  4  5  6  BNZBZ 9  10 11 12 13 14 B  NOPBO 2  3  BM 5  6  BNZBZ 9  10 BNM12 13
+BNOB  NOPBO 2  3  4  5  6  BNZBZ 9  10 11 12 13 BNOB  NOP1  BH 3  BL 5  6  BNEBE
+ 9  10 11 12 13 14 B  NOP1  B  P 3  BM 5  6  BNZBZ 9  10 11 12 13 14 B
+DCAL  VL' CSECTDROP USINGEQUUNKNOWN SVCTRE64-...LABEL TABLE OF 32,768 ENTRIES IS
+ FULLEND EXCP/XDAP WAIT(R)   POST/PRTO EXIT      GETMAIN   FREEMAIN  LINK      X
+CTL      LOAD      DELETE    GET/FREE  TIME +      SYNCH     ABEND     SPIE
+ ERREXCP   PURGE     RESTORE   BLDL/FIN  O  PEN      CLOSE     STOW      OPEN  J
+   CLOSE T   DEVTYPE   TRKBAL    LOCATE    OBTAIN    CVOL      SCRATCH   RENAME
+   FEOV      NO MACRO  IOHALT    MGCR/QED  WTO/WTOR  WTL       SEGLD/SEG LABEL
+   EXTRACT   IDENTIFY  ATTACH    CIRB      CHAP      OVLY  BRCH  TTIMER    STIME
+R    DEQ       SNAP/SDUM RESTART   RELEX     DISABLE   EOV       ENQ/RESE  FREED
+BUF  RELBUF    OLTEP     (E)STAE   IKJEGS6A  DETACH    CHKPT     RDJFCB    BTAMT
+EST  SYNADAF   SYNADRLS  BSP       GSERV     ASGNBFR   CHATR     SPAR       [DAR
+      .DQUEUE   <NO MACRO +NO MACRO |STATUS    SETPRT    DASDR     SMFWTM    GRA
+PHICS  DDRSWAP   ATLAS     DOM       MOD88    $VOLSTAT  *TCBEXCP  )TGET/TPU ;STC
+C     ^SYSEVENT -STAX     /TSO TEST  PROTECT   DDDYNAM   IKJEFFIB  QTIP      AQC
+TL       XLATE     TOPCTL    IMAGLIB  ,MODESET  _ESR TYPE4>DSTATUS  ?NO MACRO  P
+GRLSE    PGFIX,CL9 EXCPVR    ESR TYPE1 DEBCHK    TESTAUTH  GET/FREEM VSAM     :E
+VENTS   #PURGEDQ  @TPIO     'EVENTS   =MSS INTFC       {     b             b
+          RESOURCE        READLMOD   0   ?     b
+ 
+ 
+                                                                        b
+  5695PMB01       mn"     b        d   569623400         569623400     "     b
+                   -   0           b     -  }                            0  &
+&      0  RESOURCE06/27/0709.49
+                              N    -    N            }N         m    0  N
+  m    0  N         N         m    0  N   /       m   N         n,      N
+  m    0  N         m    0          RESOURCE: INVALID PARM ON EXEC STATEMENT
+     ?    i       n          @ { Y      N {          B   uK {        0      N
+     F     0  j {     N             N         n             N {       K      0
+n {     K   { P { {  0       0       0 Q     0  &  <&  &           0 <   :     0
+   \            \ &0  &   &   &  *!   &      <   &   m       <      (  \nY
+nY     hK  C/ (      U    *** NO CONTROL RECORDS IN SYSIN FILE      K  ;       ?
+    i       nY      (    0 oN  p/     (    0 oN  p/@    (    0 oN  p/b    (  & 0
+ oK  C/ (   K  ;       b    DROPPED AN INVALID CONTROL RECORD        0 o(0 mREBU
+ILD   0     &        0    k        0    (                  <           0 *q }
+&     -      p   7    K  C/VK  Q p(   n* p   U     9kN   0        &  hP     P  %
+ %K ^  pK    pK ^D  K     K  C/ K  \ pK   /hK  0  (      *&  -k   (   (  y(  mkY
+     h 9      &  <     X       t X       -     X2     k   K     k   P     (  *
+ -   t X2    tk   N           k   P     (  * 0  K  C  (   K  ;          DROPPED
+AN INVALID DATA-ONLY CONTROL RECORD          < 9    &  q     X   [     X   [   [
+ X   [N  u n   f   u X   [   -     X2     k   K     k        XK     m   K     P
+       [ Xk   2    [K     (  *   -N           K     k   k   k   K     P     (  *
+N  u n   k   -   u X2    uk   N        [k   K     P     (  * 0 kK  C  (   K  ;
+          DROPPED AN INVALID USING CONTROL RECORD          q 9    &      w X
+   [ X    n       nZ           X       -   w X2    wk     k   k   2    [|0   3
+K     (  * 0 +K  C  (   K  ;       <    DROPPED AN INVALID ULABL CONTROL RECORD
+           9    &  qP ^M^MK ^ / (   N ^\     k  ^\  ^U {     <K  : n  {
+       u      {     K  b n  {      K                {    sN { /       N    :
+N    b    j {     K  {{ K  A{  0 @N { /     N  :/     N    b    j {     K  %{ K
+  {  0 @N { /k   @N    b   @j {    @   -K   { k   k   P     K    :(  *q  <!{
+ bN ^Q         q 9    K  :  K  b  &   K ^ / (     ^\     =  ^U {     <K  | n  {
+       2                {    dK    n  {                       {     N  |
+ -K   { k   n {     k&  n {     k   K   { K    nN         K     (  *q  <!{     H
+N ^Q           9K  |  K         &  %K ^M     %      [    0  K  C  (
+MISSING TEXT STORA  GE SIZE, ABENDING               i          0       0   \
+        \ &   &   !  %&  %K ^ / (   N ^\        ^\  ^U      ^M$ ^\!       N ^Q
+       % 9    &    0 @   0   d 0 h     0    n ^Y    K  <^ K   ^Y3d ^^M   ^ Xk
+3d ?^Q   ? Xk   3d "^    " Xk  g3  d  ^\     Xk  oK| C  (           RESOURCE FOU
+ND ERROR RETURNED BY READLMOD CALL         ?    i            9        ^    B   7
+    Kd B n 9&      *   -      N              0  K     K     K
+&  -       4K  C  (        S    LABEL TABLE OVER+ FLOW, ABENDING              i
+           9      &   K  C/ K   /%K  J/ K  O/   K   / (    { *3d C{ k      C X3
+  { k        X3  K{ k  M   K X3  O{ k   n {     3   { k       X 0 fK   { n {
+ BK  X/ kR  K   { o0  n {     k1    {         o0   0  n {     K  X OK     k, 3kR
+ 4K  5{ o0 5n {     k1 5  {        6o0 6 0  n {     K  X/m 0    n {     K  X/  0
+  n {     K  X   0  n {    &K  X \ 0  n&{     K  X V 0  (        { -    (   3d C
+  k      C XK   / (    {  3d C  k      C X3d  { k  M3d N{ k   3d  { k  W3d X{ k
+  3d 1{ k  93d  { k   3d  { k   3d  { k        XK   {      X(           &
+   { %   m     9
+                                  -SUPVRFLTPT
+ 
+                    YN
+                                 Y       <   4       y       <   h
+                            1
+ 
+    REQ=      ERR=  CURSOR=         RETCOD=         RSNCOD=         COUNT=
+ 
+ 
+ 
+ 
+     0123456789ABCDEF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                             012
+3456789      .......................  .........................................
+................................................................................
+................................................ABCDEFGHI.......JKLMNOPQR.......
+.STUVWXYZ......0123456789......               2   4
+    SPM         BALR        BCTR        BCR                                 SVC
+        BSM         BASSM       BASR        MVCL        CLCL        LPR
+LNR         LTR         LCR         NR          CLR         OR    +       XR
+      LR          CR          AR          SR          MR            DR
+ALR         SLR         LPDR        LNDR        LTDR        LCDR        HDR
+    LDXR        MXR         MXDR        LDR         CDR         ADR         SDR
+        MDR         DDR         AWR         SWR         LPER        LNER
+  LTER        LCER        HER         LEDR        AXR         SXR         LER
+      CER         AER         SER         MDER        DER         AUR         SU
+R         STH         LA          STC         IC          EX          BAL
+  BCT           BC          LH          CH        [ AH        . SH        < MH
+      ( BAS       + CVD       | CVB       & ST          LAE
+            N           CL          O           X           L           C
+  ! A         $ S         * M           ) D         ; AL        ^ SL        - ST
+D       /
+  MXD         LD          CD        | AD        , SD        % MD        _ DD
+    > AW        ? SW          STE         MS
+                                                LE          CE        : AE
+  # SE        @ MDE       ' DE        = AU        " SU          SSM       a
+      b LPSW      c           d BRXH      e BRXLE     f BXH         g BXLE
+h SRL       i SLL         SRA         SLA         SRDL        SLDL        SRDA
+      SLDA        STM       j TM        k MVI       l TS        m NI        n CL
+I       o OI        p XI        q LM        r TRACE       LAM         STAM
+                                                              ~           s
+      t           u           v           w           x 2         y MVCLE     z
+CLCLE                               STNSM     [ STOSM       SIGP        MC
+                  LRA         2   y       2                                   ST
+CTL       LCTL                                CS          CDS
+] CLM         STCM        ICM       {           A           B           C
+    D           E             F           G           H           I
+                                                                      }
+  J MVN       K MVC       L MVZ       M NC        N CLC       O OC        P XC
+      Q           R MVCK        MVCP          MVCS        TR          TRT
+  ED          EDMK      \                      S           T           U
+    V 2   <     W           X           Y MVCIN     Z
+                      2   h       PLO                     0 SRP       1 MVO
+  2 PACK      3 UNPK      4           5           6           7           8 ZAP
+      9 CP          AP          SP          MP          DP
+                        PR          UPT         SCKPF       TRAP2
+    x TMH       x TML       x BRC       x&BRAS      x-BRCT      x LHI       x AH
+I       x{MHI       x\CHI                     STIDP       SCK         STCK
+  SCKC        STCKC       SPT         STPT        SPKA        IPK         PTLB
+    +   SPX         STPX        STAP        PC          SAC         CFC
+IP  TE        IPM         IVSK        IAC         SSAR        EPAR        ESAR
+      PT          ISKE        RRBE        SSKE        TB          DXR         CS
+CH        HSCH        MSCH        SSCH        STSCH       TSCH        TPI
+  SAL         RSC  H        STCRW       STCPS       RCHP        SCHM        BAKR
+        CKSM        SQDR        SQER        STURA       MSTA        PALB
+EREG       [ESTA       .LURA       <TAR        (CPYA       +SAR        |EAR
+    MSR         MVPG        MVST          CUSE        BSG        !BSA        )CL
+ST       ;SRST        RP          STCKE       SACF       'STSI       rSRNM
+  STFPC       LFPC       vTRE        wCUUTF      xCUTFU       TRAP4
+      LPEBR       LNEBR       LTEBR       LCEBR         LDEBR       LXDBR
+LXEBR       MXDBR       KEBR        CEBR        AEBR        SEBR        MDEBR
+    DEBR        MAEBR       MSEBR       LPDBR       LNDBR       LTDBR       LCDB
+R       SQEBR       SQDBR       SQXBR       MEEBR       KDBR          CDBR
+  ADBR        SDBR        MDBR        DDBR        MADBR       MSDBR       LDER
+      LXDR        LXER        SQXR        MEER        LPXBR       LNXBR       LT
+XBR       LCXBR       LEDBR       LDXBR       LEXBR       FIXBR    {  KXBR
+    CXBR       [AXBR       .SXBR       <MXBR       (DXBR       &TBEDR       TBDR
+        DIEBR       FIEBR       THDER       THDR       $DIDBR      ^FIDBR      -
+LPXR       /LNXR        LTXR        LCXR        LXR         LEXR        FIXR
+    CXR           LZER        LZDR        LZXR        FIER       "FIDR       dSF
+PC        EFPC       mCEFBR      nCDFBR      oCXFBR      qCFEBR      rCFDBR
+  CFXBR       CEFR        CDFR        CXFR        CFER        CFDR        CFXR
+                V LASP        V TPROT     V MVCSK     V MVCDK
+LDEB        LXDB        LXEB        MXDB        KEB         CEB         AEB
+    SEB         MDEB        DEB         MAEB        MSEB        TCEB        TCDB
+        TCXB        SQEB        SQDB          MEEB        KDB         CDB
+  ADB         SDB         MDB         DDB         MADB        MSDB        LDE
+      LXD         LXE         SQE         SQD         MEE                   NOP1
+  2  3  4  5  6  7  8  9  10 11 12 13 14 B  NOP1  BH 3  B  L 5  6  BNEBE 9  10 B
+NL12 BNH14 B  NOP1  2  3  4  5  6  BNZBZ 9  10 11 12 13 14 B  NOP1  2  3  4  5
+6  BNEBE 9  10 11 12 13 14 B  NOP1  BH 3  BL 5  6  BNEBE 9  10 BNL12 13 14 B  NO
+PBO BP 3  4  5  6  BNZBZ 9  10 11 12 13 14 B  NOP1  2  3  BM 5  6  BNZBZ   9  10
+ 11 12 13 14 B  NOP1  BP 3  BM 5  6  BNZBZ 9  10 BNM12 BNP14 B  NOPBO BP 3  BM 5
+  6  BNZBZ 9  10 BNM12 BNPBNOB  NOP1  BP 3  4  5  6  BNZBZ 9  10 11 12 13 14 B
+NOPBO 2  3  BM 5  6  BNZBZ 9  10 BNM12 13 BNOB  NOPBO 2  3  4  5  6  BNZBZ 9  10
+ 11 12   13 BNOB  NOP1  BH 3  BL 5  6  BNEBE 9  10 11 12 13 14 B  NOP1  BP 3  BM
+ 5  6  BNZBZ 9  10 11 12 13 14 B  SYSLIB
+                                              m   SYSPRINT   &
+             e        +                                             SYSOUT     &
+                                 &
+      SYSIN     &                                &                ESD     B_TEXT
+  RLD     TEXT    LBLOFSETLABEL   DATA END*** NO CONTROL RECORDS IN SYSIN FILETY
+PEUREGLENGDROPULABL USING CSECT=SDE  DLDDATA START BYTES OF TEXT FOLLOW:SUPVRDAT
+A INVALID CONTROL RECORD ABOVE IS DROPPEDCONTROL RECORD READ: CONTROL CARD READ
+HAS MEMBER=INVALID DATA-ONLY RECORD ABOVE IS DROPPEDINVALID USING RECORD ABOVE I
+S DROPPEDINVALID ULABL RECORD ABOVE IS DROPPEDNO S  TORAGE SIZE WAS FOUND FOR TH
+E CSECTLABEL TABLE OF 32,768 ENTRIES IS FULLUSINGLABELADCONV-CON        }    0
+&   &      0  READLMOD06/26/0708.54
+                               /    k -    &n      okP-  0  N -        y     0 f
+K     n       k      0 H           { 0 D \            \   &  hP      0
+                                                     0P      \  &\   \ %&\   \
+&\   \  &\   \  &\   \  &\   \  &\   \  &\  o   (0 dIEWBIND   0     &      0 0
+         0  &0     <&  % 0 { 0 &  [\\     N                   UNABLE TO START IE
+WBIND DIALOG, ABENDING         ?    i       P  - - 0
+                                    P      \  &\   \ %&\   \  &\   \  &\   \ -&\
+   \ %&\  o      0  &0 - 0         0  &0     <&  % 0 H 0 &  [\\     N
+        UNABLE TO CREATE A WORKMOD, ABENDING              i       k   N -      &
+k   K   -         n      <      kP-  0      N -      fk   K   -         n      b
+     %kP-  0      n      HkP     0 }
+                   qP      \  &\   \ %&\   \  &\   \ -&\   \ _&\   \  &\   \  &\
+   \  &\   \  &\   \  &\   \  &\   \ _&\   \ _&\  o    0 -       0  &0     <&  %
+ 0   0 &  [\\     N        H          ERROR I  NCLUDING REQUESTED MEMBER, ABENDI
+NG         (    i       n      UN        UN   -     P        h 0    K    4 0  K
+     0  K    M 0  K      0  K      0  K      0  K      0  K    m 0  K    4 0  K
+    N -      fK   -        (n      b     %kP-  0      k -      h    N -      - 0
+ Q                                                              P      \  &\   \
+ %&\   \ *&\   \ -&\   \  &\   \  &\      &\   \  &\   \  &\  o    0 -     + 0
+&0     <&  % 0 * 0 &  [\\      0   0
+                      P      \  &\   \ %&\   \ -&\   \ -&\      &\   \  &\   \
+&\   \  &\   \ >&\  o    0 -       0  &0     <&  % 0   0 &  [\\      0   0 -
+                                                          P      \  &\   \ %&\
+ \  &\   \   -&\   \  &\   \  &\   \  &\   \  &\      &\   \  &\   \  &\   \  &\
+  o    0 -       0  &0     <&  % 0   0 &  [\\      0  n -     K -   K -   K -  %
+K -   K -  hN -  d }  kE- K   - K     K   -          0 @q }
+ 
+ 
+           P    NONE                                                      B_ESD
+       U  B_RLD           B_TEXT       8+   B_SYM           B_IDRU          B_ID
+RL          B_IDRZ          B_IDRB            B_NAME          B_MAP
+IEWBESD   "\       -   [        IEWBRLD   "M           /        IEWBIDU   "\
+   -   [        IEWBIDL   "0           %        IEWBIDZ   "8        IEWBIDB   "M

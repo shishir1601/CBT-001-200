@@ -1,0 +1,9 @@
+* SELECT.MAC
+*   Copy to Vista tn3270 directory and assign to a mouse click
+*   Click anywhere on a line to select an ISPF table entry
+*
+Key("MoveCursor")
+Key("NewLine")
+Key("BackNewLine")
+Type("s")
+Key("Enter")

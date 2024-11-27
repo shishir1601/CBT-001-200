@@ -1,0 +1,28 @@
+Problem:
+ 
+IEC190I OPEN DCBE validation message after invoking the PDS command.
+OPEN is successful and the PDS can be accessed.
+ 
+  IEC190I MFHDAG0,ATSOPROC.ATSOPROC,SYS00030 INVALID DCBE: EXCP DCB
+  WITHOUT FOUNDATION EXT
+ 
+Solution:
+ 
+z/OS 2.1 maintenance to fix this problem.
+ 
+OA42406/UA69690/1307
+OA42694/UA69759/1307  (this PTF prereqs UA69690)
+ 
+1.  APAR OA42406: OCE FIX ROLLUP FOR HDZ2210: Individual APAR status
+ 
+A fix is available.  The life cycle of this APAR is complete.
+http://www-01.ibm.com/support/docview.wss?uid=isg1OA42406&myns=apar&mynp
+=DOCTYPEstatus&mync=E
+ 
+------------------------------------------------------------------------
+2.  APAR OA42694: ABEND0C4 IFG0554P: Individual APAR status
+ 
+A fix is available.  The life cycle of this APAR is complete.
+http://www-01.ibm.com/support/docview.wss?uid=isg1OA42694&myns=apar&mynp
+=DOCTYPEstatus&mync=E
+ 

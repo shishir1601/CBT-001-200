@@ -1,0 +1,877 @@
+ ESD            IEHMAP         qMAPCOM          NOPSYNAD   H
+ ESD            MAPER           SCAN            DATER370
+ ESD            FIND5SP         MAPDATE         F13CNVT
+ ESD            F5SPANAL        F6SPANAL        VALIDATE
+ ESD            VAL2AND3        MAPEDIT         MAPTRACK
+ ESD            MAPCATLG        MAPCCHH         F1SPANAL
+ ESD            MAPPDS          EDITF2          REWRITE5
+ ESD            MAPSTAT         MAPCORE         MAPLIST
+ ESD            XTRAVCON        MAPTITLE        MAPDEV
+ ESD            MAPKEY          MAPVMSG         MAPTLE00
+ ESD            MAPMSG00        COMPATCH        COMSCON    o
+ ESD            MAPSCAN    q   }SCAN       q    SCNPATCH
+ ESD            SCNSCON         MAPCORE        }CORPATCH
+ ESD            CORSCON         MAPRSLV         XTRAVCON   -
+ ESD            MAPLIST    -
+ TXT             00  IEHMAP VERSION IV-A - OCTOBER 15, 1975 10/15/75 14.
+ TXT            52        }  ?    -   -&    &   &}   }           0-@
+ TXT                IEHMAPIN      -Y 0  P  : :P  h hP     P  0 0P     P
+ TXT   y         < <j     -  \   0|     o    {|
+ TXT   \        k                }  &   q }       0 0 @    /        0 -
+ TXT              0 &0 @- 0     & 0       & 0     & 0                 0
+ TXT   &            /{& 0   0     & 0    4    /  0   }/     )\   \/h
+ TXT   h        P            0/h 0/      0   0/  0/     P       q 0
+ TXT   {           00     /Q&0 @ 0/<    -  -          /8 0 -&0  &    0/
+ TXT   8        j  '         \  o  'o  =m  #m  @q 0     0|       0 0
+ TXT                             1    &           0    <&\0      &- 0  1
+ TXT            &    0  n 0        00        0           0    &0     8
+ TXT             s  &    1- 0   k 0  \0 &   &}0   q 0     \    &0   }0
+ TXT   Q        k 0 q }          [   1   0 H       <   H   f \  k0   0
+ TXT                        i             }  \     &       Yj  =   &k1
+ TXT             0 Y       <    &  < \     *K  a   4         0
+ TXT                           y \ qj      y     \ q    j      U 0 @
+ TXT                j      U 0           0         U        k0   0
+ TXT   0            Kd     0 H  n10    &       & 1      n+0  a  n 0  \
+ TXT                n00  \       \        &  & 1;  &      k      \
+ TXT   -           i    n                \ b           S 1      k0
+ TXT   q          }  \   0   \   0       0 -     0,  7      ;0,        8
+ TXT   }        nI      nW      nE     @nT     h        K   0     }  \
+ TXT             \   \       \   \   0 H 0 - 0,  7      ;0,
+ TXT                             \      K \ 0   Kd      Kc      n     k
+ TXT                n     k     n     k         Kd       0,  7      ;0,
+ TXT                                         0       0    }  \  j{ :   0
+ TXT   Y             0       \/  0 H    K
+ TXT                     0      &   &    0      &0   0 H        i
+ TXT            <           <           <           &  } 0       q     }
+ TXT               K     0             }     0       H     K   L
+ TXT   H           L            k      h         0      q            0
+ TXT                 0       0          i                 +   3     o0
+ TXT            k   K    -      K       n    =K      0 &
+ TXT            &\ Y   0k    \ M&  &              0 0         MK
+ TXT   y         \ Y     \ Y      }  \  K     K        h       Y \ 8K
+ TXT   \           0 H  P      0            &       -   &   &   k   k
+ TXT                            j       n      8n      YN    O   Y
+ TXT   &          }  \  K     K          \ h&      -   &~  k   k   k
+ TXT   h                        j      Hn       n      0N    O   0 0 H
+ TXT   {        &\ Y         \    K    e3X         H    &   K  ( <     &
+ TXT   8                   ^ &   \ -k0   \  K            0     .
+ TXT             &   \ -k    \     *     &   \ -k    \   \ Y         0
+ TXT                k                   3          HK                &
+ TXT                    3X         H    0123456789ABCDEF             }
+ TXT   Q             \  q        &   0 8 &   0 8 00  0|  0|          0 -
+ TXT            K(      k-   00  0|  0|          \  o  =    &@   0 H
+ TXT               hj     | &       k              Mj       &   k
+ TXT                       &        k   m   o   &   &     m  '
+ TXT
+ TXT   0
+ TXT                                            , ,[,<,+,&, , , , ,!,*,;
+ TXT   -        ,-, , , , ,|,%,>, , , , , ,:,@,=, ,b,d,f,h, , , , ,k,m,
+ TXT   q         00  MAPSCAN  10/15/75 14.52  }  \      k1 go  =k  f   &
+ TXT   }        P       k   KF    K      &Fq 0 -K   G-K|   Y   g     \
+ TXT            k  gn* Y  {&k      Y    n     {y    n     {yn     F8 0{
+ TXT                n     F8n     {y    n     {\n     {\         0{{
+ TXT                G      Y  G   G   N   G:  A N   G=  A       n     F8
+ TXT            n     A      0A      Y  K             G&    A
+ TXT   Y        n     A       A& 0F8           H   H   0{       n     Aq
+ TXT            n     FY 0A          0A n     Chn     Ch  N   G   E N
+ TXT            G%  EhN   G   BHN   G%  B}N   G   C0N   G   C0N   G   Cq
+ TXT            N   Gf  CyN   Gh  B N   G   Bqjb f  F8  n     B n,    B
+ TXT   H        n     B n(    B o  f             0B         F8  j  f  B
+ TXT                  G   G   G o  f    n,        A  0C      0B
+ TXT            j  f  F8  o  f 0B             G &    0B      0BQ
+ TXT            j  f  F8        n     C n,    C n     C          0BY
+ TXT   y            G      \  G   G o  fn,        A     j  f  C&o  #j  f
+ TXT   \          C&o  =j  f  C-o  #    j  f  C     &   j  f   Ho  ' 0 H
+ TXT            o  " 0C  &Fq  F  0A            0C               n     CQ
+ TXT   &        n,    CQn     CQ         0C         G         G   G  0B
+ TXT   h             &    D      \/  0{ &  &   0D               D
+ TXT   {            D      \/  0{ &     j  f  D-K           &   o  f 0D
+ TXT   8        K       j  f  D o  fN & G     Dh     0D         n(&   D
+ TXT            o  f            n &   DQn,&   DQn)&   DQn &   DQ
+ TXT             0Dy        F8     Y  G   E  0  &0  j  f  E m  fn &   C
+ TXT            n &   C n,&   F8     0A n)&   E&N & G   E-N & Gs  E-n,&
+ TXT   Q          F8     0C0        mX f 0E      &Fq  F     n     C0 0E
+ TXT            K            0E                 E        \/  0{ &   &
+ TXT             0E}         \/  0{     &   &     K        e    n)&   F
+ TXT            n,&   F n &   F          0E\       U  G     G     F n)&
+ TXT              F N & G   F N & Gs  F n,&   F8     0E     n &   C n &
+ TXT   0          C n,&   F8     0A      &Fq  F     n     F    0E
+ TXT            K              Y 0    O  Y   5   0 -K   G-K|   Y \  n* Y
+ TXT   -          F\   Yn     F8k    7   &Fq 0F N   G?   H
+ TXT   q         \   0{    : 0G    @ 0G    = 0G      0G K       K  {
+ TXT   }        K       K  0    K  -    K       K       MAP000IVOL=(V=(C
+ TXT            ATLGOPT=O=SENDS CNAME=C=QUAL=Q=CEND=CE=CVOL=CV= , ,
+ TXT            GyG G G G G G G G G G G G{GBGDGFGHG G Gy
+ TXT             00  MAPCORE  10/15/75 14.52  }  \       0 @    {
+ TXT             \0 &0 @  0   ^ 0  j& 0    j& 0     {   & ]Mj  " \     H
+ TXT   Q                   q =  & ]                                   {
+ TXT            & ]\j  "   H     \Bq& ]{&0]D     \Bq& ]H&0]      \Bq& ]}
+ TXT                 \Bq& ]Q&0]      \Bq&0]Y     \Bq;0]Y&0]Y     \  j  "
+ TXT              A k   K   Cq   \       \    ]\h    \  K         ]Yh
+ TXT             \  K  )    ]{h    \  K  ,    ]Hh    \  K  #      ]}h
+ TXT   0         \  K         ]Qh    \  K         ] h    \  K  w      ]
+ TXT            h    \  K        \       \    ]D     \  K  -      ]
+ TXT   -         \  K         ]M     \  K         ]      \  K  v     \
+ TXT   q        K        \       \    ]{; ]H  ]M  ]     h   i       ; ]Q
+ TXT   }          ]Y    h   i       h    \  K        \ H 0        ]
+ TXT                j     C-              BQj     C             C  0B
+ TXT            j     BY                    C            &
+ TXT                    C                :              C
+ TXT                C  0 7                      Ch  j     C         C  0
+ TXT   Y        C-      j     BY     0BY0STATISTICS:    CyC C C C C C C
+ TXT            C C C C C{CBCDCFCHC C Cy
+ TXT             00  MAPRSLV  10/15/75 14.52  }  \
+ RLD                   %                                       {       D
+ RLD                   H               }       M       Q               \
+ RLD                   U       Y               0       4       8
+ RLD
+ RLD
+ END                            15734AS100 050175288
+ ESD            IEHMAPCT        MAPCATLG        MAPCATI
+ ESD            MAPCAT2         MAPCAT3         CATPATCH   \
+ ESD            CATSCON         MAPCATI         CTIPATCH
+ ESD            CTISCON    o    MAPCAT2    q    CT2PATCH
+ ESD            CT2SCON         MAPCAT3        HCT3PATCH
+ ESD            CT3SCON    =    CATDEV         DCDVPATCH
+ ESD            CDEVEND
+ TXT             00  MAPCATLG 10/15/75 14.54  }  \       0 }
+ TXT                n  0  { o ]  0 M           aj  "  {} 0{     j  "  {h
+ TXT             0 Q           0EQ               a  N         {}N    \
+ TXT   y          EHK  h      I     N         N       EHn     A n     CH
+ TXT   \        n     B m ] n     B-n     A n     AYn     A  0  N    \
+ TXT              N          \H m"]  \ h&\  K     K  h       c  &     I
+ TXT   &            N       {h 0 h      K     K  _  m"] n     A K  =
+ TXT   h             \ yK  f            N       AQN       AH     0A K  =
+ TXT   {           0A\  K    Q 0A\      K        \H- 0{hK     K  _  K  &
+ TXT   8            m"]  \H- 0{ho ]  \C\N    \    N          \HM \ h&\]
+ TXT            K  h      I          \D{ \] &\ h  I m ]  0{h    N    \
+ TXT              N          \H  \ h&\  K               &   j ]   B  \]h
+ TXT             \ } }B  \D  0BQ  ]   ]<         \H     k.    & & ]
+ TXT   Q          ]<     &]  &   &H K  _  K  f       \ 8K     K
+ TXT            j     C K               j     C K    +   \H-o ] N    \
+ TXT            ChK  h    I o ]     N          h         h  n     B n
+ TXT              CH 0  K  h      I     N        h         a  N
+ TXT            N    \  G  0     \C\         \D{ 0{h    &\]@     \]h  D
+ TXT   0        j ]   D o ]  \D K  _         \]   D  &]  &    ]< &H
+ TXT                         \H j ]   D nG    D nV    D j0   \D j0   \D
+ TXT   -        P        \]@    &\]  0 *      ]h  ]<K ]<             \H
+ TXT   q            k.       r    D   ]<    & ]  \]     &\]d     \  K
+ TXT   }                   =     &     }D0   0D8                N
+ TXT            E N       E      0E     o ]          \ yK     K     j ]
+ TXT              E K    Qm ]  0E-      K        3       \    K
+ TXT              Eh \H-   =         &D8    E K  h    I          0DQ
+ TXT               }  E{ \H-     \]d         \]h  G        -    j ]   F
+ TXT   Y            k   m   o   &   &     m ]  0F       j ]   F     k
+ TXT            m   o   &   &     m ]       j      H&   k
+ TXT            j  "   Yj ]   G      \    ]  \  K  &      ]m \  K  ^
+ TXT              ]q \  K  ?      ]  \  K  a      ]  \  K  j      ]  \
+ TXT   H        K  ~     \       \    ]  \  K  ;          ]  &]
+ TXT            n &   G           G  \  K  '     \  K         ]y \  K
+ TXT                 \  K         ]  \  K        \      j ]    Yo  = 0 Y
+ TXT            j ]   G  \D  &]  &    ]<     &H K  _     \H-     &]
+ TXT   y          ].  ]<    n.    GH      GH 0G   ]<      &&]     H   ]h
+ TXT   \            & ]hi&   0 *  &  \  &\ h      I      d  m ]  0{h
+ TXT            K        &      n     H      &H  &   0H      &   &H
+ TXT   &                K                       N  _      H           H
+ TXT   h         0H         ; ] & ]     j  "                ; ]h& ]h  ]
+ TXT   {         }HH& ]  0 *i         }   ]u    H8       \/  0  & ]u
+ TXT   8        n     I                 H8       \/  0  &   k & k    \ h
+ TXT            &\   &  K   & q }        0  ;0]y&0]y 0]u    I   N 0  h
+ TXT              I  00           I- 0I     K   0   k 0  0  ;0] &0]  7
+ TXT            N  h \     X  }  \   \]     IQ     h* ]             k
+ TXT   Q             \ }       -       h \ 8    K       j  :   H     \
+ TXT            K    e       \ yK     K  ( <K    &K  !     h \ yK  /  K
+ TXT               <   - \ yK            \ yK  :    k0   \     qk0   0 H
+ TXT                 \    ]h   * r  o ]      Y  k0           \ yK     K
+ TXT                K  < <       \ yK  * <K  _   \   r     y      ]u h
+ TXT   0        EH      n            \       \ yK     K     K    <  k0
+ TXT             \      K          qk0       h   h  EH 0 8
+ TXT   -         \     h \ yK       k-   \   0 Y   ! 0 -     0 -o ]  0EQ
+ TXT   q             \                       &   \ -k    \
+ TXT   }             &   \ -k    \         q 0 hCATALOG LISTING FOR VOLU
+ TXT            ME "D06DB0" DSN=GEN.IX CVOLPTRINDEX  DATASETALIAS  EMPTY
+ TXT             MAX.NO=FLAGS=DELETE0NUM ENTRIES TO READ ROUTINE0NUM OF
+ TXT            BLOCKS FOUND IN CORETTR IS TTTT.RR DISPLACEMENT XXXX IND
+ TXT            EXTTR IS TTTT.RR   KEY IS                        \ S U W
+ TXT   Y         Y       0 2 4 6 8
+ TXT                           \
+ TXT             00  MAPCATI  10/15/75 14.54  }  \      k ]   ]    -n  -
+ TXT               <K    -N    -    j          -
+ TXT            k   m   o   &   &     o ]  0        k   m   o   &   &
+ TXT   Q          o ]             s j  "   8     0  K     K^  0  0  K 0
+ TXT              K 0  0K 0   K 0         ] P ]h]hK ]<      &   k
+ TXT                j           &  h  I j  "  s          \     . \ 8K
+ TXT                   .& ]         * ]         & ]  \  K  )         \ y
+ TXT            K     K    <       , \ yK  f  K    <   ? \ yK     K  n <
+ TXT   0             \ 8K  w     \  j  "  ~0    &   o    \      k0
+ TXT            ; ]  \/  0  & ] k          0 Y  o  =     \  K       k-
+ TXT   -         \  m  =m" " 0 Hs s s s s s[s<s+s&s s s s s!s*s;s-s s s
+ TXT   q         00  MAPCAT2  10/15/75 14.54  }  \      k ]]n      &N
+ TXT   }         0   &K ]<  K    0K  0]<k      0 0        ] n         s
+ TXT              K ]<          n      yn.     yn(     y         0
+ TXT                   Y  s{    s{    s0& ]              a  N         ~
+ TXT            N    \    s\K  h      I     N         N       s\j ]]  s
+ TXT            N   ]<     H  s n     ~ n     s n     s n     s n     s
+ TXT   Y        n     ~Hn       K ]<        &  h  I      0 H     &] n &
+ TXT              s  \H  \ h&\  K     K  h       c  &     I     N
+ TXT             h 0 -  N    \  s    \H  \ h&\  K     K  h       c  &
+ TXT              I     N        h    ] n(    s n     s nG    s nV    s
+ TXT   H        o ]] 0 -   -K    0      K  0            n.    s   s
+ TXT            & ]  0s K  &  P     N ]< &  s  0 H      N       sy
+ TXT               a        m"]]m"]    0 Y           \   0 -K    0   \
+ TXT             0 H         \   0sH    K ]<    s8s s s t t t t t t t t
+ TXT   y        t t t t t t t s8
+ TXT             00  MAPCAT3  10/15/75 14.54  }  \      k ]]
+ TXT   0         a  N         N    \  t K  h      I     N       u N
+ TXT              t     n       n     ~ n      0m ] n     ~&n     ~ n
+ TXT   -          ~ n     ~  0u; \H m"]  \ h&\  K     K  h       c  &
+ TXT   q          I      0      o ]  \C\ \HM \ h&\] K  h      I      \s
+ TXT   }         \] &\ h  I m ]  0      m"]  0  m"]  0   \C\     \s  0
+ TXT            N    \  u>N       u> \H  \ h&\  K               &   j ]
+ TXT              ~  \]h \ } }~  \D  0~H  ]   ]<         \H     k.    &
+ TXT            & ]     o ] N    \  tQK  h    I o ]     N       u
+ TXT                 h  n     s n     s  0u;         0  &\]@&      H \/
+ TXT   Y         0u& lK     K                &     }s-   0s
+ TXT            K     K  {      ;  *K            &s{    s8K  h    I    H
+ TXT             \/  0u&&  qK      l     0s     j ]]  s}& ] o ]]&   & ]d
+ TXT               H \/  0u&&  q l        ]d 0s j ]]  t   ]     j ]]  t
+ TXT   H            &   o ]] 0t         t          q&k qj ]]  t m ]]
+ TXT               q    t  k 0t &   &  q \]@          N       th       q
+ TXT             0t>    &l qj ]]  tym ]]   q    ty k 0tq&  q \]@
+ TXT               \]h  tH 0u&  j ]   tQ \D      &]       ].  ]<  n.
+ TXT   y        u     u  0tY      ]<      &&]     H   ]h    & ]hi&   0 *
+ TXT   \          &  \  &\ h      I      d  m ]  0         0 Y     0u
+ TXT             ! 0u      0u      0u    \     h \ yK       k-   \     q
+ TXT   &         0 Y    u usuuuwuyu u u u u u u u u u u u{uBuDu
+ TXT             &  3330 DISK    \  2314 DISK    {  2314 DISK       3330
+ TXT             DISK       2301 DRUM       2311 DISK       2311 DISK
+ TXT   0         &  2305-1 DRUM     2305-1 DRUM  &  2305-2 DRUM     2305
+ TXT            -2 DRUM     3340 DISK       3350 DISK    &  3330-1 DISK
+ TXT   -            2303 DRUM       2302 DRUM       2321 CELL       2400
+ TXT   q         TAPE       2400-1 TAPE  {  2400-2 TAPE     2400-4 PE
+ TXT   }            2400-4 PE       3400 TAPE       3400 DUAL       3400
+ TXT            -6 TAPE  {  3400 7TRK
+ TXT
+ RLD                   }       M       Q
+ END                            15734AS100 050175288
+ ESD            MAPEDIT         EDITOR          MAPSTAT
+ ESD            STAPATCH   y    STASCON         EDTPATCH
+ ESD            EDTSCON         MAPSPACE   }    F1SPANAL
+ ESD            F13CNVT    {    F5SPANAL   \    F6SPANAL   }
+ ESD            SPACECOM   }    ANLPATCH   h    ANLSCON
+ ESD            SPACECOM        MAPPDS     8   0PDSEODAD   0
+ ESD            PDSLIST    8    PDSSYNAD        PDSPATCH   {
+ ESD            PDSSCON    W    MAPTRACK   Y    TRKPATCH   }
+ ESD            TRKSCON    6    MAPDATE    8    MAPFIXUP       %
+ ESD            REWRITE5   -    FIND5SP         FIXCOM
+ ESD            FIXPATCH        FIXSCON    ;    FIXCOM
+ ESD            MAPCCHHR   h   QMAPCCHH    h    CCHPATCH
+ ESD            CCHSCON    ;    MAPEDIT2   -    EDITF2     -
+ ESD            EF2PATCH   H    EF2SCON
+ TXT             00  MAPEDIT  10/15/75 14.58  }  \      j  :  {  0  K 0
+ TXT              K 0   j  #  { K 0   K 0    0{ K 0   K 0       j  :  {
+ TXT            K 0 IO 0{       j  @  { K 0 IR  j  "  { K 0 IH  j  #  C
+ TXT   y        j  "  {} 0  K 0   K 0        \   \I  0B0jB :  B\    j  @
+ TXT   \          A&     \      K            \  K            \  K  =
+ TXT                 \  K          [ \ 8K          . \ 8K        \
+ TXT   &             \         [        & ]  \  K  !        & ]  \  K  _
+ TXT   h               , \ yK  "  K  d <   ? \ yK  i  K    <     \  K
+ TXT   {                 \ yK     K    < \           \     U \  K  +
+ TXT   8           Y \  K  ;       \ \  K            \  K          0 \
+ TXT            K  y     \  j  @   H   u h  B        \     D \  K
+ TXT               H \  K            \  K  f     \      j  '  B j  :  B\
+ TXT                 \ {              BH \ {   m 0B           B\ \ {   m
+ TXT   Q         0BH    j  '   Hj  @   H    j{ :  C j  "  C j  "      C
+ TXT                 0C j  "  C         &   o   k0  j  #  C j  :  C j  "
+ TXT              C  \  k0         qN         I-    ; ]0& ]0       m
+ TXT            C   n2    Cq h 0C          m     0|Y    j{ :  C j  "  DH
+ TXT            j  =  C}j     C}j  :  HhK       j  "  D j  "  D      \
+ TXT   0        K  ,       . \  K          + \  K  "   0DH      j  "  D
+ TXT            j     D-K  | yK          \  K          . \  K  a   0DH
+ TXT   -        K  |  K    {j     D K  a   0Gq  K  a   0Gq      K  |
+ TXT   q             \  K            \  K            \  K
+ TXT   }        k?  j     D8K   I           ;   &       j     E K   I
+ TXT                    ;   &   j     E K   I}          ;  <&  <j     E
+ TXT            K   IK          ;   &   j     E K   IM          ;   &
+ TXT                  E     ;  &&  &    j     E kU           \ y       u
+ TXT                j{  k?    EQkU    EQj   kF    EQkV  j         E0kB
+ TXT   Y                j     F kS      j     F kT      j     F   F j
+ TXT            kA    F kM   0F kX           \  K  m         \  K
+ TXT               ! \ 8K        M \;\]4&\]4 \  ;\ Q&\ Q \  K  y  N    \
+ TXT              F k0   0F{        ;  } \  ;\]8&\]8 \  K            \ 8
+ TXT   H        K          ^ \  K       j{ ;kC    G   F8kA   0G j  ;kB
+ TXT              G kT  n     G kS      j  ;  G j  ;kC    G j  ;kM    G
+ TXT            j  ;kA    G kR  j  "  G}j  :k     G-k0  j     Gqj  :  Gq
+ TXT            Kd @    k0       \  N  &     }GH 0H     j  :     \GH
+ TXT   y             h    G                  0   \       h  H        \/
+ TXT   \         0H  0        H &  yo  ' 0H     &       &    i
+ TXT            j  :  Hhj     Hhj  "  HHj  =  H-j  )  H-N  &   }H&   \
+ TXT   &           ; \   0Hh     0|     j  :  HH     \Hh             0
+ TXT   h        j  :  HH     \ {    H    \ {N  g \    H    m 0Hq    HH
+ TXT   {         \ {    j  #   Hj  "  C    qN       H8 \   \I&  C
+ TXT   8             \    ]0 \  K         ]4 \  K  :      ]8 \  K  p
+ TXT             \  - ]0  ]8k    0   \   \I  0C N       K 0     j{ :  I8
+ TXT            j  :   Hj  "   Hj  '  Ih 0I\         \     M \  K
+ TXT                ;   ;  Q \  K        \   0|8     0I\ATTRISPSDAPOVSDI
+ TXT   Q        RTTR
+ TXT             00  MAPSTAT  10/15/75 14.58  }  \           \       \
+ TXT   0             \     8 \  K  .         \  K         ]  \  K
+ TXT              ]  \  K  ?      ]  \  K  #      ]  \  K  g      ]  \
+ TXT   -        K  l     \       \  N ]  8  {}K  (DYo  'N  M    {YK   DY
+ TXT   q        o  '    N ] ]   A K   DYo  '    N ] ]   A K   DYo  '
+ TXT   }        N ] ]   A K  'DYo  '    N ] ]   A K  iDYo  '    N ] ]
+ TXT            A-K  nDYo  '       8;   ; ] ; ] ; ] ; ] ; ]   ]   A K  v
+ TXT            DYo  '  j  '  Ayj     Ay \           \       \  K  ;
+ TXT                 \  K          < \  K            \  K            \
+ TXT            K  b       & \  K        \       \       \  K  $       d
+ TXT   Y         \  K          h \  K  ,         \  K            \  K  #
+ TXT                   m \  K  c       q \  K            \  K  q
+ TXT             \  K  s       u \  K          y \  K        \       \
+ TXT                 \  K  $         \  K          * \  K  ,       - \
+ TXT   H        K            \  K  #         \  K  c       % \  K
+ TXT                 \  K  q         \  K  s         \  K          @ \
+ TXT            K        \       \       \  K            \  K  ,       {
+ TXT             \  K          D \  K  #       H \  K  c         \  K
+ TXT   y               } \  K  q       M \  K  s       Q \  K
+ TXT   \         \  K        \       \     \ \  K          U \  K  ,
+ TXT               Y \  K            \  K  #       0 \  K  c       4 \
+ TXT   &        K          8 \  K  q         \  K  s         \  K
+ TXT   h             \  K        \ H 0  YES     D0D2D4D6D8D D D E E E E
+ TXT   {        E E E E E E E D0
+ TXT                m  'j  '  I8 0|0    m" 'j  '   Hj  :   H 0|      0 H
+ TXT                 0|{
+ TXT            PDS LISTING FOR VOLUME "D06DB0"DSNAME SPACE ALLOCATION L
+ TXT            ISTING FORVOLUME NOT MOUNTEDDATASET NOT ON VOLUME
+ TXT               k m o q         s u w y
+ TXT   }         00  MAPSPACE 10/15/75 14.58  }  \       0    {  0{  0Ch
+ TXT             0D  0D j  '  A    M   &      A     {   n    }{  &
+ TXT                      C  0|D        j  :  A K  m    &    S   \ t
+ TXT            -  y    &  uj  @  {{o  u    j{ :  A j  #  A &
+ TXT             \/  0A  l  $   q    \ Q         &{  0A o  #     \ Q
+ TXT   Y             &{ &  M    A N  g \  A    m     0{ m" #m" @    n
+ TXT              B n     B n     B n     B n     B n     B n     Bh  Bq
+ TXT            ;   &   n         By               y }A &  y    j  '   H
+ TXT               M        B      }  BH   M  BQ   Q  BY      B8   \  C
+ TXT   H              C   C ;   &     G       C    @ } H&  @ 0 H;   &
+ TXT             0A     ;  d&  d 0A     ;  h&  h 0A     ;   &    0A
+ TXT            ;   &    0A     ;  m&  m 0A     ;  q&  q 0A     ;   &
+ TXT             0A     ;  u&  u 0A     ;   &    0B     ;   &    0B
+ TXT   y        ;  *&  * 0B     ;  -&  - 0B     ;   &    0B     ;   &
+ TXT   \         0B     ;  %&  % 0B     ;   &    0B     ;   &    0B
+ TXT                       '                               .       ^
+ TXT   &               '    n      Ym  "n     C\     0  &        0  &
+ TXT   h                ;  }j  "   Ym  "    o  @ 0 Y
+ TXT   {            &                   *   &   o  " 0C          \D  h
+ TXT   8          D      h       \D  h    D  0 Hn       q  D &       &
+ TXT                       D             \Dy      D              \Dy
+ TXT              D &    0 H    N    \    }  \      ;  Y&  YK
+ TXT                    &      \  &  \  <       &   ;  U&  U    &
+ TXT   Q          E   E  & 0 }E &   && 0     \     }&  m     \   \ }&\ q
+ TXT                -  yk  t   *&  uj{ :  E      \/  0 H l  $   &
+ TXT             \ Q    -   K        0                E8      F        T
+ TXT                E{  &       &&   &      E8   &        EY-    0E8
+ TXT                  F  0 H         & }  F  & M  FH & Q  FQ &    FY & \
+ TXT   0          F8 &    G   G ;   &    &G       G      &   }E}&&   0E}
+ TXT                   }  G    M  G    Q  G       G    \  G       Gq  Gh
+ TXT   -        ;  M&  M  G       Gy         } H&    0 H;  \&  \ 0F
+ TXT   q        ;  U&  U 0F     ;  Y&  Y 0F     ;   &    0F     ;  0&  0
+ TXT   }         0F     ;  4&  4 0F     ;  8&  8 0F     ;   &    0F
+ TXT            ;   &    0Fy    ;   &    0Fy    ;  {&  { 0Fy    ;  D&  D
+ TXT             0Fy    ;  H&  H 0Fy    ;   &    0Fy    ;  }&  } 0Fy
+ TXT            ;  Q&  Q 0Fy    G G G G G{GBGDGFGHG G G G}GKGMGOGQG G G
+ TXT                 00              00              00              00
+ TXT   Y
+ TXT   8         00  MAPPDS   10/15/75 14.58  }  \      o    0 -j  "  {
+ TXT                      {h     \/  0{          \  K            \  K
+ TXT                 0 -    &       &   o          D    {}          P
+ TXT                  {  0{        D&   &  HK              -K          @
+ TXT   Q          C8&     H &   q Hh \H j     A      \  K      \   0 H
+ TXT               }k  eP  { {     {    Aq     @   -    k   &   &    1
+ TXT             00          \   0\     j  e  C8    ;  D&  D    $  M&  {
+ TXT                &  U 0A        U                    &  U    $  0&  {
+ TXT            N         AY \ D&\ Ho  ej  @  A o  @ 0A     ;   &   K
+ TXT   0            j     B kA      ;  }&  }    j  :  A j  @  C     HH
+ TXT            j  "  D 3          HK     K    <k.   \  h\   \ Q   0 \ *
+ TXT   -         \D          }B      \   \D      &             ^ \ - \
+ TXT   q             }BH    $&         ^ \ -k    \      j  @  A
+ TXT   }        D N       D     &       K                   j     B kA
+ TXT             0B        D    C        \/  0C0&  D&   &  HK
+ TXT             \      C           C        \/  0C0&       &         CY
+ TXT               H    N         Cy  CQ         0Ch    j     CQj     CH
+ TXT                  N       CQN       CQ 0C   &   &   k    0A K
+ TXT   Y        o  @     \H m  ej  e  D  \ D&\ Hj  @  B}     \      $  }
+ TXT             \  K  +       H \  K          D \  K  "       } \  K  *
+ TXT                 \  m  @m   m"   0 Hk   j  e  D N  &   +    k0  o  e
+ TXT                    K     K         HH  j     D{kA       \ yK
+ TXT   H            h              0                  G       HD  H
+ TXT             \ yK            \ yK  $         \ yK            \ yK  |
+ TXT                j     E      \ yK  -         \Eyj     E     j     E
+ TXT                 0E j     E         j      y    h   i    0 yK  :  K
+ TXT   y         ' [        j     E}K   H       j     EYK   H
+ TXT   \        j     F K   Hm          j     F K   Hq          j     F
+ TXT            K   H           j     F K   H           j     F-K   H
+ TXT   &                j     F K   Hz          j     F K   Hx
+ TXT   h        j     FyK   Hs          j     F K   H   j     G j     F0
+ TXT   {            j     FQ    K         HH \ yK  i    j     G      \G
+ TXT   8        j     G     j      y     0 y    j      y     0 yK
+ TXT             \D  \   0BH    j     G j     G     j     G     K
+ TXT             \ yK  i                    $         G8  G $ H{      G
+ TXT            j     GQ$ H       G j     G8$ H       G  0G8    j     G8
+ TXT   Q        j     G8$ H       G         h   i    \ yK      0G
+ TXT                  G      0G8     }       \  o  eq              @j
+ TXT                &   k                  @j       &   k
+ TXT            NOUSAGE RENTREUSOVLYTESTOLNOTEXDCNESYMSCTRREFR
+ TXT
+ TXT   0                                  [.<(+|&         !$*);^-/
+ TXT               ,%_>?          :#@'=" abcdefghi       jklmnopqr
+ TXT   -         ~stuvwxyz   [               ]  +ABCDEFGHI       JKLMNOP
+ TXT   q        QR        STUVWXYZ      0123456789      IHI I I I}IKIMIO
+ TXT   }        IQI I I I\ISIUIWIYI I IH
+ TXT   Y         00  MAPTRACK 10/15/75 14.58  }  \      k   j  "  {
+ TXT            &   o    0  K|0   K     K 0  [           0 -N    {    B
+ TXT                      {Y          {Y    $  }  {   {8j     {yK  [C
+ TXT                  {              &   \  K  >    j  @  B N  [C   B  0
+ TXT   H        B       K   C{ 0B       j  @  {  0  &  Q \  K   C K
+ TXT                &            \ yK    < \      A    4     X    A &\
+ TXT             0A      =  &          0 X!\     0A             &0   0
+ TXT                 \ yK  ! <  &      kn     AHN       AH  &  m   m 0 -
+ TXT   y         0{          \ yK  ; +K   C k' -k   j  #  A8 0|
+ TXT   \         \      j  #  {  0BY         \ yK     K  ) <k. *     \ y
+ TXT            K     K    <k.  j     B-    ;    \  K               K  :
+ TXT   &            j  :  B j  :  B     n  :  B  0B     n. *  B j  :  B
+ TXT   h        j  "  B k    \       0{-        $  } }C &  {
+ TXT   {        B0      o  # 0{8m  #       {     \  ;  } \  K       k0
+ TXT   8         \      j  #  C  0|4     \|h \|      \       \  K
+ TXT             \     \    C      [ \   \  K        \           \   \
+ TXT            K       k0   \  j  :  C j{ :  C      \   \   \|  0  K|0
+ TXT               0 H
+ TXT   y        INVALID EXTENTTRACKS MISSINGX'OVERLAP   CYC C C C0C2C4C6
+ TXT   \        C8C C C D D D D D D D CY
+ TXT   8         00  MAPDATE  10/15/75 14.58  }  \              <
+ TXT            K       !   +       k   o       |&      )     A  v  {
+ TXT               Q  {   A         {\        {\         t   [ }{  [
+ TXT             0{q    <     <     +   K     3     o0  k/  k/   0 H
+ TXT   Q        &   3     K     k   k   k.   0 H _               >
+ TXT
+ TXT             00  MAPFIXUP 10/15/75 14.58  }  \       0    {  0{  0A
+ TXT   &        j  @  {qj      H      { j  m   H   m  {                z
+ TXT   h          {  0 H      {h \ & 2       \   2                 m r
+ TXT   {        A    z           0      N    \  A     {{        N    \
+ TXT   8        A     {QP  g gP                      z    {      y
+ TXT              {    m    {   j  m  {- 0 H                     0  N
+ TXT             \  A\    A<            N    \  A\    A j  @  A    m r
+ TXT            A  z 0A    m r }B   j  @  A &  m 0A     &  m    o  mP
+ TXT   Q               mK  g  K      z  &       K       k5  o      Q;
+ TXT            &   K  : o 0 H  K  :       Q;  \&  \ 0 HB B B B B B B B
+ TXT            B B B B B B B B B B B B      00              00
+ TXT
+ TXT   h         00  MAPCCHHR 10/15/75 14.58  }  \       0, K 0   K 0 {
+ TXT   {        K  %   0|Q           \   0 Hn     {      \  n1    { K
+ TXT   8            k0   \           \ { 0{     CCHHR DUMP FOR VOLUME "D
+ TXT            06DB0"  { { { { { { { { {{{B{D{F{H{ { { {}{K{M{
+ TXT   -         00  MAPEDIT2 10/15/75 14.58  }  \       0  K 0   K 0 B
+ TXT   q        K 0   k      y  qi  k0  K            \   \       \
+ TXT   }         \  K            \  K          ! \ 8K          $ \  K  =
+ TXT                    j{  k?    {Q    kU    {Qj   kF    {QkV      j
+ TXT              {0kB          j     A kS      j     A kT      j     A
+ TXT              A j   kA    A kM   0A kX      j        \Ay    j     A
+ TXT            kW      j     A kM      j     A kI      j     AhkY
+ TXT   Y        j     AqkL      j       kR   0       \       \  K  &
+ TXT                 \  K  %         \  K  "         \  K  r     \
+ TXT             \  K  &    o0 &     \ 8K            \ 8K        \
+ TXT                {  0 H      FORMAT 2 SUMMARY FOR VOLUME "D06DB0"
+ TXT   H        B B|B%B>B B B B B B:B@B=B BbBdBfBhB B B
+ RLD                   0
+ END                            15734AS100 050175288
+ ESD            MAPINIT         MAPER           INTPATCH
+ ESD            INTSCON         MAPVAL          VALIDATE   q
+ ESD            VAL2AND3   y    VALCOM          VALPATCH
+ ESD            VALSCON    o    VALCOM          MAPDEV     {
+ ESD            MDVPATCH   8    MDEVEND    4    MAPKEY
+ ESD            KEYPATCH        KEYEND          MAPVMSG
+ ESD            MAPMSG00   y   kMAPTITLE       YMAPTLE00       [
+ TXT             0{  MAPINIT  10/15/75 14.57         0|      0 *    K 0
+ TXT              K 0-  K 0           , j  'q0    {    &        {y  q0
+ TXT             0       1    {h      {qn     {}     0{ O  :    j  '  {0
+ TXT   y                {{    ,  0{-    m  'N  : \  {0       \  K
+ TXT   \        k-   \   0-h     0 *K 0   P  D DP     P     P     P  \ \
+ TXT            P       -       &       &        & -P & &   n  {  A
+ TXT   &        K &  {  j  =  A n     A j  :  Iy                K     K
+ TXT   h         {&     j  :  Iy        N         A{          A  0 q
+ TXT   {           @    -      h-       -      M-    \  &\   \  &\   \
+ TXT   8            -   n         ,      \B   B n      y     0B n
+ TXT            &   K       &   k           j\ :  B-j  "  B     m  #
+ TXT            m  =k    0 *K 0 & K   & k0  Kc      k & k & j  #   &j  "
+ TXT              Ih    k & K & &  0  K  w& K 0  hK   & &   k
+ TXT   Q           h&   j  #  B8j  @  B8k    0C kc              j
+ TXT            j{ :  C      \/  0   l$         K  m         \ Qj     C
+ TXT               &            k   m   o   &   &   &     o  '       l
+ TXT             \   0  n4     {k ] j  :    j  :  E j  "  E j     CH   <
+ TXT             \  k-   \  o  =K  m ,       0|D    &   &       -  y \ |
+ TXT   0         \ t \  &\ uj{ :  D      \/  0   l  $        \ Qk ]    q
+ TXT             \/  0  &   &    t   \   0  n5     Mk ]  0D        q \/
+ TXT   -         0  &  m   g [ t \      n5          ; ] & ] j  @  DyPb
+ TXT   q          k5   0D        0|H    N  g \    D         N    \    E
+ TXT   }           q \/  0  &  u c       0E        q \/  0  &  m   g   c
+ TXT             \  n6    E j  #     0 -o  # 0|         ; ] & ] N  g \
+ TXT              D0    j  '    j  @  GYj  "  E      l   0E        H \/
+ TXT             0GY l   \   0GY \G j  '  E  0|}        n1    E}j  #  E
+ TXT            j  #  E n     E &  mo  # 0E     m  #    ;  M&  Mj  :  E0
+ TXT   Y        j     E         j  "  G N         F        q 0F &  q&l q
+ TXT            j  "  F K  y        -       -        \   0      n.\   F
+ TXT            n \   F           1  F&N  g \    E        q \/  0GY t
+ TXT               g     \  n3    F8n2     Y        ; ] & ] &  mN  g \
+ TXT   H        E      q \/  0GY t     g \  n3          &  m 0F &  m
+ TXT            ; ] & ] o  #N  g \    E    0F   N         G   G        q
+ TXT             0G     N         G K^     ko   K  y  K     K  {   0F
+ TXT            j  "  E    q   H \/  0GYK        l  o-  K     K  {  q  q
+ TXT   y        -  q 0F n6   }GH    ; ] & ]      0       0          ;  8
+ TXT   \        &  8    j  #  H  \|  0 -j  '  H  \|h    j  "  H j  :  I
+ TXT            j  '  I  0|Q    j  :  I j  "  I j  '  H  0|M    j  #  I
+ TXT   &        P  : :      -    \{  0|         j  :  H         H
+ TXT   h        j     H{          Hhm  :    j     H{          Hu 0HQ
+ TXT   {        o   K     K  {   0Aq            m"            H\
+ TXT   8        N         I j     I    q 0H8            N         I
+ TXT                  I o      q 0H8    o      q 0H8     0 *K 0    0H
+ TXT             0|Q    j  =  -h   & \-h 0      j  #  Iqj  @  By     \-h
+ TXT             0      K  0 {K  {  K  { -  m  #m  'n     I8        IYK
+ TXT   Q            o    0I8        K           K      0Aq         -j  '
+ TXT                 \|h \|  0|\K    {  j  "  GY    I  0GY       0|U \GY
+ TXT                    j  '   - \|h \|    -K    {                PG
+ TXT            K    { 0  K^  0 K   0- 0 *K 0       &   o       N  g \
+ TXT            I K  h g            &  m 0  K   0 K    hn3    I    %K
+ TXT   0          K    h&  mN  g \  I K  h g             0  K   0 K    h
+ TXT             0I h0   "  i    \   0  h0   "  i    \   0-h    m  #
+ TXT   -         \       \|     j  '  -h \|h 0-h     \   0       \   0
+ TXT   q             0       0       0       0  m  # 0       \       \ {
+ TXT   }         0       \       \ { 0      j  #     \           \ {
+ TXT             \ { 0E      \     0       \     0       \       \ {
+ TXT             \ { 0E    + \     \ {   \ { 0D{     \     0
+ TXT            TRACKS     : @ =   b d f h         k m o q
+ TXT             00  MAPVAL   10/15/75 14.57  }  \       0    {  0{  0A
+ TXT   Q        n1     Hn2    {qn3    {Qn4    {8n5    A n6    A n     {
+ TXT             0A     N    \   H   - \     \ { 0 H       H \/  0 H 0 q
+ TXT             |  {      0{D   |   q    { Kp    &  q&  m 0 H     H \/
+ TXT             0 H 0   |  {      0{D       \     \ { 0 H
+ TXT            N        H   m h  A      \     \ { 0 H     u h  A
+ TXT   0        N        H   m h  A&     \     \ { 0 H     % \     \ { 0
+ TXT             H           r  AY   q h  A      \     \ { h q h  A
+ TXT   -         h   H   | \     \ { h q h  A  0 H         q h  B&
+ TXT   q            N       B    m    B j     B N       B  h q h  B& 0A8
+ TXT   }           q r  A      \     \ { 0B          h   H          N
+ TXT                B    m    B j     B    m    B       N       B
+ TXT             h q h   H 0B-     q r  B    | \     \ { 0B     B}BKBMBO
+ TXT            BQB B B B\BSBUBWBYB B B B0B2B4B}     00              00
+ TXT
+ TXT   {         3330 DISK PACK              2314 DISK PACK
+ TXT   8         2301  DRUM                H 2311  DISK PACK           }
+ TXT             2302  DISK FILE             2303  DRUM
+ TXT             2305-1 DISK                 2305-2 DISK
+ TXT             3330-1 DISK               8 3340  DISK PACK           &
+ TXT   Q         3350 DISK PACK
+ TXT
+ TXT            MAP             NAME            TRACKS  y       DSN
+ TXT                    DSNAME          PDS             CATLG
+ TXT            DIR             TTR             DUMP            OVERLAP
+ TXT   Q        y       MISSING         AVAIL   h       FIXUP   y
+ TXT            DUMP456         D456            SORT    y       FREE
+ TXT              &     VERIFY          VALIDATE        CCHHR
+ TXT            PASS            LIST            SCRATCH         SPACE
+ TXT                    USERID          AQ              AQUEUE
+ TXT   0        DEPT         k  ATTRIB          ATTR            NOPRINT
+ TXT                    NP
+ TXT   -
+ TXT             MAP000I
+ TXT   y
+ TXT             MAP001I TSO SPECIFIED, OPERATION CANCELLED
+ TXT
+ TXT             MAP002T NO SYSINXXX DD CARD
+ TXT
+ TXT             MAP003E "        " - UNKNOWN OPERATION/OPERAND
+ TXT
+ TXT   Y         MAP004E F1 DOES NOT -> AT F3 OR F2
+ TXT
+ TXT             MAP005E F2 DOES NOT -> AT F3
+ TXT             t
+ TXT             MAP006E F4 DOES NOT -> AT F6
+ TXT             {
+ TXT             MAP007I 99999 TOTAL TRACKS MISSING
+ TXT
+ TXT             MAP008I 99999 TRACKS ACCOUNTED FOR
+ TXT
+ TXT             MAP009E CANNOT FIND DDCARD FOR VOLUME
+ TXT
+ TXT             MAP010E DEVICE NOT DIRECT ACCESS
+ TXT
+ TXT   K         MAP011E UNKNOWN DEVICE TYPE
+ TXT             |
+ TXT             MAP012E ATTEMPT TO OPEN VTOC FAILED
+ TXT   {         f
+ TXT             MAP013E FIRST DSCB NOT F4
+ TXT   B
+ TXT             MAP014E BAD DSCB; SHOULD HAVE BEEN F5
+ TXT   D         D
+ TXT             MAP015I
+ TXT   F
+ TXT   *         MAP016E  CARD IN ERROR
+ TXT   H         4
+ TXT             MAP017E CVOL NOT MOUNTED
+ TXT
+ TXT             MAP018E DATASET NOT CATALOGED
+ TXT
+ TXT             MAP019E INDEX FOUND AT DATASET LEVEL
+ TXT
+ TXT             MAP020E DATASET FOUND AT INDEX LEVEL
+ TXT   }
+ TXT   4         MAP021E SYNTAX ERROR IN DATASET NAME
+ TXT   K
+ TXT             MAP022E PERMANENT I/O ERROR IN CATALOG
+ TXT   M
+ TXT             MAP023E RELATIVE TTR NOT IN CATALOG
+ TXT   O         Q
+ TXT             MAP024E VOLUME NOT MOUNTED
+ TXT   Q
+ TXT   "         MAP025E DATA SET NOT FOUND ON VOLUME
+ TXT
+ TXT   u         MAP026E PERMANENT I/O ERROR IN VTOC
+ TXT
+ TXT   H         MAP027E INVALID WORKAREA ->
+ TXT             -
+ TXT   U         MAP028E CCHH NOT IN VTOC
+ TXT   \         @
+ TXT             MAP029E EOF READING F4
+ TXT   S         n
+ TXT             MAP030E EOF READING 1ST F5
+ TXT   U
+ TXT             MAP031E F6 DOES NOT -> AT F6
+ TXT   W         G
+ TXT   <         MAP032W *** NO MORE CORE, ABORTED ***
+ TXT   Y         U
+ TXT             MAP033E F3 DOES NOT -> AT F3
+ TXT
+ TXT             MAP034E ERROR RE-WRITING F5
+ TXT
+ TXT             MAP035W PERMANENT I/O ERROR IN DIRECTORY
+ TXT
+ TXT   M         MAP036I 99999 TRACKS REPLACED
+ TXT   0         %
+ TXT   2         MAP037I 99999 TRACKS NOT REPLACED
+ TXT   2
+ TXT             MAP038W VTOC CONTAMINATED, WARNING
+ TXT   4
+ TXT             MAP039E F5 DOES NOT -> AT F5
+ TXT   6
+ TXT             MAP040I *** OUTPUT MAY BE ERRONEOUS DUE TO ERRORS ***
+ TXT   8
+ TXT             MAP041I TOTALS FOR VOLUME:
+ TXT
+ TXT   v         MAP042E "VOLIDX" DOES NOT CONTAIN CATALOG
+ TXT
+ TXT             MAP043W AT XXXXXX DID NOT FIND ICE
+ TXT
+ TXT   2         MAP044W AT XXXXXX FOUND ICE
+ TXT
+ TXT             MAP045W AT XXXXXX FOUND INVALID ENTRY TYPE
+ TXT             w
+ TXT             MAP046E COULD NOT FIND SYSRES DEVICE
+ TXT             J
+ TXT   ;         MAP047I PASSWORD PROTECTED, NO PDS LIST
+ TXT             6
+ TXT   f         MAP048W F0 KEY NOT ALL HEX ZEROES
+ TXT
+ TXT   y         MAP049W FOUND SECOND F4
+ TXT
+ TXT   {         MAP050W FOUND UNCONNECTED F5
+ TXT
+ TXT             MAP051W FOUND UNCONNECTED F6
+ TXT
+ TXT             MAP052W FOUND UNCONNECTED F2
+ TXT             k
+ TXT             MAP053W FOUND UNCONNECTED F3
+ TXT
+ TXT             MAP054W FOUND UNKNOWN DSCB TYPE
+ TXT
+ TXT             MAP055E VERIFY CANCELLED, NO MORE CORE
+ TXT
+ TXT   #         MAP056I
+ TXT
+ TXT   e         MAP057I
+ TXT
+ TXT             MAP058W COULD NOT OPEN
+ TXT
+ TXT   w         MAP059I
+ TXT
+ TXT             MAP060I
+ TXT
+ TXT             MAP061E DSNAME GT 44 CHARACTERS
+ TXT
+ TXT             MAP062E VOLID GT 6 CHARACTERS
+ TXT
+ TXT   8         MAP063E OPERATION GT 8 CHARACTERS
+ TXT
+ TXT             MAP064E QUALIFIER GT 42 CHARACTERS
+ TXT
+ TXT             MAP065I
+ TXT             N
+ TXT             MAP066I
+ TXT
+ TXT             MAP067C SAVEAREA COUNT EXCEEDED
+ TXT             Z
+ TXT             MAP068I
+ TXT
+ TXT   #         MAP069I
+ TXT
+ TXT   e         MAP070I
+ TXT
+ TXT             MAP071I
+ TXT
+ TXT   r         MAP072I
+ TXT
+ TXT            c 0
+ TXT
+ TXT            IEHMAP VERSION IV-A DIRECT ACCESS VOLUME LISTER
+ TXT   #                                                           DAY=
+ TXT                23:49  PAGE 9999% 0
+ TXT             g
+ TXT            DEVICE DESCRIPTION:  TYPE=                  NOCYLS=
+ TXT            TRKS/CYL=       TRKSIZE=       DSCB/TRK=     PDS/TRK=  0
+ TXT             7
+ TXT            VTOC DESCRIPTION:  NUM DSCBS=       AVAIL DSCBS=      VT
+ TXT            OC EXTENT=9999.9999-9999.9999  NUMALT LEFT=99999   NEXTA
+ TXT            LT=9999.  0
+ TXT
+ TXT            AVAILABLE SPACE:       TRACKS IN      EXTENTS, INCLUDING
+ TXT                  FULL CYLINDERS; MAXIMUM CONTIGUOUS      CYLS
+ TXT            TRACKS.  0
+ TXT
+ TXT            SPLIT CYLINDER SUMMARY:      FULL CYLINDERS, CONTAINING
+ TXT                 DATA SETS IN     EXTENTS  0
+ TXT
+ TXT   g        <<<<< END VTOC 99999 DATA SETS OCCUPYING 99999 TRACKS >>
+ TXT            >>>  0
+ TXT             b
+ TXT   E        <<<<< END OF TRACK MAP >>>>>!
+ TXT             ~
+ TXT   U        RECFM=       BLKSIZE=       LRECL=       RELATIVE KEY PO
+ TXT            SIT=       KEYLENGTH=      OPTCODE=
+ TXT
+ TXT            NUM PRIME REC=           NUM RECS IN OFLO=       TAGGED
+ TXT   :        RECS=       RANDOM REF TO OFLO=
+ TXT
+ TXT            NUM INDEX LEV=   NUM TRK/MAST INDEX=     NUM TRK CYL OFL
+ TXT   M        O/CYL=? 0
+ TXT
+ TXT            DSNAME                    SERIAL SEQ    CREDT    EXPDT
+ TXT              DSO RECFM BLKSZ LRECL KEY OP  TRKAL TRKUS EXT  SEC TYP
+ TXT   (        b +
+ TXT
+ TXT   &        ____________________________________________ ______ ____
+ TXT   h          ________ ________  ___ _____ _____ _____ ___ __  _____
+ TXT   {         _____ ___  ___ ___  0
+ TXT             l
+ TXT   O        FIRST TRK   LAST TRK  #TRKS  EXT  DSNAME OR USAGE( +
+ TXT             G
+ TXT            _________  _________  _____  ___  ______________________
+ TXT            ______________________  0
+ TXT
+ TXT   $        MAP059I NUMF0=      NUMF1=      NUMF2=      NUMF3=
+ TXT   l        NUMF4=      NUMF5=      NUMF6=  0
+ TXT
+ TXT            MAP060I F0ERROR     F1ERROR     F2ERROR     F3ERROR
+ TXT            F4ERROR     F5ERROR     F6ERROR     TOTAL ERROR  0
+ TXT
+ TXT            CATALOG ENTRY                 TYPE     #VOLS  VOLUME
+ TXT             VOLUME  TYPE     SEQ#  VOLUME     VOLUME  TYPE     SEQ#
+ TXT             b +
+ TXT   [         |
+ TXT   k        ____________________________________________    _______
+ TXT              _____  ______  __________________  ____  ______  _____
+ TXT            _____________  ____  0
+ TXT   <         N
+ TXT            CATALOG DESCRIPTION: NUM BLOCKS=99999 1ST AVAIL TTR=TTTT
+ TXT   &        .RR FIRST EXTENT=9999.9999-9999.9999 NUM EXTENTS=99 BLOC
+ TXT   h        KS/TRK=  0
+ TXT   +         |
+ TXT   k        MAP057I NUM GEN.IX=      NUM CVOL=      NUM INDEX=
+ TXT            NUM DATASET=      NUM ALIAS=      MAX INDEX=- 0
+ TXT   &
+ TXT   9        MAP015I CONTAINS 9999 MEMBERS, 9999 ALIASES, AND USES 99
+ TXT            99 OF THE 9999 DIRECTORY BLOCKS ALLOCATED  0
+ TXT
+ TXT   )        REGION SIZE=99999K PROGRAM SIZE=999K SUBPOOL0=99999K SUB
+ TXT   n        POOL1=99999K SUBPOOL2=99999K SUBPOOL3=99999K MIN=999K MA
+ TXT            X=999K? 0
+ TXT             l
+ TXT   O        REGION USED=99999999 SUBPOOL0 USED=99999999 SUBPOOL1 USE
+ TXT            D=99999999 SUBPOOL2 USED=99999999 SUBPOOL3 USED=99999999
+ TXT              0
+ TXT
+ TXT            MAP065I NUMBER OF DATASETS=999999 NUMBER OF TRACKS ALLOC
+ TXT   a        ATED=999999 NUMBER OF TRACKS USED=? 0
+ TXT
+ TXT   w        DSNAME                    VOLUME & TYPE  CREDT    REFDT
+ TXT              DSO RECFM BLKSZ LRECL KEY OP  TRKAL TRKUS EXT  SEC TYP
+ TXT            b +
+ TXT   !         O
+ TXT            ____________________________________________ ___________
+ TXT            __ ________ ________ ___ _____ _____ _____ ___ __  _____
+ TXT   i         _____ ___  ___ ___? 0
+ TXT   *         *
+ TXT            DSNAME                      CREDT     REFDT     CNGDT
+ TXT   P          DSO RECFM BLKSZ LRECL KEY OP  TRKAL TRKUS EXT  SEC TYP
+ TXT            b +
+ TXT   ;
+ TXT            ____________________________________________  ________
+ TXT   [        ________  ________   ___ _____ _____ _____ ___ __  _____
+ TXT   b         _____ ___  ___ ___  0
+ TXT   -
+ TXT   q        MAP066I NUMBER OF CATALOG BLOCKS=999999 NUMBER OF BLOCKS
+ TXT   }         UNUSED=- 0
+ TXT             q
+ TXT            NAME     START   #  TEXT   ATTR1&2  SIZE    EP    SETSSI
+ TXT              SETCD TRUE NAME & EP  MODULE ATTRIBUTES  +
+ TXT
+ TXT            __________ ______  _ ______  _______ ______ ______ _____
+ TXT            ___ _____ _______________ ____________________  0
+ TXT
+ TXT   y        MAP068I DATASET ORGANIZATIONS PS=99999 PO=99999 DA=99999
+ TXT   \         IS=99999 VS=99999 UNKNOWN=99999' 0
+ TXT             {
+ TXT            MAP069I DATASETS BY EXTENTS 0=99999 1=99999 2=99999 3=99
+ TXT            999 4=99999 5=99999 5LT10=99999 10=99999 10+=99999 16=99
+ TXT            999 HIGH=99999' 0
+ TXT   |
+ TXT   d        MAP070I ALLOCATION BY TRACK 0=99999 1=99999 2=99999 3=99
+ TXT            999 4=99999 5=99999 5LT10=99999 10=99999 10+=99999 19=99
+ TXT   4        999 HIGH=99999' 0
+ TXT   %         B
+ TXT            MAP072I CONTIG AVAIL BY TRK 0=0     1=99999 2=99999 3=99
+ TXT            999 4=99999 5=99999 5LT10=99999 10=99999 10+=99999 19=99
+ TXT            999 HIGH=99999' 0
+ TXT   >
+ TXT   f        MAP071I CONTIG AVAIL BY CYL 0=0     1=99999 2=99999 3=99
+ TXT            999 4=99999 5=99999 5LT10=99999 10=99999 10+=99999 19=99
+ TXT   6        999 HIGH=99999  0
+ TXT             D
+ TXT            MINIMUM REGION REQUIRED IS 99999K
+ RLD
+ END                            15734AS100 050175288
+ ESD            YALEDATE        DATER           DATER370
+ ESD            DATERF          DATER
+ TXT             00  DATER VERSION II - JULY 2, 1975      }         j
+ TXT              j-      K   k          t  &               &   |&
+ TXT            ) l        &) l             ) l         ) l       kYK
+ TXT   y                    ) l      { h hk             $    } \ h     }
+ TXT   \            ! l       k  U  &\  !   +&          +&        K   k
+ TXT            q }      00  DATER370 VERSION II - JULY 2, 1975   }   2
+ TXT   &            j            ~        j        0j0   \  q l ;    {j
+ TXT   h        ;-l     ;-  ^ \   j  -  ^-\ )-l  \
+ TXT   {            $\l     j\   \l   j    0j   h \             ^ l   K
+ TXT   8          k  0 & 00  DATERF VERSION I - OCTOBER 8, 1975   }   1
+ TXT                 0j&           :   DDDD     MMMM
+ TXT
+ TXT                                    JAN FEB MAR APR MAY JUNEJULYAUG
+ TXT   Q        SEPTOCT NOV DEC SUN MON TUESWED THURFRI SAT
+ TXT                       Y          p
+ RLD
+ END                            15734AS100 050175281

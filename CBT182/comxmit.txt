@@ -1,0 +1,154 @@
+*\INMR01      &      WLMPNJE      TRIDJK      TO      CBTTAPE      20090
+8            \INMR02          IEBCOPY        Vs
+['      {                TRIDJK  COMPAR  LOAD \INMR02          INMCOPY        Vs
+                "4                   \INMR03        Vs               &         {
+  _   ['  {           "8    Vs         _ s          >               {    & 3
+ 
+ 
+ 
+                                        COMPAREC             S  Q Q   h     COMP
+AREW             S  & &   h
+ 
+ 
+          COMPARE         COMPRPCL   0
+ 
+ 
+   v
+  566528408   k ?              d     566896201   k ?                           &
+   0   -             & 00  COMPARE     12/01/92 08.44  0
+ 
+    }    0        j       j     ~    &      &}  & }  J  } P        3   O 0  COMP
+AREB& 0          & }}          2q }  \}      h  ~    j 1   h        h       ~ P
+0 0  01   ~     ~[   0~ P 0 0   ~ &}  & }  R&    0 dK 0   K 0       & 0 P
+ m& 0  0  j 1  \~k 01  0~s           0 00 &0   0j K 0  dK 0     j & 0  0  K 0
+K 0       & 0 P        h& 0    @& 0 K   0   & 0    0  j 2  \s  02    0s  0 &  s
+ 0s IKJPARS & 0       s          \ y 0     @k jWK jXjWK k jWK k jWK k k     j
+   u      jU 0     0sbK jW0   s@ &j K &     jU& & j     s      0     0s K & 0
+s K k & j     s      0     0s K & 0   sMo &    *j       t         t  0     0t K
+& 0   t    <j     t         t  0     0t K & 0   t  0t   & K &  - \zD      K kS&
+K m &.j &.  u n &   u K l & K &   K &    \zD      K k2&  -l K -  %K - &   l<P
+  k   m0     &/       j -  \  K m   K m l     m          |  l<P       k    
+&/                 j      u            k  0     0u K k 0   u  &j K &     k & &
+j     u      0     0u;K & 0   u K k & j     u         u  0     0u K & 0   udo &
+    j     u4        u4 0     0u K & 0   u     j     u         u  0     0uSK & 0
+  u    0u4  & K &  - \zD      K k & K m &.j &.  wfK l & n k   v n &   wfn &   v
+K l k  -l K -  %K - &   l<P     k   m0     &/       j -  \  K m   K m l     m
+         |  l<P     k      &/             K j j K &   K & k  \zDK j j K k k K
+& k K &    \zD        K k &  0wfK l & K &   K &    \zD      K k &  -l K -  %K -
+&   l<P     k   m0     &/       j -  \  K m   K m l     m          |  l<P
+k      &/             N jWk   x N k k   x   kS \w K       k  \w N       x    X
+     \ y 0x  0   00  00  00  00 n   0   N 0     w     0  10  0w   0   n     x K
+&   K & [\k & k & o &  \zD      K k &  -l&K^-   K - k   l<k   m0  o      &/   
+    j -  \  k m{K+mAm{K mA      m{ 0    k l<  l<   &/          0  o         0
+ \0       j 0  \xB        0   n     x0K &   o &    \zD      K kK&  0y n     y K
+&  @ \zD      K kK&  0y n     y K &  m \zD      K kK& k kb 0y n     y    %j
+y      0  K kK     0y K kK0   y-k kb 0y   kd 0k &0   0ky&0  o    \   \0 K     P
+k k K k   K km mK kq q \   \\ [\\ N \     y}K k \ k*k  \y &\k    \\&&\kun     z
+ \z<&\k  \\&&\ku 0z TEXT=.     BUFF=1024  MBRHDR=COND
+                    MODE=SYS, F=06, MBRHDR=COND BUFF=1024, DATA=(CSECT,ADCON=NO)
+                    n    0 &    & 0   &0       h 0       0 h    j  0  j 2  \z\
+ 02    0z  0 &  z  0z4IKJDAIR & 0    Y  &\j   k &0k  0k &0   0j &0    &0k@ 0k@&0
+   0   0k  0k &0  &    0 &     0 &IKJEFF18& 0    0k  \j      \   \\  0\      o
+  n 0    oj 0    oN 0      o \   \\  0 |   \           \ y 0   \z  0   0l  \  K
+0    00   l        \ y 0   0l  \   0 D 0l K 0    00   l      \ y 0  +0   0l  \
+K 0  2 00 k 0 3 0  +o00 n00     K 0 0 k 0 n00    &K 0 0 k 0  00   l      0  n*k
+     \   0   0    jU   0 dK 0 jW   = 10     k    0  K 0 k    q 10    j P  u uP
+    K  m[Y \  &\ u \  &\ y \+  \\  0  N          \\ k 0  00  \   \ \ 0  K 0    \
+     d 0   \ m&\  k \ k \      u& \   qj    j P     K  m[4 \ \\  \   \ \ 0  K
+     \ +   d 0   \ m&\  k \ k \     & \   qj    0   0         @i   h          \
+            i\  h\        n kS   KK &   K & kS \zDn k     K &   K & k  \zDn k2
+[ K &   K & k2 \zDn k   [ K &   K & k  \z  Dn k   [ K &   K & k  \zDn kK  [;n kb
+  [;K &   K & kKn kb  [!kA&  \zDj     [%          [DK j  M   d \j &\  k \  0  j
+1Q \[    Q   0[    0[         IKJSTCK                ; 2   }} &0}    h      q }
+  SYSDA
+ 
+ 
+                PARSE ERRORYOU ARE COMPARING A DATA SET TO ITSELFIKJ585  09I DAT
+A SET NAME REQUIRED WHEN MEMBER IS SPECIFIEDUNABLE TO ALLOCATEIKJPUTL SYSALLDA
+      NEWDD   COMPAREXIKJPUTL    0            PDSE   IS A PARTITIONED DATA SET
+   IS NOT IN THE DATA SET       COMPARE TYPORG=PSPDSCALL COMPARE RETURN CODE IKJ
+                                            DYNAM      &
+       &                                                    DYNAM
+                            A                                                "
+      OLD DATA SET NA  ME       FIRST (OR OLD) DATA SET NAME        NEW DATA SET
+ NAME       SECOND (OR NEW) DATA SET NAME           OUNIT $           NUNIT
+        OVOLUME             NVOLUME 1      -    PRINT-    SYSOUT     OUTFILE  -
+   NOPRINT      -    IEBCOMPR-    ZE  BCOMPR      -    FULL      -    LOAD
+ ASM-    ASM-    NOASM   m    <       UNIT  UNIT NAME FOR OLD DATA SET   m
+      UNIT  UNIT NAME FOR NEW DATA SET  0m    *       VOLUME  VOLUME SERIAL FOR
+OLD DATA SET   m            VOLUME  VOLUME SERIAL F. OR NEW DATA SET   m    %
+    OUTFILE FILENAME  OUTFILE FILENAME         {
+   u       h                                  COMPARE         COMPRPCL
+                   /TRIDJK
+ 
+                                       v
+                                      566528408   k ?              d     5668962
+01   k ?                           Q                     Q 00  COMPARE     12/01
+/92 08.53  0
+                                        }    0        j       j     ~    &
+&}  & }  J  } P        3   O 0  COMPAREB& 0          & }}          2q }  \}
+ h  ~    j 1   h        h       ~ P 0 0  01   ~     ~[   0~ P 0 0   ~ &}  & }  R
+&    0 dK 0   K 0       & 0 P        m& 0  0  j 1  \~k 01  0~s           0 00 &0
+   0j K 0  dK 0     j & 0  0  K 0   K 0       & 0 P         & 0    @& 0 K   0
+& 0    0  j 2  \s  02    0s  0 &  s  0s IKJPARS & 0       s          \ @ 0     @
+k jWK jXjWK k jWK k jWK k k     j             jU 0     0sbK jW0   s@ &j K &  u
+jU& & j     s      0     0s K & 0   s K k & j     s      0     0s K & 0   sMo &
+   -j       t         t  0     0t K & 0   t    &j     t         t  0     0t K &
+0   t  0t   & K &   K &    \zq     hK kW& K m &.j &.  u n &   u K l & K &   K &
+   \zq     hK k6&  -m K -   K - &   l P     k   m0     &/       j -  \  K m@ <
+K m l     m@         |    l P     k      &/                 j
+  k  0     0u K k 0   u  &j K &  u  k & & j     u>     0     0u K & 0   u;K k &
+j     um        um 0     0u K & 0   u o &     j     u         u  0     0u K & 0
+  u     j     u0        u0 0     0uYK &   0   uS 0u   & K &   K &    \zq     hK
+k & K m &.j &.  wkK l & n k   v n &   wkn &   v K l k  -m K -   K - &   l P
+k   m0     &/       j -  \  K m@ <K m l     m@         |  l P     k      &/
+           K j j K &  8K & k  \zqK j j K k k K & k K   &    \zq     hK k &  0wk
+K l & K &   K &    \zq     hK k &  -m K -   K - &   l P     k   m0     &/   
+  j -  \  K m@ <K m l     m@         |  l P     k      &/             N jWk
+x N k k   x   kW \wOK       k  \wON       x          \ @ 0x  0   00    00  00  0
+0 n 0   N 0     x     0  10  0w   0   n     xOK &  uK &  dk & k & o &  \zq     h
+K k &  -l-K^-  4K - k   l k   m0  o      &/       j -  \  k n K+n n K n
+n  0    k l   l    &/          0  o         0  \0       j 0  \x         0   K
+&  8  K &   o &  \zqK &  uo & K &    \zq     hK k & K &  uk & k & k & o & K &
+ \zq     hK l & n     y*K &  uo &  \zq     hK kO&  0y n     y=K &    \zq     hK
+kO&  0y n     yuK &    \zq     hK kO& k kb 0y n     y     j     y      0  K kO
+   0yKK kO0   y k k  b 0y   kh 0kk&0   0k k klK km &&0  o    \   \0 K     n
+z K km  n     z K km >n  .  z K kt Cn  .  z K kt Hn  .  z K kt   \   \\ [\\ N \
+ K  z K kd\ k*kd 0 &    & 0   &0       * 0       0 *    j  0  j 2  \z  02    0z
+ 0 &  z{ 0zHIKJDAIR & 0    Y  &\j     k &0k  0k &0   0j &0    &0k@ 0k@&0   0   0
+k  0k &0  &    0 &     0  IKJEFF18& 0    0k  \j      \   \\  0\      |    n 0
+ |j 0    |N 0      | \   \\  0     \           \ @ 0   \zK 0   0l  \  K 0    00
+  l      \ @ 0   0l  \   0 q 0l K 0  m 00   l        \ @ 0  +0   0l  \  K 0  R 0
+0 k 0 3 0  +o00 n00     K 0 0 k 0 n00     K 0 0 k 0  00   l      0  n*k    ; \
+ 0   0 ;  jU   0  K 0 jW     10     k    0  K 0 k    % 10    j P  u uP     K  m
+   \  &\ u \  &\ y \ \\  0  N        B \\ k 0  00  \   \ \ 0 MK + 0    \     d 0
+   \ m&\  k \ k \    u& \   qj    j P     K  m q \ \\  \   \   \ 0  K      \
+   d 0   \ m&\  k \ k \     & \   qj    0   0 ;       @i   h          \
+    i\  h\         -l{K^-   K - l n l   [   l k   m0     &/       j -  \ 8
+na 0      kd   4  n    e           8k n  0 Hk l   l    &/          0  o
+    0  \0       j 0  \[         0       [   n kW  [;K &  8K & kW \zqn k   [ K &
+ 8K & k  \zqn k6  [ K &  8K & k6 \zqn k   [wK &  8K & k  \zqn k   [ K &  8K & k
+ \zqn l   [OK &  8K & l  \zqn kO    n kb    K &  8K & kOn kb  [ kA&  \zqj
+              K j      d \j &\  k \  0  j 1Q \     Q   0 !   0     &    IKJSTCK
+               ; 2   }} &0}    h      q }   SYSDA
+ 
+ 
+                                                          PARSE ERRORYOU ARE COM
+PARING A DATA SET TO ITSELFIKJ58509I DATA SET NAME REQUIRED WHEN MEMBER IS SPECI
+FIEDUNABLE TO ALLOCATE    IKJPUTL SYSALLDA  OLDDD           NEWDD   SYSIN   OUTD
+D   ISRSUPC IKJPUTL         DELTAL,LINECMP,         OVSUMLCHNGL    IS A PARTITIO
+NED DATA SET     IS NOT IN THE DATA SET       COMPARE TYPORG=PSSEQ  NOSEQCOBOLPD
+SCALL COMPARE RETURN CODE IKJ                                             DYNAM
+     &                               &
+     8m   DYNAM     &                                e
+                          DYNAM                                             A
+                                             "        OLD DATA SET NAME       FI
+RST (OR OLD) DATA SET NAME        NEW DATA SET NAME       SECOND (OR NEW) DATA S
+ET NAME           OUNIT             NUNIT }           OVOLUME             NVOLUM
+E          -    PRINT-    SYSOUT     OUTFILE %-    NOPRINT      -    IEBCOMPR-
+  ZEBCOMPR      -    FULL      -    LOAD      -    DELTA-    OVSUM-    CHNG
+[-    SEQ-    NOSEQ-    COBOL     < ASM-    ASM-    NOASM   m    &       UNIT  U
+NIT NAME FOR OLD DATA O SET   m            UNIT  UNIT NAME FOR NEW DATA SET   m
+   -       VOLUME  VOLUME SERIAL FOR OLD DATA SET  ,m            VOLUME  VOLUME
+SERIAL FOR NEW DATA SET   m            OUTFILE FILENAME  OUTFILE FILENAME    {
+                                                               \INMR06

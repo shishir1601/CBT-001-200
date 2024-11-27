@@ -1,0 +1,32 @@
+The following is a list of known issues with MXI 4.3:
+ 
+o  No knowledge of 64-bit storage for address space and system level
+   metrics
+o  No knowledge of 64-bit storage for memory browsing
+o  No knowledge of 5-digit UCBs
+o  No knowledge of PAV
+o  No knowledge of z/IIP and z/AAP
+o  Some DASD and SMS displays can be truncated on large shops and
+     even fail with region size related abends
+o  DB2 V9 not supported
+o  Linkage index display produces no results
+o  Incomplete results for HSM request queue
+o  No knowledge of EAV DASD
+ 
+The recommended version for z/OS v1r9|v1r10|v1r11|v1r12 =  MXI G2 V5.2
+ 
+For more information, please contact Rocket Software, Terri Bonee,
+tbonee@rs.com, 617-614-2301.
+ 
+************************************************************************
+ 
+MXIBAT is a PDS interface to the Rob Scott MXI program via
+the TSO/E Service Facility Routine, IKJEFTSR.
+ 
+For example:
+  MXIBAT IPL
+  MXIBAT MENU
+ 
+Add MXI to the AUTHTSF section of IKJTSO00 to run authorized
+MXI commands with the PDS interface.  Caution, as this will make the
+MXI ISPF Dialog run authorized as well.

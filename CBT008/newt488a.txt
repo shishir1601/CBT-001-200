@@ -1,0 +1,350 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                        +
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B B   B B    \B    B  \  3X0             B   &\B* 0    A    \B*  K An  k1AmK A
+  K AY  K A1  K A9  K B   k Ajk@A  \B qB<k0Am    N  +    C N  +    C N    +
+C N  + <  C N  + &  C N  +    C N  +    C N  + D  C N  + G  C N  + *  D<N  + -
+D<N  +    D<N  +    D<N  + %  D<N  +    D<N  +    D<N  +    D<N  +    D<N  + }
+D<N  + L  D<N  + O  D<N  + R  D<N  +    D< 0GdN  +    D N  +    E@N  +    FmN  +
+ <  FmN    + &  EUN  +    G N  +    G N  + D  G N  + G  G  0GdK|   + |        N
+ + *  E N  + -  E N  +    FON  +    FON  + %  F N  +    G N  +    G N  +    G@N
+ +    G@N  + }  G@N  + L  G@N  + O  G@N  + R  G@N  +    G@ 0Gd  H K HE  K H   j
+    E j         Hk   7      o   j     E o         Hk   7     -  &- % 0Gd  H K HE
+  K H   j     E o         Hk   7     -  &- % 0Gd  H K I      %    &  %  I   G2K
+Iu  K I{  K I    0Gd  H K I      %    &  %  I   G2K Iu  K I{  K I    0Gd  H j
+  F            7    K II  K IY  n0      F K      0F K     K IZ  K I   K I4  K
+    I   G2 0Gd  H K II  K IY  n0    F|K      0F K     K IZ  K I   K I4  K
+I   G2 0Gd  H K     K       H       G2N       FBnV    F       G2n     Gm 0Gd  H
+K     K       H       G2N       G nV    G       G2n       Gm 0Gd  H j     G-nF &
+  G nV &  G< 0G-       Q   7     0G-           7     0G- 0Gdo     H m    0Gd  H
+ 0Gd  H  0Gd }} K }   q }          @  Gu   @+  -K    W         w  G2o   j     GO
+  G}      m7  j     G     GY      m    0Gd - % -    H        7       7        Hk
+   7     -  &- %   0G2j     H        +   7     42  -  |  -h       2  -  |\ -
+  )      @  H    @+  -!   &   K    W       41************* INFORMATION FROM LABE
+LS OF TAPE NO. XXXXXX ON DATE YY/DDD AT TIME HH.MM *********   OWNER.
+  +                -   FILE NO. XXXX
+                                                                          0   DS
+N=                    CREATED YYDDD BY            EXPIRES YYDDD RECFM=XXX   LREC
+L=XXXXX   BLKSIZE=XXXXX   DEN=                 0       THERE ARE XXXXXX BLOCKS I
+N THIS FILE.                   THIS FILE OCCUPIES XXX.XX PERCENT OF THE VOLUME.
+                      -************* XXX.XX PERCENT OF THIS VOLUME HAS BEEN USED
+.                                                                          0
+   ***THE XXXX LABEL WAS NOT F  OUND.
+                                                  0       ***THIS IS VOLUME XXXX
+ OF A MULTI-VOLUME DATA SET.
+                                 8VOL1HDR1EOF  1EOV1HDR2EOF2EOV2 |<      |   |
+     |   |  0001           /    LABELS ARE BEING DUMPED.  OUTPUT DSN=   MEMBER=
+ VOLUME=UHLUTL |<    |  |   <  <  <           .      LABELS ARE BEING DUMPED.  O
+UTPUT DSN=                                            MEMBER  =         VOLUME=
+ 
+ 
+ 
+ 
+                                            m   TAPELOUT   &           e
+           e                                                   0LABLDUMP   &
+                             &                                            g  4
+ 
+ 
+                                                     !"#$%&'()*+,-./0123456789:;
+<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_ abcdefghijklmnopqrstuvwxyz{|}~" abcdefghi
+     jklmnopqr       ~[   |      [                  {ABCDE GHI       JKLMNO QR
+    \STUV XYZ       12345689      ----  ENDOFLABELHEADER
+                                      ----ENDOFLABELHEADERINIT
+                                      ----ENDOFLABELTRAILER
+                                      ----ENDOFLABELTRA  ILEREOV
+                                         00  TLPRINT_02/27/11   }              }
+C &   &    a  $ FHK AA  j B8  {   {&        C K C F         C K CAF   CAC 3 CJC
+k.CL3 CMC k CO h  N F}    {sK EXFMk1EQ 0B K C   K C        h  N FQ      { K EXF
+ 0B K D     C8  B K D   K Dm  K D    h  N F\    A K EXFU 0B K D   K D   n0    A
+K D G  0A K DU  K D]  K D   K DH  K DQ    D   B  h  N F8    A;K EXFY 0B K D   K
+F|    B|  DY  B N F|F   AhnV    A   F&  B n     {   C   F0  Ay  F0+ C K E>G   E>
+C   E  -  B  0B   A         BHj     B    7  o         0 j 0   A8  0  \0     0 j
+0   B     j 0  \B         0     BH    q }      0      C   B+  BH   7     9    BH
+  C    7           0B 2 C DQ| C h       2 C D |\C       ) F4  F0  B   F0+ C ! C
+& C K E G   E C     + EQ  B k0EQ 0A{                                      m   TA
+PELOUT   &
+                                                                1************* I
+NFORMATION FROM LABELS OF TAPE NO. XXXXXX ON DATE YY/DDD AT TIME HH.MM *********
+****   OWNER.           -   FILE   NO. XXXX
+                                                                  0   DSN=
+              CREATED YYDDD BY            EXPIRES YYDDD RECFM=XXX   LRECL=XXXXX
+  BLKSIZE=XXXXX   DEN=    0       THERE ARE XXXX  XX BLOCKS IN THIS FILE.
+          THIS FILE OCCUPIES XXX.XX PERCENT OF THE VOLUME.          -***********
+** XXX.XX PERCENT OF THIS VOLUME HAS BEEN USED.
+                            0       ***THE XXXX LABEL WAS NOT F  OUND.
+                                                                      0       **
+*THIS IS VOLUME XXXX OF A MULTI-VOLUME DATA SET.
+                                      VOL1VOL1HDR1HDR1HDR2HDR2EO  0001        2
+EO   /              .   &\0   0%  j                      %  (
+    &    0   70        \     7\    \       @q
+                            MSG                                        i
+ {                                   '           _       m       j       ]   Y
+                     n   1
+    CKIEBGEN       Y
+ 
+                                                                             l
+                                                            5695PMB01
+             d   569623400                                                     0
+0q--- CKIEBGEN - GENERAL QSAM COPY PGM   - 11/18/11  11.56 --- LEVEL 007 ---
+                                                                        }     0&
+& } &}   J                       S        {M 0{0                              k
+    k    \            \  \] K \   o ] 3d  ] o ] 3  4] K ]   k/] K ]   k/] K ]
+K ]  4k:] K ]  6k:] K ]  8K   ] k-  K     K     qS  k F   A         F j F   Ak
+F|Kd   /Kd   X           7    Kd   /Kd   1           7        AM          A\
+      A         Kd   /Kd    k1 _  C     B       Kd   /Kd    k2 _  C j     B  0Cq
+8-    8- :  8- a  8- h  j     B       ]Y   7     -    j  |  B j  |  B  0Bu9 I-
+  B  - a   0B j  |  B 9 I  h }B  - h        ]Y   7     - :   0B Kd   /Kd    K
+ }                 7    Kd     /Kd   .K    }     @           7    j  |  C Kd   /
+Kd    K    }     c           7    Kd   /Kd   ^K    }                 7        C
+          C@          Ch       }} q }  0      C           C       Kd   /Kd
+         7     0C=K   ]            7    Kd     /Kd    K   ]            7    Kd
+ /Kd    K   ] K  @] K  c] K   ]{K  j]F           7    Kd   /Kd    K     n ]   DF
+K     na]   DFK    ]n ]   DFK    {n ]   DFK    Cn ]   DFK    Fn ]   DFK    In ]
+  DFK     n ]   DFo   K                7    Kd   /Kd          j{]  \D kU  o   !
+ D 0E j ]  \E kF  !  Dj ]  \E kV  !  Dj ]  \E kB  !  Dj ]  \E kS  !  Dj ]  \E+kA
+  !  Dj ]  \E!kM             7    Kd   /Kd        ]    q  E j     E o   K      0
+E +  HK    }                 7    Kd   /Kd        ]    q  ESo   K    V 0E2  +  H
+K    }                 7     7& F & F*&&F- &   &&  &&  &&  && N &     F<N &
+F o F  0F     &    0F   F* &F-  F  7                & H j F   H     F         H
+K|HZHYKd   /K    4           7    Kd   /K                7          H    7    K|
+HqH O|HqH  Z  Hq  H Kd   /K|  Hq           7    N  w    FDN       FDN       G N
+      G  0FDo  |          I K I  &K I  *j     G!8 I  -Kd   /K      1 y  I      0
+ "   %q1 yK     K  rI j     GqK  u   0FDo  |          I K I& &K I* *j     GF8 I-
+ -Kd   /K    [ 1 y  I*       0 "   %q1 yK     K  rI&j     H K  u   0FDKd   /
+H       q H Kd   /           7      H  7
+ 
+ 
+ 
+                        &   &   &   m   K  &HZP  * *n       n0    I n9    I  0I
+o   o   k*        H   IUn     IUn0    IMn9    IM 0I\o     o   k*   0I         j
+      j       P         8  -  K  &HZ    j       |   &  *         72     K  &
+                                              &   K 0   3 0 0   0 Iy 00        %
+k 0      70123456789ABCDEF                                              ,   ,
+ 
+ 
+ 
+    +                        1  CKIEBGEN - SEQUENTIAL COPY PROGRAM
+ 
+ 
+                                                         -   JFCB REPORT OF DATA
+SET CHARACTERISTI  CS
+ 
+ 
+     -     SYSUTX DSN =
+ 
+ 
+                                          VOLSE  R  =
+ 
+ 
+                                                                        MEMBER
+=
+ 
+ 
+                    DSORG   =
+ 
+ 
+                                                BLKSIZE =
+ 
+ 
+                                                                            LREC
+L   =
+ 
+ 
+                        RECFM   =
+ 
+ 
+                                           -    RECORDS  IN =
+ 
+ 
+                                                                            RECO
+RDS OUT =
+ 
+ 
+                        SKIPPED     =
+ 
+                      +
+                                                      COPIED      =
+ 
+ 
+                                                                             -
+ JFCB IS MISSING VALUES - CORRECT YOUR JCL
+ 
+ 
+                                                      Decimal:        LEVEL COPY
+= SKIP= 007  IS ISUPS PSUDA DAUPO POUMISSING OR VSAMMISSINGZERO OR MISSING   Dis
+play SYSIN Cards        ------- ----- -----     COPY=SKIP=COPY=    INVALID NUMER
+ICSKIP=                                             SYSUT1    &
+                                                                    SYSUT2     &
+ 
+  m   SYSPRINT   &                               e
+                      SYSIN     &                                &
+ 
+              g
+ 
+ 
+ 
+ 
+ 
+                                           {                                   '
+   J       Z       _       e       z   '               R   n
+                 &SS0104         hDENTAPE   l     TODAY     o     FOOTAGE    h
+  TAPEVOL   k
+ 
+ 
+                                                          5695PMB01     |
+           d           569623400     |                           d   d
+   d 00  SS0104   12/19/12 14.11  }    0   0   0   }Hu&   &       {       j P
+{    Y    {-         0H           {m  P*  M    7      {h       0   0F4    {
+                }     {{           < 0H       P }y}yP }u}uK K^}r    }r  H
+}%K K     K P Hh  }dk    0   70     }d \     7\     P+& } N } H   D\N P H   D\kS
+}qK K_H K K P0K K#Q K P H K } H   }dk    0   70     }d \     7\   K P H N P }
+G K L/P0K L Q 2 } Q | }   } K }*}   }*} K L$}-    AFk>L!k<L^2 PMQ  \GhK LwP\2 PM
+Q  \GhK L P\K L Q K   } H   }dk    0   70     }d \     7\   N P }   G K LkP N K^
+P   B k>Ljk<Ll2 } P1| } & } K }*}   }*} K L }^2 } P6K }*}   }*} K L }^K L P K LA
+Q   L K   P0    nBQ   B kB       0BBnSQ   B kS       0BBnRQ   BBK   Hd    K   Q
+K P H     }dk    0   70     }d \       7\        0B}&&}u+&} K }*}   }*} K L } K
+P Hj  }dk    0   70     }d \     7\    0C   P*  L    7      P*  N_   7     0G|K
+P H K } H   }dk    0   70     }d \     7\   N P }   CwN P H<  G 2 } Q | } & } K
+}*}   }*} K Lg};    C}     0H&      K Ln} K L } g   D   }bHmK KDH   KD}b  P*  J
+   7      P*  J    7      P*  K|   7      P*  KM   7        k0L   P*  L    7
+k L KcL!L     N P H<  D   P*  }{   7     0FMK P Hn  }dk    0   70     }d \     7
+\    0DfK P Hq 0A kN}qK K_H   DH   7 0H           P } }  0E kN}qK   K_H     D4
+ 7 0H        0E   }dk    0   70     }d \     7\     P+& } K } }    &  K P H kY}a
+N P+P   E&kN}a  }dk    0   70     }d \     7\     P+& }     N P+P   E kN}akN} N
+} }   E&    kY}   E&kN} K } }  0E&  } + } K }*}   }*} K L$}-K Lk}r&&} +&} K }*}
+    }*} K Lg}; &} +&} K }*}   }*} K L }^kVL nY}a  F kFL   H   F   F nY}   F kUL
+  F      0H&      K Ln} K L } g F   }bHmK KDH   KD}b  P*  J    7      P*  J    7
+      P*  K|   7      P*  KM   7        k0L   P*  L    7    k L KcL!L     K P Hq
+ 0E   P*  L      7      F0                    q } k }  \  K O }   P*  N2   7
+ 0G|K O }   P*  O    7     0G| 0G    8G   K(N    0G    8G     P*  MY   7       Z
+    i       j     Gfk       P\9 PNH   H 3   PNo0  k   K P H 1 P PN  P H~9 P Hs
+G}9 POHf }G}  POHm 0P 8 PQHm9   PO0  }G8  PO0   PQHm     0G 3   PQo0  3   POo0
+k/  k/    K P\H       l   o        &VOL1  STANDARD  HDR1HDR2EOF1EOV1   h
+LTM       k NON-LABELLED                BS                    M      <
+ 
+                       200 556 80016006250
+                          0       THIS DATASET IS CONTINUED ON ANOTHER TAPE
+ 
+ 1                                            SYSTEM SUPPORT UTILITIES - TAPE MA
+P PROGRAM                                             0VOLUME SERIAL  ---DENSITY
+--  -LABEL TYPE-  -OWNER ID-  -------------------DATE-------------------
+                                               (     BPI)
+                                                              PAGE
+  0 FILE  --DATA SET NAME-- RECFM LRECL BLKSIZE BLOCKS UL DEN   F. FT.  R. FT. C
+R. DATE EX+ . DATE JOBNAME  STEPNAME SEC VSEQ
+ 
+                                -       END OF UTILITY - TAPE IS MAPPED
+ 
+     -UNABLE TO OPEN TA  PE DD STATEMENT.
+                                                            -PERMANENT I/O ERROR
+ READING LABELS:
+                                 0TAPE   MARK EXPECTED, NOT FOUND
+ 
+        -UNEXPECTED TAPE MARK ENCOUNTERED ATTEMPTING TO READ ____ RECORD.
+                                                               -____ RECORD TYPE
+ EXPECTED, NOT FOUND
+                                                                        {  8TAPE
+                  "8                           :
+          m   SYSPRINT   &           e                   e
+ 
+ 
+ 
+ 
+ 
+                  @
+ 
+       h                   )   e   r           ]       E   1       Z       h
+       j   n   q               A   E   Q   9               &
+                         00  FOOTAGE  12/19/12 14.11  }    0   0   0     }{@
+                                                                      &   &
+   0A n4 G  A n3 G  { n2 G  Aw   &  !&A{*   nS    {O        < AU  N AW    {O!&AD
+  A8 0A    &  !&AH*   nS    A         < AY  N AW    A !&A   B  0A    &  ) A}  *
+AM  ) AQ      < A   !&A *   nS    A         < A   N AW    A !&A\  B   !   &   !
+  )   +&B K   A     B     !   )   +&B K   A     B      0      q } k }  \       \
+                                 -   D   m        .    \   {   {
+     00  TAPEVOL  12/19/12   14.11  }    0   0   0     }{@
+                                                  &   &         {q  ly
+  A               {UN A     {    0{u        K          0      q } k }  \       0
+      q } k }  \      TAPE             00    DENTAPE  12/19/12 14.11  }    0   0
+   0     }{@
+    &   &             {m  n     B     {       B o B     j B   {{k B o B   {H  n
+  j A   {  0   0A   A%        A   k4   0A k3  j A   A k2      A     n     A j A
+  A k4      A   n             q } k }  \                                 &  m0
+            n           n   n                                       n       n TA
+PE      } g n
+ 
+                                                             00  TODAY   12/19/1
+214.11      } q    |   8& } &}   J      &   &  &K  * $   & Q3  | &o0  K    |K  ,
+ %k. _k  ,  k)  k( |j       j       k  pK  +  P     |    0  . 0  }   00  0  K  *
+0 [ 0 +   3  - +o0 /K    ,8     1    &|   .  Y 1<0   0  $0    )  \ 1     18
+|    1  )\ U<\     &K   \ o   K  #     #  K &  *K -   K    # }} k } q }  0    SU
+NDAY   MONDAY   TUESDA  Y  WEDNESDAYTHURSDAY FRIDAY   SATURDAY    JAN   FEB   MA
+R   APR   MAY   JUN   JUL   AUG   SEP   OCT   NOV   DEC
+  :  :

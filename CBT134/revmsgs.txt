@@ -1,0 +1,1097 @@
+REVIEW Release Notes for Release 44.0
+ 
+REVIEW is a 3270 fullscreen TSO command processor for MVS.
+REVIEW also functions correctly under TSS on MSP systems.
+ 
+The source for REVIEW is available on the CBT MVS tape,
+and is in the public domain, as is the data contained herein.
+ 
+The REVIEW home page and FAQ are can be accessed from
+http://www.prycroft6.com.au
+ 
+Bug reports welcome.
+ 
+Enjoy.  GP@P6
+Email - service2@prycroft6.com.au
+For the current email address visit
+http://www.prycroft6.com.au/contact.html
+ 
+ 
+R26.0 notes:
+ 
+This release has built-in support for the FSHELP and FSH aliases of HEL,
+and includes the new 'FORMAT"/'FMT' and 'FMTVAR'/'FV' subcommands.
+Note also that '=X' and '=CAN' are now valid member list subcommands.
+ 
+ 
+R27.0 notes:
+ 
+This release allows PDS searching with '=SEARCH' from the directory list.
+Use '=HELP' to see what is available from the directory list.
+REMEMBER - if any members are tagged then only these members will be
+searched (or offloaded).  Use '=RESET' to untag all members.
+ 
+ 
+R28.0 notes:
+ 
+This release introduces the "point-and-shoot" capability
+which is triggered by invoking REVIEW with no operands.
+REVIEW does a read buffer to get the DSNAME under the
+cursor.  This works from the TSO READY prompt (except
+for Session Manager which updates the screen before
+REVIEW gets control) and in fullscreen mode.
+ 
+For best results under ISPF, set up a PF key with
+         TSO REV) MODE(FSCR
+exactly as shown above.
+ 
+You also may wish to set up a REVIEW PF key with
+         TSO REV
+to allow point-and-shoot recursive REVIEWs.
+ 
+Note that a recursive REVIEW with no operands is
+terminated unless a point-and-shoot DSNAME is found.
+This is to avoid TSO prompting with no ability to
+interrupt out of it.
+ 
+Also note that for point-and-shoot purposes, a
+member name is NOT considered to be part of a DSNAME.
+ 
+R28.1 allows the S member selection code even for
+same-named members in a concatenation.
+ 
+R28.2 restores the terminal to line mode when
+"point 'n' shoot" can't process a data set.
+Also, PF5/17 can now find the first member in
+a member list if it is tagged.
+ 
+R29.0 makes the FIND, F and FINDNOT subcommands case insensitive.
+FINDCHR, FC and FCN remain case sensitive.
+FINDPIC, FP and FPN have been added.  eg. FP ###  looks for 3 digits.
+These commands can all be selected from the member list to search
+the whole file (one or more PDSs).
+A RACROUTE is now issued for non-pre-allocated non-VSAM data sets on
+ACF2 systems to avoid leaving a data set allocated after a S913 abend.
+(OPEN ABEND EXIT processing handles this for RACF systems since R26.0.)
+The screen buffer has been enlarged so that REVIEW may now actually
+work on a 62 by 160 screen (logic added 4 and a half years ago).
+ 
+R29.1 no longer displays ?? under AC for unauthorized program objects.
+ 
+R29.2 fixes case insensitive searches with ASCII ON.  Picture searches
+are not allowed with ASCII ON.  Case insensitivity is ignored if there
+are no alphabetics in the search argument, thus speeding up searches.
+=SEARCH status indicators are improved.
+ 
+R29.3 fixes ZAP IDR formatting when ESDID values are invalid.
+ 
+R29.4 fixes recursion detection, fixes searching for data specified
+with no trailing quote, and allows the use of double-quotes for
+quoting strings.  Eg. FIND "=C'FRED',"
+ 
+R29.5 enhances DEBUG output for diagnosis purposes.
+ 
+R29.6 fixes 2 possible S0C4 problems with unexpectedly long input,
+and allows finding a quote character.  Eg. FIND '    and FIND "
+ 
+Note that REVSMF has minor updates for formatting CICS and STOTEK
+silo (SLSS) SMF records.
+ 
+R29.7 fixes SUB.  (SUBMIT still worked.)
+ 
+R29.8 fixes RDW handling for non-VSAM DSECT formatting.
+ 
+Note that REVSMF can extract some WLM service class statistics
+from type 72 subtype 3 RMF SMF records.
+ 
+R29.9 fixes an error handling QUERY TGET data lengths longer than 256
+bytes.  The extra data length overlaid the display translate table
+which caused corrupted data display and sometimes caused terminal
+errors requiring TSO session cancellation.  (The reported observation
+was with CM/2 terminal emulation under OS/2.)  And now a word about
+IDRs in load modules:
+     Data from IDRs is formatted when REVIEWing associated CESD
+     blocks (when scrolled right past the block itself) and when
+     REVIEWING the IDRs themselves.  Translation and User IDRs
+     are each a single logical record which can be spanned over
+     many physical records.  For these 2 types only the last entry
+     is formatted so that for simple load modules with few CSECTS
+     you do not have to scroll right much, if at all.  For load
+     modules with many CSECTs it is best to view the CESDs to get
+     translation and IDENTIFY details pertaining to each ESD.  This
+     data comes from the IDRs located after the CESDs.  Therefore
+     the data can only be displayed if scrolling down to these IDRs
+     has occurred.  For simple load modules the first screenful is
+     usually sufficient, while for the nucleus, for example, one has
+     to scroll down hundreds of lines before scrolling up again to
+     get the formatted data.  (Caching of records does not occur in
+     pre-XA systems so only data from blocks on the screen can be
+     formatted.)  Only one ESD per CESD record is formatted per
+     page, so left/right scrolling across a 15-page area is required
+     to see all formatted ESDs in a many-CSECTed program (because
+     a CESD can have data about up to 15 ESDs).  (Individual ZAP
+     IDR entries are formatted 2 to a page, and also use left/right
+     scrolling to access different entries.)  R29.9 fixes a logic
+     error formatting IDR data for ESD entries.  After the screen
+     records were processed the last screen record was processed
+     again from cache, upsetting the assembly of the logical record.
+     A design capacity limitation is still evident when looking at
+     a couple of programs from SYS1.LINKLIB (such as ARCCTL) causing
+     display errors when many (hundreds) CSECTs were compiled in the
+     same compilation run.  This is not a problem for the nucleus.
+     The link edit IDR is a fixed-length fixed-format record formatted
+     by REVIEW.  OW29593 adds 4 bytes (the time in packed decimal) to
+     it.  R29.9 should now format this IDR layout also.  Since the
+     binder "name" is in plain text, the name will be replaced by the
+     HH:MM:SS of the bind when the data of this extended IDR is broken
+     out.
+R29.9 should also fix a couple of bugs in formatting IMS details.
+Personally, I blame bitrot to code not tested in 10 years.
+ 
+R30.0 adds "jump from leader dots" where a member can be selected
+by placing the cursor on a member list dot without actually typing
+the S member selection code.  A VTOC can now be REVIEWed by specifying
+the quoted data set name 'FORMAT4.DSCB' and supplying a volume serial
+number with the VOLUME operand.  While REVIEWing a VTOC the format-1
+DSCBs can be formatted with the FORMAT ON subcommand.  Support for the
+logical PARMLIB service of OS/390 1.2 (and later) is accessed by a
+request to REVIEW the PARMLIB file when no PARMLIB file is allocated.
+(ie. REV PARMLIB F)
+ 
+R30.1 fixes a bug where issuing a command RECALL on a wide screen
+caused all data except the recalled command to be cleared from the
+screen.  This was caused by calculating the buffer start address
+for the wide screen, but leaving the end address for an 80-column
+screen.  This made the end address less than the start address, so
+an attempt to clear the primary input area cleared to the end of the
+screen and wrapped around to clear the top of the screen.
+ 
+R30.2 fixes a S0C4 abend caused by an incorrect attempt to restore
+the primary command in the TSO ECT after a HELP session had ended.
+This was most obvious on recursive HELPs with missing HELP data.
+ 
+R30.3 fixes recursive REVIEW prompting problems by turning off
+fullscreen mode, thus allowing line mode replies to prompts.
+The STTMPMD macros were commented out to allow the receiving of
+messages while in REVIEW under OS/390 2.4.  These can now be
+reactivated for later releases, but probably only have an effect
+if TSO/E Session Manager is used.  One user complained that the
+directory area wasn't big enough for a specific PDS so it has been
+increased from 512K to 768K.  The "cocktail-shaker" improvement to
+bubble sort was added for some fixed-offset sorts for PDS directory
+sorting to provide some modest but perceptible sort time reductions.
+ 
+R31.0 provides PDS facilities accessible from the directory display
+screen.
+=SETFILE allows the setting of the output DDname, so it can
+be changed from SYSUT2.  (This has no effect on the CUT and ADD
+subcommands of "REVIEW-proper".)
+=DELINK can now be used to invoke DELINKI to delink load modules.
+=OFFLOAD can now offload load modules to fixed-length 80-byte records.
+=PDSLOAD can invoke REVLMOD or PDSLOAD (depending on PDS RECFM) to
+reload offloaded members.
+=HELP screen split into 2 screens.
+REVSMF no longer link-edited into REVIEW.  REVSMF made RMODE=ANY.
+ 
+R32.0 adds ZIP and PCX file handling.  ZIP directories can be formatted
+if the ZIP file is a DASD sequential file.  ASEXZIPD from ASE can be
+invoked to unzip data.  <http://www.ase.com.au>  Unzipped data can be
+REVIEWed and CUT to an output file.  1-bit, 4-bit and 8-bit single-plane
+Paintbrush (ZSoft's PCX file format) can be rendered on a 3270 graphics
+TSO terminal.  Character (raster) graphics done by REVIEW.  GDDM called
+for vector graphics terminals.  (GDDM base now part of OS/390.  Put the
+SADMMOD data set in the linklist.)  PICDATA allows the porting of a
+picture into other Assembler 3270 applications.  DIV improved a bit for
+ZIP file data handling - previously overhead increased exponentially
+with record number.  (DIV here is REVIEW's internal record caching.)
+ 
+R32.1 fixes IMS ACBLIB offset bugs and adds Y2K windowing for IMS
+ACBLIBs which only use 3 bytes (YYDDDF) for the date.
+ 
+R32.2 fixes 'PDSE' literal overlaying RMODE=24 program size total,
+and using the wrong register to branch after a zip file error.
+Recognition of low-level qualifiers now handles mixed case.
+ 
+R32.3 handles 8K and 16K DB2 pages sizes.
+ 
+R33.0 adds the 'H' member selection code to show program history.
+For PDS load modules this is the same as 'S' and scrolling right.
+For PDSE program objects IEWBFDAT is invoked and the results
+(as opposed to the actual member contents) are REVIEWed.
+ 
+R34.0 replicates nearly all of the PDS facilities for HFS files
+including REVIEW/EDIT/BROWSE, global SEARCH, program history,
+directory SORT, and entry tagging.  ZIP files are recognised if they
+are HFS files.  HFS PCX files are recognised.  (NULL) is now not
+shown for zero-length records unless HEX or FMT is on.  LRECL=X
+is now supported up to 65535 bytes long.  DB2 rows are now only
+extracted when the first page is recognised as a header page, and then
+any page size should now be handled correctly (assuming it is a
+multiple of 4K).  The slash ('/') selection code was added (for HFS
+and PDS/PDSE) to allow the "specification" of the DATA operand at the
+member or HFS file level.  '/' can be used to inhibit the default
+processing of ZIP and PCX files.  HFS explorer like navigation is
+done by selecting a subdirectory to make the current directory, or
+PF3 up to parent directory.  PF3 from Root ends REVIEW.  Example:
+   REVIEW /etc/dce  QUICK
+BUT no operands are allowed so REVIEW attempts to show directory
+'/etc/dce  QUICK/' which gets a RC=00000081 RSN=055E0072 because
+it doesn't exist.  So, PF3 which REVIEWs directory '/etc/' with
+the display positioned to 'dce'.  <NEWLINE> and <ENTER> selects
+the 'dce' subdirectory so REVIEW now shows '/etc/dce/'.
+ 
+R34.1 fixes the S0C9 abend when the 'SMF' command is issued.
+ 
+ 
+REVIEW has several built-in formats which are pre-coded examples of
+the general DSECT formatting capability.
+ 
+**VTOC** - formats DSCB-1 records.  (DS1SMSFG improved with R34.0).
+           Activate with FMT (or FMT ON) when REVIEWing a VTOC.
+ 
+*DB2TBL* - shows full Row-ID (RID) of extracted DB2 rows.
+           Automatically activated.
+ 
+*ZIPFILE - formats ZIP central directory records.
+           Automatically activated.
+ 
+*OBJHIST - formats data extracted by REVIEW from Binder API calls.
+           Automatically activated.
+ 
+ 
+"Normal" REVIEWing of data is performed by the REVIEW2 CSECT.
+This operates in 24-bit addressing mode, unless an HFS file is being
+REVIEWed, whereupon REVIEW2 receives control from REVHFS in 31-bit
+addressing mode.  All USS calls are done with AMODE=31.  REVHFS
+provides routines for READ, CHECK, NOTE and POINT which are pointed
+to by a fake DCB which is used by the standard BSAM macros in REVIEW2.
+All Binder dialogs (Fast Data Access for PDSEs; full API for HFS)
+take place with AMODE=31.  ISPLINK is invoked with AMODE=31 for HFS
+files, and AMODE=24 for PDS/PDSE members.  GDDM is called with AMODE=31.
+ 
+ 
+R35.0 provides another replication of directory processing, this time
+for unconcatenated PDSE program object data sets.  The REVIEW CSECT
+passes control to REVPDSE instead of REVPODIR when a single PDSE with
+RECFM=U is being REVIEWed.  REVPDSE checks that it is a program object
+library - if not control is transferred to REVPODIR.  If it is REVPDSE
+performs all directory, formatting and command handling.  Why this
+duplication?  Because REVPDSE (actually cloned from REVHFDIR) can
+display long alias names, as well as program object-only attributes
+which can be accessed by DESERV like date/time/job, Program Management
+version, DLL enablement, etc.  Because REVPDSE only processes program
+object libraries a few "normal" facilities are not available, such as
+delinking, offloading and edit.  And because there are no output
+facilities there is no =SETFILE command.  Each of the three directory
+processors (REVPODIR, REVHFDIR and REVPDSE) has its own set of help
+panels accessed with '=?' or '=HELP'.  REVPODIR was designed to fit
+details from as many members as possible into its internal storage,
+and would require a rewrite to handle long member names.  REVPODIR
+has several entry formats for use with different member types.
+REVHFDIR and REVPDSE have fixed-format internal entries with a
+variable-length name at the end.  REVHFDIR acquires 128K (with LOC=ANY)
+which is retained until the end of the REVIEW session.  REVPODIR and
+REVPDSE acquire from 8K to 768K (variable GETMAIN) below the line.
+After the directory has been read unused space is freed.  As a result,
+for REVPODIR and REVPDSE an =REFRESH causes the whole area to be freed,
+reacquired, and excess freed (so there is room for any new members).
+When a long member name (which must therefore be an alias) is selected
+for REVIEW or BROWSE, the real member name (maximum 8 bytes long) is
+passed to REVIEW2 or ISPF, as appropriate.
+ 
+DESERV code is executed with AMODE=31 for access to GET_ALL buffers
+returned above the line.  The RMODE=24 program size total on the END
+line of the member list only includes RMODE=24 segments of program
+objects with more than one segment.  (I believe "more than one" means
+"two".  That is, I don't think a program can have more than two
+segments (currently).)
+ 
+On a OS/390 2.7 system with DFSMS 1.5, pointing SYSLMOD to a PDSE
+yields a PM3 object.  Copying a load module to a PDSE yields a PM1
+object.  When copying to a PDS with ISPF option 3.3 copy the real
+member first, then its aliases (without leaving the member list) to
+avoid orphan aliases.  When copying to a PDSE, select the real member
+AND all its aliases BEFORE pressing ENTER.
+ 
+REVSRCH was given a parameter list so it does not have to be aware of
+the working storage structure of REVPODIR and REVPDSE.  REVHFDIR does
+not use the parameter list because it drives the searching of HFS files.
+When called from REVPDSE, REVSRCH always uses the real member name, but
+for PDSEs the results are the same (because PDSEs cannot have orphan
+aliases).
+ 
+REVIEW is 20 years old this month (19 Jan 2001).  Happy Birthday!
+ 
+       And thank you, Bill, for writing it.
+ 
+ 
+R36.0 adds things in these areas:                         2002-January
+(1) TSO command management;
+(2) memory management.
+(3) parallel sessions;
+(4) ISPF dialog;
+(5) UNIX file symbolic links.
+ 
+(1) TSO command feedback is improved by reporting any non-zero return
+code or abend code in the top line message after the command has ended.
+Also, for systems without TSO/E, the TSO command is invoked by ATTACH
+with SZERO=NO to insulate REVIEW from abends by the TSO command, and to
+avoid abends when the TSO command does not restore registers properly.
+This is mainly aimed at MVS 3.8 systems because TSOEXEC (supplied by
+TSO/E) already provides this protection.
+ 
+(2) SZERO=NO has been added to all ATTACH calls by REVIEW subroutines to
+maximise memory clean-up by the system after a utility has been called.
+FREEPOOL macros have been added after all QSAM CLOSE macros.  This has
+been done to conserve region storage which can be exhausted by several
+recursive REVIEW sessions, mainly observed on 3.8.
+ 
+(3) The SWAP command has been added.  This transforms nested REVIEW
+sessions started by TSO REV or FSH commands inside REVIEW/FSHELP into
+parallel sessions.  This makes the sessions accessible without the need
+to terminate more recent sessions.  SWAP LIST can be used to list the
+accessible sessions.  This SWAP processing has nothing to do with
+the SWAP of ISPF.
+ 
+(4) In some cases, REVIEW can be run as an ISPF application.  The
+significant work of adding dialog support to the directory displays
+has not been done, so only files without directories can be REVIEWed
+in an ISPF display.  So, PDSs, PDSEs, HFS files and partitioned
+subsystem data sets are excluded.  DSORG=PS,IS,DA,VS data sets can
+have their data shown by REVIEW in an ISPF display.  ISPF split screen
+processing is then available, and ISPF handles the TSO subcommand.
+ 
+Prerequistes:  1. Install REVPANEL to ISPPLIB.
+               2. Install REVPROF to ISPPROF.
+               3. Run on MVS/ESA or later.
+ 
+Separate from the REVIEW ISPF dialog aspect, other changes are:
+ 
+(a) When the OS is OS/390 2.10 or later REVIEW will use the new ISPF
+variables to access the data set name under the cursor for "point and
+shoot" invocations rather than relying on ISPF's internal structure
+to find the screen image and cursor location.  This has the added
+benefit of not requiring the MODE(FSCR specification.
+ 
+(b) Also under OS/390 2.10 or later in an ISPF environment REVIEW will
+access ISPF variables to determine extended colour, highlighting and
+graphic escape support instead of issuing a Read Partition (Query)
+to the terminal.  This means (i) that REVIEW will initialize faster,
+and (ii) REVIEW will not render Paintbrush pictures.
+ 
+REVIEW now has an 'XISPMODE' (or 'X' for short) operand which causes
+REVIEW to revert to pre-R36.0 behaviour in terms of data display
+(ISPF will not be used) and determining screen attributes (a Query
+will be performed if appropriate, thus making available any graphics
+capabilities which would allow the rendering of picture images).
+ 
+(5) When looking at UNIX directories, if the directory entry is a
+symbolic link then the link value is shown in green.  This should
+assist UNIX file administration because it can now be seen which files
+are "real" and which are accessed via symbolic substitution.
+ 
+ 
+R36.1, R36.2, R36.3 and R36.4 were small bug fixes in the main.
+ 
+R36.5 changes ZIP directory formatting to handle 10 decimal digits for
+the compressed and uncompressed file sizes, which is the required
+number of digits to report any value of an unsigned fullword.
+ 
+R36.5 also adds the 'A' selection code for UNIX files, which instructs
+REVIEW to treat the selected file as an ASCII text file.  Not only is
+ASCII-to-EBCDIC translation activated, but the end of line trigger
+is changed from the EBCDIC New Line (NL=x'15') to the ASCII Line Feed
+(LF=x'0A').  If the LF is immediately preceded by a carriage return
+(CR=x'0D') then it is also not shown in the display.
+ 
+R36.6 fixes subsystem allocation which was probably broken years ago
+when support was added to REVIEW VTOCs when the data set name of
+'FORMAT4.DSCB' was specified.  Bug reported by David Welles.
+ 
+R36.7 fixes IKT00405I SCREEN ERASURE CAUSED BY ERROR RECOVERY PROCEDURE
+after an ISPF Edit or Browse changes the screen to a smaller size
+and then REVIEW tries to write data to the larger size.  Bug reported
+by Mark Zelden who also reported a bug in REVSMF when formatting SMF
+type 250 (TSOMON) records: an S0C4 in REVSMF would occur because the
+target of an MVC instruction loading a literal used R7 as the base
+instead of R6.
+ 
+ 
+R37 notes
+ 
+R37.0 implements a major internal reoganisation.          2003-October
+ 
+Much of the triplicated code from the directory handlers has been unified
+into commonly callable routines.  Several facilities only available while in
+in "REVIEW data mode" are now available from directory displays as well.
+Examples of such facilities include the TSO and SWAP commands, the ability
+to set PFK values, and the ability to run as an ISPF dialog.
+ 
+The list of CSECTs making up the REVIEW command processor are:
+ 
+REVIEW   - entry point to perform parsing and initialisation.
+REVIEW2  - main "browse file data" processor.
+REVPCL   - REVIEW TSO parsing parameters.
+HELPCL   - FSHELP TSO parsing parameters.
+REVPDS   - formerly REVPODIR - format, display and navigate PDS directories.
+REVSORTE - PDS directory sort enhancer.
+REVALCO  - allocate and serialize sequential output file.
+REVDALO  - free and deq sequential output file.
+REVOFFLD - sequentialize PDS members.
+REVSRCH  - search PDS members for data.
+REVISPF  - invoke ISPF Edit, Browse or View functions.
+REVLOAD  - invoke PDSLOAD or REVLMOD to load new PDS members.
+REVDLNK  - invoke DELINKI to delink load modules.
+REVDIV   - cache reviewed data in virtual storage.
+REVPNS   - determine point-and-shoot data set name.
+REVHIST  - invoke Binder to show program history.
+REVIMAGE - show picture using raster graphics.
+REVGDDM  - show picture using vector graphics.
+REVUNIX  - formerly REVHFDIR - format, display and navigate UNIX directories,
+           manage UNIX file search, and set up for UNIX data REVIEW.
+REVPDSE  - format, display and navigate PDSE program library directory.
+REVHEAD  - clear screen buffer and initialize common first 2 lines.
+REVCOMM  - perform all TSO terminal communication using ISPF or TPUT/TGET.
+REVMSGS  - house and retrieve common fullscreen messages.
+ 
+FINDHEX, FINDCHR and FINDPIC (and their respective FINDNOT commands) have
+been dispensed with in favour of specifying the search argument in an
+ISPF-like manner.
+ 
+FIND and FINDNOT can now have a search column range specified, as well as
+one of the PREFIX, SUFFIX and WORD keywords specified.
+ 
+PDS(E) and UNIX files-in-a-directory SEARCH can exploit the new FIND options.
+ 
+VIEW has been added to the EDIT and BROWSE repetoire for invoking ISPF services.
+ 
+REVLMOD has been enhanced to use linkage editor serialisation
+(QNAME=SYSIEWLP) when updating load libraries to improve data integrity.
+ 
+REVIEW has been enhanced to use ISPF serialisation (QNAME=SPFEDIT) when
+updating sequential or partitioned data sets.
+ 
+Directory display subcommands no longer have the '=' prefix, and primary
+input text is no longer interpreted as a LOCATE request specification.
+ 
+Directory displays no longer have a separate set of PFK values hard-coded.
+A SORT command is available to request the sorting of directory entries.
+ 
+Some commands such as TSO, =X, KEYS and HELP will behave differently when
+REVIEW is running as an ISPF dialog because these commands will be
+processed by ISPF.
+ 
+ 
+R38 notes
+ 
+R38.0 implements REVEDIT - the REVIEW Editor.             2004-May
+ 
+The REVEDIT CSECT has been added to supply an editor for PDS members
+and sequential data sets.  The 'U' member selection code and the
+'UPDATE' primary command will invoke REVEDIT, as will the 'E' member
+selection code and the 'EDIT' primary command when REVIEW is not
+running in an ISPF environment.  Various other bug fixes are also
+included.
+ 
+The TSO HELP now has several members.  REVEDIT has its own HELP member
+as does each of the three directory displays.  John Kalinich has kindly
+coded up numerous ISPF tutorial panels which can be displayed when a
+HELP command is processed by ISPF.
+ 
+This release also sees the introduction of the REVGEN source member
+which sets the values of switches used during conditional assembley.
+With the appropriate settings in REVGEN, REVIEW can be assembled on
+MVS 3.8 using the Tachyon Legacy Assembler and the SYS1.MACLIB and
+SYS1.AMODGEN macro libraries from that MVS.
+ 
+See http://www.tachyonsoft.com/ for the Tachyon Assembler.
+Macros for BASSM and BSM are required under MVS 3.8 to assemble REVIEW.
+ 
+REVEDIT can use a data space to hold data while it is being edited.
+A data space can grow to 2GB subject to customisation by IEFUSI.
+REVGEN can be set so that REVEDIT will use the user region to hold
+the data - obviously a necessity for MVS 3.8 and other pre-ESA systems.
+ 
+R38.1 fixes a few bugs such as REVIEW accessing new extents after
+an UPDATE increased the size of the data set, REVEDIT SAVE handling
+erased sequence numbers, and ERR being a valid abbreviation for
+ERROR on a REVEDIT LOCATE command.  Other changes include the removal
+of the DDname operand of CUT and APPEND in favour of presenting a
+panel to specify a data set name, and the addition of the COPY command
+in REVEDIT.  A "point-and-shoot" REVIEW also now works when triggered
+from a REVEDIT session.
+ 
+R38.2 fixes a few bugs such as an S0C4 when initializing as an ISPF
+application under SDSF, and fixing the home location of the cursor on
+screens with more than 80 columns.  A member list sort can now be
+triggered by placing the cursor on a column heading (as suggested by
+John K.) - eligible headings have underscores.  The effective uid will
+be set to 0 (superuser), RACF permitting, to improve access by REVIEW to
+directories and files (as suggested by Mark Zelden).  The original
+effective uid is restored by the time any ISPF services are invoked.
+REVPANEL now has extra attribute codes to allow the display of data
+with GE(ON) explicitly requested.
+ 
+R38.3 fixes the problem where a cursor-triggered member sort did not
+occur when the end of the member list was on the screen.  Also, the
+Binder API processing was cosmetically changed during diagnosis for
+problems reported in IBM APARs OA08880 (ABEND0C4) and OA09299 (RC8
+REASON CODE 1080003A) which are relevant for z/OS 1.5 and 1.6.
+Thanks to Mark Zelden for detecting and reporting the bugs to IBM.
+ 
+R38.4 fixes an S0C4 abend after VSAM OPEN failure - now the return
+and reason codes are displayed properly as before - must have been
+bitrot in a recent release.
+ 
+R38.5 fixes two problems with REVEDIT:
+- an intermittent S0C4 processing line commands.
+- unreliable matching by FIND when PREFIX, SUFFIX or WORD is specified,
+  especially when ALL is also specified.
+ 
+R38.6 fixes an S0C4 when the editor initialises after data was found
+in the browser.
+ 
+ 
+R39 notes
+ 
+R39.0 implements syntax colouring for Assembler and JCL.  2004-December
+ 
+The 'HILITE' (or 'HI') REVEDIT subcommand has been added to control
+whether syntax highlighting is to be activated or not.  The HILITE
+setting is saved in the profile if one exists.
+ 
+The 'UPDATE' (or 'UPD') operand of 'LOCATE' has been added so that
+lines updated in the current edit session can be located.  This operand
+(unlike the other non-numeric operands of LOCATE) is not compatible
+with ISPF's Edit.
+ 
+R39.1 fixes an S0C4 when HEX ON is used with records which do not reach
+the end of the screen line - the terminating attribute byte code was
+being moved into the edited data array corrupting a pointer instead of
+to the screen buffer.  Bug reported by John H. Keith.
+ 
+R39.2 makes improvements to PDS-member/UNIX-file searches performed
+from directory entry list displays.
+ 
+Firstly, the standard PDS directory display now can perform searches
+for lowercase strings - this was just a plain bug.
+ 
+Secondly, another bug where the picture attribute of the search was
+not reset for a non-picture search after a picture search is fixed.
+ 
+And thirdly, non-picture case-insensitive searches have been sped up
+to (practically) match the performance of non-picture case-sensitive
+searches.  This is achieved by the simple expedient of translating
+the whole record to uppercase once after it is read instead of for
+each compare, thus making simple compares adequate to find the data.
+Note that this does not speed up normal FIND command processing as the
+data must be kept untranslated for display and other processing.
+ 
+R39.3 changes behaviour/output as follows:
+- EREP formatting will display the STCK value in hex if the system
+  does not have the STCKCONV facility (ie. is pre-SP4), and system
+  abend code digits have been reduced from 4 to 3.  Also, garbage
+  will no longer be left in column 81.
+- Fix intermittent incorrect numeric data such as VV.MM when showing
+  member details - this occurred for some members and not others when
+  shown on some screen lines but not others.
+- A new 'M' selection code is implemented to display a module map
+  for program objects (both PDSE and UNIX, but not PDS).  (The *OBJMAP*
+  and *OBJESD* internal formats are used to display the results.)
+- REVEDIT will no longer loop (or perhaps abend) when an I line command
+  is on the screen while a move/copy is pending, and autoinsert will no
+  longer occur if the cursor is in the line number field of the line.
+ 
+Since the demise of JCC the MINIZIP and MINIUNZ load modules are now
+included in the executable program library.
+ 
+R39.4 adds support for VSAM Extended Addressable access, although
+REVIEW only supports up to 1TB with this change.  Also, RLS=NRI is
+now specified internally to maximize access to data controlled by RLS.
+ 
+ 
+R40 notes
+ 
+R40.0 implements REVED and REVOUT.                        2006-April
+ 
+REVED is simply an alias of REVIEW to initiate the edit of a sequential
+data set (instead of having to browse it with REVIEW and issue the EDIT
+or UPDATE primary command).  The other main difference of REVED is that
+the meaning of the 'S' selection code for PDS members is to request the
+member be edited with REVEDIT instead of being browsed with REVIEW.
+ 
+REVOUT provides a fullscreen interface to TSO FIB commands so that they
+can be used to give QUEUE-like or SDSF-like access to job output that
+is independent of the level of MVS and Job Entry Subsystem in use.
+Function depends on the SYSOUTTRAP facility and uses the CLIST called
+REVOUTJB which should be installed into SYSPROC.
+ 
+MVS 3.8 users who wish to use REVOUT may be interested in usermods from
+http://www.prycroft6.com.au/vs2mods which add CLIST function including
+SYSOUTTRAP (ZP60014), and which alter JES2 (ZP60015) and TSO STATUS
+(ZP60016) so that the TSO STATUS command without any operand returns
+the status of all jobs with names of the TSO user's id plus zero, one,
+two and three extra characters (up to a maximum length of eight).  A
+JES3 version of the ZP60015 usermod would be needed to provide similar
+function in a JES3 environment.
+ 
+This release also rolls up bug fixes originally intended for R39.5,
+most notably those debugged by Steven Becquer of Miami-Dade County
+Public Schools I.T.S.
+ 
+CSECTs for PDSEs and UNIX have been moved from the REVSUBS source
+member to a new REVSUBS2 source member.
+ 
+REVALCO (which is called for SEQLOAD and OFFLOAD from the member list,
+and CUT and APPEND from data REVIEW) has been changed such that if
+the specified output data set name cannot be found it will be created.
+It will be a sequential data set if no member name was supplied, or
+a PDS with 20 directory blocks if a member name was supplied.  In most
+cases the new data set's DCB will match that of the data set being
+REVIEWed.
+ 
+R40.1 changes:
+- correct DMB size count for IMS V6 and V7.
+- ignore DATA operand for REVED command (do not edit PDS directory).
+- prevent S0C4 abend of REVOUT if REVOUTJB CLIST is not installed.
+ 
+R40.2 changes:
+- display found data hidden by ISPF split screen.
+- general fixes to scrolling.
+ 
+ 
+ 
+R41 notes
+ 
+R41.0 rolls up changes from 40.3 onwards.                 2007-November
+ 
+Apart from bug fixes, the main changes include:
+- show step name and CPU time of active jobs in REVOUT.
+- extract pictures from most types of uncompressed Windows/OS2 bitmaps.
+- use native 3270 vector graphics when available to show pictures.
+- session id numbers are now fixed and not relative to current screen.
+- current session id shown as blue superscript if session is nested.
+- cursor position saved and restored across SWAP commands.
+- make Edit the default selection action for the REVED command.
+- generate cursor autoselect 'S' only if no primary command.
+- improve TSO logic to not finish calling CLIST after subcommand CLIST.
+- suppress screen size switch if screen size already has 80 columns.
+- use PDS member DIV caching now only of RECFM=U - the main purpose
+  is to allow CESD formatting show IDR details - now also for pre-XA.
+ 
+R41.0 enhancements to REVEDIT include:
+- add TF and TS line commands.
+- add SORT primary command.
+- add CREATE and REPLACE primary commands.
+- colon command prefix applies command to current line. eg. :TS
+- support ASM highlighting of source code in a jobstream.
+ 
+R41.0 enhancements for MVS 3.8 also include:
+ 
+REVSMF can now format data from MF/1 records (types 70->74).
+Of the SMF records produced by MVS 3.8, only types 73 and 74
+from MF/1 seem to be sensitive to left/right scrolling.
+ 
+As of R41.0 REVIEW will override the LRECL of SYS1.MANX and
+SYS1.MANY of one thousand with ten thousand because MF/1 can write
+records longer than one thousand bytes.  REVIEW will continue
+to override the blocksize of SYS1.LOGREC of 40 with 1944.
+ 
+ 
+R41.1 changes REVEDIT to avoid S0C4 abend after a TF line command
+in ESA (data space) mode, and also adds minor improvements to
+JCL syntax highlighting.
+ 
+ 
+R41.2 fixes some things serious (like S0C4 moving lines to before the
+current top of screen) and not so serious (like the new members added
+by a PDSLOAD into an empty PDS can be seen without having to scroll
+up), and also adds some features.
+ 
+REVEDIT can now be invoked in VIEW mode (where data set serialization
+is not performed and SAVE is disabled) and REVEDIT also now supports
+UNDO and REDO by employing a recovery data set called
+prefix.REVEDIT#.BACKUP where # is the screen number.
+ 
+Note that recovery is manual, but can be performed by REVIEWing the
+recovery data set, using NEWTOP to access deleted members if the
+existing member is corrupt - not that it should be, using CUT to
+copy the records to a new data set, and editing the new data set
+and shifting all data to the left to restore proper data alignment.
+ 
+The recovery data set should be deleted to re-enable UNDO/REDO
+(and recovery) for that screen session number.
+ 
+UNDO OFF is available to stop undo/recovery processing if you find
+it is adding too much to response time.  And then there is UNDO ON
+for when you find that the overhead isn't so bad after all.
+ 
+ 
+R41.3 fixes an error where the editor tries to move 8 bytes into 4 bytes
+when only 4 were needed.  Because it was at the end of a page (most of
+the time) the result could be harmless, a mysterious storage overlay,
+or an S0C4 abend.
+ 
+ 
+R41.4 fixes an S0C4 abend encountered after an UNDO was requested and
+the post-UNDO display position was not Top-of-Data (as in UP MAX).
+(If the post-UNDO display position was line zero there was no problem.)
+ 
+A check of the ISPF panel dynamic area size during initialization
+(testing that it matched expected results based on the screen size)
+has been removed in the hope that this allows more ISPF application
+REVIEW sessions on wide screens.
+ 
+ 
+R41.5 fixes several basic bugs.  When a block was excluded which
+incorporated the current top display line REVEDIT lost track of, well,
+reality, so things like line numbers became corrupt.  LOCATE by line
+number was fixed as it was just plain wrong with excluded lines
+because it invoked UP or DOWN scrolling which count display lines, not
+data records.
+ 
+As well as OFF, JCL, ASM and AUTO, now PLI, CLIST and DATA are valid
+operands of HILITE or HI.  Slash-asterisk ... asterisk-slash comments
+are now highlighted as such, PL/I column 1 and pre-processor statements
+are shown in blue, and Assembler labels can now have non-trailing
+ampersands in other than the first position not flagged as an error.
+ 
+A leading *PROCESS statement with a semicolon is taken to indicate
+PL/I source, while one without a semicolon is taken to indicate
+Assembler source.  MAR or MARGINS is not yet parsed.
+ 
+JCL validation has been extended in some areas.  The REGION parameter
+on EXEC and JOB statements is validated mainly to detect post-XA
+values on pre-XA systems.
+ 
+For JCL DD statements, plain data set names are validated and
+underscored if cataloged and shown in blue if not cataloged.  If a
+single volume is specified without parentheses it is length-checked,
+and for MVS/370 systems an attempt is made to see if it is an online
+DASD volume.  If it is online it is underscored, and its generic
+device type designation is shown in that line's command area at the
+left of the screen.
+ 
+There is no cross-checking with the catalog entry vs VOL=SER in the JCL,
+nor with the volume device type vs the UNIT value in the JCL.
+ 
+ 
+R41.6 changes include:
+- REVEDIT backup file now uses the userid as the high-level qualifier
+when PROFILE NOPREFIX is in effect.  (Reported/suggested by Sam K.)
+- Screen size now set from ISPF panel size.  (Reported by John K.)
+- REVOUT will now display some rudimentry Assembler syntax highlighting
+when showing Assembler listings.  (Requested by Tom Armstong.)
+- Program object PDSE directory display now
+  - has more SORT types (idea by Charles MacNiven).
+  - shows PM sublevel in superscript (or lower case if ever over 9).
+- Done some work on implementing an INFO subcommand.
+ 
+ 
+R41.7 fixes operation as an ISPF application broken when trying to
+handle the case when the line mode screen size (as returned by STSIZE)
+is different from the fullscreen screen size (as reflected in the
+dimensions of the ISPF panel).  The undocumented global subcommand
+of 'CDE' or 'JPA' has been added.
+ 
+ 
+R41.8 fixes:
+- REVOUT Assembler listing syntax highlighting for wide screen.
+- REVEDIT CREATE/REPLACE creating corrupt SPF statistics.
+- REVEDIT CREATE/REPLACE RECFM=V not copying first selected record.
+- screen size not switching for pre-coded 80-column displays.
+- UNZIP temp unit of 3380 - now 3390 followed by SYSALLDA for retry.
+  (It was VIO originally, but large zips could cause auxiliary
+  storage shortages on under-configured pre-SMS systems.)
+ 
+ 
+R41.9 fixes:
+- 'CHANGE ALL' missed occurrences of the FIND string after syntax
+  highlighting housekeeping used the dynamic translate table work
+  area thus overlaying the TRT table used by CHANGE.
+- REVHIST setup for PDSEs just checked that DIV was initialized
+  (as it used to be not so long ago) and if it wasn't issued the
+  '"REVIEW" internal storage exhausted' message.  Now REVHIST
+  will issue the DIV GETMAIN call for PDSEs as it does for UNIX.
+ 
+ 
+ 
+R42 notes
+ 
+R42.0 adds support for DSNTYPE=LARGE data sets.           2008-September
+ 
+ 
+R42.1 changes:
+- Fix locating a ZIP archive's central directory for DSNTYPE=LARGE.
+- Add the 'RTF' subcommand to output coloured print files in RTF
+  format.
+- Enhance Assembler listing syntax highlighting to show literals in
+  white as REVEDIT syntax highlighting does.
+- Add the 'D' PDS member selection code so that members can be deleted
+  from the PDS member selection display such that they can be restored
+  with an 'R' selection.  This is only supported for unconcatenated
+  PDSs and not PDSEs (because the restore does not work for PDSEs).
+- Enhance the 'R' PDS member selection code to restore members
+  deleted with a 'D'.
+- Fix various cosmetic glitches.
+- Fix PDSE 'H' errors caused by erroneous DIV processing.
+- Various internal reorganizational changes such as moving the RECALL
+  stack from the @DATA area and placing it into an area which is
+  shared by all parallel sessions, and removing the code to transfer
+  the RECALL stack ownership during logical screen SWAP processing.
+  Another example is suppressing DIV processing during searches of
+  program libraries - no point caching data for a single scan - which
+  was sometimes a source of abends during such searches.
+- Add the undocumented 'TCB' (alias 'RB') command.
+ 
+ 
+R42.2 changes:
+- Highlight PL/I source code in editor according to character code
+  points, and report unbalanced parentheses as syntax errors.
+- Allow REVOUT to run as an ISPF application.
+ 
+ 
+R42.3 changes:
+- Add the 'SCRNAME' command to assign a new name to the logical
+  screen session.
+- The optional operand of the 'SWAP' subcommand can now be 'NEXT',
+  'PREV' or a session name, in addition to 'LIST' or a session id
+  (decimal number) that were previously allowed.
+- The default value of PF9 is changed from 'SWAP' to 'SWAP NEXT'.
+- An attempt is made to name logical screen sessions automatically.
+  Names used are OUT (for REVOUT), HELP (for FSHELP) and the last
+  data set name qualifier (if fewer than three qualifiers exist)
+  or the second-last data set name qualifier (if more than two
+  qualifiers exist).  Names shorter than eight characters will have a
+  digit (2 - 9) appended to prevent duplicate session names.  A name
+  will be left blank rather than creating a duplicate non-blank name.
+- The concurrent or parallel session count limit is increased
+  from 8 to 16.
+- Add the 'N' PDS member selection code which allows a new name
+  to be assigned to an unconcatenated PDS or data PDSE member.
+  The user is prompted to supply the new name when the selection
+  code is processed.  Member names containing commas, imbedded
+  blanks, or code points less than a blank are rejected (message
+  will just say REQUEST CANCELLED).  The 26 English letters will
+  be folded to upper case.  Apart from these restrictions any
+  other code point you can type in will be used as supplied in the
+  new member name.  Null or blank input, or input entered with a
+  key other than the <enter> key will also cause the request to be
+  cancelled.
+- Fix to serialization bug (not supplying the data set name to ENQ
+  correctly)  which allowed a member to be deleted, restored or
+  renamed while it was being edited.
+- REVEDIT (Edit and View) is changed to show the search match that
+  the cursor has been positioned to in reverse video, as is done
+  by REVIEW (Browse).
+- The PL/I source margins columns are extracted from the 'SORMGIN',
+  'MAR' or 'MARGINS' settings from leading '*PROCESS' and '%PROCESS'
+  statements for syntax highlighting purposes.
+ 
+ 
+ 
+R43 notes
+ 
+R43.0 introduces RFE - the "REVIEW Front End".            2010-March
+ 
+RFE is a menu framework to allow navigation to the various components
+of the package.  The initial menu options are:
+D - "REVLEV" - the data set list utility which is a bit "3.4-ish".
+O - "REVOUT" - to access spooled output which is a bit
+               "QUEUE meets 3.8-ish".
+T - "REVTSO" - which is a bit "6-ish".
+This may change to a numerical scheme later if enough other options
+materialize.
+ 
+To assist RFE operations, the default for PFK2 is now 'SPLIT' which is
+a new global subcommand equivalent to 'TSO RFE'.  Note that an initial
+RFE option can be specified as an operand of 'SPLIT'.
+ 
+Architecturally, this release sees all BSM and BASSM instructions
+removed from the package.  All code is now intended to run in the
+31-bit addressing mode under z/OS, although the code has yet to be
+compiled and tested under z/OS at the time of writing.
+ 
+RFE is mainly to aid use under MVS/370, and so the 370 version is
+being released first.
+ 
+The source for the main load module has increased from 49.3 KLOC to
+57.8 KLOC.  As well as new CSECTs delivering new function, a few
+fixes were also implemented, including:
+- Add EADSCB=OK settings.
+- Reactivate DIV PDS member data caching under FSHELP to stabilize
+  scrolling when )I member inclusion is used.
+- Add extended ISPF stats recognition (but not necessarily digestion).
+- Preserve seconds in timestamp when processing ISPF stats.
+- Recognize and handle ZIP archives in PDS members.
+- When exiting from a REVIEW of a zipped file, scroll to place
+  that file at the top of the zip directory display, instead of
+  always reshowing the zip directory from the top, which was *very*
+  annoying when a ZIP archive contains many screensful of file names.
+- Fix "fastpath" which was broken and always reported I/O errors.
+  It might have been broken by the DSNTYPE=LARGE support.
+- Detect screen size change dynamically.  This is intended to support
+  loss of a terminal and a LOGON RECONNECT using a terminal with
+  different screen dimensions.
+- Assume square brackets can be rendered natively with x'AD'/x'BD'.
+- Improve STAX processing for MVS/370.
+- Fix an intermittent S0C4 with REVEDIT line command blocks.
+- Fix an S0C4 in REVEDIT with 'C * *' and new string never specified.
+- Use userid as 2nd dsname qualifier for UNDO/REDO data set when
+  the prefix is not equal to the userid.  This will stop other users
+  with your prefix hogging your UNDO/REDO and CONDENSE data sets.
+  (CONDENSE is used by the 'Z' action in REVLEV.)  And you can now tell
+  which users are making such data sets under your high-level qualifier.
+- Use Merge Sort instead of Bubble Sort for member name and TTR sorts,
+  reducing an initial display of 'REV ISPPLIB F' from minutes in some
+  cases to sub-second.  (Sorts of other member attributes still use
+  Bubble Sort because the field to be sorted is not fixed.  REVLEV
+  uses Merge Sort when sorting the data set name list.)
+- Add repeated-symbol optimization for triple-plane symbol graphics.
+- Upgrade the 'N' (member rename) action code dialog screen I/O.
+ 
+ 
+R43.1 changes:
+- Prevent QSAM I/O error during REVEDIT COPY from crashing off the
+  whole REVIEW/RFE environment by adding EROPT=ACC to the DCB so
+  that the abend is considered recoverable by the SYNAD exit.
+- Add a member selection list for REVEDIT COPY from a PDS and no
+  member name specified.  (This was the chief source of the QSAM I/O
+  errors mentioned above.)
+- Report MEMBER NOT FOUND instead of S013-18 for REVEDIT COPY from
+  a PDS when the specified member is not present.
+- Verify that the UNDO/REDO data set does not exist at the start
+  of a REVEDIT session before allocating it.  If it does exist then
+  report REVVEDIT#.BACKUP NOT REUSED (where # is the screen number)
+  instead of DYNALLOC feedback codes.  It is up to the user to decide
+  if the data in the pre-existing data set should be used for recovery.
+  Any such recovery may well involve manually editing a copy of the
+  recovery file member and shifting all of the data 12 columns to the
+  left.
+- Do similar for the CONDENSE data set, except that the message is
+  ABORTED - CONDENSE FILE EXISTS.  It is up to the user to decide
+  if the data in the pre-existing data set should be used for recovery.
+  Any such recovery would probably involve using the REVLPDS program.
+- Handle full DIV when loading data from REVCATCH - was getting S0C4.
+  ("REVCATCH" refers to the way line mode TSO data is taken from
+  SYSOUTTRAP and loaded into DIV for fullscreen scrollable browsing.
+  Look at the REVLISTC CLIST to see an example.)
+ 
+ 
+R43.2 fixes the UCB address acquisition from the TIOT which became
+a bug with the 31-bit addressing conversion and which can cause an
+S0C4 abend.
+ 
+ 
+R43.3 fixes the display of prompting panels when running as an
+ISPF application.
+ 
+ 
+R43.4 completes the support necessary to process VTOCs on EAV
+and data sets residing in EAS which have format-8 and format-9
+DSCBs replacing the format-1 DSCB.
+ 
+ 
+R43.5 fixes more AMODE-31 glitches and adds the data set name to
+open file details in the display produced by the 'TCB'/'RB' command.
+REVHIST has been rewritten to use the full Binder dialog API in all
+cases, and is now called under z/OS for PDS load modules as well as
+PDSE and HFS program objects.  **-RED ALERT-** Also fixed is the
+REVEDIT data corruption of edited data by a CHANGE ALL command which
+caused some data bytes to be overlaid with x'FF' when using a data
+space to back the data.  Sessions on pre-ESA levels of MVS were not
+affected.
+ 
+ 
+R43.6 fixes a S0C4 abend when the 'OPERANDS' or 'MSGID' operand of
+FSHELP was used.  This was exposed when running with AMODE=31.
+ 
+ 
+ 
+R44 notes
+ 
+R44.B rolls up changes from 43.6 onwards.                 2012-October
+It is an MVS/370-only OCO beta or early release prior to GA.
+ 
+Apart from bug fixes, the main changes include:
+- A new 'SETUNZ' command to specify the file attributes, thereby
+  overriding the information in the ZIP file directory entry.
+- Changes to the way member lists scroll after member selection.
+- Using PDS subcommands to produce displays for the 'H' and 'M'
+  selection code processing of load modules (via the REVUSPDS CLIST).
+- Adding the 'BOUNDS' primary command in REVEDIT.
+- Show data in out-of-bounds columns in blue in REVEDIT.
+- Adding the 'TE' line command for text entry in REVEDIT.
+- Adding the 'CUT' and 'PASTE' primary commands to REVEDIT.
+- Recovering from PDS directory I/O errors during INFO processing,
+  which includes the data set Delete function in REVLEV (data set list).
+- Adding the 'M' action code to REVLEV (data set list).
+- Adding LEFT/RIGHT scrolling in REVLEV (data set list) so that all
+  information columns can be viewed on insufficiently wide screens.
+ 
+The 'BRVS' (or 'B' for short) undocumented operand has been added
+to the REVIEW command.  Its use is intended to allow the browsing
+of virtual storage. When specified, the required first positional
+(data set name) operand is ignored.  The data is displayed under
+the heading of ACTIVE, as per IPCS.  About all it is currently
+good for is browsing the in-core MVS/370 nucleus.
+ 
+The following z/OS-only fixes were introduced into the code base:
+- For program PDSE directory displays, the member name operand of
+  primary commands is now folded to upper case if there are no
+  lower case characters in any of the member names.
+- For UNIX directory displays, the entries read from a directory
+  are now always sorted before display.  Previously, if the SORT
+  order was "sort by name" no sorting was performed, which could
+  lead to an out-of-order display depending on subdirectory MOUNT
+  points, leading in turn to unexpected behaviour for LOCATE commands.
+Actually, the term "z/OS-only" really means "MVS/ESA or later".
+ 
+ 
+R44.0 is the first R44 GA release - with source code.     2014-January
+ 
+REVIEW now incorporates a GIF decoder which adds GIF files to the
+PCX and BMP file formats that can be decoded and displayed on 3270
+graphics terminals.  Interlaced and animated GIFs are supported.
+Only one cycle of the animation is currently shown.  NEWTOP can
+be used to manually trigger another cycle.
+ 
+When programmed symbols are used for graphics, REVIEW prefers to
+load the code points into the internal screen buffer from which
+the 3270 data stream is built.  This allows 3270 compression logic
+to also be applied to graphics data, and reduces the number of
+TPUTs issued.  This scheme does not work well when the pictures are
+large enough to require more code points than all read/write
+storages can provide.  The logic to build the 3270 data stream for
+these large pictures has probably been broken in this release, but
+hopefully it will be fixed in due course.
+ 
+REVIEW 'ACTIVE'
+will now cause the current contents of virtual storage in your TSO
+session address space to be browsed.  EQUATE and DROP commands have
+been added.  LEFT and RIGHT are repurposed in this mode to control
+jumping through the storage address trace table.  LPA and JPA loaded
+modules, as well as (under z/OS) nucleus control sections are
+automatically defined as usable symbols.  LOC/LIST now understands
+storage addresses specified much like as is done in TSO TEST.
+The symbol name 'X' can be used for the current location, as per IPCS.
+'%' and '?' can be used in the field preceding each storage word.
+No support for "above the bar" storage currently exists.
+ 
+The 'BRVS' operand mentioned above has been scrapped.
+ 
+Browsing z/OS UNIX zip files is now supported.
+ 
+Not mentioned under R43 above is the vertical scroll bar.
+When not running as an ISPF application, and when the PDS member list
+is more than a screenful, column 80 contains an indicator of the
+vertical scroll location of the member list.
+ 
+In response to a request, member scrolling is now a bit different.
+Firstly, the member list scrolls less.  The cursor is placed beside
+the member just processed, but that member's jump dot is blanked,
+so <enter> will just restore the cursor to home.  This should mean
+that all members will always be visible when they can all fit in
+a single screenful.
+ 
+ 

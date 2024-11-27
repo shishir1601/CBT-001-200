@@ -1,0 +1,45 @@
+//SBGOLOB1  JOB (ACCT#),S-GOLOB,
+// NOTIFY=&SYSUID,
+// CLASS=B,MSGCLASS=X
+//******************************************************************//
+//*  JOB TO CREATE NEW CBT TAPE VERSION 488 FROM THE V488 MASTER   *//
+//*    CREATED FROM EDITED FILES ON THIS PDS.                      *//
+//******************************************************************//
+//*    OLD MASTER TAPE VOLUME :    C488MU
+//*    NEW MASTER TAPE VOLUME :    V488MT
+//******************************************************************//
+//NEWJCL  PROC
+//COPY1   EXEC PGM=CKIEBGEN
+//STEPLIB  DD  DISP=SHR,DSN=SBGOLOB.CBTCREAT.LOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSUT1 DD DISP=SHR,DSN=SBGOLOB.CBT.EDIT(FILE001)
+//SYSUT2 DD DSN=FILE0001,
+//         DISP=(NEW,KEEP),
+//         DCB=(RECFM=FB,LRECL=80,BLKSIZE=32720,TRTCH=NOCOMP),
+//         UNIT=(568),
+//         LABEL=(1,SL,EXPDT=98000),
+//         VOL=(,RETAIN,SER=V488MT)
+//SYSIN  DD DUMMY
+//         PEND
+//******************************************************************//
+//COPYFILE PROC FROM=,TO=,DSP=KEEP,UN1=564,UN2=568
+//COPYSTEP EXEC PGM=COPYFILX,REGION=7000K PARM='TAPEL'
+//STEPLIB  DD DISP=SHR,DSN=SYS1.W$$.LINKLIB
+//MSG      DD SYSOUT=*
+//*APELOUT DD SYSOUT=*
+//SELREPT  DD SYSOUT=*
+//SYSABEND DD SYSOUT=*
+//IN       DD DSN=INPUT.FILE,UNIT=&UN1,DISP=SHR,LABEL=EXPDT=98000,
+//            VOL=SER=&FROM
+//TAPELIN  DD DSN=OUTPUT.FILE,
+//            UNIT=(&UN2,,DEFER),VOL=(,RETAIN,SER=&TO),
+//            DISP=(NEW,&DSP),LABEL=EXPDT=98000,DCB=TRTCH=NOCOMP
+//         PEND
+//******************************************************************//
+//*
+//FILE1    EXEC NEWJCL
+//*
+//COPYF01  EXEC COPYFILE,FROM=C488MU,TO=V488MT
+//SYSIN    DD *
+   2/2  ALL
+/*

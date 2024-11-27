@@ -1,0 +1,1332 @@
+         TITLE '  R E V M E N U  '
+**********************************************************************
+*                                                          *         *
+*         DISPLAY REVIEW FRONT END MENU HIERARCHY          *  R43.0  *
+*                                                          * DEC2009 *
+**********************************************************************
+         SPACE
+**********************************************************************
+*                                                                    *
+*        THIS ROUTINE DISPLAYS THE RFE MAIN MENU AND PROCESSES       *
+*        THE "OPTION" SELECTION.  MENU SUB-OPTIONS ARE ALSO          *
+*        DISPLAYED BY THIS ROUTINE.                                  *
+*                                                                    *
+**********************************************************************
+         SPACE
+**********************************************************************
+*                                                                    *
+* REGISTERS ON ENTRY  R9 -> @DATA                                    *
+*                     R13-> SAVE AREA                                *
+*                     R14-> RETURN ADDRESS                           *
+*                     R15-> REVMENU                                  *
+*                                                                    *
+* DURING PROCESSING   R13-> @MENUWK  (LOCAL GETMAINED AREA)          *
+*                                                                    *
+* RETURN CODES        R15 = 0  PROCESSING COMPLETE                   *
+*                                                                    *
+**********************************************************************
+         EJECT
+REVMENU  CSECT
+REVMENU  AMODE 31
+         B     @MENU-*(,R15)
+         DC    AL1(7),CL7'REVMENU'
+@MENU    STM   R14,R12,12(R13)
+         LR    R11,R15             SET BASE
+         LA    R8,1
+         LA    R10,4095(R8,R11)
+         LA    R8,4095(R8,R10)
+         USING REVMENU,R11,R10,R8
+         LA    R0,@MENUWKL
+         MVI   GETMNTRC,30         TRACK GETMAIN IN CASE OF FAILURE
+         GETMAIN R,LV=(0)          GET LOCAL WORKING STORAGE
+         LA    R15,@MENUWKL
+         LR    R14,R1
+         SR    R3,R3
+         MVCL  R14,R2              CLEAR WORKING STORAGE
+         ST    R1,8(,R13)          CHAIN SAVE AREAS
+         ST    R13,4(,R1)
+         LR    R13,R1              POINT TO GETMAINED AREA
+         MVI   0(R13),30           IDENTIFY THE AREA
+         USING @MENUWK,R13
+         SPACE
+************************************************************
+*                                                          *
+*         PROCESS INITIAL OPTION SPECIFICATION             *
+*                                                          *
+************************************************************
+         SPACE
+         L     R1,REVECT           NO, POINT TO THE TSO ECT
+         USING ECT,R1
+         TM    ECTSWS,ECTNOPD      ANY OPERANDS?
+         BO    REMENU              NO, SO GO SHOW MENU
+         DROP  R1                  ECT
+         BAS   R14,MENUINIT        YES, RESET SOME GLOBAL VARIABLES
+         L     R1,REVCBUF          POINT TO THE COMMAND BUFFER
+         LH    R15,2(,R1)          GET PARSED LENGTH
+         LA    R15,4(,R15)         GET OPERAND OFFSET
+         LA    R14,0(R15,R1)       POINT TO OPERAND
+         SH    R15,0(,R1)          SUBTRACT TOTAL BUFFER LENGTH
+         BZ    REMENU              IF ZERO UNPARSED THEN NO OPERAND
+         LPR   R15,R15             CONVERT PARSED-TOTAL TO TOTAL-PARSED
+         LA    R0,CMDAREA          POINT TO TARGET
+         LA    R1,8                SET UPPER LIMIT TO LENGTH
+         MVCL  R0,R14              COPY UP TO 8 BYTES OF OPERAND(S)
+         L     R6,=A(KAPS)
+         TR    CMDAREA,0(R6)       UPPER CASE IT AND BLANK NULLS
+         LA    R14,CMDAREA
+         ST    R14,OPD0            SET ADDRESS
+         SR    R1,R1
+MENU000  CLI   0(R14),C' '         END OF OPERAND?
+         BE    MENU001             YES
+         LA    R1,1(,R1)           NO, INCREMENT LENGTH
+         LA    R14,1(,R14)         POINT TO NEXT CHARACTER
+         B     MENU000             KEEP SCANNING FOR END
+MENU001  STH   R1,OPD0+4           SET INPUT LENGTH
+         MVI   OPD0+6,PRESENT
+         B     MENUOPT             GO PROCESS SELECTION
+         SPACE
+************************************************************
+*                                                          *
+*         BUILD MENU                                       *
+*                                                          *
+************************************************************
+         SPACE
+REMENU   NI    STATUS4,255-$4REFR  RESET REFRESH FLAG
+         BAS   R14,MENUINIT        RESET SOME GLOBAL VARIABLES
+         SPACE
+         NI    STATUS10,255-$10CAP SET CAPS OFF
+         L     R15,=A(REVHEAD)     POINT TO HEADING ROUTINE
+         BASR  R14,R15             INITIALISE FIRST TWO SCREEN LINES
+*        OI    STATUS10,$10CAP     SET CAPS ON
+         L     R4,SCREENBF         POINT TO PRIMARY SCREEN BUFFER
+         L     R3,SHADOWBF         POINT TO THE SHADOW BUFFER
+         LR    R2,R4               POINT TO PRIMARY SCREEN BUFFER
+         L     R1,SCRNCOLS         GET SCREEN WIDTH
+         AR    R2,R1               POINT TO SECOND LINE - ERASE SCROLL
+         MVC   80-HEADRGEL+1(160,R2),240(R2)
+         A     R2,SCREENSZ
+         MVC   80-HEADRGEL+1(160,R2),240(R2)
+         SRA   R1,1                HALVE IT
+         LA    R0,L'MENUTITL/2
+         SR    R1,R0
+         AR    R1,R4
+         MVC   0(L'MENUTITL,R1),MENUTITL
+*  LINE 4 AND ONWARDS
+         L     R15,SCRNCOLS
+         LR    R14,R15
+         LA    R0,80
+         SR    R14,R0
+         SRA   R14,1
+         AR    R4,R14              CENTRE THE DATA ON A WIDE SCREEN
+         AR    R3,R14
+         AR    R15,R15
+         LR    R0,R15              GET OPTION LINE SPACING
+         A     R15,SCRNCOLS
+         AR    R4,R15              POINT TO LINE 4
+         AR    R3,R15              POINT TO LINE 4 SHADOW
+         LA    R15,MENUOPTB        POINT TO OPTION TABLE
+         SPACE
+MENUOPLP MVI   0(R4),FLDOUTHI      HIGH INTENSITY FOR OPTION NAME
+         MVI   0(R3),X'06'         YELLOW FOR OPTION NAME
+         MVC   1(8,R3),0(R3)
+         MVC   1(8,R4),0(R15)      LOAD OPTION NAME
+         MVI   9(R4),FLDOUTLO      LOW INTENSITY FOR DESCRIPTION
+         MVI   9(R3),X'05'         TURQUOISE FOR DESCRIPTION
+         MVC   10(70,R3),9(R3)
+         MVI   10(R4),C'-'
+         MVI   11(R4),C' '
+         MVC   12(30,R4),8(R15)
+         AR    R4,R0               POINT TO NEXT OPTION LIST LINE
+         AR    R3,R0
+         LA    R15,8+30(,R15)      POINT TO NEXT OPTION TABLE ENTRY
+         CLI   0(R15),X'FF'        END OF TABLE?
+         BNE   MENUOPLP            NO, GO SHOW NEXT OPTION
+         SPACE
+************************************************************
+*                                                          *
+*         DATA ITEMS ON RIGHT OF SCREEN                    *
+*                                                          *
+************************************************************
+         SPACE
+*  PREPARE RIGHT SIDE DATA ITEMS
+         LA    R14,MENURDAT        POINT TO DATA ITEM TABLE
+         LA    R15,MENUR#*10       GET ITS SIZE
+         LA    R1,C' '             GET PAD CHARACTER
+         SLL   R1,24               PROMOTE PAD AND ZERO LENGTH
+         MVCL  R14,R0              BLANK OUT DATA ITEMS
+         LR    R15,R0              GET SCREEN WIDTH
+         LR    R14,R0              GET SCREEN WIDTH
+*  USERID
+         L     R1,REVPSCB
+         USING PSCB,R1
+         MVC   MENURDAT(7),PSCBUSER
+         DROP  R1                  PSCB
+*  SYSTEM
+         L     R1,CVTPTR
+         L     R1,CVTSMCA-CVT(,R1)
+         MVC   MENURDAT+10(4),16(R1)
+*  DATE AND TIME
+         TIME  DEC
+         STM   R0,R1,DOUBLE
+         UNPK  MENURDAT+27(3),DOUBLE+6(2)
+         UNPK  MENURDAT+40(3),DOUBLE(2)
+         MVI   MENURDAT+42,C':'
+         UNPK  MENURDAT+43(3),DOUBLE+1(2)
+         MVI   MENURDAT+45,C' '
+         AP    DOUBLE+4(4),=P'1900000'
+         OI    DOUBLE+7,X'0F'
+         UNPK  MENURDAT+30(5),DOUBLE+4(3)
+         L     R4,DOUBLE+4
+         L     R15,=A(IDRDATE)
+         BASR  R14,R15
+         MVC   MENURDAT+32(8),DOUBLE
+         PACK  DOUBLE,MENURDAT+30(2)
+         CVB   R3,DOUBLE           GET CENTURY
+         PACK  DOUBLE,MENURDAT+32(2)
+         CVB   R2,DOUBLE           GET YEAR OF CENTURY
+         PACK  DOUBLE,MENURDAT+35(2)
+         CVB   R1,DOUBLE           GET MONTH OF YEAR
+         PACK  DOUBLE,MENURDAT+38(2)
+         CVB   R7,DOUBLE           GET DAY OF MONTH
+*                                  BEGIN ZELLER'S CONGRUENCE
+         SH    R1,=H'2'            GET STATUS OF TWO MONTHS AGO
+         BP    YEAROKAY            MONTH-2 > 0
+         AH    R1,=H'12'           MAKE MONTH POSITIVE
+         BCTR  R2,0                DECREMENT YEAR
+         LTR   R2,R2
+         BNM   YEAROKAY            YEAR NOT NEGATIVE
+         LA    R2,99               MAKE YEAR POSITIVE
+         BCTR  R3,0                DECREMENT CENTURY
+YEAROKAY EQU   *                   NOW HAVE "TWO MONTHS AGO" STATUS
+         M     R0,=F'26'
+         BCTR  R1,0
+         BCTR  R1,0
+         D     R0,=F'10'           R1 = ((MM*26)-2)/10
+         AR    R7,R2
+         SRL   R2,2                R2 = YY/4
+         LR    R4,R3
+         SRL   R3,2                R3 = CC/4
+         SLL   R4,1                R4 = CC*2
+         AR    R7,R1
+         AR    R7,R2
+         AR    R7,R3
+         SR    R7,R4
+         SLR   R6,R6
+         LR    R1,R7               COPY NUMERATOR
+         LPR   R7,R7               AVOID NEGATIVE DIVIDE RESULTS
+         LA    R15,7               GET DENOMINATOR
+         DR    R6,R15
+         LTR   R1,R1               NEGATIVE NUMERATOR?
+         BNM   MODULOOK            NO, SO MOD(X,7)=REM(X/7)
+         SR    R15,R6              YES, ADJUST SO THAT RESULT
+         LR    R6,R15                   OF MOD(_,_) IS NOT NEGATIVE
+MODULOOK SLL   R6,2                DAY OF WEEK (0=SUNDAY) BY 4
+         LA    R6,DAYTBL(R6)       SHOW NAME OF DAY OF WEEK
+         MVC   MENURDAT+20(3),0(R6)
+*  RELEASE
+         MVC   MENURDAT+50(4),MENUREL
+         SPACE
+*  DETERMINE DISPLAY LOCATION
+         L     R0,SCRNCOLS         GET SCREEN WIDTH
+         LR    R15,R0              GET SCREEN WIDTH
+         LR    R14,R0              GET SCREEN WIDTH
+         AR    R14,R14             DOUBLE IT
+         AR    R14,R14             QUADRUPLE IT
+         L     R4,SCREENBF         POINT TO PRIMARY SCREEN BUFFER
+         AR    R4,R14              POINT TO FIFTH LINE
+         LA    R14,80
+         SR    R15,R14             GET WIDE EXTRA COLUMN COUNT
+         SRA   R15,1               HALVE IT
+         AR    R4,R15              ALLOW FOR WIDE SCREEN CENTERING
+         LA    R4,56(,R4)          POINT TO RIGHT DISPLAY COLUMN
+         LR    R3,R4
+         A     R3,SCREENSZ         POINT TO ITS SHADOW
+         LA    R6,MENURKEY         POINT TO ITEM NAME TABLE
+         LA    R5,MENURDAT         POINT TO ITEM DATA TABLE
+         SPACE
+*  LOAD TABLE ENTRIES
+MENURSLP MVI   0(R4),FLDOUTLO      LOW INTENSITY FIELD
+         MVI   0(R3),X'01'         SHOW IN BLUE
+         MVC   1(23,R3),0(R3)
+         MVC   1(12,R4),0(R6)      LOAD DATA ITEM NAME
+         MVC   13(10,R4),0(R5)     LOAD DATA ITEM DATA
+         AR    R3,R0               POINT TO NEXT DISPLAY LINE SHADOW
+         AR    R4,R0               POINT TO NEXT DISPLAY LINE
+         LA    R5,10(,R5)          POINT TO NEXT DATA ITEM
+         LA    R6,12(,R6)          POINT TO NEXT DATA ITEM NAME
+         CLI   0(R6),X'FF'         END OF ITEMS?
+         BNE   MENURSLP            NO, SHOW REST OF ITEMS
+         SPACE
+         AIF   (&ENV390).NOMGRAF   SKIP GRAPHICS
+         SPACE
+************************************************************
+*                                                          *
+*         CONSTRUCT GRAPHICS                               *
+*                                                          *
+************************************************************
+         SPACE
+*  THE THREE MVS/370 GRAPHICS HAVE THE SAME PIXEL DIEMENSIONS,
+*  AND ARE CONSTRUCTED AND PROCESSED BY REVIMAGE IN TURN, SO
+*  THE SAME PIXEL ARRAY STORAGE IS USED FOR ALL THREE.
+         SPACE
+*  DETERMINE IF GRAPHICS WILL BE DISPLAYED
+         MVC   MENUSYM,SYMSTGF     YES, SAVE SYMSTGF+SYMSTGL+SYMSTG3
+         SR    R1,R1
+         IC    R1,SYMSTGF          GET FIRST SYMBOL STORAGE ID
+         LA    R1,2(,R1)           ADD 2
+         CLM   R1,1,SYMSTGL        AT LEAST 3 SYMBOL STORAGES?
+         BH    MENPICOK            NO, SKIP IT
+         CLI   SYMSTG3+1,0         AT LEAST 2 ARE TRIPLE-PLANE?
+         BH    *+8                 YES, COLOUR CAN BE USED
+         OI    MENFLGS,MENFMONO    NO, ONLY USE MONOCHROME
+         CLI   OSBITS,X'13'        MVS/370?
+         BNE   MENPICOK            NO, GOT NOTHING TO SHOW
+         SPACE
+*  ACQUIRE STORAGE FOR GRAPHICS PIXEL ARRAY
+         LA    R0,132              128 X 128 SQUARE WITH BORDER OF 2
+         LR    R1,R0
+         MR    R0,R0
+         LR    R0,R1               GET ARRAY BYTE COUNT
+         LR    R7,R1               GET ARRAY BYTE COUNT
+         L     R1,HSEACTIV         LOAD RESIDUAL ADDRESS
+         C     R0,PICSTGSZ         DOES IT ALREADY EXIST?
+         BE    MENGRSTG            YES, REUSE SAME STORAGE
+         MVI   GETMNTRC,31         TRACK GETMAIN IN CASE OF FAILURE
+         GETSTOR RC,LV=(0),SP=17,LOC=(31,64)
+         LTR   R15,R15             NEW ARRAY STORAGE ACQUIRED?
+         BNZ   MENPICOK            NO, SKIP GRAPHIC
+         ST    R1,HSEACTIV         YES, SAVE ADDRESS FOR CLEAN-UP
+         ST    R7,PICPELCT         SAVE PIXEL COUNT
+         ST    R7,PICSTGSZ         SAVE STORAGE SIZE (MULTIPLE OF 8)
+MENGRSTG EQU   *
+         SPACE
+*  CHOOSE SCREEN LINES FOR ALL THREE GRAPHICS
+         L     R14,SCRNLNES        GET SCREEN LINE COUNT
+         LA    R0,24
+         SR    R14,R0              GET LINES IN EXCESS OF 24
+         SRA   R14,1               HALVE IT
+         LA    R14,14(,R14)        SAY LINE 15 FOR 24-LINE SCREEN
+         STH   R14,Y_OFFSET        SET TOP BORDER SCREEN LINE
+         SPACE
+*  INITIALIZE PIXELS TO WHITE FOR REAL STORAGE FRAME DISPLAY
+*    (THIS PROVIDES A QUICK WAY TO GET THE WHITE BORDER, BECAUSE
+*    ALL FRAME ARRAY ELEMENTS WILL BE PROCESSED LATER)
+         LR    R6,R1               POINT TO PIXEL STORAGE
+         AR    R1,R7               POINT PAST END OF PICTURE ARRAY
+         ST    R1,PICENDAD         SAVE FOR DISPLAY ROUTINE
+         MVI   PICCOLOR,X'F7'      DISPLAY PICTURE IN NEUTRAL
+         MVI   X_PELS+3,132        SET PICTURE WIDTH
+         MVI   Y_PELS+3,132        SET PICTURE HEIGHT
+         LA    R15,X'06'  @@@ 7    BORDER COLOUR IS WHITE
+         SLL   R15,24              ZERO LENGTH AND SET PAD
+         MVCL  R6,R14              SET ALL PIXELS TO WHITE
+         MVI   X_BYTES+1,15        PICTURE COLUMN COUNT
+         MVI   X_OFFSET+1,57       LEFT BORDER IN COLUMN 58
+         MVI   Y_BYTES+1,9         PICTURE LINE COUNT
+         MVI   X_Y_SYMS+3,135      PICTURE MAXIMUM SYMBOL COUNT
+         MVI   PICOLRES+3,3        INDICATE COLOUR PICTURE
+         MVI   PICFLAGS,PICNBW     NEW PICTURE AND NO SOURCE DATA
+         SPACE
+*  LOAD FRAME STATUS INDICATIONS AND GATHER UIC DISTRIBUTION DATA
+         XC    MENUIC(256),MENUIC  RESET UIC DISTRIBUTION COUNTERS
+         SR    R14,R14             CLEAR FOR INSERT
+         L     R3,PSAAOLD          POINT TO THE CURRENT ASCB
+         USING ASCB,R3
+         LH    R2,ASCBASID         GET CURRENT ASID
+         DROP  R3                  ASCB
+         L     R3,CVTPTR           POINT TO THE CVT
+         L     R3,CVTPVTP-CVT(,R3) POINT TO THE PVT
+         USING PVT,R3
+         L     R4,PVTPFTP          POINT TO PFT APPARENT ORIGIN
+         USING PFTE,R4
+         SR    R5,R5
+         ICM   R5,3,PVTFPFN        GET FIRST PFTE NUMBER
+         SRL   R5,4                GET NUCLEUS FRAME COUNT
+         L     R6,PICENDAD         POINT PAST PIXEL ARRAY
+         LA    R0,132*3+130
+         SR    R6,R0               POINT TO PIXEL DATA FOR PSA
+         LA    R0,64               GET FRAMES PER PIXEL SCAN LINE
+MENNUCLP MVI   0(R6),X'02'         RED FOR NON-RSM (NUCLEUS)
+         MVI   1(R6),X'02'         DOUBLE THE WIDTH
+         LA    R6,2(,R6)           POINT TO NEXT FRAME'S PIXEL DATA
+         LA    R4,PFTEND           POINT TO NEXT (PRETEND) PFTE
+         BCT   R0,MENNUCNX         PROCESS NEXT NUCLEUS FRAME
+         LA    R0,132*2+128        PIXEL SCAN LINE NOW COMPLETE
+         SR    R6,R0               POINT TO NEXT SCAN LINE DATA
+         MVC   132*3(128,R6),132*2(R6)   DOUBLE THE HEIGHT
+         LA    R0,64               GET FRAMES PER PIXEL SCAN LINE
+MENNUCNX BCT   R5,MENNUCLP         READY FOR NEXT NUCLEUS FRAME
+         ICM   R5,3,PVTLPFN        GET LAST PFTE NUMBER BY 16
+         SR    R1,R1               CLEAR FOR INSERT
+         LA    R5,16(,R5)          GET TOTAL PAGE FRAME COUNT BY 16
+         ICM   R1,3,PVTFPFN        GET FIRST PFTE NUMBER BY 16
+         SR    R5,R1               GET NON-NUCLEUS FRAME COUNT BY 16
+         SRL   R5,4                GET NON-NUCLEUS FRAME COUNT
+MENFRMLP MVI   0(R6),X'00'         BLACK FOR AVAILABLE
+         TM    PFTFLAG1,PFTONAVQ   AVAILABLE FRAME?
+         BO    MENFRMN2            YES, SKIP ASID CHECK
+         MVI   0(R6),X'02'         RED FOR NON-RSM
+         TM    PFTFLAG1,PFTBADPG+PFTOFFLN
+         BO    MENFRMN2            RED FOR BAD AND OFFLINE FRAMES
+         TM    PFTFLAG1,PFTLSQA    SQA OR LSQA?
+         BNO   MENONSQA            NO, NON-SQA
+         MVI   0(R6),X'05'         TURQUOISE FOR SQA AND LSQA
+         CLI   PFTQNDX,PFTSRQN     SQA RESERVE QUEUE?
+         BNE   MENFRMNX            NO, ACTUAL SQA OR LSQA FRAME
+         MVI   0(R6),X'06'         YES, REALLY SUBPOOL 227 OR 228
+         B     MENFRMNX            SO COUNT AS PAGE-FIXED CSA
+MENONSQA TM    PFTASID,X'80'       COMMON FRAME?
+         BO    MENCOMON            YES
+         MVI   0(R6),X'03'         PINK FOR PRIVATE PAGE-FIXED FRAME
+         TM    PFTFLAG1,PFTVRALC   ALLOCATED TO V=R?
+         BO    MENFRMNX            YES
+         ICM   R1,3,PFTFXCT        PAGE-FIXED?
+         BNZ   MENFRMNX            YES
+         MVI   0(R6),X'04'         GREEN FOR PRIVATE PAGABLE FRAME
+         B     MENFRMNX            YES
+MENCOMON MVI   0(R6),X'06'         YELLOW FOR COMMON PAGE-FIXED FRAME
+         ICM   R1,3,PFTFXCT        PAGE-FIXED?
+         BNZ   MENFRMNX            YES
+         MVI   0(R6),X'01'         BLUE FOR COMMON PAGABLE FRAME
+MENFRMNX CLM   R2,3,PFTASID        CURRENT ASID PRIVATE FRAME?
+         BNE   MENFRMN2            NO
+         MVI   0(R6),X'07'         YES, FLAG THIS WITH WHITE ON LEFT
+MENFRMN2 MVC   1(1,R6),0(R6)       DOUBLE THE WIDTH
+         ICM   R14,1,PFTUIC        GET FRAME UIC
+         BZ    MENXTFRM            ZERO SO DO NOT COUNT IT
+         SRL   R14,1               SHIFT OUT LOW-ORDER BIT
+         SLL   R14,1               GET ARRAY INDEX
+         LA    R15,1
+         AH    R15,MENUIC(R14)     INCREMENT ARRAY COUNTER ELEMENT
+         STH   R15,MENUIC(R14)
+MENXTFRM LA    R6,2(,R6)           POINT TO NEXT FRAME'S PIXEL DATA
+         LA    R4,PFTEND           POINT TO NEXT PFTE
+         BCT   R0,MENFRMOK         PROCESS NEXT NON-NUCLEUS FRAME
+         DROP  R4                  PFTE
+         LA    R0,132*2+128        PIXEL SCAN LINE NOW COMPLETE
+         SR    R6,R0               POINT TO NEXT SCAN LINE DATA
+         MVC   132*3(128,R6),132*2(R6)   DOUBLE THE HEIGHT
+         LA    R0,64               GET FRAMES PER PIXEL SCAN LINE
+MENFRMOK BCT   R5,MENFRMLP         READY FOR NEXT NON-NUCLEUS FRAME
+         SPACE
+*  DISPLAY REAL STORAGE FRAME STATUS
+         TM    MENFLGS,MENFMONO    CAN COLOUR GRAPHIC BE SHOWN?
+         BNO   *+8                 YES, PROCEED
+         BAS   R14,MENUMONO        NO, TRANSFORM TO MONOCHROME
+         SPACE
+         L     R15,=A(REVIMAGE)    POINT TO SYMBOL ROUTINE
+         BASR  R14,R15             GO LOAD SYMBOL DATA
+         SPACE
+         TM    MENFLGS,MENFMONO    WERE SINGLE-PLANE SYMBOLS USED?
+         BNO   MENDONE1            NO, PROCEED
+         IC    R1,SYMSTGF          YES
+         LA    R1,1(,R1)           ONE SYMBOL SET NOW UNAVAILABLE
+         STC   R1,SYMSTGF          TELL REVIMAGE TO USE THE NEXT ONE
+MENDONE1 EQU   *
+         SPACE
+*  CLEAR PIXELS AND LOAD X-AXIS FOR UIC BAR GRAPH
+         L     R6,HSEACTIV         POINT TO PIXEL STORAGE
+         L     R7,PICSTGSZ         GET ITS SIZE
+         MVI   PICCOLOR,X'F7'      SHOW GRAPH IN WHITE
+         SR    R15,R15             ZERO PAD AND SOURCE LENGTH
+         LA    R0,132+132          GET LENGTH OF TWO SCAN LINES
+         SR    R7,R0               SAVE TWO SCAN LINES
+         MVCL  R6,R14              SET ALL PIXELS TO BLACK
+         LR    R7,R0               GET LENGTH OF TWO SCAN LINES
+         LA    R15,X'01'           GET CODE FOR NON-BLACK
+         SLL   R15,24              ZERO LENGTH AND SET PAD
+         MVCL  R6,R14              COLOUR LAST TWO SCAN LINES AS BASE
+         MVI   X_OFFSET+1,32       LEFT BORDER IN COLUMN 33
+         MVI   PICOLRES+3,1        INDICATE MONOCHROME PICTURE
+         MVI   PICFLAGS,0          NEW PICTURE AND NO SOURCE DATA
+         SPACE
+*  PROVIDE A Y-AXIS LEFT OF FIRST POSSIBLE BAR PLOT
+         L     R15,HSEACTIV        POINT TO PIXEL STORAGE
+         LA    R0,132              INCLUDE X-AXIS IN SCANLINE COUNT
+MNUICYLP MVI   0(R15),X'00'        SET LEFT-MOST PIXEL TO BLACK
+         MVI   1(R15),X'01'        ILLUMINATE SECOND PIXEL FOR Y-AXIS
+         LA    R15,132(,R15)       POINT TO NEXT SCAN LINE
+         BCT   R0,MNUICYLP         CONTINUE MAKING Y-AXIS
+         SPACE
+*  CONSTRUCT UNREFERENCED INTERVAL COUNT FRAME DISTRIBUTION BAR GRAPH
+         LA    R0,132+132+132-2    GET LENGTH OF THREEISH SCAN LINES
+         SR    R6,R0               POINT TO BOTTOM OF FIRST BAR PLOT
+         LA    R15,MENUIC          POINT TO UIC DISTRIBUTION ARRAY
+         SR    R5,R5               CLEAR FOR INSERT
+         L     R2,HSEACTIV         POINT TO PIXEL STORAGE
+         LA    R1,132              GET SCAN LINE LENGTH
+         LA    R14,128             GET ARRAY ELEMENT COUNT
+MENUICLP ICM   R5,3,0(R15)         LOAD FRAME COUNT WITH THIS UIC
+         BZ    MENUICNX            ZERO SO DON'T PLOT IT
+         LA    R5,1(,R5)           ENSURE IT WILL SHOW
+         SRA   R5,1                SCALE IT
+         LR    R4,R6               POINT TO FIRST POINT TO PLOT
+MENPLTLP MVI   0(R4),X'01'         SET PIXEL ON
+         SR    R4,R1               GO UP A SCAN LINE
+         CLR   R4,R2               BEFORE START OF PIXELS?
+         BL    MENUICNX            YES, DONE PLOT FOR THIS ELEMENT
+         BCT   R5,MENPLTLP         NO, DO NOT TRUNCATE (YET)
+MENUICNX LA    R6,1(,R6)           POINT TO NEXT BOTTOM PIXEL ALONG
+         LA    R15,2(,R15)         POINT TO NEXT UIC ARRAY ELEMENT
+         BCT   R14,MENUICLP        GO PLOT IT
+         SPACE
+*  DISPLAY UNREFERENCED INTERVAL COUNT FRAME DISTRIBUTION BAR GRAPH
+         L     R15,=A(REVIMAGE)    POINT TO SYMBOL ROUTINE
+         BASR  R14,R15             GO LOAD SYMBOL DATA
+         SPACE
+*  CLEAR PIXELS AND LOAD WHITE BORDER FOR VIRTUAL STORAGE DISPLAY
+*    (NOT ALL PAGE ARRAY ELEMENTS WILL BE PROCESSED LATER,
+*     SO THEY MUST BE CLEARED BEFOREHAND)
+         L     R6,HSEACTIV         POINT TO PIXEL STORAGE
+         L     R7,PICSTGSZ         GET ITS SIZE
+         MVI   PICCOLOR,X'F7'      DISPLAY PICTURE IN NEUTRAL
+         SR    R15,R15             ZERO PAD AND SOURCE LENGTH
+         LA    R0,132+132+2        GET LENGTH OF TWO SCAN LINES + 2
+         SR    R7,R0               SAVE TWO SCAN LINES
+         MVCL  R6,R14              SET ALL PIXELS TO BLACK
+         LR    R7,R0               GET LENGTH OF TWO SCAN LINES + 2
+         LA    R15,X'06'   @@@ 7   BORDER COLOUR IS WHITE
+         SLL   R15,24              ZERO LENGTH AND SET PAD
+         MVCL  R6,R14              COLOUR LAST TWO SCAN LINES
+         L     R6,HSEACTIV         POINT TO PIXEL STORAGE
+         LR    R7,R0               GET LENGTH OF TWO SCAN LINES + 2
+         MVCL  R6,R14              COLOUR FIRST TWO SCAN LINES
+         LA    R0,127
+MEMVSMLP MVI   128(R6),X'06' @@@ 7 COLOUR RIGHT BORDER OF THIS LINE
+         MVC   129(3,R6),128(R6)   AND LEFT BORDER OF NEXT
+         LA    R6,132(,R6)         GO DOWN A LINE
+         BCT   R0,MEMVSMLP
+         MVI   X_OFFSET+1,7        LEFT BORDER IN COLUMN 8
+         MVI   PICOLRES+3,3        INDICATE COLOUR PICTURE
+         MVI   PICFLAGS,PICNBW     NEW PICTURE AND NO SOURCE DATA
+         MVC   SYMSTG3(6),SYMSTG3+1
+         MVI   SYMSTG3+6,0         PREVENT REVIMAGE SYMBOL OVERLAY
+         SPACE
+*  PLOT NUCLEUS PAGES
+         SR    R5,R5
+         ICM   R5,3,PVTFPFN        GET FIRST PFTE NUMBER
+         SRL   R5,4                GET NUCLEUS FRAME COUNT
+         L     R6,PICENDAD         POINT PAST PIXEL ARRAY
+         LA    R0,132*3+130
+         SR    R6,R0               POINT TO PIXEL DATA FOR PSA
+         LA    R0,64               GET FRAMES PER PIXEL SCAN LINE
+MENUC2LP MVI   0(R6),X'02'         RED FOR V=R NUCLEUS PAGES
+         MVI   1(R6),X'02'         DOUBLE THE WIDTH
+         LA    R6,2(,R6)           POINT TO NEXT FRAME'S PIXEL DATA
+         BCT   R0,MENUC2NX         PROCESS NEXT NUCLEUS FRAME
+         LA    R0,132*2+128        PIXEL SCAN LINE NOW COMPLETE
+         SR    R6,R0               POINT TO NEXT SCAN LINE DATA
+         LA    R0,64               GET FRAMES PER PIXEL SCAN LINE
+MENUC2NX BCT   R5,MENUC2LP         READY FOR NEXT NUCLEUS FRAME
+         SPACE
+*  PLOT SQA AND LSQA PAGES - FIND THEM IN REAL STORAGE
+         L     R2,PSAAOLD          POINT TO THE CURRENT ASCB
+         USING ASCB,R2
+         LH    R2,ASCBASID         GET CURRENT ASID
+         DROP  R2                  ASCB
+         L     R5,PVTPFTP          POINT TO PFT APPARENT ORIGIN
+         LR    R4,R5               COPY THIS ADDRESS
+         USING PFTE,R4
+         SR    R15,R15
+         ICM   R15,3,PVTLPFN
+         AR    R5,R15
+         ICM   R15,3,PVTFPFN
+         AR    R4,R15              POINT TO FIRST PFTE
+MENPGLP1 TM    PFTFLAG1,PFTLSQA    SQA OR LSQA?
+         BNO   MENPGNX1            NO, NOT INTERESTED IN THIS ONE
+         LA    R0,X'05'            SET COLOUR FOR SQA/LSQA PAGE
+         CLI   PFTASID,X'FF'       SQA PAGE?
+         BE    MENPGSQA            YES, PLOT IT
+         LA    R0,X'03'            SET COLOUR FOR SQA/LSQA PAGE
+         CLM   R2,3,PFTASID        CURRENT ASID PRIVATE FRAME?
+         BNE   MENPGNX1            NO, NOT INTERESTED IN THIS ONE
+MENPGSQA SR    R6,R6               CLEAR FOR INSERT
+         ICM   R6,6,PFTVBN         GET VIRTUAL STORAGE ADDRESS
+         BAS   R14,MENPGPLT
+MENPGNX1 LA    R4,PFTEND           POINT TO NEXT PFTE
+         CR    R4,R5               GONE PAST LAST PFTE?
+         BNH   MENPGLP1            NO, GO CHECK IT OUT
+         DROP  R3,R4               PVT, PFTE
+         SPACE
+*  PLOT CSA PAGES
+         L     R3,CVTPTR           POINT TO THE CVT
+         L     R3,CVTGDA-CVT(,R3)  POINT TO THE GLOBAL DATA AREA
+         USING GDA,R3
+         L     R3,CSASPQEP         POINT TO FIRST SUBPOOL ENTRY
+         DROP  R3                  GDA
+         USING SPQESECT,R3
+NEXTSPQE LA    R0,X'01'            BLUE FOR PAGABLE COMMON
+         CLI   SPQEID,230          227 OR 228?
+         BH    NXTENTYP            NO, 231 AND 241 ARE PAGABLE
+         LA    R0,X'06'            YELLOW FOR PAGE-FIXED COMMON
+NXTENTYP LR    R4,R3               POINT TO FIRST DQE POINTER
+         USING DQESECT,R4
+NEXTDQE  ICM   R4,15,DQEPTR        POINT TO DQE
+         BZ    DONSPKEY            ZERO POINTER SO END OF CHAIN
+         CR    R4,R3               END OF CHAIN?
+         BE    DONSPKEY            YES, DONE THIS KEY FOR THIS SUBPOOL
+         L     R2,DQEBLKAD         NO, GET BLOCK ADDRESS
+         L     R5,DQELNTH          GET ALLOCATED BLOCK LENGTH
+         SRA   R5,12               CONVERT TO PAGE COUNT
+         BZ    NEXTDQE             SKIP IF ZERO
+PLOTCSA  LR    R6,R2               LOAD PAGE ADDRESS
+         BAS   R14,MENPGPLT        PLOT THIS PAGE
+         AH    R2,=H'4096'         POINT TO THE NEXT PAGE
+         BCT   R5,PLOTCSA          GO PLOT THE NEXT CSA PAGE
+         B     NEXTDQE             LOOK AT THE NEXT DQE
+DONSPKEY ICM   R3,15,SPQEPTR       POINT TO NEXT SPQE
+         BNZ   NEXTSPQE            PROCESS IT
+         DROP  R3,R4               SPQESECT, DQESECT
+         SPACE
+*  PLOT USER PAGES
+         L     R3,PSAAOLD          POINT TO THE CURRENT ASCB
+         USING ASCB,R3
+         L     R3,ASCBASXB         POINT TO THE CURRENT ASXB
+         DROP  R3                  ASCB
+         USING ASXB,R3
+         MVC   DOUBLE(4),ASXBFTCB  COPY RCT TCB ADDRESS
+         DROP  R3                  ASXB
+MENTCBLP ICM   R3,15,DOUBLE        POINT TO NEXT TCB TO PROCESS
+         BZ    MENTCBOK            DONE ALL TCBS ON DISPATCHING QUEUE
+         USING TCB,R3
+         MVC   DOUBLE(4),TCBTCB    SET NEXT TCB TO PROCESS
+         L     R14,TCBMSS          GET FIRST TCB SPQE ANCHOR
+         L     R15,TCBUKYSP        GET SECOND TCB SPQE ANCHOR
+         L     R0,TCBSWA           GET THIRD TCB SPQE ANCHOR
+         SR    R1,R1               GET LOW VALUES
+         BCTR  R1,0                GET HIGH VALUES
+         STM   R14,R1,MENUIC       SAVE THIS LIST
+         LA    R0,MENUIC           POINT TO THIS LIST
+         ST    R0,DOUBLE+4         SAVE ADDRESS OF NEXT ONE TO DO
+MENANKLP L     R3,DOUBLE+4         POINT TO NEXT ANCHOR TO PROCESS
+         CLI   0(R3),X'FF'         END OF SPQE ANCHOR LIST?
+         BE    MENTCBLP            YES, GO LOOK AT NEXT TCB
+         LA    R0,4(,R3)           NO, POINT TO NEXT ANCHOR
+         ST    R0,DOUBLE+4         SAVE ITS ADDRESS
+         USING SPQESECT,R3
+MENSPQLP ICM   R3,15,SPQEPTR       POINT TO NEXT SPQE
+         BZ    MENANKLP            END OF THIS SPQE CHAIN
+         LA    R0,X'07'            WHITE FOR SYSTEM KEY PAGES
+         CLI   SPQEKEY,X'80'       KEY LESS THAN 8?
+         BL    *+8                 YES
+         LA    R0,X'04'            GREEN FOR USER KEY PAGES
+         LR    R4,R3               POINT TO FIRST DQE POINTER
+         USING DQESECT,R4
+MENDQELP ICM   R4,15,DQEPTR        POINT TO DQE
+         BZ    MENSPQLP            ZERO POINTER SO END OF CHAIN
+         CR    R4,R3               END OF CHAIN?
+         BE    MENSPQLP            YES, DONE THIS KEY FOR THIS SUBPOOL
+         L     R2,DQEBLKAD         NO, GET BLOCK ADDRESS
+         L     R5,DQELNTH          GET ALLOCATED BLOCK LENGTH
+         SRA   R5,12               CONVERT TO PAGE COUNT
+         BZ    MENDQELP            SKIP IF ZERO
+PLOTTCB  LR    R6,R2               LOAD PAGE ADDRESS
+         BAS   R14,MENPGPLT        PLOT THIS PAGE
+         AH    R2,=H'4096'         POINT TO THE NEXT PAGE
+         BCT   R5,PLOTTCB          GO PLOT THE NEXT CSA PAGE
+         B     MENDQELP            LOOK AT THE NEXT DQE
+         DROP  R3,R4               SPQESECT, DQESECT
+MENTCBOK EQU   *
+         SPACE
+*  COPY ELEMENT TOP SCAN LINES TO THEIR BOTTOM SCAN LINES
+         L     R6,HSEACTIV         POINT TO PIXEL DATA
+         LA    R0,66-1             GET 2-PIXEL LINE COUNT (BORDER OK)
+MENPGLP2 MVC   132(132,R6),0(R6)   MAKE SECOND ROW A COPY OF FIRST
+         LA    R6,132+132(,R6)     POINT TO NEXT SCAN LINE PAIR
+         BCT   R0,MENPGLP2         KEEP FIXING EVERY SECOND SCAN LINE
+         SPACE
+*  PLOT LPA PAGES - USES SHADING SO DO AFTER SCAN LINE REPLICATION
+         L     R3,CVTPTR           POINT TO THE CVT
+         L     R4,CVTGDA-CVT(,R3)  POINT TO THE GLOBAL DATA AREA
+         USING GDA,R4
+         L     R3,SQASPQEP         POINT TO THE SQA SPQE
+         USING SPQESECT,R3
+         L     R3,SPDQEPTR         POINT TO FIRST DQE
+         DROP  R3                  SPQESECT
+         USING DQESECT,R3
+         L     R5,DQEBLKAD         GET SQA ADDRESS - JUST PAST LPA
+         DROP  R3                  DQESECT
+         L     R3,CSAPQEP          POINT TO THE CSA PQE
+         DROP  R4                  GDA
+         USING PQESECT,R3
+         L     R2,PQEREGN          GET THE CSA START ADDRESS
+         L     R1,PQESIZE          GET THE CSA SIZE
+         DROP  R3                  PQESECT
+         AR    R2,R1               POINT PAST CSA TO LPA
+         SR    R5,R2               GET TOTAL SIZE OF LPA
+         SRA   R5,12               CONVERT TO PAGE COUNT
+         LA    R0,X'04'            GREEN FOR LINK PACK AREA
+         OI    MENFLGS,MENFDIM     USE HALF TONE SHADING
+PLOTLPA  LR    R6,R2               LOAD PAGE ADDRESS
+         BAS   R14,MENPGPLT        PLOT THIS PAGE
+         AH    R2,=H'4096'         POINT TO THE NEXT PAGE
+         BCT   R5,PLOTLPA          GO PLOT THE NEXT LPA PAGE
+         NI    MENFLGS,255-MENFDIM RESET HALF TONE SHADING FLAG
+         SPACE
+*  DISPLAY VIRTUAL STORAGE PAGE STATUS
+         TM    MENFLGS,MENFMONO    CAN COLOUR GRAPHIC BE SHOWN?
+         BNO   MENPAGES            YES, PROCEED
+         BAS   R14,MENUMONO        NO, TRANSFORM TO MONOCHROME
+         IC    R1,SYMSTGF
+         LA    R1,1(,R1)           DO NOT OVERLAY UIC GRAPH SYMBOLS
+         STC   R1,SYMSTGF
+         SPACE
+MENPAGES L     R15,=A(REVIMAGE)    POINT TO SYMBOL ROUTINE
+         BASR  R14,R15             GO LOAD SYMBOL DATA
+         SPACE
+         MVC   SYMSTGF(9),MENUSYM  RESTORE SYMSTGF+SYMSTGL+SYMSTG3
+         SPACE
+*  LABEL GRAPHICS
+         LH    R6,Y_OFFSET         GET LINE COUNT BEFORE GRAPHICS
+         MH    R6,SCRNCOLS+2       GET SCREEN BYTES TO SKIP
+         A     R6,SCREENBF         POINT TO THE GRAPHIC LINE
+         LR    R7,R6
+         A     R7,SCREENSZ         POINT TO THE SHADOW LINE
+         LA    R1,=CL8'FRAMES  '   POINT TO Y-AXIS LABEL
+         LA    R0,8                GET THE LENGTH OF THE LABEL TEXT
+MENYLBLP MVC   31(1,R6),0(R1)      COPY A LABEL CHARACTER
+         MVI   31(R7),X'05'        SHOW IT IN TURQUOISE
+         LA    R1,1(,R1)           POINT TO NEXT CHARACTER
+         A     R6,SCRNCOLS         POINT TO NEXT LINE
+         A     R7,SCRNCOLS         POINT TO NEXT LINE
+         BCT   R0,MENYLBLP         CONTINUE WRITING LABEL
+         MVI   31(R6),C'0'         SUPPLY X AXIS SCALE
+         MVI   31(R7),X'01'        SHOW IT IN BLUE
+         MVC   47(3,R6),=C'255'
+         MVI   47(R7),X'01'
+         MVC   48(2,R7),47(R7)
+         A     R6,SCRNCOLS         POINT TO NEXT LINE
+         A     R7,SCRNCOLS         POINT TO NEXT LINE
+         L     R1,SHADOWBF         POINT TO SHADOW BUFFER
+         SR    R1,R6               GET LENGTH TILL END OF SCREEN
+         LR    R0,R7               POINT TO SHADOW LINE AFTER GRAPHICS
+         LA    R15,X'05'           MAKE REST OF SCREEN TURQUOISE
+         SLL   R15,24              PROMOTE PAD AND ZERO SOURCE LENGTH
+         MVCL  R0,R14              SET REST OF SCREEN TO TURQUOISE
+         MVC   7(15,R6),=C'VIRTUAL STORAGE'
+         MVC   38(3,R6),=C'UIC'
+         MVC   58(13,R6),=C'REAL  STORAGE'
+MENPICOK EQU   *
+         SPACE
+.NOMGRAF ANOP
+         SPACE
+************************************************************
+*                                                          *
+*         DISPLAY MENU                                     *
+*                                                          *
+************************************************************
+         SPACE
+         L     R2,SCREENBF         POINT TO PRIMARY SCREEN BUFFER
+         MVC   MSGDSN,1(R2)        SAVE TEXT FOR REVCOMM
+         MVC   COMPON,@RFE         FLAG COMPONENT FOR HELP
+         L     R15,=A(REVCOMM)     POINT TO TERMINAL I/O ROUTINE
+         BASR  R14,R15             SHOW MENU PANEL
+         TM    STATUS4,$4ATTN      ATTENTION INTERRUPT?
+         BO    REMENU              YES, LET'S TRY THAT AGAIN
+         TM    STATUS4,$4REFR      SCREEN CONTENTS OVERWRITTEN?
+         BO    REMENU              YES, LET'S TRY THAT AGAIN
+         SPACE
+************************************************************
+*                                                          *
+*         PROCESS PRIMARY COMMAND FROM INITIAL PROMPT      *
+*                                                          *
+************************************************************
+         SPACE
+MENUOPT  TM    OPD0+6,PRESENT      ANY SUBCOMMAND REQUESTED?
+         BNO   REMENU              NO, GO SHOW MENU AGAIN
+**                                 UPPERCASING PERFORMED BY REVCOMM
+**       L     R1,=A(KAPS)         YES, POINT TO TRANSLATE TABLE
+**       TR    CMDAREA,0(R1)       UPPER CASE ALL PRIMARY INPUT
+         L     R1,OPD0             POINT TO SUBCOMMAND NAME
+         LA    R3,MNCMDTAB         POINT TO SUBCOMMAND TABLE
+         LH    R2,OPD0+4           GET SUBCOMMAND LENGTH CODE PLUS 1
+MENUEQLP CLI   0(R1),C'='          OPTION PREFIX BY EQUALS SIGN?
+         BNE   MENUEQOK            NO, PROCEED WITH TABLE LOOKUP
+         LA    R1,1(,R1)           YES, POINT PAST EQUALS SIGN
+         BCT   R2,MENUEQLP         DECREMENT COMMAND LENGTH
+         B     REMENU              COMMAND WAS ONLY EQUALS SIGN(S)
+MENUEQOK LA    R0,7                GET EXECUTE LENGTH MAXIMUM
+         CLR   R2,R0               LARGER THAN MAXIMUM?
+         BNH   MNINCMLP            NO
+         LR    R2,R0               YES, REDUCE TO MAXIMUM
+MNINCMLP EX    R2,MNCMDTST         FOUND THE SUBCOMMAND?
+         BL    MNINBDCM            NO, HANDLE NON-COMMAND PRIMARY INPUT
+         BE    MENDOCMD            YES, PERFORM IT
+         LA    R3,12(,R3)          NOT YET, POINT TO NEXT ENTRY
+         B     MNINCMLP            CONTINUE SUBCOMMAND TABLE SCAN
+         SPACE
+MENDOCMD BAS   R14,MENUFREE        FREE PICTURE RESOURCES
+         B     8(,R3)              PERFORM COMMAND ROUTINE
+         SPACE
+MNINBDCM MVI   MSG,20              INVALID COMMAND
+         B     REMENU              GO DISPLAY THIS MESSAGE
+         SPACE
+MNCMDTST CLC   0(0,R1),0(R3)       <<< EXECUTED >>>
+         SPACE
+************************************************************
+*                                                          *
+*         TERMINATE RFE LOGICAL SESSION                    *
+*                                                          *
+************************************************************
+         SPACE
+MENUCAN  NI    STATUS,255-STPROF   TURN OFF PROFILE REWRITE FLAG
+         B     MENUEXIT
+         SPACE
+MENUSAVE ICM   R1,15,MENTSO@       ANY TSO COMMANDS TO SAVE?
+         BZ    MENUEXIT            NO
+         CLI   80(R1),NULL         ANY DATA IN PROFILE AREA?
+         BE    MENUEXIT            NO, SKIP SAVE
+         LA    R0,240*10+80        YES, GET AREA SIZE
+         LNR   R0,R0               INDICATE WRITE WITH NEGATIVE
+         MVC   DOUBLE,$$REVTSO     NAME PROFILE MEMBER TO SAVE
+         L     R15,=A(REVPROF)     POINT TO PROFILE MANAGER
+         BASR  R14,R15             STORE PROFILE
+         SPACE
+MENUEXIT XC    RC,RC               ZERO RETURN CODE TO EXTERNALIZE
+         ICM   R1,15,MENTSO@       POINT TO TSO PROFILE AREA
+         BZ    MENUEX1T            NONE EXISTS TO FREE
+         LA    R0,240*10+80        GET AREA SIZE
+         FREEMAIN RU,LV=(0),A=(1)  FREE IT
+MENUEX1T LR    R1,R13              POINT TO LOCAL WORKING STORAGE
+         L     R13,4(,R13)         POINT TO CALLER'S SAVE AREA
+         LA    R0,@MENUWKL         GET LOCAL WORKING STORAGE LENGTH
+         FREEMAIN RU,LV=(0),A=(1)  FREE LOCAL WORKING STORAGE
+         LM    R14,R12,12(R13)     RESTORE REGISTERS
+         SR    R15,R15             ZERO LOCAL RETURN CODE
+         BR    R14                 RETURN TO CALLER
+         SPACE
+************************************************************
+*                                                          *
+*         INVOKE DATA SET LIST                             *
+*                                                          *
+************************************************************
+         SPACE
+MENULEV  L     R15,=A(REVLEVL)     POINT TO ROUTINE
+         BASR  R14,R15             INVOKE IT
+         B     MENURET             CHECK FOR PENDING SELECTION
+         SPACE
+************************************************************
+*                                                          *
+*         INVOKE SPOOLED OUTPUT REVIEW                     *
+*                                                          *
+************************************************************
+         SPACE
+MENUOUT  OI    STATUS11,$11OT      BEHAVE AS IF USER ISSUED REVOUT
+         L     R15,=A(REVOUTPT)    POINT TO ROUTINE
+         BASR  R14,R15             INVOKE IT
+         NI    STATUS11,255-$11OT  RESET REVOUT COMMAND FLAG
+         B     MENURET             CHECK FOR PENDING SELECTION
+         SPACE
+************************************************************
+*                                                          *
+*         INVOKE TSO COMMAND PROCESSOR                     *
+*                                                          *
+************************************************************
+         SPACE
+MENUTSO  ICM   R1,15,MENTSO@       POINT TO SAVED TSO COMMANDS
+         BNZ   MENUTSO2            GO CALL PROCESSOR
+         LA    R0,240*10+80        SET PROFILE MEMBER SIZE
+         MVI   GETMNTRC,32         TRACK GETMAIN IN CASE OF FAILURE
+         GETSTOR RU,LV=(0),LOC=(31,64)
+         ST    R1,MENTSO@          SAVE THE ADDRESS
+         LR    R0,R1               POINT TO IT
+         LA    R1,240*10+80        GET ITS SIZE
+         SR    R15,R15             ZERO SOURCE LENGTH AND PAD
+         MVCL  R0,R14              CLEAR THE NEW AREA
+         MVC   DOUBLE,$$REVTSO     SET PROFILE MEMBER NAME TO READ
+         LA    R0,240*10+80        SET PROFILE MEMBER SIZE
+         L     R1,MENTSO@          POINT TO THE NEW AREA
+         L     R15,=A(REVPROF)     POINT TO PROFILE MANAGER
+         BASR  R14,R15             FETCH PROFILE
+         L     R1,MENTSO@          POINT TO SAVED TSO COMMANDS
+MENUTSO2 LA    R1,80(,R1)          POINT PAST PROFILE MEMBER HEADER
+         L     R15,=A(REVTSO)      POINT TO ROUTINE
+         BASR  R14,R15             INVOKE IT
+*        B     MENURET             CHECK FOR PENDING SELECTION
+         SPACE
+************************************************************
+*                                                          *
+*         PROCESS DIRECT INTER-OPTION JUMP                 *
+*                                                          *
+************************************************************
+         SPACE
+MENURET  TM    OPD0+6,PRESENT      ANY PRIMARY COMMAND PRESENT?
+         BNO   REMENU              NO, JUST SHOW MENU AGAIN
+         L     R1,OPD0             YES, POINT TO IT
+         CLI   0(R1),C'='          INTER-OPTION JUMP?
+         BNE   REMENU              NO, JUST SHOW MENU AGAIN
+         BAS   R14,MENUINIT        YES, RESET SOME GLOBALS FIRST
+         B     MENUOPT             NOW GO PROCESS IT
+         SPACE
+************************************************************
+*                                                          *
+*         RESET GLOBAL VARIABLES                           *
+*                                                          *
+************************************************************
+         SPACE
+MENUINIT MVC   $DDNAME,MENUDD      LOAD PHONY DDNAME FOR SWAP LIST
+         MVC   $VOLSER,MENUBLNK    CLEAR VOLUME SERIAL
+         XC    $DSNAME(2),$DSNAME  ZERO DSNAME LENGTH
+         MVI   $DSNAME+2,C' '      CLEAR DATA SET NAME
+         MVC   $DSNAME+3(43),$DSNAME+2
+         BR    R14                 RETURN TO CALLER
+         SPACE
+************************************************************
+*                                                          *
+*         FREE GRAPHIC AREA                                *
+*                                                          *
+************************************************************
+         SPACE
+MENUFREE ICM   R1,15,HSEACTIV      ANY GRAPHIC AREA ACQUIRED?
+         BZR   R14                 NO, NOTHING TO DO
+         L     R0,PICSTGSZ         YES, GET ITS SIZE
+         FREEMAIN RU,LV=(0),A=(1),SP=17
+         XC    HSEACTIV,HSEACTIV   RESET STORAGE POINTER
+         XC    PICDTLS(PICDTLEN),PICDTLS     AND PICTURE STATISTICS
+         BR    R14                 RETURN TO CALLER
+         SPACE
+************************************************************
+*                                                          *
+*         CONVERT COLOUR GRAPHIC TO BLACK-AND-WHITE        *
+*                                                          *
+************************************************************
+         SPACE
+MENUMONO L     R15,HSEACTIV        POINT TO GRAPHIC ARRAY
+         L     R0,PICSTGSZ         GET ITS SIZE
+         AR    R15,R0              POINT PAST IT
+MENMONLP BCTR  R15,0               POINT TO PREVIOUS BYTE
+         CLI   0(R15),0            IS IT BLACK?
+         BE    *+8                 YES, LEAVE IT UNCHANGED
+         MVI   0(R15),1            NO, MAKE IT WHITE
+         BCT   R0,MENMONLP         PROCESS ARRAY BACK TO ITS ORIGIN
+         MVI   PICOLRES+3,1        CHANGE COLOUR REQUEST TO MONOCHROME
+         MVI   PICFLAGS,0          CLEAR NON-BLACK/WHITE FLAG
+         BR    R14                 RETURN TO CALLER
+         SPACE
+************************************************************
+*                                                          *
+*         PLOT PAGE IN GRAPHIC STORAGE SQUARE ARRAY        *
+*                                                          *
+************************************************************
+         SPACE
+*         R0=PLOT-COLOUR-CODE   R6=ADDRESS   R6/R7/R15 ARE ALTERED
+         SPACE
+MENPGPLT SR    R7,R7               CLEAR FOR SHIFT
+         SRDL  R6,24-6             GET TOP 6 BITS OF ADDRESS/VBN
+         LA    R6,2(,R6)           GET VERTICAL PIXELS TO CLIMB
+         MH    R6,=Y(132+132)      SCALE UP BY ARRAY LINE PIXELS
+         L     R15,PICENDAD        POINT PAST PIXEL ARRAY
+         SRL   R7,32-6-1           GET LOW 6 BITS OF VBN TIMES 2
+         SR    R15,R6              POINT TO RELEVANT SCANLINE
+         STC   R0,2(R7,R15)        COLOUR TOP-LEFT PIXEL
+         STC   R0,3(R7,R15)        COLOUR TOP-RIGHT PIXEL
+         TM    MENFLGS,MENFDIM     USING HALF TONE "SHADING"?
+         BNOR  R14                 NO, RETURN TO CALLER
+         LA    R15,2(R7,R15)       YES, POINT TO TOP-LEFT PIXEL
+         MVI   1(R15),0            DARKEN TOP-RIGHT PIXEL
+         STC   R0,133(,R15)        COLOUR BOTTOM-RIGHT PIXEL
+         BR    R14                 RETURN TO CALLER
+         SPACE
+         DROP  R13                 @MENUWK
+         EJECT
+************************************************************
+*                                                          *
+*         DATA SET PREFIX PROMPT SUBCOMMAND TABLE          *
+*                                                          *
+************************************************************
+         SPACE
+MNCMDTAB DC    0F'0'              ENTRIES MUST BE IN COLLATING SEQUENCE
+         DC    CL8'CAN     '
+         B     MENUCAN
+         DC    CL8'CANCEL  '
+         B     MENUCAN
+         DC    CL8'D       '
+         B     MENULEV
+         DC    CL8'END     '
+         B     MENUSAVE
+         DC    CL8'EXIT    '
+         B     MENUSAVE
+         DC    CL8'O       '
+         B     MENUOUT
+         DC    CL8'RETURN  '
+         B     REMENU
+         DC    CL8'T       '
+         B     MENUTSO
+         DC    CL8'X       '
+         B     MENUSAVE
+         DC    CL8'3.4     '
+         B     MENULEV
+         DC    CL8'3.8     '
+         B     MENUOUT
+         DC    CL8'6       '
+         B     MENUTSO
+         DC    H'-1'               END OF TABLE
+         SPACE
+MENUTITL DC    CL18' REVIEW FRONT END '
+         SPACE
+MENUOPTB DC    0F'0'
+         DC    CL8'       D'
+         DC    CL30'DATA SET LIST'
+         DC    CL8'       O'
+         DC    CL30'DISPLAY SPOOLED OUTPUT'
+         DC    CL8'       T'
+         DC    CL30'ISSUE TSO COMMAND'
+         DC    CL8'       X'
+         DC    CL30'EXIT RFE'
+         DC    F'-1'               END OF TABLE
+         SPACE
+MENURKEY DC    CL12'USERID    - '
+         DC    CL12'SYSTEM    - '
+         DC    CL12'DAY       - '
+         DC    CL12'DATE      - '
+         DC    CL12'TIME      - '
+         DC    CL12'RELEASE   - '
+MENUR#   EQU   (*-MENURKEY)/12     RIGHT SIDE DISPLAY ITEM COUNT
+         DC    F'-1'               END OF TABLE
+         SPACE
+DAYTBL   DC    C'SUN MON TUE WED THU FRI SAT '
+MENUREL  DC    CL4'&REL.'
+         SPACE
+         DC    0D'0'
+@RFE     DC    CL8'RFE'
+$$REVTSO DC    CL8'$$REVTSO'       RFE TSO PROFILE MEMBER
+MENUDD   DC    CL8'**MENU**'
+MENUBLNK DC    CL8' '
+         LTORG
+         SPACE
+         DC    0D'0'
+         SPACE
+MENULOWR DC    193AL1(*-MENULOWR)
+         DC    9AL1(*-MENULOWR-64) A-I
+         DC    7AL1(*-MENULOWR)
+         DC    9AL1(*-MENULOWR-64) J-R
+         DC    8AL1(*-MENULOWR)
+         DC    8AL1(*-MENULOWR-64) S-Z
+         DC    22AL1(*-MENULOWR)
+         SPACE
+         DROP  R11,R10,R8          REVMENU
+         SPACE
+         DC    0D'0'               END OF CSECT
+         TITLE '  R E V M E N U   -   D Y N A M I C   A R E A  '
+@MENUWK  DSECT
+         DS    18F
+MENPIC1  DS    D
+MENPIC2  DS    D
+MENUIC   DS    128H                UIC DISTRIBUTION ARRAY
+MENTSO@  DS    A                   ADDRESS OF SAVED TSO COMMANDS
+MENFLGS  DS    X
+MENFMONO EQU   X'80'               ALL GRAPHICS USE MONOCHROME
+MENFDIM  EQU   X'40'               ONLY COLOUR HALF THE PIXELS
+MENUSYM  DS    XL9                 SYMBOL STORAGE DETAILS SAVE AREA
+MENURDAT DS    (MENUR#)CL10        RIGHT SIDE DISPLAY ITEMS
+         SPACE
+         DS    0D                  END OF DSECT
+@MENUWKL EQU   *-@MENUWK
+         TITLE '  R E V P R O F  '
+**********************************************************************
+*                                                          *         *
+*         PROFILE MEMBER INPUT AND OUTPUT                  *  R43.0  *
+*                                                          * JAN2010 *
+**********************************************************************
+         SPACE
+**********************************************************************
+*                                                                    *
+*        THIS ROUTINE READS AND WRITES MEMBERS TO THE PROFILE        *
+*        PDS FILE.  THE FILE NAME IS 'ISPPROF' FOR MVS/ESA AND       *
+*        LATER - OTHERWISE IT IS 'REVPROF'.                          *
+*                                                                    *
+*        THE PROFILE MEMBER NAME TO BE PROCESSED IS SPECIFIED        *
+*        IN THE 'DOUBLE' VARIABLE.  WHEN THE MEMBER IS READ IN       *
+*        THE FIRST WORD OF THE 'DOUBLE' VARIABLE CONTAINS THE        *
+*        NUMBER OF BYTES READ IN, AND THE SECOND WORD OF THE         *
+*        'DOUBLE' VARIABLE POINTS TO AN AREA HAVING THE SIZE         *
+*        REQUESTED BY THE CALLER (EVEN IF THE INPUT BYTE COUNT       *
+*        IS LESS) CONTAINING THE INPUT PROFILE MEMBER DATA.          *
+*                                                                    *
+*        WHEN 'DOUBLE' IS ALL ZEROS THEN NO DATA WAS READ IN AND     *
+*        THERE IS NO DANGLING PROFILE DATA AREA LEFT TO BE FREED.    *
+*                                                                    *
+*        WHEN SAVING THE PROFILE, UPDATE-IN-PLACE IS ATTEMPTED       *
+*        FIRST TO CONSERVE DISK SPACE.  IF THE PROFILE MEMBER        *
+*        DOES NOT ALREADY EXIST OR IS TOO SHORT OR AN I/O ERROR      *
+*        IS ENCOUNTERED THE SAVE IS PERFORMED USING OUTPUT-ONLY.     *
+*                                                                    *
+**********************************************************************
+         SPACE
+**********************************************************************
+*                                                                    *
+* REGISTERS ON ENTRY  R0  = BYTE COUNT - MUST BE A MULTIPLE OF 80    *
+*                           > 0 => INPUT                             *
+*                           < 0 => OUTPUT                            *
+*                     R1 -> PROFILE DATA (GETMAIN FOR READ IF 0)     *
+*                     R9 -> @DATA                                    *
+*                     R13-> SAVE AREA                                *
+*                     R14-> RETURN ADDRESS                           *
+*                     R15-> REVPROF                                  *
+*                                                                    *
+* DURING PROCESSING   R11-> REVPROF                                  *
+*                     R13-> @PROFWK  (LOCAL GETMAINED AREA)          *
+*                                                                    *
+* RETURN CODES        R15 = 0  PROCESSING COMPLETE                   *
+*                                                                    *
+**********************************************************************
+         EJECT
+REVPROF  CSECT
+REVPROF  AMODE 31
+         B     @PROF-*(,R15)
+         DC    AL1(7),CL7'REVPROF'
+@PROF    STM   R14,R12,12(R13)
+         LR    R11,R15             SET BASE
+         USING REVPROF,R11
+         LR    R2,R0               SAVE INPUT SIZE
+         LR    R3,R1               SAVE INPUT ADDRESS
+         LA    R0,@PROFWKL
+         MVI   GETMNTRC,33         TRACK GETMAIN IN CASE OF FAILURE
+         GETMAIN R,LV=(0)          GET LOCAL WORKING STORAGE
+         LA    R15,@PROFWKL
+         LR    R14,R1
+         SR    R5,R5
+         MVCL  R14,R4              CLEAR WORKING STORAGE
+         ST    R1,8(,R13)          CHAIN SAVE AREAS
+         ST    R13,4(,R1)
+         LR    R13,R1              POINT TO GETMAINED AREA
+         MVI   0(R13),33           IDENTIFY THE AREA
+         USING @PROFWK,R13
+         STM   R2,R3,PROFGPR0      SAVE INPUT GPR0 AND GPR1 VALUES
+         MVC   PROFMEM,DOUBLE      SET PROFILE MEMBER NAME
+         XC    DOUBLE,DOUBLE       RESET OUTPUT DATA
+         SPACE
+************************************************************
+*                                                          *
+*         ESTABLISH PROFILE FILE NAME                      *
+*                                                          *
+************************************************************
+         SPACE
+         LA    R1,=CL8'REVPROF '
+         CLI   OSBITS,X'9B'        ESA OR LATER?
+         BNE   *+8                 NO
+         LA    R1,=CL8'ISPPROF '   YES, PIGGY BACK ON ISPF
+         L     R15,=A(REVDDLOC)
+         BASR  R14,R15             FIND PROFILE DD TIOT ENTRY
+         LTR   R15,R15             IS IT ALLOCATED?
+         BZ    PROFEXIT            NO, NOT IN TIOT SO NO PROFILE FILE
+         LA    R4,PROFDYN          POINT TO ACTUAL DCB AREA TO BE USED
+         MVC   PROFDYN,PROFDCB     INITIALIZE THE PROFILE DCB
+         USING IHADCB,R4
+         MVC   DCBDDNAM,0(R1)      SET DD NAME INTO DCB
+         MVI   OPEND,X'80'         FIRST DCB IN LIST IS ALSO LAST
+         SPACE
+************************************************************
+*                                                          *
+*         DETERMINE REQUESTED FUNCTION                     *
+*                                                          *
+************************************************************
+         SPACE
+         LTR   R3,R2               REQUESTING INPUT?
+         BM    PROFSAVE            NO, GO SAVE PROFILE
+         SPACE
+         SPACE
+************************************************************
+*                                                          *
+*         READ PROFILE MEMBER                              *
+*                                                          *
+************************************************************
+         SPACE
+         LM    R0,R1,PROFGPR0      RESTORE CALLER'S GPR0 AND GPR1
+         LTR   R1,R1               WAS AN AREA SUPPLIED?
+         BNZ   PROFOPNI            YES, SKIP GETMAIN
+         MVI   GETMNTRC,34         TRACK GETMAIN IN CASE OF FAILURE
+         GETSTOR RU,LV=(0),LOC=(31,64)
+PROFOPNI LR    R2,R1               POINT TO THE PROFILE AREA
+         LR    R0,R3               GET ITS LENGTH
+         STM   R0,R1,PROFBUFR      SAVE PROFILE AREA SIZE AND ADDRESS
+         SR    R15,R15             ZERO PAD AND SOURCE LENGTH
+         MVCL  R2,R14              ZERO THE PROFILE HOLD AREA
+         OPEN  ((R4),(INPUT)),MF=(E,OPEND)
+         MVI   SYNADSW,0           RESET I/O ERROR FLAG
+         SPACE
+         LM    R1,R2,PROFBUFR      GET PROFILE AREA SIZE AND ADDRESS
+         LR    R3,R1               COPY THE SIZE FOR MVCL IN READ LOOP
+         TM    STATUS6,HELSW       INVOKED AS FULLSCREEN HELP?
+         BO    PROFBLDL            YES, AVOID NEEDLESS BLDL
+         CLC   PROFMEM,PROFREV     BASIC REVIEW PROFILE?
+         BNE   PROFBLDL            NO, KEYLIST ALREADY CHECKED
+         MVC   BLDLNAME,PROFKEYL   LOAD KEYLIST PROFILE MEMBER NAME
+         BLDL  (R4),BLDL           VERIFY EXISTENCE OF PROFILE MEMBER
+         LTR   R15,R15             DOES PROFILE MEMBER EXIST?
+         BNZ   PROFBLDL            NO
+         OI    STATUS7,KEYLOK      YES
+         SPACE
+PROFBLDL MVC   BLDLNAME,PROFMEM    LOAD PROFILE MEMBER NAME
+         BLDL  (R4),BLDL           VERIFY EXISTENCE OF PROFILE MEMBER
+         LTR   R15,R15             DOES PROFILE MEMBER EXIST?
+         BNZ   PROFCLSI            NO
+**       CLI   BLDLCNCT,0          MEMBER FROM A CONCATENATION?
+**       BNE   PROFCLSI            YES, CAN'T WRITE TO IT
+         FIND  (R4),BLDLTTRP,C     POINT TO MEMBER FOR FIRST READ
+         LH    R7,DCBBLKSI         GET THE REQUIRED BUFFER SIZE
+         MVI   GETMNTRC,35         TRACK GETMAIN IN CASE OF FAILURE
+         GETSTOR RU,LV=(R7),LOC=(31,64)
+         LR    R6,R1               POINT TO NEW I/O BUFFER
+         LR    R0,R7               COPY ITS SIZE
+         STM   R0,R1,PROFIOBF      SAVE I/O BUFFER SIZE AND ADDRESS
+         SPACE
+PROFINLP L     R6,PROFIOBF+4       POINT TO THE PROFILE READ BUFFER
+         READ  DYNDECBW,SF,(R4),(R6),'S',MF=E
+         CHECK DYNDECBW            WAIT FOR THE READ
+         CLI   SYNADSW,0           I/O ERROR?
+         BNE   PROFEODI            YES, ASSUME NO FURTHER READABLE DATA
+         LH    R7,DCBBLKSI
+         L     R15,DYNDECBW+16     POINT TO THE IOB
+         SH    R7,14(,R15)         GET LENGTH OF BLOCK READ
+         MVCL  R2,R6               ACCUMULATE PROFILE DATA
+         LTR   R3,R3               NEED MORE DATA?
+         BP    PROFINLP            YES, READ ANOTHER BLOCK
+PROFEODI LM    R0,R1,PROFIOBF      GET I/O BUFFER DETAILS
+         FREEMAIN RU,LV=(0),A=(1)  FREE THE PROFILE I/O BUFFER
+PROFCLSI MVI   CLOSED,X'80'
+         CLOSE ((R4)),MF=(E,CLOSED)
+         SPACE
+         LM    R0,R1,PROFBUFR      GET PROFILE DATA SIZE AND ADDRESS
+         CR    R0,R3               ANY DATA READ?
+         BH    PROFKEEP            YES, DO NOT FREE THE HOLD AREA
+         ICM   R15,15,PROFGPR1     WAS THE AREA SUPPLIED BY THE CALLER?
+         BNZ   PROFKEEP            YES, SO DO NOT FREE IT
+         FREEMAIN RU,LV=(0),A=(1)  NO, FREE THE PROFILE HOLD AREA
+         SR    R0,R0
+PROFKEEP SR    R0,R3               GET READ BYTE COUNT
+         BNP   PROFEXIT            NO DATA WAS READ
+         STM   R0,R1,DOUBLE        SAVE READ SIZE AND ADDRESS
+         B     PROFEXIT            PROFILE INPUT COMPLETE
+         SPACE
+         SPACE
+************************************************************
+*                                                          *
+*         SAVE PROFILE MEMBER                              *
+*                                                          *
+************************************************************
+         SPACE
+PROFSAVE LPR   R3,R3               GET PROFILE SIZE TO SAVE
+         ST    R3,PROFBUFR         SAVE IT
+         L     R2,PROFGPR1         POINT TO PROFILE DATA TO WRITE
+         LA    R0,PROFEODU
+         STCM  R0,7,DCBEODA        SET END-OF-FILE ADDRESS
+         OPEN  ((R4),(UPDAT)),MF=(E,OPEND)
+         MVI   SYNADSW,0           RESET I/O ERROR FLAG
+         TIME  DEC
+         STM   R0,R1,DOUBLE        SUPPLY UPDATE TIMESTAMP
+         AP    DOUBLE,=P'1900000'  GET PROPER 4-DIGIT YEAR
+         OI    DOUBLE+7,X'0F'      PREPARE FOR UNPACK
+         UNPK  17(15,R13),DOUBLE   GET TIME+DATE IN SAVE AREA
+         MVC   17(7,R2),25(R13)    LOAD 7-DIGIT DATE
+         MVC   24(8,R2),17(R13)    LOAD 8-DIGIT TIME
+         CLC   PROFMEM,PROFREV     $$REVIEW MEMBER?
+         BE    PROFHDOK            YES, DATA FIDDLES HERE COMPLETE
+         L     R1,PSATOLD          POINT TO THE CURRENT TCB
+         L     R1,TCBTIO-TCB(,R1)  POINT TO THE TIOT
+         MVC   0(8,R2),0(R1)       COPY THE JOB NAME
+         MVC   8(8,R2),PROFMEM     COPY THE MEMBER NAME
+         MVI   16(R2),C' '         FIRST 32 BYTES NOW SET
+         SPACE
+PROFHDOK SR    R3,R3               RESET FETCHED BYTE COUNTER
+         MVC   BLDLNAME,PROFMEM    LOAD PROFILE MEMBER NAME
+         BLDL  (R4),BLDL           VERIFY EXISTENCE OF PROFILE MEMBER
+         LTR   R15,R15             DOES PROFILE MEMBER EXIST?
+         BNZ   PROFCLSU            NO
+         CLI   BLDLCNCT,0          MEMBER FROM A CONCATENATION?
+         BNE   PROFCLSO            YES, CAN'T WRITE TO IT
+         FIND  (R4),BLDLTTRP,C     POINT TO MEMBER FOR FIRST READ
+         LH    R7,DCBBLKSI         GET THE REQUIRED BUFFER SIZE
+         MVI   GETMNTRC,36         TRACK GETMAIN IN CASE OF FAILURE
+         GETSTOR RU,LV=(R7),LOC=(31,64)
+         LR    R6,R1               POINT TO NEW I/O BUFFER
+         LR    R0,R7               COPY ITS SIZE
+         STM   R0,R1,PROFIOBF      SAVE I/O BUFFER SIZE AND ADDRESS
+         SPACE
+PROFUPLP L     R7,PROFIOBF+4       POINT TO THE I/O BUFFER
+         READ  DYNDECBW,SF,(R4),(R7),'S',MF=E
+         CHECK DYNDECBW            WAIT FOR THE READ
+         CLI   SYNADSW,0           I/O ERROR?
+         BNE   PROFEODU            YES, RETRY WITH OPEN FOR OUTPUT
+         LH    R7,DCBBLKSI
+         L     R1,DYNDECBW+16      POINT TO THE IOB
+         SH    R7,14(,R1)          GET LENGTH OF BLOCK READ
+         LA    R5,0(R3,R2)         POINT TO DATA TO REWRITE
+         AR    R3,R7               ACCUMULATE BYTE COUNT SO FAR
+         WRITE DYNDECBW,SF,(R4),(R5),'S',MF=E
+         CHECK DYNDECBW            WAIT FOR THE WRITE
+         CLI   SYNADSW,0           I/O ERROR?
+         BNE   PROFCLSU            YES, RETRY WITH OPEN FOR OUTPUT
+         C     R3,PROFBUFR         UPDATED ENOUGH YET?
+         BL    PROFUPLP            NO, READ ANOTHER BLOCK
+PROFEODU LM    R0,R1,PROFIOBF      GET I/O BUFFER DETAILS
+         FREEMAIN RU,LV=(0),A=(1)  FREE THE PROFILE I/O BUFFER
+PROFCLSU MVI   CLOSED,X'80'
+         CLOSE ((R4)),MF=(E,CLOSED)
+         C     R3,PROFBUFR         UPDATED ENOUGH DATA?
+         BNL   PROFEXIT            YES, GO AND EXIT
+         SPACE
+         OPEN  ((R4),(OUTPUT)),MF=(E,OPEND)
+         MVI   SYNADSW,0           RESET I/O ERROR FLAG
+         SR    R3,R3               RESET WRITTEN BYTE COUNTER
+PROFOTLP LA    R6,0(R3,R2)         POINT TO DATA TO WRITE
+         L     R5,PROFBUFR         GET PROFILE MEMBER SIZE
+         SR    R5,R3               GET DATA LEFT TO WRITE
+         CH    R5,DCBBLKSI         NEED TO WRITE LESS THAN A BLOCK?
+         BNL   *+8                 NO
+         STH   R5,DCBBLKSI         YES, SAVE THIS LESSER AMOUNT
+         AH    R3,DCBBLKSI         ACCUMULATE BYTES ABOUT TO BE WRITTEN
+         WRITE DYNDECBW,SF,(R4),(R6),'S',MF=E
+         CHECK DYNDECBW            WAIT FOR THE READ
+         CLI   SYNADSW,0           I/O ERROR?
+         BNE   PROFCLSO            YES, GIVE UP
+         C     R3,PROFBUFR         WRITTEN ENOUGH YET?
+         BL    PROFOTLP            NO, WRITE ANOTHER BLOCK
+         SR    R0,R0
+         STCM  R0,15,BLDLTTRP      ENSURE NO DIRECTORY ENTRY USERDATA
+         STOW  (R4),BLDLNAME,R     REPLACE THE MEMBER
+PROFCLSO MVI   CLOSED,X'80'
+         CLOSE ((R4)),MF=(E,CLOSED)
+         DROP  R4                  IHADCB
+         SPACE
+         SPACE
+************************************************************
+*                                                          *
+*         TERMINATE                                        *
+*                                                          *
+************************************************************
+         SPACE
+PROFEXIT LR    R1,R13              POINT TO LOCAL WORKING STORAGE
+         L     R13,4(,R13)         POINT TO CALLER'S SAVE AREA
+         LA    R0,@PROFWKL         GET LOCAL WORKING STORAGE LENGTH
+         FREEMAIN RU,LV=(0),A=(1)  FREE LOCAL WORKING STORAGE
+         LM    R14,R12,12(R13)     RESTORE REGISTERS
+         SR    R15,R15             ZERO LOCAL RETURN CODE
+         BR    R14                 RETURN TO CALLER
+         TITLE '  R E V P R O F   -   S T A T I C  A R E A  '
+         DC    0D'0'
+PROFHEX  DC    CL16'0123456789ABCDEF'
+PROFREV  DC    CL8'$$REVIEW'
+PROFKEYL DC    CL8'REVPROF '
+         LTORG
+         SPACE
+         PRINT NOGEN
+PROFDCB  DCB   DSORG=PO,DDNAME=--PROF--,MACRF=(R,W),RECFM=FB,LRECL=80, +
+               EODAD=PROFEODI,SYNAD=DYNSYNAD
+PROFDCBL EQU   *-PROFDCB
+         PRINT GEN
+         SPACE
+         DROP  R11                 REVPROF
+         SPACE
+         DC    0D'0'               END OF CSECT
+         TITLE '  R E V P R O F   -   D Y N A M I C   A R E A  '
+@PROFWK  DSECT
+         DS    18F
+PROFGPR0 DS    F                   CALLER'S GPR0 CONTENTS
+PROFGPR1 DS    F                   CALLER'S GPR1 CONTENTS
+PROFBUFR DS    2F                  PROFILE DATA BUFFER DETAILS
+PROFIOBF DS    2F                  PROFILE I/O BUFFER DETAILS
+PROFMEM  DS    CL8                 PROFILE MEMBER NAME
+PROFDYN  DS    XL(PROFDCBL)        DCB AREA
+         DS    0D                  END OF DSECT
+@PROFWKL EQU   *-@PROFWK

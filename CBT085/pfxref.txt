@@ -1,0 +1,297 @@
+ ESD            PFXREF          PFXRLOAD        LODPATCH
+ ESD            LODSCON         DATER370        PFXRPARM
+ ESD            PFXRINIT        PFXRSCTR        PFXRCESD
+ ESD            PFXRCRLD        PFXRAESD        PFXRARLD
+ ESD            PFXRLOAD        XRFPATCH        XRFSCON
+ ESD            PFXRINIT        XINPATCH        XINSCON
+ ESD            PFXRSCTR   \    SCTPATCH        SCTSCON
+ ESD            PFXRCESD   \    CSDPATCH        CSDSCON
+ ESD            PFXRCRLD       yRLDPATCH   Q    RLDSCON
+ ESD            PFXRAESD        ASDPATCH   \    ASDSCON
+ ESD            PFXRARLD        ALDPATCH        ALDSCON
+ ESD            PFXRPARM       -XPMPATCH   -    XPMSCON    f
+ ESD            PFXRDCBS   h   UXRDPATCH
+ TXT             00  PFXREF VERSION IV-B - JULY 11, 197507/11/75 13.33
+ TXT                      }       {       {     &   &J   J      P  h hP
+ TXT                PP       0          B    0          A\  k  ;k1 %
+ TXT   y                   %     \C j     A n     { n     { n     A
+ TXT   \                  H           H  0{     K  <     \D  0A\ 0 m
+ TXT             0 q    m9   \AQo    -  j -   A{K    n  k0 <k  ;k  - \D
+ TXT   &        k0 <j     A K  ( qK  h q 0A@    K  ( -K  h -Kd   <  k  -
+ TXT   h         \D k0 < 0       \AQ 0       \AQ 0 u     \AQm    0A\
+ TXT   {         0       \AQm    0A\     0 y
+ TXT             00  PFXRLOAD 07/11/75 13.33  }  \E     o   j       3
+ TXT                    K  <  K  ;     ; \B K  \ (   \D j       j
+ TXT            k* \K    8   \C{j      Q3    N      K  < hK  ;     ; \B
+ TXT   y        K  \ (   \D j      Qj      Qk* \K    8   \C{    j     a
+ TXT   \        3           K  <  K  ;     ; \B K  \ (   \D j     a j
+ TXT              a k* \K    8   \C{    3    i      K  <  K  ;     ; \B
+ TXT   &        K  \ (   \D j     a\j     a\k* \K    8   \C{j  S  a\j
+ TXT   h          a\j     aqk* 8   h    ;  M&  d3    e      K  \  K    8
+ TXT   {        K  Z  K     K  3    k* Wk* 7 \C{j     b 3    R      K  <
+ TXT   8          K  ;     ; \B K  \ (   \D j     b j     b k* \K    8
+ TXT             \C{       8 \G K  <  K  *  K  \ (   \D j     b j     b
+ TXT            k* \K    8   \C{     \G K  <  K     K  \ (   \D j     b
+ TXT            j     b k* \K    8   \C{        c    \G K  <  K  -  K  \
+ TXT   Q         (   \D j     c j     c k* \K    8   \C{m    0E\c c c c
+ TXT            c c c c c c c c c c c c c c c c
+ TXT              k  ; 0              {y 0A\      k  \     0          {y
+ TXT            k  \ 0A\     {  C       C       C    Q  C       C
+ TXT   +        C     i           i       j     B     i            }
+ TXT   f         %&        0  &       i           i       q }       }  \
+ TXT            E  -      n0    E\k        -BH 0E\  }  \E 3           K
+ TXT   6              j     C K  \  K     K    8  j     C 3           K
+ TXT              IOK     k  W \C{ \B  0E\j    g      &   k        7
+ TXT                }  \E m      qk    \ {&   \  &  k    \      1   0
+ TXT            0      q \   0\    0E\    o    0E\j         }  \E     ;
+ TXT   O          &    \G K       j     D j     D k* 8           \ 0
+ TXT            K| \   0E\  }  \E    *      D j     D k1 < 0D
+ TXT              &    \G    %K  a   4  Dy  E  0    Dy  E j  -  Dh 0 -
+ TXT   =        Dy  E     k0 <     0 <  Dy  E Kd <   0E\  n10    *  D{
+ TXT             * 1      n+0  a  n 0  \    DYn00  \    DY \        &  *
+ TXT             1;  *        k  ;         \         i    n     E
+ TXT            E  \ b           S 1          0 m    Eh  F   E    1
+ TXT   ;        &           0    <&\0     E - 0  1&  m 0EHn 0   EH   00
+ TXT   o            Eh 0           0  G0&0    F   E   &    1- 0   k 0  \
+ TXT            0 &   &}0   q       \    &0 m }0 k 0 q }          [   1
+ TXT               0E\       <   H    0 %    F    -         &     &
+ TXT              q    0 &  0 &0 %- 0     & 0       & 0     & 0
+ TXT                    0     F0& 0   0     & 0    4    FY 0   }F}    )\
+ TXT               \F     P            0F  0FY     0   0F\ 0FY    P
+ TXT   W          q         00     G &0 % 0F@    -  &   -      H  0 &
+ TXT                 &     &      q   &0  &    0F<        i
+ TXT            G   +   3     o0  k   K   G      [K       n    =K      0
+ TXT            G                         n     n'    n,    n-    n)
+ TXT   F        n0        GQ      i    -        Gy        K  <     \D
+ TXT               0H     K  <I    \D      0H     K  <I    \D      0H
+ TXT              K  <H    \D  0A\K  <H    \D         i           n  \
+ TXT   >        Hq    i       m7      ;   &   ;   &    0B K  <     \D k
+ TXT   w         \ 0A\    K 0 \   K     0PFXREF04E **** NO MORE CORE ***
+ TXT            *0PFXREF11C RELATIVE OFFSET ZERO NOT FOUND0PFXREF12C REC
+ TXT            ORD TYPE NOT SCTR/TRANSLATE0PFXREF13C RECORD TYPE NOT RL
+ TXT   +        DCSECT MAP SORTED BY CSECT/ENTRY-POINT ADDRESS-  CONTROL
+ TXT   f         SECTION                       ENTRY0 PSUEDO REGISTERS
+ TXT              IEAVFX00IEAQFX00SEG.NOSEGMENT 0    NAME    ORIGIN  LEN
+ TXT   6        GTH              NAME     LOCATION   NAME     LOCATION
+ TXT             NAME     LOCATION   NAME     LOCATION  UNRESOLVED  LOCA
+ TXT            TION  REFERS TO SYMBOL  IN CONTROL SECTION TYPECROSS REF
+ TXT            ERENCE SORTED BY REFERENCING ADDRESSNAMEREFERENCED ENTRY
+ TXT   O         POINT0PFXREF07E NOT ENOUGH CORE FOR CESD TABLESIEANUC0
+ TXT             TOTAL LENGTH0  ENTRY POINT0123456789ABCDEF0PFXREF09E EO
+ TXT            DAD REACHED READING CESD RECORDS0PFXREF06C SAVEAREA COUN
+ TXT   =        T EXCEEDED0  RELOCATION IS  LOCATION IN SEG REFS SYMBOL
+ TXT            IN CONTROL SECTION TYPE0  NIP'S ADDRESS0  UNOVLY LENGTH0
+ TXT              TOTAL CSECTS0  TOTAL ENTRY POINTS0  TOTAL UNRESOLVED$U
+ TXT            NRES- $UNRES-W$NEVER-C000000$$$$$UNRESOLVED(W)$NEVER-CAL
+ TXT   ;        L$PRIVATE$BLKCOM $ACCUM  $SEGTAB $ENTAB
+ TXT   o                                                   { B D F H
+ TXT               } K M O Q       \ S U W Y       0 2 4 6 8
+ TXT             00  PFXRINIT 07/11/75 13.33  }  \E      0       0   0
+ TXT             0 Y     &   &&         n &    -       &k(&     &&
+ TXT            m   mq  o     t m        &  K    8K &   K &  8  n &
+ TXT   Q             0  k)&      0 h     & %    K &   K &-  K &   N  8
+ TXT               Yo   j     ~    h \  &\  k{   \ %&\  k           h
+ TXT             r  h   i   ;  %&      %         - {j -   ~-    &-  k
+ TXT                j -   t     j     ~   -         h   i   &   k
+ TXT              ~    j&   o    0~            %    &  @         -
+ TXT   0                    P        {              t   K  i- K   -
+ TXT            ;  M&   j -   t j -   s o       j -   sH   ho   j     s
+ TXT   -                        K  d-      d        h   i   &       [  f
+ TXT   q        h   i   &           h   i   &   k         sm    &   o
+ TXT   }         0          )\   \s     P            0s    { 0  K   0
+ TXT             0   \0     t*K| \     Q   4-  Yj     t k* \K    8K   w:
+ TXT            K        \C{       0F   K  <w    \D  0   0B     K  <vZK
+ TXT               8 \v  \D  0   0F K  <vZK    8K   w    \v  \D  0   0F
+ TXT            K  <v K  ; 8 \v  \D  0   0F         j     u    8 1
+ TXT   Y        K  (w K|   8 \D n* 8  t n- 8  uQn= 8  v     n     v
+ TXT            n     v m   N       u   o       n      M b S      }  \E
+ TXT                    nA    v nF   }u&n0    v n9    v  h    u
+ TXT                  Gy&- Mo    0E\           8 1      K  (w K|   8 \D
+ TXT   H        n* 8  u n- 8  uQn= 8  v K     K    8K  8  K  8  K
+ TXT            m    0u    {  C K    9      &   k            -  K   - K
+ TXT              -    %K   -  0         & 8 e   h  k$   \D K  <w    \D
+ TXT             0t      & 8 e h  k$   \D K  <w/ \D  0t    Qj     K| \
+ TXT   y        K  \  K    8K    (  k* W   \ 1          j     t k$ 8
+ TXT   \           8 0     0t 0PFXREF02E MODULE XXXXXXXX HAS NO ESD ITEM
+ TXT            S0PFXREF05E BLDL FAILED FOR MEMBER NAMEDFIND0PFXREF01T O
+ TXT   &        PEN FAILED FOR SYSLIB DDCARDPFXREF00I0PFXREF10E INVALID
+ TXT   h        HEX DIGIT0PFXREF03E INVALID LENGTHPFXREF RUN    whw w w
+ TXT   {        w wkwmwowqw w w w wswuwwwyw w wh
+ TXT   \         00  PFXRSCTR 07/11/75 13.33  }  \E         h   &  qj
+ TXT              t0    &  m        h   i   &       N       ~
+ TXT   &              &                  0   \   2&0         }  K 0 \
+ TXT   h                $    0 q     D    H N        8   \C j     A n
+ TXT   {           }n      }n     H  0   \     m =      h   i   &    =
+ TXT   8                 -      j     ~&j     ~hm &          - q  ~  0~
+ TXT            N & I{  ~ N & IH  ~ m &          - q  ~  0~&    m &  0~
+ TXT            m &          - q  ~  0~h    j     s        q    n     ~}
+ TXT                  ~  0s     K &      - h&   !       h-  i-  &- hk
+ TXT   Q             0~{   q   @$    0~            @   q  sQ h  &  @
+ TXT                 -      s   i-         qj     s-                  s
+ TXT                  s- 0s     n     syn     syn     syn     syn     sy
+ TXT             0s     K &      - h&   !       h-  i-  &- hk        0s
+ TXT            j     t K &      - h&   &-  !       h-  i-  &- h    k
+ TXT   0         - q    n     t      -t  0t     k    0t        q
+ TXT            n     t n     t K &                   t  0E\    &  &K &
+ TXT   -                 -  i-  $- q    $ -  b   q      j     t
+ TXT   q            N       tQ   h    t    & 0t-!   &    5     & 0t-
+ TXT   }               % 0 qi0   0   }uy    )\   \u   \   \     K
+ TXT                     0u          -   & %j     u j     u     m &
+ TXT                 - q  E\ 0u N & I{  u N & IH  u m &          - q  E\
+ TXT             0u     m &  0uh 0   0u} 0u     m &          - q  E\ 0u
+ TXT            K       uQu u u u\uSuUuWuYu u u u0u2u4u6u8u u uQ
+ TXT   \         00  PFXRCESD 07/11/75 13.33  }  \E     m   k  ;k  -K
+ TXT            I|  k0 < \D K  <I@   \D Ka <I   j       K   I}  Kd   <
+ TXT   &         \D k  -k0 < -      j       j      Y    m &          - q
+ TXT   h          j  0 qN & I{   \N & IH   \m &          - q  j  0
+ TXT   {        m &  0 Hm &          - q  j  0 Y -      -  Y-  0&- @j
+ TXT   8          j    @n &   l n &   l n &   l n &   l n &   l n &   l
+ TXT            n &   l n &   j  - q  n          0j     j     j o   K &
+ TXT               0l   K &  " 0l       -  8-      4    j     j\j     j0
+ TXT                ;  8&  8            j  0k       ;   &    0j}    ;
+ TXT   Q        &    0j}   4     \k}j     k{n$    k N       k N    "  k
+ TXT            K  +   0k       K  &    3           K     K  \       \B
+ TXT            3           K  -        j     l     ;       h   i
+ TXT            &   3           K  Z   0l       K  D  K  ,   0l K     K
+ TXT               8j     3           K  ,  K   IOK             K  Z
+ TXT   0        k* 7       -k* W \B j     l j     l  \C{ \D K| \   0lh
+ TXT            K &  ^ 0l       N &     l K &   &  } e   \o            }
+ TXT   -         0l0            l   j     l  0m n     k  \D  0k n     l{
+ TXT   q         \D     j     E\   Y    E\K  <I  \D o   k0 <     0k
+ TXT   }        n     m        q  j-     0l0          l8&    x       b
+ TXT               q  m n     m&   q  m          0m           m N      }
+ TXT            m  c 0m  \o  0m n     m n  h  m}n     mYK            \B\
+ TXT             \lh 0D k          q  j- 0l0    K          = \lh 0B\
+ TXT            K  h       k \lh 0B\    K          w \lh 0B\       0&  4
+ TXT   Y                n          4 &     Q          n           n
+ TXT            &   &           n          Y&       n         n      &
+ TXT               }          nq          n     &   &           n
+ TXT               4    j     n0 &  ;& M&&  j     n0j     nYj     n0
+ TXT   H        o               n      4 &       & M  H  0j       }  \E
+ TXT                 \F n     p    4    o   &  0&  4 0o&&   &  4
+ TXT            j     o     i           &   K     K    8        &   n
+ TXT              p n     p n     oyo   n     o{n     oHn     o}    o}
+ TXT   y        o       j     o\o       j     E\        h   i   ;  Q&  Q
+ TXT   \         0E\            p   &  Y&    0o&&   &    0o&    o
+ TXT            &   j     oyk    0oy    p&p p p p p!p*p;p-p p p p p|p%p>
+ TXT   &        p p p p&
+ TXT             00  PFXRCRLD 07/11/75 13.33  }  \E        %&      %   0
+ TXT            &  {-  0k       j      -k    0 -k        \C j     d n
+ TXT   H            n      -j     d&j     H      -   -  &- y    c-
+ TXT                            |   -  i-       -  $- q;- %&- H 0a0
+ TXT            j     a&j      8kV   0a j     a kA      j     a   a j
+ TXT              a k3   0a     k2   0a k4   0a k1      j     a k+   0a
+ TXT   y        kC  K    ?K    ? 0a     kQ   0a k-      n     a K     K
+ TXT   \         =  K       j     b 3           K  $   0b       K     K
+ TXT                K  [    j     b 3           K  o   0b       n -   b
+ TXT   &        n -   b n -   b n -   b n -   b n -   c n -   cq     -
+ TXT   h        i-  $- q;- %    &-   0b  |   -  i-  $- q;- %
+ TXT   {                 &      N - &   b        0b     ;        V  i\
+ TXT   8         =  &  & \e  0c n-    c 3           n     b\K  &       &
+ TXT             \B  0b8K            \B  \D              \  n     c  \D
+ TXT               0&  D    &  %   {&  0k    0E\j     d      t  $  @ - y
+ TXT            $- h&- y               n     d n     d n     d  0 -
+ TXT   Q        n -   cy    &    0b         &    0b         &    0b
+ TXT            nC    d   cYn-    cQK  ?   0b   K      0b       n-    d
+ TXT            K  ?   0b       K      0b       n-    d K  ?   0b
+ TXT            K      0b            - y$- @&- y 0c     n     d-k
+ TXT            n     dhn     dhn     dhn     dh 0 -    k    0     0
+ TXT   0                    dq     0&  4        e          4 &     Q
+ TXT                  dY          d}    &   &           d{         4
+ TXT   -         &  ;& M&&          e      4 0 \  }  \E      \F    4
+ TXT   q        e&  &  0&  4 0e &   &  4   H    K     K        &&      
+ TXT   }             0E\e ebedefehe e e e ekemeoeqe e e e eseue
+ TXT             00  PFXRAESD 07/11/75 13.33  }  \E     K   I|K    Bk0 <
+ TXT            k  -k  ; \D K  <I@   \D Ka <I   j       K   I}  Kd   <
+ TXT             \D k  -k0 <   0                   0&  4         \
+ TXT   y           4   QN        H              &   &            y
+ TXT   \           Y    j&                   0     Y&           j&
+ TXT                   }N       j           j   &   &           j
+ TXT   &           4    j     k n     j  \D     j     j8n$    jyN
+ TXT   h        jqN    "  jy    K  +   0j       K  &         \kq3
+ TXT   {            K  -    j     jY3           K  ,       - \B  \D  0k
+ TXT   8        K  D   0j0      n     k n  h  k&n     k K            \kq
+ TXT             \D  0k K          = \kq 0k     K  h       k \kq 0k
+ TXT            K          w \kq        j   n     k  \D  0k     3
+ TXT                K      0B   j     E\   Y    E\K  <I  \D o       k0 <
+ TXT   Q         0j     k\kSkUkWkYk k k k0k2k4k6k8k k k l l l k\
+ TXT             00  PFXRARLD 07/11/75 13.33  }  \E     K    nK  j Fk0 <
+ TXT            k  ;k  - \D j      -K  ( qK  h q 0 %    K  ( -K  h -k0 <
+ TXT            Kd   <   \D k0 <k  -   D 0b     j     a j      ykV   0
+ TXT            j     a kA      j      \   Yj      Qk3   0 0    k2   0 0
+ TXT   Y        k4   0 0k1      j     a k+   0a kC   0  kQ   0  k-
+ TXT            n     a K     K  =  K       j     ah3           K  $   0
+ TXT            ah      K     K     K  [    j     ah3           K  o
+ TXT            n-    b 3           n     a K  &       & \B  0a}K
+ TXT   H             \B  \D                 n     aY \D     i
+ TXT            &  %   {&  0k    0E\    nC    b   b n-    b K  ?   0a
+ TXT            K      0a       n-    b K  ?   0a       K      0a
+ TXT            n-    b K  ?   0a       K      0a                   b
+ TXT   y           D&  4        b0         4   QN       bQ          b{
+ TXT   \        &   &           b          4 0  b8b b b c c c c c c c c
+ TXT            c c c c c c c b8
+ TXT             00  PFXRPARM 07/11/75 13.33  }  \E       n K     K  { {
+ TXT   -        K     K|    k   K           &   K  %  K     K  <  K
+ TXT   q               Q       8   *    K| \              k       l8   <
+ TXT   }        N   m   j&N   m   j N   m{  j{N   mC  j}N   mG  j\N   m
+ TXT              j0      j     PFXREF91W UNRECOGNIZABLE PARM
+ TXT               \l            }k   n,    j       j  0k            y 0
+ TXT            k         ^  @    ^    \lQ -    j  - u }j       j     PF
+ TXT            XREF92W INVALID PAGESIZE, DEFAULT USED       \l    0j &-
+ TXT   S           0j o       ^    0j o       ^  @ 0j o       ;    0j o
+ TXT             S    ^    0j Kd <    j     k     N   n   k K  Q      N
+ TXT              n   k K     N   n   k K  Y  N   n   k K      -  &-  kg
+ TXT               &     {    &&          &   k                &      &
+ TXT   B          &   &   k   k            & Q        k  <    Kd       0
+ TXT              &0 -j     l   l     PFXREF90T SYSUT2 DID NOT OPEN
+ TXT              k    0   0F     j     l o       j     l&    j     l&K
+ TXT   |         <n    \D  0l    %K  -m K   -  0{  0   0m k1 %    k0  K
+ TXT   s          m4K   - K   -  0lq    &        - \  &  k\   \ &&  k
+ TXT              q l        %-  &k  "  &0 h 0F                 m
+ TXT            n     k       K  <    K   {           n     n'    n,
+ TXT   [        n-    n)    n0    m&<-         m -      m  0mh  m     PF
+ TXT   b        XREF93W NON DECIMAL IN PARM FIELD
+ TXT   y           0k     m     PFXREF94W PARM FIELD TOO LONG
+ TXT               0k LINES=L=KVTNOEPEPSNOEND            DAY=     23:59
+ TXT            PAGE  9999VOLUME=D06DB0  DSNAME=0PFXREF08T NO SYSIN DDCA
+ TXT   [        RD               h    n n n n n n n n n n[n<n+n&n n n n
+ TXT   b        n!n*n
+ TXT   h                                                SYSIN     &
+ TXT   {                                   &
+ TXT   8                                SYSUT2     &
+ TXT                       i
+ TXT                {   SYSLIB
+ TXT                                                    SYSPUNCH   &
+ TXT   Q                                   &
+ TXT                                    SYSIN2    &
+ TXT                       &
+ TXT                    SYSOUT     &                               &
+ TXT
+ TXT   0               X                    V-4+
+ TXT
+ TXT            N   0  =K       N   0  =K   0       e   e  &
+ RLD                   h                       m       q
+ RLD                   u       y               z               [   {
+ RLD                           E   Q           e   q
+ END                            15734AS100 050175192
+ ESD            YALEDATE        DATER           DATER370
+ ESD            DATERF          DATER
+ TXT             00  DATER VERSION II - JULY 2, 1975      }         j
+ TXT              j-      K   k          t  &               &   |&
+ TXT            ) l        &) l             ) l         ) l       kYK
+ TXT   y                    ) l      { h hk             $    } \ h     }
+ TXT   \            ! l       k  U  &\  !   +&          +&        K   k
+ TXT            q }      00  DATER370 VERSION II - JULY 2, 1975   }   2
+ TXT   &            j            ~        j        0j0   \  q l ;    {j
+ TXT   h        ;-l     ;-  ^ \   j  -  ^-\ )-l  \
+ TXT   {            $\l     j\   \l   j    0j   h \             ^ l   K
+ TXT   8          k  0 & 00  DATERF VERSION I - OCTOBER 8, 1975   }   1
+ TXT                 0j&           :   DDDD     MMMM
+ TXT
+ TXT                                    JAN FEB MAR APR MAY JUNEJULYAUG
+ TXT   Q        SEPTOCT NOV DEC SUN MON TUESWED THURFRI SAT
+ TXT                       Y          p
+ RLD
+ END                            15734AS100 050175281
+   SETSSI 00075248
+   NAME PFXREF(R)

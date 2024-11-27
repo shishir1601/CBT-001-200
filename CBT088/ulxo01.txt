@@ -1,0 +1,92 @@
+ ESD            ULXL01
+ TXT             00  ULXL01      05/29/85 08.59       }    0
+ TXT                   j          &}  & }  RK          0         0
+ TXT            N         .0       0      K              0 y    ISPLINK
+ TXT   y                &   K     K j  +  j K     K  D    [8       mK  m
+ TXT   \          &      HK  H  &      }K  }  &   o    0           mK  m
+ TXT             &&       K     K     &   o    0        ~  0 UN j  +  ~
+ TXT   &        K j?j  0   00  0~  00   0       ~         n     ~ j
+ TXT   h        ~ N   j?  ~ K j   m j  \  n \   ~ N j \   ~  \\  0~sK j
+ TXT   {        \ K j"    j K    8 0j k 0 K 0 0 &0    j?&     jY&
+ TXT   8                & o   & o & lU& lYP o o kLj K n: -  jYK j   K js
+ TXT              K j[  K j   j     t K j   k j       j K      0j &0
+ TXT            j?&     k &               ! lY& lY  k K      \     0o
+ TXT              k   N \     sSK 0 \ K  &\ [  &K   \ [   N o \   s K o
+ TXT   Q        \  00      \\   sw&0o ! o & o K j  gN j     s K j j?& l}
+ TXT            & lM 0v   n  0n<&0  o   P 0 0 K 0    \n-&\0  0n &0\ K 0
+ TXT               0nb&0\ K 0   K 0 j" 0n &0\ K 0   K 0 j? 0nq&0\ K 0
+ TXT             0n &0\ K 0   o \   n         o j   l K     K   n:  mq 0
+ TXT            m & 0 kg0  7  k l8  l8   &              k mqK mrmqo m
+ TXT   0        k l8  l8m0     &        o j     K m     m k   m   o
+ TXT            o   &    0l{&0      l &0lD   \m^&\lH    u P l{l{P o o
+ TXT   -              K m   k o     ! lU& lU  m k   mz  o   m   &    0o
+ TXT   q        &0      l &0l    \  &\l\    uF 0      n        \o    0o
+ TXT   }            o k       v N \     v K 0 \ K  &\ [  &K   \ [   N o
+ TXT            \   v K o \  00      \\  0u &0o ! o & o n l   v; 0 ;&0o
+ TXT            ! o & o n l    %.0 >K o 0  0u & l}& lM  v j j  hk l8  l8
+ TXT               &        m j m j  8j j   x2K       juK     K  D
+ TXT            [8K    :  j K     K  D    [8K    d  l K     K  D    [8K
+ TXT   Y              l K     K  D    [8K    q  l K     K  D    [8K    s
+ TXT              l K     K  D    [8K       l K     K  D    [8K       l
+ TXT            K     K  D    [8K    {  l K     K  D    [8K       l K
+ TXT              K  D    [8K    M  l K     K  D    [8K       l K     K
+ TXT   H         D    [8K    Y  l K     K  D    [8K    2  l K     K  D
+ TXT              [8K       laK     K  D    [8K       l K     K  D    [8
+ TXT            K       l.K     K  D    [8K       l K     K  D    [8K
+ TXT                l!K     K  D    [8K       l/K     K  D    [8K
+ TXT   y        l'K     K  D    [8K       l%K     K  D    [8K    <  l K
+ TXT   \            K  D    [8o j K j j?K l j K l n:k laK lbla  js  [hK
+ TXT            l   K l   K l  Bj j  \y  0lD    y K l  I 0y   l{  [hK l
+ TXT   &          K l     lM  [hK l     l}  [hK l     o   [hK l     o
+ TXT   h        [hK l       o   [hK l     l}< j ! lM  [hK l     o < j
+ TXT   {          o     [hK l     l   [hK l     l\  [hK l.    j   [hK l
+ TXT   8            lU  [hK l!    lY  [hK l/  j j   z K l   K l.  K l
+ TXT              j[ 0l      \[MK  &j  \    j     N  &    z      \\  \
+ TXT            z  0 &[0   0 &   \   0z    [hK l'  K ju +k j        mK
+ TXT             m &&       K     K     &   o    0    N ju +  z K j?ju 0
+ TXT   Q        ~  0     UnLj   z6nSj   z6 0zk -o      h -      nLj
+ TXT            nSj     kSj      -<- > f        N        +P     P     P
+ TXT                                   0  nLj     kLj      -<- > f
+ TXT              N      }  P     P     P                b       0 @j j
+ TXT                o j K    !  j K     K  D    [8K       j K     K  D
+ TXT   0          [8K    >  j K     K  D    [8K       j K     K  D    [8
+ TXT            K    b  j K     K  D    [8K       j K     K  D    [8K
+ TXT   -         o  j K     K  D    [8K       j[K     K  D    [8       m
+ TXT   q        K  m  &      QK  Q  &      \K  \  &       K    }&     j
+ TXT   }        K j  h&     j K j   &   o    0     0     k  o  -    !&
+ TXT            +& &K j     j          0j  \[MK  &-    &  [BK j  .    -
+ TXT              [BK j  (K  &-    &< j     -   & l   [BK j  .P  & &K
+ TXT            -      & 0j     l0  l2  l0     0j  \[MP  & &K   -      &
+ TXT            ! l    0j     l4  l6  l4     0j[ \[M       mK  m q&
+ TXT   Y         QK  Q  &   o    0     0       --            mK  m  &
+ TXT               Q&   o    0           mK  m y&      Q&       K     K
+ TXT                &   o    0        [  0zkn     K     k  | 0[ +  &o
+ TXT            3         n0    K     k  +  [  8+  &K            8+  &K
+ TXT   H           {       8K 0   3 0 0   0    00       [Mk 0       &
+ TXT               mK  m H&       &       &      D&   o    0     8K  u }
+ TXT              v| 0 wn l    :n lT   :K  u Q  v| 0 wK  u \  v| 0 wK  u
+ TXT             Y  v| 0 wK  u 0  v| 0 wK  u 8 0 wK  u   0 wK  u   0 w
+ TXT   y             mK  m &&       &      uK  u  &   o    0    n1 ~  ~
+ TXT   \         0zF   0   0                  ISPLINK   P            }}
+ TXT                   2q }  \}
+ TXT            CHAR    CONTROL ERRORS  RETURN  DISPLAY ULXP01
+ TXT            N/A     ULXP02  TBCREATEULXT01  NOWRITE REPLACE TBADD
+ TXT            TBTOP   TBDISPL ULXP03                  VDEFINE ULXM011A
+ TXT   Q        ULXM012AULXM012BULXM012CULXM012DULXM011CULXM011DULXM011E
+ TXT            PFX=                                                (ULX
+ TXT            V01)                                    (ULXV02)  (ULXOP
+ TXT            T)  (ULXUNIT) (ULXCYL)  (ULXTRK)  (ULXEXT)  (ULXLRGC) (U
+ TXT            LXLRGT) (ULXATOT) (ULXLTOT) (ULXTPC)  (ULXDSREC)(ULXDSRO
+ TXT   0        S)(ULXDSRIX)(ULXNOTE) (ULXDSMRC)(ULXSTAT) (ULXDDNAM)(ULX
+ TXT            CALLS)(ULXFIVES)(ULXTRACS)(ULXVTOC1)(ULXVTOC2)    (TBS)
+ TXT   -            (TBSEQ)   (TBEXT)   (TBCYL)   (TBTRA)   (TBTRK)   (T
+ TXT   q        BBEG)   (TBEND)         ULX               N/A    ERR
+ TXT   }        (TBEXT TBCYL TBTRA TBTRK TBBEG TBEND)
+ TXT   8        A               {               CVPL
+ TXT                                                     &  3350
+ TXT            3380     &  3330-1   &  3330        3330V       3340
+ TXT             &  2305-2      3375        ?
+ TXT   Q        (NULL)                                      0123456789AB
+ TXT            CDEF                                        DYNAM
+ TXT
+ END                            15741SC103 020185149

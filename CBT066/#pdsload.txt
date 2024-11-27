@@ -1,0 +1,160 @@
+//SBGOLOBM JOB ,'SAM GOLOB',CLASS=B,
+//    MSGCLASS=X,NOTIFY=&SYSUID
+//*
+//PDSLOAD   EXEC PGM=IEWL,
+//    PARM='NCAL,MAP,LIST,LET'
+//SYSUT1      DD UNIT=SYSDA,SPACE=(2048,(200,20))
+//SYSPRINT    DD SYSOUT=*
+//SYSLMOD     DD DISP=SHR,DSN=SBGOLOB.PDSLOAD.LOAD
+//SYSLIBX     DD *
+ ESD            PDSLOAD
+ TXT             00  PDSLOAD 04/03/12  ANY LRECL OUT:  1:F,V->F (TRUNC,E
+ TXT            XTEND)  2:F,V->V (TRUNC)   Y  }    0           &   %   0
+ TXT             &    U&}  & }  JK Mn  8 N   8 N   8 N  {k N.k L K M0
+ TXT   y        K }  BK }|} K }% D           }s n,     Q     0s       s
+ TXT   \        N        6o Li     0s N       ~ o Li     0s N  }    ~
+ TXT              .  K 0M0 \  n)    ~&K 0    00       ~  0s  \~ n)    s
+ TXT   &             0s    M  s N       ~     P J{J{   M }s n,    s
+ TXT   h            s  \  N       ~ON       ~O        s  \  N       ~O
+ TXT   {              s  \  N       s &\J{ 0s    O  s N  %    s n)    s
+ TXT   8        K }|       0s    Q  s N       s n)    s K }
+ TXT             H 0s   x       PDSLOAD: INVALID PARM FIELD         K^}
+ TXT              K^}Q %K J     }   }Q &J j Li  s K     j     t
+ TXT                s n     s j     s n     t n     s K     n     t n
+ TXT   Q          sSK     n     t n     t K &    0t x       PDSLOAD - IN
+ TXT            VALID DDNAME OVERRIDE PARAMETER IGNORED        -}&k -
+ TXT            m0  o         j     t: 0   0  N    \ =K     m     o Lh
+ TXT                  }   g t KdL L K L   K L    \  x       PDSLOAD WILL
+ TXT             RETRY WITH DDNAME=SYSIN      K           }   f u  &J
+ TXT   0        m0        j     u[   0u j{    k JEj     k JEo   N    \
+ TXT            u K     m     N    \ =K     m     o Lhj{      KdL L K L
+ TXT   -         _   &[ JD       <      }   f u n }[  u   m0  o
+ TXT   q        j &   v KdL L K L   K Lv&  \   0   0      j{    0   0 P
+ TXT   }              K     j     0 k JGN  \    0*j     0<j     0 .  S 0
+ TXT            0 j     0                =        j    =  }.      i
+ TXT            0 j     0         0        00         0
+ TXT                     = W  [' { W$ _;o Lhj{&         [ & h   i   & J
+ TXT              v   & Jm& J P       [ JF& J [ & & Ju    h   i   & J P
+ TXT   Y              [ JF& J [ & & J   J K     & Jy  J\K     & J KdL L
+ TXT            K M8    & } & }* \  m Li     7    & J     ! } & } KdL L
+ TXT             1[0JDN }|0   x o Lik K K+K K  \ |    wk      .  M    wk
+ TXT             T \w0 0K    | -L&P - -       P - -   w6  x       1  w
+ TXT   H          x    o - &0-  \-     x  --  1  w  0x K K 0   0     0
+ TXT               \  o - &0-  \-  -L&j -   x   -  0-      0  x i0    x
+ TXT             0x  0yM 0x n M8  x     ! } & } j Li  w      \J n JE  x
+ TXT              \ . JD   U }xy[\JDj Li  xyN \ }   xyK \  B    ! }*& }*
+ TXT   y         \xO 0w j Lh  w o LhKdL L K L   K Lr}| \   0w &\Jqq J  \
+ TXT   \        J  0  n JE  x2 3\ [\JD.0JDn JG  y   &         yd& J  0y
+ TXT              0 n JE  y   \      }y n     y        0y       &  }y
+ TXT   &        &         yd& J     -           [ JF. JF 8L    \Jq  j Lh
+ TXT   h          yu  J  \     7\   j Li      k   &   &/     7&   K J J
+ TXT   {          J [-JF&-J o Lh 0x  \  K M8  m Lhm Lhm Lh  & } & }*m"Li
+ TXT   8        KdL L K|L K  \  N }|    z  -L j -   x N -         - N
+ TXT                x K M8  P N N k0NJK NKNJK N   K N    -L-j -   x  0-
+ TXT            .0 M }zB  - N       zB         0  x m LiK M8   0 0zsK M8
+ TXT               0z  \ bn M0  z  \    z o Li 0 [ -L j -   x  0- .0 M }
+ TXT   Q        x   - N       x          0  x m LiK M8   0 0  K M8   0
+ TXT             \ bn M0     \      o Li -L- 0-  --  0 W  [HN -        0
+ TXT            [H -L j -   [H 0-  --  0 W    N -       K N -   N      \
+ TXT            [ o Lh 0w k JHn--     k JH 0  .0 Y  [H 0    [Hn--   [Hn-
+ TXT            -   [Hn--   [Hn--   [Hn--   [Hn--   [Hn--   [H 0  .0
+ TXT   0        [H 0 Q  [Hn--   [Hn--   [Hn--   [Hn--   [Hn--   [Hn--
+ TXT            [Hn--   [H 0    - ]   [H  - ]   [H  - ]   [H  - ]   [H
+ TXT   -        - ]   [H  - ]   [H  - ]   [H2 } - | }   N 2 } - | }   N
+ TXT   q        2 } - o }|N -       o }<K N }<2 } - o }|N -       o }<K
+ TXT   }        N }<2 } -   }<h     N K NM- K N - K NT-  0   0  K N - K
+ TXT            N -   - ]   [H  - ]   [H  - ]   [H  - ]   [H  - ]   [H
+ TXT            - ]   [H  - ]   [H2 } - | }   N 2 } - | }   N 2 } - o }|
+ TXT            N -      fo }<K N }<2 } - o }|N -      uo }<K N }<2 } -
+ TXT              }<h     N 2 } - | }   N 2 } - | }   N 2 } - | }   N K
+ TXT   Y        NM- K N - K NT-  0  o Lhj L  \[       L   [  0L   0 ]
+ TXT            [ n50   [   0 i     0 h     N j L= \[       L@  [  0L
+ TXT            0 ]   [ K NJ0 K NR0 K N0 2 } NJ| }   N 2 } NR| } & N
+ TXT            N   N   [uo N K N  02 } N| } & N   N   N   [Ho N K N  0
+ TXT   H         0w K M8  KdL L K L  2o }  \   0x &\J8 1   \  n0       \
+ TXT            \ i\   \0  \  n0       \\ i\  h\   \0 O 0 0      00   [0
+ TXT             \J8    }   M8  M0    n*      n?      n%      N        @
+ TXT                       +q }     J{    M80   [ n M8  [  0   0J{ =n0M8
+ TXT   y          [   N -  M  x   - N         N       x j Li  w  -L-j -
+ TXT   \          x  0- .0 M }x   - N       x          0  x K M8   0 0
+ TXT            K M8   0   \ bKdL L K L   K L M8 -M8o -  \ <&\J4 0 MK M8
+ TXT   &           0w &\J4j Lh   =  J  \     7\   j Li    m7Lhq J   . JF
+ TXT   h         } D  & n JG      &   k   &   &/     7&      \     7\
+ TXT   {          &   J [ JF& J   J [ JF& J KdL L n M8    j Li    k N j
+ TXT   8        Lh    k N N N }!    K N }!o Li  }     K N  0j N       }
+ TXT                o N K N } k N  0  j Li    k N P N N k N       & N &
+ TXT            N   N   N   }   N   N K N  [K N     }     o N K N  0K N
+ TXT             0& N & N k N  0  j Lh    k N K L   K L M8 -M8P - -
+ TXT   Q             0     ;   Y 0   0   0   0   0   0 [ 0    L   K
+ TXT                 0  K L  0 0    L   K          0  K L    0  K L    0
+ TXT              K L  m 0  K L    0  K L   k }  \   0  j N     o Li& }-
+ TXT             0} +0} K         }.k(      n       K      0      n
+ TXT              K    - 0 U   }K       j Li   Sm LiK    m \   0}*
+ TXT   0        KdL L   }-+0} K         }.k(      n       K      0
+ TXT            n       K    t \   \J4  KdL L K L    \   0   0    L
+ TXT   -         SN   } 9 N N  }  8 N   9 N      {       wKdN<N. \ \ 0
+ TXT   q        K N<   \ q  N<         7      N   qSN     N   KdN<N.k1N<
+ TXT   }        K N( [  N K         N K         N<   7    KdN<N.    N<
+ TXT             7    q N  0 b \   0}    -}&k - j Lh              j
+ TXT                 7  o         0 j 0    -  0  \0     0 j 0    b    j
+ TXT            0  \ b        0   j Lh    q J       j Lh              j
+ TXT                     7  o         0 j 0    M  0  \0     0 j 0    6
+ TXT   Y          j 0  \ 6        0   j Lh      }           j          7
+ TXT              o         0 j 0       0  \0     0 j 0    *    j 0  \ *
+ TXT                    0        & }}        2q }  \}     Mn    x
+ TXT            PDSLOAD WILL ABEND - WRITE I/O ERROR             0 F   8
+ TXT   H         D  K(Mr  o Li 0     8      e   e   e   NOT ADDED *** AL
+ TXT            READY EXISTS ***NOT STOWED *** STORAGE ERROR ***
+ TXT            SYSIN   SKIPPING FOR ./ ADD CARDREPLACEDRECORDS)ASISCTL(
+ TXT            SSI=    NOT STOWED *** I/O ERROR ***NOT STOWED *** DCB E
+ TXT   y        RROR ***    ,   ,   PAGE  ./ ADD NAME=  S(        UPDTE(
+ TXT   \                      66  NOT STOWED *** INVALID MEMBER NAME ***
+ TXT            MEMBER         NEWSPFNAME=IBMJCLCHECKADDENDUPALIASPDSLOA
+ TXT   &        DADDEDNOT STOWED *** DIRECTORY FULL ***NOT STOWED *** PD
+ TXT   h        SE ERROR *** - STATS FIXED)MODIFIED) --- PDSLOAD --- PDS
+ TXT   {         MEMBER RELOAD UTILITY ---    PDSLOAD TERMINATED - UNDEF
+ TXT   8        INED RECORD FORMAT NOT SUPPORTEDSYSUT1  MISSING; WILL TR
+ TXT            Y SYSIN      PDSLOAD TERMINATED - SYSUT2  MISSING OR UNU
+ TXT            SABLE    PDSLOAD TERMINATED - INPUT FILE LOGICAL RECORD
+ TXT            LENGTH LESS THAN 80     12345678901234567890123456789012
+ TXT   Q        3456789012345678901234567890123456789012345678
+ TXT                                            m   SYSPRINT   &
+ TXT
+ TXT                               USYSUT1
+ TXT
+ TXT   0           YSYSUT2             {
+ TXT
+ TXT   -
+ TXT   q
+ TXT   }
+ TXT
+ TXT
+ TXT                                                       ,
+ TXT
+ TXT   Y
+ TXT
+ TXT
+ TXT
+ TXT   H
+ TXT
+ TXT
+ TXT
+ TXT   y
+ TXT   \
+ TXT
+ TXT   &
+ TXT   h
+ TXT   {
+ TXT   8
+ TXT
+ RLD                   V       Z                               j
+ RLD                   1
+ END
+//LKED.SYSLIN  DD *
+ INCLUDE SYSLIBX
+ ORDER   PDSLOAD
+ SETSSI  CB484093
+ MODE    RMODE(24),AMODE(24)
+ ENTRY   PDSLOAD
+ ALIAS   PDSLOADW
+ NAME    PDSLOAD(R)

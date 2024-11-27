@@ -1,0 +1,40 @@
+ ESD            EXPAND         &
+ TXT             00! EXPAND  V1.R0   02 MAY 9NO PTF   (C) 1990 RICHARD A
+ TXT            . FOCHTMAN, JR.   LISLE, ILLINOIS   }  \} &\} &}\     q
+ TXT                   B   { &      P } }  \   -                 q
+ TXT   y             3  j    \ {o }  0  j      M[        0 wj }     K &
+ TXT   \          j }  \   e      }  0   8      P } }  0  K }   p{}  0
+ TXT             &&              -         m }  .  m.  o * }   }} q }  0
+ TXT   &              }  0     \     : \ -\                -0  f    i
+ TXT   h          q }  9                                fLfLfLfLfLfLfLfL
+ TXT   {        f4f4f4f4f4f4f4f4fDfDfDfDfDfDfDfD }iZif  hWhW Ui d d d d
+ TXT   8        d d d d d d d d d d d d d d d d d d d d d d d d d d d d
+ TXT            hrhrhKhKg g g g gUgUgUgU q w   BfCfCfCfCfCfCfCfC {i hdhd
+ TXT            g g g g e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1f3f3f3f3f3f3f3f3
+ TXT            gegegegehYhYiu bd9d9d9d9d9d9d9d9d9d9d9d9d9d9d9d9d9d9d9d9
+ TXT   Q        d9d9d9d9d9d9d9d9d9d9d9d9i iQhXhXg g g g gBgBgBgBi=  im
+ TXT            h'h'h h gFgFgFgFici hnhn  iJh h c0c0c0c0c0c0c0c0c0c0c0c0
+ TXT            c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0
+ TXT            c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0fOfOfOfO
+ TXT            fOfOfOfOfNfNfNfNfNfNfNfNfIfIfIfIfIfIfIfIf*f*f*f*f*f*f*f*
+ TXT   0        d d d d d d d d d d d d d d d d d d d d d d d d d d d d
+ TXT            d d d d hshs  i   i\hahahohohihi    ili fAfAfAfAfAfAfAfA
+ TXT   -        g g g g gMgMgMgMg7g7g7g7i   h&h&fSfSfSfSfSfSfSfSfRfRfRfR
+ TXT   q        fRfRfRfRf f f f f f f f i   h h g8g8g8g8f2f2f2f2f2f2f2f2
+ TXT   }                gPgPgPgPhVhV  i       i i i i i i i i i i i i i
+ TXT            i i i i fTfTfTfTfTfTfTfTh h hthti   hHhHE E E E E E E E
+ TXT            E E E E E E E E g6g6g6g6  i   i g g g g ih  h)h)g,g,g,g,
+ TXT            h.h.  i-fEfEfEfEfEfEfEfEg g g g h}h}    h(h(hGhGg5g5g5g5
+ TXT             k k k k | |                                     % % % %
+ TXT   Y         # #                                 ? ?
+ TXT               w > >                   o             w w w w     v v
+ TXT                             q q q q + + + +         -     x
+ TXT             j j                       |   [ < <
+ TXT   H         : :     _ _ _ _                 / / / /
+ TXT                     y y y y { { { {         0   4
+ TXT               W             b b b b     M           }   $ $
+ TXT             ! ! ;                   g g g g @ @     p p p p
+ TXT   y                 q "                       ] z z             [
+ TXT   \                                        ^ ^
+ TXT                                                         ~
+ END                            1566896201 020192205

@@ -1,0 +1,39 @@
+ ESD            DIVER          0                                        DIVE0001
+ TXT              }   &}   }            THIS USER IS PLAYING A GAME     DIVE0002
+ TXT                   &                   B    o        )   } &       -DIVE0003
+ TXT                 M                              o      n )!  Q     {DIVE0004
+ TXT   y               {       {     & {  g    -   & Y       } &       -DIVE0005
+ TXT   \                                            o        )!  Q     {DIVE0006
+ TXT              g  W - ~ &       &       -     \     &                DIVE0007
+ TXT   &                o        )   w {       {       {  g    -   &    DIVE0008
+ TXT   h           -   & U&      } &       -           {                DIVE0009
+ TXT   {                o      I )!  Q     {  g    }  q }    q  [k % q  DIVE0010
+ TXT   8           q  [k M q     q  [    q   q  [    q                  DIVE0011
+ TXT                                                                    DIVE0012
+ TXT                                                                    DIVE0013
+ TXT                                                                 &  DIVE0014
+ TXT   Q             + + + | | | & | | & | & & & & & & & &     1C  2    DIVE0015
+ TXT              E A| s A| N A& e B^ e B- e C? e C0 e D" e E  e F| e F&DIVE0016
+ TXT             e G^ e G- e H? e H0 e I" e [  e .| e .& e <^ e <- e (? DIVE0017
+ TXT            e (0 e +" e |  e &| e && e J^ e J- e K? e K0 e L" e M  eDIVE0018
+ TXT             N| e N& e O^ e O- e P? e P0 e Q" e R  e !| e !& e $^ e DIVE0019
+ TXT   0        $- e *? e *0 D )" s )" M  1 D2 P s P FB e FD e GK e GM eDIVE0020
+ TXT             HS e HU e  5   H< HO l  1 HO n HZ n HZ j I? F I7   I7 ODIVE0021
+ TXT   -         [" F .G   .G O <| F <P   <P O (^ F (X   (X O +% E s P GDIVE0022
+ TXT   q         P  +6 s O |@ e  e  e  e  &F  e  5 JF J< l  1 J< n JP n DIVE0023
+ TXT   }        JP n K^ F KX   KX O L? F L7   L7 O M" F NG   NG O O| F ODIVE0024
+ TXT            P   OP O P; E M PX D N Q> F Q8   Q8 O R' E M !H D N $( FDIVE0025
+ TXT             $R   $R O *) F *Z   *Z O  7   H/ F HV s I1 F I5 s .A F DIVE0026
+ TXT            .E s <J F <N s (/ F (V s +1 F +5 s &A F &E s JJ F JN s KDIVE0027
+ TXT            / F KV s L1 F L5 s NA F NE s OJ F ON s P/ F PV s Q1 F Q5DIVE0028
+ TXT   Y         s Q5 O !A F !E s !E O $J F $N s $N O */ F *V s *V O  6 DIVE0029
+ TXT             ,      ~  ,       3          n j      4 n j   3    j j DIVE0030
+ TXT             7   HV O I5 O .E O <N O (V O +5 O &E O JN O KV O L5 O NDIVE0031
+ TXT            E O ON O PV O  1   DW E s P s P s P s P s D5 E P s P s DDIVE0032
+ TXT   H        9 N E6 e E8 e E: e E@ e E= e F  e FF e FH e FI e  7   C-DIVE0033
+ TXT             E N CV E N D0 L e D5 e L F  e e FE e e GJ e GN e  1   GDIVE0034
+ TXT            F e GH e G[ e G< e G+ e G& e GO e GQ e GR e  5   RA R8 nDIVE0035
+ TXT             !J $H n $/ *Q n  1   P1 QY s QY N R8 e $H e *Q e  5    DIVE0036
+ TXT   y        *  ) n     [ n       n AJ 1E    )"                      DIVE0037
+ TXT   \                   6 ,                                          DIVE0038
+ END                            1566896201 020188146                    DIVE0039

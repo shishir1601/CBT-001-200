@@ -1,0 +1,9 @@
+ ESD            CLRSCRN        ZCLEAR           SHNCLR                  CLRS0001
+ ESD            SBMCLR                                                  CLRS0002
+ TXT             00  CLRSCRN  }   &}     } h&}         Q          M  Q QCLRS0003
+ TXT                 0   0        i    ;     - 0   0     0              CLRS0004
+ TXT               Y )   }      q }                                     CLRS0005
+ TXT   y                                                                CLRS0006
+ TXT   \                                                                CLRS0007
+ RLD                                                                    CLRS0008
+ END                            15741SC103 020181180                    CLRS0009

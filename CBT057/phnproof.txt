@@ -1,0 +1,112 @@
+PROC 0 DEBUG
+/*                                                               */
+/*  PHNPROOF - PRINT PROOF FROM PHONE TABLE                      */
+/*                                                               */
+CONTROL NOLIST NOMSG NOFLUSH PROMPT
+IF &DEBUG NE &STR() THEN +
+  CONTROL LIST MSG NOFLUSH PROMPT CONLIST SYMLIST
+ISPEXEC CONTROL ERRORS RETURN
+ISPEXEC DISPLAY PANEL(PHNPROOF)
+IF &LASTCC = 8 THEN +
+  DO
+    ISPEXEC  SETMSG MSG(PHN009T)
+    GOTO DONE
+  END
+ERROR +
+  DO
+    ISPEXEC SETMSG MSG(PHN009Y)
+    EXIT
+  END
+ISPEXEC  VGET (PHONORD PHONCOPY) ASIS
+/*                                                               */
+/*  CREATE SEQUENTIAL C271 FILE FROM PHONE TABLE                 */
+/*                                                               */
+ALLOC F(SYSUDUMP) DUMMY
+ALLOC F(SYSOUT) DUMMY
+ALLOC F(O271C) DA(&SYSUID..T271C) NEW SPACE(65 10) BLKSIZE(6160) REUSE UNIT(SYSDA) RELEASE CATALOG LRECL(80) RECFM(F B)
+ERROR OFF
+ISPEXEC SELECT PGM(PHONDUMP) NEWAPPL(PHN)
+SET &RC = &LASTCC
+ERROR +
+  DO
+    ISPEXEC SETMSG MSG(PHN009Y)
+    EXIT
+  END
+FREE F(SYSUDUMP SYSOUT O271C)
+/*                                                               */
+/*  SORT C271 BASED ON SORT OPTION                               */
+/*                                                               */
+ALLOC F(SYSUDUMP) DUMMY
+ALLOC F(SYSOUT) DUMMY
+ALLOC F(SYSIN) NEW SPACE(1 1) BLOCK(6160) BLKSIZE(6160) REUSE UNIT(SYSDA) RELEASE DELETE LRECL(80) RECFM(F B)
+ALLOC F(SORTIN) DA(&SYSUID..T271C) SHR REUSE DELETE
+OPENFILE SYSIN OUTPUT
+IF (&PHONORD = N) THEN +
+  DO
+    SET &SYSIN EQ &STR( SORT FIELDS=(20,40,CH,A,8,4,CH,A))
+  END
+IF (&PHONORD = E) THEN +
+  DO
+    SET &SYSIN EQ &STR( SORT FIELDS=(8,4,CH,A,20,40,CH,A))
+  END
+PUTFILE SYSIN
+CLOSFILE SYSIN
+ALLOC F(SORTOUT) DA(&SYSUID..T271CS) NEW SPACE(65 10) BLOCK(80) BLKSIZE(6160) REUSE UNIT(SYSDA) RELEASE CATALOG LRECL(80) RECFM(F B)
+$ SORT
+FREE F(SYSUDUMP SYSOUT SYSIN SORTIN SORTOUT)
+/*                                                               */
+/*  IEBPTPCH - PRINT PROOF                                       */
+/*                                                               */
+ALLOC F(SYSUDUMP) DUMMY
+ALLOC F(SYSPRINT) DUMMY REUSE
+ALLOC F(SYSUT1) DA(&SYSUID..T271CS) SHR REUSE DELETE
+ALLOC F(SYSUT2) SYSOUT(A) COPIES(&PHONCOPY) SPACE(10 10) REUSE BLOCK(6118) BLKSIZE(6118) LRECL(133) RECFM(F B M)
+ALLOC F(SYSIN) NEW SPACE(1 1) BLOCK(6160) BLKSIZE(6160) REUSE UNIT(SYSDA) RELEASE DELETE LRECL(80) RECFM(F B)
+OPENFILE SYSIN OUTPUT
+SET &SYSIN EQ &STR( PRINT  TYPORG=PS,CNTRL=2,MAXLINE=60,MAXFLDS=8)
+PUTFILE SYSIN
+SET &SYSIN EQ &STR( TITLE  ITEM=('DELUXE PHONE LIST PROOF                 ',45),          X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('&SYSDATE',124)                                                   )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR( TITLE  ITEM=('LOCATION',1),                                           X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('FIRST AID',13),                                         X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('EXTENSION',26),                                         X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('BUILDING',39),                                          X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('NAME/ROOM',51),                                         X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('EXCLUDE',95),                                           X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('BUDGET DEPT',106),                                      X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        ITEM=('SUPPRESS',121)                                                   )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR( RECORD FIELD=(4,1,,3),                                                X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(1,6,,17),                                               X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(4,8,,29),                                               X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(4,14,,41),                                              X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(40,20,,51),                                             X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(1,60,,98),                                              X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(4,61,,109),                                             X        )
+PUTFILE SYSIN
+SET &SYSIN EQ &STR(        FIELD=(1,65,,124)                                                       )
+PUTFILE SYSIN
+CLOSFILE SYSIN
+$ IEBPTPCH
+FREE F(SYSUDUMP SYSPRINT SYSUT1 SYSUT2 SYSIN)
+ISPEXEC  SETMSG MSG(PHN009W)
+DONE: +
+  SET &PHONCOPY = &STR( )
+  ISPEXEC  VPUT (PHONCOPY) ASIS
+  EXIT
+END

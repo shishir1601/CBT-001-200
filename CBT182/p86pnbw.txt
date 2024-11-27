@@ -1,0 +1,110 @@
+)ATTR DEFAULT(%+_)
+    % TYPE(TEXT) INTENS(HIGH) COLOR(WHITE) SKIP(ON)
+    [ TYPE(TEXT) INTENS(HIGH) COLOR(YELLOW)
+    + TYPE(TEXT) INTENS(LOW)  COLOR(TURQ) SKIP(ON)
+    ^ TYPE(OUTPUT) INTENS(LOW)  COLOR(TURQ)
+    _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT) COLOR(RED)
+    | TYPE(INPUT) INTENS(HIGH) CAPS(OFF)
+    @ TYPE(OUTPUT) INTENS(HIGH) COLOR(GREEN)
+    # TYPE(OUTPUT) INTENS(HIGH) COLOR(YELLOW)
+)BODY EXPAND(\\) WIDTH(&ZSCREENW)
++-\-\-[ISPMODE Session Display#Z+-\-\-
+%COMMAND ===>|ZCMD\ \                                         %SCROLL ===>_Z   +
+Enter an ISPF command, a PDS subcommand or a special control code:
+  %LA+Lista     %1+Suspend ISPF    %9+Swap panels   %R+Recall
+  %LV+Listv     %6+MEMLIST all     %F+Find          %X+Above/Below/All
+  %ML+Memlist   %7+Output log      %O+Options       %*+Memlist *
+%&PDSMSG  -\-\-
+)MODEL
+@Z
+)INIT
+   .NRET = ON
+   .HELP  = P86PN1@
+   .ZVARS = '(LOGNO ZSCBR PDSLN1W)'
+   &X = TRUNC(&PDSTNAME,7)
+   &LOGNO = .TRAIL
+)REINIT
+   .NRET = ON
+   REFRESH(*)
+)PROC
+   /* Start NRETRIEV code */
+   VGET (ZVERB)
+   .NRET = OFF
+   IF (&ZVERB = NRETRIEV)
+     .NRET = DSN
+     IF (&ZNRDS = YES)
+       IF (&ZNRVOL = ' ')
+         &ZCMD = 'C &ZNRODSN'
+       ELSE
+         &ZCMD = 'C &ZNRODSN VOL(&ZNRVOL)'
+       .MSG = ISRDS014
+     ELSE .MSG = ISRDS012
+   /* End NRETRIEV code */
+   /* Start RefList code */
+   VGET (ZRDSN ZRVOL) SHARED
+   IF (&ZRDSN ^= ' ')
+     VGET (ZREFVOLM) PROFILE
+     IF (&ZREFVOLM = 'ON')
+       &VOL1 = &ZRVOL
+     ELSE                                                  /* OW15849*/
+       &VOL1 = &Z                                          /* OW15849*/
+     IF (&VOL1 = ' ')
+       &ZCMD = 'C &ZRDSN'
+     ELSE
+       &ZCMD = 'C &ZRDSN VOL(&VOL1)'
+     &ZDSVOL = &VOL1
+     &ZRDSN = ' '
+     &ZRVOL = ' '
+     VPUT (ZRDSN ZRVOL) SHARED
+     VPUT (ZDSVOL) SHARED
+     VGET (ZELIST) PROFILE
+     IF (&ZELIST ^= 'EXECUTE') .MSG = ISRDS003
+   VGET (DSALSEL) SHARED
+   IF (&DSALSEL ^= ' ')
+     VGET (DSA1,DSA2,DSA6,DSA7) SHARED
+     IF (&DSA7 = ' ')
+       &ZCMD = 'C ''&DSA1..&DSA2..&DSA6'''
+     ELSE
+       &ZCMD = 'C ''&DSA1..&DSA2..&DSA6'';ML &DSA7'
+     &DSALSEL = ' '
+     VPUT (DSALSEL) SHARED
+     VGET (ZELIST) PROFILE
+     IF (&ZELIST ^= 'EXECUTE') .MSG = ISRDS003
+   /* End RefList code */
+ 
+   &PPRE = TRUNC(&ZCMD,3)
+   IF (&PPRE = 'c ''' OR           /* cHANGE ' command?     */
+       &PPRE = 'C ''')             /* Change ' command?     */
+     &PDSN = TRUNC(&ZCMD,2)
+     &PDSN = .TRAIL
+     &PFC = TRUNC(&PDSN,1)         /* If first character    */
+     IF (&PFC = '''')              /*   of DSN is "'" check */
+       &PREM = .TRAIL              /*   to see if last "'"  */
+       &PREM2 = TRUNC(&PREM,'''')  /*   is missing.         */
+       IF (&PREM2 = &PREM)         /* If last "'" missing   */
+         &ZCMD = '&ZCMD&PFC'       /*   add it to the end.  */
+ 
+   &PPRE = TRUNC(&ZCMD,4)
+   IF (&PPRE = 'ch ''' OR          /* ch-ANGE ' command?    */
+       &PPRE = 'CH ''')            /* CH-ange ' command?    */
+     &PDSN = TRUNC(&ZCMD,3)
+     &PDSN = .TRAIL
+     &PFC = TRUNC(&PDSN,1)         /* If first character    */
+     IF (&PFC = '''')              /*   of DSN is "'" check */
+       &PREM = .TRAIL              /*   to see if last "'"  */
+       &PREM2 = TRUNC(&PREM,'''')  /*   is missing.         */
+       IF (&PREM2 = &PREM)         /* If last "'" missing   */
+         &ZCMD = '&ZCMD&PFC'       /*   add it to the end.  */
+ 
+   &PPRE = TRUNC(&ZCMD,5)
+   IF (&PPRE = 'cha ''' OR         /* cha-NGE ' command?    */
+       &PPRE = 'CHA ''')           /* CHA-nge ' command?    */
+     &PDSN = TRUNC(&ZCMD,4)
+     &PDSN = .TRAIL
+     &PFC = TRUNC(&PDSN,1)         /* If first character    */
+     IF (&PFC = '''')              /*   of DSN is "'" check */
+       &PREM = .TRAIL              /*   to see if last "'"  */
+       &PREM2 = TRUNC(&PREM,'''')  /*   is missing.         */
+       IF (&PREM2 = &PREM)         /* If last "'" missing   */
+         &ZCMD = '&ZCMD&PFC'       /*   add it to the end.  */
+)END

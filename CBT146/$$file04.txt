@@ -1,0 +1,772 @@
+./       ADD   NAME=DYNALC
+ ESD            DYNALC         U                                        DYNA0001
+ TXT             00  DYNALC   }  {0*                                    DYNA0002
+ TXT   *        &   &     q.  j0    J|        K  \J@          K  \J@  j0DYNA0003
+ TXT   m            }     + K o K   K 3   K       J6 \J@          h     DYNA0004
+ TXT            K   K         K$ \J@        K  \J@      K'  Kf  JMK   KDDYNA0005
+ TXT                    n     J P           }4  J j K   J   JDn K   J   DYNA0006
+ TXT            J{& J   Ju      J>m K     J o K   Kz&0J   Km 0J         DYNA0007
+ TXT            IKJEFF18   0  &       q }     n     J       J=          DYNA0008
+ TXT              J   K                                        g       mDYNA0009
+ TXT   U               _   #                   ^   ~                    DYNA0010
+ TXT                                                                    DYNA0011
+ TXT                                                                    DYNA0012
+ TXT                                                                    DYNA0013
+ TXT   #                                                                DYNA0014
+ TXT   g                                                                DYNA0015
+ TXT   y               }   {   D                        FTXXF001   _   #DYNA0016
+ TXT   \                                                                DYNA0017
+ RLD                   %       M   Q       \   U   Y       0   4   8    DYNA0018
+ RLD                           y               Q       \                DYNA0019
+ END                            1566896201 020189151                    DYNA0020
+./       ADD   NAME=GUPI
+ ESD            GUPI           @PRSPCL          COMMON                  GUPI0001
+ ESD            DISKIO     0   @DYNALC                                  GUPI0002
+ TXT             00  GUPI   }     I    .      {          -     0! I  0  GUPI0003
+ TXT            q1}      \  j     { K   B                 {   {\N       GUPI0004
+ TXT            {@    . {   . F   {\N       {u. F   {\K          0{     GUPI0005
+ TXT   y        N I{    {{    N ID    {\             }{\n,    {\      {;GUPI0006
+ TXT   \           $  {    Y  j B   I  0C k   K  ]  k  $          BY    GUPI0007
+ TXT            & B k C   BY 0A         IKJPARS       I   C      -    A GUPI0008
+ TXT   &             - 0  A      -    A n     A o  $n     A o  $     -  GUPI0009
+ TXT   h          Aw 0C             A                g        A  7K -   GUPI0010
+ TXT   {           j  $  A\  B     AY 0     0AS )q                    GUPI0011
+ TXT   8                            {   SYSPRINT   &           b        GUPI0012
+ TXT                                    +SYSUT1                         GUPI0013
+ TXT                                +SYSIN                              GUPI0014
+ TXT                            +SYSUT2                                 GUPI0015
+ TXT   Q                                                                GUPI0016
+ TXT               -          SOURCE DSNAME        UPDATE DSNAME        GUPI0017
+ TXT            OUTPUT DSNAME     & SEQ8-    SEQ8-    NOSEQ8       STOR-GUPI0018
+ TXT   0            STOR-    NOSTOR           MARK n   d            SEQUGUPI0019
+ TXT            ENCE MARK                                               GUPI0020
+ TXT                  C&FILE NOT FOUND:           C&DISK ERROR ON FILE  GUPI0021
+ TXT   &                                 0A{ 0I K  9      &   K  qt     GUPI0022
+ TXT   h              t  0t%    C &  &       0  t  0t%    C &  <        GUPI0023
+ TXT   {          t  0t%    C &   o  $8     8       j  $  D   H     &   GUPI0024
+ TXT   8         -    H          &&  -     0t%    D &      0C  0IH  C   GUPI0025
+ TXT                 <&  -     0t%    F!N       I   D* }D;         &    GUPI0026
+ TXT             8        &    \H{    K  8  n     I n* 8  D       D ]  8GUPI0027
+ TXT              D   Dq 0I SDIR  E 8     j  $  DH8     K     K  9   \H{GUPI0028
+ TXT   Q         0E K      \H{ 0E K      \H{    n     E K  9  8      \G GUPI0029
+ TXT             \G     D  \G K      0E  \H{ 0I K     q   h             GUPI0030
+ TXT                  E i     E &   o   8            \G  \G@&-  nI 8  EdGUPI0031
+ TXT            o  $ \H{ 0E  \G@ \H{ 0E  0I  \G  \G&nD 8  D  \H{ 0EKK   GUPI0032
+ TXT              N       I  \H{ 0EKK            <&  -     0t%    F!N   GUPI0033
+ TXT   0            D          }F    8     \G o  $K     j  $  F . F K   GUPI0034
+ TXT            - &       H     &    0EO    &  -     0t%    C  0EO      GUPI0035
+ TXT   -         < 0t%  j  $  F  -   ?-   F         &  -     0t%    C  0GUPI0036
+ TXT   q        F  -      FD ?-                0F  \G     F          0t%GUPI0037
+ TXT   }                 & 0t%        F    Y   2    &      .            GUPI0038
+ TXT            q }   3     o0 |j  $  G K    9K             9       j  $GUPI0039
+ TXT              I o  $8       j  $  m" $j  $          K   - K -   &   GUPI0040
+ TXT             /  9         I &\    G  \      I  0G@  j{ $  G{j  $  G GUPI0041
+ TXT            N       I K     j  $  H j  $  GQ -   0G\  -  i    -  i  GUPI0042
+ TXT   Y          m  $K     j  $  H K         s   2      9j  $  H;   yj{GUPI0043
+ TXT             $  H     &  -     0t%    C    &&  -     0t%    H  0G  0GUPI0044
+ TXT            IH  C   o  $ 9           0H      0H         I K     &   GUPI0045
+ TXT                    K     &         Hq      H K     P      9        GUPI0046
+ TXT   H                    ~   &   n0   +      I   I   H o       2     GUPI0047
+ TXT                s   I      0I   I\     0I:  I4     0I K      0I     GUPI0048
+ TXT                     0A{ 0I 3     o0  3  y  o0     q     0I         GUPI0049
+ TXT             0I:P          0A{ &       & 0A{      I k & K+& & k*    GUPI0050
+ TXT   y           & 0A{ 0   0FS       8SEQ8STOR    MISSING CONTROL CARDGUPI0051
+ TXT   \        INVALID CONTROL CARDCONTROL CARD OUT OF ORDER, DISK-TO-DGUPI0052
+ TXT            ISK MODENO  MARK= ./     000FREE STORAGE EXHAUSTED, TRY GUPI0053
+ TXT   &        DISK-TO-DISK UPDATESEQUENCE NUMBER NOT FOUND            GUPI0054
+ TXT               0            &   &   &           q }    0   0   0    GUPI0055
+ TXT             0   0  &}          q }                                 GUPI0056
+ TXT   y                                                                GUPI0057
+ TXT   \                                                                GUPI0058
+ TXT                                                                    GUPI0059
+ TXT   &                                                                GUPI0060
+ TXT   h                                                                GUPI0061
+ TXT   {                                                                GUPI0062
+ TXT   8                                                                GUPI0063
+ TXT                                                                    GUPI0064
+ TXT                                                                    GUPI0065
+ TXT                                                                    GUPI0066
+ TXT   Q                                                                GUPI0067
+ TXT                                                                    GUPI0068
+ TXT                                                                    GUPI0069
+ TXT                        0123456789ABCDEF           0       &F  &    GUPI0070
+ TXT                    SYSDA   SEQUENCE ERROR:          TO             GUPI0071
+ TXT   0         00  DISKIO   }      \     /  &-E-  { khE%  A   B   A  \GUPI0072
+ TXT            B   B@    {       {wk E%  A   B   { k E%j E   {  \B   B@GUPI0073
+ TXT   -          {     n+    {   E< 0E        &        j     A  0    GUPI0074
+ TXT   q        {  0    A         P       {H    &   k        0  o       GUPI0075
+ TXT   }          0  \0       j 0  \{         0                    0  . GUPI0076
+ TXT            E   A;   }   0    q  -        Au       /    A       &   GUPI0077
+ TXT               0   0   0     }  q  -   - | }A  - |  Au     -   0    GUPI0078
+ TXT            P           Au     /     0  j{      j        2          GUPI0079
+ TXT                       0     -  !-  &-           0A      0AY        GUPI0080
+ TXT   Y        A         &   PG    K  -& K      2             2E<k   k GUPI0081
+ TXT              k     A   C     3         s kK  kZ  K   E k       &   GUPI0082
+ TXT            k   k  .k  |k   k  ^   |n+    B     K     k{  nU   ik   GUPI0083
+ TXT            nF   ik&           9K      9  n+0  b  CQ \  i\   C   C GUPI0084
+ TXT   H          DU \ Ai\   CH  C    ?    CH     2   -    &   n+    K GUPI0085
+ TXT              E K   DV  E kU  j{E   C   E kF  j E   C kV  $ t    |  GUPI0086
+ TXT            e      &      C* &E:  j{    C  -    C o       Cd - &  AuGUPI0087
+ TXT                j     C         C  &     0C        }C    -   &      GUPI0088
+ TXT                                  *                                 GUPI0089
+ TXT   -                                                                GUPI0090
+ RLD                   Z       0   8       Z       4               u    GUPI0091
+ RLD                       <           -                                GUPI0092
+ END                            1566896201 020189151                    GUPI0093
+./       ADD   NAME=KERMIT
+ ESD            KERMIT         %COMMON         =ERRTAB     0            KERMIT01
+ ESD            ERRMSGS         USNTRF     {    SET            a        KERMIT02
+ ESD            SHOW            STATUS     {   1DUMP                    KERMIT03
+ ESD            GIVTAB          GENCMD          CWDSET         8        KERMIT04
+ ESD            DSPACE     {    FSPEC           KHELP          b        KERMIT05
+ ESD            SUPFNC          DYNALC          TERMIO                  KERMIT06
+ ESD            KERMTGET   }    GETLIN     h   YSCRNIO         |        KERMIT07
+ ESD            SETMSG     \    DISKIO     {    SERVER         4        KERMIT08
+ ESD            SEND       8    RECEIV    ^     SPAR                    KERMIT09
+ ESD            SPARSET         RPAR            RPARSET    q            KERMIT10
+ ESD            ENCODE     Y    NPREAD         qDECODE                  KERMIT11
+ ESD            ERPACK    |H    SPACK     ,     RPACK     %             KERMIT12
+ ESD            CRCCLC    >8    RIO       ?q   YSIO                     KERMIT13
+ ESD            INTINI         qINBUF           OUTBUF                  KERMIT14
+ TXT             00  KERMIT   }     B           {          -     0! B< 0KERMIT15
+ TXT             mq1}      \t     o   KA 0  K    y   y&   k   kT  K     KERMIT16
+ TXT            K     K     K               {fK  a  K  j [K  s      &   KERMIT17
+ TXT   y           &   \Ad  &     &          0{      0{H        A &     KERMIT18
+ TXT   \        B  \Ad   \&  \! y &  }    k:       0z     A  0zd  K   y}KERMIT19
+ TXT             0z    0zm       0z   j     A          0z   q           KERMIT20
+ TXT   &           \t     &                   q }     B&     0z  0A &   KERMIT21
+ TXT   h        ! y &   ! y &   [ B|&   ! y &      &&             B &  DKERMIT22
+ TXT   {            &  M[  \      B       &   &  *&   [  \&  -&       & KERMIT23
+ TXT   8          [  \&  %[  \          &  h    &  d[   &  @    &  %    KERMIT24
+ TXT              [  \       i       9                                  KERMIT25
+ TXT                   8Unable to allocate buffers                      KERMIT26
+ TXT               }                 8            0 P  & &    nD        KERMIT27
+ TXT   y          nV   =&   &  &            y8        ;  m&  m     0z@  KERMIT28
+ TXT   \           6   0z      Oj       k  P  ~    >+  +            N   KERMIT29
+ TXT                     Z 0~ k  P 0 6k  Pn  N   6k  O   O 0  k  P 0 6k KERMIT30
+ TXT   &         P          y8]         ~  0  k  P    u  k         \   0KERMIT31
+ TXT   h         &   }~   &    \     |       0      ]     ~<n     ~     KERMIT32
+ TXT   {                   h  ~  0  ;0 q&0 qj     ~  0z     ~  2k+ NP   KERMIT33
+ TXT   8           0~ P     k  N   0z@    ~  2     0z     ~ j     ~Yk   KERMIT34
+ TXT            K  h - 0z*   0z    h Nk  N     h N 0z   k   K  h   8  q KERMIT35
+ TXT                 Rn     s n     s      -~  9     9  q      Rn     s&KERMIT36
+ TXT            n     s&n,    s       s&     -s  -&-      $   &-     -  KERMIT37
+ TXT   Q         9    ~6      s             y4     6n00  +n90         s KERMIT38
+ TXT              s |  H    2  H- ] z   ] y  +  ]    +]         n?-   u KERMIT39
+ TXT            K   -         n         s      0sW]     t ]     t   t   KERMIT40
+ TXT            t  1       0sW] y} =  -    X    N        0 m     q  t>& KERMIT41
+ TXT             m&   &              }t         q 0   q }  0      k  ]  KERMIT42
+ TXT   0           0z        0z   $0    t !0  &0         \   \  t !0yM&0KERMIT43
+ TXT               0tO \t  0tY 0   0tY   0 0tY   0tY     0z  0  &} m    KERMIT44
+ TXT   -            q }       n  P   0 P  m   P     o    0z   m7   9P   KERMIT45
+ TXT   q          o    0z   m7   9         ^           0z     k   K+    KERMIT46
+ TXT   }        n     uw  u      0u-     4    u     k        = 0v g u-  KERMIT47
+ TXT                 & 0z  0u      -         & 0z   K              \u0  KERMIT48
+ TXT                   0z    "   } \u0$   &  < 9            v   v       KERMIT49
+ TXT            K           +  HK 0             0       v   k-   a q  v KERMIT50
+ TXT             9 2K 0        0z            0z  2               | q iq KERMIT51
+ TXT   Y         d;    {vf; yM;  @        v      0vU             S 3    KERMIT52
+ TXT                  v{      v   ;          }vU     + ^          vM 3 9KERMIT53
+ TXT              }    0x k  Po    0w n  P  w k  P 0w k  P 0w k  Po     KERMIT54
+ TXT               0z K  Q P  }&  wH        } j{    wkm#           0z   KERMIT55
+ TXT   H          w@          n     w        }w  0wK 0y   w     +0 H 0z KERMIT56
+ TXT              o   j     w          0z o          0z     }&  & }& 0w KERMIT57
+ TXT            m#   \}           wYj    \wY 0z K      \s% 0w n*-   w   KERMIT58
+ TXT            }< \s} 0w         j     w K     o        0z     w  0w  0KERMIT59
+ TXT   y        z%    v  0v  0z     v  0v  0z     v  0v  0z     v  0v   KERMIT60
+ TXT   \        xb 0w k  P 0w            0z    \y    \y  l         &}& \KERMIT61
+ TXT               ;  w  &    }         k  P             0z       &     KERMIT62
+ TXT   &              j     x        0z    9  }&    & }& 9       0w  0w KERMIT63
+ TXT   h         \y K  P Q 0zh   0v  0z    0v  0z     v  0v K -  Y  y ! KERMIT64
+ TXT   {                            ~6 0w n?    w     o            0z   KERMIT65
+ TXT   8          w  0w   ~6    n?    y         0w          0w  10    ^KERMIT66
+ TXT                                                                    KERMIT67
+ TXT                              >8           {   {       Y  |H   0    KERMIT68
+ TXT                                          ^   ?q  %        q       8KERMIT69
+ TXT   Q                   \          ,            {           {   "  hKERMIT70
+ TXT            n  q  z}Kd    ! y\    k  < 0       \  &\     0zO 0    qKERMIT71
+ TXT             h  ."I2KER.LOGKER.REPLY'SYS1.KERMINI'KERMINI      h    KERMIT72
+ TXT            '                                                       KERMIT73
+ TXT   h         Kermit-TSO>                                            KERMIT74
+ TXT                                                                    KERMIT75
+ TXT                                V  T     X                    "4V   KERMIT76
+ TXT   Q                                    V                  ;   &  "4KERMIT77
+ TXT                    TT      +                   =           10 )"   KERMIT78
+ TXT                  "8                                                KERMIT79
+ TXT            LIST                      M               Invalid KermitKERMIT80
+ TXT             commandFile not foundTAKE file loopSpecify a TSO commanKERMIT81
+ TXT   H        d to issueIllegal system commandNo operands neededOne ofKERMIT82
+ TXT             the following:Error reading TAKE filePast maximum nestiKERMIT83
+ TXT            ng level for TAKE commandExtra operand0123456789ABCDEF  KERMIT84
+ TXT                                           !"#$%&'()*+,-./0123456789KERMIT85
+ TXT   y        :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_ abcdefghijklmnopqKERMIT86
+ TXT   \        rstuvwxyz{|}~                                  !"#$%&'()KERMIT87
+ TXT            *+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_ aKERMIT88
+ TXT   &        bcdefghijklmnopqrstuvwxyz{|}~        "                  KERMIT89
+ TXT   h                                                        *    @  KERMIT90
+ TXT   {                     ;          @  ^           -       /        KERMIT91
+ TXT   8         #     |,%_>?    '     =       :   $               )  # KERMIT92
+ TXT                          '[.<(+|&        *        !                KERMIT93
+ TXT            @                                                       KERMIT94
+ TXT                                    [.<(+|&         !$*);^-/        KERMIT95
+ TXT   Q        |,%_>?          :#@'="                                  KERMIT96
+ TXT                                                    [.<(+|&         KERMIT97
+ TXT            !$*);^-/        |,%_>?          :#@'=" abcdefghi       jKERMIT98
+ TXT            klmnopqr       ~stuvwxyz   [               ]  {abcdefghiKERMIT99
+ TXT                  }jklmnopqr      \stuvwxyz      0123456789        KERMIT00
+ TXT   0                                                                KERMIT01
+ TXT            No errors                                               KERMIT02
+ TXT   4                                                                KERMIT03
+ TXT            No file transfers yet                                   KERMIT04
+ TXT   8                                                                KERMIT05
+ TXT            Transfer cancelled                                      KERMIT06
+ TXT                                                                    KERMIT07
+ TXT            Invalid server command                                  KERMIT08
+ TXT                                                                    KERMIT09
+ TXT            Terminal I/O error                                      KERMIT10
+ TXT                                                                    KERMIT11
+ TXT            Bad packet count or chksum                              KERMIT12
+ TXT                                                                    KERMIT13
+ TXT            Invalid packet syntax                                   KERMIT14
+ TXT                                                                    KERMIT15
+ TXT            Invalid packet type                                     KERMIT16
+ TXT               S                                                    KERMIT17
+ TXT   S        Lost a packet                                           KERMIT18
+ TXT                                                                    KERMIT19
+ TXT            Micro sent a NAK                                        KERMIT20
+ TXT                                                                    KERMIT21
+ TXT            Micro aborted                                           KERMIT22
+ TXT                                                                    KERMIT23
+ TXT            Invalid file name                                       KERMIT24
+ TXT                                                                    KERMIT25
+ TXT            File not found                                          KERMIT26
+ TXT                                                                    KERMIT27
+ TXT            Disk or file is full                                    KERMIT28
+ TXT                                                                    KERMIT29
+ TXT            Disk I/O error                                          KERMIT30
+ TXT               (                                                    KERMIT31
+ TXT   (        Missing operand                                         KERMIT32
+ TXT               *                                                    KERMIT33
+ TXT   *        Illegal system command                                  KERMIT34
+ TXT                                                                    KERMIT35
+ TXT            Kermit command error                                    KERMIT36
+ TXT               f                                                    KERMIT37
+ TXT   f        No packet received                                      KERMIT38
+ TXT               q                                                    KERMIT39
+ TXT   q        Records truncated                                       KERMIT40
+ TXT               z                                                    KERMIT41
+ TXT   z        Bad communication line                                  KERMIT42
+ TXT   {         00  USNTRF   }      \t   {s  A  \vY  z       x=      z0KERMIT43
+ TXT   8              x=    k  P     0z     w o }@ 0w   D}     0z   D0  KERMIT44
+ TXT               0z n     {knT    {k  E      0z o }@  y3     0w j }@  KERMIT45
+ TXT            { m }@o }@         0wKj }@  {M     0z     Duj }@  {     KERMIT46
+ TXT             0z     {;       1     0     0z     A    0A           A KERMIT47
+ TXT   Q         )   0         0wK   & EXIT   & QUIT   & END     BYE    KERMIT48
+ TXT             DIRECTORY   8 ECHO     FINISH     GET     HELP     LOCAKERMIT49
+ TXT            L   O RECEIVE     REMOTE     SEND     SERVER   \ XECHO  KERMIT50
+ TXT               XTYPE     TSO   B CWD   } GIVE     HOST     KERMIT   KERMIT51
+ TXT            w SET     SHOW     SPACE   h STATUS     TAKE   w TDUMP  KERMIT52
+ TXT   0           TYPE      |   }{o 0w      0z     v  0C  \y    < 0z   KERMIT53
+ TXT             0C  \y      0z    0C   E&      C}       0 0z    \y   E KERMIT54
+ TXT   -              C    &     0z    \y  \y j-   \BQ         0z     w KERMIT55
+ TXT   q          ~w       H   H  uB  u k  N 0z@    C  0z<   0C      0z KERMIT56
+ TXT   }           0C          0z    \y  \y j-   \C          0z     w   KERMIT57
+ TXT               0z     C k  O 0z<   0C o   k     E       C}         0KERMIT58
+ TXT            z    \y   E&      C    -   0 0z    \y  \y  0z        P  KERMIT59
+ TXT            w i   ! z            0w m }@  ~6 0CU 2j }@ bo }@    &   KERMIT60
+ TXT                 0z     D    0D           D  )   0    &    2 &   |  KERMIT61
+ TXT   Y         }D     K   &       o   k;   0C   E      0w  \y  0z    0KERMIT62
+ TXT            C          0z    \y          0z    0w  0z    0w   ~6 0DuKERMIT63
+ TXT            n?    y  0x      0z     }&      tO          }  0z    0D KERMIT64
+ TXT            Kermit-TSO Version 4.0 (88/5/18)Enter ? for a list of vaKERMIT65
+ TXT   H        lid commandsHandshake is XON -- not neededText string wiKERMIT66
+ TXT            th ^X for cntl-XForeign filespec - TSO filespec -       KERMIT67
+ TXT             00  SET  }      \t kp}* \s% 0tFm     F< \s} 0tU 0tF    KERMIT68
+ TXT             OFF   q ON      OFF   u ON       }* 0tO     0tO 9   9  KERMIT69
+ TXT   y         Q TTY   Q SERIES1   Q GRAPHICS   Q FULLSCREEN  K   -  0KERMIT70
+ TXT   \        tO     CONTINUE   q HALT      DISCARD   q KEEP      MARKKERMIT71
+ TXT               q NONE   {  \I! 0A m   K   y} 0tOo   K   y}          KERMIT72
+ TXT   &         &       }A       E ]    }A-    A          0A           KERMIT73
+ TXT   h         0tO         0A         m    0t   E              0z     KERMIT74
+ TXT   {        t  0tO   1     0z    0tO 0z    0tY \s% 0A n?-   AK    AKKERMIT75
+ TXT   8        K   -  0tOk    0tO         0t      LRECL     LONGLINE   KERMIT76
+ TXT              T     TYPE   | BLKSIZE   : RECFM   f SPACE   o UNIT   KERMIT77
+ TXT            w VOLUME     TEXT     BINARY     D-BINARY     V-BINARY  KERMIT78
+ TXT            o   K   -  0tOm    0B%   O FOLD   O HALT   O TRUNCATE K KERMIT79
+ TXT   Q         a-  0tOK   -  0tO  I!   \ FIXED   \ VARIABLE   \ UNDEFIKERMIT80
+ TXT            NED   E    <  K    < 0tO  E       K      0tO  I!   q ON KERMIT81
+ TXT              u OFF     RAW   h I/O     SAVE  m            0z    0tOKERMIT82
+ TXT            o }/ 0C o{}/ 0C o }/ 0C o }/      C P }/  P   }/j }/  tOKERMIT83
+ TXT            j     C m         z\             0z                     KERMIT84
+ TXT   0           0z     t &   o   k  P 0tO \s% 0D n?-   D       D   {<KERMIT85
+ TXT             \s} 0tF      D   D%   q 0tO         0t   k     ~6 0tO  KERMIT86
+ TXT   -         /  E8     h         0F   D    o    tO   g 0tO \s% 0D n?KERMIT87
+ TXT   q        -   D     D            \s  0D  2         0t &    0tO &tOKERMIT88
+ TXT   }        ! z    c 0tO &tO! z    d 0tO &tO  y0   e 0tO &tO    ! z KERMIT89
+ TXT               f 0tO  y{  E    m }D     E  -   ;     0z    &tO! z   KERMIT90
+ TXT             b 0tO   {     0t      0E               E K      0tO    KERMIT91
+ TXT              E     E      0tO     0E;         0E    \s% 0E n?-   E KERMIT92
+ TXT                 \s  0E     E n      S$\yYK }*\ M }*  n }*  E k }*  KERMIT93
+ TXT   Y        }* 2 0  K    \k<0       ! yM  v  |       0t    \s% 0F n?KERMIT94
+ TXT            -   E8       }F  a 0   0E     y3 j f 2 00  SHOW   }  0z%KERMIT95
+ TXT                 \t     & } kj}* \s% 0G\  F  \s} 0tU 0tF     ATOE   KERMIT96
+ TXT              ETOA     FILE-TYPE   k TATOE   ! TETOA   : RECFM     LKERMIT97
+ TXT   H        RECL     ALL     TABS-EXPAND     EOF   & DEBUG     BLOCKKERMIT98
+ TXT            -CHECK   d 8-BIT-QUOTE     PROMPT     LINE     CONTROLLEKERMIT99
+ TXT            R   { HANDSHAKE     PARITY     WARNING   S ATTRIBUTES   KERMIT00
+ TXT              SYSCMD   2 TTABLE     DELAY     APPEND     INCOMPLETE KERMIT01
+ TXT   y            TEST     DELIM     PREFIX     TIMER     FILE   ! MARKERMIT02
+ TXT   \        GIN     FOREIGN   | RETRY     TAKE   : RECEIVE     SEND KERMIT03
+ TXT            o }-nj}*  F   F np}*  {  \  o    &       \       \  o   KERMIT04
+ TXT   &        np}*  C  \  o   K }/   -C    =               \   0tO   qKERMIT05
+ TXT   h         \   0CM   0     \   0A          \ b 0A   {> -   \ m    KERMIT06
+ TXT   {               \   0tO  {P \  o    \  o    \  o  j \  o    \  o KERMIT07
+ TXT   8               \   0tO \  o     {A \  o    \  o        \ = 0A   KERMIT08
+ TXT             k     \ b 0A  \  o     Ibnp}*  I   A  \I   IP \I    d \KERMIT09
+ TXT            I      \I      \I    \I& &   \    I     }   j }-     \s%KERMIT10
+ TXT             0   k   \s} 0tU   \u  0tU     TYPE     LONGLINE     LREKERMIT11
+ TXT   Q        CL   | BLKSIZE   : RECFM   f SPACE   o UNIT   w VOLUME  KERMIT12
+ TXT                LEFT   F RIGHT      END-OF-LINE     END-OF-PACKET   KERMIT13
+ TXT              EOL     PACKET-SIZE     PAD-CHAR     PADDING     QUOTEKERMIT14
+ TXT               b START-OF-PACKET     TIMEOUT    O ECHO     ERROR-ACTKERMIT15
+ TXT            ION      PREFIX     SUFFIX      INITIAL     PACKETS o{}-KERMIT16
+ TXT   0         \I        0}      1 }  & }    0z K     K   -     & }   KERMIT17
+ TXT            }  X         }B   B  -   \ m      B= - a \ m         -  KERMIT18
+ TXT   -           \   0D          \   0tO     \ = 0B          \   0tO  KERMIT19
+ TXT   q         <     \ b 0B          \ b 0B0 0     u \   0tO   y \   0KERMIT20
+ TXT   }        tO 0   \  o     {  \  o    0           \   0tO   }     \KERMIT21
+ TXT               0tO 0     - \   0tO     \   0tO 0       k \   0DD    KERMIT22
+ TXT                         % \   0DQ     A \   0D      ;     \   0Du eKERMIT23
+ TXT             o \   0D      m \   0tO     r \   0Dmj }-    q }  S    KERMIT24
+ TXT              -        X        }* \ sk,0      f p  v   - n      b UKERMIT25
+ TXT   Y           0 8     4   $k 0  0  k,0      0         1   0z k    0KERMIT26
+ TXT                 $        v      & H 0 4K })\ np}* /               2KERMIT27
+ TXT                j                 E       v  0 4K  C    {     j- C  KERMIT28
+ TXT             b   C     C 0 =      D  r q   h   0 h                v KERMIT29
+ TXT   H         0 4np}*  I!   a       u \s}       Z 0    {       I! d  KERMIT30
+ TXT             r m    }*     i   r   r        v  9  0  = 9  - &0}     KERMIT31
+ TXT            ]X #  ]X =  j }-       1   0z  0tO 0    }      *        KERMIT32
+ TXT              [            0z  0   0 *   8y3   0K 0 -   0  = 7K 0   KERMIT33
+ TXT   y             2                                                  KERMIT34
+ TXT            Bad lineLine delimiter: one char or noneTabs out of sequKERMIT35
+ TXT   Y        ence      I  is Operand must be 20-94 for SEND6 Operand KERMIT36
+ TXT            must be of length     Too many tabsDEBUG errorMust be ONKERMIT37
+ TXT            , OFF, or a characterOne char with ASCII value 33-62 or KERMIT38
+ TXT            96-126Type 0 long packets specified     -               KERMIT39
+ TXT   {         00  STATUS   }      \t n  P }{ n  P  { n     { K   E   KERMIT40
+ TXT   8                v[ |    {% 0    v     K 0 E   { K 0 0     v    mKERMIT41
+ TXT              {w  E   A       {w  Es  A K   E  0      q     AM  v  |KERMIT42
+ TXT             q  {U 0    v K 0 E       v       v> | }{UK   Ev 0    v KERMIT43
+ TXT              v  | u  A  0    v K 0 E       v  | y  A  0    v K 0 E KERMIT44
+ TXT   Q              v    & Pi&  !&z           h    0z n  P  A   n  R  KERMIT45
+ TXT            A    Ri     AY     0z n  P  A n  P  Af      Af     0z  0KERMIT46
+ TXT            tYK   EI 0      q  @  AMK 0 EO    q  d  AMK 0 ER        KERMIT47
+ TXT            v k 0   0       v  3        AS!&yM   0v -Unknown-Length KERMIT48
+ TXT            -Type   -Date   -Creator-Account-Area   -Passwrd-BlksizeKERMIT49
+ TXT   0        -Access -Coding -Disp   -Protect-Protect-Origin -Format KERMIT50
+ TXT             00  DUMP   }  0zh     \t  \s% 0Bo  Bs \s} 0tU  Bs \u  0KERMIT51
+ TXT   -        tU     ATOE     ETOA   m NAMES     TATOE     TETOA   &  KERMIT52
+ TXT   q         ?    B0  EU     0z  0tO           0z   K 0 E      |&   KERMIT53
+ TXT   }        v K 0 E         &   C i   ! z           K 0 E*K 0    30 KERMIT54
+ TXT              v !&z  -B0 0tO     0C      0C      0C              -  KERMIT55
+ TXT                    3d          k       g Ch         0z g Cd 0tO 00 KERMIT56
+ TXT             GIVTAB   }  0zh     \t  \s% 0CU  C0 \s} 0tU  C0 \u  0tUKERMIT57
+ TXT               Q ATOE   \ ETOA   Y TATOE   4 TETOA   -   0D  -   0D KERMIT58
+ TXT   Y         -       0D  -         1  K } E-K }*    })k 0          1KERMIT59
+ TXT            }              0z     E k  P             0z     D & } q0KERMIT60
+ TXT            }     [ D         E & }<  $ }&  v k 0           v   }  2KERMIT61
+ TXT              } &  -&1       0z     D  0Do      }  0z     E         KERMIT62
+ TXT   H         0z  0tU      }  0z     D  0tO                          KERMIT63
+ TXT   Y        Last file used: Disk bytes/sec:  repeat packets sent -- KERMIT64
+ TXT            SET Unable to write file records truncated (k) files senKERMIT65
+ TXT            t last.pktsecOptimum packet size:  records foldedBytes/pKERMIT66
+ TXT            kt: S= R= requiring No files sent                       KERMIT67
+ TXT             00  GENCMD   }      \t         A          N    n  N  { KERMIT68
+ TXT   0                 0{  \s% 0tU          {=n  N  {%! z         K^  KERMIT69
+ TXT               ^        { $   &  <  ~w              {        6      KERMIT70
+ TXT   -                    u     k  P      A m   P     o     A<      zXKERMIT71
+ TXT   q             0z     Af&       &   &  }K  M   0z     A       A  0KERMIT72
+ TXT   }        z     A          0z   k  P 0A n     Ab  A< 0z<   0A     KERMIT73
+ TXT              zX             0z       o    2         0z    0Af     0KERMIT74
+ TXT            z            0z    0tO \s% 0tF  A  \s} 0tU 0tF   8 COPY KERMIT75
+ TXT                CWD     DIRECTORY     ERASE     HELP   M HOST     KEKERMIT76
+ TXT            RMIT     RENAME   0 SPACE     TYPE       0B    .  ~6 0tUKERMIT77
+ TXT   Y             0{      0B!       . 0B!                   \s% 0{   KERMIT78
+ TXT                 0{                                                 KERMIT79
+ TXT             00  CWDSET   }      \t   k    \s% 0{=n?-   {   -   N {HKERMIT80
+ TXT   -            {[$ yQ  { k.        {   {     y3                    KERMIT81
+ TXT   q             0z     { K  k   &   0tO  {      0t  00  DSPACE   } KERMIT82
+ TXT   }         0z      \t   {T     0t  0tO                            KERMIT83
+ TXT   0        ()Must be valid file prefixSPACE not implemented        KERMIT84
+ TXT             00  FSPEC  }    h \t   }  &h&    j }   C  aP       I   KERMIT85
+ TXT              k  P  {  5{  *    * j }   {      \ k 0    BF  j     {}KERMIT86
+ TXT                  {} 0     0v  0v  0{}m   m   k$   0{}k    0{} \s% 0KERMIT87
+ TXT   H        tOn?-   B     ] {  }{{               0tO \s% 0B n?-   B\KERMIT88
+ TXT            K }a- k  .k  ( 0    n'-   A     n'    A     A   B  0A*n'KERMIT89
+ TXT                A   B           A* \ k  n.    A   BBj }  \AO  B    0KERMIT90
+ TXT            A  \ I        E   B     A>  B  W /   }A=  B      }A   B KERMIT91
+ TXT   y        k  .      A         A  0yM  A     B  0A-  -     B   BB -KERMIT92
+ TXT   \            A     n)    A   B        0    AY  E  \  y3 W] y}  A KERMIT93
+ TXT              B K }<    }<      E     F n }   B n }   B     G N }<  KERMIT94
+ TXT   &          B   B o   k  .k  (j }   tOn'}a  tO             \H\  KERMIT95
+ TXT   h        tO$ yYN   z5  tON I     tOK   I  0tO -I     n     {\  tOKERMIT96
+ TXT   {          I      0B j }   k  .k  ( 0   0B8     8y3   2          KERMIT97
+ TXT   8          A    9  I      0B4  HS     0        \  0tY  j }   D{j KERMIT98
+ TXT            }   E j     tO &     0K }<    Ckn }   Cwj     tUP } }   KERMIT99
+ TXT                }<     0z     D & } K }     }"  }    /  C2  }   }   KERMIT00
+ TXT                Cf 9   0D  0D       }< 0z     D  9j     D   Ckk  .  KERMIT01
+ TXT   Q        }<   /      -   k  . /  C2n }   C\ - 0C2  }<K      / -D KERMIT02
+ TXT             /j     D[j }   D-     l     &D       }  0z     I       KERMIT03
+ TXT              K     &    0B4K     K   } K   }<o         }  0z    0tOKERMIT04
+ TXT                       0z   K 0 H8           0z     D    0Dm        KERMIT05
+ TXT              D  )   0       }D       N I     D  0D[   0 \u0  E n   KERMIT06
+ TXT   0          D K                   E k.& K &          0E   E     E KERMIT07
+ TXT            K      0E                   E n.    E      9          k KERMIT08
+ TXT   -         0 7 0C  X   k        E        I    E   k'\             KERMIT09
+ TXT   q             1 \n     Euk(\ K \         \   k)       n'    E k'KERMIT10
+ TXT   }        0      0C  &  n0-   n9-     B  \ 9       & 2############KERMIT11
+ TXT            #################################################### ###KERMIT12
+ TXT            #######.###############$*###-###########################KERMIT13
+ TXT            @####ABCDEFGHI#######JKLMNOPQR########STUVWXYZ##########KERMIT14
+ TXT            ############{ABCDEFGHI#######JKLMNOPQR########STUVWXYZ##KERMIT15
+ TXT   Y        ####0123456789######                                    KERMIT16
+ TXT                                                  [#<(+|&         !$KERMIT17
+ TXT            *);^#/        |,%_>?          :#@'=" abcdefghi       jklKERMIT18
+ TXT            mnopqr       ~stuvwxyz   [               ]  #ABCDEFGHI  KERMIT19
+ TXT   H            }JKLMNOPQR      \STUVWXYZ      0123456789          KERMIT20
+ TXT                                                                    KERMIT21
+ TXT                          [.<(+|&         !$#);^-/        |,%_>?    KERMIT22
+ TXT                  :#@'=" abcdefghi       jklmnopqr       ~stuvwxyz  KERMIT23
+ TXT   y         [               ]  {ABCDEFGHI      }JKLMNOPQR      \STKERMIT24
+ TXT   \        UVWXYZ      0123456789                                  KERMIT25
+ TXT              Enter foreign filespec exists.  Reply "OK" to overwritKERMIT26
+ TXT            e:OKInvalid DSN.TAKE$.$Missing DSNEnter DSN  File name cKERMIT27
+ TXT            ollision                                                KERMIT28
+ TXT             00  KHELP  }      \t  f \s% 0{   {   {  \s} 0{   {%    KERMIT29
+ TXT             0z  0tY] y}  tYq        -m        0z    0tY            KERMIT30
+ TXT   \            Not a valid subcommand                              KERMIT31
+ TXT             00  SUPFNC   }      \t   {6k  P    !        0 0    D\  KERMIT32
+ TXT             0E    0{[k  q 0tO      ]  0z     {d      K   yO  J k J&KERMIT33
+ TXT              J&  k J&k J   J&    ]   E    <     &E  -    J%  J&k J KERMIT34
+ TXT   y          J& 0E   k  <     \DY&\   0  j 1Q \{Q   Q   0{  0{    UKERMIT35
+ TXT   \            IKJSTCK   k  q 0tO  A  &D\&&  n  q  A  0ABn  q  ABk KERMIT36
+ TXT             <     \D &\   0  j 1Q \A    Q   0A  0A&        IKJSTCK KERMIT37
+ TXT   &                ]      0z     AB& J   J  &    J &  - 0  &1      KERMIT38
+ TXT   h         0z     Ayj     A k &  &     0A       J  0z   &&   0AB  KERMIT39
+ TXT   {        C k  q 0tO  C|j     A &   &-  q    - }C> - -v  \s% 0C>KaKERMIT40
+ TXT   8        } -         y3   {K }&    }&  }H&       K }    \   0   WKERMIT41
+ TXT            ] y}  C>nH    B j     B+K        f \s% 0B     !         KERMIT42
+ TXT            }  e q} k    h    }H  }- \Cb&   \}{&  o   m   o   o   KERMIT43
+ TXT            k    -   0}  \  &\0  \}{&\0  \ +&\0 o 0 k 0 o 0 m^0 k 0 KERMIT44
+ TXT   Q              BY \C  0C>& }D  }{        J   } K   E  &J&& J   J KERMIT45
+ TXT            k J K & E k J   J     }D   \C     }A  C-j     C-K   E  0KERMIT46
+ TXT                v k)0            0z  4k  P 0tY  A k  P 0t    -K   } KERMIT47
+ TXT                }           j              |        q }     C    {  KERMIT48
+ TXT               1  $0y\      }tU                C\  &      0tO  D   KERMIT49
+ TXT   0                tUk  < 0      &    Sk \    0y\ }tUK   y} 0tO  D&KERMIT50
+ TXT                  N zm    D     o  @  E  -  m    0AO  D < E &  H   HKERMIT51
+ TXT   -             ji      0tO  D    Hq  H \   \  )\E  0tY 0tO  0   q KERMIT52
+ TXT   q        }&   {   { }}  {   }}     }  { {}   \ &\}&  q }   K \   KERMIT53
+ TXT   Y         k                                          K999999Y    KERMIT54
+ TXT                                R(LOGOFF                            KERMIT55
+ TXT             00  TERMIO   }      \t     {+  {  0                    KERMIT56
+ TXT                                     -k  Uk    0tO  {!   - 0tO  {  0KERMIT57
+ TXT            tO  { n     { k             A nF    {   A  ) 0tOK  *  l KERMIT58
+ TXT   Q            tOk     j     {K      {K<&Ah&& H& Ad   H 0A    li   KERMIT59
+ TXT                   &            n  $  A     {8       0 - 0tY      k KERMIT60
+ TXT             &     0A  00                                           KERMIT61
+ TXT                                        KERMTGET                    KERMIT62
+ TXT                              &      *k    0tU  0                   KERMIT63
+ TXT   H                                                                KERMIT64
+ TXT   }         00  KERMTGET   }    {0-                                KERMIT65
+ TXT            &   &     q      &      k  &   *   - 0} a         }  )  KERMIT66
+ TXT              }  0y   }     &  -         0}                         KERMIT67
+ TXT   h         00  GETLIN   }      \t  a         ^    {&k  < 0      & KERMIT68
+ TXT   {           Tk \      0y\  {  &                &      }{         KERMIT69
+ TXT   8          k   k      }{b      { k   k        p }{  p   f   -  { KERMIT70
+ TXT            $-y        0{}       0{D     0{{  K   y}    &    0tO  - KERMIT71
+ TXT                                                                    KERMIT72
+ TXT             00  SCRNIO   }      \t   {&k  r   \i       i    ;   0{ KERMIT73
+ TXT   y                {   A!  {  ) 0tO  {@ 0{;        {   A!  {* )    KERMIT74
+ TXT   \          i    ; 0tO  {d 0tO  } K     K          r   r  {   k   KERMIT75
+ TXT            ka    A  ) 0tO  {s  y   {     {Q                        KERMIT76
+ TXT                                                                    KERMIT77
+ TXT              A &   o     { )ka    A<j     tYj     tY    kA      K KERMIT78
+ TXT                       0  &1       0z   j     A              0z    9KERMIT79
+ TXT             0tYq    ) 1$0y  9B                                     KERMIT80
+ TXT   Q         6                                                      KERMIT81
+ TXT   \         00  SETMSG   }      \t   A    {j     B               K KERMIT82
+ TXT             k  k       K     K        <&   kT        i    ;    { kSKERMIT83
+ TXT   &              P          0z-        B  0z-           0z-       0KERMIT84
+ TXT   h        z-  nU    {Fn     {FN BQ    { kG   0{     i      b ;    KERMIT85
+ TXT   {          ]        k          Bh      y3   &AY - <    &   &/  o KERMIT86
+ TXT   8          k    -  A  0A IKJGETL     &       &     A  0A&IKJPUTL KERMIT87
+ TXT                &    &B   B       A KERMTGET        t   Bu         0KERMIT88
+ TXT            A  00                                                   KERMIT89
+ TXT                                        KERMTGET                    KERMIT90
+ TXT   y                              t &    0tO  }             q }     KERMIT91
+ TXT   \        B nT    B n     B k   j     tOn     tU  B> 0B   B&      KERMIT92
+ TXT            B>    i    ;         0tO  B;       0tO 0tU  B      0t   KERMIT93
+ TXT   &               *    1C $                                        KERMIT94
+ TXT            .KER.BUFIDENTIFY failed.   }ATTACH failed.Kermit-TSO musKERMIT95
+ TXT            t be a command processor $$                             KERMIT96
+ TXT   {         00  DISKIO   }      \t      }    A4 &}  /    }    %P   KERMIT97
+ TXT   8            }   {>  D=  Em  D  \D  \H   E           {|&    0{   KERMIT98
+ TXT            A   D=k }   Em  {w \D k } j  |  { j     {wk }  \H   E k KERMIT99
+ TXT            }    |  C $ y\&  D  }  0    n },  D n }   {2      }     KERMIT00
+ TXT            }< }{2      {2      }   j     D  0tO  A  2      K       KERMIT01
+ TXT   Q        Em  D n     A j  |  A P                  0z     tU& }%  KERMIT02
+ TXT  [         }%         ^      }% 0z       tU \H  0tO  F       tOk   KERMIT03
+ TXT  [             P     j     A    0  o         0  \0       j 0  \AB  KERMIT04
+ TXT  [               0                    0tO& }%k }%  }%   0tO  B    }KERMIT05
+ TXT  [         tU 0    q  -          C     n  }  B nF    B       B L  {KERMIT06
+ TXT  [0         .N  { 8  B $ yY 0B         B L  {  N  { 8  B        /  KERMIT07
+ TXT  .           B>      &   n  }  Bb&      0tO 0   0tY  H    }tUq  -  KERMIT08
+ TXT  .-          C      -     Pk  P 0       1 P  tY   PP           C   KERMIT09
+ TXT  .q           /     0tO  C k  P    N       C P      0tU        A K KERMIT10
+ TXT  .}        }  j \ { \\ K  j\ K  k\        &C  &    K   &         CdKERMIT11
+ TXT  <         K     K              \ k 0   8y3    Co          k)      KERMIT12
+ TXT  <          0Co  C       Co    C K  j}        -m        0z    0tY  KERMIT13
+ TXT  <              0z   k 0  "     3LISTCAT DELETE  RENAME  COPY    j{KERMIT14
+ TXT  <               j        2j  |  D n      0D n    =n  ]      tU    KERMIT15
+ TXT  <Y                   0tU   % r l    D  a  N       D  h  $ yQK     KERMIT16
+ TXT  (          j q -     &   }D   &      0D    -  !-  &-           0D KERMIT17
+ TXT  (              0Dq        D   & } kh} k }    -          P     K  -KERMIT18
+ TXT  (         & K      0         @     2} k   k   k   n     E k   k   KERMIT19
+ TXT  (H        k   K     k     Bh        3           kK  kZ  k   k     KERMIT20
+ TXT  +         E &   k   K     k  ^            k{  nU    EbK    |k   nFKERMIT21
+ TXT  +             Ebk&  P     m9  P      9     \ \  i\    {   W     \KERMIT22
+ TXT  +          Ai\    }   {   ?     }     2i0  h0     0E\ 0EU        KERMIT23
+ TXT  +y          K|       &&   i0  h0   0F  0F        0tU  H k      dK KERMIT24
+ TXT  +\            m  5K  &     d   @       @   &    k  *   &  F  \Fb  KERMIT25
+ TXT  |          &   in*    k  *o  5    &        f     d  n  @  tU      KERMIT26
+ TXT  |&         }tUn.    F    \ @ 0    y3 \     0FD  |@    IKJEHCIR    KERMIT27
+ TXT  |h          tU       d  &    0tO     @  tO   @  k  * \F* 0 &  Em  KERMIT28
+ TXT  |{        tUj  |  tU    GH   \K    &k     D=  }  0      }   j     KERMIT29
+ TXT  |8        D & }%   d     k$     }%&  -     0z     Gw           b  KERMIT30
+ TXT  &         N       Gwj     G kA  K              -    - gfG    }G<k KERMIT31
+ TXT  &                 }% 0z      d  tU     0F}        F           GWo KERMIT32
+ TXT  &          5 0tO  A0K  &   0 &    Em  tOj  |  H n.&   tU 0tOn.&   KERMIT33
+ TXT  &Q        tU 0tO  BU            tU 0tO  G j  5  tUK    &j  5  H!o KERMIT34
+ TXT             5     0A  -     @          H    &      - nA-   H4   d  KERMIT35
+ TXT             }H  X  -         HS  H N  fy} }H       HY     f      H KERMIT36
+ TXT               \    HS  H .     H &-       0A N   \       K   - o  5KERMIT37
+ TXT             0tU   -    &   m   j  |  I o        (+  H1  i H   +K } KERMIT38
+ TXT   0          j  (  I k }= -      }    }I  -I           <-    <-  +-KERMIT39
+ TXT             HK         ;    \I  {Id -  &  dk  hn& i  Iqk  hK    >K KERMIT40
+ TXT   -           SK     P    %m9  P    %   >kU  j{ %  I     kF  j  %  KERMIT41
+ TXT   q        I kV     | '      N z     I N zm   =   &         - -    KERMIT42
+ TXT   }         &N   -           o         j  0k  PP     N        bN   KERMIT43
+ TXT                 bN        bk  PN        bn       k  P 0 bn      bk KERMIT44
+ TXT             Pk        &       q &    j{     Y -      o&       { - &KERMIT45
+ TXT              C     j                O &     0 Y       } Y   -   &  KERMIT46
+ TXT                                                                    KERMIT47
+ TXT            00000000            LVL(         &              L T     KERMIT48
+ TXT   0        IKJ                                                     KERMIT49
+ TXT             00  SERVER   }      \t   AO  E0 \vY     0z     Cuo   k KERMIT50
+ TXT             P  {;                .  {           @k   j     Cuo   K KERMIT51
+ TXT            }@  k   K  hyUK  Q P    K   }@ 0zd   0z    0z     ~mk  PKERMIT52
+ TXT   y         0{;K   }@P              0z        0z     Cu 0z<   0{;K KERMIT53
+ TXT   \          }@  u      }Aw                 0z     AfP        -   0KERMIT54
+ TXT             0z     Af 0z    0{;K   }@  u      }Awk  P            ~ KERMIT55
+ TXT   &                       %    .  +<  %               bK   }@k  P  KERMIT56
+ TXT   h           0z    0z         yU  {; 0Cuk  P 0AfK   }@  u   C  0y!KERMIT57
+ TXT   {        K   }@  u   C  0wYk  PK  Q P     0z   q       {; }~     KERMIT58
+ TXT   8            &   o    0z   n  P  {;K  P Q 0{;o     C  0Af 0{4  C{KERMIT59
+ TXT             &E      0AW  Bb    Bb    Bb    Bb    C  0Af  C<k  P 0z KERMIT60
+ TXT                Af 0AK  C       C< 0y           y P       C  0B     KERMIT61
+ TXT                j     B        0z     Af          B      0z   N   B KERMIT62
+ TXT   Q          B2k  P         0z     Af               0z   n  P  Af 0KERMIT63
+ TXT            AOk  P       - R      $ z  i  Aw       -  Aw 9       }AwKERMIT64
+ TXT                 0 }C* 0 0v  0v          0z    9k   K       ~     n<KERMIT65
+ TXT                C          0z        0z   K  P Qm        0z    0tYK KERMIT66
+ TXT              }@ 0CuKermit-TSO Server handles the following:  FunctiKERMIT67
+ TXT   0        on          Standard command --------          ---------KERMIT68
+ TXT            -------  Send a file       SEND file Retrieve a file   GKERMIT69
+ TXT   -        ET file Log off system    BYE or LOGOUT Exit from serverKERMIT70
+ TXT   q          FINISH Issue Kermit cmd  REMOTE KERMIT cmd Issue systeKERMIT71
+ TXT   }        m cmd  REMOTE HOST [CP| cmd List directory    REMOTE DIRKERMIT72
+ TXT            ECTORY file Type a file       REMOTE TYPE file Copy a fiKERMIT73
+ TXT            le       REMOTE COPY f1 f2 Rename a file     REMOTE RENAKERMIT74
+ TXT            ME f1 f2 Erase a file      REMOTE DELETE file Change disKERMIT75
+ TXT            k area  REMOTE CWD area Show disk space   REMOTE SPACE aKERMIT76
+ TXT   Y        rea                                                     KERMIT77
+ TXT   0           h                                                    KERMIT78
+ TXT   8         00  SEND   }      \t P  @ @     0z   &0  j     { P     KERMIT79
+ TXT  !         k } P           }&k  Rk   j     {%         0z     D   {@KERMIT80
+ TXT  !               ;|  ;|n!}   D kF Mj     {4     0z     D k } k  R &KERMIT81
+ TXT  !            |               0z     D &   K  M  K     K     n     KERMIT82
+ TXT  !Q        {4K   D0          v[j }   A>m"} K  h -j     A      0z   KERMIT83
+ TXT  $           Dh 0C      0z     Dhj     A          0z    0z*   0z   KERMIT84
+ TXT  $         k  N     0z   K  ]  K  h   \ [k  Nj     A=k  NP     j   KERMIT85
+ TXT  $           AU  uBn     A K   E     K9     9          v         D8KERMIT86
+ TXT  $           A\< z !   K     P         &     u      \ [K  C jm  CM KERMIT87
+ TXT  $0         C    C  &   |    B k!&  5    v  5 |       ^K & z     K KERMIT88
+ TXT  *         & E j     B K & D               ~ T *!D * V *|  *   B: AKERMIT89
+ TXT  *-        MJ  B: D%   B: V" k/& K &     &           & n     BOK & KERMIT90
+ TXT  *q        E 3d&   N   y}  BKk1& K & D\  &   n &   B k0&          0KERMIT91
+ TXT  *}           ^  0   &&    { k  N     \ [N   y}  C     n+    Com   KERMIT92
+ TXT  )          \  P  < <j     C2 0z     D k  N     \ [ 0}& 0C N    m }KERMIT93
+ TXT  )         C   v>   }C  0   }C- 0   0 m  C% 0 m&0   0   0}&N   yM  KERMIT94
+ TXT  )         C     n     Con!    C K }   k  PN   yQ  C       $ z    RKERMIT95
+ TXT  )           D  \D k! NP         k   n }   C k        \ [j     D  0KERMIT96
+ TXT  )Y        {@k    0z     D N   y}  D  0z     D j     C6  D  0D     KERMIT97
+ TXT  ;         D k  PN   y}  C  0C j }   D k  Pj     D  0Dhk  NP       KERMIT98
+ TXT  ;           k  Pn }   Dhk  P  D  \D j     Dh 0z   mG   0t:q   ^ }<KERMIT99
+ TXT  ;           D   ^ }     K }         < z !   $ yU    K    P  j     KERMIT00
+ TXT  ;H                 0z    9   :  :                                 KERMIT01
+ TXT  ;Y        Sending     A*!A#(  as "!B                              KERMIT02
+ TXT  ^          00  RECEIV   }      \t P  @ @P          0z   &0  n  O  KERMIT03
+ TXT  ^         { n  O  {  0zd    C K  h -n  O  { k    0z        @ 0z   KERMIT04
+ TXT  ^          0z     ~mK  ]  K  h   \ [ 0z     CQ     @m }&k  Rm   j KERMIT05
+ TXT  ^             {2  u                   K9             0z   n     {2KERMIT06
+ TXT  ^Y        K   D     !     v     j     A j     A          0z     C[KERMIT07
+ TXT  -         n     A K   D           v[P     m   P           D   A|  KERMIT08
+ TXT  -           &   < z !   K     P                  0z     C &       KERMIT09
+ TXT  -         &  }K  M  j     A nH a  A       A   z &    \    ~ P     KERMIT10
+ TXT  -H        k  Y  C  \ [      C0 0z     C   ~  0AH           0   \  KERMIT11
+ TXT  /           k  P    A                   $ z   C       -     C   ~ KERMIT12
+ TXT  /         ! / + /   /  \s  0C            0z     B* 0A   C4    kN  KERMIT13
+ TXT  /         $-yQK   -             $ z    Ro }&K   yQ  ~m 0AHN   yM  KERMIT14
+ TXT  /y        BW    n     BW         0z   j     B j     B          0z KERMIT15
+ TXT  /\          k  Po }& 0C       B8 0z     C          0z   k  P \Ck  KERMIT16
+ TXT            ~  \ [m    0{ j     C k     ~ k  Pj{}&  C:k  P 0C k  P 0KERMIT17
+ TXT   &        C     K  HD     +0 H 0z            0z    \Ck 0z      u  KERMIT18
+ TXT   h        t:n  P  C k  P 0t:q   ^ }<  C   ^ }     K }         < z KERMIT19
+ TXT   {        !   $ yU    K    P         |   |               |   |  - KERMIT20
+ TXT   8            ! /    |   |Collisn     File   Rcv as               KERMIT21
+ TXT             00  SPAR   }      \t      &     b e & -     \A2$ z   y{KERMIT22
+ TXT   -          {        m }{<   ;&    \A2$ z      \A2$ z    { \A2  y0KERMIT23
+ TXT   q           B \A2$ z    lN  l n  {kn  l  {ok  lK    l \A2 \s  0{ KERMIT24
+ TXT   }               o \A2n  q  {\] B   {H   q \AS 0{\n     {S]     {SKERMIT25
+ TXT                   \A2$ B  }A   y   A ]     A n     A          \A2 \KERMIT26
+ TXT            AS 0A ]     A n     A ]     A        \A2$ z     j     AkKERMIT27
+ TXT            K  C  j  C  A> \A2$ z    C 0A  \A2 \A2  $ z < y  \A2$ z KERMIT28
+ TXT               }Ak&    &   & m }A $&y nT    A  &yD }A  &yD$&yU      KERMIT29
+ TXT   Y        n     A  &n     AO & &&&  &&   0tY]  o  ]  p   0s   z f KERMIT30
+ TXT            A       z  =       00  SPARSET  }  0z      \t k   k   k KERMIT31
+ TXT              k  ] 0A                                               KERMIT32
+ TXT                                                                    KERMIT33
+ TXT             00  RPAR   }      \t o          & ?!&z        & r!&z   KERMIT34
+ TXT   y             &  !&z        & A &y0       & k!&z     K    pK     KERMIT35
+ TXT   \        n     {@k+  K     o   K     n     {qk       m  j & ; & %KERMIT36
+ TXT              { !&z     o  jk    & %nT    {M &yH }{M &yH  ) y !&z   KERMIT37
+ TXT   &          ! z            & j!&z     &       nF    A nT    A  0z-KERMIT38
+ TXT   h           0A  0z    0tY 00  RPARSET  }  0z      \t k  ]j     A KERMIT39
+ TXT   {        j     A K     K    qn     A K      0A                   KERMIT40
+ TXT   Y         00  ENCODE   }      \t  -             & <       a e  {+KERMIT41
+ TXT            j     A  0z     A  0{ n     {  Y   V  { N       {      ;KERMIT42
+ TXT               }{    3     8     Y    K     !\z  Z   r  j     { n   KERMIT43
+ TXT              { m"  K      r      n     { n"    {O  y0 0{ ]  p  { ] KERMIT44
+ TXT   H            { ]     {8K    p r       r   h   o  {  e  A P  < <  KERMIT45
+ TXT            $   &   $   &    0tY                                    KERMIT46
+ TXT             00  NPREAD   }      \t  -       -           & <       aKERMIT47
+ TXT   &         e  {< 0z     {  0{     { ]     {  h   e  { ]     { m   KERMIT48
+ TXT   h        K      r   h   -{   $   &     &    0tY                  KERMIT49
+ TXT             00  DECODE   }    & \t  ^   }tUj     B                 KERMIT50
+ TXT   Y            n     {*N       {*      $ z  h  k } n     {:N       KERMIT51
+ TXT            {: h  k } N  o    {w h  n     {wn^    {w        y0    O KERMIT52
+ TXT              } K }     }   j     AU    {    &  {  -     T-   yQ  {4KERMIT53
+ TXT              -   k  P \s  0tU \ Z&\        A    0z     tU r    j   KERMIT54
+ TXT   H          AUn }   A     !  y&  y 0AUj     AUn }   A n }   A|n  YKERMIT55
+ TXT  |           A    0z     tU r     0A j     A n }   A           A   KERMIT56
+ TXT  |                       A       A     h   i      -  A    -   j 0  KERMIT57
+ TXT  |         i0       0A j     AUn }   AUo    0B    -  A2K      r    KERMIT58
+ TXT  |y          K  Y}   {  h   e  { &    0tO                          KERMIT59
+ TXT  |H         00  ERPACK   }      \t n  P  tOn  P  tOk  NK        & PKERMIT60
+ TXT  ,         i&  !&z           j     tOj     {;k   &  <    K         KERMIT61
+ TXT  ,             u  0z@   0tY                                        KERMIT62
+ TXT  ,          00  SPACK  }      \t        h         ] l         m }{ KERMIT63
+ TXT  ,              r. { &   &  -K    n! z  q        ! z      m   N    KERMIT64
+ TXT  ,          ln     {        ]    )-y ! z      p!-z      o  h-   -y KERMIT65
+ TXT  ,0           -y8!-z      o       ?    {K       l &{H      n  ]  A KERMIT66
+ TXT  %           {2h     y    0A  & -     0z    "h0  !0z  6       7h0  KERMIT67
+ TXT  %-         0y8!0z  6        y8! z     K -    0z    0tY            KERMIT68
+ TXT  %          00  RPACK  }    & \t  0z&    B     q  d 7 {{ ;\yM   d \KERMIT69
+ TXT  %H         %   *k  O  yM  { n     tY    N  m   h    {> g  {  0A\  KERMIT70
+ TXT  _           K \         $ z   {        3   7  {        Om" O      KERMIT71
+ TXT  _               $ z   {   &      h  n \   A  8   7  { K \         KERMIT72
+ TXT  _         $ z   & < y       $ z   &         $ z   h-   -y    -y8  KERMIT73
+ TXT  _y          A\  &  h   r          {    ]    { &   &       A-      KERMIT74
+ TXT  _\             h   r    A[      $ z    h    n  ]  A   A h&   &y   KERMIT75
+ TXT  >          0A  ;   0z    |h0   3  A\      $ z  h   4h0   0y8 3  A\KERMIT76
+ TXT  >&              $ z  h    y8    B j     B k  P g  {    *K }     } KERMIT77
+ TXT  >h              N  m    B   N  k    B     }     }   nS    B  h  $ KERMIT78
+ TXT  >{        y     B N B-    B[k  O 0tYo   k  Pk  O 0tY              KERMIT79
+ TXT  >0        STOP                                                    KERMIT80
+ TXT  >8         00  CRCCLC   }      \t        |  h     y4  y4    {     KERMIT81
+ TXT  ?         {   h0   4 0{q        {  0tY   a   c   e   gd miv   F O KERMIT82
+ TXT  ?         X 7    i       [       A ! L % VZ=87                    KERMIT83
+ TXT  ?                                                                 KERMIT84
+ TXT  ?q         00  RIO  }    & \t kR}    * 0 Uk  UnT    { nF    {  &[ KERMIT85
+ TXT  ?}        j     {       {ynG    {          0z-    {          0z-  KERMIT86
+ TXT              {   {yk  P 0tU &  j     {  &      {y         0z     { KERMIT87
+ TXT             ?&-    {H     5  {{ \    {  0tO   0{K     hj     {\    KERMIT88
+ TXT                j    i f      K   }          X 8   3  A    \      &aKERMIT89
+ TXT                   0z     A j    i             0z    9         0z   KERMIT90
+ TXT   Y        m    9 00  SIO  }  0z&   & \t kS} k  Ok  U -  j     Aon KERMIT91
+ TXT              n     Ao       -  {    D    j     A    {     &  nG    KERMIT92
+ TXT            A   y  &       B          nT    B nF    B   &  H  z- & DKERMIT93
+ TXT            q & q  @ 8 {B ;\yM   @    {Hm          4    { nG    Bf  KERMIT94
+ TXT   H               4    { n     Bf    BbnT    BbnF    Bb      B  0z-KERMIT95
+ TXT                B          0z-    {   &0 U 0tO   M  &  Q 0  j     BuKERMIT96
+ TXT             0       \    z  & M 0A8        10   S/1 VTAM Error RecoKERMIT97
+ TXT            very                                                    KERMIT98
+ TXT             00  INTINI   }      \t k   j     A     A o    ^    {   KERMIT99
+ TXT                yU  {[ &{[    i     A-K          0z     A!          KERMIT00
+ TXT   0        { o   k  UnT    { nF    {      0z-         0z-    A   yQKERMIT01
+ TXT              A       {B         0z   nG    A j     {O  ~  0A       KERMIT02
+ TXT   -              . {U  y0  A    &     0z    &     0z      0z    0A KERMIT03
+ TXT   q        m"  j     A      0z nT    A nF    A  0z-       0z   K   KERMIT04
+ TXT   }          m    0tOm   k  P 0tU                                  KERMIT05
+ TXT   Y           %   v   G   v       v                10   Kermit-TSO.KERMIT06
+ TXT            ..10   Kermit-TSO ready to receive.                     KERMIT07
+ TXT                                           Please escape to local KeKERMIT08
+ TXT            rmit now to SEND the file(s).                          1KERMIT09
+ TXT   H        0   Kermit-TSO ready to send.                           KERMIT10
+ TXT                                        Please escape to local KermiKERMIT11
+ TXT            t now to RECEIVE the file(s).                       10  KERMIT12
+ TXT             Entering server mode.  Please escape to local Kermit noKERMIT13
+ TXT   y        w.                       To terminate the server use theKERMIT14
+ TXT   \         BYE or FINISH commands.                                KERMIT15
+ TXT             00  INBUF  }      \t j     t   &0  &0 <    j     { q   KERMIT16
+ TXT   &            A P     k   K                  }{-        &      0A KERMIT17
+ TXT   h           &  {: k    &j -     0z     A[q    0 {{ ;\yM        {}KERMIT18
+ TXT   {         k      yQ  { +  Ho   3    H         0A j     A    y  {YKERMIT19
+ TXT   8           }{Y     u$ yM }A    }A              0       \    nF MKERMIT20
+ TXT              A   n     A   A     k   k   ! yQ&  < 0tOo    0t  0y   KERMIT21
+ TXT            A     +0 H 0z            0z    0tU                      KERMIT22
+ TXT             00  OUTBUF   }      \t  j - }       &  {         yQ  { KERMIT23
+ TXT   H        2  H  o   |  H   k 0      {d    K  HA  0A j     {d r  { KERMIT24
+ TXT            k        0       \   o  {}  { nF M  {}          j     { KERMIT25
+ TXT             8y3   0{     !  u&  unH a  { k  P 0tU oq    9 {{ ;\yM  KERMIT26
+ TXT                  &  -&j       0z       A k  P]1 P  A     +0 H 0z   KERMIT27
+ TXT   y         0tY                                                    KERMIT28
+ TXT            Binary                                                  KERMIT29
+ RLD                                                   q                KERMIT30
+ RLD                   U           u   8               @   h            KERMIT31
+ RLD                               @                       }       \    KERMIT32
+ RLD                   d       Q       M               0   4       H    KERMIT33
+ RLD                                           m               D        KERMIT34
+ RLD                   {   Y               y               1   5   9    KERMIT35
+ RLD                                                                    KERMIT36
+ RLD                                           i   j   r   s            KERMIT37
+ RLD                   G   J       V               4                    KERMIT38
+ RLD                           [       /   |       "   ~   v       _    KERMIT39
+ RLD                   '   e   x           H   T   0                    KERMIT40
+ RLD                                           )           :   e   k    KERMIT41
+ RLD                   {   I       9               &       -   e       pKERMIT42
+ RLD                   v           C       N   V       7                KERMIT43
+ RLD                               ^   >       d       r   y           FKERMIT44
+ RLD                   }   R   U   0                   D   J       X   1KERMIT45
+ RLD                                               +   ;   ,       a   nKERMIT46
+ RLD                   s       ]   H   M   \                   %       "KERMIT47
+ RLD                   i           C               .       $   ^        KERMIT48
+ RLD                   ?               q   ~           {           \    KERMIT49
+ RLD                           4                                        KERMIT50
+ RLD                           H      |    Z           0               .KERMIT51
+ RLD                   |           $               )   /           _    KERMIT52
+ RLD                              !_  !   *.  *|  *   *       /   /   / KERMIT53
+ RLD                   R       Z       1   5                   &       YKERMIT54
+ RLD                   0   8                                            KERMIT55
+ END                            1566896201 020189151                    KERMIT56

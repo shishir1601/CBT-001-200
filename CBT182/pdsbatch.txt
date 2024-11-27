@@ -1,0 +1,68 @@
+//*
+//*  Some examples of running PDS in batch.
+//*
+//TSOBATCH EXEC  PGM=IKJEFT1A <--- terminate if non-zero return code
+//STEPLIB  DD  DSN=name.of.pds.loadlib,DISP=SHR
+//SYSTSPRT DD  SYSOUT=*
+//SYSTSIN  DD  *
+pds 'ad.logmod.mjcl.yearend'
+replace ye*af '/legdata/' +
+              '/legdata/data_loads/ccss_in/' asis nowrite
+replace ye*af '20.7.200.71' '192.168.64.33' nowrite
+ 
+condend errors    /* End PDS with rc=8 if any error message */
+change 'ad.file182.pds484'
+copy pdshelp 'ad.help'
+change 'ad.help'
+delete (pds86, pds, pdse)
+rename pdshelp pds86
+alias pds86 pds
+alias pds86 pdse
+condend off       /* Turn off conditional end processing    */
+ 
+change 'ad.file182.pds484'
+sublist (#mdsect, #pdsgen, #pdstbl, #spwrka, @:)
+attrib *
+ 
+sublist (  p86fu@p p86ll@p p86lo@p p86mn@p p86op@p)
+sublist (* p86opgr2 p86opmm p86os@p p86osmc p86oswh)
+xmit * to.tom outdsn(tom.conley)
+ 
+change 'load.alphapb1'
+if : created(01/01/00:01/05/00) then(sublist)
+attrib * short
+ 
+change cntl255
+fixpds expanddir(10)
+ 
+change 'dcdiii.r36.slib'
+sublist (dz3alibr, dz3alib1, dz3alib2, dz3libra)
+replace * 'PGM=LIBRARAN' 'PGM=AFOLIBR'   write
+replace dz3cntrl 'user.pds' 'DCDIII.CNTL' asis   write
+replace dz3step  'dcd.load.library' 'DCDIII.LOAD' asis   write
+ 
+change 'dcdiii.r36.cntl'
+sublist (tcomacl, tdcdcobo, tdcdjcl, tdcdacl)
+replace * 'MACC01.DCDIII.CNTL' 'DCDIII.CNTL'   write
+replace * 'MACC01.DCDIII.LOAD' 'DCDIII.LOAD'   write
+replace tcomacl  '//JBNAM    JOB  ...' +
+                 '//TCOMACL  JOB  ,DRK,MSGCLASS=R'   write
+replace tdcdcobo '//JBNAM    JOB     ' +
+                 '//TDCDCOBO JOB  ,DRK,MSGCLASS=R'   write
+replace tdcdjcl  '//JBNAM    JOB     ' +
+                 '//TDCDJCL  JOB  ,DRK,MSGCLASS=R'   write
+replace tdcdacl  '//JBNAM    JOB     ' +
+                 '//TDCDACL  JOB  ,DRK,MSGCLASS=R'   write
+ 
+change 'ad.file182.pds484'
+find p86: 'Members Updated Last Week' asis then(sublist
+rep * 'Members Updated Last Week' 'Members Updated Last 7 days' +
+  asis write
+rep * 'Members Updated Last Month' 'Members Updated Last 30 days' +
+  asis write
+rep * 'Members Updated Last Quarter' 'Members Updated Last 90 days' +
+  asis write
+rep * 'Members Updated Last Year' 'Members Updated Last 365 days' +
+  asis write
+ 
+end

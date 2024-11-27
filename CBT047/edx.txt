@@ -1,0 +1,1192 @@
+./       ADD   NAME=$INSTALL
+//TSGJCL   JOB T50000,LANE,
+//         NOTIFY=TSGJCL,MSGCLASS=X,CLASS=X
+// EXEC PGM=IEBCOPY
+//SYSPRINT DD  SYSOUT=*
+//DISTR    DD  DSN=DISTR,DISP=SHR         <==== MODIFY
+//ISPPLIB  DD  DSN=ISPPLIB,DISP=SHR       <==== MODIFY
+//ISPMLIB  DD  DSN=ISPMLIB,DISP=SHR       <==== MODIFY
+//ISPSLIB  DD  DSN=ISPSLIB,DISP=SHR       <==== MODIFY
+//ISPTLIB  DD  DSN=ISPTLIB,DISP=SHR       <==== MODIFY
+//SYSPROC  DD  DSN=SYSPROC,DISP=SHR       <==== MODIFY
+//SYSUT3   DD  UNIT=WORK,
+//             SPACE=(CYL,9)
+//SYSUT4   DD  UNIT=WORK,
+//             SPACE=(CYL,9)
+//SYSIN    DD   *
+          COPY OUTDD=ISPPLIB,INDD=DISTR
+          S M=BRDDSN ,BRDDSN))
+          S M=EDBRADD ,EDBRADD))
+          S M=EDBRDELT ,EDBRDELT))
+          S M=EDBRHELP ,EDBRHELP))
+          S M=EDBRINFO ,EDBRINFO))
+          S M=EDBRLINE ,EDBRLINE))
+          S M=EDBRLIST ,EDBRLIST))
+          S M=EDBRMODL ,EDBRMODL))
+          S M=EDBRPANL ,EDBRPANL))
+          S M=EDBRPRNT ,EDBRPRNT))
+          S M=EDDDSN ,EDDDSN))
+          S M=((ISR@PRIM,EDR@PRIM))
+          S M=ISRBROB
+          S M=ISRBROBF
+          S M=ISREDDE
+          S M=ISREFR01
+          COPY OUTDD=SYSPROC,INDD=DISTR
+          S M=CNAEBROW ,CNAEBROW))
+          S M=CNAEEDIT ,CNAEEDIT))
+          S M=EDX ,EDX))
+          COPY OUTDD=ISPTLIB,INDD=DISTR
+          S M=DSNTABLE ,DSNTABLE))
+          S M=EDXCMDS ,EDXCMDS))
+          COPY OUTDD=ISPTLIB,INDD=DISTR
+          S M=EDX00 ,EDX00))
+          S M=EDX01 ,EDX01))
+          COPY OUTDD=ISPTSIB,INDD=DISTR
+          S M=((EDBRSKEL,EDBRPRNT))
+./       ADD   NAME=BRDDSN
+)ATTR
+  ^ TYPE(INPUT) INTENS(NON)
+)BODY EXPAND([[)
+%[-[  &FUNC - ENTRY PANEL  [-[
+%COMMAND ===>_ZCMD                                                             +
+%
++ENTER PARTITIONED OR SEQUENTIAL DATA SET NAME
++   DATA SET NAME %===>_DSN
++   VOLUME SERIAL %===>_VOL   +  (if not cataloged)
++
+)INIT
+)PROC
+   IF (&ZCMD ^= ' ') .MSG = ISPZ001
+   VER (&DSN,NB,DSNAME)
+   VER (&VOL,NAME)
+)END
+./       ADD   NAME=CNAEBROW
+PROC 1   DSN VOLUME()
+SET FUNC = BROWSE
+IF &STR(&DSN) = &STR(*) THEN DO
+   ISPEXEC VGET (BRDSN BRMEM) PROFILE
+   IF &BRMEM = THEN SET DSN = &STR('&BRDSN')
+   ELSE SET DSN = &STR('&BRDSN(&BRMEM)')
+END
+SET &APOS = &STR(')
+ISPEXEC VGET (ZPREFIX)
+SET &LPR = &LENGTH(&ZPREFIX)
+IF &LENGTH(&DSN) < &LPR THEN SET &LPR = &LENGTH(&DSN)
+IF &SUBSTR(1,&DSN) ^= &APOS THEN DO
+   IF &SUBSTR(1:&LPR,&DSN) ^= &ZPREFIX THEN +
+   SET &DSN = &ZPREFIX..&DSN
+   SET &DSN = &STR(&APOS&DSN&APOS)
+END
+LOOP:+
+ISPEXEC CONTROL ERRORS RETURN
+ISPEXEC BROWSE DATASET(&DSN) VOLUME(&VOLUME)
+SET LCC = &LASTCC
+IF &LCC ^= 0 THEN DO
+   ISPEXEC DISPLAY PANEL(BRDDSN) MSG(&ZERRMSG) CURSOR(DSN)
+   IF &LASTCC = 0 THEN GOTO LOOP
+END
+ISPEXEC TBOPEN DSNTABLE WRITE
+SET &EDBRDSNM = &DSN
+SET &LPR = &LENGTH(&EDBRDSNM)
+SET &EDBRDSNM = &SUBSTR(2:&LPR-1,&EDBRDSNM)
+IF &SYSDSN('&EDBRDSNM') = &STR(OK) +
+THEN DO
+   ISPEXEC   TBSCAN DSNTABLE ARGLIST(EDBRDSNM)
+   IF &LASTCC = 8   THEN DO
+      SET &EDBRLSTA = &STR(** BROWSE     )
+      SET &EDBRLSTU = &STR(&SYSSDATE)
+      LISTDSI '&EDBRDSNM' NORECALL
+      SET &EDBRVOLS = &SYSVOLUME
+      ISPEXEC  TBADD DSNTABLE ORDER
+   END
+END
+ISPEXEC TBCLOSE DSNTABLE
+EXIT CODE(&LCC)
+./       ADD   NAME=CNAEEDIT
+PROC 1 DSN VOL() PASSWORD() MACRO() PROFILE()
+SET FUNC = EDIT
+IF &STR(&DSN) = &STR(*) THEN DO
+   ISPEXEC VGET (BRDSN BRMEM) PROFILE
+   IF &BRMEM = THEN SET DSN = &STR('&BRDSN')
+   ELSE SET DSN = &STR('&BRDSN(&BRMEM)')
+END
+SET &APOS = &STR(')
+ISPEXEC VGET (ZPREFIX)
+SET &LPR = &LENGTH(&ZPREFIX)
+IF &LENGTH(&DSN) < &LPR THEN SET &LPR = &LENGTH(&DSN)
+IF &SUBSTR(1,&DSN) ^= &APOS THEN DO
+   IF &SUBSTR(1:&LPR,&DSN) ^= &ZPREFIX THEN +
+   SET &DSN = &ZPREFIX..&DSN
+   SET &DSN = &STR(&APOS&DSN&APOS)
+END
+ISPEXEC SELECT PGM(EDREC)
+IF &LASTCC = 20 THEN EXIT
+LOOP: +
+ISPEXEC CONTROL ERRORS RETURN
+ISPEXEC EDIT DATASET(&DSN) +
+        VOLUME(&VOL) +
+        PASSWORD(&PASSWORD) +
+        MACRO(&MACRO) +
+        PROFILE(&PROFILE)
+SET LCC = &LASTCC
+IF &LCC > 4 THEN DO
+   ISPEXEC DISPLAY PANEL(EDDDSN) MSG(&ZERRMSG) +
+   CURSOR(DSN)
+   IF &LASTCC = 0 THEN GOTO LOOP
+END
+ISPEXEC TBOPEN DSNTABLE WRITE
+SET &EDBRDSNM = &DSN
+SET &LPR = &LENGTH(&EDBRDSNM)
+SET &EDBRDSNM = &SUBSTR(2:&LPR-1,&EDBRDSNM)
+IF &SYSDSN('&EDBRDSNM') = &STR(OK) THEN DO
+ISPEXEC TBSCAN DSNTABLE ARGLIST(EDBRDSNM)
+   IF &LASTCC = 8   THEN DO
+      SET &EDBRLSTA = &STR(** EDIT       )
+      SET &EDBRLSTU = &STR(&SYSSDATE)
+      LISTDSI '&EDBRDSNM' NORECALL
+      SET &EDBRVOLS = &SYSVOLUME
+      ISPEXEC  TBADD DSNTABLE ORDER
+   END
+END
+ISPEXEC TBCLOSE DSNTABLE
+EXIT CODE(&LCC)
+./       ADD   NAME=DSNTABLE
+  TIR:   & \DSNTABLE    4             g     i     TSGJCL                { EDBRDS
+NM        EDBRVOLS        EDBRLSTU        EDBRLSTA           &              HSM.
+EDITLOG  SUN001  89/05/08  ** BROWSE             &              HSM.HSMLOGY1  SU
+N001  89/05/08  ** BROWSE                           SYS1.SMP.OTABLES  SUNIPL  89
+/05/09  ** BROWSE                &              SYS2.PROCLIB  SUNIPL  89/04/05
+** BROWSE            &              SYS3.PROCLIB  SUN002  89/05/09  ** EDIT
+                        SYS3.SASV518.MACLIB  SUN003  89/03/29  ** BROWSE
+                    SYS3.SASV518.SRCLIB  SUN003  89/03/29  ** BROWSE
+                SYS3.SASV518.TMACLIB  SUN003  89/03/29  ** BROWSE            &
+            TSGJCL.A  TEST02  89/05/04  ** BROWSE                &
+TSGJCL.ACUM  TEST03  89/05/02  ** BROWSE             &              TSGJCL.CLIST
+S  TEST03  89/05/01  ** BROWSE                          TSGJCL.DTF.INSTALL  TEST
+02  89/04/03  ** EDIT                               TSGJCL.FILE001.DATA  TEST01
+ 89/04/07  ** BROWSE             &              TSGJCL.FILE088.PDS  TEST01  89/0
+4/07  ** BROWSE      &              TSGJCL.FILE137.PDS  TEST01  89/04/07  ** BRO
+WSE                     TSGJCL.FILE300.PDS  TEST02  89/05/08  ** EDIT
+     &              TSGJCL.FILE360.PDS  TEST01  89/04/07  ** EDIT        &
+        TSGJCL.FILE369.PDS  TEST01  89/04/07  ** BROWSE                     TSGJ
+CL.FILE424.PDS  TEST01  89/05/04  ** BROWSE              -   [       +  TSGJCL.F
+ILE424.PDS(UTILDRIV)  TEST01  89/05/04  ** EDIT              &              TSGJ
+CL.FILE430.PDS  TEST01  89/04/07  ** BROWSE      &              TSGJCL.FMIDS  PR
+OD07  89/05/05  ** BROWSE                           TSGJCL.ISPLINK.ASM  TEST01
+89/05/08  ** BROWSE                             TSGJCL.PUT.LIST2  TEST01  89/05/
+08  ** EDIT                  -   [       (  TSGJCL.SAS.SOURCE(CONTENTS)  TEST01
+ 89/04/04  ** EDIT               -   [          TSGJCL.SAS.SOURCE(MIKE)  TEST01
+ 89/03/30  ** EDIT                                  TSGJCL.SRCHFOR.LIST  TEST02
+ 89/05/08  ** BROWSE                            TSGJCL.SYSTEMS.CLIST  TEST02  89
+/05/05  ** EDIT              -   [       +  TSGJCL.SYSTEMS.CLIST(COMASM)  TEST02
+  89/05/05  ** EDIT              -   [       |  TSGJCL.SYSTEMS.CLIST(COMMENT)  T
+EST02  89/05/05  ** EDIT             -   [       [  TSGJCL.SYSTEMS.CLIST(RL)  TE
+ST02  89/04/05  ** EDIT                  &              TSGJCL.SYSTEMS.CNTL  TES
+T02  89/04/07  ** EDIT       -   [       |  TSGJCL.SYSTEMS.CNTL(BUILDMON)  TEST0
+2  89/03/29  ** EDIT             -   [       |  TSGJCL.SYSTEMS.CNTL(IEFACTRT)  T
+EST02  89/05/05  ** EDIT                            TSGJCL.SYSTEMS.NOCELL  TEST0
+1  89/05/04  ** BROWSE                          TSGJCL.TEMP.LIST  TEST03  89/05/
+04  ** BROWSE                               TSGJCL.TEMP.OBJ  TEST01  89/05/04  *
+* BROWSE              SIR:              AC  E(MIKE)  TEST01  89/03/30  ** EDIT
+                 -   [       <  TSGJCL.SAS.SOURCE(SYSLOG3)  TEST01  89/03/21  **
+ EDIT                -   [       [  TSGJCL.SAS.SOURCE(TLMS1)  TEST01  89/03/21
+** EDIT                                 TSGJCL.SASOUT.DATA  TEST02  89/03/21  **
+ BROWSE                             TSGJCL.SRCHFOR.LIST  TEST02  89/05/08  ** BR
+OWSE                            TSGJCL.SYSTEMS.ASM  TEST02  89/03/28  ** BROWSE
+                            TSGJCL.SYSTEMS.CLIST  TEST02  89/05/05  ** EDIT
+         -   [       +  TSGJCL.SYSTEMS.CLIST(COMASM)  TEST02  89/05/05  ** EDIT
+             -   [       |  TSGJCL.SYSTEMS.CLIST(COMMENT)  TEST02  89/05/05  **
+EDIT             -   [       [  TSGJCL.SYSTEMS.CLIST(RL)  TEST02  89/04/05  ** E
+DIT                  &              TSGJCL.SYSTEMS.CNTL  TEST02  89/04/07  ** ED
+IT       -   [       |  TSGJCL.SYSTEMS.CNTL(BUILDMON)  TEST02  89/03/29  ** EDIT
+             -   [       |  TSGJCL.SYSTEMS.CNTL(IEFACTRT)  TEST02  89/05/05  **
+EDIT             &              TSGJCL.SYSTEMS.MEMO  TEST02  89/03/21  ** EDIT
+                    TSGJCL.SYSTEMS.NOCELL  TEST01  89/05/04  ** BROWSE
+                TSGJCL.SYSTEMS.RMFIII  TEST02  89/03/28  ** EDIT
+            TSGJCL.TEMP.LIST  TEST03  89/05/04  ** BROWSE
+        TSGJCL.TEMP.OBJ  TEST01  89/05/04  ** BROWSE              SIR:        ST
+      AC  21  ** BROWSE              &              TSGJCL.SPF.ISPMLIB  TEST02
+89/02/17  ** EDIT        &              TSGJCL.SPF.ISPPLIB  TEST02  89/02/17  **
+ EDIT        &              TSGJCL.SYSLOG  SPARE9  89/02/20  ** BROWSE
+                TSGJCL.SYSTEMS.ASM  TEST02  89/03/28  ** BROWSE              &
+            TSGJCL.SYSTEMS.CLIST  TEST02  89/03/15  ** EDIT      -   [       [
+TSGJCL.SYSTEMS.CLIST(RL)  TEST02  89/04/05  ** EDIT                  &
+    TSGJCL.SYSTEMS.CNTL  TEST02  89/04/07  ** EDIT       -   [       |  TSGJCL.S
+YSTEMS.CNTL(BUILDMON)  TEST02  89/03/29  ** EDIT             &              TSGJ
+CL.SYSTEMS.MEMO  TEST02  89/03/21  ** EDIT                      TSGJCL.SYSTEMS.N
+OCELL  TEST02  89/02/07  ** EDIT                            TSGJCL.SYSTEMS.RMFII
+I  TEST02  89/03/28  ** EDIT          SIR:              AC  WSE       SIR:
+        AC  ILE182.PDS  TEST02  88/12/27  ** BROWSE      &              TSGJCL.F
+./       ADD   NAME=EDBRADD
+)ATTR DEFAULT(%+_)
+  $ TYPE(INPUT) INTENS(LOW) PAD(_)    /* input field padded with '_' */
+  ! TYPE(INPUT) INTENS(LOW) PAD(' ')  /* input field padded with ' ' */
+)BODY
+%--------------------  add a new dataset to your list --------------------------
+%COMMAND ===>_ZCMD                                                             +
+%
++   Enter information about the dataset you want to add:
++
++   Dataset Name  ......$EDBRDS                                       +
++   Volume Serial ......$EDBRVOLS+ (Optional)
++
++
+)INIT
+)PROC
+ VER (&EDBRDS,NONBLANK)
+ IF (&EDBRDS ^= &Z)
+     &TEMP = TRUNC (&EDBRDS,'''')
+     &TRAIL = .TRAIL
+     IF (&TRAIL = &Z)
+         &EDBRDSNM = '&ZPREFIX..&EDBRDS'
+     IF (&TRAIL ^= &Z)
+         &EDBRDSNM = TRUNC (&TRAIL,'''')
+)END
+./       ADD   NAME=EDBRDELT
+)ATTR DEFAULT(%+_)
+       %   TYPE(TEXT) INTENS(HIGH)
+       +   TYPE(TEXT) INTENS(LOW)
+       _   TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+  @   TYPE(OUTPUT)  INTENS(HIGH)
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%-/-/- delete your dataset?  -/-/-
+%Command ===>_ZCMD
++
++  Please confirm your request to delete this dataset.
++
++      Data Set Name%===>@EDBRDSNM
++          on Volume%===>@EDBRVOLS  +
++
++  Press%ENTER+to proceed with delete
++  Press%PF3+or enter the%END+command to cancel
++
+)INIT
+)PROC
+)END
+./       ADD   NAME=EDBRHELP
+)ATTR DEFAULT(%+_)
+      /*  % TYPE(TEXT) INTENS(HIGH)      defaults displayed for      */
+      /*  + TYPE(TEXT) INTENS(LOW)       information only            */
+      /*  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)             */
+)BODY  EXPAND(//)
+%Tutorial/-/- Personal Dataset Manager  -/-/Tutorial
+%SELECTION ===>_ZCMD                                                           +
+%
++
++
+   Personal Dataset Manager is an ISPF dialog that provides an improved
+   interface to%EDIT+and%BROWSE+as well as other dataset-oriented
+   functions. It does this by maintaining an ISPF table of the datasets
+   you are currently working with and providing command functions both
+   to maintain the list and to operate on the datasets.
+ 
+   The following topics are presented in sequence, or may be selected by
+   number:
+ 
+  %1+ LIST Commands
+  %2+ LINE Commands
+ 
+)PROC
+     &ZSEL = TRANS( &ZCMD
+                1,EDBRLIST
+                2,EDBRLINE
+                *,'?'
+                )
+)END
+./       ADD   NAME=EDBRINFO
+)ATTR DEFAULT(%+_)
+  $ TYPE(OUTPUT) INTENS(HIGH) PAD(' ')
+  ! TYPE(INPUT) INTENS(LOW) PAD(' ')  /* input field padded with ' ' */
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%-/-/- information about your dataset -/-/-
+%COMMAND ===>_ZCMD                                                             +
+%
++   Dataset Name  ......$EDBRDSNM                                              +
++   Volume Serial ......$EDBRVOLS+
++   Unit Name     ......$SYSUNIT+
++   Organization  ......$SYSDSORG+
++   Record Format ......$SYSRECFM+
++   Record Length ......$SYSLRECL+
++   Block Size    ......$EDBRBLK+
++   Allocation unit ....$SYSUNITS+
++   Allocated Space ....$SYSALLOC+     (in the above allocation units)
++   Used Space      ....$SYSUSED+      (in the above allocation units)
++   Primary Space   ....$EDBRPRIM+     (in the above allocation units)
++   Secondary Space ....$EDBRSECQ+     (in the above allocation units)
++   Extents         ....$EDBREXT+
++   Creation Date   ....$EDBRCDTE+
++   Last Used Date  ....$EDBREFDT+
++   Change Indicator....$EDBRUPDT+
++
++
+)INIT
+)PROC
+)END
+./       ADD   NAME=EDBRLINE
+)ATTR DEFAULT(%+_)
+      /*  % TYPE(TEXT) INTENS(HIGH)      defaults displayed for      */
+      /*  + TYPE(TEXT) INTENS(LOW)       information only            */
+      /*  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)             */
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%Tutorial/-/- Line Commands -/-/Tutorial
+%SELECTION ===>_ZCMD                                                           +
+%
++
+   The following commands may be entered in the selection field beside
+   any of the dataset names:
+ 
+  %?+        to display information about the dataset's attributes.
+  %A+        to ALLOCATE a new dataset using this one as a model.
+  %B+        to ISPF BROWSE the dataset.
+  %D+        to delete the dataset.
+  %E+        to ISPF EDIT the dataset.
+  %HM+       to migrate the dataset with DFHSM.
+  %HR+       to recall the dataset from DFHSM migration.
+  %P+        to invoke the PDS81 dialog on the dataset.
+  %PR+       to print the dataset.
+  %V+        to set or update the VOLSER field.
+  %X+        to drop the dataset from the list.
+ 
+%NOTE:+this dialog picks up on the fact that a dataset has been migrated and
+       displays a message to that effect if you try to do something that needs
+       the dataset unmigrated. You have to explicitly HRECALL it first.
+)PROC
+  &ZCONT = EDBRHELP
+  &ZUP   = EDBRHELP
+)END
+./       ADD   NAME=EDBRLIST
+)ATTR DEFAULT(%+_)
+      /*  % TYPE(TEXT) INTENS(HIGH)      defaults displayed for      */
+      /*  + TYPE(TEXT) INTENS(LOW)       information only            */
+      /*  _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)             */
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%Tutorial/-/- List Commands -/-/Tutorial
+%SELECTION ===>_ZCMD                                                           +
+%
++
++
+   The following commands may be entered in the command entry field at
+   the top of the screen to act on the entire list of datasets:
+ 
+  %SORT+     to reorder the list by dsname,volume or last use date.
+  %ADD+      to add another dataset to the list.
+ 
+ 
+)PROC
+  &ZCONT = EDBRLINE
+  &ZUP   = EDBRHELP
+)END
+./       ADD   NAME=EDBRMODL
+)ATTR DEFAULT(%+_)
+  # TYPE(OUTPUT) INTENS(HIGH) PAD(' ')
+  $ TYPE(INPUT) INTENS(HIGH) PAD(' ')
+  ! TYPE(INPUT) INTENS(LOW) PAD(' ') /* INPUT FIELD PADDED WITH '       ' */
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%-/-/- model allocation using:#EDBRMDSN -/-/-
+%COMMAND ===>_ZCMD                                                             +
+%
++   Dataset Name  ......$INPUTDSN                                              +
++   Volume Serial ......$EDBRVOLS+
++   Unit Name     ......$SYSUNIT+
++   Organization  ......$SYSDSORG+
++   Record Format ......$SYSRECFM+
++   Record Length ......$SYSLRECL+
++   Block Size    ......$EDBRBLK+
++   Allocation unit ....$SYSUNITS+
++   Allocated Space ....$SYSALLOC+     (in the above allocation units)
++   Primary Space   ....$EDBRPRIM+     (in the above allocation units)
++   Secondary Space ....$EDBRSECQ+     (in the above allocation units)
++   Directory Blocks ...$EDBRDIRB+
++
++
++ Change any of the above data and press%ENTER+to allocate
++ Press%PF3+or enter the%END+command to cancel.
+)INIT
+     .CURSOR = INPUTDSN
+     &INPUTDSN = ' '
+     &EDBRDIRB = TRANS (&EDBRDIRB ' ',0)
+)PROC
+    VER (&INPUTDSN,NB)
+    VER (&INPUTDSN,DSNAME)
+    IF (&INPUTDSN ^= &Z)
+        &TEMP = TRUNC (&INPUTDSN,'''')
+        &TRAIL = .TRAIL
+        IF (&TRAIL = &Z)
+            &EDBRDSNM = '&ZPREFIX..&INPUTDSN'
+        IF (&TRAIL ^= &Z)
+            &EDBRDSNM = TRUNC (&TRAIL,'''')
+    IF (&INPUTDSN = &Z)
+        &EDBRDSNM = &Z
+    VER (&EDBRVOLS,NB)
+    VER (&EDBRVOLS,PICT,CCCCCC)
+    VER (&SYSUNIT,NB)
+    VER (&SYSUNIT,NUM)
+    VER (&SYSUNIT,LIST,3380,3375,3350,3330,MSG=EDX0009)
+    VER (&SYSDSORG,NB)
+    VER (&SYSDSORG,LIST,PS,PO,MSG=EDX0010)
+    VER (&SYSRECFM,NB)
+    VER (&SYSRECFM,LIST,F,V,FB,VB,FBA,VBA,FBM,VBM,MSG=EDX0011)
+    VER (&SYSLRECL,NB)
+    VER (&SYSLRECL,NUM)
+    VER (&SYSLRECL,RANGE,1,32760)
+    VER (&EDBRBLK,NB)
+    VER (&EDBRBLK,NUM)
+    VER (&EDBRBLK,RANGE,1,32760)
+    VER (&SYSUNITS,NB)
+    VER (&SYSUNITS,LIST,TRACK,BLOCK,CYLINDER,MSG=EDX0012)
+    VER (&SYSALLOC,NB)
+    VER (&SYSALLOC,NUM)
+    VER (&EDBRPRIM,NB)
+    VER (&EDBRPRIM,NUM)
+    VER (&EDBRPRIM,RANGE,1,9999)
+    VER (&EDBRSECQ,NB)
+    VER (&EDBRSECQ,NUM)
+    VER (&EDBRDIRB,NB)
+    VER (&EDBRDIRB,NUM)
+)END
+./       ADD   NAME=EDBRPANL
+)ATTR DEFAULT(%+_)
+   ! TYPE( INPUT) INTENS(HIGH) CAPS(ON ) JUST(LEFT ) PAD('''')
+   ^ TYPE(OUTPUT) INTENS(LOW ) CAPS(OFF) JUST(ASIS ) PAD('_')
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%Command ===>_OPT                                  / /%Scroll ===>_AMT +
+%Sort field ===>!SF       +%Direction:!SD+
+%
++Enter a line command in the selection field to process a dataset:
++
+%Opt  Dataset name                                 Volume  Lstus     Last action
++
+)MODEL
+!Z +^Z                                           +^Z     +^Z       +^Z         +
+)INIT
+  .HELP = EDBRHELP                /* INSERT NAME OF TUTORIAL PANEL
+  .ZVARS = '(SELECT EDBRDSNM EDBRVOLS EDBRLSTU EDBRLSTA) '
+  &AMT = PAGE
+  &SELECT = &Z
+  &OPT = &Z
+)PROC
+)END
+./       ADD   NAME=EDBRPRNT
+)ATTR DEFAULT(%+_)
+       %   TYPE(TEXT) INTENS(HIGH)
+       +   TYPE(TEXT) INTENS(LOW)
+       _   TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+  @   TYPE(OUTPUT)  INTENS(HIGH)
+)BODY  EXPAND(//)
+%-/-/- Personal Dataset Manager  -/-/-
+%-/-/- print your dataset  -/-/-
+%Command ===>_ZCMD
++
++
++
++Enter Data Set Name%===>@EDBRDSNM
++       Sysout Class%===>_POSOC+
++               Dest%===>_PODEST                +
++
++         Copy Count%===>_POCOPY+       Hold%===>_POHOLD +
++              Forms%===>_FORM+         UCS%===>_UCS +
++                FCB%===>_FCB +         Pagelength%===>_POPAGELN
++
++
++Single-Double Space%===>_POSPACE    +SS or DS or blank for CC
+)INIT
+ .CURSOR = POSOC
+ &POSOC = TRANS (&POSOC ' ',A *,*)
+ &POCOPY = TRANS (&POCOPY ' ',1 *,*)
+ &PODEST = TRANS (&PODEST ' ',&Z *,*)
+ &POHOLD = TRANS (&POHOLD ' ',NO *,*)
+ &POPAGELN = TRANS (&POPAGELN ' ',60 *,*)
+)PROC
+ VER (&POSOC,NONBLANK)     VER (&POSOC,PICT,C)
+ IF (&PODEST ^= &Z)
+    VER(&PODEST,EBCDIC)
+ VER (&POCOPY,NONBLANK)        VER (&POCOPY,NUM)
+ &POHOLD = TRANS (TRUNC (&POHOLD,1) Y,HOLD H,HOLD N,NOHOLD *,*)
+ VER (&POHOLD,NONBLANK)        VER (&POHOLD,LIST,HOLD,NOHOLD)
+ IF (&FORM ^= &Z)
+    VER (&FORM,PICT,CCCC)
+ IF (&UCS ^= &Z)
+    VER (&UCS,PICT,CCCC)
+ VER (&POPAGELN,NONBLANK)    VER (&POPAGELN,NUM)
+ &POSPACE = TRANS (TRUNC (&POSPACE,1) S,SS D,DS *,*)
+ VER (&POSPACE,LIST,SS,DS)
+ VPUT (PODSN POSOC PODEST POCOPY POHOLD FORM UCS ) PROFILE
+ VPUT (POPAGELN  FCB) PROFILE
+ VPUT (POSPACE) PROFILE
+)END
+./       ADD   NAME=EDBRSKEL
+PROC 0
+CONTROL MSG
+   PRINTDS       DATASET('&EDBRDSNM')      -
+)SEL &POSOC ^= &Z
+                 CLASS(&POSOC)             -
+)ENDSEL
+)SEL &POCOPY ^= &Z
+                 COPIES(&POCOPY)           -
+)ENDSEL
+)SEL &PODEST ^= &Z
+                 DEST(&PODEST)              -
+)ENDSEL
+)SEL &POFCB ^= &Z
+                 FCB(&POFCB)                -
+)ENDSEL
+)SEL &FORM ^= &Z
+                 FORMS(&FORM)              -
+)ENDSEL
+)SEL &UCS ^= &Z
+                 UCS(&UCS)                -
+)ENDSEL
+)SEL &POPAGELN ^= &Z
+                 PAGELEN(&POPAGELN)        -
+)ENDSEL
+)SEL &POHOLD = HOLD
+                 HOLD -
+)ENDSEL
+)SEL &POSPACE = SS
+                 SINGLE -
+)ENDSEL
+)SEL &POSPACE = DS
+                 DOUBLE -
+)ENDSEL
+                 NOTITLE
+END
+./       ADD   NAME=EDDDSN
+)ATTR
+  ^ TYPE(INPUT) INTENS(NON)
+)BODY EXPAND([[)
+%[-[  &FUNC - ENTRY PANEL  [-[
+%COMMAND ===>_ZCMD                                                             +
+%
++ENTER PARTITIONED OR SEQUENTIAL DATA SET NAME
++   DATA SET NAME %===>_DSN
++   VOLUME SERIAL %===>_VOL   +  (if not cataloged)
++
++   PASSWORD      %===>^PASSWORD+
++
++   PROFILE NAME  %===>_PROFILE +
++   INITIAL MACRO %===>_MACRO   +
++
+)INIT
+)PROC
+   IF (&ZCMD ^= ' ') .MSG = ISPZ001
+   VER (&DSN,NB,DSNAME)
+   VER (&VOL,NAME)
+)END
+./       ADD   NAME=EDX
+PROC 0 DEBUG
+ISPEXEC CONTROL ERRORS RETURN
+CONTROL NOMSG NOFLUSH
+IF &SF = THEN SET &SF = &STR(DSNAME)
+IF &SD = THEN SET &SD = &STR(A)
+ISPEXEC VPUT (SF SD) PROFILE
+IF &DEBUG = DEBUG THEN CONTROL L C S MSG
+  ISPEXEC  TBOPEN DSNTABLE          WRITE
+  IF &LASTCC = 8 THEN DO
+  ISPEXEC  TBCREATE  DSNTABLE  KEYS(EDBRDSNM) +
+                     NAMES(EDBRVOLS EDBRLSTU EDBRLSTA) +
+                     WRITE
+  END
+DISPLAY:+
+  ISPEXEC TBDISPL DSNTABLE PANEL(EDBRPANL) CSRROW(&CRP) AUTOSEL(NO)
+  SET &LCC = &LASTCC
+RESTART:+
+  IF &LCC >= 8 THEN GOTO EXIT
+  ISPEXEC TBQUERY DSNTABLE POSITION(CRP)
+  IF &OPT = &STR(ADD) +
+  THEN DO
+     ISPEXEC  TBVCLEAR DSNTABLE
+     SET &EDBRLSTA = &STR(** ADD    )
+     SET &EDBRLSTU = &STR(&SYSSDATE)
+     ISPEXEC DISPLAY PANEL(EDBRADD)
+     IF &LASTCC = 8 THEN GOTO DISPLAY
+     IF &SYSDSN('&EDBRDSNM') ^= &STR(OK) +
+     THEN DO
+        ISPEXEC SETMSG MSG(EDX004)
+        GOTO DISPLAY
+     END
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 && &SYSREASON = 0009 THEN SET &EDBRVOLS = MIGRAT
+     ELSE SET &EDBRVOLS = &SYSVOLUME
+     ISPEXEC  TBADD DSNTABLE                 ORDER
+     IF &LASTCC = 8 THEN DO
+        ISPEXEC  TBPUT DSNTABLE ORDER
+     END
+  END
+  ELSE IF &OPT = &STR(SORT) +
+  THEN DO
+     ISPEXEC VPUT (SF SD)
+     IF &SF = &STR(DSNAME) THEN +
+     ISPEXEC  TBSORT   DSNTABLE FIELDS(EDBRDSNM C,&SD)
+     ELSE IF &SF = &STR(VOLSER) THEN +
+     ISPEXEC  TBSORT   DSNTABLE FIELDS(EDBRVOLS C,&SD)
+     ELSE IF &SF = &STR(LSTUS) THEN +
+     ISPEXEC  TBSORT   DSNTABLE FIELDS(EDBRLSTU C,&SD)
+     ISPEXEC VPUT (SF SD) PROFILE
+  END
+  IF &SELECT = &STR(B) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 THEN DO
+        IF &SYSREASON = 0009 THEN DO
+           SET &EDBRVOLS = MIGRAT
+           ISPEXEC  TBPUT DSNTABLE ORDER
+           ISPEXEC SETMSG MSG(EDX001)
+        END
+        ELSE IF &SYSREASON = 0005 THEN DO
+           ISPEXEC SETMSG MSG(EDX013)
+        END
+     END
+     ELSE DO
+        SET &EDBRVOLS = &SYSVOLUME
+        SET &EDBRLSTA = &STR(** BROWSE )
+        SET &EDBRLSTU = &STR(&SYSSDATE)
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC CONTROL DISPLAY SAVE
+        ISPEXEC BROWSE DATASET('&EDBRDSNM')
+        ISPEXEC CONTROL DISPLAY RESTORE
+     END
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(E) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 THEN DO
+        IF &SYSREASON = 0009 THEN DO
+           SET &EDBRVOLS = MIGRAT
+           ISPEXEC  TBPUT DSNTABLE ORDER
+           ISPEXEC SETMSG MSG(EDX001)
+        END
+        ELSE IF &SYSREASON = 0005 THEN DO
+           ISPEXEC SETMSG MSG(EDX014)
+        END
+     END
+     ELSE DO
+        SET &EDBRVOLS = &SYSVOLUME
+        SET &EDBRLSTA = &STR(** EDIT )
+        SET &EDBRLSTU = &STR(&SYSSDATE)
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC CONTROL DISPLAY SAVE
+        ISPEXEC EDIT DATASET('&EDBRDSNM')
+        ISPEXEC CONTROL DISPLAY RESTORE
+     END
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(P) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 && &SYSREASON = 0009 THEN DO
+        SET &EDBRVOLS = MIGRAT
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC SETMSG MSG(EDX001)
+     END
+     ELSE DO
+        SET &EDBRVOLS = &SYSVOLUME
+        SET &EDBRLSTA = &STR(** PDS  )
+        SET &EDBRLSTU = &STR(&SYSSDATE)
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC CONTROL DISPLAY SAVE
+        PDS81 '&EDBRDSNM'
+        ISPEXEC CONTROL DISPLAY RESTORE
+     END
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(PR) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 && &SYSREASON = 0009 THEN DO
+        SET &EDBRVOLS = MIGRAT
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC SETMSG MSG(EDX001)
+     END
+     ELSE DO
+        SET &EDBRVOLS = &SYSVOLUME
+        SET &EDBRLSTA = &STR(** PRINT )
+        SET &EDBRLSTU = &STR(&SYSSDATE)
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC  SELECT PANEL(EDBRPRNT)
+        ISPEXEC  FTOPEN   TEMP
+        ISPEXEC  FTINCL   EDBRPRNT
+        ISPEXEC  FTCLOSE
+        ISPEXEC  VGET     ZTEMPF
+        ISPEXEC CONTROL DISPLAY SAVE
+        ISPEXEC BROWSE DATASET('&ZTEMPF')
+        ISPEXEC CONTROL DISPLAY RESTORE
+/*      EX  '&ZTEMPF'
+     END
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(V) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 && &SYSREASON = 0009 THEN DO
+        SET &EDBRVOLS = MIGRAT
+        ISPEXEC  TBPUT DSNTABLE ORDER
+        ISPEXEC SETMSG MSG(EDX001)
+     END
+     ELSE DO
+        SET &EDBRVOLS = &SYSVOLUME
+        SET &EDBRLSTA = &STR(** VOLSER )
+        SET &EDBRLSTU = &STR(&SYSSDATE)
+        ISPEXEC  TBPUT DSNTABLE ORDER
+     END
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(D) +
+  THEN DO
+     ISPEXEC  DISPLAY  PANEL(EDBRDELT)
+     IF &LASTCC = 8 THEN GOTO ENDSEL
+     DELETE '&EDBRDSNM'
+     IF &LASTCC = 0 +
+     THEN DO
+        ISPEXEC  TBDELETE DSNTABLE
+        ISPEXEC SETMSG MSG(EDX005)
+     END
+     ELSE ISPEXEC SETMSG MSG(EDX006)
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(A) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL DIRECTORY
+     IF &LASTCC ^= 0 THEN GOTO ENDSEL
+     SET &EDBRBLK  = &SYSBLKSIZE
+     SET &EDBRPRIM = &SYSPRIMARY
+     SET &EDBRSECQ = &SYSSECONDS
+     SET &EDBRDIRB = &SYSADIRBLK
+     SET &EDBRVOLS = &SYSVOLUME
+     SET &EDBRMDSN = &EDBRDSNM
+     SET &EDBRDSNM = &STR()
+     ISPEXEC  DISPLAY  PANEL(EDBRMODL)
+     IF &LASTCC = 8 THEN GOTO ENDSEL
+     IF &SYSRECFM = &STR(FB) +
+     THEN SET &SYSRECFM = &STR(F B)
+     ELSE IF &SYSRECFM = &STR(VB) +
+     THEN SET &SYSRECFM = &STR(V B)
+     ELSE IF &SYSRECFM = &STR(FBA) +
+     THEN SET &SYSRECFM = &STR(F B A)
+     ELSE IF &SYSRECFM = &STR(VBA) +
+     THEN SET &SYSRECFM = &STR(V B A)
+     IF &SYSDSORG = &STR(PO) THEN +
+     ALLOC DA('&EDBRDSNM') NEW CATALOG +
+         UNIT(&SYSUNIT) VOL(&EDBRVOLS) +
+         LRECL(&SYSLRECL) BLKSIZE(&EDBRBLK) +
+         RECFM(&SYSRECFM) DIR(&EDBRDIRB) DSORG(&SYSDSORG) +
+         SPACE(&SYSPRIMARY &SYSSECONDS) &SYSUNITS
+     ELSE +
+     ALLOC DA('&EDBRDSNM') NEW CATALOG +
+         UNIT(&SYSUNIT) VOL(&EDBRVOLS) +
+         LRECL(&SYSLRECL) BLKSIZE(&EDBRBLK) +
+         RECFM(&SYSRECFM)  DSORG(&SYSDSORG) +
+         SPACE(&SYSPRIMARY &SYSSECONDS) &SYSUNITS
+     IF &LASTCC = 0 +
+     THEN ISPEXEC SETMSG MSG(EDX007)
+     ELSE DO
+        ISPEXEC SETMSG MSG(EDX008)
+        GOTO ENDSEL
+     END
+     SET &EDBRLSTA = &STR(** ALLOC  )
+     SET &EDBRLSTU = &STR(&SYSSDATE)
+     ISPEXEC  TBADD DSNTABLE                 ORDER
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(X) +
+  THEN DO
+     ISPEXEC  TBDELETE DSNTABLE
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(HM) +
+  THEN DO
+     HMIGRATE '&EDBRDSNM' NOWAIT
+     ISPEXEC SETMSG MSG(EDX002)
+     SET &EDBRVOLS = MIGRAT
+     ISPEXEC  TBPUT DSNTABLE ORDER
+     GOTO ENDSEL
+  END
+  ELSE IF &SELECT = &STR(HR) +
+  THEN DO
+     HRECALL  '&EDBRDSNM' NOWAIT
+     ISPEXEC SETMSG MSG(EDX003)
+     SET &EDBRVOLS = ONLINE
+     ISPEXEC  TBPUT DSNTABLE ORDER
+  END
+  ELSE IF &SELECT = &STR(?) +
+  THEN DO
+     LISTDSI '&EDBRDSNM' NORECALL
+     IF &LASTCC = 16 THEN DO
+        IF &SYSREASON = 0009 THEN DO
+           SET &EDBRVOLS = MIGRAT
+           ISPEXEC  TBPUT DSNTABLE ORDER
+           ISPEXEC SETMSG MSG(EDX001)
+        END
+        ELSE IF &SYSREASON = 0005 THEN DO
+           ISPEXEC SETMSG MSG(EDX015)
+        END
+     END
+     ELSE DO
+        SET &EDBRBLK  = &SYSBLKSIZE
+        SET &EDBRPRIM = &SYSPRIMARY
+        SET &EDBRSECQ = &SYSSECONDS
+        SET &EDBREXT  = &SYSEXTENTS
+        SET &EDBRVOLS = &SYSVOLUME
+        SET &EDBRCDTE = &STR(&SYSCREATE)
+        SET &EDBREFDT = &STR(&SYSREFDATE)
+        SET &EDBRUPDT = &SYSUPDATED
+        ISPEXEC  DISPLAY  PANEL(EDBRINFO)
+     END
+  END
+ ENDSEL:+
+  IF &LCC = 4 THEN DO
+     ISPEXEC TBDISPL DSNTABLE CSRROW(&CRP) AUTOSEL(NO)
+     SET &LCC = &LASTCC
+     GOTO RESTART
+  END
+  ELSE GOTO DISPLAY
+EXIT:+
+ISPEXEC TBCLOSE DSNTABLE
+END
+./       ADD   NAME=EDXCMDS
+  TIR:     \XXXCMDS     'h            a     i     TSGJCL                  ZCTVER
+B      -  ZCTTRUNC        ZCTACT          ZCTDESC                           UP
+0  &UP  SCROLL UP                       UP  0  SETVERB  SCROLL UP
+            DOWN  0  &DOWN  SCROLL DOWN                         DOWN  0  SETVERB
+  SCROLL DOWN                       LEFT  0  &LEFT  SCROLL LEFT
+        LEFT  0  SETVERB  SCROLL LEFT                       RIGHT  0  &RIGHT  SC
+ROLL RIGHT                      RIGHT  0  SETVERB  SCROLL RIGHT
+    RFIND  0  &RFIND  REPEAT FIND                       RFIND  0  SETVERB  REPEA
+T FIND                      RCHANGE  0  &RCHANGE  REPEAT CHANGE
+        RCHANGE  0  SETVERB  REPEAT CHANGE                          RETURN  0  &
+RETURN                          END  0  &END  END                           END
+ 0  SETVERB  END                        RETURN  0  SETVERB  RETURN
+            HELP  0  &HELP  TUTORIAL     -   [          HELP  0  SELECT PGM(ISPT
+UTOR) PARM(&ZPARM) NOFUNC  TUTORIAL                         TSO  0  &TSO  INVOKE
+ A TSO SERVICE                          TSO  0  ALIAS RTSO  INVOKE A TSO SERVICE
+     -   [          RTSO  2  SELECT PGM(RTSO) PARM(&ZPARM)  REMEBERED TSO COMMAN
+DS       -   [          IND$FILE  0  &IND$FILE  SHOULD ALLOW 3270PC FILE TRANSFE
+R                !          IND$FILE  0  SELECT CMD(IND$FILE &ZPARM)  SHOULD ALL
+OW 3270PC FILE TRANSFER          -   [          KEYS  0  &KEYS  DISPLAY/CHANGE C
+URRENT PF KEY DEFINITIONS                           KEYS  0  SELECT PGM(ISPOPT)
+PARM(ISPOPT3)  DISPLAY/CHANGE CURRENT PF KEY DEFINITIONS
+NOP  0  NOP  NO OPERATIONSPOPT)                     SPLIT  0  &SPLIT  SPLIT SCRE
+EN                      SPLIT  0  SPLIT  SPLIT SCREEN                       SWAP
+  0  &SWAP  SWAP SCREENS                        SWAP  0  SWAP  SWAP SCREENS
+                    CURSOR  0  &CURSOR  HOME CURSOR                     CURSOR
+0  CURSOR  HOME CURSOR           !          PRINT-HI  0  &PRINTHI  PRINT SCREEN
+IMAGE (WITH HIGH INTENSITY OVERSTRIKE)               !          PRINT-HI  0  PRI
+NT-HI  PRINT SCREEN IMAGE (WITH HIGH INTENSITY OVERSTRIKE)
+    PRINT  0  &PRINT  PRINT SCREEN IMAGE                        PRINT  0  PRINT
+ PRINT SCREEN IMAGE              !          PANELID  0  SELECT PGM(ISPOPI) PARM(
+&ZPARM) NOFUNC  DISPLAY CURRENT PANELID                         SPLITV  0  &SPLI
+TV  SPLIT SCREEN VERTICALLY USING HARDWARE PARTITIONS                       SPLI
+TV  0  SPLIT-V  SPLIT SCREEN VERTICALLY USING HARDWARE PARTITIONS            !
+        PRINTLHI  0  &PRINTLHI  PRINT LOGICAL SCREEN IMAGE (HIGH INTENSITY OVERS
+TRIKE)           !          PRINTLHI  0  PRINTLHI  PRINT LOGICAL SCREEN IMAGE (H
+IGH INTENSITY OVERSTRIKE)        &              PRINTL  0  &PRINTL  PRINT LOGICA
+L SCREEN IMAGE       &              PRINTL  0  PRINTL  PRINT LOGICAL SCREEN IMAG
+E        -   [       [  OPT  0  SELECT PANEL(ISR@PRIF) OPT(&ZPARM)  NEST AN ISPF
+ OPTION                     ED  0  &ED  NEST AN EDIT REQUEST     -   [
+ED  0  SELECT CMD(%CNAEEDIT &ZPARM)  NEST AN EDIT REQUEST
+    BR  0  &BR  NEST A BROWSE REQUEST            -   [          BR  0  SELECT CM
+D(%CNAEBROW &ZPARM)  NEST A BROWSE REQUEST               |          PFSHOW  3  S
+ELECT PGM(ISPOPF) PARM(&ZPARM) NOFUNC  DISPLAY PF KEY DEFINITION LINES ON PANEL
+             |          ISPPREP  0  SELECT PGM(ISPPREP) NEWAPPL  INVOKING PREPRO
+CESSED PANEL UTILITY IN INTERACTIVE MODE                    KBR  0  SELECT PGM(C
+NA0KBR) NEWAPPL(ISR) PARM(&ZPARM)  BROWSE BY DDNAME                     KED  0
+SELECT PGM(CNA0KED) NEWAPPL(ISR) PARM(&ZPARM)  EDIT BY DDNAME
+    DSM  0  SELECT PGM(DSN0MGF) NEWAPPL(ISR)  DATASET MANAGER APPLICATION
+     !          LISTA  0  SELECT PGM(LST0A) NEWAPPL(ISR) PARM(&ZPARM)  LISTA ALL
+OCATED DATASETS                     PRINTO  0  SELECT CMD(%ISPFPRTO &ZPARM)  PRI
+NTOFF FROM EDIT OR BROWSE            |          HOLD  0  SELECT PANEL(ISR@PRIM)
+NEWAPPL(ISR) PARM(&ZPARM)  HOLD POSITION AND DISPLAY MAIN PANEL      -   [
+    COMMANDS  0  SELECT PGM(CMD0TABL)  DISPLAY CURRENT COMMAND TABLE     &
+        PFKINIT  0  SELECT PGM(PFK0INIT)  RESET PFK KEYS         !       .  LOGM
+SG  3  SELECT PGM(LOG0MSG) PARM(&ZPARM)  ENTER A MESSAGE TO THE SPF LOG
+                SECURE  0  SELECT PGM(TRM0LOCK)  LOCK THE TERMINAL
+ !       .  EDITLIST  0  SELECT CMD(%EDTE) NEWAPPL(ISR)  EDIT FROM A LIST OF DAT
+ASETS                        $  TSOHELP  0  SELECT CMD(%TSOEHELP) NEWAPPL(ISR) P
+ARM(&ZPARM)  EXTENDED TSO HELP DISPLAY                   <  LIBRARY  3  SELECT P
+GM(ISRUDA) PARM(ISRUDA1)  ISPF 3.1 LIBRARY UTILITY                   <  DATASET
+ 3  SELECT PGM(ISRUDA) PARM(ISRUDA2)  ISPF 3.2 DATASET UTILITY           !
+ .  DSLIST  3  SELECT PGM(ISRUDL) PARM(ISRUDLP)  ISPF 3.4 DATASET LIST UTILITY
+         -   [          SUPERC  4  SELECT PGM(ISRSSM)  ISPF 3.12 SUPERC COMPARE
+UTILITY          !          SUPDETAL  4  SELECT PGM(ISRSEPRM) NOCHECK  ISPF 3.13
+ SUPERC COMPARE UTILITY                         TSOCMD  4  SELECT PGM(TSO0)  ISP
+F 6.0 TSO COMMAND            -   [          PDS  0  SELECT PGM(PDS81) PARM(PDS81
+ &ZPARM ISPMODE)  PDS DIALOG                    ZAP  0  SELECT PGM(ZAP)  FULLSCR
+EEN ZAP                     TLMS  0  SELECT CMD(CAICLS02)  TLMS ONLINE INQUIRY
+                     &  SDSF  0  SELECT PGM(ISFISP) NOCHECK NEWAPPL(ISF)  SDSF
+                    SAS  0  SELECT CMD(%SASMAIN)  SAS            &
+PHONE  0  SELECT CMD(%PHONE)  PHONE NUMBER LIST      &              CDF  0  SELE
+CT PGM(CDF)  CONSOLE SIMULATOR                          ISMF  0  SELECT PGM(DGTF
+MD01) NEWAPPL(DGT) NOCHECK  ISMF     &              HSM  0  SELECT PGM(DFQFMD01)
+ NEWAPPL(HSM)  HSM                      ST  0  SELECT CMD(%UST)  JOB STATUS
+     -   [          SMP  0  SELECT PGM(GIMISCV) PARM(&ZCMD) NEWAPPL(GIM)  SMP
+                        FDSPACE  2  SELECT CMD(%FDSPACE)  FULLSCREEN DSPACE
+                    GRS  0  SELECT PGM(VUTL16)  DISPLAY ENQUEUE CONTENTION  ISPF
+./       ADD   NAME=EDX00
+EDX001   'DATASET MIGRATED'                  .ALARM=YES
+'&EDBRDSNM has been migrated by DFHSM. HRECALL it first.'
+ 
+EDX002   'MIGRATE REQUESTED'
+'A request to migrate &EDBRDSNM has been sent to DFHSM.'
+ 
+EDX003   'RECALL REQUESTED'
+'A request to recall &EDBRDSNM has been sent to DFHSM.'
+ 
+EDX004   'DATASET NOT FOUND!'                .ALARM=YES
+'&EDBRDSNM cannot be found. Check the catalog.'
+ 
+EDX005   'DELETED'
+'&EDBRDSNM has been deleted.'
+ 
+EDX006   'NOT DELETED!'                      .ALARM=YES
+'&EDBRDSNM has not been deleted. RC=&LASTCC'
+ 
+EDX007   'ALLOCATED'
+'&EDBRDSNM has been allocated.'
+ 
+EDX008   'NOT ALLOCATED!'                    .ALARM=YES
+'&EDBRDSNM has not been allocated. RC=&LASTCC'
+ 
+EDX009   'INVALID UNIT!'                     .ALARM=YES
+'Valid units are: 3330,3350,3375 and 3380'
+ 
+./       ADD   NAME=EDX01
+EDX010   'INVALID DSORG'                     .ALARM=YES
+'Only PS and PO datasets can be allocated from here.'
+ 
+EDX011   'INVALID RECFM'                     .ALARM=YES
+'Try one of: V,F,VB,FB,VBA,FBA,VBM or FBM.'
+ 
+EDX012   'INVALID UNIT'                      .ALARM=YES
+'Valid units of allocation are: BLOCK, TRACK and CYLINDER.'
+ 
+EDX013   'BROWSE FAILED'                     .ALARM=YES
+'BROWSE failed for &EDBRDSNM - dataset not found.'
+ 
+EDX014   'EDIT FAILED'                       .ALARM=YES
+'EDIT failed for &EDBRDSNM - dataset not found.'
+ 
+EDX015   '? FAILED'                          .ALARM=YES
+'INFO request failed for &EDBRDSNM - dataset not found.'
+ 
+./       ADD   NAME=ISR@PRIM
++--------------------------%JIM LANE PRIMARY OPTION MENU+-----------------------
+%SELECT OPTION ===>_OPT
+%                                                           +USERID   -%&ZUSER
+%   0 +SPF PARMS  - SPECIFY TERMINAL AND SPF PARAMETERS     +TIME     - &ZTIME
+%   E +EDX        - PERSONAL DATASET MANAGER                +TERMINAL - &ZTERM
+%   3 +UTILITIES  - PERFORM SPF UTILITY FUNCTIONS           +PF KEYS  - &ZKEYS
+%   4 +FOREGROUND - COMPILE, ASSEMBLE, LINK EDIT, OR DEBUG
+%   5 +BACKGROUND - COMPILE, ASSEMBLE, OR LINK EDIT
+%   6 +COMMAND    - ENTER TSO COMMAND OR CLIST
+%   7 +SUPPORT    - TEST DIALOG OR CONVERT MENU/MESSAGE FORMATS
+%   8 +LMF        - PERFORM LIBRARY MANAGEMENT UTILITY FUNCTIONS
+%   S +SDSF       - SPOOL DISPLAY AND SEARCH FACILITY
+%   I +IPCS       - DOWN IN THE DUMPS
+%  TL +TLMS       - TAPE LIBRARY ONLINE INQUIRY/UPDATE
+%   J  NIFTIES    - STILL IN BUSINESS AT THE SAME OLD STAND!
+%   T +TUTORIAL   - DISPLAY INFORMATION ABOUT SPF
+%   X +EXIT       - TERMINATE SPF USING LIST/LOG DEFAULTS
+%
++PRESS%END KEY+TO TERMINATE SPF+
+%
+%
+%
+)INIT
+  .HELP = ISR00003
+  &ZPRIM = YES
+  &ZHTOP = ISR00003   /* TUTORIAL TABLE OF CONTENTS */
+  &ZHINDEX = ISR91000 /* TUTORIAL INDEX - 1ST PAGE  */
+)PROC
+  &ZSEL = TRANS( TRUNC (&OPT,'.')
+                0,'PANEL(ISPOPTA)'
+                1,'CMD(%EDX) '
+                2,'CMD(%EDX) '
+                E,'CMD(%EDX) '
+                3,'PANEL(ISRUTIL)'
+                4,'PANEL(ISRFPA)'
+                5,'PGM(ISRJB1) PARM(ISRJPA) NOCHECK'
+                6,'PGM(TSO0)'
+                J,'PANEL(JCL@PRIM) '
+                7,'PGM(ISRYXDR) NOCHECK'
+                8,'PANEL(ISRLPRIM)'
+                S,'PANEL(ZSDSFOPT) NEWAPPL(ISF)'
+                I,'PGM(BLSG) PARM(PANEL(BLSPPRIM)) NEWAPPL(BLSG) '
+                A,'PGM(CACTVATE) NEWAPPL(CACT)'
+              SMP,'PGM(GIMISCV) PARM(&ZCMD) NEWAPPL(GIM)'
+           BROWSE,'PGM(ISRBRO) PARM(ISRBRO01)'
+             EDIT,'PGM(ISREDIT) PARM(P,ISREDM01)'
+               TL,'CMD(CAICLS02)'
+                T,'PGM(ISPTUTOR) PARM(ISR00000) '
+              ' ',' '
+                X,'EXIT'
+                *,'?' )
+  IF (&ZCMD = 'S')
+     &ZSEL = 'PGM(ISFISP) NOCHECK NEWAPPL(ISF)'
+  &ZTRAIL = .TRAIL
+)END
+./       ADD   NAME=ISRBROB
+)ATTR
+  _ TYPE(INPUT) CAPS(OFF) INTENS(HIGH) FORMAT(&MIXED)
+  | AREA(DYNAMIC) EXTEND(ON) SCROLL(ON)
+  + TYPE(TEXT) INTENS(LOW)
+  ! TYPE(OUTPUT) INTENS(HIGH) PAD(-)
+ 01 TYPE(DATAOUT) INTENS(LOW)
+ 02 TYPE(DATAOUT) INTENS(HIGH)
+ 0B TYPE(DATAOUT) INTENS(HIGH) FORMAT(DBCS)
+ 0C TYPE(DATAOUT) INTENS(HIGH) FORMAT(EBCDIC)
+ 0D TYPE(DATAOUT) INTENS(HIGH) FORMAT(&MIXED)
+ 10 TYPE(DATAOUT) INTENS(LOW)  FORMAT(DBCS)
+ 11 TYPE(DATAOUT) INTENS(LOW)  FORMAT(EBCDIC)
+ 12 TYPE(DATAOUT) INTENS(LOW)  FORMAT(&MIXED)
+)BODY WIDTH(&ZWIDTH) EXPAND(//)
+%BROWSE - &ZTITLE -----------------------------/-/-----%LINE!ZLINES%COL!ZCOLUMS+
+%COMMAND ===>_ZCMD                             / /            %SCROLL ===>_Z   +
+|ZDATA ---------------------------------/ /------------------------------------|
+|                                       / /                                    |
+| --------------------------------------/-/------------------------------------|
+)INIT
+  .HELP = ISR10000         /* DEFAULT TUTORIAL NAME     */
+  .ZVARS = 'ZSCBR'         /* SCROLL AMT VARIABLE NAME  */
+  IF (&ZMEMB ^= ' ')
+    &ZTITLE = '&ZDSNT(&ZMEMB)&ZLEVEL '       /* OZ91708 */
+  IF (&ZMEMB = ' ')
+    &ZTITLE = '&ZDSN&ZLEVEL '
+  &MIXED = MIX
+  IF (&ZPDMIX = N)         /* EBCDIC MODE REQUESTED     */
+    &MIXED = EBCDIC
+ 
+  &BRDSN = &ZDSN
+  &BRMEM = &ZMEMB
+  VPUT (BRDSN BRMEM) PROFILE
+ 
+)REINIT
+  REFRESH(ZCMD,ZSCBR,ZDATA,ZLINES,ZCOLUMS)
+  .ATTRCHAR(+) = 'INTENS(&ZINTEN)'
+ 
+)PROC
+  &ZCURSOR = .CURSOR
+  &ZCSROFF = .CSRPOS
+  &ZLVLINE = LVLINE(ZDATA)
+ 
+)END
+ 
+/*  DYNAMIC AREA SCREEN WIDTH FROM PQUERY. (80,132,160)
+/*  DYNAMIC AREA SCREEN DEPTH FROM PQUERY. (24,32,43,27,60)
+./       ADD   NAME=ISRBROBF
+)ATTR
+   _ TYPE(INPUT) CAPS(OFF) INTENS(HIGH) FORMAT(&MIXED)
+   + TYPE(TEXT) INTENS(LOW)
+)BODY  WIDTH(&ZWIDTH) EXPAND(//)
+%BROWSE ----------------------------------/-/----------------------------------+
+%COMMAND ===>_ZCMD                        / /                 %SCROLL ===>_Z   +
+)INIT
+  .HELP = ISR10000
+  .ZVARS = 'ZSCBR'
+  &MIXED = MIX             /* SET FROMAT MIX            */
+  IF (&ZPDMIX = N)         /* IF EBCDIC MODE REQUESTED  */
+    &MIXED = EBCDIC        /*  SET FORMAT EBCDIC        */
+  VPUT (ZDSN,ZMEMB)        /* PRC MODS */
+  &BRDSN = &ZDSN
+  &BRMEM = &ZMEMB
+  VPUT (BRDSN BRMEM) PROFILE
+)PROC
+)END
+./       ADD   NAME=ISREDDE
+)ATTR
+   _ TYPE(INPUT) CAPS(OFF) INTENS(HIGH) FORMAT(&MIXED)
+)BODY  WIDTH(&ZWIDTH) EXPAND(//)
+%EDIT ------------------------------------/-/----------------------------------+
+%COMMAND ===>_ZCMD                        / /                 %SCROLL ===>_Z   %
+)INIT
+  .HELP = ISR20000
+  .ZVARS = 'ZSCED'
+  &MIXED = MIX             /* SET FROMAT MIX            */
+  IF (&ZPDMIX = N)         /* IF EBCDIC MODE REQUESTED  */
+    &MIXED = EBCDIC        /*  SET FORMAT EBCDIC        */
+  VPUT (ZDSN,ZMEMB)        /* PRC MODS */
+  &BRDSN = &ZDSN
+  &BRMEM = &ZMEMB
+  VPUT (BRDSN BRMEM) PROFILE
+)REINIT
+ IF (&EDITSW ^= &Z)
+     .CURSOR = ZCMD
+     .CSRPOS = 1
+     &EDITSW = &Z
+)PROC
+ IF (.RESP = ENTER)
+     IF (&ZCMD = '?')
+         &ZCMD = &EDITZCMD
+         REFRESH (ZCMD)
+         &ZEDSMSG = 'RECALL COMPLETED'
+         &ZEDLMSG = 'BY ENTERING A "?" YOU HAVE +
+         RECALLED YOUR LAST EDIT COMMAND'
+         &EDITSW = ON
+         .MSG = ISRZ000
+     IF (&ZCMD ^= '?',&Z)
+         &EDITZCMD = &ZCMD
+         VPUT (EDITZCMD) PROFILE
+)END
+./       ADD   NAME=ISREFR01
+)ATTR
+  _ TYPE(INPUT) CAPS(OFF) INTENS(HIGH) FORMAT(&MIXED)
+  | AREA(DYNAMIC) EXTEND(ON) SCROLL(ON) USERMOD(20)
+  ! TYPE(OUTPUT) INTENS(HIGH) PAD(-)
+ 01 TYPE(DATAOUT) INTENS(LOW)
+ 02 TYPE(DATAOUT) INTENS(HIGH)
+ 03 TYPE(DATAOUT) SKIP(ON) /* FOR TEXT ENTER CMD. FIELD */
+ 04 TYPE(DATAIN)  INTENS(LOW)  CAPS(OFF)
+ 05 TYPE(DATAIN)  INTENS(HIGH) CAPS(OFF)
+ 06 TYPE(DATAIN)  INTENS(LOW)  CAPS(IN)
+ 07 TYPE(DATAIN)  INTENS(HIGH) CAPS(IN)
+ 08 TYPE(DATAIN)  INTENS(LOW)  FORMAT(DBCS)
+ 09 TYPE(DATAIN)  INTENS(LOW)  FORMAT(EBCDIC)
+ 0A TYPE(DATAIN)  INTENS(LOW)  FORMAT(&MIXED)
+ 20 TYPE(DATAIN)  INTENS(LOW) CAPS(IN) FORMAT(&MIXED)
+)BODY WIDTH(&ZWIDTH) EXPAND(//)
+%EDIT -----!ZTITLE -------------------/-/---------------------%COLUMNS!ZCL!ZCR%%
+%COMMAND ===>_ZCMD                    / /                     %SCROLL ===>_Z   %
+|ZDATA -------------------------------/-/--------------------------------------|
+|                                     / /                                      |
+| ------------------------------------/-/--------------------------------------|
+)INIT
+  .HELP = ISR20000         /* DEFAULT TUTORIAL NAME     */
+  .ZVARS = 'ZSCED'         /* SCROLL AMT VARIABLE NAME  */
+  &MIXED = MIX             /* SET FROMAT MIX            */
+  IF (&ZPDMIX = N)         /* IF EBCDIC MODE REQUESTED  */
+    &MIXED = EBCDIC        /*  SET FORMAT EBCDIC        */
+ 
+)REINIT
+  REFRESH(ZCMD,ZSCED,ZDATA,ZTITLE,ZCL,ZCR)
+  .HELP = ISR20000         /* DEFAULT TUTORIAL NAME     */
+ IF (&EDITSW ^= &Z)
+     .CURSOR = ZCMD
+     .CSRPOS = 1
+     &EDITSW = &Z
+ 
+)PROC
+  &ZCURSOR = .CURSOR
+  &ZCSROFF = .CSRPOS
+  &ZLVLINE = LVLINE(ZDATA)
+ IF (.RESP = ENTER)
+     IF (&ZCMD = '?')
+         &ZCMD = &EDITZCMD
+         REFRESH (ZCMD)
+         &ZEDSMSG = 'RECALL COMPLETED'
+         &ZEDLMSG = 'BY ENTERING A "?" YOU HAVE +
+         RECALLED YOUR LAST EDIT COMMAND'
+         &EDITSW = ON
+         .MSG = ISRZ000
+     IF (&ZCMD ^= '?',&Z)
+         &EDITZCMD = &ZCMD
+         VPUT (EDITZCMD) PROFILE
+ 
+)END
+ 
+/*  DYNAMIC AREA SCREEN WIDTH FROM PQUERY. (80,132,160)
+/*  DYNAMIC AREA SCREEN DEPTH FROM PQUERY. (24,32,43,27,60)
